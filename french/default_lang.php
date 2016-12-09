@@ -896,3 +896,34 @@ $lang["chart"] = "Diagramme";
 $lang["signin_page_background"] = "Arrière plan de la page de connexion";
 $lang["show_logo_in_signin_page"] = "Afficher le logo sur la page de la connexion";
 $lang["show_background_image_in_signin_page"] = "Afficher l'arrière plan sur la page de connexion";
+
+/* Version 1.6 */
+
+$lang["more"] = "More";
+$lang["custom"] = "Custom";
+$lang["clear"] = "Clear";
+$lang["expired"] = "Expired";
+$lang["enable_attachment"] = "Enable attachment";
+$lang["custom_fields"] = "Custom fields";
+$lang["edit_field"] = "Edit field";
+$lang["delete_field"] = "Delete field";
+$lang["client_info"] = "Client info";
+$lang["edit_expenses_category"] = "Edit expenses category";
+$lang["eelete_expenses_category"] = "Delete expenses category";
+$lang["empty_starred_projects"] = "To access your favorite projects quickly, please go to the project view and mark the star.";
+$lang["empty_starred_clients"] = "To access your favorite clients quickly, please go to the client view and mark the star.";
+$lang["download_zip_name"] = "documents";
+$lang["invoice_prefix"] = "Invoice prefix";
+$lang["invoice_style"] = "Invoice style";
+$lang["delete_confirmation_message"] = " Are you sure? You won't be able to undo this action!";
+$lang["left"] = "Left";
+$lang["right"] = "Right";
+$lang["currency_position"] = "Currency Position";
+$lang["recipient"] = "Recipient";
+
+$lang["new_message_sent"] = "New message sent";
+$lang["message_reply_sent"] = "Message replied";
+$lang["notification_new_message_sent"] = "Sent a message.";
+$lang["notification_message_reply_sent"] = "Replied a message.";
+$lang["invoice_payment_confirmation"] = "Invoice payment confirmation";
+$lang["notification_invoice_payment_confirmation"] = "Payment received";
