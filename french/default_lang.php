@@ -543,10 +543,10 @@ $lang["select_a_template"] = "Sélectionnez un modèle à modifier";
 $lang["avilable_variables"] = "Variables disponibles";
 $lang["restore_to_default"] = "Rétablir les options par défaut";
 $lang["template_restored"] = "Le modèle par défaut a été restauré.";
-$lang["login_info"] = "Info de connexion";
+$lang["login_info"] = "Informations de connexion";
 $lang["reset_password"] = "Réinitialiser le mot de passe";
-$lang["team_member_invitation"] = "Invitation de membre de l'équipe";
-$lang["client_contact_invitation"] = "Invitation du contact client";
+$lang["team_member_invitation"] = "Invitation d'un membre à l'équipe";
+$lang["client_contact_invitation"] = "Invitation d'un client";
 $lang["send_invoice"] = "Envoyer une facture";
 $lang["signature"] = "Signature";
 
@@ -675,8 +675,8 @@ $lang["leave_approved"] = "Congé approuvé";
 $lang["leave_assigned"] = "Congé assigné";
 $lang["leave_rejected"] = "Congé refusé";
 $lang["leave_canceled"] = "Congé annulé";
-$lang["ticket_created"] = "Ticket créé";
-$lang["ticket_commented"] = "Ticket commenté";
+$lang["ticket_created"] = "Ticket ouvert";
+$lang["ticket_commented"] = "Ticket répondu";
 $lang["ticket_closed"] = "Ticket fermé";
 $lang["ticket_reopened"] = "Ticket réouvert";
 $lang["leave"] = "Congé";
@@ -724,7 +724,7 @@ $lang["notification_ticket_commented"] = "A commenté un ticket.";
 $lang["notification_ticket_closed"] = "A fermé le ticket.";
 $lang["notification_ticket_reopened"] = "A rouvert un ticket.";
 
-$lang["general_notification"] = "Notification générale";
+$lang["general_notification"] = "Notification";
 
 $lang["disable_online_payment"] = "Désactiver le paiement en ligne";
 $lang["disable_online_payment_description"] = "Masquer les options de paiement en ligne dans la facture pour ce client.";
