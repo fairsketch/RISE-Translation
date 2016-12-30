@@ -896,3 +896,34 @@ $lang["chart"] = "Diagramme";
 $lang["signin_page_background"] = "Arrière plan de la page de connexion";
 $lang["show_logo_in_signin_page"] = "Afficher le logo sur la page de la connexion";
 $lang["show_background_image_in_signin_page"] = "Afficher l'arrière plan sur la page de connexion";
+
+/* Version 1.6 */
+
+$lang["more"] = "Plus";
+$lang["custom"] = "Personnaliser";
+$lang["clear"] = "Effacer";
+$lang["expired"] = "Expiré";
+$lang["enable_attachment"] = "Activer fichier joint";
+$lang["custom_fields"] = "Champs personnalisés";
+$lang["edit_field"] = "Modifier champ";
+$lang["delete_field"] = "Supprimer champ";
+$lang["client_info"] = "Infos client";
+$lang["edit_expenses_category"] = "Modifier catégorie de dépenses";
+$lang["eelete_expenses_category"] = "Supprimer catégorie de dépenses";
+$lang["empty_starred_projects"] = "Pour accéder rapidement à vos projets favoris, allez dans la vue du projet et marquez l'étoile.";
+$lang["empty_starred_clients"] = "Pour accéder rapidement à vos clients favoris, allez dans la vue client et marquez l'étoile.";
+$lang["download_zip_name"] = "fichiers";
+$lang["invoice_prefix"] = "Préfixe de la facture";
+$lang["invoice_style"] = "Style de la facture";
+$lang["delete_confirmation_message"] = " Êtes-vous sûr? Vous ne pourrez pas annuler cette action!";
+$lang["left"] = "Gauche";
+$lang["right"] = "Droite";
+$lang["currency_position"] = "Position de la devise";
+$lang["recipient"] = "Bénéficiaire";
+
+$lang["new_message_sent"] = "Nouveau message envoyé";
+$lang["message_reply_sent"] = "Message répondu";
+$lang["notification_new_message_sent"] = "Message envoyé.";
+$lang["notification_message_reply_sent"] = "Message répondu.";
+$lang["invoice_payment_confirmation"] = "Confirmation du paiement";
+$lang["notification_invoice_payment_confirmation"] = "Paiement reçu";
