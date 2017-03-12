@@ -4,6 +4,7 @@
 
 /* language locale */
 $lang["language_locale"] = "de"; //locale code
+$lang["language_locale_long"] = "de-DE"; //long locale code
 
 /* common */
 $lang["add"] = "Hinzufügen";
@@ -927,3 +928,79 @@ $lang["notification_new_message_sent"] = "Nachricht gesendet.";
 $lang["notification_message_reply_sent"] = "Antwortnachricht gesendet.";
 $lang["invoice_payment_confirmation"] = "Bestätigung Rechnungszahlung";
 $lang["notification_invoice_payment_confirmation"] = "Rechnungszahlung erhalten.";
+
+/* Version 1.7 */
+
+$lang["client_can_create_projects"] = "Client can create projects?";
+$lang["client_can_view_timesheet"] = "Client can view timesheet?";
+$lang["client_can_view_gantt"] = "Client can view gantt?";
+$lang["client_can_view_overview"] = "Client can view project overview?";
+$lang["client_can_view_milestones"] = "Client can view milestones?";
+
+$lang["items"] = "Items";
+$lang["edit_item"] = "Edit item";
+$lang["item_edit_instruction"] = "Note: The changes will not be affected on existing invoices or estimates.";
+
+$lang["recurring"] = "Recurring";
+$lang["repeat_every"] = "Repeat every"; //Ex. repeat every 2 months
+$lang["interval_days"] = "Day(s)";
+$lang["interval_weeks"] = "Week(s)";
+$lang["interval_months"] = "Month(s)";
+$lang["interval_years"] = "Year(s)";
+$lang["cycles"] = "Cycles";
+$lang["recurring_cycle_instructions"] = "Recurring will be stopped after the number of cycles. Keep it blank for infinity.";
+$lang["next_recurring_date"] = "Next recurring";
+$lang["stopped"] = "Stopped";
+$lang["past_recurring_date_error_message_title"] = "The selected bill date and repeat type returns a past date.";
+$lang["past_recurring_date_error_message"] = "Next recurring date must be a future date. Please enter a future date.";
+$lang["sub_invoices"] = "Sub invoices";
+
+$lang["cron_job_required"] = "Cron Job is required for this action!";
+
+$lang["recurring_invoice_created_vai_cron_job"] = "Recurring invoice created via Cron Job";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "New invoice generated";
+
+$lang["field_type_number"] = "Number";
+$lang["show_in_table"] = "Show in table";
+$lang["show_in_invoice"] = "Show in invoice";
+$lang["visible_to_admins_only"] = "Visible to admins only";
+$lang["hide_from_clients"] = "Hide from clients";
+$lang["public"] = "Public";
+
+$lang["help"] = "Help";
+$lang["articles"] = "Articles";
+$lang["add_article"] = "Add new article";
+$lang["edit_article"] = "Edit article";
+$lang["delete_article"] = "Delete article";
+$lang["can_manage_help_and_knowledge_base"] = "Can manage help and knowledge base?";
+
+$lang["how_can_we_help"] = "How can we help?";
+$lang["help_page_title"] = "Internal Wiki";
+$lang["search_your_question"] = "Search your question";
+$lang["no_result_found"] = "No result found.";
+$lang["sort"] = "Sort";
+$lang["total_views"] = "Total views";
+
+$lang["help_and_support"] = "Help & Support";
+$lang["knowledge_base"] = "Knowledge base";
+
+$lang["payment_success_message"] = "Your payment has been completed.";
+$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
+$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+
+$lang["message_received"] = "Message received";
+$lang["in_number_of_days"] = "In %s days"; //Ex. In 7 days
+$lang["details"] = "Details";
+$lang["summary"] = "Summary";
+$lang["project_timesheet"] = "Project timesheet";
+
+$lang["set_event_permissions"] = "Set event permissions";
+$lang["disable_event_sharing"] = "Disable event sharing";
+$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
+$lang["can_manage_team_members_project_timesheet"] = "Can manage team member's project timesheet?";
+
+$lang["cron_job"] = "Cron Job";
+$lang["cron_job_link"] = "Cron Job link";
+$lang["last_cron_job_run"] = "Last Cron Job run";
+$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Recommended execution interval";
