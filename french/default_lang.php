@@ -4,6 +4,7 @@
 
 /* language locale */
 $lang["language_locale"] = "fr"; //locale code
+$lang["language_locale_long"] = "fr-FR"; //long locale code
 
 /* common */
 $lang["add"] = "Ajouter";
@@ -927,3 +928,79 @@ $lang["notification_new_message_sent"] = "Message envoyé.";
 $lang["notification_message_reply_sent"] = "Message répondu.";
 $lang["invoice_payment_confirmation"] = "Confirmation du paiement";
 $lang["notification_invoice_payment_confirmation"] = "Paiement reçu";
+
+/* Version 1.7 */
+
+$lang["client_can_create_projects"] = "Le client peut créer des projets?";
+$lang["client_can_view_timesheet"] = "Le client peut-il afficher le planning?";
+$lang["client_can_view_gantt"] = "Le client peut-il voir le gantt?";
+$lang["client_can_view_overview"] = "Le client peut-il afficher l'aperçu du projet?";
+$lang["client_can_view_milestones"] = "Le client peut-il voir les jalons?";
+
+$lang["items"] = "Éléments";
+$lang["edit_item"] = "Modifier l'élément";
+$lang["item_edit_instruction"] = "Remarque: Les modifications ne seront pas affectées par les factures ou estimations existantes.";
+
+$lang["recurring"] = "Récurrent";
+$lang["repeat_every"] = "Répétez tous les"; //Ex. repeat every 2 months
+$lang["interval_days"] = "Jour(s)";
+$lang["interval_weeks"] = "Semaine(s)";
+$lang["interval_months"] = "Mois";
+$lang["interval_years"] = "Année(s)";
+$lang["cycles"] = "Cycles";
+$lang["recurring_cycle_instructions"] = "La récurrence sera arrêtée après le nombre de cycles. Laissez vide pour l'infini.";
+$lang["next_recurring_date"] = "Prochaine échéance";
+$lang["stopped"] = "Arrêté";
+$lang["past_recurring_date_error_message_title"] = "La date de facturation sélectionnée et le type de répétition renvoient une date passée.";
+$lang["past_recurring_date_error_message"] = "La prochaine date récurrente doit être une date ultérieure. Entrez une date ultérieure.";
+$lang["sub_invoices"] = "Sous-factures";
+
+$lang["cron_job_required"] = "Cron Job est requis pour cette action!";
+
+$lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via Cron Job";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "Nouvelle facture générée";
+
+$lang["field_type_number"] = "Nombre";
+$lang["show_in_table"] = "Afficher dans le tableau";
+$lang["show_in_invoice"] = "Afficher dans la facture";
+$lang["visible_to_admins_only"] = "Visible uniquement par les administrateurs";
+$lang["hide_from_clients"] = "Cacher des clients";
+$lang["public"] = "Public";
+
+$lang["help"] = "Aide";
+$lang["articles"] = "Articles";
+$lang["add_article"] = "Ajouter un nouvel article";
+$lang["edit_article"] = "Modifier l'article";
+$lang["delete_article"] = "Supprimer l'article";
+$lang["can_manage_help_and_knowledge_base"] = "Peut gérer l'aide et la base de connaissances?";
+
+$lang["how_can_we_help"] = "Comment pouvons nous aider?";
+$lang["help_page_title"] = "Wiki interne";
+$lang["search_your_question"] = "Recherchez votre question";
+$lang["no_result_found"] = "Aucun résultat trouvé.";
+$lang["sort"] = "Trier";
+$lang["total_views"] = "Vues totales";
+
+$lang["help_and_support"] = "Aide & Support";
+$lang["knowledge_base"] = "Base de connaissance";
+
+$lang["payment_success_message"] = "Votre paiement a été complété.";
+$lang["payment_card_charged_but_system_error_message"] = "Votre carte peut être facturée, mais nous ne pouvons pas terminer le processus. Veuillez contacter l'administrateur de votre système.";
+$lang["card_payment_failed_error_message"] = "Nous ne pouvons pas traiter votre paiement maintenant, merci de réessayer plus tard.";
+
+$lang["message_received"] = "Message reçu";
+$lang["in_number_of_days"] = "Dans %s jours"; //Ex. In 7 days
+$lang["details"] = "Détails";
+$lang["summary"] = "Résumé";
+$lang["project_timesheet"] = "Planning du projet";
+
+$lang["set_event_permissions"] = "Définir les autorisations d'événement";
+$lang["disable_event_sharing"] = "Désactiver le partage d'événements";
+$lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux du membre de l'équipe?";
+$lang["can_manage_team_members_project_timesheet"] = "Peut gérer le planning du projet du membre de l'équipe?";
+
+$lang["cron_job"] = "Cron Job";
+$lang["cron_job_link"] = "Lien du Cron Job";
+$lang["last_cron_job_run"] = "Dernière exécution du Cron Job";
+$lang["created_from"] = "Créé à partir de"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Intervalle d'exécution recommandé";
