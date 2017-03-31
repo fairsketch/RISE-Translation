@@ -4,6 +4,7 @@
 
 /* language locale */
 $lang["language_locale"] = "es"; //locale code
+$lang["language_locale_long"] = "es-ES"; //long locale code
 
 /* common */
 $lang["add"] = "Añadir";
@@ -327,7 +328,7 @@ $lang["email_login_details"] = "Enviar correo con dettales de Acceso.";
 $lang["generate"] = "Generar";
 $lang["show_text"] = "Mostrar Texto";
 $lang["hide_text"] = "Ocultar Texto";
-$lang["mark_as_inactive"] = "Marcar como Activo";
+$lang["mark_as_inactive"] = "Marcar como Inactivo";
 $lang["mark_as_inactive_help_message"] = "Los usuarios inactivos no podrán entrar al sistema y no serán contados en la lista de usuarios activos!";
 
 $lang["invoice_id"] = "ID de Factura";
@@ -882,48 +883,124 @@ $lang["short_december"] = "Dic";
 
 /* Version 1.5 */
 
-$lang["no_such_file_or_directory_found"] = "No such file or directory.";
-$lang["gantt"] = "Gantt";
-$lang["not_specified"] = "Not specified";
-$lang["group_by"] = "Group by";
-$lang["create_invoice"] = "Create Invoice";
-$lang["include_all_items_of_this_estimate"] = "Include all items of this estimate";
-$lang["edit_payment"] = "Edit payment";
-$lang["disable_client_login"] = "Disable client login";
-$lang["disable_client_signup"] = "Disable client signup";
+$lang["no_such_file_or_directory_found"] = "No existe ese archivo en el directorio.";
+$lang["gantt"] = "Plan";
+$lang["not_specified"] = "No especificado";
+$lang["group_by"] = "Agrupado por";
+$lang["create_invoice"] = "Crear Factura";
+$lang["include_all_items_of_this_estimate"] = "Incluye todos los artículos de este estimado";
+$lang["edit_payment"] = "Editar Págo";
+$lang["disable_client_login"] = "Deshabilitar Entrada de Cliente";
+$lang["disable_client_signup"] = "Deahabilitar Registro de Cliente";
 
-$lang["chart"] = "Chart";
-$lang["signin_page_background"] = "Signin page background";
-$lang["show_logo_in_signin_page"] = "Show logo in signin page";
-$lang["show_background_image_in_signin_page"] = "Show background image in signin page";
+$lang["chart"] = "Gráfica";
+$lang["signin_page_background"] = "Fondo de Página de Registro";
+$lang["show_logo_in_signin_page"] = "Mostrar Logo en Página de Registro";
+$lang["show_background_image_in_signin_page"] = "Mostrar Imágen de Fondo de Página en Página de Registro";
 
 /* Version 1.6 */
 
-$lang["more"] = "More";
-$lang["custom"] = "Custom";
-$lang["clear"] = "Clear";
-$lang["expired"] = "Expired";
-$lang["enable_attachment"] = "Enable attachment";
-$lang["custom_fields"] = "Custom fields";
-$lang["edit_field"] = "Edit field";
-$lang["delete_field"] = "Delete field";
-$lang["client_info"] = "Client info";
-$lang["edit_expenses_category"] = "Edit expenses category";
-$lang["eelete_expenses_category"] = "Delete expenses category";
-$lang["empty_starred_projects"] = "To access your favorite projects quickly, please go to the project view and mark the star.";
-$lang["empty_starred_clients"] = "To access your favorite clients quickly, please go to the client view and mark the star.";
-$lang["download_zip_name"] = "documents";
-$lang["invoice_prefix"] = "Invoice prefix";
-$lang["invoice_style"] = "Invoice style";
-$lang["delete_confirmation_message"] = " Are you sure? You won't be able to undo this action!";
-$lang["left"] = "Left";
-$lang["right"] = "Right";
-$lang["currency_position"] = "Currency Position";
-$lang["recipient"] = "Recipient";
+$lang["more"] = "Más";
+$lang["custom"] = "Personalizado";
+$lang["clear"] = "Eliminar";
+$lang["expired"] = "Expirado";
+$lang["enable_attachment"] = "Habilitar Adjuntos";
+$lang["custom_fields"] = "Campos Personalizados";
+$lang["edit_field"] = "Editar Campo";
+$lang["delete_field"] = "Borrar Campo";
+$lang["client_info"] = "Información de Cliente";
+$lang["edit_expenses_category"] = "Editar Categorías de Gastos";
+$lang["eelete_expenses_category"] = "Borrar Categorías de Gastos";
+$lang["empty_starred_projects"] = "Para accesar sus proyectos favoritos rápidamente, Porfavor vaya a la vista del proyecto ymarque la estrella.";
+$lang["empty_starred_clients"] = "Para accesar sus clientes favoritos rápidamente, Porfavor vaya a la vista de clientes y marque la estrella.";
+$lang["download_zip_name"] = "Documentos";
+$lang["invoice_prefix"] = "Prefijo de Factura";
+$lang["invoice_style"] = "Estilo de Factura";
+$lang["delete_confirmation_message"] = " Está seguro? No podrá deshacer esta acción!";
+$lang["left"] = "Izquierda";
+$lang["right"] = "Derecha";
+$lang["currency_position"] = "Posición de moneda";
+$lang["recipient"] = "Recipiente";
 
-$lang["new_message_sent"] = "New message sent";
-$lang["message_reply_sent"] = "Message replied";
-$lang["notification_new_message_sent"] = "Sent a message.";
-$lang["notification_message_reply_sent"] = "Replied a message.";
-$lang["invoice_payment_confirmation"] = "Invoice payment confirmation";
-$lang["notification_invoice_payment_confirmation"] = "Payment received";
+$lang["new_message_sent"] = "Nuevo Mensaje Enviado";
+$lang["message_reply_sent"] = "Mensaje Respondido";
+$lang["notification_new_message_sent"] = "Mensaje Enviado.";
+$lang["notification_message_reply_sent"] = "Responder Mensaje.";
+$lang["invoice_payment_confirmation"] = "Confirmación de págo de factura";
+$lang["notification_invoice_payment_confirmation"] = "Págo Recibido";
+
+/* Version 1.7 */
+
+$lang["client_can_create_projects"] = "Cliente puede crear proyectos?";
+$lang["client_can_view_timesheet"] = "Cliente puede ver la hoja de tiempo?";
+$lang["client_can_view_gantt"] = "Cliente puede ver el Plan?";
+$lang["client_can_view_overview"] = "Cliente puede ver la Vista General?";
+$lang["client_can_view_milestones"] = "Cliente puede ver Procesos?";
+
+$lang["items"] = "Artículos";
+$lang["edit_item"] = "Editar Artículo";
+$lang["item_edit_instruction"] = "Nota: Los cambios no afectaran facturas previas.";
+
+$lang["recurring"] = "Recurrente";
+$lang["repeat_every"] = "Repetir cada"; //Ej. repetir cada dos meses
+$lang["interval_days"] = "Día(s)";
+$lang["interval_weeks"] = "Semana(s)";
+$lang["interval_months"] = "Mes(es)";
+$lang["interval_years"] = "Año(s)";
+$lang["cycles"] = "Ciclos";
+$lang["recurring_cycle_instructions"] = "Recurrente será detenido en esta cantidad de ciclos. Deje en blanco para infinito.";
+$lang["next_recurring_date"] = "Próximo Recurrente";
+$lang["stopped"] = "Detenido";
+$lang["past_recurring_date_error_message_title"] = "La fecha de cobro seleccionada y tipo de repeticiones regresa a una fecha pasada.";
+$lang["past_recurring_date_error_message"] = "Nueva fecha recurrente debe ser unafecha futura. Por favor entre una fecha futura.";
+$lang["sub_invoices"] = "Sub Facturas";
+
+$lang["cron_job_required"] = "Trabajo cronológico es requerido para esta acción!";
+
+$lang["recurring_invoice_created_vai_cron_job"] = "Factura Recurrente creada por Trabajo Cronológico";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "Nueva Factura Generada";
+
+$lang["field_type_number"] = "Número";
+$lang["show_in_table"] = "Muestre en Tabla";
+$lang["show_in_invoice"] = "Muestre en Factura";
+$lang["visible_to_admins_only"] = "Visible al Administrador solamente.";
+$lang["hide_from_clients"] = "Oculte de Clientes";
+$lang["public"] = "Público";
+
+$lang["help"] = "Ayuda";
+$lang["articles"] = "Artículos";
+$lang["add_article"] = "Añada un nuevo Artículo";
+$lang["edit_article"] = "Edite Artículo";
+$lang["delete_article"] = "Delete Artículo";
+$lang["can_manage_help_and_knowledge_base"] = "Puede manejar ayuda y base de conocimiento?";
+
+$lang["how_can_we_help"] = "Como podemos ayudar?";
+$lang["help_page_title"] = "Wiki Interno";
+$lang["search_your_question"] = "Busque su pregunta.";
+$lang["no_result_found"] = "No se encontraron resultados.";
+$lang["sort"] = "Sortee";
+$lang["total_views"] = "Vistas Totales";
+
+$lang["help_and_support"] = "Ayuda y Soporte";
+$lang["knowledge_base"] = "Base de Conocimiento";
+
+$lang["payment_success_message"] = "Su págo ha sido Completado.";
+$lang["payment_card_charged_but_system_error_message"] = "Su tarjeta puede ser cargada pero no podemos completar el proceso. Por favor contácte al administrador de sistema.";
+$lang["card_payment_failed_error_message"] = "No podemos procesar su págo ahora, por favor trate más tarde.";
+
+$lang["message_received"] = "Mensaje Recibido";
+$lang["in_number_of_days"] = "En %s días"; //Ej. En 7 días
+$lang["details"] = "Detalles";
+$lang["summary"] = "Resumen";
+$lang["project_timesheet"] = "Hoja de Tiempo de Proyecto";
+
+$lang["set_event_permissions"] = "Configurar Permisos de Eventos";
+$lang["disable_event_sharing"] = "Desactivar Compartir Eventos";
+$lang["can_update_team_members_general_info_and_social_links"] = "Puede actualizar la información del Miembro de Equipo y enlaces sociales?";
+$lang["can_manage_team_members_project_timesheet"] = "Puede manejar la Hoja de Tiempos del Miembro de equipo?";
+
+$lang["cron_job"] = "Cron Job";
+$lang["cron_job_link"] = "Cron Job link";
+$lang["last_cron_job_run"] = "Last Cron Job run";
+$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Recommended execution interval";
