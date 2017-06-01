@@ -4,7 +4,7 @@
 
 /* language locale */
 $lang["language_locale"] = "ro"; //locale code
-$lang["language_locale_long"] = "en-US"; //long locale code
+$lang["language_locale_long"] = "ro-RO"; //long locale code
 
 /* common */
 $lang["add"] = "Adaugă";
