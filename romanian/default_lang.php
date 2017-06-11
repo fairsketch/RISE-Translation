@@ -1004,3 +1004,29 @@ $lang["cron_job_link"] = "Link Cron Job";
 $lang["last_cron_job_run"] = "Ultima rulare a Cron Job";
 $lang["created_from"] = "Creat din"; //Ex. Created from Invoice#1
 $lang["recommended_execution_interval"] = "Interval execuție recomandat";
+
+/* Version 1.8 */
+
+$lang["integration"] = "Integration";
+$lang["get_your_key_from_here"] = "Get your key from here:";
+$lang["re_captcha_site_key"] = "Site key";
+$lang["re_captcha_secret_key"] = "Secret key";
+
+$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
+$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
+$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
+$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
+$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+
+$lang["yes_all_tickets"] = "Yes, all tickets";
+$lang["choose_ticket_types"] = "Choose ticket types";
+
+$lang["can_manage_all_projects"] = "Can manage all projects";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+
+$lang["new_event_added_in_calendar"] = "New event added calendar";
+$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+
+$lang["todo"] = "To do";
+$lang["add_a_todo"] = "Add a to do...";
