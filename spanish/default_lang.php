@@ -999,34 +999,34 @@ $lang["disable_event_sharing"] = "Desactivar Compartir Eventos";
 $lang["can_update_team_members_general_info_and_social_links"] = "Puede actualizar la información del Miembro de Equipo y enlaces sociales?";
 $lang["can_manage_team_members_project_timesheet"] = "Puede manejar la Hoja de Tiempos del Miembro de equipo?";
 
-$lang["cron_job"] = "Cron Job";
-$lang["cron_job_link"] = "Cron Job link";
-$lang["last_cron_job_run"] = "Last Cron Job run";
-$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
-$lang["recommended_execution_interval"] = "Recommended execution interval";
+$lang["cron_job"] = "Trabajo Programado";
+$lang["cron_job_link"] = "Enlace de Trabajo Programado";
+$lang["last_cron_job_run"] = "Último Trabajo Programado Ejecutado";
+$lang["created_from"] = "Creado desde"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Intervalo de Ejecución Recomendada";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
-$lang["re_captcha_site_key"] = "Site key";
-$lang["re_captcha_secret_key"] = "Secret key";
+$lang["integration"] = "Integración";
+$lang["get_your_key_from_here"] = "Tome su llave de aquí:";
+$lang["re_captcha_site_key"] = "Llave del Lugar";
+$lang["re_captcha_secret_key"] = "Llave Secreta";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secreta esta ausente";
+$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secreta no es válida.";
+$lang["re_captcha_error-missing-input-response"] = "Por favor seleccione reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "El parámetro de respuesta es inválido o malformado.";
+$lang["re_captcha_error-bad-request"] = "La solicitud es inválida o malformada.";
+$lang["re_captcha_expired"] = "El reCAPTCHA ha expirado. Porfavor recargue la página.";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["yes_all_tickets"] = "Si, todos los tickets";
+$lang["choose_ticket_types"] = "Elija los tipos de ticket";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["can_manage_all_projects"] = "Puede manejar todos los proyectos";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Muestre los tickets más recientes al inicio";
 
-$lang["new_event_added_in_calendar"] = "New event added calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["new_event_added_in_calendar"] = "Nuevo evento añadido en el calendario.";
+$lang["notification_new_event_added_in_calendar"] = "Añadió un nuevo evento.";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["todo"] = "Pendientes";
+$lang["add_a_todo"] = "Añadir a Pendientes...";
