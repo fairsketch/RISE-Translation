@@ -497,7 +497,7 @@ $lang["delete_payment_method"] = "Șterge metoda de plată";
 $lang["add_invoice"] = "Adaugă factură";
 $lang["edit_invoice"] = "Modifică factură";
 $lang["delete_invoice"] = "Șterge factură";
-$lang["invoice"] = "Factură";
+$lang["invoice"] = "Factura";
 $lang["invoices"] = "Facturi";
 $lang["bill_date"] = "Data facturii";
 $lang["due_date"] = "Scadență";
@@ -1007,26 +1007,26 @@ $lang["recommended_execution_interval"] = "Interval execuție recomandat";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
-$lang["re_captcha_site_key"] = "Site key";
-$lang["re_captcha_secret_key"] = "Secret key";
+$lang["integration"] = "Integrare";
+$lang["get_your_key_from_here"] = "Ia cheia de aici:";
+$lang["re_captcha_site_key"] = "Cheie site";
+$lang["re_captcha_secret_key"] = "Cheie secretă";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["re_captcha_error-missing-input-secret"] = "Secretul reCAPTCHA lipsește";
+$lang["re_captcha_error-invalid-input-secret"] = "Secretul reCAPTCHA nu e valid.";
+$lang["re_captcha_error-missing-input-response"] = "Te rog alege reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "Parametrul de răspuns nu e valid sau are forma greșită.";
+$lang["re_captcha_error-bad-request"] = "Cererea nu e validă sau are forma greșită.";
+$lang["re_captcha_expired"] = "reCAPTCHA a explirat. Te rog reîncarcă pagina.";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["yes_all_tickets"] = "Da, toate tichetele";
+$lang["choose_ticket_types"] = "Alege tipuri de tichet";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["can_manage_all_projects"] = "Poate administra toate proiectele";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Arată comentariile la tichet cele mai recente deasupra";
 
-$lang["new_event_added_in_calendar"] = "New event added calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["new_event_added_in_calendar"] = "Eveniment nou adăugat în calendar";
+$lang["notification_new_event_added_in_calendar"] = "A adăugat eveniment nou.";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["todo"] = "De făcut";
+$lang["add_a_todo"] = "Adaugă de făcut...";
