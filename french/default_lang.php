@@ -931,11 +931,11 @@ $lang["notification_invoice_payment_confirmation"] = "Paiement reçu";
 
 /* Version 1.7 */
 
-$lang["client_can_create_projects"] = "Le client peut créer des projets?";
-$lang["client_can_view_timesheet"] = "Le client peut-il afficher le planning?";
+$lang["client_can_create_projects"] = "Le client peut créer des projets ?";
+$lang["client_can_view_timesheet"] = "Le client peut-il afficher le planning ?";
 $lang["client_can_view_gantt"] = "Le client peut-il voir le gantt?";
-$lang["client_can_view_overview"] = "Le client peut-il afficher l'aperçu du projet?";
-$lang["client_can_view_milestones"] = "Le client peut-il voir les jalons?";
+$lang["client_can_view_overview"] = "Le client peut-il afficher l'aperçu du projet ?";
+$lang["client_can_view_milestones"] = "Le client peut-il voir les jalons ?";
 
 $lang["items"] = "Éléments";
 $lang["edit_item"] = "Modifier l'élément";
@@ -957,7 +957,7 @@ $lang["sub_invoices"] = "Sous-factures";
 
 $lang["cron_job_required"] = "Cron Job est requis pour cette action!";
 
-$lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via Cron Job";
+$lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via une tâche Cron";
 $lang["notification_recurring_invoice_created_vai_cron_job"] = "Nouvelle facture générée";
 
 $lang["field_type_number"] = "Nombre";
@@ -972,9 +972,9 @@ $lang["articles"] = "Articles";
 $lang["add_article"] = "Ajouter un nouvel article";
 $lang["edit_article"] = "Modifier l'article";
 $lang["delete_article"] = "Supprimer l'article";
-$lang["can_manage_help_and_knowledge_base"] = "Peut gérer l'aide et la base de connaissances?";
+$lang["can_manage_help_and_knowledge_base"] = "Peut gérer l'aide et la base de connaissances ?";
 
-$lang["how_can_we_help"] = "Comment pouvons nous aider?";
+$lang["how_can_we_help"] = "Comment pouvons nous aider ?";
 $lang["help_page_title"] = "Wiki interne";
 $lang["search_your_question"] = "Recherchez votre question";
 $lang["no_result_found"] = "Aucun résultat trouvé.";
@@ -996,8 +996,8 @@ $lang["project_timesheet"] = "Planning du projet";
 
 $lang["set_event_permissions"] = "Définir les autorisations d'événement";
 $lang["disable_event_sharing"] = "Désactiver le partage d'événements";
-$lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux du membre de l'équipe?";
-$lang["can_manage_team_members_project_timesheet"] = "Peut gérer le planning du projet du membre de l'équipe?";
+$lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux du membre de l'équipe ?";
+$lang["can_manage_team_members_project_timesheet"] = "Peut gérer le planning du projet du membre de l'équipe ?";
 
 $lang["cron_job"] = "Cron Job";
 $lang["cron_job_link"] = "Lien du Cron Job";
@@ -1007,26 +1007,26 @@ $lang["recommended_execution_interval"] = "Intervalle d'exécution recommandé";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
-$lang["re_captcha_site_key"] = "Site key";
-$lang["re_captcha_secret_key"] = "Secret key";
+$lang["integration"] = "Intégration";
+$lang["get_your_key_from_here"] = "Obtenez votre clef ici :";
+$lang["re_captcha_site_key"] = "Clef du site";
+$lang["re_captcha_secret_key"] = "Clef secrète";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["re_captcha_error-missing-input-secret"] = "Le reCAPTCHA manque";
+$lang["re_captcha_error-invalid-input-secret"] = "Le reCAPTCHA n'est pas valide.";
+$lang["re_captcha_error-missing-input-response"] = "Sélectionnez le reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "Le paramètre de réponse est invalide ou mal formé.";
+$lang["re_captcha_error-bad-request"] = "La demande est invalide ou mal formée.";
+$lang["re_captcha_expired"] = "Le reCAPTCHA a expiré. Veuillez recharger la page.";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["yes_all_tickets"] = "Oui, tous les billets";
+$lang["choose_ticket_types"] = "Choisissez les types de billets";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["can_manage_all_projects"] = "Peut gérer tous les projets";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Afficher les commentaires des billets les plus récents en premier";
 
-$lang["new_event_added_in_calendar"] = "New event added calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["new_event_added_in_calendar"] = "Nouvel calendrier ajouté aux événements";
+$lang["notification_new_event_added_in_calendar"] = "Nouvel événement ajouté.";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["todo"] = "Tâches";
+$lang["add_a_todo"] = "Ajouter une tâche...";
