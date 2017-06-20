@@ -957,7 +957,7 @@ $lang["sub_invoices"] = "Sous-factures";
 
 $lang["cron_job_required"] = "Cron Job est requis pour cette action!";
 
-$lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via Cron Job";
+$lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via une tâche Cron";
 $lang["notification_recurring_invoice_created_vai_cron_job"] = "Nouvelle facture générée";
 
 $lang["field_type_number"] = "Nombre";
