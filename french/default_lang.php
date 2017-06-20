@@ -931,11 +931,11 @@ $lang["notification_invoice_payment_confirmation"] = "Paiement reçu";
 
 /* Version 1.7 */
 
-$lang["client_can_create_projects"] = "Le client peut créer des projets?";
-$lang["client_can_view_timesheet"] = "Le client peut-il afficher le planning?";
+$lang["client_can_create_projects"] = "Le client peut créer des projets ?";
+$lang["client_can_view_timesheet"] = "Le client peut-il afficher le planning ?";
 $lang["client_can_view_gantt"] = "Le client peut-il voir le gantt?";
-$lang["client_can_view_overview"] = "Le client peut-il afficher l'aperçu du projet?";
-$lang["client_can_view_milestones"] = "Le client peut-il voir les jalons?";
+$lang["client_can_view_overview"] = "Le client peut-il afficher l'aperçu du projet ?";
+$lang["client_can_view_milestones"] = "Le client peut-il voir les jalons ?";
 
 $lang["items"] = "Éléments";
 $lang["edit_item"] = "Modifier l'élément";
@@ -972,9 +972,9 @@ $lang["articles"] = "Articles";
 $lang["add_article"] = "Ajouter un nouvel article";
 $lang["edit_article"] = "Modifier l'article";
 $lang["delete_article"] = "Supprimer l'article";
-$lang["can_manage_help_and_knowledge_base"] = "Peut gérer l'aide et la base de connaissances?";
+$lang["can_manage_help_and_knowledge_base"] = "Peut gérer l'aide et la base de connaissances ?";
 
-$lang["how_can_we_help"] = "Comment pouvons nous aider?";
+$lang["how_can_we_help"] = "Comment pouvons nous aider ?";
 $lang["help_page_title"] = "Wiki interne";
 $lang["search_your_question"] = "Recherchez votre question";
 $lang["no_result_found"] = "Aucun résultat trouvé.";
@@ -996,8 +996,8 @@ $lang["project_timesheet"] = "Planning du projet";
 
 $lang["set_event_permissions"] = "Définir les autorisations d'événement";
 $lang["disable_event_sharing"] = "Désactiver le partage d'événements";
-$lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux du membre de l'équipe?";
-$lang["can_manage_team_members_project_timesheet"] = "Peut gérer le planning du projet du membre de l'équipe?";
+$lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux du membre de l'équipe ?";
+$lang["can_manage_team_members_project_timesheet"] = "Peut gérer le planning du projet du membre de l'équipe ?";
 
 $lang["cron_job"] = "Cron Job";
 $lang["cron_job_link"] = "Lien du Cron Job";
@@ -1028,5 +1028,5 @@ $lang["show_most_recent_ticket_comments_at_the_top"] = "Afficher les commentaire
 $lang["new_event_added_in_calendar"] = "Nouvel calendrier ajouté aux événements";
 $lang["notification_new_event_added_in_calendar"] = "Nouvel événement ajouté.";
 
-$lang["todo"] = "liste de tâches";
+$lang["todo"] = "Tâches";
 $lang["add_a_todo"] = "Ajouter une tâche...";
