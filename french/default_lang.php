@@ -1030,3 +1030,28 @@ $lang["notification_new_event_added_in_calendar"] = "Nouvel événement ajouté.
 
 $lang["todo"] = "Tâches";
 $lang["add_a_todo"] = "Ajouter une tâche...";
+
+/* Version 1.9 */
+
+$lang["client_groups"] = "Client groups";
+$lang["add_client_group"] = "Add client group";
+$lang["edit_client_group"] = "Edit client group";
+$lang["delete_client_group"] = "Delete client group";
+
+$lang["ticket_prefix"] = "Ticket prefix";
+$lang["add_a_task"] = "Add a task...";
+
+$lang["add_task_status"] = "Add task status";
+$lang["edit_task_status"] = "Edit task status";
+$lang["delete_task_status"] = "Delete task status";
+
+$lang["list"] = "List";
+$lang["kanban"] = "Kanban";
+$lang["priority"] = "Priority";
+$lang["moved_up"] = "Moved Up";
+$lang["moved_down"] = "Moved Down";
+$lang["mark_project_as_hold"] = "Mark Project as Hold";
+
+$lang["repeat"] = "Repeat";
+
+$lang["hide_team_members_list"] = "Hide team members list?";
