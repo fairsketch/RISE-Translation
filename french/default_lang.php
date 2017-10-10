@@ -144,9 +144,9 @@ $lang["view_details"] = "Voir les détails";
 $lang["invite_someone_to_join_as_a_team_member"] = "Inviter quelqu'un à se joindre en tant que membre de l'équipe.";
 
 /* team */
-$lang["add_team"] = "Ajouter équipe";
+$lang["add_team"] = "Ajouter une équipe";
 $lang["edit_team"] = "Modifier l'équipe";
-$lang["delete_teamn"] = "Supprimer équipe";
+$lang["delete_team"] = "Supprimer équipe";
 $lang["team"] = "Équipe";
 $lang["select_a_team"] = "Sélectionnez une équipe";
 
@@ -647,7 +647,7 @@ $lang["notifications"] = "Notifications";
 $lang["notification_settings"] = "Paramètres de notification";
 $lang["enable_email"] = "Activer email";
 $lang["enable_web"] = "Activer web";
-$lang["event"] = "événements";
+$lang["event"] = "Événements";
 $lang["notify_to"] = "Notifier à";
 
 $lang["project_created"] = "Projet créé";
@@ -1033,25 +1033,25 @@ $lang["add_a_todo"] = "Ajouter une tâche...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Groupes de client";
+$lang["add_client_group"] = "Ajouter un groupe";
+$lang["edit_client_group"] = "Modifier le groupe";
+$lang["delete_client_group"] = "Supprimer le groupe";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Préfixe";
+$lang["add_a_task"] = "Ajouter une tâche...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Ajouter un status";
+$lang["edit_task_status"] = "Modifier le status";
+$lang["delete_task_status"] = "Supprimer le status";
 
-$lang["list"] = "List";
+$lang["list"] = "Lister";
 $lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
-$lang["mark_project_as_hold"] = "Mark Project as Hold";
+$lang["priority"] = "Priorité";
+$lang["moved_up"] = "Déplacé vers le haut";
+$lang["moved_down"] = "Déplacé vers le bas";
+$lang["mark_project_as_hold"] = "Marquer le projet en attente";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Répéter";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Cacher la liste des membres de l'équipe ?";
