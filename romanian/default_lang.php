@@ -1033,25 +1033,25 @@ $lang["add_a_todo"] = "Adaugă de făcut...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Grupuri clienți";
+$lang["add_client_group"] = "Adauga grup clienți";
+$lang["edit_client_group"] = "Modifică grup clienți";
+$lang["delete_client_group"] = "Șterge grup clienți";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Prefix ticket ";
+$lang["add_a_task"] = "Adaugă o sarcină...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Adaugă status sarcină";
+$lang["edit_task_status"] = "Modifică status sarcină";
+$lang["delete_task_status"] = "Șterge status sarcină";
 
-$lang["list"] = "List";
+$lang["list"] = "Listă";
 $lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
-$lang["mark_project_as_hold"] = "Mark Project as Hold";
+$lang["priority"] = "Prioritate";
+$lang["moved_up"] = "Mutat sus";
+$lang["moved_down"] = "Mutat jos";
+$lang["mark_project_as_hold"] = "Marchează Proiect ca Așteptare";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Repetă";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Ascunde lista mebrilor echipei?";
