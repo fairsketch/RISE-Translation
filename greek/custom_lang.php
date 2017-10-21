@@ -353,7 +353,7 @@ $lang["add_member"] = "Προσθήκη Μέλους";
 $lang["delete_member"] = "Διαγραφή Μέλους";
 $lang["start_timer"] = "Έναρξη Χρονομέτρου";
 $lang["stop_timer"] = "Διακοπή Χρονομέτρου";
-$lang["project_timeline"] = "Χρονοδιάγραμμα Έργου";
+$lang["project_timeline"] = "Χρονολόγιο Έργου";
 $lang["open_projects"] = "Έργα σε Εξέλιξη";
 $lang["projects_completed"] = "Ολοκληρωμένα Έργα";
 $lang["progress"] = "Πρόοδος";
@@ -615,229 +615,229 @@ $lang["rows_per_page"] = "Σειρές ανά σελίδα";
 $lang["price"] = "Τιμή";
 $lang["security_type"] = "Τύπος Ασφάλειας";
 
-$lang["client_can_view_tasks"] = "Client can view tasks?";
-$lang["client_can_create_tasks"] = "Client can create tasks?";
-$lang["client_can_edit_tasks"] = "Client can edit tasks?";
-$lang["client_can_comment_on_tasks"] = "Client can comment on tasks?";
+$lang["client_can_view_tasks"] = "Ο πελάτης μπορεί να παρακολουθήσει εργασίες;";
+$lang["client_can_create_tasks"] = "Ο πελάτης μπορεί να δημιουργήσει εργασίες;";
+$lang["client_can_edit_tasks"] = "Ο πελάτης μπορεί να επεξεργαστεί εργασίες;";
+$lang["client_can_comment_on_tasks"] = "Ο πελάτης μπορεί να σχολιάσει εργασίες;";
 
-$lang["set_project_permissions"] = "Set project permissions";
-$lang["can_create_projects"] = "Can create projects";
-$lang["can_edit_projects"] = "Can edit projects";
-$lang["can_delete_projects"] = "Can delete projects";
-$lang["can_create_tasks"] = "Can create tasks";
-$lang["can_edit_tasks"] = "Can edit tasks";
-$lang["can_delete_tasks"] = "Can delete tasks";
-$lang["can_comment_on_tasks"] = "Can comment on tasks";
-$lang["can_create_milestones"] = "Can create milestones";
-$lang["can_edit_milestones"] = "Can edit milestones";
-$lang["can_delete_milestones"] = "Can delete milestones";
-$lang["can_add_remove_project_members"] = "Can add/remove project members";
-$lang["can_delete_files"] = "Can delete files";
+$lang["set_project_permissions"] = "Ορισμός δικαιωμάτων Έργων";
+$lang["can_create_projects"] = "Μπορεί να δημιουργήσει Έργα";
+$lang["can_edit_projects"] = "Μπορεί να επεξεργαστεί Έργα";
+$lang["can_delete_projects"] = "Μπορεί να διαγράψει Έργα";
+$lang["can_create_tasks"] = "Μπορεί να δημιουργήσει Εργασίες";
+$lang["can_edit_tasks"] = "Μπορεί να επεξεργαστεί Εργασίες";
+$lang["can_delete_tasks"] = "Μπορεί να διαγράψει Εργασίες";
+$lang["can_comment_on_tasks"] = "Μπορεί να σχολιάσει Εργασίες";
+$lang["can_create_milestones"] = "Μπορεί να δημιουργήσει Ορόσημα";
+$lang["can_edit_milestones"] = "Μπορεί να επεξεργαστεί Ορόσημα";
+$lang["can_delete_milestones"] = "Μπορεί να διαγράψει Ορόσημα";
+$lang["can_add_remove_project_members"] = "Μπορεί να προσθαφαιρέσει μέλη σε ένα Έργο";
+$lang["can_delete_files"] = "Μπορεί να διαγράψει αρχεία";
 
 /* Version 1.2.2 */
-$lang["label"] = "Label";
-$lang["send_bcc_to"] = "When sending invoice to client, send BCC to";
-$lang["mark_project_as_completed"] = "Mark Project as Completed";
-$lang["mark_project_as_canceled"] = "Mark Project as Canceled";
-$lang["mark_project_as_open"] = "Mark Project as Open";
+$lang["label"] = "Ετικέτα";
+$lang["send_bcc_to"] = "Όταν αποστέλεται τιμολόγιο σε πελάτη, αποστολή BCC σε";
+$lang["mark_project_as_completed"] = "Σήμανση Έργου ως Ολοκληρωμένο";
+$lang["mark_project_as_canceled"] = "Σήμανση Έργου ως Ακυρωμένο";
+$lang["mark_project_as_open"] = "Σήμανση Έργου ως Υπό Εξέλιξη";
 
 /* Version 1.3 */
-$lang["notification"] = "Notification";
-$lang["notifications"] = "Notifications";
-$lang["notification_settings"] = "Notification Settings";
-$lang["enable_email"] = "Enable email";
-$lang["enable_web"] = "Enable web";
-$lang["event"] = "Event";
-$lang["notify_to"] = "Notify to";
+$lang["notification"] = "Ειδοποίηση";
+$lang["notifications"] = "Ειδοποιήσεις";
+$lang["notification_settings"] = "Ρυθμίσεις Ειδοποιήσεων";
+$lang["enable_email"] = "Ενεργοποίηση μέσω email";
+$lang["enable_web"] = "Ενεργοποίηση στην ιστοσελίδα";
+$lang["event"] = "Εκδήλωση";
+$lang["notify_to"] = "Ειδοποίηση σε";
 
-$lang["project_created"] = "Project created";
-$lang["project_deleted"] = "Project deleted";
-$lang["project_task_created"] = "Project task created";
-$lang["project_task_updated"] = "Project task updated";
-$lang["project_task_assigned"] = "Project task assigned";
-$lang["project_task_started"] = "Project task started";
-$lang["project_task_finished"] = "Project task finished";
-$lang["project_task_reopened"] = "Project task reopened";
-$lang["project_task_deleted"] = "Project task deleted";
-$lang["project_task_commented"] = "Project task commented";
-$lang["project_member_added"] = "Project member added";
-$lang["project_member_deleted"] = "Project member deleted";
-$lang["project_file_added"] = "Project file added";
-$lang["project_file_deleted"] = "Project file deleted";
-$lang["project_file_commented"] = "Project file commented";
-$lang["project_comment_added"] = "Project comment added";
-$lang["project_comment_replied"] = "Project comment replied";
-$lang["project_customer_feedback_added"] = "Project customer feedback added";
-$lang["project_customer_feedback_replied"] = "Project customer feedback replied";
-$lang["client_signup"] = "Client signup";
+$lang["project_created"] = "Το Έργο δημιουργήθηκε";
+$lang["project_deleted"] = "Το Έργο διεγράφη";
+$lang["project_task_created"] = "Δημιουργήθηκε Εργασία στο Έργο";
+$lang["project_task_updated"] = "Ενημερώθηκε Εργασία στο Έργο";
+$lang["project_task_assigned"] = "Ανατέθηκε Εργασία στο Έργο";
+$lang["project_task_started"] = "Ξεκίνησε Εργασία στο Έργο";
+$lang["project_task_finished"] = "Τελείωσε Εργασία στο Έργο";
+$lang["project_task_reopened"] = "Ξανάνοιξε Εργασία στο Έργο";
+$lang["project_task_deleted"] = "Διεγράφη Εργασία στο Έργο";
+$lang["project_task_commented"] = "Σχολιάστηκε Εργασία στο Έργο";
+$lang["project_member_added"] = "Προστέθηκε μέλος στο Έργο";
+$lang["project_member_deleted"] = "Διαγράφηκε μέλος από το Έργο";
+$lang["project_file_added"] = "Προστέθηκε αρχείο στο Έργο";
+$lang["project_file_deleted"] = "Διεγράφη αρχείο από το Έργο";
+$lang["project_file_commented"] = "Σχολιάστηκε αρχείο του Έργου";
+$lang["project_comment_added"] = "Προστέθηκε σχόλιο στο Έργο";
+$lang["project_comment_replied"] = "Απαντήθηκε σχόλιο στο Έργο";
+$lang["project_customer_feedback_added"] = "Προστέθηκε ανατροφοδότηση πελάτη στο Έργο";
+$lang["project_customer_feedback_replied"] = "Απαντήθηκε ανατροφοδότηση πελάτη στο Έργο";
+$lang["client_signup"] = "Εγγραφή Πελάτη";
 $lang["invoice_online_payment_received"] = "Invoice online payment received";
-$lang["leave_application_submitted"] = "Leave application submitted";
-$lang["leave_approved"] = "Leave approved";
-$lang["leave_assigned"] = "Leave assigned";
-$lang["leave_rejected"] = "Leave rejected";
-$lang["leave_canceled"] = "Leave canceled";
-$lang["ticket_created"] = "Ticket created";
-$lang["ticket_commented"] = "Ticket commented";
-$lang["ticket_closed"] = "Ticket closed";
-$lang["ticket_reopened"] = "Ticket reopened";
-$lang["leave"] = "Leave";
+$lang["leave_application_submitted"] = "Η αίτηση άδειας υποβλήθηκε";
+$lang["leave_approved"] = "Η άδεια εγκρίθηκε";
+$lang["leave_assigned"] = "Η άδεια ανατέθηκε";
+$lang["leave_rejected"] = "Η άδεια απορρίφθηκε";
+$lang["leave_canceled"] = "Η άδεια ακυρώθηκε";
+$lang["ticket_created"] = "Αίτημα δημιουργήθηκε";
+$lang["ticket_commented"] = "Αίτημα σχολιάστηκε";
+$lang["ticket_closed"] = "Αίτημα έκλεισε";
+$lang["ticket_reopened"] = "Αίτημα ξανάνοιξε";
+$lang["leave"] = "Άδεια";
 
-$lang["client_primary_contact"] = "Primary contact of client";
-$lang["client_all_contacts"] = "All contacts of client";
-$lang["task_assignee"] = "Task assignee";
-$lang["task_collaborators"] = "Task collaborators";
-$lang["comment_creator"] = "Comment creator";
-$lang["leave_applicant"] = "Leave applicant";
-$lang["ticket_creator"] = "Ticket creator";
+$lang["client_primary_contact"] = "Κύρια Επαφή Πελάτη";
+$lang["client_all_contacts"] = "Όλες οι Επαφές Πελάτη";
+$lang["task_assignee"] = "Υπεύθυνος Εργασίας";
+$lang["task_collaborators"] = "Συνεργάτες Εργασίας";
+$lang["comment_creator"] = "Δημιουργός Σχολίου";
+$lang["leave_applicant"] = "Αιτών/ούσα Αδείας";
+$lang["ticket_creator"] = "Δημιουργός Αιτήματος";
 
-$lang["no_new_notifications"] = "No notification found.";
+$lang["no_new_notifications"] = "Δεν υπάρχουν νέες ειδοποιήσεις.";
 
 /* Notification messages */
 
-$lang["notification_project_created"] = "Created a new project.";
-$lang["notification_project_deleted"] = "Deleted a project.";
-$lang["notification_project_task_created"] = "Created a new task.";
-$lang["notification_project_task_updated"] = "Updated a task.";
-$lang["notification_project_task_assigned"] = "Assigned a task to %s"; //Assigned a task to Mr. X
-$lang["notification_project_task_started"] = "Started a task.";
-$lang["notification_project_task_finished"] = "Finished a task.";
-$lang["notification_project_task_reopened"] = "Reopened a task.";
-$lang["notification_project_task_deleted"] = "Deleted a task.";
-$lang["notification_project_task_commented"] = "Commented on a task.";
-$lang["notification_project_member_added"] = "Added %s in a project."; //Added Mr. X in a project.
-$lang["notification_project_member_deleted"] = "Deleted %s from a project."; //Deleted Mr. X from a project.
-$lang["notification_project_file_added"] = "Added a file in project.";
-$lang["notification_project_file_deleted"] = "Deleted a file from project.";
-$lang["notification_project_file_commented"] = "Commented on a file.";
-$lang["notification_project_comment_added"] = "Commented on a project.";
-$lang["notification_project_comment_replied"] = "Replied on a project comment.";
-$lang["notification_project_customer_feedback_added"] = "Commented on a project.";
-$lang["notification_project_customer_feedback_replied"] = "Replied on a comment.";
-$lang["notification_client_signup"] = "Signed up as a new client."; //Mr. X signed up as a new client.
-$lang["notification_invoice_online_payment_received"] = "Submitted a online payment.";
-$lang["notification_leave_application_submitted"] = "Submitted a leave application.";
-$lang["notification_leave_approved"] = "Approve a leave of %s."; //Approve a leave of Mr. X
-$lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X
-$lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X
-$lang["notification_leave_canceled"] = "Canceled a leave appliction.";
-$lang["notification_ticket_created"] = "Created a new ticket.";
-$lang["notification_ticket_commented"] = "Commented on a ticket.";
-$lang["notification_ticket_closed"] = "Closed the ticket.";
-$lang["notification_ticket_reopened"] = "Reopened the ticket.";
+$lang["notification_project_created"] = "Δημιούργησε ένα νέο Έργο.";
+$lang["notification_project_deleted"] = "Διέγραψε ένα Έργο.";
+$lang["notification_project_task_created"] = "Δημιούργησε μία νέα Εργασία.";
+$lang["notification_project_task_updated"] = "Ενημέρωσε μια Εργασία.";
+$lang["notification_project_task_assigned"] = "Ανέθεσε μια Εργασία στον/στην %s"; //Assigned a task to Mr. X
+$lang["notification_project_task_started"] = "Ξεκίνησε μια Εργασία.";
+$lang["notification_project_task_finished"] = "Ολοκλήρωσε μια Εργασία.";
+$lang["notification_project_task_reopened"] = "Ξανάνοιξε μια Εργασία.";
+$lang["notification_project_task_deleted"] = "Διέγραψε μια Εργασία.";
+$lang["notification_project_task_commented"] = "Σχολίασε μια Εργασία.";
+$lang["notification_project_member_added"] = "Πρόσθεσε τον/την %s σε ένα Έργο."; //Added Mr. X in a project.
+$lang["notification_project_member_deleted"] = "Διέγραψε τον/την %s από ένα Έργο."; //Deleted Mr. X from a project.
+$lang["notification_project_file_added"] = "Πρόσθεσε ένα αρχείο σε ένα Έργο.";
+$lang["notification_project_file_deleted"] = "Διέγραψε ένα αρχείο από ένα Έργο.";
+$lang["notification_project_file_commented"] = "Σχολίασε σε ένα αρχείο.";
+$lang["notification_project_comment_added"] = "Σχολίασε σε ένα Έργο.";
+$lang["notification_project_comment_replied"] = "Απάντησε σε σχόλιο ένος Έργου.";
+$lang["notification_project_customer_feedback_added"] = "Προστέθηκε ανατροφοδότηση πελάτη σε ένα Έργο.";
+$lang["notification_project_customer_feedback_replied"] = "Απαντήθηκε ανατροφοδότηση πελάτη σε ένα Έργο.";
+$lang["notification_client_signup"] = "Εγγράφηκε ως νέος πελάτης."; //Mr. X signed up as a new client.
+$lang["notification_invoice_online_payment_received"] = "Καταχώρησε μια ηλεκτρονική πληρωμή.";
+$lang["notification_leave_application_submitted"] = "Καταχώρησε μια αίτηση άδειας.";
+$lang["notification_leave_approved"] = "Ενέκρινε μια άδεια του/της %s."; //Approve a leave of Mr. X
+$lang["notification_leave_assigned"] = "Ανέθεσε μια άδεια στον/στην %s."; //Assigned a leave to Mr. X
+$lang["notification_leave_rejected"] = "Απέρριψε μια άδεια του/της %s."; //Approve a leave of Mr. X
+$lang["notification_leave_canceled"] = "Ακύρωσε μια αίτηση αδείας.";
+$lang["notification_ticket_created"] = "Δημιούργησε ένα νέο Αίτημα.";
+$lang["notification_ticket_commented"] = "Σχολίασε ένα Αίτημα.";
+$lang["notification_ticket_closed"] = "Έκλεισε ένα Αίτημα.";
+$lang["notification_ticket_reopened"] = "Ξανάνοιξε ένα Αίτημα.";
 
-$lang["general_notification"] = "General notification";
+$lang["general_notification"] = "Γενική ειδοποίηση";
 
-$lang["disable_online_payment"] = "Disable online payment";
-$lang["disable_online_payment_description"] = "Hide online payment options in invoice for this client.";
+$lang["disable_online_payment"] = "Απενεργοποίηση ηλεκτρονικών πληρωμών";
+$lang["disable_online_payment_description"] = "Απόκρυψη επιλογών ηλεκτρονικών πληρωμών για αυτόν τον πελάτη.";
 
-$lang["client_can_view_project_files"] = "Client can view project files?";
-$lang["client_can_add_project_files"] = "Client can add project files?";
-$lang["client_can_comment_on_files"] = "Client can comment of files?";
-$lang["mark_invoice_as_not_paid"] = "Mark as Not paid"; //Change invoice status to Not Paid
+$lang["client_can_view_project_files"] = "Ο πελάτης μπορεί να δει αρχεία του Έργου;";
+$lang["client_can_add_project_files"] = "Ο πελάτης μπορεί να προσθέσει αρχεία στο Έργο;";
+$lang["client_can_comment_on_files"] = "Ο πελάτης μπορεί να σχολιάσει αρχεία;";
+$lang["mark_invoice_as_not_paid"] = "Σήμανση τιμολογίου ως ανεξόφλητο"; //Change invoice status to Not Paid
 
-$lang["set_team_members_permission"] = "Set team members persmissions";
-$lang["can_view_team_members_contact_info"] = "Can view team members contact info?";
-$lang["can_view_team_members_social_links"] = "Can view team members social links?";
+$lang["set_team_members_permission"] = "Ορισμός δικαιωμάτων μέλους ομάδας";
+$lang["can_view_team_members_contact_info"] = "Μπορεί να δει στοιχεία επικοινωνίας μέλους ομάδας;";
+$lang["can_view_team_members_social_links"] = "Μπορεί να δει κοινωνικά δίκτυα μέλους ομάδας;";
 
-$lang["collaborator"] = "Collaborator";
-$lang["collaborators"] = "Collaborators";
+$lang["collaborator"] = "Συνεργάτης";
+$lang["collaborators"] = "Συνεργάτες";
 
 /* Version 1.4 */
 
-$lang["modules"] = "Modules";
-$lang["manage_modules"] = "Manage Modules";
-$lang["module_settings_instructions"] = "Select the modules you want to use.";
+$lang["modules"] = "Δομοστοιχεία";
+$lang["manage_modules"] = "Διαχείριση Δομοστοιχείων";
+$lang["module_settings_instructions"] = "Επιλέξτε τα δομοστοιχεία που θέλετε να χρησιμοποιείτε.";
 
-$lang["task_point_help_text"] = "Task point considered as a task value. You can set 5 points for very difficult tasks and 1 point for easy tasks."; //meaning of task point
+$lang["task_point_help_text"] = "Οι πόντοι προσδιορίζουν την αξία μιας Εργασίας. Δύσκολες Εργασίες αξίζουν 5 πόντους, ενώ πιο απλές αξίζουν μόνο 1."; //meaning of task point
 
-$lang["mark_as_open"] = "Mark as Open";
-$lang["mark_as_closed"] = "Mark as Closed";
+$lang["mark_as_open"] = "Σήμανση ως Ανοιχτό";
+$lang["mark_as_closed"] = "Σήμανση ως Κλειστό";
 
-$lang["ticket_assignee"] = "Ticket assignee";
+$lang["ticket_assignee"] = "Υπεύθυνος Αιτήματος";
 
-$lang["estimate"] = "Estimate";
-$lang["estimates"] = "Estimates";
-$lang["estimate_request"] = "Estimate Request";
-$lang["estimate_requests"] = "Estimate Requests";
-$lang["estimate_list"] = "Estimate List";
-$lang["estimate_forms"] = "Estimate Forms";
-$lang["estimate_request_forms"] = "Estimate Request Forms";
+$lang["estimate"] = "Εκτίμηση";
+$lang["estimates"] = "Εκτιμήσεις";
+$lang["estimate_request"] = "Αίτηση Εκτίμησης";
+$lang["estimate_requests"] = "Αιτήσεις Εκτιμήσεων";
+$lang["estimate_list"] = "Λίστα Εκτιμήσεων";
+$lang["estimate_forms"] = "Φόρμες Εκτιμήσεων";
+$lang["estimate_request_forms"] = "Φόρμες Αίτησης Εκτιμήσεων";
 
-$lang["add_form"] = "Add form";
-$lang["edit_form"] = "Edit form";
-$lang["delete_form"] = "Delete form";
+$lang["add_form"] = "Προσθήκη Φόρμας";
+$lang["edit_form"] = "Επεξεργασία Φόρμας";
+$lang["delete_form"] = "Διαγραφή Φόρμας";
 
-$lang["add_field"] = "Add field";
-$lang["placeholder"] = "Placeholder";
-$lang["required"] = "Required";
+$lang["add_field"] = "Προσθήκη Πεδίου";
+$lang["placeholder"] = "Παράδειγμα";
+$lang["required"] = "Υποχρεωτικό";
 
-$lang["field_type"] = "Field Type";
-$lang["preview"] = "Preview";
+$lang["field_type"] = "Τύπος Πεδίου";
+$lang["preview"] = "Προεπισκόπηση";
 
-$lang["field_type_text"] = "Text";
-$lang["field_type_textarea"] = "Textarea";
-$lang["field_type_select"] = "Select";
-$lang["field_type_multi_select"] = "Multi Select";
+$lang["field_type_text"] = "Κείμενο";
+$lang["field_type_textarea"] = "Μεγάλο Κείμενο";
+$lang["field_type_select"] = "Επιλογή";
+$lang["field_type_multi_select"] = "Πολλαπλή Επιλογή";
 
-$lang["request_an_estimate"] = "Request an Estimate";
-$lang["estimate_submission_message"] = "Your request has been submitted successfully!";
+$lang["request_an_estimate"] = "Αιτηθείτε μια Εκτίμηση";
+$lang["estimate_submission_message"] = "Η αίτησή σας έχει υποβληθεί επιτυχώς!";
 
-$lang["hold"] = "Hold";
-$lang["processing"] = "Processing";
-$lang["estimated"] = "Estimated";
+$lang["hold"] = "Σε Αναμονή";
+$lang["processing"] = "Υπό Επεξεργασία";
+$lang["estimated"] = "Εκτιμήθηκε";
 
-$lang["add_estimate"] = "Add estimate";
-$lang["edit_estimate"] = "Edit estimate";
-$lang["delete_estimate"] = "Delete estimate";
-$lang["valid_until"] = "Valid until";
-$lang["estimate_date"] = "Estimate date";
-$lang["accepted"] = "Accepted";
-$lang["declined"] = "Declined";
-$lang["sent"] = "Sent";
-$lang["estimate_preview"] = "Estimate Preview";
-$lang["estimate_to"] = "Estimate To";
+$lang["add_estimate"] = "Προσθήκη Εκτίμησης";
+$lang["edit_estimate"] = "Επεξεργασία Εκτίμησης";
+$lang["delete_estimate"] = "Διαγραφή Εκτίμησης";
+$lang["valid_until"] = "Ισχύει μέχρι";
+$lang["estimate_date"] = "Ημερομηνία Εκτίμησης";
+$lang["accepted"] = "Εγκρίθηκε";
+$lang["declined"] = "Απορρίφθηκε";
+$lang["sent"] = "Εστάλη";
+$lang["estimate_preview"] = "Προεπισκόπηση Εκτίμησης";
+$lang["estimate_to"] = "Εκτίμηση για";
 
-$lang["can_access_estimates"] = "Can access estimates?";
-$lang["request_an_estimate"] = "Request an estimate";
-$lang["estimate_request_form_selection_title"] = "Please select a form from the following list to submit your request.";
+$lang["can_access_estimates"] = "Έχει πρόσβαση στις Εκτιμήσεις";
+$lang["request_an_estimate"] = "Αιτηθείτε μία Εκτίμηση";
+$lang["estimate_request_form_selection_title"] = "Παρακαλώ επιλέξτε μία από τις φόρμες στην ακόλουθη λίστα για να υποβάλλετε την αίτησή σας.";
 
-$lang["mark_as_processing"] = "Mark as Processing";
-$lang["mark_as_estimated"] = "Mark as Estimated";
-$lang["mark_as_hold"] = "Mark as Hold";
-$lang["mark_as_canceled"] = "Mark as Canceled";
+$lang["mark_as_processing"] = "Σήμανση ως Υπό Επεξεργασία";
+$lang["mark_as_estimated"] = "Σήμανση ως Εκτιμήθηκε";
+$lang["mark_as_hold"] = "Σήμανση ως Σε Αναμονή";
+$lang["mark_as_canceled"] = "Σήμανση ως Ακυρωμένο";
 
-$lang["mark_as_sent"] = "Mark as Sent";
-$lang["mark_as_accepted"] = "Mark as Accepted";
-$lang["mark_as_rejected"] = "Mark as Rejected";
-$lang["mark_as_declined"] = "Mark as Declined";
+$lang["mark_as_sent"] = "Σήμανση ως Απεσταλμένο";
+$lang["mark_as_accepted"] = "Σήμανση ως Εγκεκριμένο";
+$lang["mark_as_rejected"] = "Σήμανση ως Απορριμμένο";
+$lang["mark_as_declined"] = "Σήμανση ως Απορριμμένο";
 
-$lang["estimate_request_received"] = "Estimate request received";
-$lang["estimate_sent"] = "Estimate sent";
-$lang["estimate_accepted"] = "Estimate accepted";
-$lang["estimate_rejected"] = "Estimate rejected";
+$lang["estimate_request_received"] = "Λήφθηκε Αίτηση Εκτίμησης";
+$lang["estimate_sent"] = "Η Εκτίμηση εστάλη";
+$lang["estimate_accepted"] = "Η Εκτίμηση εγκρίθηκε";
+$lang["estimate_rejected"] = "Η Εκτίμηση απορρίφθηκε";
 
-$lang["notification_estimate_request_received"] = "Submitted an estimate request";
-$lang["notification_estimate_sent"] = "Sent an estimate";
-$lang["notification_estimate_accepted"] = "Accepted an estimate";
-$lang["notification_estimate_rejected"] = "Rejected an estimate";
+$lang["notification_estimate_request_received"] = "Καταχώρησε μια αίτηση Εκτίμησης";
+$lang["notification_estimate_sent"] = "Απέστειλε μια Εκτίμηση";
+$lang["notification_estimate_accepted"] = "Ενέκρινε μια Εκτίμηση";
+$lang["notification_estimate_rejected"] = "Απέρριψε μια Εκτίμηση";
 
-$lang["clone_project"] = "Clone Project";
-$lang["copy_tasks"] = "Copy tasks";
-$lang["copy_project_members"] = "Copy project members";
-$lang["copy_milestones"] = "Copy milestones";
-$lang["copy_same_assignee_and_collaborators"] = "Copy same assignee and collaborators";
-$lang["copy_tasks_start_date_and_deadline"] = "Copy tasks start date and deadline";
-$lang["task_comments_will_not_be_included"] = "Tasks comments will not be included";
-$lang["project_cloned_successfully"] = "The project has been cloned successfully";
+$lang["clone_project"] = "Αντιγραφή Έργου";
+$lang["copy_tasks"] = "Αντιγραφή Εργασιών";
+$lang["copy_project_members"] = "Αντιγραφή Μελών";
+$lang["copy_milestones"] = "Αντιγραφή Οροσήμων";
+$lang["copy_same_assignee_and_collaborators"] = "Αντιγραφή υπευθύνου και συνεργατών";
+$lang["copy_tasks_start_date_and_deadline"] = "Αντιγραφή ημερομηνίας εκκίνησης και λήξης Εργασιών";
+$lang["task_comments_will_not_be_included"] = "Τα σχόλια των Εργασιών δε θα συμπεριληφθούν";
+$lang["project_cloned_successfully"] = "Το Έργο έχει αντιγραφεί επιτυχώς";
 
-$lang["search"] = "Search";
-$lang["no_record_found"] = "No record found.";
+$lang["search"] = "Αναζήτηση";
+$lang["no_record_found"] = "Δε βρέθηκαν αποτελέσματα.";
 $lang["excel"] = "Excel";
-$lang["print_button_help_text"] = "Press escape when finished.";
-$lang["are_you_sure"] = "Are you sure?";
-$lang["file_upload_instruction"]="Drag-and-drop documents here <br /> (or click to browse...)";
-$lang["file_name_too_long"]="Filename is too long.";
-$lang["scrollbar"]="Scrollbar";
+$lang["print_button_help_text"] = "Πατήστε το ESC μόλις είστε έτοιμοι.";
+$lang["are_you_sure"] = "Είστε σίγουρος/η?";
+$lang["file_upload_instruction"]="Σύρετε αρχεία εδώ <br /> (η κάντε κλικ για να επιλέξετε...)";
+$lang["file_name_too_long"]="Το όνομα αρχείου είναι πολύ μεγάλο.";
+$lang["scrollbar"]="Γραμμή Κύλισης";
 
 $lang["short_sunday"] = "Κυρ";
 $lang["short_monday"] = "Δευ";
@@ -883,175 +883,175 @@ $lang["short_december"] = "Δεκ";
 
 /* Version 1.5 */
 
-$lang["no_such_file_or_directory_found"] = "No such file or directory.";
+$lang["no_such_file_or_directory_found"] = "Δεν υπάρχει τέτοιο αρχείο ή φάκελος.";
 $lang["gantt"] = "Gantt";
-$lang["not_specified"] = "Not specified";
-$lang["group_by"] = "Group by";
-$lang["create_invoice"] = "Create Invoice";
-$lang["include_all_items_of_this_estimate"] = "Include all items of this estimate";
-$lang["edit_payment"] = "Edit payment";
-$lang["disable_client_login"] = "Disable client login";
-$lang["disable_client_signup"] = "Disable client signup";
+$lang["not_specified"] = "Απροσδιόριστο";
+$lang["group_by"] = "Ομαδοποίηση κατά";
+$lang["create_invoice"] = "Δημιουργία Τιμολογίου";
+$lang["include_all_items_of_this_estimate"] = "Συμπερίληψη όλων των προϊόντων αυτής της Εκτίμησης";
+$lang["edit_payment"] = "Επεξεργασία Πληρωμής";
+$lang["disable_client_login"] = "Απενεργοποίηση Σύνδεσης Πελάτη";
+$lang["disable_client_signup"] = "Απενεργοποίηση Εγγραφής Πελάτη";
 
-$lang["chart"] = "Chart";
-$lang["signin_page_background"] = "Signin page background";
-$lang["show_logo_in_signin_page"] = "Show logo in signin page";
-$lang["show_background_image_in_signin_page"] = "Show background image in signin page";
+$lang["chart"] = "Διάγραμμα";
+$lang["signin_page_background"] = "Φόντο σελίδας σύνδεσης";
+$lang["show_logo_in_signin_page"] = "Προβολή λογοτύπου στη σελίδα σύνδεσης";
+$lang["show_background_image_in_signin_page"] = "Προβολή εικόνας φόντου στη σελίδα σύνδεσης";
 
 /* Version 1.6 */
 
-$lang["more"] = "More";
-$lang["custom"] = "Custom";
-$lang["clear"] = "Clear";
-$lang["expired"] = "Expired";
-$lang["enable_attachment"] = "Enable attachment";
-$lang["custom_fields"] = "Custom fields";
-$lang["edit_field"] = "Edit field";
-$lang["delete_field"] = "Delete field";
-$lang["client_info"] = "Client info";
-$lang["edit_expenses_category"] = "Edit expenses category";
-$lang["eelete_expenses_category"] = "Delete expenses category";
-$lang["empty_starred_projects"] = "To access your favorite projects quickly, please go to the project view and mark the star.";
-$lang["empty_starred_clients"] = "To access your favorite clients quickly, please go to the client view and mark the star.";
+$lang["more"] = "Περισσότερα";
+$lang["custom"] = "Προσαρμοσμένο";
+$lang["clear"] = "Καθαρισμός";
+$lang["expired"] = "Ληγμένο";
+$lang["enable_attachment"] = "Ενεργοποίηση Συνημμένου";
+$lang["custom_fields"] = "Προσαρμοσμένα Πεδία";
+$lang["edit_field"] = "Επεξεργασία Πεδίου";
+$lang["delete_field"] = "Διαγραφή Πεδίου";
+$lang["client_info"] = "Στοιχεία Πελάτη";
+$lang["edit_expenses_category"] = "Επεξεργασία Κατηγορίας Εξόδων";
+$lang["eelete_expenses_category"] = "Διαγραφή Κατηγορίας Εξόδων";
+$lang["empty_starred_projects"] = "Για να πλοηγηθείτε στα αγαπημένα σας Έργα γρήγορα, παρακαλώ πηγαίνετε στην Προβολή Έργου και πατήστε στο αστεράκι.";
+$lang["empty_starred_clients"] = "Για να πλοηγηθείτε στους αγαπημένους σας Πελάτες γρήγορα, παρακαλώ πηγαίνετε στην Προβολή Πελάτη και πατήστε στο αστεράκι.";
 $lang["download_zip_name"] = "documents";
-$lang["invoice_prefix"] = "Invoice prefix";
-$lang["invoice_style"] = "Invoice style";
-$lang["delete_confirmation_message"] = " Are you sure? You won't be able to undo this action!";
-$lang["left"] = "Left";
-$lang["right"] = "Right";
-$lang["currency_position"] = "Currency Position";
-$lang["recipient"] = "Recipient";
+$lang["invoice_prefix"] = "Πρόθεμα Τιμολογίου";
+$lang["invoice_style"] = "Στυλ Τιμολογίου";
+$lang["delete_confirmation_message"] = "Είστε βέβαιος/η; Δε θα μπορείτε να αναιρέσετε αυτή την ενέργεια!";
+$lang["left"] = "Αριστερά";
+$lang["right"] = "Δεξιά";
+$lang["currency_position"] = "Θέση Νομισματικού Συμβόλου";
+$lang["recipient"] = "Αποδέκτης";
 
-$lang["new_message_sent"] = "New message sent";
-$lang["message_reply_sent"] = "Message replied";
-$lang["notification_new_message_sent"] = "Sent a message.";
-$lang["notification_message_reply_sent"] = "Replied a message.";
-$lang["invoice_payment_confirmation"] = "Invoice payment confirmation";
-$lang["notification_invoice_payment_confirmation"] = "Payment received";
+$lang["new_message_sent"] = "Νέο μήνυμα εστάλη";
+$lang["message_reply_sent"] = "Το μήνυμα απαντήθηκε";
+$lang["notification_new_message_sent"] = "Έστειλε ένα μήνυμα.";
+$lang["notification_message_reply_sent"] = "Απάντησε σε ένα μήνυμα.";
+$lang["invoice_payment_confirmation"] = "Επιβεβαίωση Πληρωμής Τιμολογίου";
+$lang["notification_invoice_payment_confirmation"] = "Επιβεβαίωση Πληρωμής Τιμολογίου";
 
 /* Version 1.7 */
 
-$lang["client_can_create_projects"] = "Client can create projects?";
-$lang["client_can_view_timesheet"] = "Client can view timesheet?";
-$lang["client_can_view_gantt"] = "Client can view gantt?";
-$lang["client_can_view_overview"] = "Client can view project overview?";
-$lang["client_can_view_milestones"] = "Client can view milestones?";
+$lang["client_can_create_projects"] = "Ο πελάτης μπορεί να δημιουργήσει Έργα;";
+$lang["client_can_view_timesheet"] = "Ο πελάτης μπορεί να δει χρονοδιαγράμματα;";
+$lang["client_can_view_gantt"] = "Ο πελάτης μπορεί να δει το Gantt;";
+$lang["client_can_view_overview"] = "Ο πελάτης μπορεί να δει την Επισκόπηση Έργου;";
+$lang["client_can_view_milestones"] = "Ο πελάτης μπορεί να δει Ορόσημα;";
 
-$lang["items"] = "Items";
-$lang["edit_item"] = "Edit item";
-$lang["item_edit_instruction"] = "Note: The changes will not be affected on existing invoices or estimates.";
+$lang["items"] = "Προϊόντα";
+$lang["edit_item"] = "Επεξεργασία Προϊόντος";
+$lang["item_edit_instruction"] = "Σημείωση: Οι αλλαγές δε θα επηρεάσουν προϋπάρχοντα τιμολόγια και εκτιμήσεις.";
 
-$lang["recurring"] = "Recurring";
-$lang["repeat_every"] = "Repeat every"; //Ex. repeat every 2 months
-$lang["interval_days"] = "Day(s)";
-$lang["interval_weeks"] = "Week(s)";
-$lang["interval_months"] = "Month(s)";
-$lang["interval_years"] = "Year(s)";
-$lang["cycles"] = "Cycles";
-$lang["recurring_cycle_instructions"] = "Recurring will be stopped after the number of cycles. Keep it blank for infinity.";
-$lang["next_recurring_date"] = "Next recurring";
-$lang["stopped"] = "Stopped";
-$lang["past_recurring_date_error_message_title"] = "The selected bill date and repeat type returns a past date.";
-$lang["past_recurring_date_error_message"] = "Next recurring date must be a future date. Please enter a future date.";
-$lang["sub_invoices"] = "Sub invoices";
+$lang["recurring"] = "Επαναλαμβανόμενο";
+$lang["repeat_every"] = "Επανάληψη κάθε"; //Ex. repeat every 2 months
+$lang["interval_days"] = "Μέρα/ες";
+$lang["interval_weeks"] = "Εβδομάδα/ες";
+$lang["interval_months"] = "Μήνας/ες";
+$lang["interval_years"] = "Χρόνο/ια";
+$lang["cycles"] = "Κύκλοι";
+$lang["recurring_cycle_instructions"] = "Η επανάληψη θα πραγματοποιηθεί για τον αριθμό των κύκλων. Αφήστε το κενό για να επαναλμβάνεται για πάντα.";
+$lang["next_recurring_date"] = "Επόμενη επανάληψη";
+$lang["stopped"] = "Σταματημένο";
+$lang["past_recurring_date_error_message_title"] = "Η επιλεγμένη ημερομηνία σε συνδυασμό με τις ρυθμίσεις επανάληψης επιστρέφουν περασμένη ημερομηνία.";
+$lang["past_recurring_date_error_message"] = "Η επόμενη επανάληψη πρέπει να είναι μελλοντική ημερομηνία.";
+$lang["sub_invoices"] = "Υπο-τιμολόγια";
 
-$lang["cron_job_required"] = "Cron Job is required for this action!";
+$lang["cron_job_required"] = "Αυτή η ενέργεια απαιτεί Cron Job!";
 
-$lang["recurring_invoice_created_vai_cron_job"] = "Recurring invoice created via Cron Job";
-$lang["notification_recurring_invoice_created_vai_cron_job"] = "New invoice generated";
+$lang["recurring_invoice_created_vai_cron_job"] = "Η Επαναλαμβανόμενη Τιμολόγηση έχει ρυθμιστεί μέσω Cron Job";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "Δημιουργήθηκε νέο τιμολόγιο (Cron Job)";
 
-$lang["field_type_number"] = "Number";
-$lang["show_in_table"] = "Show in table";
-$lang["show_in_invoice"] = "Show in invoice";
-$lang["visible_to_admins_only"] = "Visible to admins only";
-$lang["hide_from_clients"] = "Hide from clients";
-$lang["public"] = "Public";
+$lang["field_type_number"] = "Αριθμός";
+$lang["show_in_table"] = "Εμφάνιση στους πίνακες";
+$lang["show_in_invoice"] = "Εμφάνιση στα τιμολόγια";
+$lang["visible_to_admins_only"] = "Εμφάνιση μόνο για διαχειριστές";
+$lang["hide_from_clients"] = "Απόκρυψη από πελάτες";
+$lang["public"] = "Δημόσιο";
 
-$lang["help"] = "Help";
-$lang["articles"] = "Articles";
-$lang["add_article"] = "Add new article";
-$lang["edit_article"] = "Edit article";
-$lang["delete_article"] = "Delete article";
-$lang["can_manage_help_and_knowledge_base"] = "Can manage help and knowledge base?";
+$lang["help"] = "Βοήθεια";
+$lang["articles"] = "Άρθρα";
+$lang["add_article"] = "Προσθήκη νέου άρθρου";
+$lang["edit_article"] = "Επεξεργασία άρθρου";
+$lang["delete_article"] = "Διαγραφή άρθρου";
+$lang["can_manage_help_and_knowledge_base"] = "Μπορεί να διαχειριστεί τη Βοήθεια και τη Βάση Γνώσης";
 
-$lang["how_can_we_help"] = "How can we help?";
-$lang["help_page_title"] = "Internal Wiki";
-$lang["search_your_question"] = "Search your question";
-$lang["no_result_found"] = "No result found.";
-$lang["sort"] = "Sort";
-$lang["total_views"] = "Total views";
+$lang["how_can_we_help"] = "Πώς μπορούμε να βοηθήσουμε;";
+$lang["help_page_title"] = "Εσωτερική Wiki";
+$lang["search_your_question"] = "Αναζητήστε το πρόβλημά σας";
+$lang["no_result_found"] = "Δε βρέθηκε κανένα αποτέλεσμα.";
+$lang["sort"] = "Ταξινόμηση";
+$lang["total_views"] = "Συνολικές Εμφανίσεις";
 
-$lang["help_and_support"] = "Help & Support";
-$lang["knowledge_base"] = "Knowledge base";
+$lang["help_and_support"] = "Βοήθεια & Υποστήριξη";
+$lang["knowledge_base"] = "Βάση Γνώσης";
 
-$lang["payment_success_message"] = "Your payment has been completed.";
-$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
-$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+$lang["payment_success_message"] = "Η πληρωμή σας έχει ολοκληρωθεί.";
+$lang["payment_card_charged_but_system_error_message"] = "Η κάρτα σας ενδεχομένως να έχει χρεωθεί, αλλά δε μπορέσαμε να ολοκληρώσουμε τη διαδικασία. Παρακαλώ επικοινωνήστε με το διαχειριστή σας.";
+$lang["card_payment_failed_error_message"] = "Δε μπορούμε να επεξεργαστούμε την πληρωμή σας αυτή τη στιγμή, παρακαλώ δοκιμάστε αργότερα.";
 
-$lang["message_received"] = "Message received";
-$lang["in_number_of_days"] = "In %s days"; //Ex. In 7 days
-$lang["details"] = "Details";
-$lang["summary"] = "Summary";
-$lang["project_timesheet"] = "Project timesheet";
+$lang["message_received"] = "Μήνυμα ελήφθη";
+$lang["in_number_of_days"] = "Σε %s μέρες"; //Ex. In 7 days
+$lang["details"] = "Λεπτομέριες";
+$lang["summary"] = "Σύνοψη";
+$lang["project_timesheet"] = "Χρονοδιάγραμμα Έργου";
 
-$lang["set_event_permissions"] = "Set event permissions";
-$lang["disable_event_sharing"] = "Disable event sharing";
-$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
-$lang["can_manage_team_members_project_timesheet"] = "Can manage team member's project timesheet?";
+$lang["set_event_permissions"] = "Ορισμός δικαιωμάτων Εκδηλώσεων";
+$lang["disable_event_sharing"] = "Απενεργοποίηση κοινοποίησης Εκδηλώσεων";
+$lang["can_update_team_members_general_info_and_social_links"] = "Μπορεί να επεξεργαστεί τις γενικές πληροφορίες και τα κοινωνικά δίκτυα μέλους ομάδας";
+$lang["can_manage_team_members_project_timesheet"] = "Μπορεί να διαχειριστεί το χρονοδιάγραμμα Έργου μέλους ομάδας";
 
 $lang["cron_job"] = "Cron Job";
-$lang["cron_job_link"] = "Cron Job link";
-$lang["last_cron_job_run"] = "Last Cron Job run";
-$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
-$lang["recommended_execution_interval"] = "Recommended execution interval";
+$lang["cron_job_link"] = "Σύνδεσμος Cron Job";
+$lang["last_cron_job_run"] = "Τελευταία εκτέλεση Cron Job";
+$lang["created_from"] = "Δημιουργήθηκε από"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Συνιστώμενη συχνότητα εκτέλεσης";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
+$lang["integration"] = "Ενσωάτωση";
+$lang["get_your_key_from_here"] = "Προμηθευτείτε:";
 $lang["re_captcha_site_key"] = "Site key";
 $lang["re_captcha_secret_key"] = "Secret key";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["re_captcha_error-missing-input-secret"] = "Το reCAPTCHA secret λείπει";
+$lang["re_captcha_error-invalid-input-secret"] = "Το reCAPTCHA secret δεν είναι έγκυρο.";
+$lang["re_captcha_error-missing-input-response"] = "Παρακαλώ συμπληρώστε τον έλεγχο reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "Η παράμετρος απάντησης δεν είναι έγκυρη ή έχει παραμορφωθεί.";
+$lang["re_captcha_error-bad-request"] = "Το αίτημα δεν είναι έκγυρο ή έχει παραμορφωθεί.";
+$lang["re_captcha_expired"] = "Ο έλεγχος reCAPTCHA έχει λήξει. Παρακαλώ ξαναφορτώστε τη σελίδα.";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["yes_all_tickets"] = "Ναι, όλα τα αιτήματα";
+$lang["choose_ticket_types"] = "Επιλέξτε τύπους αιτημάτων";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["can_manage_all_projects"] = "Μπορεί να διαχειριστεί όλα τα Έργα";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Προβολή των πιο πρόσφατων σχολίων σε Αιτήματα στην κορυφή";
 
-$lang["new_event_added_in_calendar"] = "New event added calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["new_event_added_in_calendar"] = "Η νέα Εκδήλωση προστέθηκε στο Ημερολόγιο";
+$lang["notification_new_event_added_in_calendar"] = "Προστέθηκε μια νέα Εκδήλωση.";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["todo"] = "Προς Διεκπαιρέωση";
+$lang["add_a_todo"] = "Προσθήκη αντικειμένου προς διεκπαιρέωση...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Ομάδες Πελατών";
+$lang["add_client_group"] = "Προσθήκη Ομάδας Πελατών";
+$lang["edit_client_group"] = "Επεξεργασία Ομάδας Πελατών";
+$lang["delete_client_group"] = "Διαγραφή Ομάδας Πελατών";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Πρόθεμα Αιτήματος";
+$lang["add_a_task"] = "Προσθήκη Εργασίας...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Προσθήκη Κατάστασης Εργασίας";
+$lang["edit_task_status"] = "Επεξεργασία Κατάστασης Εργασίας";
+$lang["delete_task_status"] = "Διαγραφή Κατάστασης Εργασίας";
 
-$lang["list"] = "List";
+$lang["list"] = "Λίστα";
 $lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
-$lang["mark_project_as_hold"] = "Mark Project as Hold";
+$lang["priority"] = "Προτεραιότητα";
+$lang["moved_up"] = "Μετακινήθηκε προς τα πάνω";
+$lang["moved_down"] = "Μετακινήθηκε προς τα κάτω";
+$lang["mark_project_as_hold"] = "Σήμανση Έργου ως Αναμονή";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Επανάληψη";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Απόκρυψη λίστας μελών ομάδας;";
