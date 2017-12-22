@@ -43,11 +43,11 @@ $lang["currency"] = "Valuta";
 $lang["new"] = "Nuovo";
 $lang["open"] = "Aperto";
 $lang["closed"] = "Chiuso";
-$lang["date"] = "Date";
+$lang["date"] = "Data";
 $lang["yes"] = "Sì";
 $lang["no"] = "No";
 $lang["add_more"] = "Aggiungi altro";
-$lang["crop"] = "Crop";
+$lang["crop"] = "Taglia";
 $lang["income"] = "Reddito";
 $lang["income_vs_expenses"] = "Incassi e spese";
 
@@ -56,9 +56,9 @@ $lang["reset"] = "Reset";
 $lang["share_with"] = "Condividi con";
 $lang["company_name"] = "Nome della società";
 $lang["address"] = "Indirizzo";
-$lang["city"] = "City";
-$lang["state"] = "Stato";
-$lang["zip"] = "Zip";
+$lang["city"] = "Città";
+$lang["state"] = "Provincia";
+$lang["zip"] = "CAP";
 $lang["country"] = "Nazione";
 $lang["phone"] = "Telefono";
 $lang["private"] = "Privato";
@@ -77,7 +77,7 @@ $lang["monthly"] = "Mensile";
 $lang["weekly"] = "Settimanale";
 $lang["yearly"] = "Annuale";
 
-$lang["see_all"] = "Visuallizza tutti";
+$lang["see_all"] = "Visualizza tutti";
 
 /* messages */
 $lang["error_occurred"] = "Mi dispiace, errore durante aggiornamento<br /> Riprovare più tardi.";
@@ -90,7 +90,7 @@ $lang["record_saved"] = "Salvataggio avvenuto con successo";
 $lang["record_updated"] = "Aggiornamento avvenuto con successo.";
 $lang["record_cannot_be_deleted"] = "Il record in uso, non può essere cancellato";
 $lang["record_deleted"] = "Cancellazione avvenuta con successo.";
-$lang["record_undone"] = "La mofica è stata cancellata";
+$lang["record_undone"] = "La modifica è stata cancellata";
 $lang["settings_updated"] = "Le modfiche sono state aggiornate";
 $lang["enter_minimum_6_characters"] = "Inserisci almento 6 caratteri";
 $lang["message_sent"] = "Il messaggio è stato inviato";
@@ -151,7 +151,7 @@ $lang["team"] = "Team";
 $lang["select_a_team"] = "Seleziona un team";
 
 /* dashboard */
-$lang["dashboard"] = "Dashboard";
+$lang["dashboard"] = "Bacheca";
 
 /* attendance */
 $lang["add_attendance"] = "Aggiungi il tempo manualmente";
@@ -313,7 +313,7 @@ $lang["delete_client"] = "Cancella Cliente";
 $lang["client"] = "Cliente";
 $lang["clients"] = "Clienti";
 $lang["client_details"] = "Dettaglio Cliente";
-$lang["due"] = "Due";
+$lang["due"] = "Scadenza";
 
 $lang["add_contact"] = "Aggiungi contatto";
 $lang["edit_contact"] = "Modifica il contatto";
@@ -399,9 +399,9 @@ $lang["delete_timelog"] = "Cancella timelog";
 $lang["timesheet_statistics"] = "Statistiche attività";
 
 /* milestones */
-$lang["add_milestone"] = "Add milestone";
-$lang["edit_milestone"] = "Edit milestone";
-$lang["delete_milestone"] = "Delete milestone";
+$lang["add_milestone"] = "Aggiungi milestone";
+$lang["edit_milestone"] = "Modifica milestone";
+$lang["delete_milestone"] = "Cancella milestone";
 $lang["milestone"] = "Milestone";
 $lang["milestones"] = "Milestones";
 
@@ -433,7 +433,7 @@ $lang["assign_to"] = "Assegna a";
 $lang["assigned_to"] = "Assegnato";
 $lang["labels"] = "Etichette";
 $lang["to_do"] = "Da fare";
-$lang["in_progress"] = "In progress";
+$lang["in_progress"] = "In corso";
 $lang["done"] = "Fatto";
 $lang["task_info"] = "Informazioni Attività";
 $lang["points"] = "Punti";
@@ -443,7 +443,7 @@ $lang["task_status"] = "Stato Attività";
 /* comments */
 $lang["comment"] = "Commento";
 $lang["comments"] = "Commenti";
-$lang["write_a_comment"] = "scrivi comment...";
+$lang["write_a_comment"] = "scrivi commento...";
 $lang["write_a_reply"] = "rispondi a un commento...";
 $lang["post_comment"] = "Pubblica commento";
 $lang["post_reply"] = "Inviare una risposta";
@@ -473,14 +473,14 @@ $lang["ticket_id"] = "Ticket ID";
 $lang["client_replied"] = "Client replied";
 $lang["change_status"] = "Cambia stato";
 $lang["last_activity"] = "Ultima attività";
-$lang["open_tickets"] = "Tichets aperti";
+$lang["open_tickets"] = "Tikets aperti";
 $lang["ticket_status"] = "Stato Tichets";
 
 /* ticket types */
 
 $lang["add_ticket_type"] = "Aggiunti tipo di ticket ";
 $lang["ticket_type"] = "Ticket tipo";
-$lang["ticket_types"] = "Ticket typi";
+$lang["ticket_types"] = "Ticket tipi";
 $lang["edit_ticket_type"] = "Modifica tipo ticket";
 $lang["delete_ticket_type"] = "Cancella tipo ticket ";
 
@@ -1055,3 +1055,4 @@ $lang["mark_project_as_hold"] = "Mark Project as Hold";
 $lang["repeat"] = "Repeat";
 
 $lang["hide_team_members_list"] = "Hide team members list?";
+
