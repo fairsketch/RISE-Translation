@@ -984,74 +984,119 @@ $lang["total_views"] = "Total views";
 $lang["help_and_support"] = "Help & Support";
 $lang["knowledge_base"] = "Knowledge base";
 
-$lang["payment_success_message"] = "Your payment has been completed.";
-$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
-$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+$lang["payment_success_message"] = "Ваш платеж завершен.";
+$lang["payment_card_charged_but_system_error_message"] = "С вашей карты может взиматься плата, но мы не можем завершить процесс. Обратитесь к системному администратору.";
+$lang["card_payment_failed_error_message"] = "Мы не можем обработать ваш платеж сейчас, поэтому, пожалуйста, попробуйте снова позже.";
 
-$lang["message_received"] = "Message received";
-$lang["in_number_of_days"] = "In %s days"; //Ex. In 7 days
-$lang["details"] = "Details";
-$lang["summary"] = "Summary";
-$lang["project_timesheet"] = "Project timesheet";
+$lang["message_received"] = "Сообщение";
+$lang["in_number_of_days"] = "В %s дней"; //Ex. In 7 days
+$lang["details"] = "Детали";
+$lang["summary"] = "Итого";
+$lang["project_timesheet"] = "Отчетность";
 
-$lang["set_event_permissions"] = "Set event permissions";
-$lang["disable_event_sharing"] = "Disable event sharing";
-$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
-$lang["can_manage_team_members_project_timesheet"] = "Can manage team member's project timesheet?";
+$lang["set_event_permissions"] = "Укажите права на события";
+$lang["disable_event_sharing"] = "Отключить sharing событий";
+$lang["can_update_team_members_general_info_and_social_links"] = "Можно ли обновлять общую информацию и социальные ссылки?";
+$lang["can_manage_team_members_project_timesheet"] = "Можно ли управлять отчетностью проекта участника команды?";
 
-$lang["cron_job"] = "Cron Job";
-$lang["cron_job_link"] = "Cron Job link";
-$lang["last_cron_job_run"] = "Last Cron Job run";
-$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
-$lang["recommended_execution_interval"] = "Recommended execution interval";
+$lang["cron_job"] = "Работа Cron";
+$lang["cron_job_link"] = "Ссылка на Cron";
+$lang["last_cron_job_run"] = "Последний запуск Cron";
+$lang["created_from"] = "Создано"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Рекомендуемый интервал выполнения";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
+$lang["integration"] = "Интеграция";
+$lang["get_your_key_from_here"] = "Укажите ваш key здесь:";
 $lang["re_captcha_site_key"] = "Site key";
 $lang["re_captcha_secret_key"] = "Secret key";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret короткий";
+$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret не корректный.";
+$lang["re_captcha_error-missing-input-response"] = "Пожалуйста, выберите reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "Недопустимый или неправильный параметр ответа.";
+$lang["re_captcha_error-bad-request"] = "Недопустимый или неверный запрос.";
+$lang["re_captcha_expired"] = "reCAPTCHA истек. Пожалуйста, перезагрузите страницу.";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["yes_all_tickets"] = "Да, все тикеты";
+$lang["choose_ticket_types"] = "Выберите тип тикета";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["can_manage_all_projects"] = "Может редактировать все проекты";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Новые комментарии показывать сверху";
 
-$lang["new_event_added_in_calendar"] = "New event added calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["new_event_added_in_calendar"] = "Событие добавлено в календарь";
+$lang["notification_new_event_added_in_calendar"] = "Добавить новое событие.";
 
 $lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["add_a_todo"] = "Добавить задачу...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Категория";
+$lang["add_client_group"] = "Добавить категорию";
+$lang["edit_client_group"] = "Редактировать категорию";
+$lang["delete_client_group"] = "Удалить категорию";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Тикет префикс";
+$lang["add_a_task"] = "Добавить задачу...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Добавить новый статус";
+$lang["edit_task_status"] = "Редактировать статус";
+$lang["delete_task_status"] = "Удалить статус";
 
-$lang["list"] = "List";
-$lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
-$lang["mark_project_as_hold"] = "Mark Project as Hold";
+$lang["list"] = "Список";
+$lang["kanban"] = "Доска";
+$lang["priority"] = "Приоритет";
+$lang["moved_up"] = "Выше";
+$lang["moved_down"] = "Ниже";
+$lang["mark_project_as_hold"] = "Заморозить";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Повторить";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Скрыть сотрудника из списка?";
+
+/* Version 2.0 */
+
+$lang["summary_details"] = "Summary details";
+
+$lang["chat"] = "Chat";
+$lang["my_preferences"] = "My preferences";
+$lang["show_push_notification"] = "Show push notification";
+$lang["notification_sound_volume"] = "Notification sound volume";
+
+$lang["project_reference_in_tickets"] = "Enable project reference";
+
+$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
+$lang["hidden_menus"] = "Hidden menus";
+
+$lang["new_announcement_created"] = "New announcement created";
+$lang["notification_new_announcement_created"] = "Created an announcement.";
+
+$lang["month"] = "Month";
+$lang["profit"] = "Profit";
+
+$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
+$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
+$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
+$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
+$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+
+$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
+$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
+$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+
+$lang["can_delete_leave_application"] = "Can delete leave application?";
+$lang["no_of_decimals"] = "No. of decimals";
+
+$lang["checklist"] = "Checklist";
+$lang["delete_checklist_item"] = "Delete checklist item";
+
+$lang["save_and_show"] = "Save & show";
+$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+
+$lang["new_conversation"] = "New conversation";
+
+$lang["enable_web_notification"] = "Enable web notification";
+$lang["enable_email_notification"] = "Enable email notification";

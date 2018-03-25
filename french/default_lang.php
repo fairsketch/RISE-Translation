@@ -1055,3 +1055,48 @@ $lang["mark_project_as_hold"] = "Marquer le projet en attente";
 $lang["repeat"] = "Répéter";
 
 $lang["hide_team_members_list"] = "Cacher la liste des membres de l'équipe ?";
+
+/* Version 2.0 */
+
+$lang["summary_details"] = "Summary details";
+
+$lang["chat"] = "Chat";
+$lang["my_preferences"] = "My preferences";
+$lang["show_push_notification"] = "Show push notification";
+$lang["notification_sound_volume"] = "Notification sound volume";
+
+$lang["project_reference_in_tickets"] = "Enable project reference";
+
+$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
+$lang["hidden_menus"] = "Hidden menus";
+
+$lang["new_announcement_created"] = "New announcement created";
+$lang["notification_new_announcement_created"] = "Created an announcement.";
+
+$lang["month"] = "Month";
+$lang["profit"] = "Profit";
+
+$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
+$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
+$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
+$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
+$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+
+$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
+$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
+$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+
+$lang["can_delete_leave_application"] = "Can delete leave application?";
+$lang["no_of_decimals"] = "No. of decimals";
+
+$lang["checklist"] = "Checklist";
+$lang["delete_checklist_item"] = "Delete checklist item";
+
+$lang["save_and_show"] = "Save & show";
+$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+
+$lang["new_conversation"] = "New conversation";
+
+$lang["enable_web_notification"] = "Enable web notification";
+$lang["enable_email_notification"] = "Enable email notification";
