@@ -45,7 +45,7 @@ $lang["open"] = "Ouvert";
 $lang["closed"] = "Fermé";
 $lang["date"] = "Date";
 $lang["yes"] = "Oui";
-$lang["no"] = "No";
+$lang["no"] = "Non";
 $lang["add_more"] = "Ajouter plus";
 $lang["crop"] = "Couper";
 $lang["income"] = "Revenus";
@@ -77,7 +77,7 @@ $lang["monthly"] = "Mensuel";
 $lang["weekly"] = "Hebdomadaire";
 $lang["yearly"] = "Annuel";
 
-$lang["see_all"] = "Voir tous";
+$lang["see_all"] = "Tout voir";
 
 /* messages */
 $lang["error_occurred"] = "Désolé, une erreur est survenue lors du traitement de l'action ! <br /> Veuillez réessayer plus tard.";
@@ -106,11 +106,11 @@ $lang["admin_user_has_all_power"] = "Les Administrateurs peuvent accéder/modifi
 $lang["no_posts_to_show"] = "Pas de messages à afficher";
 
 /* team_member */
-$lang["add_team_member"] = "Ajouter membre de l'équipe";
+$lang["add_team_member"] = "Ajouter un membre";
 $lang["edit_team_member"] = "Modifier membre de l'équipe";
 $lang["delete_team_member"] = "Supprimer membre de l'équipe";
 $lang["team_member"] = "Membre de l'équipe";
-$lang["team_members"] = "Membres de l'équipes";
+$lang["team_members"] = "Membres de l'équipe";
 $lang["active_members"] = "Les membres actifs";
 $lang["inactive_members"] = "Les membres inactifs";
 $lang["first_name"] = "Prénom";
@@ -181,7 +181,7 @@ $lang["leave_type"] = "Type de congé";
 $lang["leave_types"] = "Types de congé";
 
 /* leave */
-$lang["apply_leave"] = "Appliquer congé";
+$lang["apply_leave"] = "Demande de congé";
 $lang["assign_leave"] = "Attribuer congé";
 $lang["leaves"] = "Congés";
 $lang["pending_approval"] = "Validation en attente";
@@ -593,7 +593,7 @@ $lang["taxes"] = "Taxes";
 $lang["edit_tax"] = "Modifier la taxe";
 $lang["delete_tax"] = "Effacer la taxe";
 $lang["percentage"] = "Pourcentage (%)";
-$lang["second_tax"] = "Seconde Taxe";
+$lang["second_tax"] = "Seconde taxe";
 
 /* Version 1.2 */
 $lang["available_on_invoice"] = "Disponible sur la facture";
@@ -642,7 +642,7 @@ $lang["mark_project_as_canceled"] = "Marquer le projet comme annulé";
 $lang["mark_project_as_open"] = "Marquer le projet comme ouvert";
 
 /* Version 1.3 */
-$lang["notification"] = "Notification";
+$lang["notification"] = "Notifications";
 $lang["notifications"] = "Notifications";
 $lang["notification_settings"] = "Paramètres de notification";
 $lang["enable_email"] = "Activer email";
@@ -704,8 +704,8 @@ $lang["notification_project_task_finished"] = "a fini une tâche.";
 $lang["notification_project_task_reopened"] = "a rouvert une tâche.";
 $lang["notification_project_task_deleted"] = "a supprimé une tâche.";
 $lang["notification_project_task_commented"] = "a commenté une tâche.";
-$lang["notification_project_member_added"] = "%s ajouté dans un projet."; //Added Mr. X in a project.
-$lang["notification_project_member_deleted"] = "%s supprimé d'un projet."; //Deleted Mr. X from a project.
+$lang["notification_project_member_added"] = "a ajouté %s dans un projet."; //Added Mr. X in a project.
+$lang["notification_project_member_deleted"] = "a supprimé %s d'un projet."; //Deleted Mr. X from a project.
 $lang["notification_project_file_added"] = "a ajouté un fichier dans le projet.";
 $lang["notification_project_file_deleted"] = "a supprimé un fichier du projet.";
 $lang["notification_project_file_commented"] = "a commenté un fichier.";
@@ -713,7 +713,7 @@ $lang["notification_project_comment_added"] = "a commenté un projet.";
 $lang["notification_project_comment_replied"] = "a répondu à un commentaire du projet.";
 $lang["notification_project_customer_feedback_added"] = "a commenté sur un retour client.";
 $lang["notification_project_customer_feedback_replied"] = "a répondu à un retour client.";
-$lang["notification_client_signup"] = "S'est enregistré en tant que nouveau client."; //Mr. X signed up as a new client.
+$lang["notification_client_signup"] = "s'est enregistré en tant que nouveau client."; //Mr. X signed up as a new client.
 $lang["notification_invoice_online_payment_received"] = "a soumis un paiement en ligne.";
 $lang["notification_leave_application_submitted"] = "a soumis une demande de congé.";
 $lang["notification_leave_approved"] = "a approuvé un congé de %s."; //Approve a leave of Mr. X
@@ -1058,45 +1058,45 @@ $lang["hide_team_members_list"] = "Cacher la liste des membres de l'équipe ?";
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Synthèse";
 
 $lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
-$lang["notification_sound_volume"] = "Notification sound volume";
+$lang["my_preferences"] = "Mes préférences";
+$lang["show_push_notification"] = "Afficher la notification push";
+$lang["notification_sound_volume"] = "Volume de notification";
 
-$lang["project_reference_in_tickets"] = "Enable project reference";
+$lang["project_reference_in_tickets"] = "Activer la référence du projet";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Masquer les menus de l'interface client";
+$lang["hidden_menus"] = "Menus masqués";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "Nouvelle annonce créée";
+$lang["notification_new_announcement_created"] = "a créé une annonce.";
 
-$lang["month"] = "Month";
+$lang["month"] = "Mois";
 $lang["profit"] = "Profit";
 
-$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
-$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
-$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
-$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
-$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
-$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+$lang["invoice_due_reminder_before_due_date"] = "Rappel de facture avant la date d'échéance";
+$lang["send_due_invoice_reminder_notification_before"] = "Envoyer un rappel de facture dû avant la date d'échéance";
+$lang["send_invoice_overdue_reminder_after"] = "Envoyer un rappel de retard de facture après";
+$lang["invoice_overdue_reminder"] = "Rappel de facture en retard";
+$lang["recurring_invoice_creation_reminder"] = "Rappel de création récurrente de facture";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Envoyer un rappel de facture récurrent avant la création";
 
-$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
-$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_invoice_due_reminder_before_due_date"] = "Rappel: facture due.";
+$lang["notification_invoice_overdue_reminder"] = "Rappel: facture est en retard.";
+$lang["notification_recurring_invoice_creation_reminder"] = "Une facture sera bientôt générée.";
 
-$lang["can_delete_leave_application"] = "Can delete leave application?";
-$lang["no_of_decimals"] = "No. of decimals";
+$lang["can_delete_leave_application"] = "Peux supprimer une demande de congé ?";
+$lang["no_of_decimals"] = "Nombre de décimales";
 
 $lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["delete_checklist_item"] = "Supprimer l'élément";
 
-$lang["save_and_show"] = "Save & show";
-$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+$lang["save_and_show"] = "Sauvegarder & afficher";
+$lang["total_leave_yearly"] = "Total des congés (annuel)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Nouvelle conversation";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "Activer les notifications web";
+$lang["enable_email_notification"] = "Activer les notifications emails";
