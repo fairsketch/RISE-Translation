@@ -1025,7 +1025,7 @@ $lang["choose_ticket_types"] = "Choisissez les types de billets";
 $lang["can_manage_all_projects"] = "Peut gérer tous les projets";
 $lang["show_most_recent_ticket_comments_at_the_top"] = "Afficher les commentaires des billets les plus récents en premier";
 
-$lang["new_event_added_in_calendar"] = "Nouvel calendrier ajouté aux événements";
+$lang["new_event_added_in_calendar"] = "Nouvel évènement ajouté au calendrier";
 $lang["notification_new_event_added_in_calendar"] = "Nouvel événement ajouté.";
 
 $lang["todo"] = "Tâches";
