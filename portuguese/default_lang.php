@@ -515,7 +515,7 @@ $lang["invoice_items"] = "Serviços da Fatura";
 $lang["edit_invoice"] = "Editar Fatura";
 $lang["delete_invoice"] = "Excluir Fatura";
 $lang["item"] = "Item";
-$lang["add_item"] = "Add serviço";
+$lang["add_item"] = "Add item";
 $lang["create_new_item"] = "Criar novo item";
 $lang["select_or_create_new_item"] = "Escolher da lista ou criar novo item ...";
 $lang["quantity"] = "Quantidade";
@@ -1046,6 +1046,7 @@ $lang["edit_task_status"] = "Editar o status da tarefa";
 $lang["delete_task_status"] = "Excluir o status da tarefa";
 
 $lang["list"] = "Lista";
+$lang["task_list"] = "Lista de Tarefas";
 $lang["kanban"] = "Kanban";
 $lang["priority"] = "Prioridade";
 $lang["moved_up"] = "Movido para cima";
@@ -1058,45 +1059,45 @@ $lang["hide_team_members_list"] = "Esconder a lista de membros da equipe?";
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Detalhes do Sumário";
 
 $lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
-$lang["notification_sound_volume"] = "Notification sound volume";
+$lang["my_preferences"] = "Minhas preferências";
+$lang["show_push_notification"] = "Habilitar notificações push";
+$lang["notification_sound_volume"] = "Volume da notificação";
 
-$lang["project_reference_in_tickets"] = "Enable project reference";
+$lang["project_reference_in_tickets"] = "Habilitar referência a projeto nos chamados";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Ocultar os menus do portal do cliente";
+$lang["hidden_menus"] = "Menus ocultos";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "Novo aviso criado";
+$lang["notification_new_announcement_created"] = "Criou um aviso.";
 
-$lang["month"] = "Month";
-$lang["profit"] = "Profit";
+$lang["month"] = "Mês";
+$lang["profit"] = "Lucro";
 
-$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
-$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
-$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
-$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
-$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
-$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+$lang["invoice_due_reminder_before_due_date"] = "Lembrete de fatura próxima do vencimento";
+$lang["send_due_invoice_reminder_notification_before"] = "Enviar lembrete de vencimento de fatura em breve";
+$lang["send_invoice_overdue_reminder_after"] = "Enviar lembrete de fatura vencida após";
+$lang["invoice_overdue_reminder"] = "Lembrete de fatura vencida";
+$lang["recurring_invoice_creation_reminder"] = "Lembrete de criação de fatura recorrente";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Enviar lembrete de fatura recorrente antes da sua criação";
 
-$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
-$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_invoice_due_reminder_before_due_date"] = "Lembrete: Sua fatura vencerá em breve";
+$lang["notification_invoice_overdue_reminder"] = "Lembrete: Fatura em atraso";
+$lang["notification_recurring_invoice_creation_reminder"] = "Uma fatura será gerada em breve.";
 
-$lang["can_delete_leave_application"] = "Can delete leave application?";
-$lang["no_of_decimals"] = "No. of decimals";
+$lang["can_delete_leave_application"] = "Pode deletar pedidos de licença?";
+$lang["no_of_decimals"] = "No. de decimais";
 
 $lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["delete_checklist_item"] = "Deletar item da checklist";
 
-$lang["save_and_show"] = "Save & show";
-$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+$lang["save_and_show"] = "Salvar & Visualizar";
+$lang["total_leave_yearly"] = "Total de Licenças (Anual)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Nova conversa";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "Habilitar notificação web";
+$lang["enable_email_notification"] = "Habilitar notificação por e-mail";
