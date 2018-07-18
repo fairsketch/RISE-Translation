@@ -1046,7 +1046,6 @@ $lang["edit_task_status"] = "Editar o status da tarefa";
 $lang["delete_task_status"] = "Excluir o status da tarefa";
 
 $lang["list"] = "Lista";
-$lang["task_list"] = "Lista de Tarefas";
 $lang["kanban"] = "Kanban";
 $lang["priority"] = "Prioridade";
 $lang["moved_up"] = "Movido para cima";
@@ -1101,3 +1100,21 @@ $lang["new_conversation"] = "Nova conversa";
 
 $lang["enable_web_notification"] = "Habilitar notificação web";
 $lang["enable_email_notification"] = "Habilitar notificação por e-mail";
+
+/* Version 2.0.3 */
+
+$lang["show_in_estimate"] = "Show in estimate";
+$lang["mentioned_members"] = "Mentioned members";
+$lang["all"] = "All";
+
+$lang["confirmed"] = "Confirmed";
+$lang["confirm"] = "Confirm";
+
+$lang["confirmed_by"] = "Confirmed by";
+$lang["confirm_event"] = "Confirm event";
+$lang["reject_event"] = "Reject event";
+$lang["event_status"] = "Event status";
+
+$lang["specific_client_contacts"] = "Specific client contacts";
+$lang["choose_client_contacts"] = "Choose client contacts";
+$lang["invitations_sent"] = "The invitations has been sent.";

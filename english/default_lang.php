@@ -716,7 +716,7 @@ $lang["notification_project_customer_feedback_replied"] = "Replied on a comment.
 $lang["notification_client_signup"] = "Signed up as a new client."; //Mr. X signed up as a new client.
 $lang["notification_invoice_online_payment_received"] = "Submitted a online payment.";
 $lang["notification_leave_application_submitted"] = "Submitted a leave application.";
-$lang["notification_leave_approved"] = "Approve a leave of %s."; //Approve a leave of Mr. X
+$lang["notification_leave_approved"] = "Approved a leave of %s."; //Approved a leave of Mr. X
 $lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X
 $lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X
 $lang["notification_leave_canceled"] = "Canceled a leave appliction.";
@@ -1100,3 +1100,21 @@ $lang["new_conversation"] = "New conversation";
 
 $lang["enable_web_notification"] = "Enable web notification";
 $lang["enable_email_notification"] = "Enable email notification";
+
+/* Version 2.0.3 */
+
+$lang["show_in_estimate"] = "Show in estimate";
+$lang["mentioned_members"] = "Mentioned members";
+$lang["all"] = "All";
+
+$lang["confirmed"] = "Confirmed";
+$lang["confirm"] = "Confirm";
+
+$lang["confirmed_by"] = "Confirmed by";
+$lang["confirm_event"] = "Confirm event";
+$lang["reject_event"] = "Reject event";
+$lang["event_status"] = "Event status";
+
+$lang["specific_client_contacts"] = "Specific client contacts";
+$lang["choose_client_contacts"] = "Choose client contacts";
+$lang["invitations_sent"] = "The invitations has been sent.";

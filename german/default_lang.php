@@ -1100,3 +1100,21 @@ $lang["enable_web_notification"] = "Web-Benachrichtigungen aktivieren";
 $lang["enable_email_notification"] = "E-Mail-Benachrichtigungen aktivieren";
 
 $lang["hide_team_members_list"] = "Liste der Mitglieder verstecken";
+
+/* Version 2.0.3 */
+
+$lang["show_in_estimate"] = "Show in estimate";
+$lang["mentioned_members"] = "Mentioned members";
+$lang["all"] = "All";
+
+$lang["confirmed"] = "Confirmed";
+$lang["confirm"] = "Confirm";
+
+$lang["confirmed_by"] = "Confirmed by";
+$lang["confirm_event"] = "Confirm event";
+$lang["reject_event"] = "Reject event";
+$lang["event_status"] = "Event status";
+
+$lang["specific_client_contacts"] = "Specific client contacts";
+$lang["choose_client_contacts"] = "Choose client contacts";
+$lang["invitations_sent"] = "The invitations has been sent.";
