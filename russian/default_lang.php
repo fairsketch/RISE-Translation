@@ -322,7 +322,7 @@ $lang["contact"] = "Контактное лицо";
 $lang["contacts"] = "Контактные лица";
 $lang["users"] = "Пользователи";
 $lang["primary_contact"] = "Основное контактное лицо";
-$lang["disable_login"] = "Запретить вход в систему"; 
+$lang["disable_login"] = "Запретить вход в систему";
 $lang["disable_login_help_message"] = "Пользователь не сможет войти в эту систему!";
 $lang["email_login_details"] = "Отправить учетные данные на почту этому пользователю";
 $lang["generate"] = "Сгенерировать";
@@ -1058,23 +1058,23 @@ $lang["hide_team_members_list"] = "Скрыть сотрудника из спи
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Сводные данные";
 
-$lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
-$lang["notification_sound_volume"] = "Notification sound volume";
+$lang["chat"] = "Чат";
+$lang["my_preferences"] = "Мои предпочтения";
+$lang["show_push_notification"] = "Показать push-уведомление";
+$lang["notification_sound_volume"] = "Объем звука уведомления";
 
-$lang["project_reference_in_tickets"] = "Enable project reference";
+$lang["project_reference_in_tickets"] = "Включить ссылку на проект";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Скрыть меню с клиентского портала";
+$lang["hidden_menus"] = "Скрытые меню";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "создано новое объявление";
+$lang["notification_new_announcement_created"] = "Создано объявление.";
 
-$lang["month"] = "Month";
-$lang["profit"] = "Profit";
+$lang["month"] = "месяц";
+$lang["profit"] = "Прибыль";
 
 $lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
 $lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
@@ -1084,22 +1084,22 @@ $lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation remin
 $lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
 
 $lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
-$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_invoice_overdue_reminder"] = "Напоминание: счет-фактура просрочен";
+$lang["notification_recurring_invoice_creation_reminder"] = "накладная будет сгенерирована в ближайшее время.";
 
-$lang["can_delete_leave_application"] = "Can delete leave application?";
+$lang["can_delete_leave_application"] = "Можно удалить заявку на отпуск?";
 $lang["no_of_decimals"] = "No. of decimals";
 
-$lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["checklist"] = "Контрольный список";
+$lang["delete_checklist_item"] = "Удалить элемент контрольного списка";
 
-$lang["save_and_show"] = "Save & show";
-$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+$lang["save_and_show"] = "Сохранить и показать";
+$lang["total_leave_yearly"] = "общий отпуск (ежегодно)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Новый разговор";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "Включить веб-уведомление";
+$lang["enable_email_notification"] = "Включить уведомление по электронной почте";
 
 /* Version 2.0.3 */
 

@@ -835,9 +835,9 @@ $lang["no_record_found"] = "Δε βρέθηκαν αποτελέσματα.";
 $lang["excel"] = "Excel";
 $lang["print_button_help_text"] = "Πατήστε το ESC μόλις είστε έτοιμοι.";
 $lang["are_you_sure"] = "Είστε σίγουρος/η?";
-$lang["file_upload_instruction"]="Σύρετε αρχεία εδώ <br /> (η κάντε κλικ για να επιλέξετε...)";
-$lang["file_name_too_long"]="Το όνομα αρχείου είναι πολύ μεγάλο.";
-$lang["scrollbar"]="Γραμμή Κύλισης";
+$lang["file_upload_instruction"] = "Σύρετε αρχεία εδώ <br /> (η κάντε κλικ για να επιλέξετε...)";
+$lang["file_name_too_long"] = "Το όνομα αρχείου είναι πολύ μεγάλο.";
+$lang["scrollbar"] = "Γραμμή Κύλισης";
 
 $lang["short_sunday"] = "Κυρ";
 $lang["short_monday"] = "Δευ";
@@ -1058,63 +1058,63 @@ $lang["hide_team_members_list"] = "Απόκρυψη λίστας μελών ομ
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Περίληψη λεπτομερειών";
 
-$lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
+$lang["chat"] = "Συνομιλία";
+$lang["my_preferences"] = "Οι προτιμήσεις μου";
+$lang["show_push_notification"] = "Εμφάνιση ειδοποίησης push";
 $lang["notification_sound_volume"] = "Notification sound volume";
 
 $lang["project_reference_in_tickets"] = "Enable project reference";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Απόκρυψη μενού από την πύλη πελάτη";
+$lang["hidden_menus"] = "Κρυφό μενού";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "Δημιουργήθηκε νέα ανακοίνωση";
+$lang["notification_new_announcement_created"] = "δημιούργησε νέα ανακοίνωση.";
 
-$lang["month"] = "Month";
-$lang["profit"] = "Profit";
+$lang["month"] = "Μήνας";
+$lang["profit"] = "Κέρδος";
 
 $lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
-$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
-$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
-$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
-$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
-$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+$lang["send_due_invoice_reminder_notification_before"] = "Αποστολή υπενθύμισης τιμολογίου πριν την ημερομηνία λήξης";
+$lang["send_invoice_overdue_reminder_after"] = "Στείλτε μια υπενθύμιση ληξιπρόθεσμης τιμολόγησης μετά από";
+$lang["invoice_overdue_reminder"] = "ληξιπρόθεσμη υπενθύμιση τιμολογίου";
+$lang["recurring_invoice_creation_reminder"] = "Επαναλαμβανόμενη υπενθύμιση δημιουργίας τιμολογίου";
+$lang["send_recurring_invoice_reminder_before_creation"] = "αποστολή επαναλαμβανόμενης υπενθύμισης τιμολογίου πριν από τη δημιουργία";
 
-$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
-$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_invoice_due_reminder_before_due_date"] = "Υπενθύμιση: οφειλόμενο τιμολόγιο.";
+$lang["notification_invoice_overdue_reminder"] = "Υπενθύμιση: τιμολόγιο εκπρόθεσμος";
+$lang["notification_recurring_invoice_creation_reminder"] = "Θα δημιουργηθεί σύντομα ένα τιμολόγιο.";
 
 $lang["can_delete_leave_application"] = "Can delete leave application?";
-$lang["no_of_decimals"] = "No. of decimals";
+$lang["no_of_decimals"] = "όχι. των δεκαδικών";
 
-$lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["checklist"] = "Λίστα ελέγχου";
+$lang["delete_checklist_item"] = "Διαγράψτε το στοιχείο Λίστα ελέγχου";
 
-$lang["save_and_show"] = "Save & show";
+$lang["save_and_show"] = "Αποθήκευση και εμφάνιση";
 $lang["total_leave_yearly"] = "Total Leave (Yearly)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Νέα συζήτηση";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "επιτρέπω ιστού γνωστοποίηση";
+$lang["enable_email_notification"] = "Ενεργοποίηση ειδοποίησης ηλεκτρονικού ταχυδρομείου";
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
-$lang["all"] = "All";
+$lang["show_in_estimate"] = "Εμφάνιση στην εκτίμηση";
+$lang["mentioned_members"] = "αναφερόμενα μέλη";
+$lang["all"] = "Όλα";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Επιβεβαιώθηκε";
+$lang["confirm"] = "Επιβεβαιώστε";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Επιβεβαιωμένη από";
+$lang["confirm_event"] = "συμβάντος eπιβεβαιώστε";
+$lang["reject_event"] = "απόρριψη συμβάντος";
+$lang["event_status"] = "Κατάσταση συμβάντος";
 
-$lang["specific_client_contacts"] = "Specific client contacts";
-$lang["choose_client_contacts"] = "Choose client contacts";
-$lang["invitations_sent"] = "The invitations has been sent.";
+$lang["specific_client_contacts"] = "συγκεκριμένες επαφές πελάτη";
+$lang["choose_client_contacts"] = "Επιλογή επαφών πελατών";
+$lang["invitations_sent"] = "Οι προσκλήσεις έχουν σταλεί.";

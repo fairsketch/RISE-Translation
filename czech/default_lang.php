@@ -900,206 +900,206 @@ $lang["show_background_image_in_signin_page"] = "Zobrazovat obrázek na pozadí 
 
 /* Version 1.6 */
 
-$lang["more"] = "More";
-$lang["custom"] = "Custom";
-$lang["clear"] = "Clear";
-$lang["expired"] = "Expired";
-$lang["enable_attachment"] = "Enable attachment";
-$lang["custom_fields"] = "Custom fields";
-$lang["edit_field"] = "Edit field";
-$lang["delete_field"] = "Delete field";
-$lang["client_info"] = "Client info";
-$lang["edit_expenses_category"] = "Edit expenses category";
-$lang["eelete_expenses_category"] = "Delete expenses category";
-$lang["empty_starred_projects"] = "To access your favorite projects quickly, please go to the project view and mark the star.";
-$lang["empty_starred_clients"] = "To access your favorite clients quickly, please go to the client view and mark the star.";
-$lang["download_zip_name"] = "documents";
-$lang["invoice_prefix"] = "Invoice prefix";
-$lang["invoice_style"] = "Invoice style";
-$lang["delete_confirmation_message"] = " Are you sure? You won't be able to undo this action!";
-$lang["left"] = "Left";
-$lang["right"] = "Right";
-$lang["currency_position"] = "Currency Position";
-$lang["recipient"] = "Recipient";
+$lang["more"] = "Více";
+$lang["custom"] = "Vlastní";
+$lang["clear"] = "Vymazat";
+$lang["expired"] = "vypršela";
+$lang["enable_attachment"] = "Povolit přílohu";
+$lang["custom_fields"] = "Vlastní pole";
+$lang["edit_field"] = "Upravit pole";
+$lang["delete_field"] = "Odstranit pole";
+$lang["client_info"] = "Informace o klientovi";
+$lang["edit_expenses_category"] = "Upravit kategorii výdajů";
+$lang["eelete_expenses_category"] = "Odstranit kategorii výdajů";
+$lang["empty_starred_projects"] = "Chcete-li rychle přistupovat k vašim oblíbeným projektům, přejděte do zobrazení projektu a označte hvězdičku.";
+$lang["empty_starred_clients"] = "Chcete-li rychle přistupovat k vašim oblíbeným klientům, přejděte do zobrazení klienta a označte hvězdičku.";
+$lang["download_zip_name"] = "dokumenty";
+$lang["invoice_prefix"] = "Předpona faktury";
+$lang["invoice_style"] = "Fakturační styl";
+$lang["delete_confirmation_message"] = "Jste si jisti? Tuto akci nebudete moci vrátit zpět!";
+$lang["left"] = "Vlevo";
+$lang["right"] = "Pravá";
+$lang["currency_position"] = "Měnová pozice";
+$lang["recipient"] = "Příjemce";
 
-$lang["new_message_sent"] = "New message sent";
-$lang["message_reply_sent"] = "Message replied";
-$lang["notification_new_message_sent"] = "Sent a message.";
-$lang["notification_message_reply_sent"] = "Replied a message.";
-$lang["invoice_payment_confirmation"] = "Invoice payment confirmation";
-$lang["notification_invoice_payment_confirmation"] = "Payment received";
+$lang["new_message_sent"] = "Nová zpráva byla odeslána";
+$lang["message_reply_sent"] = "Zpráva odpovídala";
+$lang["notification_new_message_sent"] = "Poslal zprávu.";
+$lang["notification_message_reply_sent"] = "Odpověděl zprávu.";
+$lang["invoice_payment_confirmation"] = "potvrzení platby faktury";
+$lang["notification_invoice_payment_confirmation"] = "Obdržená platba";
 
 /* Version 1.7 */
 
-$lang["client_can_create_projects"] = "Client can create projects?";
-$lang["client_can_view_timesheet"] = "Client can view timesheet?";
-$lang["client_can_view_gantt"] = "Client can view gantt?";
-$lang["client_can_view_overview"] = "Client can view project overview?";
-$lang["client_can_view_milestones"] = "Client can view milestones?";
+$lang["client_can_create_projects"] = "Klient může vytvořit projekty?";
+$lang["client_can_view_timesheet"] = "Klient může zobrazit časový rozvrh?";
+$lang["client_can_view_gantt"] = "Klient může zobrazit gantt?";
+$lang["client_can_view_overview"] = "Klient může zobrazit přehled projektu?";
+$lang["client_can_view_milestones"] = "Klient může zobrazit milníky?";
 
-$lang["items"] = "Items";
-$lang["edit_item"] = "Edit item";
-$lang["item_edit_instruction"] = "Note: The changes will not be affected on existing invoices or estimates.";
+$lang["items"] = "Položky";
+$lang["edit_item"] = "Upravit položku";
+$lang["item_edit_instruction"] = "Poznámka: Změny nebudou ovlivněny stávajícími fakturami nebo odhady.";
 
-$lang["recurring"] = "Recurring";
-$lang["repeat_every"] = "Repeat every"; //Ex. repeat every 2 months
-$lang["interval_days"] = "Day(s)";
-$lang["interval_weeks"] = "Week(s)";
-$lang["interval_months"] = "Month(s)";
-$lang["interval_years"] = "Year(s)";
-$lang["cycles"] = "Cycles";
-$lang["recurring_cycle_instructions"] = "Recurring will be stopped after the number of cycles. Keep it blank for infinity.";
-$lang["next_recurring_date"] = "Next recurring";
-$lang["stopped"] = "Stopped";
-$lang["past_recurring_date_error_message_title"] = "The selected bill date and repeat type returns a past date.";
-$lang["past_recurring_date_error_message"] = "Next recurring date must be a future date. Please enter a future date.";
-$lang["sub_invoices"] = "Sub invoices";
+$lang["recurring"] = "Opakující se";
+$lang["repeat_every"] = "Opakovat všechny"; //Ex. repeat every 2 months
+$lang["interval_days"] = "den (y)";
+$lang["interval_weeks"] = "týden (y)";
+$lang["interval_months"] = "měsíc (y)";
+$lang["interval_years"] = "Rok (y)";
+$lang["cycles"] = "Cykly";
+$lang["recurring_cycle_instructions"] = "Opakující se bude ukončena po počtu cyklů. Ponechat prázdné pro nekonečno.";
+$lang["next_recurring_date"] = "Další opakující se";
+$lang["stopped"] = "Zastaveno";
+$lang["past_recurring_date_error_message_title"] = "Vybrané datum a typ opakování vrátí poslední datum.";
+$lang["past_recurring_date_error_message"] = "Další datum opakování musí být datum v budoucnu, zadejte budoucí datum.";
+$lang["sub_invoices"] = "Sub faktury";
 
-$lang["cron_job_required"] = "Cron Job is required for this action!";
+$lang["cron_job_required"] = "Cron Job je vyžadován pro tuto akci!";
 
-$lang["recurring_invoice_created_vai_cron_job"] = "Recurring invoice created via Cron Job";
-$lang["notification_recurring_invoice_created_vai_cron_job"] = "New invoice generated";
+$lang["recurring_invoice_created_vai_cron_job"] = "Opakující se faktura vytvořená přes cron";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "Vygenerována nová faktura";
 
-$lang["field_type_number"] = "Number";
-$lang["show_in_table"] = "Show in table";
-$lang["show_in_invoice"] = "Show in invoice";
-$lang["visible_to_admins_only"] = "Visible to admins only";
-$lang["hide_from_clients"] = "Hide from clients";
-$lang["public"] = "Public";
+$lang["field_type_number"] = "Číslo";
+$lang["show_in_table"] = "Zobrazit v tabulce";
+$lang["show_in_invoice"] = "Zobrazit ve faktuře";
+$lang["visible_to_admins_only"] = "Viditelné pouze pro administrátory";
+$lang["hide_from_clients"] = "Skrýt z klientů";
+$lang["public"] = "Veřejné";
 
-$lang["help"] = "Help";
-$lang["articles"] = "Articles";
-$lang["add_article"] = "Add new article";
-$lang["edit_article"] = "Edit article";
-$lang["delete_article"] = "Delete article";
-$lang["can_manage_help_and_knowledge_base"] = "Can manage help and knowledge base?";
+$lang["help"] = "Nápověda";
+$lang["articles"] = "Články";
+$lang["add_article"] = "Přidat nový článek";
+$lang["edit_article"] = "Upravit článek";
+$lang["delete_article"] = "Odstranit článek";
+$lang["can_manage_help_and_knowledge_base"] = "Může spravovat pomoc a znalostní bázi?";
 
-$lang["how_can_we_help"] = "How can we help?";
-$lang["help_page_title"] = "Internal Wiki";
-$lang["search_your_question"] = "Search your question";
-$lang["no_result_found"] = "No result found.";
-$lang["sort"] = "Sort";
-$lang["total_views"] = "Total views";
+$lang["how_can_we_help"] = "Jak můžeme pomoci?";
+$lang["help_page_title"] = "Interní Wiki";
+$lang["search_your_question"] = "Hledat vaši otázku";
+$lang["no_result_found"] = "Nebyl nalezen žádný výsledek.";
+$lang["sort"] = "Seřadit";
+$lang["total_views"] = "Celkem zobrazení";
 
-$lang["help_and_support"] = "Help & Support";
-$lang["knowledge_base"] = "Knowledge base";
+$lang["help_and_support"] = "Nápověda a podpora";
+$lang["knowledge_base"] = "Znalostní báze";
 
-$lang["payment_success_message"] = "Your payment has been completed.";
-$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
-$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+$lang["payment_success_message"] = "Platba byla dokončena.";
+$lang["payment_card_charged_but_system_error_message"] = "Může být účtována karta, ale nemůžeme dokončit proces. Obraťte se na správce systému.";
+$lang["card_payment_failed_error_message"] = "Platbu nyní nemůžeme zpracovat, proto zkuste to prosím později.";
 
-$lang["message_received"] = "Message received";
-$lang["in_number_of_days"] = "In %s days"; //Ex. In 7 days
-$lang["details"] = "Details";
-$lang["summary"] = "Summary";
-$lang["project_timesheet"] = "Project timesheet";
+$lang["message_received"] = "Zpráva přijato";
+$lang["in_number_of_days"] = "V% s dnech"; //Ex. In 7 days
+$lang["details"] = "Podrobnosti";
+$lang["summary"] = "Souhrn";
+$lang["project_timesheet"] = "Projektový časový rozvrh";
 
-$lang["set_event_permissions"] = "Set event permissions";
-$lang["disable_event_sharing"] = "Disable event sharing";
-$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
-$lang["can_manage_team_members_project_timesheet"] = "Can manage team member's project timesheet?";
+$lang["set_event_permissions"] = "Nastavit oprávnění události";
+$lang["disable_event_sharing"] = "Zakázat sdílení událostí";
+$lang["can_update_team_members_general_info_and_social_links"] = "Můžete aktualizovat obecné info a sociální odkazy člena týmu?";
+$lang["can_manage_team_members_project_timesheet"] = "Může řídit pracovní čas člena týmu?";
 
 $lang["cron_job"] = "Cron Job";
 $lang["cron_job_link"] = "Cron Job link";
-$lang["last_cron_job_run"] = "Last Cron Job run";
-$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
-$lang["recommended_execution_interval"] = "Recommended execution interval";
+$lang["last_cron_job_run"] = "Poslední Cron Job úloha";
+$lang["created_from"] = "Vytvořeno z"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Doporučený interval provádění";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
-$lang["re_captcha_site_key"] = "Site key";
-$lang["re_captcha_secret_key"] = "Secret key";
+$lang["integration"] = "Integrace";
+$lang["get_your_key_from_here"] = "Získat klíč odtud:";
+$lang["re_captcha_site_key"] = "Klíč webu";
+$lang["re_captcha_secret_key"] = "Tajný klíč";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA tajemství chybí";
+$lang["re_captcha_error-invalid-input-secret"] = "tajemství reCAPTCHA není platné.";
+$lang["re_captcha_error-missing-input-response"] = "Zvolte prosím reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "Parametr odpovědi je neplatný nebo poškozený.";
+$lang["re_captcha_error-bad-request"] = "Požadavek je neplatný nebo nesprávný.";
+$lang["re_captcha_expired"] = "Platnost reCAPTCHA vypršela. Znovu načtěte stránku.";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["yes_all_tickets"] = "Ano, všechny vstupenky";
+$lang["choose_ticket_types"] = "Výběr typů vstupenek";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["can_manage_all_projects"] = "Může spravovat všechny projekty";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Zobrazit poslední komentáře o lístku nahoře";
 
-$lang["new_event_added_in_calendar"] = "New event added calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["new_event_added_in_calendar"] = "Nová událost přidán kalendář";
+$lang["notification_new_event_added_in_calendar"] = "Přidána nová událost.";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["todo"] = "Až k činit";
+$lang["add_a_todo"] = "Přidat a udělat ...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Skupiny klientů";
+$lang["add_client_group"] = "Přidat skupinu klientů";
+$lang["edit_client_group"] = "Upravit skupinu klientů";
+$lang["delete_client_group"] = "Odstranit skupinu klientů";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Předpona lístku";
+$lang["add_a_task"] = "Přidat úlohu...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Přidat stav úkolu";
+$lang["edit_task_status"] = "Upravit stav úkolu";
+$lang["delete_task_status"] = "Odstranit stav úlohy";
 
-$lang["list"] = "List";
+$lang["list"] = "Seznam";
 $lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
-$lang["mark_project_as_hold"] = "Mark Project as Hold";
+$lang["priority"] = "Priorita";
+$lang["moved_up"] = "Přesunul nahoru";
+$lang["moved_down"] = "Přesunout dolů";
+$lang["mark_project_as_hold"] = "Označit projekt jako podržení";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Opakovat";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Skrýt seznam členů týmu?";
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Souhrnné podrobnosti";
 
 $lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
-$lang["notification_sound_volume"] = "Notification sound volume";
+$lang["my_preferences"] = "Moje předvolby";
+$lang["show_push_notification"] = "Zobrazit oznámení push";
+$lang["notification_sound_volume"] = "Hlasitost zvuku oznámení";
 
-$lang["project_reference_in_tickets"] = "Enable project reference";
+$lang["project_reference_in_tickets"] = "Povolit odkaz na projekt";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Skrýt nabídky z klientského portálu";
+$lang["hidden_menus"] = "Skryté nabídky";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "Vytvořeno nové oznámení";
+$lang["notification_new_announcement_created"] = "Vytvořeno oznámení.";
 
-$lang["month"] = "Month";
-$lang["profit"] = "Profit";
+$lang["month"] = "Měsíc";
+$lang["profit"] = "Zisk";
 
-$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
-$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
-$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
-$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
-$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
-$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+$lang["invoice_due_reminder_before_due_date"] = "Připomenutí splatnosti faktury před datem splatnosti";
+$lang["send_due_invoice_reminder_notification_before"] = "Poslat předepsanou fakturační připomínku před splatností";
+$lang["send_invoice_overdue_reminder_after"] = "Odeslání upozornení po odeslání faktury po splatnosti";
+$lang["invoice_overdue_reminder"] = "Připomenutí po splatnosti faktury";
+$lang["recurring_invoice_creation_reminder"] = "Opakované připomenutí vytvoření faktury";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Odeslat připomenutí opakované faktury před vytvořením";
 
-$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
-$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_invoice_due_reminder_before_due_date"] = "Připomenutí: splatná faktura.";
+$lang["notification_invoice_overdue_reminder"] = "Připomenutí: Faktury po splatnosti";
+$lang["notification_recurring_invoice_creation_reminder"] = "Fakturu bude brzy vygenerována.";
 
-$lang["can_delete_leave_application"] = "Can delete leave application?";
-$lang["no_of_decimals"] = "No. of decimals";
+$lang["can_delete_leave_application"] = "můžete odstranit opustit aplikaci?";
+$lang["no_of_decimals"] = "Ne. Desítková";
 
-$lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["checklist"] = "Kontrolní seznam";
+$lang["delete_checklist_item"] = "Odstranit položku kontrolního seznamu";
 
-$lang["save_and_show"] = "Save & show";
-$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+$lang["save_and_show"] = "Uložit a zobrazit";
+$lang["total_leave_yearly"] = "Celkem dovolená (ročně)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Nová konverzace";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "Povolit webové oznámení";
+$lang["enable_email_notification"] = "Povolit upozornění e-mailem";
 
 /* Version 2.0.3 */
 

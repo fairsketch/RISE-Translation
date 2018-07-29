@@ -1033,73 +1033,73 @@ $lang["add_a_todo"] = "Aggiungi da fare...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Gruppi client";
+$lang["add_client_group"] = "Aggiungi gruppo client";
+$lang["edit_client_group"] = "Modifica gruppo client";
+$lang["delete_client_group"] = "Elimina il gruppo client";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Prefisso biglietto";
+$lang["add_a_task"] = "Aggiungi un'attività ...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Aggiungi stato attività";
+$lang["edit_task_status"] = "Modifica lo stato dell'attività";
+$lang["delete_task_status"] = "Elimina stato attività";
 
-$lang["list"] = "List";
+$lang["list"] = "lista";
 $lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
+$lang["priority"] = "priorità";
+$lang["moved_up"] = "Spostato verso l'alto";
+$lang["moved_down"] = "Spostato giù";
 $lang["mark_project_as_hold"] = "Mark Project as Hold";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Ripeti";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Nascondi l'elenco dei membri del team?";
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Dettagli di riepilogo";
 
 $lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
-$lang["notification_sound_volume"] = "Notification sound volume";
+$lang["my_preferences"] = "Le mie preferenze";
+$lang["show_push_notification"] = "Mostra notifica push";
+$lang["notification_sound_volume"] = "Volume del suono di notifica";
 
-$lang["project_reference_in_tickets"] = "Enable project reference";
+$lang["project_reference_in_tickets"] = "Abilita riferimento progetto";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Nascondi i menu dal portale del cliente";
+$lang["hidden_menus"] = "Menu nascosti";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "Nuovo annuncio creato";
+$lang["notification_new_announcement_created"] = "Creato un annuncio.";
 
-$lang["month"] = "Month";
-$lang["profit"] = "Profit";
+$lang["month"] = "mese";
+$lang["profit"] = "Profitto";
 
-$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
-$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
-$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
-$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
+$lang["invoice_due_reminder_before_due_date"] = "Promemoria dovuta alla fattura prima della scadenza";
+$lang["send_due_invoice_reminder_notification_before"] = "Invia promemoria fatture scadute prima della scadenza";
+$lang["send_invoice_overdue_reminder_after"] = "Invia promemoria scaduto fattura dopo";
+$lang["invoice_overdue_reminder"] = "Promemoria fattura scaduta";
 $lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
-$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Invia promemoria fatture ricorrenti prima della creazione";
 
 $lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
 $lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_recurring_invoice_creation_reminder"] = "Una fattura verrà generata a breve.";
 
-$lang["can_delete_leave_application"] = "Can delete leave application?";
-$lang["no_of_decimals"] = "No. of decimals";
+$lang["can_delete_leave_application"] = "Può eliminare l'applicazione Leave?";
+$lang["no_of_decimals"] = "No. di decimali";
 
-$lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["checklist"] = "Lista di controllo";
+$lang["delete_checklist_item"] = "Elimina l'elemento della checklist";
 
-$lang["save_and_show"] = "Save & show";
-$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+$lang["save_and_show"] = "Salva e mostra";
+$lang["total_leave_yearly"] = "Totale congedo (annuale)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Nuova conversazione";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "Abilita notifica web";
+$lang["enable_email_notification"] = "Abilita notifica email";
 
 /* Version 2.0.3 */
 
