@@ -1045,7 +1045,7 @@ $lang["add_task_status"] = "Ajouter un status";
 $lang["edit_task_status"] = "Modifier le status";
 $lang["delete_task_status"] = "Supprimer le status";
 
-$lang["list"] = "Lister";
+$lang["list"] = "liste";
 $lang["kanban"] = "Kanban";
 $lang["priority"] = "Priorité";
 $lang["moved_up"] = "Déplacé vers le haut";
@@ -1103,18 +1103,89 @@ $lang["enable_email_notification"] = "Activer les notifications emails";
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
-$lang["all"] = "All";
+$lang["show_in_estimate"] = "Montrer dans le devis";
+$lang["mentioned_members"] = "Membres mentionnés";
+$lang["all"] = "Tout";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Confirmé";
+$lang["confirm"] = "Confirmer";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Confirmé par";
+$lang["confirm_event"] = "Confirmer évènement";
+$lang["reject_event"] = "Rejeter évènement";
+$lang["event_status"] = "Status de l'évènement";
 
-$lang["specific_client_contacts"] = "Specific client contacts";
-$lang["choose_client_contacts"] = "Choose client contacts";
-$lang["invitations_sent"] = "The invitations has been sent.";
+$lang["specific_client_contacts"] = "Contacts client spécifiques";
+$lang["choose_client_contacts"] = "Choisir le contact client";
+$lang["invitations_sent"] = "Les invitations ont été envoyées.";
+
+/* Version 2.1 */
+
+$lang["add_new_dashboard"] = "Ajouter nouveau tableau de bord";
+$lang["add_row"] = "Ajouter ligne";
+
+$lang["available_widgets"] = "Widgets disponibles";
+$lang["your_selected_widgets_will_be_appear_here"] = "Les widgets sélectionnés apparaitront ici";
+$lang["drag_and_drop_widgets_here"] = "Glisser-déposer les widgets ici";
+$lang["no_more_widgets_available"] = "Aucun widget disponible";
+$lang["invalid_widget_access"] = "Vous n'avez pas la permission d'accéder à ce widget";
+
+$lang["dashboard_title"] = "Titre du tableau de bord";
+$lang["edit_dashboard"] = "Modifier tableau de bord";
+$lang["edit_title"] = "Modifier titre";
+$lang["default_dashboard"] = "Tableau de bord par défaut";
+
+$lang["widget"] = "Widget";
+$lang["widgets"] = "Widgets";
+$lang["add_widget"] = "Ajouter un widget";
+$lang["edit_widget"] = "Modifier un widget";
+$lang["delete_widget"] = "Supprimer un widget";
+
+$lang["content"] = "Contenu";
+$lang["clock_in_out"] = "Pointage";
+$lang["custom_widget_details"] = "Détails du widget personnalisés";
+
+$lang["total_projects"] = "Total des projets";
+$lang["total_invoices"] = "Total des factures";
+$lang["total_payments"] = "Total des paiements";
+$lang["total_due"] = "Total dû";
+
+$lang["show_title"] = "Afficher le titre";
+$lang["show_border"] = "Afficher le bord";
+
+$lang["all_tasks_kanban"] = "Toutes les tâches kanban";
+$lang["todo_list"] = "Todo list";
+$lang["open_projects_list"] = "Liste des projets ouverts";
+$lang["starred_projects"] = "Projets favoris";
+$lang["completed_projects"] = "Projets terminés";
+
+$lang["new_tickets"] = "Nouveaux tickets";
+$lang["open_tickets"] = "Tickets ouverts";
+$lang["closed_tickets"] = "Tickets fermés";
+
+$lang["clocked_in_team_members"] = "Membres de l'équipe présents";
+$lang["clocked_out_team_members"] = "Membres de l'équipe absents";
+$lang["latest_online_client_contacts"] = "Derniers contacts client en ligne";
+$lang["latest_online_team_members"] = "Derniers membres de l'équipe en ligne";
+$lang["my_tasks_list"] = "Ma liste de tâches";
+
+$lang["discount"] = "Remise";
+$lang["discount_type"] = "Type de remise";
+$lang["edit_discount"] = "Modifier la remise";
+$lang["discount_amount"] = "Montant de la remise";
+$lang["fixed_amount"] = "Montant fixe";
+$lang["before_tax"] = "Avant la taxe";
+$lang["after_tax"] = "Après la taxe";
+
+$lang["access_permission"] = "Permission d'accès";
+$lang["setup"] = "Installer";
+$lang["client_permissions"] = "Permissions client";
+
+$lang["invoice_over_payment_error_message"] = "Vous ne pouvez pas payer plus que le montant de votre facture.";
+$lang["account_already_exists_for_your_company_name"] = "Le compte existe déjà pour le nom de votre entreprise.";
+$lang["personal_language"] = "Langue personnelle";
+
+$lang["no_messages_text"] = "Vous n'avez pas de message";
+$lang["no_users_found"] = "Aucun utilisateur trouvé";
+
+$lang["create_project"] = "Créer un projet";
