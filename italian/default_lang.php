@@ -1103,18 +1103,224 @@ $lang["enable_email_notification"] = "Abilita notifica email";
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
+$lang["show_in_estimate"] = "Mostra nel preventivo";
+$lang["mentioned_members"] = "Membri menzionati";
 $lang["all"] = "All";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Confermato";
+$lang["confirm"] = "Conferma";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Confermato da ";
+$lang["confirm_event"] = "Confirma evento";
+$lang["reject_event"] = "Reject evento";
+$lang["event_status"] = "Stato evento";
 
 $lang["specific_client_contacts"] = "Specific client contacts";
 $lang["choose_client_contacts"] = "Choose client contacts";
 $lang["invitations_sent"] = "The invitations has been sent.";
+
+/* Version 2.1 */
+
+$lang["add_new_dashboard"] = "Aggiungi nuova dashboard";
+$lang["add_row"] = "Aggiungi riga";
+
+$lang["available_widgets"] = "Widgets da scegliere";
+$lang["your_selected_widgets_will_be_appear_here"] = "Il tuo widgets apparirà qui";
+$lang["drag_and_drop_widgets_here"] = "Drag and drop widgets qui";
+$lang["no_more_widgets_available"] = "Nessun widgets disponibile";
+$lang["invalid_widget_access"] = "Non hai il permesso di accedere a questo widget";
+
+$lang["dashboard_title"] = "Dashboard Titolo";
+$lang["edit_dashboard"] = "Modifica dashboard";
+$lang["edit_title"] = "Modifica titolo";
+$lang["default_dashboard"] = "Default dashboard";
+
+$lang["widget"] = "Widget";
+$lang["widgets"] = "Widgets";
+$lang["add_widget"] = "Aggiungi widget";
+$lang["edit_widget"] = "Modfica widget";
+$lang["delete_widget"] = "Cancella widget";
+
+$lang["content"] = "Contenuto";
+$lang["clock_in_out"] = "Tempo in-out";
+$lang["custom_widget_details"] = "Dettaglio widget modificati";
+
+$lang["total_projects"] = "Progetti Totali";
+$lang["total_invoices"] = "Totali Fatture";
+$lang["total_payments"] = "Totali Pagamento";
+$lang["total_due"] = "Total due";
+
+$lang["show_title"] = "Mostra Titoli";
+$lang["show_border"] = "Mostra bordi";
+
+$lang["all_tasks_kanban"] = "Tutte le tasks kanban";
+$lang["todo_list"] = "Lista Todo";
+$lang["open_projects_list"] = "Apri la lista dei progetti";
+$lang["starred_projects"] = "Progetti Fermi";
+$lang["completed_projects"] = "Progetti comnpletati";
+
+$lang["new_tickets"] = "Nuovo Tickets";
+$lang["open_tickets"] = "Apri Tickets";
+$lang["closed_tickets"] = "Chiudi Tickets";
+
+$lang["clocked_in_team_members"] = "Ingresso dei team membri";
+$lang["clocked_out_team_members"] = "Uscita dei team membri";
+$lang["latest_online_client_contacts"] = "Ultimi contatti clienti online";
+$lang["latest_online_team_members"] = "Ultimi membri online";
+$lang["my_tasks_list"] = "Mia lista Task";
+
+$lang["discount"] = "Sconto";
+$lang["discount_type"] = "Tipo sconto";
+$lang["edit_discount"] = "Modifica sconto";
+$lang["discount_amount"] = "Sconto Totale";
+$lang["fixed_amount"] = "Totale";
+$lang["before_tax"] = "Prima le tasse";
+$lang["after_tax"] = "Dopo le tasse";
+
+$lang["access_permission"] = "Permessi di accesso";
+$lang["setup"] = "Setup";
+$lang["client_permissions"] = "Permessi clienti";
+
+$lang["invoice_over_payment_error_message"] = "Non è possibile pagare più della fattura dovuta.";
+$lang["account_already_exists_for_your_company_name"] = "Account esistente per questa azienda.";
+$lang["personal_language"] = "Lingua personale";
+
+$lang["no_messages_text"] = "Non hai nessun messaggio";
+$lang["no_users_found"] = "Nessun utente trovato";
+
+$lang["create_project"] = "Crea Progetto";
+
+/* Version 2.2 */
+
+$lang["imap_settings"] = "IMAP configurazione";
+$lang["enable_email_piping"] = "Abilita Email piping";
+$lang["imap_host"] = "IMAP Host";
+$lang["imap_port"] = "Porta";
+$lang["imap_ssl_enabled"] = "SSL Abilitato";
+$lang["please_upgrade_your_php_version"] = "Prego di aggiornare la versione di php .";
+$lang["required_version"] = "Richiesta Versione";
+$lang["email_piping_help_message"] = "Assicurati che l'accesso IMap sia abilitato.";
+
+$lang["enable_rich_text_editor"] = "Abilita l'editor di testo RTF in commenti / descrizione";
+
+$lang["show_assigned_tasks_only"] = "Show assigned tasks only";
+
+$lang["batch_update"] = "Batch update";
+$lang["cancel_selection"] = "Cancella selezione";
+$lang["select_status"] = "Selezione stato";
+
+$lang["batch_update"] = "Batch update";
+
+$lang["add_multiple_tasks"] = "Aggiungi tasks multiple";
+$lang["save_and_add_more"] = "Salva & aggiungi ancora";
+$lang["add_project_time"] = "Aggiungi tempo progetto";
+$lang["add_to_do"] = "Aggiungi da fare";
+$lang["hide_menus_from_topbar"] = "Nascondi menu da toolbar";
+$lang["favorite_projects"] = "Progetti Favoriti";
+$lang["favorite_clients"] = "Clienti Favoriti";
+$lang["dashboard_customization"] = "Dashboard personalizzata";
+$lang["quick_add"] = "Aggiungi veloce";
+
+$lang["assign_to_me"] = "Assigna a me";
+
+$lang["favicon"] = "Favicon";
+
+$lang["enable_google_drive_api_to_upload_file"] = "Abilita l'API di Google Drive per caricare il file";
+$lang["drive_activation_help_message"] = "D'ora in poi, tutti i file verranno caricati su Google Drive.";
+
+$lang["mark_all_as_read"] = "Segna tutti come letti";
+$lang["marked_all_notifications_as_read"] = "Contrassegnato tutte le notifiche come letto";
+
+$lang["project_completed"] = "Progetto completato";
+$lang["notification_project_completed"] = "Completato un progetto";
+
+$lang["google_drive_client_id"] = "Client ID";
+$lang["google_drive_client_secret"] = "Client secret";
+$lang["get_your_app_credentials_from_here"] = "Ottieni le credenziali della tua app da qui:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Ricorda di aggiungere questo URL in uri di reindirizzamento autorizzato";
+$lang["save_and_authorize"] = "alva e autorizza";
+
+$lang["preview_next_key"] = "Successivo (tasto freccia destra)";
+$lang["preview_previous_key"] = "Precedente (tasto freccia sinistra)";
+
+$lang["filters"] = "Filters";
+
+$lang["authorized"] = "Authorizzato";
+$lang["unauthorized"] = "Non autorizzato";
+
+$lang["clock_in_out"] = "Tempo In / Out";
+$lang["not_clocked_id_yet"] = "Non ancora cronometrato";
+
+$lang["create_estimate_request"] = "Crea una richiesta di preventivo";
+
+$lang["in_last_number_of_days"] = "Negli ultimi %s giorni";
+$lang["in_last_number_of_month"] = "Nell' utlimo %s mese";
+$lang["in_last_number_of_months"] = "Negli ultimi %s mesi";
+
+$lang["get_your_app_credentials_from_here"] = "Ottieni le credenziali della tua app da qui:";
+$lang["pusher_app_id"] = "App ID";
+$lang["pusher_key"] = "Key";
+$lang["pusher_secret"] = "Secret";
+$lang["pusher_cluster"] = "Cluster";
+$lang["enable_push_notification"] = "Abilita notifica push";
+$lang["push_notification"] = "Notifica push";
+$lang["disable_push_notification"] = "Disabilita notifica push";
+
+$lang["enable_google_drive_api_to_upload_file"] = "Abilita l'API di Google Drive per caricare il file";
+$lang["drive_activation_help_message"] = "D'ora in poi, tutti i file verranno caricati su Google Drive.";
+
+$lang["mark_all_as_read"] = "Segna tutti come letti";
+$lang["marked_all_notifications_as_read"] = "Contrassegnato tutte le notifiche come letto";
+$lang["unknown_client"] = "Client sconosciuto";
+
+$lang["income_expenses_widget_help_message"] = "Questo rapporto è utilizzabile solo se si utilizza la valuta unica.";
+
+$lang["assign_myself_in_this_ticket"] = "Assegnami questo ticket";
+
+$lang["create_new_task"] = "Crea una nuova attività";
+
+$lang["default_due_date_after_billing_date"] = "Data di scadenza predefinita dopo la data di fatturazione";
+
+$lang["preview_next_key"] = "Avanti (tasto freccia destra)";
+$lang["preview_previous_key"] = "Precedente (tasto freccia sinistra)";
+
+$lang["field_type_external_link"] = "Link esterno";
+
+$lang["project_completed"] = "Progetto Completato";
+$lang["notification_project_completed"] = "Progetto Completato";
+
+$lang["google_drive_client_id"] = "Cliente ID";
+$lang["google_drive_client_secret"] = "Cliente secret";
+$lang["get_your_app_credentials_from_here"] = "Prendi le tue credenziali app da qui:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Ricorda di aggiungere questo URL in uri di reindirizzamento autorizzato";
+$lang["save_and_authorize"] = "Save & authorize";
+
+$lang["filters"] = "Filtro";
+
+$lang["preview_next_key"] = "Prossimo (freccia destra)";
+$lang["preview_previous_key"] = "Precedente (freccia sinistra)";
+
+$lang["total_days"] = "Totale Giorni";
+
+$lang["my_timesheet"] = "My timesheet";
+$lang["all_timesheets"] = "All timesheets";
+$lang["my_timesheet_statistics"] = "Mie Timecards statistiche";
+$lang["all_timesheets_statistics"] = "Tutte le Timecards statistiche";
+
+$lang["authorized"] = "Autorizzato";
+$lang["unauthorized"] = "Non autorizzato";
+
+$lang["no_field_has_selected"] = "Nesun campo selezionato";
+
+$lang["imap_help_message_1"] = "È possibile impostare un indirizzo e-mail per creare automaticamente i biglietti quando si ricevono e-mail a tale indirizzo.";
+$lang["imap_help_message_2"] = "Si prega di notare che, il sistema creerà i biglietti in base alle e-mail non lette. Dopo aver creato il ticket, le e-mail saranno contrassegnate come lette. Per ottenere le risposte negli stessi ticket, il sistema controllerà l'ID del ticket nell'oggetto dell'e-mail. Se nell'oggetto non è presente alcun ID biglietto, questo verrà considerato come un nuovo ticket. È possibile impostare l'oggetto dell'email da";
+$lang["imap_error_credentials_message"] = "Errore! Impossibile connettersi con imap utilizzando le credenziali.";
+
+$lang["client_message_own_contacts"] = "Cliente può inviare/ricevere messaggi da/a qualsiasi membro?";
+
+$lang["print_invoice"] = "Stampa preventivo";
+
+$lang["mark_invoice_as_cancelled"] = "Segna come cancellata";
+$lang["cancelled"] = "Cancellata";
+$lang["cancelled_at"] = "Cancellataa a";
+$lang["cancelled_by"] = "Cancellata da";
