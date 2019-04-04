@@ -2,8 +2,9 @@ RISE - Ultimate Project Manager
 --------------
 A web application where you can manage your projects, clients and team members.
 
-How to share your translations
+Improve translations
 --------------
-Please create a pull-request of your translations
+Please feel free to report errors in tralsations. 
+If you would like to share your tranlsations, please create a pull-request.
 
 **Online demo here https://codecanyon.net/item/rise-ultimate-project-manager/15455641**

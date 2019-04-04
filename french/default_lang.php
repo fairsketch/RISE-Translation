@@ -1045,7 +1045,7 @@ $lang["add_task_status"] = "Ajouter un status";
 $lang["edit_task_status"] = "Modifier le status";
 $lang["delete_task_status"] = "Supprimer le status";
 
-$lang["list"] = "Lister";
+$lang["list"] = "liste";
 $lang["kanban"] = "Kanban";
 $lang["priority"] = "Priorité";
 $lang["moved_up"] = "Déplacé vers le haut";
@@ -1103,17 +1103,17 @@ $lang["enable_email_notification"] = "Activer les notifications emails";
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
-$lang["all"] = "All";
+$lang["show_in_estimate"] = "Montrer dans le devis";
+$lang["mentioned_members"] = "Membres mentionnés";
+$lang["all"] = "Tout";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Confirmé";
+$lang["confirm"] = "Confirmer";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Confirmé par";
+$lang["confirm_event"] = "Confirmer évènement";
+$lang["reject_event"] = "Rejeter évènement";
+$lang["event_status"] = "Status de l'évènement";
 
 $lang["specific_client_contacts"] = "Specific client contacts";
 $lang["choose_client_contacts"] = "Choose client contacts";
