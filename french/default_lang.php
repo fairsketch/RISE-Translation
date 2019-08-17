@@ -160,9 +160,9 @@ $lang["delete_attendance"] = "Supprimer la présence";
 $lang["attendance"] = "Présences";
 $lang["clock_in"] = "Présent";
 $lang["clock_out"] = "Absent";
-$lang["in_date"] = "Date d'arrivé";
+$lang["in_date"] = "Date d'arrivée";
 $lang["out_date"] = "Date départ";
-$lang["in_time"] = "Heure d'arrivé";
+$lang["in_time"] = "Heure d'arrivée";
 $lang["out_time"] = "Heure de départ";
 $lang["clock_started_at"] = "L'horloge démarre à";
 $lang["you_are_currently_clocked_out"] = "Vous êtes actuellement absent.";
@@ -955,7 +955,7 @@ $lang["past_recurring_date_error_message_title"] = "La date de facturation séle
 $lang["past_recurring_date_error_message"] = "La prochaine date récurrente doit être une date ultérieure. Entrez une date ultérieure.";
 $lang["sub_invoices"] = "Sous-factures";
 
-$lang["cron_job_required"] = "Cron Job est requis pour cette action!";
+$lang["cron_job_required"] = "Une tâche cron est requis pour cette action!";
 
 $lang["recurring_invoice_created_vai_cron_job"] = "Facture récurrente créée via une tâche Cron";
 $lang["notification_recurring_invoice_created_vai_cron_job"] = "Nouvelle facture générée";
@@ -999,9 +999,9 @@ $lang["disable_event_sharing"] = "Désactiver le partage d'événements";
 $lang["can_update_team_members_general_info_and_social_links"] = "Peut mettre à jour les informations générales et les liens sociaux du membre de l'équipe ?";
 $lang["can_manage_team_members_project_timesheet"] = "Peut gérer le planning du projet du membre de l'équipe ?";
 
-$lang["cron_job"] = "Cron Job";
-$lang["cron_job_link"] = "Lien du Cron Job";
-$lang["last_cron_job_run"] = "Dernière exécution du Cron Job";
+$lang["cron_job"] = "Tâche cron";
+$lang["cron_job_link"] = "Lien de la tâche cron";
+$lang["last_cron_job_run"] = "Dernière exécution de la tâche cron";
 $lang["created_from"] = "Créé à partir de"; //Ex. Created from Invoice#1
 $lang["recommended_execution_interval"] = "Intervalle d'exécution recommandé";
 
@@ -1115,212 +1115,210 @@ $lang["confirm_event"] = "Confirmer évènement";
 $lang["reject_event"] = "Rejeter évènement";
 $lang["event_status"] = "Status de l'évènement";
 
-$lang["specific_client_contacts"] = "Specific client contacts";
-$lang["choose_client_contacts"] = "Choose client contacts";
-$lang["invitations_sent"] = "The invitations has been sent.";
+$lang["specific_client_contacts"] = "Contacts clients spécifiques";
+$lang["choose_client_contacts"] = "Choisissez les contacts du client";
+$lang["invitations_sent"] = "Les invitations ont été envoyées.";
 
 /* Version 2.1 */
 
-$lang["add_new_dashboard"] = "Add new dashboard";
-$lang["add_row"] = "Add row";
+$lang["add_new_dashboard"] = "Ajouter un nouveau tableau de bord";
+$lang["add_row"] = "Ajouter une ligne";
 
-$lang["available_widgets"] = "Available Widgets";
-$lang["your_selected_widgets_will_be_appear_here"] = "Your selected widgets will be appear here";
-$lang["drag_and_drop_widgets_here"] = "Drag and drop widgets here";
-$lang["no_more_widgets_available"] = "No more widgets available";
-$lang["invalid_widget_access"] = "You don't have permission to access this widget";
+$lang["available_widgets"] = "Widgets disponibles";
+$lang["your_selected_widgets_will_be_appear_here"] = "Les widgets que vous avez sélectionnés apparaîtront ici";
+$lang["drag_and_drop_widgets_here"] = "Glissez et déposez les widgets ici";
+$lang["no_more_widgets_available"] = "Aucun widget disponible";
+$lang["invalid_widget_access"] = "Vous n'avez pas la permission d'accéder à ce widget";
 
-$lang["dashboard_title"] = "Dashboard title";
-$lang["edit_dashboard"] = "Edit dashboard";
-$lang["edit_title"] = "Edit title";
-$lang["default_dashboard"] = "Default dashboard";
+$lang["dashboard_title"] = "Titre du tableau de bord";
+$lang["edit_dashboard"] = "Modifier le tableau de bord";
+$lang["edit_title"] = "Modifier le titre";
+$lang["default_dashboard"] = "Tableau de bord par défaut";
 
 $lang["widget"] = "Widget";
 $lang["widgets"] = "Widgets";
-$lang["add_widget"] = "Add widget";
-$lang["edit_widget"] = "Edit widget";
-$lang["delete_widget"] = "Delete widget";
+$lang["add_widget"] = "Ajouter un widget";
+$lang["edit_widget"] = "Modifier un widget";
+$lang["delete_widget"] = "Supprimer un widget";
 
-$lang["content"] = "Content";
+$lang["content"] = "Contenu";
 $lang["clock_in_out"] = "Clock in-out";
-$lang["custom_widget_details"] = "Custom widget details";
+$lang["custom_widget_details"] = "Détails du widget personnalisé";
 
-$lang["total_projects"] = "Total projects";
-$lang["total_invoices"] = "Total invoices";
-$lang["total_payments"] = "Total payments";
-$lang["total_due"] = "Total due";
+$lang["total_projects"] = "Total des projets";
+$lang["total_invoices"] = "Total des factures";
+$lang["total_payments"] = "Total des paiements";
+$lang["total_due"] = "Total dû";
 
-$lang["show_title"] = "Show title";
-$lang["show_border"] = "Show border";
+$lang["show_title"] = "Afficher le titre";
+$lang["show_border"] = "Afficher la bordure";
 
-$lang["all_tasks_kanban"] = "All tasks kanban";
-$lang["todo_list"] = "Todo list";
-$lang["open_projects_list"] = "Open Projects List";
-$lang["starred_projects"] = "Starred Projects";
-$lang["completed_projects"] = "Completed Projects";
+$lang["all_tasks_kanban"] = "Toutes les taches kanban";
+$lang["todo_list"] = "Liste de choses à faire";
+$lang["open_projects_list"] = "Liste des projets en cours";
+$lang["starred_projects"] = "Projets favoris";
+$lang["completed_projects"] = "Projets terminés";
 
-$lang["new_tickets"] = "New Tickets";
-$lang["open_tickets"] = "Open Tickets";
-$lang["closed_tickets"] = "Closed Tickets";
+$lang["new_tickets"] = "Nouveaux tickets";
+$lang["open_tickets"] = "Tickets ouverts";
+$lang["closed_tickets"] = "Tickets fermés";
 
-$lang["clocked_in_team_members"] = "Clocked in team members";
-$lang["clocked_out_team_members"] = "Clocked out team members";
-$lang["latest_online_client_contacts"] = "Latest online client contacts";
-$lang["latest_online_team_members"] = "Latest online team members";
-$lang["my_tasks_list"] = "My tasks list";
+$lang["clocked_in_team_members"] = "Membres de l'équipe présents";
+$lang["clocked_out_team_members"] = "Membres de l'équipe absents";
+$lang["latest_online_client_contacts"] = "Derniers contacts clients en ligne";
+$lang["latest_online_team_members"] = "Derniers membres de l'équipe en ligne";
+$lang["my_tasks_list"] = "Ma liste de tâches";
 
-$lang["discount"] = "Discount";
-$lang["discount_type"] = "Discount Type";
-$lang["edit_discount"] = "Edit discount";
-$lang["discount_amount"] = "Discount amount";
-$lang["fixed_amount"] = "Fixed Amount";
-$lang["before_tax"] = "Before Tax";
-$lang["after_tax"] = "After Tax";
+$lang["discount"] = "Remise";
+$lang["discount_type"] = "Type de remise";
+$lang["edit_discount"] = "Modifier la remise";
+$lang["discount_amount"] = "Montant de la remise";
+$lang["fixed_amount"] = "Montant fixé";
+$lang["before_tax"] = "Avant taxe";
+$lang["after_tax"] = "Après taxe";
 
-$lang["access_permission"] = "Access Permission";
-$lang["setup"] = "Setup";
-$lang["client_permissions"] = "Client permissions";
+$lang["access_permission"] = "Droit d'accès";
+$lang["setup"] = "Configuration";
+$lang["client_permissions"] = "Autorisations client";
 
-$lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
-$lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
-$lang["personal_language"] = "Personal language";
+$lang["invoice_over_payment_error_message"] = "Vous ne pouvez pas payer plus que votre facture due.";
+$lang["account_already_exists_for_your_company_name"] = "Le compte existe déjà pour le nom de votre entreprise.";
+$lang["personal_language"] = "Langage personnel";
 
-$lang["no_messages_text"] = "You don't have any messages yet";
-$lang["no_users_found"] = "No users found";
+$lang["no_messages_text"] = "Vous n'avez pas encore de messages";
+$lang["no_users_found"] = "Aucun utilisateur trouvé";
 
-$lang["create_project"] = "Create project";
+$lang["create_project"] = "Créer un projet";
 
 /* Version 2.2 */
 
-$lang["imap_settings"] = "IMAP settings";
-$lang["enable_email_piping"] = "Enable Email piping";
-$lang["imap_host"] = "IMAP Host";
+$lang["imap_settings"] = "Paramètres IMAP";
+$lang["enable_email_piping"] = "Activer Email piping";
+$lang["imap_host"] = "Hôte IMAP";
 $lang["imap_port"] = "Port";
-$lang["imap_ssl_enabled"] = "SSL Enabled";
-$lang["please_upgrade_your_php_version"] = "Please upgrade your PHP Version for this operation.";
-$lang["required_version"] = "Required Version";
-$lang["email_piping_help_message"] = "Please make sure that, your IMap access is enabled.";
+$lang["imap_ssl_enabled"] = "SSL activé";
+$lang["please_upgrade_your_php_version"] = "Veuillez mettre à jour votre version de PHP.";
+$lang["required_version"] = "Version requise";
+$lang["email_piping_help_message"] = "Assurez-vous que votre accès IMAP est activé.";
 
-$lang["enable_rich_text_editor"] = "Enable rich text editor in comments/description";
+$lang["enable_rich_text_editor"] = "Activer l'éditeur de texte enrichi dans les commentaires/descriptions";
 
-$lang["show_assigned_tasks_only"] = "Show assigned tasks only";
+$lang["show_assigned_tasks_only"] = "Afficher uniquement les tâches assignées";
 
-$lang["batch_update"] = "Batch update";
-$lang["cancel_selection"] = "Cancel selection";
-$lang["select_status"] = "Select status";
+$lang["batch_update"] = "Mise à jour groupée";
+$lang["cancel_selection"] = "Annuler la sélection";
+$lang["select_status"] = "Sélectionnez le statut";
 
-$lang["batch_update"] = "Batch update";
-
-$lang["add_multiple_tasks"] = "Add multiple tasks";
-$lang["save_and_add_more"] = "Save & add more";
-$lang["add_project_time"] = "Add project time";
+$lang["add_multiple_tasks"] = "Ajouter plusieurs tâches";
+$lang["save_and_add_more"] = "Enregistrer et ajouter";
+$lang["add_project_time"] = "Ajouter du temps de projet";
 $lang["add_to_do"] = "Add to do";
-$lang["hide_menus_from_topbar"] = "Hide menus from topbar";
-$lang["favorite_projects"] = "Favorite projects";
-$lang["favorite_clients"] = "Favorite clients";
-$lang["dashboard_customization"] = "Dashboard customization";
-$lang["quick_add"] = "Quick add";
+$lang["hide_menus_from_topbar"] = "Masquer les menus de la barre supérieure";
+$lang["favorite_projects"] = "Projets favoris";
+$lang["favorite_clients"] = "Clients favoris";
+$lang["dashboard_customization"] = "Personnalisation du tableau de bord";
+$lang["quick_add"] = "Ajout rapide";
 
-$lang["assign_to_me"] = "Assign to me";
+$lang["assign_to_me"] = "M'assigner";
 
 $lang["favicon"] = "Favicon";
 
-$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
-$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
+$lang["enable_google_drive_api_to_upload_file"] = "Activer l'API Google Drive pour charger un fichier";
+$lang["drive_activation_help_message"] = "À partir de maintenant, tous les fichiers seront chargés dans Google Drive.";
 
-$lang["mark_all_as_read"] = "Mark all as read";
-$lang["marked_all_notifications_as_read"] = "Marked all notifications as read";
+$lang["mark_all_as_read"] = "Tout marquer comme lu";
+$lang["marked_all_notifications_as_read"] = "Marquer toutes les notifications comme lues";
 
-$lang["project_completed"] = "Project completed";
-$lang["notification_project_completed"] = "Completed a project";
+$lang["project_completed"] = "Projet terminé";
+$lang["notification_project_completed"] = "a terminé un projet";
 
 $lang["google_drive_client_id"] = "Client ID";
 $lang["google_drive_client_secret"] = "Client secret";
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
-$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
-$lang["save_and_authorize"] = "Save & authorize";
+$lang["get_your_app_credentials_from_here"] = "Obtenez les informations d'identification de votre application à partir d'ici:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "N'oubliez pas d'ajouter cette URL dans la redirection uri autorisée";
+$lang["save_and_authorize"] = "Enregistrer et autoriser";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
+$lang["preview_next_key"] = "Suivant (flèche droite)";
+$lang["preview_previous_key"] = "Précédent (flèche gauche)";
 
-$lang["filters"] = "Filters";
+$lang["filters"] = "Filtres";
 
-$lang["authorized"] = "Authorized";
-$lang["unauthorized"] = "Unauthorized";
+$lang["authorized"] = "Autorisé";
+$lang["unauthorized"] = "Non autorisé";
 
 $lang["clock_in_out"] = "Clock In / Out";
-$lang["not_clocked_id_yet"] = "Not clocked in yet";
+$lang["not_clocked_id_yet"] = "Pas encore présent";
 
-$lang["create_estimate_request"] = "Create estimate request";
+$lang["create_estimate_request"] = "Créer une demande de devis";
 
-$lang["in_last_number_of_days"] = "In last %s days";
-$lang["in_last_number_of_month"] = "In last %s month";
-$lang["in_last_number_of_months"] = "In last %s months";
+$lang["in_last_number_of_days"] = "Dans les %s derniers jours";
+$lang["in_last_number_of_month"] = "Dans les %s derniers mois";
+$lang["in_last_number_of_months"] = "Dans les %s derniers mois";
 
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
+$lang["get_your_app_credentials_from_here"] = "Obtenez les informations d'identification de votre application à partir d'ici:";
 $lang["pusher_app_id"] = "App ID";
-$lang["pusher_key"] = "Key";
+$lang["pusher_key"] = "Clé";
 $lang["pusher_secret"] = "Secret";
 $lang["pusher_cluster"] = "Cluster";
-$lang["enable_push_notification"] = "Enable push notification";
-$lang["push_notification"] = "Push notification";
-$lang["disable_push_notification"] = "Disable push notification";
+$lang["enable_push_notification"] = "Activer la notification push";
+$lang["push_notification"] = "Notification push";
+$lang["disable_push_notification"] = "Désactiver la notification push";
 
-$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
-$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
+$lang["enable_google_drive_api_to_upload_file"] = "Activer l'API Google Drive pour charger un fichier";
+$lang["drive_activation_help_message"] = "À partir de maintenant, tous les fichiers seront chargés dans Google Drive.";
 
-$lang["mark_all_as_read"] = "Mark all as read";
-$lang["marked_all_notifications_as_read"] = "Marked all notifications as read";
-$lang["unknown_client"] = "Unknown client";
+$lang["mark_all_as_read"] = "Tout marquer comme lu";
+$lang["marked_all_notifications_as_read"] = "Marquer toutes les notifications comme lues";
+$lang["unknown_client"] = "Client inconnu";
 
-$lang["income_expenses_widget_help_message"] = "This report is only usable if you are using single currency.";
+$lang["income_expenses_widget_help_message"] = "Ce rapport n'est utilisable que si vous utilisez une monnaie unique.";
 
-$lang["assign_myself_in_this_ticket"] = "Assign myself in this ticket";
+$lang["assign_myself_in_this_ticket"] = "M'assigner à ce ticket";
 
-$lang["create_new_task"] = "Create new task";
+$lang["create_new_task"] = "Créer une nouvelle tâche";
 
-$lang["default_due_date_after_billing_date"] = "Default due date after billing date";
+$lang["default_due_date_after_billing_date"] = "Date d'échéance par défaut après la date de facturation";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
+$lang["preview_next_key"] = "Suivant (flèche droite)";
+$lang["preview_previous_key"] = "Précédent (flèche gauche)";
 
-$lang["field_type_external_link"] = "External link";
+$lang["field_type_external_link"] = "Lien externe";
 
-$lang["project_completed"] = "Project completed";
-$lang["notification_project_completed"] = "Completed a project";
+$lang["project_completed"] = "Projet terminé";
+$lang["notification_project_completed"] = "a terminé un projet";
 
 $lang["google_drive_client_id"] = "Client ID";
 $lang["google_drive_client_secret"] = "Client secret";
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
-$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
-$lang["save_and_authorize"] = "Save & authorize";
+$lang["get_your_app_credentials_from_here"] = "Obtenez les informations d'identification de votre application à partir d'ici :";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "N'oubliez pas d'ajouter cette URL dans la redirection uri autorisée";
+$lang["save_and_authorize"] = "Enregistrer et autoriser";
 
-$lang["filters"] = "Filters";
+$lang["filters"] = "Filtres";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
+$lang["preview_next_key"] = "Suivant (flèche droite)";
+$lang["preview_previous_key"] = "Précédent (flèche gauche)";
 
-$lang["total_days"] = "Total days";
+$lang["total_days"] = "Nombre total de jours";
 
-$lang["my_timesheet"] = "My timesheet";
-$lang["all_timesheets"] = "All timesheets";
-$lang["my_timesheet_statistics"] = "My timesheet statistics";
-$lang["all_timesheets_statistics"] = "All timesheets statistics";
+$lang["my_timesheet"] = "Ma feuille de temps";
+$lang["all_timesheets"] = "Toutes les feuilles de temps";
+$lang["my_timesheet_statistics"] = "Mes statistiques de feuille de temps";
+$lang["all_timesheets_statistics"] = "Toutes les statistiques sur les feuilles de temps";
 
-$lang["authorized"] = "Authorized";
-$lang["unauthorized"] = "Unauthorized";
+$lang["authorized"] = "Autorisé";
+$lang["unauthorized"] = "Non autorisé";
 
-$lang["no_field_has_selected"] = "No field has selected!";
+$lang["no_field_has_selected"] = "Aucun champ n'a été sélectionné!";
 
-$lang["imap_help_message_1"] = "You can setup an email address to create the tickets automatically when you receive any emails at that address.";
-$lang["imap_help_message_2"] = "Please note that, the system will create tickets based on the unread emails. After creating the ticket, the emails will be marked as read. To get the replies in the same tickets, the system will check the ticket ID in the email subject. If there is no ticket ID in the subject, that will be considered as a new ticket. You can setup the email subject from the";
-$lang["imap_error_credentials_message"] = "Error! Can't connect with the imap using the credentials.";
+$lang["imap_help_message_1"] = "Vous pouvez configurer une adresse électronique pour créer les tickets automatiquement lorsque vous recevez des emails à cette adresse.";
+$lang["imap_help_message_2"] = "Veuillez noter que le système créera des tickets basés sur les emails non lus. Après avoir créé le ticket, les emails seront marqués comme lus. Pour obtenir les réponses dans les mêmes tickets, le système vérifiera l'ID du ticket dans l'objet du courrier électronique. S'il n'y a pas d'identifiant de ticket dans le sujet, cela sera considéré comme un nouveau ticket. Vous pouvez configurer l'objet de l'e-mail à partir du";
+$lang["imap_error_credentials_message"] = "Erreur ! Impossible de se connecter à l'IMAP à l'aide des informations d'identification.";
 
-$lang["client_message_own_contacts"] = "Client can send/receive message to/from own contacts?";
+$lang["client_message_own_contacts"] = "Le client peut envoyer/recevoir un message à/de ses propres contacts?";
 
-$lang["print_invoice"] = "Print invoice";
+$lang["print_invoice"] = "Imprimer la facture";
 
-$lang["mark_invoice_as_cancelled"] = "Mark as cancelled";
-$lang["cancelled"] = "Cancelled";
-$lang["cancelled_at"] = "Cancelled at";
-$lang["cancelled_by"] = "Cancelled by";
+$lang["mark_invoice_as_cancelled"] = "Marquer comme annulé";
+$lang["cancelled"] = "Annulé";
+$lang["cancelled_at"] = "Annulé à";
+$lang["cancelled_by"] = "Annulé par";
