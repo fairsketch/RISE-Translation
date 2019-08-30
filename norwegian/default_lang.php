@@ -835,9 +835,9 @@ $lang["no_record_found"] = "Ingen oppføring funnet.";
 $lang["excel"] = "Excel";
 $lang["print_button_help_text"] = "Trykk escape når du er ferdig.";
 $lang["are_you_sure"] = "Er du sikker?";
-$lang["file_upload_instruction"]="Dra og slipp dokumenter her <br /> (eller klikk for å bla ...)";
-$lang["file_name_too_long"]="Filnavn er for langt.";
-$lang["scrollbar"]="Rullefeltet";
+$lang["file_upload_instruction"] = "Dra og slipp dokumenter her <br /> (eller klikk for å bla ...)";
+$lang["file_name_too_long"] = "Filnavn er for langt.";
+$lang["scrollbar"] = "Rullefeltet";
 
 $lang["short_sunday"] = "Søn";
 $lang["short_monday"] = "Man";
@@ -867,7 +867,7 @@ $lang["september"] = "September";
 $lang["october"] = "Oktober";
 $lang["november"] = "November";
 $lang["december"] = "Desember";
- 
+
 $lang["short_january"] = "Jan";
 $lang["short_february"] = "Feb";
 $lang["short_march"] = "Mar";
@@ -1160,7 +1160,6 @@ $lang["starred_projects"] = "Starred Projects";
 $lang["completed_projects"] = "Completed Projects";
 
 $lang["new_tickets"] = "New Tickets";
-$lang["open_tickets"] = "Open Tickets";
 $lang["closed_tickets"] = "Closed Tickets";
 
 $lang["clocked_in_team_members"] = "Clocked in team members";
@@ -1184,7 +1183,6 @@ $lang["client_permissions"] = "Client permissions";
 $lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
 $lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
 $lang["personal_language"] = "Personal language";
-
 $lang["no_messages_text"] = "You don't have any messages yet";
 $lang["no_users_found"] = "No users found";
 
@@ -1208,8 +1206,6 @@ $lang["show_assigned_tasks_only"] = "Show assigned tasks only";
 $lang["batch_update"] = "Batch update";
 $lang["cancel_selection"] = "Cancel selection";
 $lang["select_status"] = "Select status";
-
-$lang["batch_update"] = "Batch update";
 
 $lang["add_multiple_tasks"] = "Add multiple tasks";
 $lang["save_and_add_more"] = "Save & add more";
@@ -1248,7 +1244,6 @@ $lang["filters"] = "Filters";
 $lang["authorized"] = "Authorized";
 $lang["unauthorized"] = "Unauthorized";
 
-$lang["clock_in_out"] = "Clock In / Out";
 $lang["not_clocked_id_yet"] = "Not clocked in yet";
 
 $lang["create_estimate_request"] = "Create estimate request";
@@ -1257,7 +1252,6 @@ $lang["in_last_number_of_days"] = "In last %s days";
 $lang["in_last_number_of_month"] = "In last %s month";
 $lang["in_last_number_of_months"] = "In last %s months";
 
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
 $lang["pusher_app_id"] = "App ID";
 $lang["pusher_key"] = "Key";
 $lang["pusher_secret"] = "Secret";
@@ -1266,11 +1260,6 @@ $lang["enable_push_notification"] = "Enable push notification";
 $lang["push_notification"] = "Push notification";
 $lang["disable_push_notification"] = "Disable push notification";
 
-$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
-$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
-
-$lang["mark_all_as_read"] = "Mark all as read";
-$lang["marked_all_notifications_as_read"] = "Marked all notifications as read";
 $lang["unknown_client"] = "Unknown client";
 
 $lang["income_expenses_widget_help_message"] = "This report is only usable if you are using single currency.";
@@ -1281,24 +1270,7 @@ $lang["create_new_task"] = "Create new task";
 
 $lang["default_due_date_after_billing_date"] = "Default due date after billing date";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
-
 $lang["field_type_external_link"] = "External link";
-
-$lang["project_completed"] = "Project completed";
-$lang["notification_project_completed"] = "Completed a project";
-
-$lang["google_drive_client_id"] = "Client ID";
-$lang["google_drive_client_secret"] = "Client secret";
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
-$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
-$lang["save_and_authorize"] = "Save & authorize";
-
-$lang["filters"] = "Filters";
-
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
 
 $lang["total_days"] = "Total days";
 
@@ -1306,9 +1278,6 @@ $lang["my_timesheet"] = "My timesheet";
 $lang["all_timesheets"] = "All timesheets";
 $lang["my_timesheet_statistics"] = "My timesheet statistics";
 $lang["all_timesheets_statistics"] = "All timesheets statistics";
-
-$lang["authorized"] = "Authorized";
-$lang["unauthorized"] = "Unauthorized";
 
 $lang["no_field_has_selected"] = "No field has selected!";
 
@@ -1324,3 +1293,145 @@ $lang["mark_invoice_as_cancelled"] = "Mark as cancelled";
 $lang["cancelled"] = "Cancelled";
 $lang["cancelled_at"] = "Cancelled at";
 $lang["cancelled_by"] = "Cancelled by";
+
+/* Version 2.3 */
+
+$lang["test_push_notification"] = "Test push notification";
+$lang["notification_test_push_notification"] = "It's a demo push notification";
+$lang["push_notification_error_message"] = "Error! Can't connect with the Pusher using the credentials.";
+$lang["clone_estimate"] = "Clone Estimate";
+
+$lang["import_clients"] = "Import clients";
+$lang["download_sample_file"] = "Download sample file";
+
+$lang["estimate_settings"] = "Estimate Settings";
+$lang["estimate_logo"] = "Estimate Logo";
+$lang["estimate_color"] = "Estimate Color";
+$lang["initial_number_of_the_estimate"] = "Initial number of the estimate";
+$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger then last estimate ID.";
+
+$lang["send_to_client"] = "Send to client";
+$lang["estimate_sent_message"] = "The estimate has been sent!";
+$lang["send_estimate_bcc_to"] = "When sending estimate to client, send BCC to";
+        
+$lang["task_settings"] = "Task settings";
+$lang["enable_recurring_option_for_tasks"] = "Enable recurring option for tasks";
+$lang["past_recurring_date_error_message_title_for_tasks"] = "The selected start date and repeat type returns a past date.";
+$lang["recurring_task_created_via_cron_job"] = "Recurring task created via Cron Job";
+$lang["notification_recurring_task_created_via_cron_job"] = "New task created";
+$lang["repeat_type"] = "Repeat type";
+$lang["lead_status"] = "Lead status";
+$lang["add_lead_status"] = "Add lead status";
+$lang["edit_lead_status"] = "Edit lead status";
+$lang["delete_lead_status"] = "Delete lead status";
+$lang["owner"] = "Owner";
+$lang["make_client"] = "Make client";
+$lang["client_contacts"] = "Client contacts";
+$lang["lead_contacts"] = "Lead contacts";
+$lang["add_a_lead"] = "Add a lead";
+$lang["source"] = "Source";
+$lang["lead_source"] = "Lead source";
+$lang["add_lead_source"] = "Add lead source";
+$lang["edit_lead_source"] = "Edit lead source";
+$lang["delete_lead_source"] = "Delete lead source";
+$lang["custom_field_migration"] = "Custom field migration";
+$lang["merge_custom_fields"] = "Merge custom fields";
+$lang["do_not_merge"] = "Do not merge";
+$lang["merge_custom_fields_help_message"] = "If there is any similar custom fields exists for %s, this values will be added to those. Otherwise, this will create new custom fields for %s and add values to those.";
+$lang["lead_created"] = "Lead created";
+$lang["notification_lead_created"] = "Created a new lead.";
+$lang["client_created_from_lead"] = "Client created from lead";
+$lang["notification_client_created_from_lead"] = "Converted a lead to client.";
+$lang["project_deadline"] = "Project deadline";
+$lang["task_deadline"] = "Task deadline";
+$lang["event_type"] = "Event type";
+$lang["delete_estimate_form"] = "Delete estimate form";
+$lang["calendar_event_modified"] = "Calendar event modified";
+$lang["notification_calendar_event_modified"] = "Modified an event.";
+
+$lang["there_has_leads_with_this_status"] = "There has leads with this status";
+$lang["lead_created_at"] = "Lead created at";
+$lang["past_lead_information"] = "Past lead information";
+$lang["last_status"] = "Last status";
+$lang["migrated_to_client_at"] = "Migrated to client at";
+$lang["edit_estimate_form"] = "Edit estimate form";
+
+$lang["please_upload_a_excel_file"] = "Please upload a excel file.";
+$lang["back"] = "Back";
+
+$lang["import_client_error_header"] = "There has an invalid header. The indicated field should be <b>%s</b>.";
+$lang["import_client_error_company_name_field_required"] = "Company name field is required.";
+$lang["import_client_error_contact_name"] = "Contact first name and last is both required to add a client contact.";
+$lang["import_client_error_contact_email"] = "Contact email is required and should be unique to add a client contact.";
+$lang["error"] = "Error";
+$lang["contact_first_name"] = "Contact first name";
+$lang["contact_last_name"] = "Contact last name";
+$lang["contact_email"] = "Contact email";
+
+$lang["clone_invoice"] = "Clone Invoice";
+$lang["copy_items"] = "Copy items";
+$lang["copy_discount"] = "Copy discount";
+
+$lang["clone_task"] = "Clone task";
+$lang["copy_checklist"] = "Copy checklist";
+
+$lang["auto_assign_estimate_request_to"] = "Auto assign estimate request to";
+
+$lang["email_template_variable"] = "Email template variable";
+$lang["example_variable_name"] = "Example_variable_name";
+
+$lang["imap_extension_error_help_message"] = "You don't have IMAP extension in your server. Please install the extension for this action.";
+
+$lang["initial_number_of_the_invoice"] = "Initial number of the invoice";
+$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger then last invoice ID.";
+
+$lang["client_dashboard_help_message"] = "This will be the default dashboard for all clients. Please note that, the information you're seeing here in the widgets, isn't any actual infromation of clients.";
+
+$lang["send_to_lead"] = "Send to lead";
+$lang["lead"] = "Lead";
+$lang["leads"] = "Leads";
+$lang["add_lead"] = "Add lead";
+$lang["edit_lead"] = "Edit lead";
+$lang["delete_lead"] = "Delete lead";
+$lang["lead_details"] = "Lead details";
+$lang["can_access_leads_information"] = "Can access lead's information?";
+$lang["lead_info"] = "Lead info";
+
+$lang["send_task_reminder_on_the_day_of_deadline"] = "Send task reminder on the day of deadline";
+$lang["send_task_deadline_pre_reminder"] = "Send task deadline pre reminder";
+$lang["send_task_deadline_overdue_reminder"] = "Send task deadline overdue reminder";
+
+$lang["project_task_deadline_reminder"] = "Project task deadline reminder";
+
+$lang["project_task_deadline_pre_reminder"] = "Project task deadline pre reminder";
+$lang["project_task_deadline_overdue_reminder"] = "Project task deadline overdue reminder";
+$lang["project_task_reminder_on_the_day_of_deadline"] = "Project task reminder on the day of deadline";
+
+$lang["notification_project_task_deadline_pre_reminder"] = "Reminder: Some tasks needs to be finished soon.";
+$lang["notification_project_task_deadline_overdue_reminder"] = "Reminder: Task's deadline overdue.";
+$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Reminder: Some tasks needs to be finished today.";
+
+$lang["mark_as_public"] = "Mark as public";
+$lang["note_details"] = "Note details";
+$lang["public_note_by"] = "Public note by";
+$lang["marked_as_public"] = "Marked as public";
+
+$lang["client_can_view_activity"] = "Client can view project activity";
+
+$lang["event_settings"] = "Event settings";
+$lang["enable_google_calendar_api"] = "Enable Google calendar API";
+$lang["google_calendar_settings"] = "Google calendar settings";
+
+$lang["your_calendar_ids"] = "Your Calendar IDs";
+$lang["calendar_id"] = "Calendar ID";
+$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Now every user can integrate with their Google calendar.";
+$lang["calendar_ids_help_message"] = "You'll get your own calendar events always. This is for other special calendars (Like Holidays Calendar).";
+
+$lang["google_client_id"] = "Client ID";
+$lang["google_client_secret"] = "Client secret";
+$lang["integrate_with_google_calendar"] = "Integrate with Google calendar";
+$lang["google_calendar_event"] = "Google Calendar event";
+
+$lang["mark_as_public_help_message"] = "You can't make this note as private again.";
+
+$lang["google_calendar_help_message"] = "You'll get your Google Calendar events by the run of Cron job. And any add/modification of your local events will effect your Google calendar instantly.";
