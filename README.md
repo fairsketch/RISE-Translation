@@ -1,6 +1,7 @@
 RISE - Ultimate Project Manager
 --------------
 A web application where you can manage your projects, clients and team members.
+Please check the demo for more details.
 
 Improve translations
 --------------
