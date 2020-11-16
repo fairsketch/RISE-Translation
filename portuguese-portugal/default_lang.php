@@ -275,17 +275,17 @@ $lang["who_can_send_or_receive_message_to_or_from_clients"] = "Quem pode enviar/
 $lang["authentication_failed"] = "A autenticação falhou!";
 $lang["signin"] = "Entrar";
 $lang["sign_out"] = "Sair";
-$lang["you_dont_have_an_account"] = "Você não tem uma conta?";
+$lang["you_dont_have_an_account"] = "Não tem uma conta?";
 $lang["already_have_an_account"] = "Já tem uma conta?";
-$lang["forgot_password"] = "Esqueceu a senha?";
+$lang["forgot_password"] = "Esqueceu a password?";
 $lang["signup"] = "Inscreva-se";
-$lang["input_email_to_reset_password"] = "Insira seu e-mail para redefinir sua senha";
-$lang["no_acount_found_with_this_email"] = "Desculpe, nenhuma conta encontrada com este e-mail.";
-$lang["reset_password"] = "Redefinir a senha";
-$lang["password_reset_successfully"] = "Sua senha foi redefinida com êxito.";
-$lang["account_created"] = "Sua conta foi criada com sucesso!";
-$lang["invitation_expaired_message"] = "O convite expirou ou algo deu errado";
-$lang["account_already_exists_for_your_mail"] = "Conta já existe para o seu endereço de e-mail.";
+$lang["input_email_to_reset_password"] = "Insira o seu e-mail para redefinir a sua password";
+$lang["no_acount_found_with_this_email"] = "Desculpe, mas não foi encontrada nenhuma conta com o e-mail indicado.";
+$lang["reset_password"] = "Redefinir a password";
+$lang["password_reset_successfully"] = "A sua password foi redefinida com sucesso.";
+$lang["account_created"] = "A sua conta foi criada com sucesso!";
+$lang["invitation_expaired_message"] = "O convite expirou ou houve um erro.";
+$lang["account_already_exists_for_your_mail"] = "Já existe uma conta com o email indicado.";
 $lang["create_an_account_as_a_new_client"] = "Criar uma conta como um novo cliente.";
 $lang["create_an_account_as_a_team_member"] = "Criar uma conta como um membro da equipa.";
 $lang["create_an_account_as_a_client_contact"] = "Criar uma conta como um contato do cliente.";
@@ -320,7 +320,7 @@ $lang["edit_contact"] = "Editar contato";
 $lang["delete_contact"] = "Eliminar contato";
 $lang["contact"] = "Contato";
 $lang["contacts"] = "Contatos";
-$lang["users"] = "Uitizadors";
+$lang["users"] = "Uitizadores";
 $lang["primary_contact"] = "Contato Principal";
 $lang["disable_login"] = "Desabilitar Login";
 $lang["disable_login_help_message"] = "O utilizador não será capaz de entrar neste sistema!";
@@ -570,10 +570,10 @@ $lang["excluding_his_her_time_cards"] = "menos o seu próprio controle de jornad
 $lang["excluding_his_her_leaves"] = "menos o seu próprio registo de licenças";
 $lang["can_manage_team_members_leave"] = "Pode gerenciar as licenças de membros da equipa?";
 $lang["can_manage_team_members_timecards"] = "Pode gerenciar o controle de jornada da equipa?";
-$lang["can_access_invoices"] = "Pode acessar faturas?";
-$lang["can_access_expenses"] = "Pode acessar despesas?";
-$lang["can_access_clients_information"] = "Pode acessar as informações do cliente?";
-$lang["can_access_tickets"] = "Pode acessar chamados?";
+$lang["can_access_invoices"] = "Pode aceder faturas?";
+$lang["can_access_expenses"] = "Pode aceder despesas?";
+$lang["can_access_clients_information"] = "Pode aceder as informações do cliente?";
+$lang["can_access_tickets"] = "Pode aceder chamados?";
 $lang["can_manage_announcements"] = "Pode gerenciar avisos?";
 
 /* timeline */
@@ -780,7 +780,7 @@ $lang["field_type_select"] = "Selecionar";
 $lang["field_type_multi_select"] = "Múltipla seleção";
 
 $lang["request_an_estimate"] = "Solicitar um Orçamento";
-$lang["estimate_submission_message"] = "Sua solicitação foi enviada com sucesso!";
+$lang["estimate_submission_message"] = "A solicitação foi enviada com sucesso!";
 
 $lang["hold"] = "Aguarde";
 $lang["processing"] = "Processando";
@@ -797,7 +797,7 @@ $lang["sent"] = "Enviado";
 $lang["estimate_preview"] = "Visualizar Orçamento";
 $lang["estimate_to"] = "Orçamento para";
 
-$lang["can_access_estimates"] = "Pode acessar orçamentos?";
+$lang["can_access_estimates"] = "Pode aceder orçamentos?";
 $lang["request_an_estimate"] = "Solicitar um orçamento";
 $lang["estimate_request_form_selection_title"] = "Selecione um formulário da lista a seguir para enviar sua solicitação.";
 
@@ -911,8 +911,8 @@ $lang["delete_field"] = "Eliminar Campo";
 $lang["client_info"] = "Informações do Cliente";
 $lang["edit_expenses_category"] = "Editar categoria de despesas";
 $lang["eelete_expenses_category"] = "Eliminar categoria de despesas";
-$lang["empty_starred_projects"] = "Para acessar seus projetos favoritos rapidamente, acesse o projeto e marque a estrela.";
-$lang["empty_starred_clients"] = "Para acessar seus clientes favoritos rapidamente, vá para a visualização do cliente e marque a estrela.";
+$lang["empty_starred_projects"] = "Para aceder seus projetos favoritos rapidamente, acesse o projeto e marque a estrela.";
+$lang["empty_starred_clients"] = "Para aceder seus clientes favoritos rapidamente, vá para a visualização do cliente e marque a estrela.";
 $lang["download_zip_name"] = "Documentos";
 $lang["invoice_prefix"] = "Prefixo da Fatura";
 $lang["invoice_style"] = "Visual da Fatura";
@@ -1083,7 +1083,7 @@ $lang["invoice_overdue_reminder"] = "Lembrete de fatura vencida";
 $lang["recurring_invoice_creation_reminder"] = "Lembrete de criação de fatura recorrente";
 $lang["send_recurring_invoice_reminder_before_creation"] = "Enviar lembrete de fatura recorrente antes da sua criação";
 
-$lang["notification_invoice_due_reminder_before_due_date"] = "Lembrete: Sua fatura vencerá em breve";
+$lang["notification_invoice_due_reminder_before_due_date"] = "Lembrete: A sua fatura vencerá em breve";
 $lang["notification_invoice_overdue_reminder"] = "Lembrete: Fatura em atraso";
 $lang["notification_recurring_invoice_creation_reminder"] = "Uma fatura será gerada em breve.";
 
@@ -1168,17 +1168,17 @@ $lang["latest_online_client_contacts"] = "Latest online client contacts";
 $lang["latest_online_team_members"] = "Latest online team members";
 $lang["my_tasks_list"] = "My tasks list";
 
-$lang["discount"] = "Discount";
-$lang["discount_type"] = "Discount Type";
-$lang["edit_discount"] = "Edit discount";
-$lang["discount_amount"] = "Discount amount";
-$lang["fixed_amount"] = "Fixed Amount";
-$lang["before_tax"] = "Before Tax";
-$lang["after_tax"] = "After Tax";
+$lang["discount"] = "Desconto";
+$lang["discount_type"] = "Tipo de Desconto";
+$lang["edit_discount"] = "Editar Desconto";
+$lang["discount_amount"] = "Valor do desconto";
+$lang["fixed_amount"] = "Montante fico";
+$lang["before_tax"] = "Antes do IVA";
+$lang["after_tax"] = "Depois do IVA";
 
 $lang["access_permission"] = "Access Permission";
 $lang["setup"] = "Setup";
-$lang["client_permissions"] = "Client permissions";
+$lang["client_permissions"] = "Permissões do cliente";
 
 $lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
 $lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
@@ -1186,7 +1186,7 @@ $lang["personal_language"] = "Personal language";
 $lang["no_messages_text"] = "You don't have any messages yet";
 $lang["no_users_found"] = "No users found";
 
-$lang["create_project"] = "Create project";
+$lang["create_project"] = "Criar projeto";
 
 /* Version 2.2 */
 
@@ -1208,7 +1208,7 @@ $lang["cancel_selection"] = "Cancel selection";
 $lang["select_status"] = "Select status";
 
 $lang["add_multiple_tasks"] = "Adicionar multiple tasks";
-$lang["save_and_add_more"] = "Save & add more";
+$lang["save_and_add_more"] = "Guardar & adicionar mais";
 $lang["add_project_time"] = "Adicionar project time";
 $lang["add_to_do"] = "Adicionar to do";
 $lang["hide_menus_from_topbar"] = "Hide menus from topbar";
