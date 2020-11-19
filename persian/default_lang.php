@@ -1,10 +1,10 @@
 <?php
 
-/* NOTE: DO NOT CHANGE THIS FILE. IF YOU WANT TO UPDATE THE LANGUAGE THEN COPY THIS FILE TO custom_lang.php AND UPDATE THERE */
+/* .کپی کنید  و آنجا به روز رسانی کنید (custom_lang.php) توجه: این فایل را تغییر ندهید. اگر می خواهید زبان را به روز کنید این فایل را در */
 
-/* language locale */
-$lang["language_locale"] = "fa"; //locale code
-$lang["language_locale_long"] = "fa_IR"; //long locale code
+/* زبان محلی */ 
+$lang["language_locale"] = "fa"; //کد محلی
+$lang["language_locale_long"] = "fa-IR"; //کد محلی طولانی
 
 /* common */
 $lang["add"] = "افزودن";
