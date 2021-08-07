@@ -146,7 +146,7 @@ $lang["invite_someone_to_join_as_a_team_member"] = "Pozvěte někoho, aby se př
 /* team */
 $lang["add_team"] = "Přidat tým";
 $lang["edit_team"] = "Upravit tým";
-$lang["delete_teamn"] = "Odstranit tým";
+$lang["delete_team"] = "Odstranit tým";
 $lang["team"] = "Tým";
 $lang["select_a_team"] = "Vybrat tým";
 
@@ -252,7 +252,7 @@ $lang["email_sent_from_name"] = "E-mail odeslán jménem";
 $lang["email_use_smtp"] = "použít SMTP";
 $lang["email_smtp_host"] = "SMTP Hostitel";
 $lang["email_smtp_user"] = "SMTP Uživatel";
-$lang["email_smtp_password"] = "SMPT Heslo";
+$lang["email_smtp_password"] = "SMTP Heslo";
 $lang["email_smtp_port"] = "SMTP Port";
 $lang["send_test_mail_to"] = "Odeslat testovací e-mail na adresu";
 $lang["test_mail_sent"] = "Testovací e-mail byl odeslán!";
@@ -1103,335 +1103,934 @@ $lang["enable_email_notification"] = "Povolit upozornění e-mailem";
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
-$lang["all"] = "All";
+$lang["show_in_estimate"] = "Zobrazit v odhadu";
+$lang["mentioned_members"] = "Uvedení členové";
+$lang["all"] = "Všechno";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Potvrzeno";
+$lang["confirm"] = "Potvrdit";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Potvrzeno";
+$lang["confirm_event"] = "Potvrďte událost";
+$lang["reject_event"] = "Odmítnout událost";
+$lang["event_status"] = "Stav události";
 
-$lang["specific_client_contacts"] = "Specific client contacts";
-$lang["choose_client_contacts"] = "Choose client contacts";
-$lang["invitations_sent"] = "The invitations has been sent.";
+$lang["specific_client_contacts"] = "Kontakty konkrétního klienta";
+$lang["choose_client_contacts"] = "Vyberte kontakty klienta";
+$lang["invitations_sent"] = "Pozvánky byly odeslány.";
 
 /* Version 2.1 */
 
-$lang["add_new_dashboard"] = "Add new dashboard";
-$lang["add_row"] = "Add row";
+$lang["add_new_dashboard"] = "Přidat nový řídicí panel";
+$lang["add_row"] = "Přidat řádek";
 
-$lang["available_widgets"] = "Available Widgets";
-$lang["your_selected_widgets_will_be_appear_here"] = "Your selected widgets will be appear here";
-$lang["drag_and_drop_widgets_here"] = "Drag and drop widgets here";
-$lang["no_more_widgets_available"] = "No more widgets available";
-$lang["invalid_widget_access"] = "You don't have permission to access this widget";
+$lang["available_widgets"] = "Dostupné widgety";
+$lang["your_selected_widgets_will_be_appear_here"] = "Zde se zobrazí vybrané widgety";
+$lang["drag_and_drop_widgets_here"] = "Přetáhněte widgety sem";
+$lang["no_more_widgets_available"] = "Žádné další widgety nejsou k dispozici";
+$lang["invalid_widget_access"] = "Nemáte oprávnění k přístupu k tomuto widgetu";
 
-$lang["dashboard_title"] = "Dashboard title";
-$lang["edit_dashboard"] = "Edit dashboard";
-$lang["edit_title"] = "Edit title";
-$lang["default_dashboard"] = "Default dashboard";
+$lang["dashboard_title"] = "Název řídicího panelu";
+$lang["edit_dashboard"] = "Upravit řídicího panelu";
+$lang["edit_title"] = "Upravit název";
+$lang["default_dashboard"] = "Výchozí řídicího panelu";
 
 $lang["widget"] = "Widget";
-$lang["widgets"] = "Widgets";
-$lang["add_widget"] = "Add widget";
-$lang["edit_widget"] = "Edit widget";
-$lang["delete_widget"] = "Delete widget";
+$lang["widgets"] = "Widgety";
+$lang["add_widget"] = "Přidat widget";
+$lang["edit_widget"] = "Upravit widget";
+$lang["delete_widget"] = "Odstranit widget";
 
-$lang["content"] = "Content";
-$lang["clock_in_out"] = "Clock in-out";
-$lang["custom_widget_details"] = "Custom widget details";
+$lang["content"] = "Obsah";
+$lang["clock_in_out"] = "Hodiny dovnitř-ven";
+$lang["custom_widget_details"] = "Vlastní podrobnosti widgetu";
 
-$lang["total_projects"] = "Total projects";
-$lang["total_invoices"] = "Total invoices";
-$lang["total_payments"] = "Total payments";
-$lang["total_due"] = "Total due";
+$lang["total_projects"] = "Celkem projektů";
+$lang["total_invoices"] = "Faktury celkem";
+$lang["total_payments"] = "Celkové platby";
+$lang["total_due"] = "Celkem splatné";
 
-$lang["show_title"] = "Show title";
-$lang["show_border"] = "Show border";
+$lang["show_title"] = "Ukázat nadpis";
+$lang["show_border"] = "Zobrazit ohraničení";
 
-$lang["all_tasks_kanban"] = "All tasks kanban";
-$lang["todo_list"] = "Todo list";
-$lang["open_projects_list"] = "Open Projects List";
-$lang["starred_projects"] = "Starred Projects";
-$lang["completed_projects"] = "Completed Projects";
+$lang["all_tasks_kanban"] = "Všechny úkoly kanban";
+$lang["todo_list"] = "Seznam úkolů";
+$lang["open_projects_list"] = "Otevřít seznam projektů";
+$lang["starred_projects"] = "zahájený projekt";
+$lang["completed_projects"] = "Dokončené projekty";
 
-$lang["new_tickets"] = "New Tickets";
-$lang["closed_tickets"] = "Closed Tickets";
+$lang["new_tickets"] = "Nové vstupenky";
+$lang["closed_tickets"] = "Uzavřené vstupenky";
 
-$lang["clocked_in_team_members"] = "Clocked in team members";
-$lang["clocked_out_team_members"] = "Clocked out team members";
-$lang["latest_online_client_contacts"] = "Latest online client contacts";
-$lang["latest_online_team_members"] = "Latest online team members";
-$lang["my_tasks_list"] = "My tasks list";
+$lang["clocked_in_team_members"] = "taktovaný v členové týmu";
+$lang["clocked_out_team_members"] = "taktovaný ven členové týmu";
+$lang["latest_online_client_contacts"] = "Nejnovější online klientské kontakty";
+$lang["latest_online_team_members"] = "Nejnovější online členové týmu";
+$lang["my_tasks_list"] = "Seznam Můj úkolů";
 
-$lang["discount"] = "Discount";
-$lang["discount_type"] = "Discount Type";
-$lang["edit_discount"] = "Edit discount";
-$lang["discount_amount"] = "Discount amount";
-$lang["fixed_amount"] = "Fixed Amount";
-$lang["before_tax"] = "Before Tax";
-$lang["after_tax"] = "After Tax";
+$lang["discount"] = "Sleva";
+$lang["discount_type"] = "Typ slevy";
+$lang["edit_discount"] = "Upravit slevu";
+$lang["discount_amount"] = "Výše slevy";
+$lang["fixed_amount"] = "Pevná částka";
+$lang["before_tax"] = "Před zdaněním";
+$lang["after_tax"] = "Po zdanění";
 
-$lang["access_permission"] = "Access Permission";
-$lang["setup"] = "Setup";
-$lang["client_permissions"] = "Client permissions";
+$lang["access_permission"] = "Přístupové oprávnění";
+$lang["setup"] = "aranžmá";
+$lang["client_permissions"] = "Oprávnění klienta";
 
-$lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
-$lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
-$lang["personal_language"] = "Personal language";
-$lang["no_messages_text"] = "You don't have any messages yet";
-$lang["no_users_found"] = "No users found";
+$lang["invoice_over_payment_error_message"] = "Nemůžete zaplatit více, než je splatná vaše faktura.";
+$lang["account_already_exists_for_your_company_name"] = "Účet pro název vaší společnosti již existuje.";
+$lang["personal_language"] = "Osobní jazyk";
+$lang["no_messages_text"] = "Zatím nemáte žádné zprávy";
+$lang["no_users_found"] = "Nenalezeni žádní uživatelé";
 
-$lang["create_project"] = "Create project";
+$lang["create_project"] = "Vytvořit projekt";
 
 /* Version 2.2 */
 
-$lang["imap_settings"] = "IMAP settings";
-$lang["enable_email_piping"] = "Enable Email piping";
-$lang["imap_host"] = "IMAP Host";
-$lang["imap_port"] = "Port";
-$lang["imap_ssl_enabled"] = "SSL Enabled";
-$lang["please_upgrade_your_php_version"] = "Please upgrade your PHP Version for this operation.";
-$lang["required_version"] = "Required Version";
-$lang["email_piping_help_message"] = "Please make sure that, your IMap access is enabled.";
+$lang["imap_settings"] = "Nastavení IMAP";
+$lang["enable_email_piping"] = "Povolit odesílání e-mailů";
+$lang["imap_host"] = "Hostitel IMAP";
+$lang["imap_port"] = "Přístav";
+$lang["imap_ssl_enabled"] = "SSL povoleno";
+$lang["please_upgrade_your_php_version"] = "Upgradujte pro tuto operaci svoji verzi PHP.";
+$lang["required_version"] = "Požadovaná verze";
+$lang["email_piping_help_message"] = "Zkontrolujte, zda je povolen váš přístup IMap.";
 
-$lang["enable_rich_text_editor"] = "Enable rich text editor in comments/description";
+$lang["enable_rich_text_editor"] = "Povolit bohaté textového editoru v komentářích / popis";
 
-$lang["show_assigned_tasks_only"] = "Show assigned tasks only";
+$lang["show_assigned_tasks_only"] = "Zobrazit pouze přiřazené úkoly";
 
-$lang["batch_update"] = "Batch update";
-$lang["cancel_selection"] = "Cancel selection";
-$lang["select_status"] = "Select status";
+$lang["batch_update"] = "Dávková aktualizace";
+$lang["cancel_selection"] = "Zrušit výběr";
+$lang["select_status"] = "Vyberte stav";
 
-$lang["add_multiple_tasks"] = "Add multiple tasks";
-$lang["save_and_add_more"] = "Save & add more";
-$lang["add_project_time"] = "Add project time";
-$lang["add_to_do"] = "Add to do";
-$lang["hide_menus_from_topbar"] = "Hide menus from topbar";
-$lang["favorite_projects"] = "Favorite projects";
-$lang["favorite_clients"] = "Favorite clients";
-$lang["dashboard_customization"] = "Dashboard customization";
-$lang["quick_add"] = "Quick add";
+$lang["add_multiple_tasks"] = "Přidejte více úkolů";
+$lang["save_and_add_more"] = "Uložit a přidat další";
+$lang["add_project_time"] = "Přidejte čas projektu";
+$lang["add_to_do"] = "Přidat úkol";
+$lang["hide_menus_from_topbar"] = "Skrýt nabídky na horním panelu";
+$lang["favorite_projects"] = "Oblíbené projekty";
+$lang["favorite_clients"] = "Oblíbení klienti";
+$lang["dashboard_customization"] = "Nástěnka přizpůsobení";
+$lang["quick_add"] = "Rychlé přidání";
 
-$lang["assign_to_me"] = "Assign to me";
+$lang["assign_to_me"] = "Přiřadit ke mně";
 
 $lang["favicon"] = "Favicon";
 
-$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
-$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
+$lang["enable_google_drive_api_to_upload_file"] = "Povolte Disk Google API nahrát soubor";
+$lang["drive_activation_help_message"] = "Od této chvíle budou všechny soubory nahrány na Disk Google.";
 
-$lang["mark_all_as_read"] = "Mark all as read";
-$lang["marked_all_notifications_as_read"] = "Marked all notifications as read";
+$lang["mark_all_as_read"] = "označit vše jako přečtené";
+$lang["marked_all_notifications_as_read"] = "Označený všechna oznámení jako přečtené";
 
-$lang["project_completed"] = "Project completed";
-$lang["notification_project_completed"] = "Completed a project";
+$lang["project_completed"] = "Projekt dokončen";
+$lang["notification_project_completed"] = "Dokončil projekt";
 
-$lang["google_drive_client_id"] = "Client ID";
-$lang["google_drive_client_secret"] = "Client secret";
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
-$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
-$lang["save_and_authorize"] = "Save & authorize";
+$lang["google_drive_client_id"] = "ID klienta";
+$lang["google_drive_client_secret"] = "Tajemství klienta";
+$lang["get_your_app_credentials_from_here"] = "Získejte přihlašovací údaje aplikace odtud:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Nezapomeňte tuto adresu URL přidat do adresy URL s povoleným přesměrováním";
+$lang["save_and_authorize"] = "Uložit a autorizovat";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
+$lang["preview_next_key"] = "Další (šipka vpravo)";
+$lang["preview_previous_key"] = "Předchozí (šipka vlevo)";
 
-$lang["filters"] = "Filters";
+$lang["filters"] = "Filtry";
 
-$lang["authorized"] = "Authorized";
-$lang["unauthorized"] = "Unauthorized";
+$lang["authorized"] = "Autorizovaný";
+$lang["unauthorized"] = "Neoprávněný";
 
-$lang["not_clocked_id_yet"] = "Not clocked in yet";
+$lang["not_clocked_id_yet"] = "Není taktovaný na dosud";
 
-$lang["create_estimate_request"] = "Create estimate request";
+$lang["create_estimate_request"] = "Vytvořit žádost o odhad";
 
-$lang["in_last_number_of_days"] = "In last %s days";
-$lang["in_last_number_of_month"] = "In last %s month";
-$lang["in_last_number_of_months"] = "In last %s months";
+$lang["in_last_number_of_days"] = "V posledních %s dnech";
+$lang["in_last_number_of_month"] = "Za poslední %s měsíc";
+$lang["in_last_number_of_months"] = "V posledních %s měsících";
 
-$lang["pusher_app_id"] = "App ID";
-$lang["pusher_key"] = "Key";
-$lang["pusher_secret"] = "Secret";
-$lang["pusher_cluster"] = "Cluster";
-$lang["enable_push_notification"] = "Enable push notification";
-$lang["push_notification"] = "Push notification";
-$lang["disable_push_notification"] = "Disable push notification";
+$lang["pusher_app_id"] = "ID aplikace";
+$lang["pusher_key"] = "Klíč";
+$lang["pusher_secret"] = "Tajný";
+$lang["pusher_cluster"] = "Klastr";
+$lang["enable_push_notification"] = "Povolit oznámení push";
+$lang["push_notification"] = "Oznámení push";
+$lang["disable_push_notification"] = "Zakázat push oznámení";
 
-$lang["unknown_client"] = "Unknown client";
+$lang["unknown_client"] = "Neznámý klient";
 
-$lang["income_expenses_widget_help_message"] = "This report is only usable if you are using single currency.";
+$lang["income_expenses_widget_help_message"] = "Tento přehled je použitelný pouze v případě, že používáte jednotnou měnu.";
 
-$lang["assign_myself_in_this_ticket"] = "Assign myself in this ticket";
+$lang["assign_myself_in_this_ticket"] = "Přiřaďte se v tomto lístku";
 
-$lang["create_new_task"] = "Create new task";
+$lang["create_new_task"] = "Vytvořit nový úkol";
 
-$lang["default_due_date_after_billing_date"] = "Default due date after billing date";
+$lang["default_due_date_after_billing_date"] = "Výchozí datum splatnosti po datu fakturace";
 
-$lang["field_type_external_link"] = "External link";
+$lang["field_type_external_link"] = "Externí odkaz";
 
-$lang["total_days"] = "Total days";
+$lang["total_days"] = "Celkem dní";
 
-$lang["my_timesheet"] = "My timesheet";
-$lang["all_timesheets"] = "All timesheets";
-$lang["my_timesheet_statistics"] = "My timesheet statistics";
-$lang["all_timesheets_statistics"] = "All timesheets statistics";
+$lang["my_timesheet"] = "Můj časový rozvrh";
+$lang["all_timesheets"] = "Všechny časové rozvrhy";
+$lang["my_timesheet_statistics"] = "Moje statistiky časového rozvrhu";
+$lang["all_timesheets_statistics"] = "Všechny statistiky časové rozvrhy";
 
-$lang["no_field_has_selected"] = "No field has selected!";
+$lang["no_field_has_selected"] = "Nebylo vybráno žádné pole!";
 
-$lang["imap_help_message_1"] = "You can setup an email address to create the tickets automatically when you receive any emails at that address.";
-$lang["imap_help_message_2"] = "Please note that, the system will create tickets based on the unread emails. After creating the ticket, the emails will be marked as read. To get the replies in the same tickets, the system will check the ticket ID in the email subject. If there is no ticket ID in the subject, that will be considered as a new ticket. You can setup the email subject from the";
-$lang["imap_error_credentials_message"] = "Error! Can't connect with the imap using the credentials.";
+$lang["imap_help_message_1"] = "Můžete nastavit e-mailovou adresu, aby se lístky vytvářely automaticky, když na tuto adresu obdržíte e-maily.";
+$lang["imap_help_message_2"] = "Upozorňujeme, že systém vytvoří lístky na základě nepřečtených e-mailů. Po vytvoření tiketu budou e-maily označeny jako přečtené. Chcete-li získat odpovědi na stejné tikety, systém zkontroluje ID tiketu v předmětu e-mailu. Pokud v předmětu není ID lístku, bude to považováno za nový lístek. Předmět e-mailu můžete nastavit z";
+$lang["imap_error_credentials_message"] = "Chyba! Nelze se připojit k IMAP pomocí pověření.";
 
-$lang["client_message_own_contacts"] = "Client can send/receive message to/from own contacts?";
+$lang["client_message_own_contacts"] = "Klient může odesílat/přijímat zprávy do/z vlastních kontaktů?";
 
-$lang["print_invoice"] = "Print invoice";
+$lang["print_invoice"] = "Tisk faktury";
 
-$lang["mark_invoice_as_cancelled"] = "Mark as cancelled";
-$lang["cancelled"] = "Cancelled";
-$lang["cancelled_at"] = "Cancelled at";
-$lang["cancelled_by"] = "Cancelled by";
+$lang["mark_invoice_as_cancelled"] = "Označit jako zrušené";
+$lang["cancelled"] = "Zrušeno";
+$lang["cancelled_at"] = "Zrušeno na";
+$lang["cancelled_by"] = "Zrušeno podle";
 
 /* Version 2.3 */
 
-$lang["test_push_notification"] = "Test push notification";
-$lang["notification_test_push_notification"] = "It's a demo push notification";
-$lang["push_notification_error_message"] = "Error! Can't connect with the Pusher using the credentials.";
-$lang["clone_estimate"] = "Clone Estimate";
+$lang["test_push_notification"] = "Vyzkoušejte oznámení push";
+$lang["notification_test_push_notification"] = "Je to demo push notifikace";
+$lang["push_notification_error_message"] = "Chyba! Nelze se spojit s Pusher pomocí pověření.";
+$lang["clone_estimate"] = "Klonovat odhad";
 
-$lang["import_clients"] = "Import clients";
-$lang["download_sample_file"] = "Download sample file";
+$lang["import_clients"] = "Importujte klienty";
+$lang["download_sample_file"] = "Stáhněte si ukázkový soubor";
 
-$lang["estimate_settings"] = "Estimate Settings";
-$lang["estimate_logo"] = "Estimate Logo";
-$lang["estimate_color"] = "Estimate Color";
-$lang["initial_number_of_the_estimate"] = "Initial number of the estimate";
-$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger then last estimate ID.";
+$lang["estimate_settings"] = "Nastavení odhadu";
+$lang["estimate_logo"] = "Logo odhadu";
+$lang["estimate_color"] = "Odhadněte barvu";
+$lang["initial_number_of_the_estimate"] = "Počáteční číslo odhadu";
+$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "ID odhadu musí být větší než ID posledního odhadu.";
 
-$lang["send_to_client"] = "Send to client";
-$lang["estimate_sent_message"] = "The estimate has been sent!";
-$lang["send_estimate_bcc_to"] = "When sending estimate to client, send BCC to";
+$lang["send_to_client"] = "Odeslat klientovi";
+$lang["estimate_sent_message"] = "Odhad byl odeslán!";
+$lang["send_estimate_bcc_to"] = "Při odesílání odhadu klientovi odešlete BCC na";
         
-$lang["task_settings"] = "Task settings";
-$lang["enable_recurring_option_for_tasks"] = "Enable recurring option for tasks";
-$lang["past_recurring_date_error_message_title_for_tasks"] = "The selected start date and repeat type returns a past date.";
-$lang["recurring_task_created_via_cron_job"] = "Recurring task created via Cron Job";
-$lang["notification_recurring_task_created_via_cron_job"] = "New task created";
-$lang["repeat_type"] = "Repeat type";
-$lang["lead_status"] = "Lead status";
-$lang["add_lead_status"] = "Add lead status";
-$lang["edit_lead_status"] = "Edit lead status";
-$lang["delete_lead_status"] = "Delete lead status";
-$lang["owner"] = "Owner";
-$lang["make_client"] = "Make client";
-$lang["client_contacts"] = "Client contacts";
-$lang["lead_contacts"] = "Lead contacts";
-$lang["add_a_lead"] = "Add a lead";
-$lang["source"] = "Source";
-$lang["lead_source"] = "Lead source";
-$lang["add_lead_source"] = "Add lead source";
-$lang["edit_lead_source"] = "Edit lead source";
-$lang["delete_lead_source"] = "Delete lead source";
-$lang["custom_field_migration"] = "Custom field migration";
-$lang["merge_custom_fields"] = "Merge custom fields";
-$lang["do_not_merge"] = "Do not merge";
-$lang["merge_custom_fields_help_message"] = "If there is any similar custom fields exists for %s, this values will be added to those. Otherwise, this will create new custom fields for %s and add values to those.";
-$lang["lead_created"] = "Lead created";
-$lang["notification_lead_created"] = "Created a new lead.";
-$lang["client_created_from_lead"] = "Client created from lead";
-$lang["notification_client_created_from_lead"] = "Converted a lead to client.";
-$lang["project_deadline"] = "Project deadline";
-$lang["task_deadline"] = "Task deadline";
-$lang["event_type"] = "Event type";
-$lang["delete_estimate_form"] = "Delete estimate form";
-$lang["calendar_event_modified"] = "Calendar event modified";
-$lang["notification_calendar_event_modified"] = "Modified an event.";
+$lang["task_settings"] = "nastavení úkolu";
+$lang["enable_recurring_option_for_tasks"] = "Povolit opakovanou možnost pro úkoly";
+$lang["past_recurring_date_error_message_title_for_tasks"] = "Zvolené datum zahájení a opakování typ vrátí datum v minulosti.";
+$lang["recurring_task_created_via_cron_job"] = "Opakující se úkol vytvořený pomocí Cron Job";
+$lang["notification_recurring_task_created_via_cron_job"] = "Byl vytvořen nový úkol";
+$lang["repeat_type"] = "Opakujte typ";
+$lang["lead_status"] = "Stav zájemce";
+$lang["add_lead_status"] = "Přidat stav zájemce";
+$lang["edit_lead_status"] = "Upravit stav zájemce";
+$lang["delete_lead_status"] = "Smazat stav zájemce";
+$lang["owner"] = "Majitel";
+$lang["make_client"] = "Vytvořit klienta";
+$lang["client_contacts"] = "Kontakty klienta";
+$lang["lead_contacts"] = "Olověné kontakty";
+$lang["add_a_lead"] = "Přidejte zájemce";
+$lang["source"] = "Zdroj";
+$lang["lead_source"] = "Zdroj zájemce";
+$lang["add_lead_source"] = "Přidat zdroj olova";
+$lang["edit_lead_source"] = "Upravit zdroj potenciálních zákazníků";
+$lang["delete_lead_source"] = "Smažte zdroj zájemce";
+$lang["custom_field_migration"] = "Vlastní migrace pole";
+$lang["merge_custom_fields"] = "Sloučit vlastní pole";
+$lang["do_not_merge"] = "Nesloučit";
+$lang["merge_custom_fields_help_message"] = "Pokud pro %s existuje nějaké podobné vlastní pole, budou k nim přidány tyto hodnoty. Jinak to vytvoří nová vlastní pole pro %s a přidá k nim hodnoty.";
+$lang["lead_created"] = "Olovo vytvořeno";
+$lang["notification_lead_created"] = "Vytvořil nový zájemce.";
+$lang["client_created_from_lead"] = "Klient vytvořen z potenciálního zákazníka";
+$lang["notification_client_created_from_lead"] = "Převeden zájemce na klienta.";
+$lang["project_deadline"] = "Termín projektu";
+$lang["task_deadline"] = "Termín úkolu";
+$lang["event_type"] = "Typ události";
+$lang["delete_estimate_form"] = "Smazat formulář odhadu";
+$lang["calendar_event_modified"] = "Událost kalendáře upravena";
+$lang["notification_calendar_event_modified"] = "Upravil událost.";
 
-$lang["there_has_leads_with_this_status"] = "There has leads with this status";
-$lang["lead_created_at"] = "Lead created at";
-$lang["past_lead_information"] = "Past lead information";
-$lang["last_status"] = "Last status";
-$lang["migrated_to_client_at"] = "Migrated to client at";
-$lang["edit_estimate_form"] = "Edit estimate form";
+$lang["there_has_leads_with_this_status"] = "Tam má vede s tímto stavem";
+$lang["lead_created_at"] = "Zájemce vytvořen na adrese";
+$lang["past_lead_information"] = "Minulé informace o zájemcích";
+$lang["last_status"] = "Poslední stav";
+$lang["migrated_to_client_at"] = "Migrováno na klienta na";
+$lang["edit_estimate_form"] = "Upravit formulář odhadu";
 
-$lang["please_upload_a_excel_file"] = "Please upload a excel file.";
-$lang["back"] = "Back";
+$lang["please_upload_a_excel_file"] = "Nahrajte prosím soubor Excel.";
+$lang["back"] = "Dozadu";
 
-$lang["import_client_error_header"] = "There has an invalid header. The indicated field should be <b>%s</b>.";
-$lang["import_client_error_company_name_field_required"] = "Company name field is required.";
-$lang["import_client_error_contact_name"] = "Contact first name and last is both required to add a client contact.";
-$lang["import_client_error_contact_email"] = "Contact email is required and should be unique to add a client contact.";
-$lang["error"] = "Error";
-$lang["contact_first_name"] = "Contact first name";
-$lang["contact_last_name"] = "Contact last name";
-$lang["contact_email"] = "Contact email";
+$lang["import_client_error_header"] = "Existuje neplatné záhlaví. Uvedené pole by mělo být <b>%s</b>.";
+$lang["import_client_error_company_name_field_required"] = "Pole pro název společnosti je povinné.";
+$lang["import_client_error_contact_name"] = "K přidání kontaktu klienta je vyžadováno jméno a příjmení kontaktu.";
+$lang["import_client_error_contact_email"] = "Je vyžadován kontaktní e-mail, který by měl být jedinečný pro přidání kontaktu s klientem.";
+$lang["error"] = "Chyba";
+$lang["contact_first_name"] = "Kontaktní křestní jméno";
+$lang["contact_last_name"] = "Kontaktujte příjmení";
+$lang["contact_email"] = "Kontaktní e-mail";
 
-$lang["clone_invoice"] = "Clone Invoice";
-$lang["copy_items"] = "Copy items";
-$lang["copy_discount"] = "Copy discount";
+$lang["clone_invoice"] = "Klonovat fakturu";
+$lang["copy_items"] = "Kopírovat položky";
+$lang["copy_discount"] = "Kopírovat slevu";
 
-$lang["clone_task"] = "Clone task";
-$lang["copy_checklist"] = "Copy checklist";
+$lang["clone_task"] = "Klonovat úkol";
+$lang["copy_checklist"] = "Zkopírujte kontrolní seznam";
 
-$lang["auto_assign_estimate_request_to"] = "Auto assign estimate request to";
+$lang["auto_assign_estimate_request_to"] = "Automaticky přiřadit požadavek na odhad";
 
-$lang["email_template_variable"] = "Email template variable";
+$lang["email_template_variable"] = "Proměnná šablony e-mailu";
 $lang["example_variable_name"] = "Example_variable_name";
 
-$lang["imap_extension_error_help_message"] = "You don't have IMAP extension in your server. Please install the extension for this action.";
+$lang["imap_extension_error_help_message"] = "Na serveru nemáte příponu IMAP. Nainstalujte si prosím rozšíření pro tuto akci.";
 
-$lang["initial_number_of_the_invoice"] = "Initial number of the invoice";
-$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger then last invoice ID.";
+$lang["initial_number_of_the_invoice"] = "Počáteční číslo faktury";
+$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "ID faktury musí být větší než ID poslední faktury.";
 
-$lang["client_dashboard_help_message"] = "This will be the default dashboard for all clients. Please note that, the information you're seeing here in the widgets, isn't any actual infromation of clients.";
+$lang["client_dashboard_help_message"] = "Toto bude výchozí panel pro všechny klienty. Vezměte prosím na vědomí, že informace, které zde vidíte v widgetech, nejsou skutečnými informacemi o klientech.";
 
-$lang["send_to_lead"] = "Send to lead";
-$lang["lead"] = "Lead";
-$lang["leads"] = "Leads";
-$lang["add_lead"] = "Add lead";
-$lang["edit_lead"] = "Edit lead";
-$lang["delete_lead"] = "Delete lead";
-$lang["lead_details"] = "Lead details";
-$lang["can_access_leads_information"] = "Can access lead's information?";
-$lang["lead_info"] = "Lead info";
+$lang["send_to_lead"] = "Poslat vést";
+$lang["lead"] = "Vést";
+$lang["leads"] = "Vést";
+$lang["add_lead"] = "Přidejte olovo";
+$lang["edit_lead"] = "Upravit zájemce";
+$lang["delete_lead"] = "Smazat zájemce";
+$lang["lead_details"] = "Olověné detaily";
+$lang["can_access_leads_information"] = "Mohou přistupovat k informacím olova?";
+$lang["lead_info"] = "Informace o zájemci";
 
-$lang["send_task_reminder_on_the_day_of_deadline"] = "Send task reminder on the day of deadline";
-$lang["send_task_deadline_pre_reminder"] = "Send task deadline pre reminder";
-$lang["send_task_deadline_overdue_reminder"] = "Send task deadline overdue reminder";
+$lang["send_task_reminder_on_the_day_of_deadline"] = "V den uzávěrky odešlete připomenutí úkolu";
+$lang["send_task_deadline_pre_reminder"] = "Odeslat připomenutí termínu úkolu";
+$lang["send_task_deadline_overdue_reminder"] = "Odeslat připomenutí termínu úkolu po splatnosti";
 
-$lang["project_task_deadline_reminder"] = "Project task deadline reminder";
+$lang["project_task_deadline_reminder"] = "Připomenutí termínu projektu";
 
-$lang["project_task_deadline_pre_reminder"] = "Project task deadline pre reminder";
-$lang["project_task_deadline_overdue_reminder"] = "Project task deadline overdue reminder";
-$lang["project_task_reminder_on_the_day_of_deadline"] = "Project task reminder on the day of deadline";
+$lang["project_task_deadline_pre_reminder"] = "Předběžné připomenutí termínu projektu";
+$lang["project_task_deadline_overdue_reminder"] = "Připomenutí termínu projektu po splatnosti";
+$lang["project_task_reminder_on_the_day_of_deadline"] = "Připomenutí úkolů projektu v den uzávěrky";
 
-$lang["notification_project_task_deadline_pre_reminder"] = "Reminder: Some tasks needs to be finished soon.";
-$lang["notification_project_task_deadline_overdue_reminder"] = "Reminder: Task's deadline overdue.";
-$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Reminder: Some tasks needs to be finished today.";
+$lang["notification_project_task_deadline_pre_reminder"] = "Připomenutí: Některé úkoly je třeba brzy dokončit.";
+$lang["notification_project_task_deadline_overdue_reminder"] = "Připomenutí: Termín úkolu je po splatnosti.";
+$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Připomenutí: Některé úkoly je třeba dokončit ještě dnes.";
 
-$lang["mark_as_public"] = "Mark as public";
-$lang["note_details"] = "Note details";
-$lang["public_note_by"] = "Public note by";
-$lang["marked_as_public"] = "Marked as public";
+$lang["mark_as_public"] = "Označit jako veřejné";
+$lang["note_details"] = "Poznámka podrobnosti";
+$lang["public_note_by"] = "Veřejná poznámka od";
+$lang["marked_as_public"] = "Označeno jako veřejné";
 
-$lang["client_can_view_activity"] = "Client can view project activity";
+$lang["client_can_view_activity"] = "Klient může zobrazit aktivitu projektu";
 
-$lang["event_settings"] = "Event settings";
-$lang["enable_google_calendar_api"] = "Enable Google calendar API";
-$lang["google_calendar_settings"] = "Google calendar settings";
+$lang["event_settings"] = "Nastavení události";
+$lang["enable_google_calendar_api"] = "Povolte rozhraní API kalendáře Google";
+$lang["google_calendar_settings"] = "Nastavení kalendáře Google";
 
-$lang["your_calendar_ids"] = "Your Calendar IDs";
-$lang["calendar_id"] = "Calendar ID";
-$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Now every user can integrate with their Google calendar.";
-$lang["calendar_ids_help_message"] = "You'll get your own calendar events always. This is for other special calendars (Like Holidays Calendar).";
+$lang["your_calendar_ids"] = "Vaše kalendáře IDs";
+$lang["calendar_id"] = "ID kalendáře";
+$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Nyní každý uživatel může integrovat se svým kalendářem Google.";
+$lang["calendar_ids_help_message"] = "Vždy získáte své vlastní události v kalendáři. Toto je pro jiné speciální kalendáře (jako kalendář svátků).";
 
-$lang["google_client_id"] = "Client ID";
-$lang["google_client_secret"] = "Client secret";
-$lang["integrate_with_google_calendar"] = "Integrate with Google calendar";
-$lang["google_calendar_event"] = "Google Calendar event";
+$lang["google_client_id"] = "ID klienta";
+$lang["google_client_secret"] = "Tajemství klienta";
+$lang["integrate_with_google_calendar"] = "Integrace s kalendářem Google";
+$lang["google_calendar_event"] = "Událost Kalendáře Google";
 
-$lang["mark_as_public_help_message"] = "You can't make this note as private again.";
+$lang["mark_as_public_help_message"] = "Tuto poznámku nemůžete znovu označit jako soukromou.";
 
-$lang["google_calendar_help_message"] = "You'll get your Google Calendar events by the run of Cron job. And any add/modification of your local events will effect your Google calendar instantly.";
+$lang["google_calendar_help_message"] = "Události z Kalendáře Google získáte spuštěním úlohy Cron. A jakékoli přidání / úprava místních událostí okamžitě ovlivní váš kalendář Google.";
+
+/* Version 2.4 */
+
+$lang["footer"] = "Zápatí";
+$lang["footer_description_message"] = "Tato zápatí bude viditelná na všech veřejných stránkách.";
+$lang["estimate_footer"] = "Odhad zápatí";
+$lang["enable_footer"] = "Povolit zápatí";
+$lang["footer_menus"] = "Nabídky zápatí";
+$lang["footer_copyright_text"] = "Text autorských práv";
+$lang["edit_footer_menu"] = "Upravit nabídku zápatí";
+
+$lang["menu_name"] = "Název nabídky";
+$lang["task_point_range"] = "Rozsah úkolových bodů";
+
+$lang["gdpr"] = "GDPR";
+$lang["enable_gdpr"] = "Povolit GDPR";
+$lang["allow_clients_to_export_their_data"] = "Umožněte klientům exportovat jejich data";
+$lang["export_my_data"] = "Exportovat moje data";
+
+$lang["clients_can_request_account_removal"] = "Klienti mohou požádat o odebrání účtu";
+$lang["i_want_to_remove_my_account"] = "Chci odstranit svůj účet";
+$lang["client_contact_requested_account_removal"] = "Kontakt klienta požadoval odebrání účtu";
+$lang["notification_client_contact_requested_account_removal"] = "Požadované odstranění účtu.";
+$lang["show_terms_and_conditions_in_client_signup_page"] = "Zobrazit smluvní podmínky na stránce registrace klienta";
+$lang["i_accept_the_terms_and_conditions"] = "přijímám";
+
+$lang["apply"] = "Aplikovat";
+$lang["applied"] = "Aplikovaný";
+$lang["export"] = "Vývozní";
+
+$lang["pages"] = "Stránky";
+$lang["add_page"] = "Přidat stránku";
+$lang["delete_page"] = "Smazat stránku";
+$lang["page_url_cant_duplicate"] = "URL stránky nelze duplikovat.";
+
+$lang["sub_tasks"] = "Dílčí úkoly";
+$lang["sub_task"] = "Dílčí úkol";
+$lang["create_a_sub_task"] = "Vytvořte dílčí úkol";
+$lang["create"] = "Vytvořit";
+$lang["parent_task"] = "Nadřazený úkol";
+
+$lang["this_task_blocked_by"] = "Tento úkol zablokován podle";
+$lang["this_task_blocking"] = "Blokování tohoto úkolu";
+$lang["add_dependency"] = "Přidat závislost";
+$lang["blocked_by"] = "Blokováno podle";
+$lang["blocking"] = "Blokování";
+$lang["blocked"] = "Blokováno";
+$lang["dependency"] = "Závislost";
+
+$lang["estimate_request_settings"] = "Odhadnout nastavení požadavku";
+$lang["hidden_client_fields_on_public_estimate_requests"] = "Skrýt pole z veřejných formulářů žádosti o odhad";
+$lang["hidden_client_fields"] = "Skrytá pole klienta";
+
+$lang["account"] = "Účet";
+$lang["common"] = "Běžný";
+
+$lang["tax_deducted_at_source"] = "TDS";
+$lang["auto_close_ticket_after"] = "Automaticky uzavřít lístek po"; //after x days
+$lang["disable_user_invitation_option_by_clients"] = "Zakázat možnost pozvání uživatele podle klienty";
+$lang["create_tickets_only_by_registered_emails"] = "Vytvářejte lístky pouze registrovanými e-maily";
+$lang["icon"] = "Ikona";
+$lang["help_articles"] = "Články nápovědy";
+$lang["help_categories"] = "Kategorie nápovědy";
+$lang["knowledge_base_articles"] = "Články KB";
+$lang["knowledge_base_categories"] = "Kategorie KB";
+
+$lang["rtl"] = "RTL";
+
+$lang["disable_editing_by_clients"] = "Zakázat úpravy podle klienty";
+
+$lang["client_left_menu"] = "Levé menu";
+$lang["left_menu_for_client"] = "Levé menu pro klienta";
+$lang["left_menu_setting_help_message_for_client"] = "Toto bude výchozí levé menu pro klienty. Upozorňujeme, že položky nabídky budou distribuovány podle oprávnění kontaktu klienta.";
+$lang["available_menu_items"] = "Dostupné položky nabídky";
+$lang["drag_and_drop_items_here"] = "Přetáhněte položky sem";
+$lang["no_more_items_available"] = "Žádné další položky k dispozici";
+$lang["left_menu_preview_message"] = "Stisknutím tlačítka Uložit zobrazíte náhled.";
+$lang["left_menu_setting_help_message"] = "Toto bude výchozí levá nabídka pro členy týmu. Upozorňujeme, že položky nabídky budou distribuovány podle svolení uživatele.";
+
+$lang["draft_invoices"] = "Návrh faktury";
+$lang["draft_invoices_total"] = "Koncept faktury celkem";
+$lang["draft_invoices_value"] = "Hodnota konceptů faktur";
+
+$lang["gdpr_terms_and_conditions_link"] = "Adresa URL smluvních podmínek";
+$lang["gdpr_terms_and_conditions"] = "Pravidla a podmínky";
+$lang["removal_request_pending"] = "Žádost o odstranění čeká na vyřízení";
+
+$lang["client_access_files_help_message"] = "Soubory, které se nacházejí v podrobnostech klienta, se zobrazují na kartě Soubory.";
+$lang["estimate_request_name_email_error_message"] = "E-mail nelze zobrazit bez křestního jména a příjmení.";
+
+$lang["slug"] = "Slimák";
+$lang["add_assignee"] = "Přidat postupníka";
+
+$lang["client_can_pay_invoice_without_login"] = "Klient může platit faktury bez přihlášení";
+$lang["client_can_pay_invoice_without_login_help_message"] = "Přidejte prosím PUBLIC_PAY_INVOICE_URL do šablony e-mailového upozornění na fakturu.";
+
+$lang["link_to_existing_client"] = "Odkaz na stávajícího klienta";
+$lang["link_to_new_client"] = "Odkaz na nového klienta";
+
+$lang["client_can_view_files"] = "Klient může prohlížet soubory?";
+$lang["client_can_add_files"] = "Klient může přidávat soubory?";
+$lang["client_can_view_activity"] = "Klient může zobrazit aktivitu projektu?";
+$lang["client_can_edit_projects"] = "Klient může upravovat projekty?";
+
+$lang["view_pdf"] = "Zobrazit PDF";
+
+$lang["add_new_task"] = "Přidat nový úkol";
+$lang["disable_keyboard_shortcuts"] = "Zakázat klávesové zkratky";
+$lang["keyboard_shortcuts_info"] = "Informace o klávesových zkratkách";
+$lang["edit_shortcuts"] = "Upravit zkratky";
+
+$lang["pending_leave_approval"] = "Čeká na schválení dovolené";
+$lang["add_attachment"] = "Přidat přílohu";
+
+$lang["hidden_topbar_menus"] = "Skryté nabídky na horním panelu";
+
+$lang["make_previous_items_sub_menu"] = "Vytvořit/odebrat podnabídku předchozí položky";
+$lang["add_menu_item"] = "Přidat položku nabídky";
+$lang["url"] = "URL";
+
+$lang["show_theme_color_changer"] = "Zobrazit měnič barev motivu";
+$lang["default_theme_color"] = "Výchozí barva motivu";
+$lang["left_menu"] = "Levé menu";
+$lang["client_assigned_contacts"] = "Přiřazené kontakty klienta";
+$lang["timesheet_settings"] = "nastavení časového rozvrhu";
+$lang["users_can_start_multiple_timers_at_a_time"] = "Uživatelé mohou spustit více časovačů najednou";
+
+$lang["delete_expenses_category"] = "Odstranit kategorii výdajů";
+
+/* Version 2.5 */
+
+$lang["code_reference"] = "Odkaz na kód";
+
+$lang["commit_url"] = "Spáchat url";
+$lang["new_commits"] = "Nové commitů";
+$lang["new_commit"] = "Nové spáchat";
+$lang["pushed_by"] = "Tlačil podle";
+$lang["committed_by"] = "Zavázáno podle";
+$lang["add_webhook_in_your_repository_at"] = "Přidejte webhook do svého úložiště: ";
+$lang["webhook_listener_link"] = "Odkaz posluchače Webhook";
+$lang["enable_bitbucket_commit_logs_in_tasks"] = "Povolit protokoly potvrzení bitbucketu v úkolech";
+$lang["bitbucket_info_text"] = "Propojit commitů s úkoly, by měl být # a úkolem číslo na konci každé commit zprávy. Ex: Jedná se o potvrzení úkolu #10.";
+
+$lang["bitbucket_push_received"] = "Bitbucket oznámení přijato";
+$lang["notification_bitbucket_push_received"] = "Bitbucket oznámení přijato.";
+
+$lang["hour_log_time_error_message"] = "Prosím vstup hodina(y) ve správném formátu.";
+$lang["set_message_permissions"] = "Nastavte oprávnění ke zprávám";
+$lang["cant_send_any_messages"] = "Nemůže odeslat žádné zprávy";
+$lang["can_send_messages_to_specific_members_or_teams"] = "Může posílat zprávy konkrétním členům nebo týmům:";
+
+$lang["embed"] = "Vložit";
+$lang["copy"] = "kopírovat";
+
+$lang["estimate_prefix"] = "Předpona odhadu";
+
+$lang["likes"] = "Likes";
+
+$lang["pusher"] = "Pusher";
+$lang["enable_chat_via_pusher"] = "Povolit chat přes pusher";
+
+$lang["tasks_list"] = "Seznam úkolů";
+$lang["tasks_kanban"] = "Úkoly Kanban";
+$lang["set_project_tab_order"] = "Nastavit pořadí karet projektu";
+$lang["project_tab_order"] = "Pořadí záložek Projekt";
+$lang["project_tab_order_help_message"] = "Vezměte prosím na vědomí, že se tato kartách se zobrazí podle oprávnění uživatele.";
+$lang["project_tab_order_help_message_of_client"] = "Vezměte prosím na vědomí, že se tato kartách se zobrazí podle oprávnění klienta kontaktu.";
+$lang["client_projects"] = "Projekty";
+
+$lang["ticket_assigned"] = "Vstupenka přidělena";
+$lang["notification_ticket_assigned"] = "Přidělen vstupenku do %s";
+
+$lang["disable_access_favorite_project_option_for_clients"] = "Zakázat přístup volba oblíbený projekt pro klienty";
+$lang["disable_editing_left_menu_by_clients"] = "Zakázat úpravy levé nabídky klienty";
+$lang["disable_topbar_menu_customization"] = "Zakázat přizpůsobení nabídky horního panelu";
+$lang["disable_dashboard_customization_by_clients"] = "Zakažte přizpůsobení řídicího panelu klienty";
+
+$lang["task_start_date"] = "Datum zahájení úkolu";
+$lang["project_start_date"] = "Datum zahájení projektu";
+$lang["show_on_kanban_card"] = "Zobrazit na kartě kanban";
+
+$lang["original_expense"] = "Původní výdaje";
+$lang["expense_details"] = "Podrobnosti o výdajích";
+
+$lang["read_only"] = "Pouze ke čtení";
+
+$lang["internal_use_only"] = "Pouze vnitřní použití";
+$lang["visible_to_team_members_only"] = "Viditelné pouze pro členy týmu";
+$lang["visible_to_clients_only"] = "Viditelné pouze pro klienty";
+
+$lang["open_in_new_tab"] = "Otevřít na nové kartě";
+
+$lang["client_can_delete_own_files_in_project"] = "Klient může v projektu mazat vlastní soubory";
+
+$lang["enable_slack"] = "Povolit slack";
+$lang["get_the_webhook_url_of_your_app_from_here"] = "Získejte adresu URL své aplikace Webhook odtud:";
+$lang["slack_webhook_url"] = "Webhook URL";
+$lang["send_a_test_message"] = "Odeslat zkušební zprávu";
+$lang["notification_test_slack_notification"] = "Toto je ukázková zpráva.";
+$lang["slack_notification_error_message"] = "Chyba! Nelze se spojit s Slack pomocí pověření.";
+$lang["dont_send_any_project_related_notifications_to_this_channel"] = "Neposílejte na tento kanál žádná oznámení související s projektem";
+$lang["save_and_send_a_test_message"] = "Uložte a odešlete zkušební zprávu";
+
+$lang["copy_sub_tasks"] = "Kopírovat dílčí úkoly";
+
+$lang["can_update_only_assigned_tasks_status"] = "Může aktualizovat pouze stav přiřazených úkolů";
+
+$lang["import_leads"] = "Importovat potenciální zákazníky";
+$lang["import_lead_error_contact_name"] = "K přidání hlavního kontaktu je vyžadováno jméno a příjmení kontaktu.";
+
+$lang["deadline_must_be_equal_or_greater_than_start_date"] = "Termín musí být stejný nebo větší než datum zahájení.";
+
+$lang["enable_github_commit_logs_in_tasks"] = "Povolit protokoly potvrzení github v úkolech";
+$lang["github_push_received"] = "Přijato oznámení GitHub";
+$lang["notification_github_push_received"] = "Přijato oznámení GitHub.";
+
+$lang["invalid_calendar_id_error_message"] = "Toto ID kalendáře není platné nebo nemáte oprávnění k přístupu k tomuto kalendáři";
+$lang["total_clients"] = "Celkem klientů";
+$lang["total_contacts"] = "Celkem kontaktů";
+
+$lang["message_sending_error_message"] = "Tento uživatel nemá oprávnění k zasílání zpráv vám. Proto také nemůžete posílat zprávy!";
+
+$lang["days_view"] = "Zobrazení dnů";
+$lang["weeks_view"] = "Zobrazení týdnů";
+$lang["months_view"] = "Zobrazení měsíce";
+
+$lang["move_all_tasks_to_to_do"] = "Přesunout všechny úkoly do, do dělat";
+
+$lang["started"] = "Začal";
+
+$lang["weekends"] = "Víkendy";
+
+$lang["invited_client_contact_signed_up"] = "Kontakt pozvaného klienta se zaregistroval";
+$lang["notification_invited_client_contact_signed_up"] = "Kontakt pozvaného klienta se zaregistroval.";
+
+$lang["ticket_templates"] = "Šablony lístků";
+$lang["ticket_template"] = "Šablona lístku";
+$lang["tickets_list"] = "Seznam lístků";
+$lang["add_template"] = "Přidat šablonu";
+$lang["edit_template"] = "Upravit šablonu";
+$lang["insert_template"] = "Vložte šablonu";
+$lang["private_template"] = "Soukromá šablona";
+
+$lang["requested_by"] = "Vyžádáno podle";
+
+$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "Jakmile budou přijaty odhady, vytvářejte nové projekty automaticky";
+
+$lang["typing"] = "Psaní na stroji";
+
+$lang["new_client_greetings"] = "Nové pozdravy klientů";
+
+$lang["timeline_post_commented"] = "Příspěvek na časové ose byl komentován";
+$lang["post_creator"] = "Tvůrce příspěvků";
+$lang["notification_timeline_post_commented"] = "Okomentoval (a) příspěvek.";
+$lang["created_a_new_post"] = "Vytvořil nový příspěvek";
+$lang["notification_created_a_new_post"] = "Vytvořil nový příspěvek.";
+
+$lang["verify_email_before_client_signup"] = "Před registrací klienta ověřte e-mail";
+$lang["input_your_email"] = "Zadejte svůj e-mail";
+$lang["verify_email"] = "Ověření klienta e-mailem";
+$lang["please_continue_your_signup_process"] = "Pokračujte v procesu registrace.";
+$lang["get_started"] = "Začněte";
+
+$lang["manage_labels"] = "Spravovat štítky";
+
+$lang["timesheet"] = "Rozvrh hodin";
+$lang["users_can_input_only_total_hours_instead_of_period"] = "Uživatelé mohou místo období zadat pouze celkový počet hodin";
+$lang["timesheet_hour_input_help_message"] = "Příklad: 1h 20m";
+
+$lang["template"] = "Šablona";
+$lang["template_details"] = "Podrobnosti šablony";
+
+$lang["label_existing_error_message"] = "Tento štítek se již používá. Nelze jej smazat.";
+
+/* Version 2.6 */
+
+$lang["paytm_checksum_hash_error_message"] = "S vašimi pověřeními se nepodařilo vygenerovat hash kontrolního součtu.";
+
+$lang["testing_environment"] = "Testovací prostředí";
+
+$lang["auto_reply_to_tickets"] = "Automatická odpověď na lístky";
+
+$lang["total_time_logged"] = "Celkový zaznamenaný čas";
+$lang["total_duration"] = "Celková doba trvání";
+
+$lang["please_upload_valid_image_files"] = "Nahrajte platné soubory obrázků.";
+$lang["upload_image"] = "Nahrát obrázek";
+$lang["item_details"] = "Podrobnosti o položce";
+$lang["item_image_sorting_help_message"] = "První obrázek bude výchozí obrázek.";
+$lang["show_in_client_portal"] = "Zobrazit na klientském portálu";
+$lang["showing_in_client_portal"] = "Zobrazeno na klientském portálu";
+$lang["add_to_cart"] = "Přidat do košíku";
+$lang["item_empty_message"] = "Žádné předměty nenalezeny!";
+
+$lang["order"] = "Objednat";
+$lang["orders"] = "Objednávky";
+$lang["no_items_text"] = "Ve svém nákupním košíku nemáte žádné položky!";
+$lang["process_order"] = "Zpracovat objednávku";
+$lang["place_order"] = "Zadejte objednávku";
+$lang["edit_item"] = "Upravit položku";
+$lang["store"] = "Ukládat";
+$lang["client_can_access_store"] = "Klient může přistupovat obchod?";
+$lang["added_to_cart"] = "Přidáno do košíku";
+$lang["can_access_orders"] = "Může se dostat k objednávkám?";
+
+$lang["order_settings"] = "Nastavení objednávky";
+$lang["order_logo"] = "Objednat logo";
+$lang["order_prefix"] = "Předpona objednávky";
+$lang["order_color"] = "Objednat barvu";
+$lang["initial_number_of_the_order"] = "Počáteční číslo objednávky";
+$lang["the_orders_id_must_be_larger_then_last_order_id"] = "ID objednávek musí být větší než ID poslední objednávky.";
+$lang["order_footer"] = "Objednávka zápatí";
+
+$lang["order_status"] = "Stav objednávky";
+$lang["edit_order_status"] = "Upravit stav objednávky";
+$lang["add_order_status"] = "Přidat stav objednávky";
+$lang["delete_order_status"] = "Smazat stav objednávky";
+$lang["there_has_orders_with_this_status"] = "Existují objednávky s tímto stavem";
+$lang["orders_list"] = "Seznam objednávek";
+$lang["sales"] = "Odbyt";
+$lang["order_date"] = "Datum objednávky";
+$lang["edit_order"] = "Upravit objednávku";
+$lang["delete_order"] = "Smazat objednávku";
+$lang["show_in_order"] = "Zobrazovat v pořadí";
+$lang["order_preview"] = "Náhled objednávky";
+$lang["order_from"] = "Obědnávka od";
+$lang["add_order"] = "Přidat objednávku";
+
+$lang["process_order_info_message"] = "Chystáte se vytvořit objednávku. Před odesláním prosím zkontrolujte podrobnosti.";
+
+$lang["order_creator_contact"] = "Kontakt na tvůrce objednávky";
+
+$lang["create_estimate"] = "Vytvořit odhad";
+$lang["include_all_items_of_this_order"] = "Zahrňte všechny položky této objednávky";
+
+$lang["new_order_received"] = "Byla přijata nová objednávka";
+$lang["notification_new_order_received"] = "Byla přijata nová objednávka.";
+
+$lang["order_status_updated"] = "Stav objednávky aktualizován";
+$lang["notification_order_status_updated"] = "Stav objednávky byl aktualizován.";
+
+$lang["add_more_items"] = "Přidejte další položky";
+
+$lang["yes_only_own_leads"] = "Ano, pouze vlastní zájemci";
+$lang["yes_all_leads"] = "Ano, všechny přívody";
+
+$lang["yes_only_own_clients"] = "Ano, pouze vlastní klienti";
+$lang["yes_all_clients"] = "Ano, všichni klienti";
+
+$lang["recently_updated"] = "Nedávno aktualizované";
+$lang["recently_moved_to"] = "Nedávno přesunuto do";
+
+$lang["recently_commented"] = "Nedávno komentováno";
+$lang["mentioned_me"] = "Zmínil mě";
+$lang["recently_mentioned_me"] = "Nedávno zmínil mě";
+$lang["in"] = "v";
+$lang["recently_meaning"] = "Nedávno význam";
+
+$lang["quick_filters"] = "Rychlé filtry";
+
+$lang["has_open_projects"] = "Má otevřené projekty";
+$lang["has_completed_projects"] = "Má dokončil projekty";
+$lang["has_any_hold_projects"] = "Má nějaké pozastavené projekty";
+
+$lang["has_unpaid_invoices"] = "Má nezaplacené faktury";
+$lang["has_overdue_invoices"] = "Má faktury po splatnosti";
+$lang["has_partially_paid_invoices"] = "Má částečně zaplacené faktury";
+$lang["assignee"] = "Postupník";
+
+$lang["upload_and_crop"] = "Nahrání a plodin";
+
+$lang["active_members_on_projects"] = "Aktivní členové projektů";
+
+/* Version 2.6.1 */
+
+$lang["open_tickets_list"] = "Otevřít seznam lístků";
+
+$lang["login_attempt_failed"] = "Pokus o přihlášení se nezdařil";
+$lang["profile_image_error_message"] = "Obrázek by měl mít velikost 200x200px.";
+
+$lang["re_captcha_info_text"] = "Před odhlášením otevřete nový prohlížeč a ujistěte se, že reCaptcha funguje.";
+$lang["yes_assigned_tickets_only"] = "Ano, pouze přiřazené lístky";
+$lang["no_such_custom_field_found"] = "Nebylo nalezeno žádné takové vlastní pole.";
+$lang["open_in_google_calendar"] = "Otevřít v kalendáři Google";
+
+$lang["enable_embedded_form_to_get_tickets"] = "Chcete-li získat lístky, povolte vložený formulář";
+$lang["submit_your_request"] = "Zašlete svůj požadavek";
+$lang["submit"] = "Předložit";
+$lang["ticket_submission_message"] = "Váš tiket byl úspěšně odeslán!";
+$lang["your_email"] = "Tvůj e-mail";
+$lang["your_name"] = "Tvé jméno";
+
+$lang["item_categories"] = "Kategorie položek";
+$lang["edit_items_category"] = "Upravit kategorii položek";
+$lang["delete_items_category"] = "Smazat kategorii položek";
+
+$lang["create_recurring_tasks_before"] = "Předtím vytvořte opakující se úkoly";
+$lang["create_new_order"] = "Create new order";
+$lang["find_more_items"] = "Find more items";
+
+/* Version 2.8 */
+
+$lang["reports"] = "Reports";
+
+$lang["yes_all_estimates"] = "Yes, all estimates";
+$lang["yes_only_own_estimates"] = "Yes, only own estimates";
+
+$lang["add_category"] = "Add category";
+$lang["edit_category"] = "Edit category";
+$lang["delete_category"] = "Delete category";
+
+$lang["proposal"] = "Proposal";
+$lang["proposals"] = "Proposals";
+$lang["can_access_proposals"] = "Can access proposals?";
+$lang["show_in_proposal"] = "Show in proposal";
+$lang["proposal_date"] = "Proposal date";
+$lang["edit_proposal"] = "Edit proposal";
+$lang["delete_proposal"] = "Delete proposal";
+$lang["proposal_sent_message"] = "The proposal has been sent!";
+$lang["add_proposal"] = "Add proposal";
+$lang["proposal_preview"] = "Proposal preview";
+$lang["clone_proposal"] = "Clone proposal";
+$lang["proposal_to"] = "Proposal to";
+$lang["proposal_settings"] = "Proposal settings";
+$lang["proposal_prefix"] = "Proposal prefix";
+$lang["proposal_color"] = "Proposal color";
+$lang["send_proposal_bcc_to"] = "When sending proposal to client, send BCC to";
+$lang["initial_number_of_the_proposal"] = "Initial number of the proposal";
+$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger then last proposal ID.";
+$lang["proposal_sent"] = "Proposal sent";
+$lang["notification_proposal_sent"] = "Sent a proposal";
+$lang["proposal_accepted"] = "Proposal accepted";
+$lang["notification_proposal_accepted"] = "Accepted a proposal";
+$lang["proposal_rejected"] = "Proposal rejected";
+$lang["notification_proposal_rejected"] = "Rejected a proposal";
+$lang["create_estimate"] = "Create Estimate";
+$lang["include_all_items_of_this_proposal"] = "Include all items of this proposal";
+$lang["proposal_view"] = "Proposal view";
+$lang["accept_proposal"] = "Accept proposal";
+$lang["reject_proposal"] = "Reject proposal";
+$lang["proposal_accepted_message"] = "You've successfully accepted this proposal!";
+
+$lang["set_timeline_permissions"] = "Set timeline permissions";
+$lang["cant_see_the_timeline"] = "Can't see the Timeline";
+$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "Can see timeline posts from specific members or teams:";
+
+$lang["localization"] = "Localization";
+$lang["localization_settings"] = "Localization Settings";
+$lang["main_task"] = "Main task";
+
+$lang["select_all"] = "Select all";
+$lang["unselect_all"] = "Unselect all";
+
+$lang["plugins"] = "Plugins";
+$lang["install_plugin"] = "Install plugin";
+$lang["please_upload_a_zip_file"] = "Please upload a zip file.";
+$lang["install"] = "Install";
+$lang["installed"] = "Installed";
+$lang["activate"] = "Activate";
+$lang["activated"] = "Activated";
+$lang["deactivate"] = "Deactivate";
+$lang["deactivated"] = "Deactivated";
+$lang["the_required_files_missing"] = "The required files missing.";
+$lang["this_plugin_is_already_installed"] = "This plugin is already installed.";
+$lang["version"] = "Version";
+$lang["by"] = "By";
+$lang["visit_plugin_site"] = "Visit plugin site";
+
+$lang["can_manage_team_members_job_information"] = "Can manage team member's job information?";
+
+$lang["add_filter"] = "Add filter";
+$lang["specific_client_groups"] = "Specific client groups";
+$lang["choose_client_groups"] = "Choose client groups";
+
+$lang["checklist_template"] = "Checklist Template";
+$lang["add_checklist_template"] = "Add checklist template";
+$lang["edit_checklist_template"] = "Edit checklist template";
+$lang["delete_checklist_template"] = "Delete checklist template";
+$lang["select_from_template"] = "Selct from template";
+$lang["type_new_item"] = "Type new item";
+
+$lang["conversion_rate"] = "Conversion rate";
+
+$lang["all_tasks"] = "All tasks";
+$lang["user_roles"] = "User Roles";
+$lang["edit_user_role"] = "Edit user role";
+
+$lang["total_leads"] = "Total leads";
+
+$lang["copy_link"] = "Copy link";
+$lang["copy_comment_link"] = "Copy comment link";
+
+$lang["pin_comment"] = "Pin comment";
+$lang["unpin_comment"] = "Unpin comment";
+$lang["pinned_comments"] = "Pinned comments";
+
+$lang["reply_from_this_comment"] = "Reply from this comment <br />";
+
+$lang["project_files"] = "Project files";
+$lang["edit_files"] = "Edit files";
+
+$lang["invoice_manual_payment_added"] = "Invoice manual payment added";
+$lang["notification_invoice_manual_payment_added"] = "Added a manual payment.";
+
+$lang["save_as_note"] = "Save as note";
+$lang["client_will_not_see_any_notes"] = "Client will not see any notes.";
+
+$lang["prospects"] = "Prospects";
+$lang["estimate_forms"] = "Estimate Forms";
+
+$lang["proposal_editor"] = "Proposal Editor";
+$lang["proposal_templates"] = "Proposal templates";
+$lang["add_proposal_template"] = "Add proposal template";
+$lang["edit_proposal_template"] = "Edit proposal template";
+$lang["delete_proposal_template"] = "Delete proposal template";
+$lang["use_template_from"] = "Use template from";
+$lang["print_proposal"] = "Print proposal";
+$lang["proposal_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+
+$lang["default"] = "Default";
+
+$lang["encryption"] = "Encryption";
+$lang["imap_encryption_help_message"] = "Different server could work with different configuration. If you see any problem to connect with IMAP, please check with different options.";
+
+$lang["administration_permissions"] = "Administration permissions";
+$lang["can_manage_all_kinds_of_settings"] = "Can manage all kinds of settings";
+$lang["can_manage_user_role_and_permissions"] = "Can manage user role and permissions";
+$lang["can_add_or_invite_new_team_members"] = "Can add/invite new team members";
+
+$lang["add_signature_option_on_accepting_proposal"] = "Add signature option on accepting proposal";
+$lang["accept"] = "Accept";
+$lang["signer_info"] = "Signer info";
+$lang["default_template"] = "Default template";
+$lang["change_template"] = "Change template";
+$lang["this_variable_is_unsupported"] = "This variable is unsupported";
+
+$lang["plugin_deletion_alert_message"] = "All records and files also will be deleted!";
+$lang["plugin_requires_at_least_error_message"] = "This plugin requires at least %s version.";
+$lang["plugin_supports_at_most_error_message"] = "This plugin supports at most %s version.";
+$lang["no_update_hook_found"] = "No update hook found!";
+$lang["indexed"] = "Indexed";
+
+$lang["save_and_continue"] = "Save & continue";
+$lang["add_new_project_member"] = "Add new project member";
+
+$lang["field_type_time"] = "Time";
+$lang["client_can_assign_tasks"] = "Client can assign tasks?";
+$lang["can_create_lead_from_public_form"] = "Can create lead from public form";
+$lang["lead_html_form_code"] = "Lead creation HTML form code";
+
+$lang["enable_comments_on_estimates"] = "Enable comments on estimates";
+$lang["show_most_recent_estimate_comments_at_the_top"] = "Show most recent estimate comments at the top";
+$lang["estimate_commented"] = "Estimate commented";
+$lang["estimate_creator"] = "Estimate creator";
+$lang["notification_estimate_commented"] = "Commented on an estimate.";
+
+$lang["contacts_logged_in_today"] = "Contacts logged in today";
+$lang["contacts_logged_in_last_seven_days"] = "Contacts logged in last 7 days";
+
+$lang["clients_has_unpaid_invoices"] = "Clients has unpaid invoices";
+$lang["clients_has_partially_paid_invoices"] = "Clients has partially paid invoices";
+$lang["clients_has_overdue_invoices"] = "Clients has overdue invoices";
+
+$lang["of_total_clients"] = "of total clients";
+
+$lang["has_canceled_projects"] = "Has canceled projects";
+$lang["clients_has_open_projects"] = "Clients has open projects";
+$lang["clients_has_hold_projects"] = "Clients has hold projects";
+$lang["clients_has_completed_projects"] = "Clients has completed projects";
+$lang["clients_has_canceled_projects"] = "Clients has canceled projects";
+
+$lang["has_open_estimates"] = "Has open estimates";
+$lang["has_accepted_estimates"] = "Has accepted estimates";
+$lang["has_new_estimate_requests"] = "Has new estimate requests";
+$lang["has_estimate_requests_in_progress"] = "Has estimate requests in progress";
+$lang["clients_has_open_estimates"] = "Client has open estimates";
+$lang["clients_has_accepted_estimates"] = "Clients has accepted estimates";
+$lang["clients_has_new_estimate_requests"] = "Clients has new estimate requests";
+$lang["clients_has_estimate_requests_in_progress"] = "Clients has estimate requests in progress";
+
+$lang["has_open_tickets"] = "Has open tickets";
+$lang["clients_has_open_tickets"] = "Clients has open tickets";
+
+$lang["has_new_orders"] = "Has new orders";
+$lang["clients_has_new_orders"] = "Clients has new orders";
+
+$lang["has_open_proposals"] = "Has open proposals";
+$lang["has_accepted_proposals"] = "Has accepted proposals";
+$lang["has_rejected_proposals"] = "Has rejected proposals";
+$lang["clients_has_open_proposals"] = "Clients has open proposals";
+$lang["clients_has_accepted_proposals"] = "Clients has accepted proposals";
+$lang["clients_has_rejected_proposals"] = "Clients has rejected proposals";
+
+$lang["logged_in_today"] = "Logged in today";
+$lang["logged_in_last_seven_days"] = "Logged in last 7 days";
+
+$lang["hide_from_kanban_view"] = "Hide from kanban view";
+
+return $lang;
