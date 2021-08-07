@@ -1563,3 +1563,474 @@ $lang["timesheet_settings"] = "تنظیمات برگه کاری";
 $lang["users_can_start_multiple_timers_at_a_time"] = "کاربران می توانند همزمان چند تایمر را شروع کنند";
 
 $lang["delete_expenses_category"] = "دسته هزینه ها را حذف کنید";
+
+/* Version 2.5 */
+
+$lang["code_reference"] = "Code Reference";
+
+$lang["commit_url"] = "Commit url";
+$lang["new_commits"] = "New commits";
+$lang["new_commit"] = "New commit";
+$lang["pushed_by"] = "Pushed by";
+$lang["committed_by"] = "Committed by";
+$lang["add_webhook_in_your_repository_at"] = "Add webhook in your repository: ";
+$lang["webhook_listener_link"] = "Webhook listener link";
+$lang["enable_bitbucket_commit_logs_in_tasks"] = "Enable bitbucket commit logs in tasks";
+$lang["bitbucket_info_text"] = "To link the commits with tasks, there should be a # and task ID at the end of each commit messages. Ex: This is a commit of Task #10.";
+
+$lang["bitbucket_push_received"] = "Bitbucket notification received";
+$lang["notification_bitbucket_push_received"] = "Bitbucket notification received.";
+
+$lang["hour_log_time_error_message"] = "Please input hour(s) in correct format.";
+$lang["set_message_permissions"] = "Set message permissions";
+$lang["cant_send_any_messages"] = "Can't send any messages";
+$lang["can_send_messages_to_specific_members_or_teams"] = "Can send messages to specific members or teams:";
+
+$lang["embed"] = "Embed";
+$lang["copy"] = "Copy";
+
+$lang["estimate_prefix"] = "Estimate prefix";
+
+$lang["likes"] = "Likes";
+
+$lang["pusher"] = "Pusher";
+$lang["enable_chat_via_pusher"] = "Enable chat via pusher";
+
+$lang["tasks_list"] = "Tasks List";
+$lang["tasks_kanban"] = "Tasks Kanban";
+$lang["set_project_tab_order"] = "Set project tab order";
+$lang["project_tab_order"] = "Project tab order";
+$lang["project_tab_order_help_message"] = "Please note that, this tabs will show as per user's permissions.";
+$lang["project_tab_order_help_message_of_client"] = "Please note that, this tabs will show as per client contact's permissions.";
+$lang["client_projects"] = "Projects";
+
+$lang["ticket_assigned"] = "Ticket assigned";
+$lang["notification_ticket_assigned"] = "Assigned a ticket to %s";
+
+$lang["disable_access_favorite_project_option_for_clients"] = "Disable access favorite project option for clients";
+$lang["disable_editing_left_menu_by_clients"] = "Disable editing left menu by clients";
+$lang["disable_topbar_menu_customization"] = "Disable topbar menu customization";
+$lang["disable_dashboard_customization_by_clients"] = "Disable dashboard customization by clients";
+
+$lang["task_start_date"] = "Task start date";
+$lang["project_start_date"] = "Project start date";
+$lang["show_on_kanban_card"] = "Show on kanban card";
+
+$lang["original_expense"] = "Original expense";
+$lang["expense_details"] = "Expense details";
+
+$lang["read_only"] = "Read only";
+
+$lang["internal_use_only"] = "Internal use only";
+$lang["visible_to_team_members_only"] = "Visible to team members only";
+$lang["visible_to_clients_only"] = "Visible to clients only";
+
+$lang["open_in_new_tab"] = "Open in new tab";
+
+$lang["client_can_delete_own_files_in_project"] = "Client can delete own files in project";
+
+$lang["enable_slack"] = "Enable slack";
+$lang["get_the_webhook_url_of_your_app_from_here"] = "Get the Webhook URL of your App from here:";
+$lang["slack_webhook_url"] = "Webhook URL";
+$lang["send_a_test_message"] = "Send a test message";
+$lang["notification_test_slack_notification"] = "This is a demo message.";
+$lang["slack_notification_error_message"] = "Error! Can't connect with the Slack using the credentials.";
+$lang["dont_send_any_project_related_notifications_to_this_channel"] = "Don't send any project related notifications to this channel";
+$lang["save_and_send_a_test_message"] = "Save & send a test message";
+
+$lang["copy_sub_tasks"] = "Copy sub tasks";
+
+$lang["can_update_only_assigned_tasks_status"] = "Can update only assigned tasks status";
+
+$lang["import_leads"] = "Import leads";
+$lang["import_lead_error_contact_name"] = "Contact first name and last name is both required to add a lead contact.";
+
+$lang["deadline_must_be_equal_or_greater_than_start_date"] = "Deadline must be equal or greater than Start date.";
+
+$lang["enable_github_commit_logs_in_tasks"] = "Enable github commit logs in tasks";
+$lang["github_push_received"] = "GitHub notification received";
+$lang["notification_github_push_received"] = "GitHub notification received.";
+
+$lang["invalid_calendar_id_error_message"] = "This Calendar ID isn't valid or you don't have permission to access this Calendar";
+$lang["total_clients"] = "Total clients";
+$lang["total_contacts"] = "Total contacts";
+
+$lang["message_sending_error_message"] = "This user doesn't have permission to send message to you. That's why you also can't send message!";
+
+$lang["days_view"] = "Days view";
+$lang["weeks_view"] = "Weeks view";
+$lang["months_view"] = "Months view";
+
+$lang["move_all_tasks_to_to_do"] = "Move all tasks to To Do";
+
+$lang["started"] = "Started";
+
+$lang["weekends"] = "Weekends";
+
+$lang["invited_client_contact_signed_up"] = "Invited client contact signed up";
+$lang["notification_invited_client_contact_signed_up"] = "Invited client contact signed up.";
+
+$lang["ticket_templates"] = "Ticket templates";
+$lang["ticket_template"] = "Ticket template";
+$lang["tickets_list"] = "Tickets list";
+$lang["add_template"] = "Add template";
+$lang["edit_template"] = "Edit template";
+$lang["insert_template"] = "Insert template";
+$lang["private_template"] = "Private template";
+
+$lang["requested_by"] = "Requested by";
+
+$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "Create new projects automatically when estimates gets accepted";
+
+$lang["typing"] = "Typing";
+
+$lang["new_client_greetings"] = "New client greetings";
+
+$lang["timeline_post_commented"] = "Timeline post commented";
+$lang["post_creator"] = "Post creator";
+$lang["notification_timeline_post_commented"] = "Commented on a post.";
+$lang["created_a_new_post"] = "Created a new post";
+$lang["notification_created_a_new_post"] = "Created a new post.";
+
+$lang["verify_email_before_client_signup"] = "Verify email before client signup";
+$lang["input_your_email"] = "Input your email";
+$lang["verify_email"] = "Client email verification";
+$lang["please_continue_your_signup_process"] = "Please continue your signup process.";
+$lang["get_started"] = "Get Started";
+
+$lang["manage_labels"] = "Manage labels";
+
+$lang["timesheet"] = "Timesheet";
+$lang["users_can_input_only_total_hours_instead_of_period"] = "Users can input only total hours instead of period";
+$lang["timesheet_hour_input_help_message"] = "Ex: 1h 20m";
+
+$lang["template"] = "Template";
+$lang["template_details"] = "Template details";
+
+$lang["label_existing_error_message"] = "This label already in use. It can't be deleted.";
+
+/* Version 2.6 */
+
+$lang["paytm_checksum_hash_error_message"] = "Couldn't generate Checksum Hash with your credentials.";
+
+$lang["testing_environment"] = "Testing environment";
+
+$lang["auto_reply_to_tickets"] = "Auto reply to tickets";
+
+$lang["total_time_logged"] = "Total time logged";
+$lang["total_duration"] = "Total duration";
+
+$lang["please_upload_valid_image_files"] = "Please upload valid image files.";
+$lang["upload_image"] = "Upload Image";
+$lang["item_details"] = "Item details";
+$lang["item_image_sorting_help_message"] = "First image will be the default image.";
+$lang["show_in_client_portal"] = "Show in client portal";
+$lang["showing_in_client_portal"] = "Showing in client portal";
+$lang["add_to_cart"] = "Add to cart";
+$lang["item_empty_message"] = "No items found!";
+
+$lang["order"] = "Order";
+$lang["orders"] = "Orders";
+$lang["no_items_text"] = "You don't have any items in your shopping cart!";
+$lang["process_order"] = "Process Order";
+$lang["place_order"] = "Place order";
+$lang["edit_item"] = "Edit item";
+$lang["store"] = "Store";
+$lang["client_can_access_store"] = "Client can access store?";
+$lang["added_to_cart"] = "Added to cart";
+$lang["can_access_orders"] = "Can access orders?";
+
+$lang["order_settings"] = "Order settings";
+$lang["order_logo"] = "Order logo";
+$lang["order_prefix"] = "Order prefix";
+$lang["order_color"] = "Order color";
+$lang["initial_number_of_the_order"] = "Initial number of the order";
+$lang["the_orders_id_must_be_larger_then_last_order_id"] = "The orders ID must be larger then last order ID.";
+$lang["order_footer"] = "Order footer";
+
+$lang["order_status"] = "Order status";
+$lang["edit_order_status"] = "Edit order status";
+$lang["add_order_status"] = "Add order status";
+$lang["delete_order_status"] = "Delete order status";
+$lang["there_has_orders_with_this_status"] = "There has orders with this status";
+$lang["orders_list"] = "Orders list";
+$lang["sales"] = "Sales";
+$lang["order_date"] = "Order date";
+$lang["edit_order"] = "Edit order";
+$lang["delete_order"] = "Delete order";
+$lang["show_in_order"] = "Show in order";
+$lang["order_preview"] = "Order preview";
+$lang["order_from"] = "Order from";
+$lang["add_order"] = "Add order";
+
+$lang["process_order_info_message"] = "You are about to create the order. Please check details before submitting.";
+
+$lang["order_creator_contact"] = "Order creator contact";
+
+$lang["create_estimate"] = "Create Estimate";
+$lang["include_all_items_of_this_order"] = "Include all items of this order";
+
+$lang["new_order_received"] = "New order received";
+$lang["notification_new_order_received"] = "New order received.";
+
+$lang["order_status_updated"] = "Order status updated";
+$lang["notification_order_status_updated"] = "Order status has been updated.";
+
+$lang["add_more_items"] = "Add more items";
+
+$lang["yes_only_own_leads"] = "Yes, only own leads";
+$lang["yes_all_leads"] = "Yes, all leads";
+
+$lang["yes_only_own_clients"] = "Yes, only own clients";
+$lang["yes_all_clients"] = "Yes, all clients";
+
+$lang["recently_updated"] = "Recently updated";
+$lang["recently_moved_to"] = "Recently moved to";
+
+$lang["recently_commented"] = "Recently commented";
+$lang["mentioned_me"] = "Mentioned me";
+$lang["recently_mentioned_me"] = "Recently mentioned me";
+$lang["in"] = "In";
+$lang["recently_meaning"] = "Recently meaning";
+
+$lang["quick_filters"] = "Quick filters";
+
+$lang["has_open_projects"] = "Has open projects";
+$lang["has_completed_projects"] = "Has completed projects";
+$lang["has_any_hold_projects"] = "Has any hold projects";
+
+$lang["has_unpaid_invoices"] = "Has unpaid invoices";
+$lang["has_overdue_invoices"] = "Has overdue invoices";
+$lang["has_partially_paid_invoices"] = "Has partially paid invoices";
+$lang["assignee"] = "Assignee";
+
+$lang["upload_and_crop"] = "Upload and crop";
+
+$lang["active_members_on_projects"] = "Active members on projects";
+
+/* Version 2.6.1 */
+
+$lang["open_tickets_list"] = "Open tickets list";
+
+$lang["login_attempt_failed"] = "Login attempt failed";
+$lang["profile_image_error_message"] = "The image should be 200x200px.";
+
+$lang["re_captcha_info_text"] = "Before you logout, please open a new browser and make sure the reCaptcha is working.";
+$lang["yes_assigned_tickets_only"] = "Yes, assigned tickets only";
+$lang["no_such_custom_field_found"] = "No such custom field found.";
+$lang["open_in_google_calendar"] = "Open in google calendar";
+
+$lang["enable_embedded_form_to_get_tickets"] = "Enable embedded form to get tickets";
+$lang["submit_your_request"] = "Submit your request";
+$lang["submit"] = "Submit";
+$lang["ticket_submission_message"] = "Your ticket has been submitted successfully!";
+$lang["your_email"] = "Your email";
+$lang["your_name"] = "Your name";
+
+$lang["item_categories"] = "Item categories";
+$lang["edit_items_category"] = "Edit items category";
+$lang["delete_items_category"] = "Delete items category";
+
+$lang["create_recurring_tasks_before"] = "Create recurring tasks before";
+$lang["create_new_order"] = "Create new order";
+$lang["find_more_items"] = "Find more items";
+
+/* Version 2.8 */
+
+$lang["reports"] = "Reports";
+
+$lang["yes_all_estimates"] = "Yes, all estimates";
+$lang["yes_only_own_estimates"] = "Yes, only own estimates";
+
+$lang["add_category"] = "Add category";
+$lang["edit_category"] = "Edit category";
+$lang["delete_category"] = "Delete category";
+
+$lang["proposal"] = "Proposal";
+$lang["proposals"] = "Proposals";
+$lang["can_access_proposals"] = "Can access proposals?";
+$lang["show_in_proposal"] = "Show in proposal";
+$lang["proposal_date"] = "Proposal date";
+$lang["edit_proposal"] = "Edit proposal";
+$lang["delete_proposal"] = "Delete proposal";
+$lang["proposal_sent_message"] = "The proposal has been sent!";
+$lang["add_proposal"] = "Add proposal";
+$lang["proposal_preview"] = "Proposal preview";
+$lang["clone_proposal"] = "Clone proposal";
+$lang["proposal_to"] = "Proposal to";
+$lang["proposal_settings"] = "Proposal settings";
+$lang["proposal_prefix"] = "Proposal prefix";
+$lang["proposal_color"] = "Proposal color";
+$lang["send_proposal_bcc_to"] = "When sending proposal to client, send BCC to";
+$lang["initial_number_of_the_proposal"] = "Initial number of the proposal";
+$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger then last proposal ID.";
+$lang["proposal_sent"] = "Proposal sent";
+$lang["notification_proposal_sent"] = "Sent a proposal";
+$lang["proposal_accepted"] = "Proposal accepted";
+$lang["notification_proposal_accepted"] = "Accepted a proposal";
+$lang["proposal_rejected"] = "Proposal rejected";
+$lang["notification_proposal_rejected"] = "Rejected a proposal";
+$lang["create_estimate"] = "Create Estimate";
+$lang["include_all_items_of_this_proposal"] = "Include all items of this proposal";
+$lang["proposal_view"] = "Proposal view";
+$lang["accept_proposal"] = "Accept proposal";
+$lang["reject_proposal"] = "Reject proposal";
+$lang["proposal_accepted_message"] = "You've successfully accepted this proposal!";
+
+$lang["set_timeline_permissions"] = "Set timeline permissions";
+$lang["cant_see_the_timeline"] = "Can't see the Timeline";
+$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "Can see timeline posts from specific members or teams:";
+
+$lang["localization"] = "Localization";
+$lang["localization_settings"] = "Localization Settings";
+$lang["main_task"] = "Main task";
+
+$lang["select_all"] = "Select all";
+$lang["unselect_all"] = "Unselect all";
+
+$lang["plugins"] = "Plugins";
+$lang["install_plugin"] = "Install plugin";
+$lang["please_upload_a_zip_file"] = "Please upload a zip file.";
+$lang["install"] = "Install";
+$lang["installed"] = "Installed";
+$lang["activate"] = "Activate";
+$lang["activated"] = "Activated";
+$lang["deactivate"] = "Deactivate";
+$lang["deactivated"] = "Deactivated";
+$lang["the_required_files_missing"] = "The required files missing.";
+$lang["this_plugin_is_already_installed"] = "This plugin is already installed.";
+$lang["version"] = "Version";
+$lang["by"] = "By";
+$lang["visit_plugin_site"] = "Visit plugin site";
+
+$lang["can_manage_team_members_job_information"] = "Can manage team member's job information?";
+
+$lang["add_filter"] = "Add filter";
+$lang["specific_client_groups"] = "Specific client groups";
+$lang["choose_client_groups"] = "Choose client groups";
+
+$lang["checklist_template"] = "Checklist Template";
+$lang["add_checklist_template"] = "Add checklist template";
+$lang["edit_checklist_template"] = "Edit checklist template";
+$lang["delete_checklist_template"] = "Delete checklist template";
+$lang["select_from_template"] = "Selct from template";
+$lang["type_new_item"] = "Type new item";
+
+$lang["conversion_rate"] = "Conversion rate";
+
+$lang["all_tasks"] = "All tasks";
+$lang["user_roles"] = "User Roles";
+$lang["edit_user_role"] = "Edit user role";
+
+$lang["total_leads"] = "Total leads";
+
+$lang["copy_link"] = "Copy link";
+$lang["copy_comment_link"] = "Copy comment link";
+
+$lang["pin_comment"] = "Pin comment";
+$lang["unpin_comment"] = "Unpin comment";
+$lang["pinned_comments"] = "Pinned comments";
+
+$lang["reply_from_this_comment"] = "Reply from this comment <br />";
+
+$lang["project_files"] = "Project files";
+$lang["edit_files"] = "Edit files";
+
+$lang["invoice_manual_payment_added"] = "Invoice manual payment added";
+$lang["notification_invoice_manual_payment_added"] = "Added a manual payment.";
+
+$lang["save_as_note"] = "Save as note";
+$lang["client_will_not_see_any_notes"] = "Client will not see any notes.";
+
+$lang["prospects"] = "Prospects";
+$lang["estimate_forms"] = "Estimate Forms";
+
+$lang["proposal_editor"] = "Proposal Editor";
+$lang["proposal_templates"] = "Proposal templates";
+$lang["add_proposal_template"] = "Add proposal template";
+$lang["edit_proposal_template"] = "Edit proposal template";
+$lang["delete_proposal_template"] = "Delete proposal template";
+$lang["use_template_from"] = "Use template from";
+$lang["print_proposal"] = "Print proposal";
+$lang["proposal_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+
+$lang["default"] = "Default";
+
+$lang["encryption"] = "Encryption";
+$lang["imap_encryption_help_message"] = "Different server could work with different configuration. If you see any problem to connect with IMAP, please check with different options.";
+
+$lang["administration_permissions"] = "Administration permissions";
+$lang["can_manage_all_kinds_of_settings"] = "Can manage all kinds of settings";
+$lang["can_manage_user_role_and_permissions"] = "Can manage user role and permissions";
+$lang["can_add_or_invite_new_team_members"] = "Can add/invite new team members";
+
+$lang["add_signature_option_on_accepting_proposal"] = "Add signature option on accepting proposal";
+$lang["accept"] = "Accept";
+$lang["signer_info"] = "Signer info";
+$lang["default_template"] = "Default template";
+$lang["change_template"] = "Change template";
+$lang["this_variable_is_unsupported"] = "This variable is unsupported";
+
+$lang["plugin_deletion_alert_message"] = "All records and files also will be deleted!";
+$lang["plugin_requires_at_least_error_message"] = "This plugin requires at least %s version.";
+$lang["plugin_supports_at_most_error_message"] = "This plugin supports at most %s version.";
+$lang["no_update_hook_found"] = "No update hook found!";
+$lang["indexed"] = "Indexed";
+
+$lang["save_and_continue"] = "Save & continue";
+$lang["add_new_project_member"] = "Add new project member";
+
+$lang["field_type_time"] = "Time";
+$lang["client_can_assign_tasks"] = "Client can assign tasks?";
+$lang["can_create_lead_from_public_form"] = "Can create lead from public form";
+$lang["lead_html_form_code"] = "Lead creation HTML form code";
+
+$lang["enable_comments_on_estimates"] = "Enable comments on estimates";
+$lang["show_most_recent_estimate_comments_at_the_top"] = "Show most recent estimate comments at the top";
+$lang["estimate_commented"] = "Estimate commented";
+$lang["estimate_creator"] = "Estimate creator";
+$lang["notification_estimate_commented"] = "Commented on an estimate.";
+
+$lang["contacts_logged_in_today"] = "Contacts logged in today";
+$lang["contacts_logged_in_last_seven_days"] = "Contacts logged in last 7 days";
+
+$lang["clients_has_unpaid_invoices"] = "Clients has unpaid invoices";
+$lang["clients_has_partially_paid_invoices"] = "Clients has partially paid invoices";
+$lang["clients_has_overdue_invoices"] = "Clients has overdue invoices";
+
+$lang["of_total_clients"] = "of total clients";
+
+$lang["has_canceled_projects"] = "Has canceled projects";
+$lang["clients_has_open_projects"] = "Clients has open projects";
+$lang["clients_has_hold_projects"] = "Clients has hold projects";
+$lang["clients_has_completed_projects"] = "Clients has completed projects";
+$lang["clients_has_canceled_projects"] = "Clients has canceled projects";
+
+$lang["has_open_estimates"] = "Has open estimates";
+$lang["has_accepted_estimates"] = "Has accepted estimates";
+$lang["has_new_estimate_requests"] = "Has new estimate requests";
+$lang["has_estimate_requests_in_progress"] = "Has estimate requests in progress";
+$lang["clients_has_open_estimates"] = "Client has open estimates";
+$lang["clients_has_accepted_estimates"] = "Clients has accepted estimates";
+$lang["clients_has_new_estimate_requests"] = "Clients has new estimate requests";
+$lang["clients_has_estimate_requests_in_progress"] = "Clients has estimate requests in progress";
+
+$lang["has_open_tickets"] = "Has open tickets";
+$lang["clients_has_open_tickets"] = "Clients has open tickets";
+
+$lang["has_new_orders"] = "Has new orders";
+$lang["clients_has_new_orders"] = "Clients has new orders";
+
+$lang["has_open_proposals"] = "Has open proposals";
+$lang["has_accepted_proposals"] = "Has accepted proposals";
+$lang["has_rejected_proposals"] = "Has rejected proposals";
+$lang["clients_has_open_proposals"] = "Clients has open proposals";
+$lang["clients_has_accepted_proposals"] = "Clients has accepted proposals";
+$lang["clients_has_rejected_proposals"] = "Clients has rejected proposals";
+
+$lang["logged_in_today"] = "Logged in today";
+$lang["logged_in_last_seven_days"] = "Logged in last 7 days";
+
+$lang["hide_from_kanban_view"] = "Hide from kanban view";
+
+return $lang;

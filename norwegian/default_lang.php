@@ -146,7 +146,7 @@ $lang["invite_someone_to_join_as_a_team_member"] = "Inviter noen til å bli med 
 /* team */
 $lang["add_team"] = "Legg til team";
 $lang["edit_team"] = "Rediger team";
-$lang["delete_teamn"] = "Slett team";
+$lang["delete_team"] = "Slett team";
 $lang["team"] = "Team";
 $lang["select_a_team"] = "Velg et team";
 
@@ -252,7 +252,7 @@ $lang["email_sent_from_name"] = "E-post sendt fra navn";
 $lang["email_use_smtp"] = "Bruk SMTP";
 $lang["email_smtp_host"] = "SMTP-verten";
 $lang["email_smtp_user"] = "SMTP-bruker";
-$lang["email_smtp_password"] = "SMPT-passord";
+$lang["email_smtp_password"] = "SMTP-passord";
 $lang["email_smtp_port"] = "SMTP-port";
 $lang["send_test_mail_to"] = "Send en testmelding til";
 $lang["test_mail_sent"] = "Testmeldingen er sendt!";
@@ -1103,335 +1103,934 @@ $lang["enable_email_notification"] = "Aktiver e-postvarsling";
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
-$lang["all"] = "All";
+$lang["show_in_estimate"] = "Vis i estimat";
+$lang["mentioned_members"] = "Nevnte medlemmer";
+$lang["all"] = "Alle";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Bekreftet";
+$lang["confirm"] = "Bekrefte";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Bekreftet av";
+$lang["confirm_event"] = "Bekreft hendelsen";
+$lang["reject_event"] = "Avvis hendelse";
+$lang["event_status"] = "Hendelsesstatus";
 
-$lang["specific_client_contacts"] = "Specific client contacts";
-$lang["choose_client_contacts"] = "Choose client contacts";
-$lang["invitations_sent"] = "The invitations has been sent.";
+$lang["specific_client_contacts"] = "Spesifikke klientkontakter";
+$lang["choose_client_contacts"] = "Velg klientkontakter";
+$lang["invitations_sent"] = "Invitasjonene er sendt.";
 
 /* Version 2.1 */
 
-$lang["add_new_dashboard"] = "Add new dashboard";
-$lang["add_row"] = "Add row";
+$lang["add_new_dashboard"] = "Legg til nytt dashbord";
+$lang["add_row"] = "Legg til rad";
 
-$lang["available_widgets"] = "Available Widgets";
-$lang["your_selected_widgets_will_be_appear_here"] = "Your selected widgets will be appear here";
-$lang["drag_and_drop_widgets_here"] = "Drag and drop widgets here";
-$lang["no_more_widgets_available"] = "No more widgets available";
-$lang["invalid_widget_access"] = "You don't have permission to access this widget";
+$lang["available_widgets"] = "tilgjengelige Widgets";
+$lang["your_selected_widgets_will_be_appear_here"] = "De valgte widgets vil bli vist her";
+$lang["drag_and_drop_widgets_here"] = "Dra og slipp widgets her";
+$lang["no_more_widgets_available"] = "Ingen flere widgets tilgjengelig";
+$lang["invalid_widget_access"] = "Du har ikke tillatelse til å få tilgang til denne widgeten";
 
 $lang["dashboard_title"] = "Dashboard title";
-$lang["edit_dashboard"] = "Edit dashboard";
-$lang["edit_title"] = "Edit title";
+$lang["edit_dashboard"] = "Rediger dashbordet";
+$lang["edit_title"] = "Rediger tittel";
 $lang["default_dashboard"] = "Default dashboard";
 
 $lang["widget"] = "Widget";
 $lang["widgets"] = "Widgets";
-$lang["add_widget"] = "Add widget";
-$lang["edit_widget"] = "Edit widget";
-$lang["delete_widget"] = "Delete widget";
+$lang["add_widget"] = "Legg til widget";
+$lang["edit_widget"] = "Rediger widget";
+$lang["delete_widget"] = "Slett widget";
 
-$lang["content"] = "Content";
-$lang["clock_in_out"] = "Clock in-out";
-$lang["custom_widget_details"] = "Custom widget details";
+$lang["content"] = "Innhold";
+$lang["clock_in_out"] = "Klokke inn-ut";
+$lang["custom_widget_details"] = "Egendefinerte widgetdetaljer";
 
-$lang["total_projects"] = "Total projects";
-$lang["total_invoices"] = "Total invoices";
-$lang["total_payments"] = "Total payments";
-$lang["total_due"] = "Total due";
+$lang["total_projects"] = "Totalt antall prosjekter";
+$lang["total_invoices"] = "Totale fakturaer";
+$lang["total_payments"] = "Totale utbetalinger";
+$lang["total_due"] = "Totalt forfalt";
 
-$lang["show_title"] = "Show title";
-$lang["show_border"] = "Show border";
+$lang["show_title"] = "Vis tittel";
+$lang["show_border"] = "Vis grensen";
 
-$lang["all_tasks_kanban"] = "All tasks kanban";
-$lang["todo_list"] = "Todo list";
-$lang["open_projects_list"] = "Open Projects List";
-$lang["starred_projects"] = "Starred Projects";
-$lang["completed_projects"] = "Completed Projects";
+$lang["all_tasks_kanban"] = "Alle oppgaver kanban";
+$lang["todo_list"] = "Gjøremålsliste";
+$lang["open_projects_list"] = "Åpne prosjektliste";
+$lang["starred_projects"] = "Stjernemerkede prosjekter";
+$lang["completed_projects"] = "Fullførte prosjekter";
 
-$lang["new_tickets"] = "New Tickets";
-$lang["closed_tickets"] = "Closed Tickets";
+$lang["new_tickets"] = "Nye billetter";
+$lang["closed_tickets"] = "Lukkede billetter";
 
-$lang["clocked_in_team_members"] = "Clocked in team members";
-$lang["clocked_out_team_members"] = "Clocked out team members";
-$lang["latest_online_client_contacts"] = "Latest online client contacts";
-$lang["latest_online_team_members"] = "Latest online team members";
-$lang["my_tasks_list"] = "My tasks list";
+$lang["clocked_in_team_members"] = "Klokket inn teammedlemmene";
+$lang["clocked_out_team_members"] = "Klokket ut teammedlemmene";
+$lang["latest_online_client_contacts"] = "Siste online klientkontakter";
+$lang["latest_online_team_members"] = "Siste online teammedlemmer";
+$lang["my_tasks_list"] = "Oppgavelisten min";
 
-$lang["discount"] = "Discount";
-$lang["discount_type"] = "Discount Type";
-$lang["edit_discount"] = "Edit discount";
-$lang["discount_amount"] = "Discount amount";
-$lang["fixed_amount"] = "Fixed Amount";
-$lang["before_tax"] = "Before Tax";
-$lang["after_tax"] = "After Tax";
+$lang["discount"] = "Rabatt";
+$lang["discount_type"] = "Rabattype";
+$lang["edit_discount"] = "Rediger rabatt";
+$lang["discount_amount"] = "Rabattbeløp";
+$lang["fixed_amount"] = "Fast beløp";
+$lang["before_tax"] = "Før skatt";
+$lang["after_tax"] = "Etter skatt";
 
-$lang["access_permission"] = "Access Permission";
-$lang["setup"] = "Setup";
-$lang["client_permissions"] = "Client permissions";
+$lang["access_permission"] = "tilgang Tillatelse";
+$lang["setup"] = "Oppsett";
+$lang["client_permissions"] = "Klienttillatelser";
 
-$lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
-$lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
-$lang["personal_language"] = "Personal language";
-$lang["no_messages_text"] = "You don't have any messages yet";
-$lang["no_users_found"] = "No users found";
+$lang["invoice_over_payment_error_message"] = "Du kan ikke betale mer enn forfalt faktura.";
+$lang["account_already_exists_for_your_company_name"] = "Det eksisterer allerede en konto for firmanavnet ditt.";
+$lang["personal_language"] = "Personlig språk";
+$lang["no_messages_text"] = "Du har ingen meldinger ennå";
+$lang["no_users_found"] = "Ingen brukere funnet";
 
-$lang["create_project"] = "Create project";
+$lang["create_project"] = "Lag prosjekt";
 
 /* Version 2.2 */
 
-$lang["imap_settings"] = "IMAP settings";
-$lang["enable_email_piping"] = "Enable Email piping";
-$lang["imap_host"] = "IMAP Host";
-$lang["imap_port"] = "Port";
-$lang["imap_ssl_enabled"] = "SSL Enabled";
-$lang["please_upgrade_your_php_version"] = "Please upgrade your PHP Version for this operation.";
-$lang["required_version"] = "Required Version";
-$lang["email_piping_help_message"] = "Please make sure that, your IMap access is enabled.";
+$lang["imap_settings"] = "IMAP-innstillinger";
+$lang["enable_email_piping"] = "Aktivere e-postrør";
+$lang["imap_host"] = "IMAP vert";
+$lang["imap_port"] = "Havn";
+$lang["imap_ssl_enabled"] = "SSL aktivert";
+$lang["please_upgrade_your_php_version"] = "Oppgrader PHP-versjonen din for denne operasjonen.";
+$lang["required_version"] = "Påkrevd versjon";
+$lang["email_piping_help_message"] = "Forsikre deg om at IMap-tilgangen din er aktivert.";
 
-$lang["enable_rich_text_editor"] = "Enable rich text editor in comments/description";
+$lang["enable_rich_text_editor"] = "Aktiver rich text editor i kommentarer/beskrivelse";
 
-$lang["show_assigned_tasks_only"] = "Show assigned tasks only";
+$lang["show_assigned_tasks_only"] = "Vis bare tildelte oppgaver";
 
-$lang["batch_update"] = "Batch update";
-$lang["cancel_selection"] = "Cancel selection";
-$lang["select_status"] = "Select status";
+$lang["batch_update"] = "Batch oppdatering";
+$lang["cancel_selection"] = "Avbryt valget";
+$lang["select_status"] = "Velg status";
 
-$lang["add_multiple_tasks"] = "Add multiple tasks";
-$lang["save_and_add_more"] = "Save & add more";
-$lang["add_project_time"] = "Add project time";
-$lang["add_to_do"] = "Add to do";
-$lang["hide_menus_from_topbar"] = "Hide menus from topbar";
-$lang["favorite_projects"] = "Favorite projects";
-$lang["favorite_clients"] = "Favorite clients";
-$lang["dashboard_customization"] = "Dashboard customization";
-$lang["quick_add"] = "Quick add";
+$lang["add_multiple_tasks"] = "Legg til flere oppgaver";
+$lang["save_and_add_more"] = "Lagre og legg til mer";
+$lang["add_project_time"] = "Legg til prosjekttid";
+$lang["add_to_do"] = "Legg til å gjøre";
+$lang["hide_menus_from_topbar"] = "Skjul menyer fra toppfeltet";
+$lang["favorite_projects"] = "Favorittprosjekter";
+$lang["favorite_clients"] = "Favorittklienter";
+$lang["dashboard_customization"] = "Tilpasning av dashbord";
+$lang["quick_add"] = "Hurtig add";
 
-$lang["assign_to_me"] = "Assign to me";
+$lang["assign_to_me"] = "Tilordne til meg";
 
 $lang["favicon"] = "Favicon";
 
-$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
-$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
+$lang["enable_google_drive_api_to_upload_file"] = "Aktiver Google Drive API for å laste opp filen";
+$lang["drive_activation_help_message"] = "Fra nå av blir alle filene lastet opp til Google Disk.";
 
-$lang["mark_all_as_read"] = "Mark all as read";
-$lang["marked_all_notifications_as_read"] = "Marked all notifications as read";
+$lang["mark_all_as_read"] = "Marker alle som lest";
+$lang["marked_all_notifications_as_read"] = "Merket alle varsler som lest";
 
-$lang["project_completed"] = "Project completed";
-$lang["notification_project_completed"] = "Completed a project";
+$lang["project_completed"] = "Prosjektet fullført";
+$lang["notification_project_completed"] = "Gjennomførte et prosjekt";
 
-$lang["google_drive_client_id"] = "Client ID";
-$lang["google_drive_client_secret"] = "Client secret";
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
-$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
-$lang["save_and_authorize"] = "Save & authorize";
+$lang["google_drive_client_id"] = "klient-ID";
+$lang["google_drive_client_secret"] = "Klienthemmelighet";
+$lang["get_your_app_credentials_from_here"] = "Få applegitimasjonen din herfra:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Husk å legge til denne urlen i Autorisert omdirigering uri";
+$lang["save_and_authorize"] = "Lagre og authorize";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
+$lang["preview_next_key"] = "Neste (høyre piltast)";
+$lang["preview_previous_key"] = "Forrige (venstre piltast)";
 
-$lang["filters"] = "Filters";
+$lang["filters"] = "Filtre";
 
-$lang["authorized"] = "Authorized";
-$lang["unauthorized"] = "Unauthorized";
+$lang["authorized"] = "Autorisert";
+$lang["unauthorized"] = "Uautorisert";
 
-$lang["not_clocked_id_yet"] = "Not clocked in yet";
+$lang["not_clocked_id_yet"] = "Ikke klokket inn ennå";
 
-$lang["create_estimate_request"] = "Create estimate request";
+$lang["create_estimate_request"] = "Lag estimatforespørsel";
 
-$lang["in_last_number_of_days"] = "In last %s days";
-$lang["in_last_number_of_month"] = "In last %s month";
-$lang["in_last_number_of_months"] = "In last %s months";
+$lang["in_last_number_of_days"] = "I siste %s dager";
+$lang["in_last_number_of_month"] = "I siste %s måned";
+$lang["in_last_number_of_months"] = "I siste %s månedene";
 
 $lang["pusher_app_id"] = "App ID";
-$lang["pusher_key"] = "Key";
-$lang["pusher_secret"] = "Secret";
-$lang["pusher_cluster"] = "Cluster";
-$lang["enable_push_notification"] = "Enable push notification";
-$lang["push_notification"] = "Push notification";
-$lang["disable_push_notification"] = "Disable push notification";
+$lang["pusher_key"] = "Nøkkel";
+$lang["pusher_secret"] = "Hemmelig";
+$lang["pusher_cluster"] = "Klynge";
+$lang["enable_push_notification"] = "Aktiver pushvarsling";
+$lang["push_notification"] = "Push-varsel";
+$lang["disable_push_notification"] = "Deaktiver pushvarsling";
 
-$lang["unknown_client"] = "Unknown client";
+$lang["unknown_client"] = "Ukjent klient";
 
-$lang["income_expenses_widget_help_message"] = "This report is only usable if you are using single currency.";
+$lang["income_expenses_widget_help_message"] = "Denne rapporten er bare brukbar hvis du bruker én valuta.";
 
-$lang["assign_myself_in_this_ticket"] = "Assign myself in this ticket";
+$lang["assign_myself_in_this_ticket"] = "Tildele meg selv i denne billetten";
 
-$lang["create_new_task"] = "Create new task";
+$lang["create_new_task"] = "Lag ny oppgave";
 
-$lang["default_due_date_after_billing_date"] = "Default due date after billing date";
+$lang["default_due_date_after_billing_date"] = "Standard forfallsdato etter faktureringsdato";
 
-$lang["field_type_external_link"] = "External link";
+$lang["field_type_external_link"] = "Ekstern lenke";
 
-$lang["total_days"] = "Total days";
+$lang["total_days"] = "Totalt antall dager";
 
-$lang["my_timesheet"] = "My timesheet";
-$lang["all_timesheets"] = "All timesheets";
-$lang["my_timesheet_statistics"] = "My timesheet statistics";
-$lang["all_timesheets_statistics"] = "All timesheets statistics";
+$lang["my_timesheet"] = "Tidslisten min";
+$lang["all_timesheets"] = "Alle timelister";
+$lang["my_timesheet_statistics"] = "Mine timeliste statistikk";
+$lang["all_timesheets_statistics"] = "All timelistestatistikk";
 
-$lang["no_field_has_selected"] = "No field has selected!";
+$lang["no_field_has_selected"] = "Ingen felt har valgt!";
 
-$lang["imap_help_message_1"] = "You can setup an email address to create the tickets automatically when you receive any emails at that address.";
-$lang["imap_help_message_2"] = "Please note that, the system will create tickets based on the unread emails. After creating the ticket, the emails will be marked as read. To get the replies in the same tickets, the system will check the ticket ID in the email subject. If there is no ticket ID in the subject, that will be considered as a new ticket. You can setup the email subject from the";
-$lang["imap_error_credentials_message"] = "Error! Can't connect with the imap using the credentials.";
+$lang["imap_help_message_1"] = "Du kan konfigurere en e-postadresse for å opprette billettene automatisk når du mottar e-post på den adressen.";
+$lang["imap_help_message_2"] = "Vær oppmerksom på at systemet vil opprette billetter basert på uleste e-post. Etter at du har opprettet billetten, blir e-postene merket som lest. For å få svarene i de samme billettene, vil systemet sjekke billett-ID-en i e-postens emne. Hvis det ikke er noen billett-ID i emnet, vil det bli sett på som en ny billett. Du kan sette opp e-postemnet fra";
+$lang["imap_error_credentials_message"] = "Feil! Kan ikke koble til IMAP ved hjelp av legitimasjonen.";
 
-$lang["client_message_own_contacts"] = "Client can send/receive message to/from own contacts?";
+$lang["client_message_own_contacts"] = "Kunden kan sende/motta melding til/fra egne kontakter?";
 
-$lang["print_invoice"] = "Print invoice";
+$lang["print_invoice"] = "Skriv ut faktura";
 
-$lang["mark_invoice_as_cancelled"] = "Mark as cancelled";
-$lang["cancelled"] = "Cancelled";
-$lang["cancelled_at"] = "Cancelled at";
-$lang["cancelled_by"] = "Cancelled by";
+$lang["mark_invoice_as_cancelled"] = "Merk som kansellert";
+$lang["cancelled"] = "avbrutt";
+$lang["cancelled_at"] = "Avlyst kl";
+$lang["cancelled_by"] = "Avlyst av";
 
 /* Version 2.3 */
 
-$lang["test_push_notification"] = "Test push notification";
-$lang["notification_test_push_notification"] = "It's a demo push notification";
-$lang["push_notification_error_message"] = "Error! Can't connect with the Pusher using the credentials.";
-$lang["clone_estimate"] = "Clone Estimate";
+$lang["test_push_notification"] = "Test push-varsel";
+$lang["notification_test_push_notification"] = "Det er en demo-push-varsling";
+$lang["push_notification_error_message"] = "Feil! Kan ikke koble til Pusher ved hjelp av legitimasjonen.";
+$lang["clone_estimate"] = "Klonestimat";
 
-$lang["import_clients"] = "Import clients";
-$lang["download_sample_file"] = "Download sample file";
+$lang["import_clients"] = "Importer klienter";
+$lang["download_sample_file"] = "Last ned prøvefil";
 
-$lang["estimate_settings"] = "Estimate Settings";
-$lang["estimate_logo"] = "Estimate Logo";
-$lang["estimate_color"] = "Estimate Color";
-$lang["initial_number_of_the_estimate"] = "Initial number of the estimate";
-$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger then last estimate ID.";
+$lang["estimate_settings"] = "Anslå innstillinger";
+$lang["estimate_logo"] = "Anslå Logo";
+$lang["estimate_color"] = "Anslå farge";
+$lang["initial_number_of_the_estimate"] = "Initial antall anslaget";
+$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "Anslags-ID-en må være større enn siste estimat-ID.";
 
-$lang["send_to_client"] = "Send to client";
-$lang["estimate_sent_message"] = "The estimate has been sent!";
-$lang["send_estimate_bcc_to"] = "When sending estimate to client, send BCC to";
+$lang["send_to_client"] = "Send til klient";
+$lang["estimate_sent_message"] = "Anslaget er sendt!";
+$lang["send_estimate_bcc_to"] = "Når du sender estimat til klienten, sender du BCC til";
         
-$lang["task_settings"] = "Task settings";
-$lang["enable_recurring_option_for_tasks"] = "Enable recurring option for tasks";
-$lang["past_recurring_date_error_message_title_for_tasks"] = "The selected start date and repeat type returns a past date.";
-$lang["recurring_task_created_via_cron_job"] = "Recurring task created via Cron Job";
-$lang["notification_recurring_task_created_via_cron_job"] = "New task created";
-$lang["repeat_type"] = "Repeat type";
+$lang["task_settings"] = "Oppgaveinnstillinger";
+$lang["enable_recurring_option_for_tasks"] = "Aktiver tilbakevendende alternativ for oppgaver";
+$lang["past_recurring_date_error_message_title_for_tasks"] = "Den valgte startdatoen og gjentattypen returnerer en tidligere dato.";
+$lang["recurring_task_created_via_cron_job"] = "Gjentakende oppgave opprettet via Cron Job";
+$lang["notification_recurring_task_created_via_cron_job"] = "Ny oppgave opprettet";
+$lang["repeat_type"] = "gjentakelsestype";
 $lang["lead_status"] = "Lead status";
-$lang["add_lead_status"] = "Add lead status";
-$lang["edit_lead_status"] = "Edit lead status";
-$lang["delete_lead_status"] = "Delete lead status";
-$lang["owner"] = "Owner";
-$lang["make_client"] = "Make client";
-$lang["client_contacts"] = "Client contacts";
-$lang["lead_contacts"] = "Lead contacts";
-$lang["add_a_lead"] = "Add a lead";
-$lang["source"] = "Source";
-$lang["lead_source"] = "Lead source";
-$lang["add_lead_source"] = "Add lead source";
-$lang["edit_lead_source"] = "Edit lead source";
-$lang["delete_lead_source"] = "Delete lead source";
-$lang["custom_field_migration"] = "Custom field migration";
-$lang["merge_custom_fields"] = "Merge custom fields";
-$lang["do_not_merge"] = "Do not merge";
-$lang["merge_custom_fields_help_message"] = "If there is any similar custom fields exists for %s, this values will be added to those. Otherwise, this will create new custom fields for %s and add values to those.";
-$lang["lead_created"] = "Lead created";
-$lang["notification_lead_created"] = "Created a new lead.";
-$lang["client_created_from_lead"] = "Client created from lead";
-$lang["notification_client_created_from_lead"] = "Converted a lead to client.";
-$lang["project_deadline"] = "Project deadline";
-$lang["task_deadline"] = "Task deadline";
-$lang["event_type"] = "Event type";
-$lang["delete_estimate_form"] = "Delete estimate form";
-$lang["calendar_event_modified"] = "Calendar event modified";
-$lang["notification_calendar_event_modified"] = "Modified an event.";
+$lang["add_lead_status"] = "Legg bly status";
+$lang["edit_lead_status"] = "Rediger lead-status";
+$lang["delete_lead_status"] = "Slett leadstatus";
+$lang["owner"] = "Eieren";
+$lang["make_client"] = "Lag klient";
+$lang["client_contacts"] = "Kundekontakter";
+$lang["lead_contacts"] = "Led kontakter";
+$lang["add_a_lead"] = "Legg til en ledelse";
+$lang["source"] = "Kilde";
+$lang["lead_source"] = "Ledende kilde";
+$lang["add_lead_source"] = "Legg føre kilde";
+$lang["edit_lead_source"] = "Rediger føre kilde";
+$lang["delete_lead_source"] = "Slett føre kilde";
+$lang["custom_field_migration"] = "Egendefinert feltmigrering";
+$lang["merge_custom_fields"] = "Slå sammen egendefinerte felt";
+$lang["do_not_merge"] = "Ikke slå sammen";
+$lang["merge_custom_fields_help_message"] = "Hvis det finnes noen lignende tilpassede felt for %s, blir disse verdiene lagt til i disse. Ellers vil dette opprette nye tilpassede felt for %s og legge til verdier til disse.";
+$lang["lead_created"] = "Bly opprettet";
+$lang["notification_lead_created"] = "Skapte en ny lead.";
+$lang["client_created_from_lead"] = "Klient opprettet fra lead";
+$lang["notification_client_created_from_lead"] = "Omregnet en føre til klient.";
+$lang["project_deadline"] = "Prosjektfrist";
+$lang["task_deadline"] = "Oppgavefrist";
+$lang["event_type"] = "Arrangementstype";
+$lang["delete_estimate_form"] = "Slett anslagsskjema";
+$lang["calendar_event_modified"] = "Kalenderbegivenhet endret";
+$lang["notification_calendar_event_modified"] = "Endret en hendelse.";
 
-$lang["there_has_leads_with_this_status"] = "There has leads with this status";
-$lang["lead_created_at"] = "Lead created at";
-$lang["past_lead_information"] = "Past lead information";
-$lang["last_status"] = "Last status";
-$lang["migrated_to_client_at"] = "Migrated to client at";
-$lang["edit_estimate_form"] = "Edit estimate form";
+$lang["there_has_leads_with_this_status"] = "Det har kundeemner med denne statusen";
+$lang["lead_created_at"] = "Bly opprettet kl";
+$lang["past_lead_information"] = "Past bly informasjon";
+$lang["last_status"] = "Siste status";
+$lang["migrated_to_client_at"] = "Migrerte til klient kl";
+$lang["edit_estimate_form"] = "Rediger estimatskjema";
 
-$lang["please_upload_a_excel_file"] = "Please upload a excel file.";
-$lang["back"] = "Back";
+$lang["please_upload_a_excel_file"] = "Last opp en Excel-fil.";
+$lang["back"] = "Tilbake";
 
-$lang["import_client_error_header"] = "There has an invalid header. The indicated field should be <b>%s</b>.";
-$lang["import_client_error_company_name_field_required"] = "Company name field is required.";
-$lang["import_client_error_contact_name"] = "Contact first name and last is both required to add a client contact.";
-$lang["import_client_error_contact_email"] = "Contact email is required and should be unique to add a client contact.";
-$lang["error"] = "Error";
-$lang["contact_first_name"] = "Contact first name";
-$lang["contact_last_name"] = "Contact last name";
-$lang["contact_email"] = "Contact email";
+$lang["import_client_error_header"] = "Det har en ugyldig overskrift. Det angitte feltet skal være <b>%s</b>.";
+$lang["import_client_error_company_name_field_required"] = "Firmanavn feltet er påkrevd.";
+$lang["import_client_error_contact_name"] = "Kontakt fornavn og etternavn er begge nødvendige for å legge til en klientkontakt.";
+$lang["import_client_error_contact_email"] = "Kontakt-e-post er påkrevd og bør være unik for å legge til en klientkontakt.";
+$lang["error"] = "Feil";
+$lang["contact_first_name"] = "Kontakt fornavn";
+$lang["contact_last_name"] = "Kontakt etternavn";
+$lang["contact_email"] = "Kontakt Epost";
 
-$lang["clone_invoice"] = "Clone Invoice";
-$lang["copy_items"] = "Copy items";
-$lang["copy_discount"] = "Copy discount";
+$lang["clone_invoice"] = "Klone faktura";
+$lang["copy_items"] = "Kopier elementer";
+$lang["copy_discount"] = "Kopirabatt";
 
-$lang["clone_task"] = "Clone task";
-$lang["copy_checklist"] = "Copy checklist";
+$lang["clone_task"] = "Kloneoppgave";
+$lang["copy_checklist"] = "Kopier sjekkliste";
 
-$lang["auto_assign_estimate_request_to"] = "Auto assign estimate request to";
+$lang["auto_assign_estimate_request_to"] = "Automatisk tilordne estimatforespørsel til";
 
-$lang["email_template_variable"] = "Email template variable";
+$lang["email_template_variable"] = "E-postmalvariabel";
 $lang["example_variable_name"] = "Example_variable_name";
 
-$lang["imap_extension_error_help_message"] = "You don't have IMAP extension in your server. Please install the extension for this action.";
+$lang["imap_extension_error_help_message"] = "Du har ikke IMAP-utvidelse på serveren din. Installer utvidelsen for denne handlingen.";
 
-$lang["initial_number_of_the_invoice"] = "Initial number of the invoice";
-$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger then last invoice ID.";
+$lang["initial_number_of_the_invoice"] = "Første faktura nummer";
+$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "Faktura-ID-en må være større enn den siste faktura-ID-en.";
 
-$lang["client_dashboard_help_message"] = "This will be the default dashboard for all clients. Please note that, the information you're seeing here in the widgets, isn't any actual infromation of clients.";
+$lang["client_dashboard_help_message"] = "Dette vil være standard dashbord for alle klienter. Vær oppmerksom på at informasjonen du ser her i widgetene, ikke er noen faktisk informasjon fra klienter.";
 
-$lang["send_to_lead"] = "Send to lead";
-$lang["lead"] = "Lead";
-$lang["leads"] = "Leads";
-$lang["add_lead"] = "Add lead";
-$lang["edit_lead"] = "Edit lead";
-$lang["delete_lead"] = "Delete lead";
-$lang["lead_details"] = "Lead details";
-$lang["can_access_leads_information"] = "Can access lead's information?";
+$lang["send_to_lead"] = "Send for å lede";
+$lang["lead"] = "Lede";
+$lang["leads"] = "fører";
+$lang["add_lead"] = "Legg til bly";
+$lang["edit_lead"] = "Rediger kundeemne";
+$lang["delete_lead"] = "Slett bly";
+$lang["lead_details"] = "Lead detaljer";
+$lang["can_access_leads_information"] = "Kan få tilgang til bly informasjon?";
 $lang["lead_info"] = "Lead info";
 
-$lang["send_task_reminder_on_the_day_of_deadline"] = "Send task reminder on the day of deadline";
-$lang["send_task_deadline_pre_reminder"] = "Send task deadline pre reminder";
-$lang["send_task_deadline_overdue_reminder"] = "Send task deadline overdue reminder";
+$lang["send_task_reminder_on_the_day_of_deadline"] = "Send oppgavepåminnelse på fristen";
+$lang["send_task_deadline_pre_reminder"] = "Send oppgave fristen pre påminnelse";
+$lang["send_task_deadline_overdue_reminder"] = "Send påminnelse om forsinket oppgavefrist";
 
-$lang["project_task_deadline_reminder"] = "Project task deadline reminder";
+$lang["project_task_deadline_reminder"] = "Frist påminnelse om prosjektoppgave";
 
-$lang["project_task_deadline_pre_reminder"] = "Project task deadline pre reminder";
-$lang["project_task_deadline_overdue_reminder"] = "Project task deadline overdue reminder";
-$lang["project_task_reminder_on_the_day_of_deadline"] = "Project task reminder on the day of deadline";
+$lang["project_task_deadline_pre_reminder"] = "Prosjektoppgave fristen pre påminnelse";
+$lang["project_task_deadline_overdue_reminder"] = "Prosjektoppgave fristen forsinket påminnelse";
+$lang["project_task_reminder_on_the_day_of_deadline"] = "Prosjektoppgavepåminnelse på fristen";
 
-$lang["notification_project_task_deadline_pre_reminder"] = "Reminder: Some tasks needs to be finished soon.";
-$lang["notification_project_task_deadline_overdue_reminder"] = "Reminder: Task's deadline overdue.";
-$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Reminder: Some tasks needs to be finished today.";
+$lang["notification_project_task_deadline_pre_reminder"] = "Påminnelse: Noen oppgaver må være ferdig snart.";
+$lang["notification_project_task_deadline_overdue_reminder"] = "Påminnelse: Taskens tidsfrist er forfalt.";
+$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Påminnelse: Noen oppgaver må være ferdig i dag.";
 
-$lang["mark_as_public"] = "Mark as public";
-$lang["note_details"] = "Note details";
-$lang["public_note_by"] = "Public note by";
-$lang["marked_as_public"] = "Marked as public";
+$lang["mark_as_public"] = "Merk som offentlig";
+$lang["note_details"] = "Merk detaljer";
+$lang["public_note_by"] = "Offentlig varsel fra";
+$lang["marked_as_public"] = "Merket som offentlig";
 
-$lang["client_can_view_activity"] = "Client can view project activity";
+$lang["client_can_view_activity"] = "Kunden kan se prosjektaktivitet";
 
-$lang["event_settings"] = "Event settings";
-$lang["enable_google_calendar_api"] = "Enable Google calendar API";
-$lang["google_calendar_settings"] = "Google calendar settings";
+$lang["event_settings"] = "Hendelsesinnstillinger";
+$lang["enable_google_calendar_api"] = "Aktiver Google Calendar API";
+$lang["google_calendar_settings"] = "Google kalenderinnstillinger";
 
-$lang["your_calendar_ids"] = "Your Calendar IDs";
-$lang["calendar_id"] = "Calendar ID";
-$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Now every user can integrate with their Google calendar.";
-$lang["calendar_ids_help_message"] = "You'll get your own calendar events always. This is for other special calendars (Like Holidays Calendar).";
+$lang["your_calendar_ids"] = "Kalender-ID-ene dine";
+$lang["calendar_id"] = "Kalender-ID";
+$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Nå kan hver bruker integrere med Google-kalenderen sin.";
+$lang["calendar_ids_help_message"] = "Du får alltid dine egne kalenderbegivenheter. Dette gjelder andre spesielle kalendere (som helligdagskalenderen).";
 
-$lang["google_client_id"] = "Client ID";
-$lang["google_client_secret"] = "Client secret";
-$lang["integrate_with_google_calendar"] = "Integrate with Google calendar";
-$lang["google_calendar_event"] = "Google Calendar event";
+$lang["google_client_id"] = "klient-ID";
+$lang["google_client_secret"] = "Klienthemmelighet";
+$lang["integrate_with_google_calendar"] = "Integrer med Google-kalenderen";
+$lang["google_calendar_event"] = "Google Kalender-begivenhet";
 
-$lang["mark_as_public_help_message"] = "You can't make this note as private again.";
+$lang["mark_as_public_help_message"] = "Du kan ikke gjøre dette notatet som privat igjen.";
 
-$lang["google_calendar_help_message"] = "You'll get your Google Calendar events by the run of Cron job. And any add/modification of your local events will effect your Google calendar instantly.";
+$lang["google_calendar_help_message"] = "Du får Google Kalender-hendelsene dine etter Cron-jobben. Og enhver tilføyelse/endring av lokale begivenheter vil påvirke Google-kalenderen din umiddelbart.";
+
+/* Version 2.4 */
+
+$lang["footer"] = "Bunntekst";
+$lang["footer_description_message"] = "Denne bunnteksten vil være synlig på alle offentlige sider.";
+$lang["estimate_footer"] = "estimat bunntekst";
+$lang["enable_footer"] = "Aktiver bunntekst";
+$lang["footer_menus"] = "Bunntekstmenyer";
+$lang["footer_copyright_text"] = "Copyright tekst";
+$lang["edit_footer_menu"] = "Rediger bunntekstmenyen";
+
+$lang["menu_name"] = "Menynavn";
+$lang["task_point_range"] = "Oppgavepunktsområde";
+
+$lang["gdpr"] = "GDPR";
+$lang["enable_gdpr"] = "Aktiver GDPR";
+$lang["allow_clients_to_export_their_data"] = "Tillat klienter å eksportere dataene sine";
+$lang["export_my_data"] = "Eksporter dataene mine";
+
+$lang["clients_can_request_account_removal"] = "Kunder kan be om fjerning av konto";
+$lang["i_want_to_remove_my_account"] = "Jeg vil fjerne kontoen min";
+$lang["client_contact_requested_account_removal"] = "Kundekontakt ba om fjerning av konto";
+$lang["notification_client_contact_requested_account_removal"] = "Ønsket fjerning av konto.";
+$lang["show_terms_and_conditions_in_client_signup_page"] = "Vis vilkår og betingelser på siden for klientregistrering";
+$lang["i_accept_the_terms_and_conditions"] = "Jeg godtar";
+
+$lang["apply"] = "Søke om";
+$lang["applied"] = "Tatt i bruk";
+$lang["export"] = "Eksport";
+
+$lang["pages"] = "Sider";
+$lang["add_page"] = "Legg til side";
+$lang["delete_page"] = "Slett siden";
+$lang["page_url_cant_duplicate"] = "Side-URL kan ikke dupliseres.";
+
+$lang["sub_tasks"] = "Underoppgaver";
+$lang["sub_task"] = "Underoppgave";
+$lang["create_a_sub_task"] = "Lag en underoppgave";
+$lang["create"] = "Skape";
+$lang["parent_task"] = "Parent oppgave";
+
+$lang["this_task_blocked_by"] = "Denne oppgaven blokkert av";
+$lang["this_task_blocking"] = "Denne oppgaven blokkerer";
+$lang["add_dependency"] = "Legg til avhengighet";
+$lang["blocked_by"] = "Blokkert av";
+$lang["blocking"] = "Blokkering";
+$lang["blocked"] = "Blokkert";
+$lang["dependency"] = "Avhengighet";
+
+$lang["estimate_request_settings"] = "Estimat forespørsel innstillinger";
+$lang["hidden_client_fields_on_public_estimate_requests"] = "Skjul felt fra forespørselsskjemaer for offentlige estimater";
+$lang["hidden_client_fields"] = "Skjulte klientfelt";
+
+$lang["account"] = "Konto";
+$lang["common"] = "Vanlig";
+
+$lang["tax_deducted_at_source"] = "TDS";
+$lang["auto_close_ticket_after"] = "Auto lukk billett etter"; //after x days
+$lang["disable_user_invitation_option_by_clients"] = "Deaktiver brukerinvitasjonsalternativet av klienter";
+$lang["create_tickets_only_by_registered_emails"] = "Opprett billetter bare via registrerte e-poster";
+$lang["icon"] = "Ikon";
+$lang["help_articles"] = "Hjelpeartikler";
+$lang["help_categories"] = "Hjelpekategorier";
+$lang["knowledge_base_articles"] = "KB-artikler";
+$lang["knowledge_base_categories"] = "KB-kategorier";
+
+$lang["rtl"] = "RTL";
+
+$lang["disable_editing_by_clients"] = "Deaktiver redigering av klienter";
+
+$lang["client_left_menu"] = "Venstre meny";
+$lang["left_menu_for_client"] = "Venstre meny for klienten";
+$lang["left_menu_setting_help_message_for_client"] = "Dette vil være standardmenyen til venstre for klienter. Vær oppmerksom på at menyelementene blir distribuert i henhold til klientkontaktens tillatelser.";
+$lang["available_menu_items"] = "Tilgjengelige menyelementer";
+$lang["drag_and_drop_items_here"] = "Dra og slipp elementene hit";
+$lang["no_more_items_available"] = "Ingen flere tilgjengelige ting";
+$lang["left_menu_preview_message"] = "Trykk på lagre-knappen for å se forhåndsvisning.";
+$lang["left_menu_setting_help_message"] = "Dette vil være standardmenyen til venstre for teammedlemmer. Vær oppmerksom på at menyelementene blir distribuert i henhold til brukerens tillatelse.";
+
+$lang["draft_invoices"] = "Utkast til fakturaer";
+$lang["draft_invoices_total"] = "Utkast til fakturaer totalt";
+$lang["draft_invoices_value"] = "Utkast til fakturaverdi";
+
+$lang["gdpr_terms_and_conditions_link"] = "Vilkår og betingelser URL";
+$lang["gdpr_terms_and_conditions"] = "Vilkår og betingelser";
+$lang["removal_request_pending"] = "Forespørsel om fjerning venter";
+
+$lang["client_access_files_help_message"] = "Filene som ligger i klientdetaljvisningen i kategorien Filer.";
+$lang["estimate_request_name_email_error_message"] = "E-post kan ikke vises uten fornavn og etternavn.";
+
+$lang["slug"] = "Slug";
+$lang["add_assignee"] = "Legge til tilordnet";
+
+$lang["client_can_pay_invoice_without_login"] = "Kunden kan betale fakturaer uten innlogging";
+$lang["client_can_pay_invoice_without_login_help_message"] = "Legg til PUBLIC_PAY_INVOICE_URL i malen om varsel om faktura.";
+
+$lang["link_to_existing_client"] = "Link til eksisterende klient";
+$lang["link_to_new_client"] = "Link til ny klient";
+
+$lang["client_can_view_files"] = "Klienten kan se filer?";
+$lang["client_can_add_files"] = "Klienten kan legge til filer?";
+$lang["client_can_view_activity"] = "Kunden kan se prosjektaktivitet?";
+$lang["client_can_edit_projects"] = "Kunden kan redigere prosjekter?";
+
+$lang["view_pdf"] = "Vis PDF";
+
+$lang["add_new_task"] = "Legg til en ny oppgave";
+$lang["disable_keyboard_shortcuts"] = "Deaktiver hurtigtaster";
+$lang["keyboard_shortcuts_info"] = "Tastatursnarveier info";
+$lang["edit_shortcuts"] = "Rediger snarveier";
+
+$lang["pending_leave_approval"] = "Venter på godkjenning av permisjon";
+$lang["add_attachment"] = "Legg til vedlegg";
+
+$lang["hidden_topbar_menus"] = "Skjulte menyer i topplinjen";
+
+$lang["make_previous_items_sub_menu"] = "Lag/fjern undermeny for forrige element";
+$lang["add_menu_item"] = "Legg til menyelement";
+$lang["url"] = "URL";
+
+$lang["show_theme_color_changer"] = "Vis fargeskifter for tema";
+$lang["default_theme_color"] = "Default temafarge";
+$lang["left_menu"] = "Venstre meny";
+$lang["client_assigned_contacts"] = "Tilordnede klientkontakter";
+$lang["timesheet_settings"] = "Innstillinger for timeseddel";
+$lang["users_can_start_multiple_timers_at_a_time"] = "Brukere kan starte flere tidtakere om gangen";
+
+$lang["delete_expenses_category"] = "Slett utgiftskategori";
+
+/* Version 2.5 */
+
+$lang["code_reference"] = "Kodehenvisning";
+
+$lang["commit_url"] = "forplikte url";
+$lang["new_commits"] = "Nye forplikter";
+$lang["new_commit"] = "Ny forpliktelse";
+$lang["pushed_by"] = "Pushed by";
+$lang["committed_by"] = "Forpliktet av";
+$lang["add_webhook_in_your_repository_at"] = "Legg til webhook i depotet ditt: ";
+$lang["webhook_listener_link"] = "Webhook lyttekobling";
+$lang["enable_bitbucket_commit_logs_in_tasks"] = "Aktiver bitbucket-forpliktelseslogger i oppgaver";
+$lang["bitbucket_info_text"] = "For å koble forpliktelsene med oppgaver, bør det være en # og oppgave-ID på slutten av hver forpliktende melding. Eks: Dette er en forpliktelse for oppgave nr #10.";
+
+$lang["bitbucket_push_received"] = "Bitbucket-varsel mottatt";
+$lang["notification_bitbucket_push_received"] = "Bitbucket-varsel mottatt.";
+
+$lang["hour_log_time_error_message"] = "Vennligst skriv inn time (r) i riktig format.";
+$lang["set_message_permissions"] = "Angi tillatelser for meldinger";
+$lang["cant_send_any_messages"] = "Kan ikke sende noen meldinger";
+$lang["can_send_messages_to_specific_members_or_teams"] = "Kan sende meldinger til bestemte medlemmer eller team:";
+
+$lang["embed"] = "Bygg inn";
+$lang["copy"] = "Copy";
+
+$lang["estimate_prefix"] = "Anslå prefiks";
+
+$lang["likes"] = "Liker";
+
+$lang["pusher"] = "Pusher";
+$lang["enable_chat_via_pusher"] = "Aktiver chat via pusher";
+
+$lang["tasks_list"] = "oppgaver List";
+$lang["tasks_kanban"] = "Oppgaver Kanban";
+$lang["set_project_tab_order"] = "Angi rekkefølge for prosjektfanen";
+$lang["project_tab_order"] = "Prosjektfaneordre";
+$lang["project_tab_order_help_message"] = "Vær oppmerksom på det, vil dette faner vises som per brukerens tillatelser.";
+$lang["project_tab_order_help_message_of_client"] = "Vær oppmerksom på det, vil dette faner vises som per klient kontakt tillatelser.";
+$lang["client_projects"] = "Prosjekter";
+
+$lang["ticket_assigned"] = "Billett tildelt";
+$lang["notification_ticket_assigned"] = "Tildelt en billett til %s";
+
+$lang["disable_access_favorite_project_option_for_clients"] = "Deaktiver tilgangs favorittprosjektalternativ for klienter";
+$lang["disable_editing_left_menu_by_clients"] = "Deaktiver redigering av venstre meny av klienter";
+$lang["disable_topbar_menu_customization"] = "Deaktiver tilpassing av topplinjemenyen";
+$lang["disable_dashboard_customization_by_clients"] = "Deaktiver tilpasning av dashbord av klienter";
+
+$lang["task_start_date"] = "Oppgavens startdato";
+$lang["project_start_date"] = "Prosjektets startdato";
+$lang["show_on_kanban_card"] = "Vis på kanban-kort";
+
+$lang["original_expense"] = "Opprinnelig utgift";
+$lang["expense_details"] = "Utgiftsdetaljer";
+
+$lang["read_only"] = "Skrivebeskyttet";
+
+$lang["internal_use_only"] = "Kun for internt bruk";
+$lang["visible_to_team_members_only"] = "Kun synlig for teammedlemmer";
+$lang["visible_to_clients_only"] = "Kun synlig for kunder";
+
+$lang["open_in_new_tab"] = "Åpne i ny fane";
+
+$lang["client_can_delete_own_files_in_project"] = "Kunden kan slette egne filer i prosjektet";
+
+$lang["enable_slack"] = "Aktiver Slack";
+$lang["get_the_webhook_url_of_your_app_from_here"] = "Få Webhook URL til appen din herfra:";
+$lang["slack_webhook_url"] = "Webhook URL";
+$lang["send_a_test_message"] = "Send en testmelding";
+$lang["notification_test_slack_notification"] = "Dette er en demomelding.";
+$lang["slack_notification_error_message"] = "Feil! Kan ikke koble til Slack ved hjelp av legitimasjonen.";
+$lang["dont_send_any_project_related_notifications_to_this_channel"] = "Ikke send noen prosjektrelaterte varsler til denne kanalen";
+$lang["save_and_send_a_test_message"] = "Lagre og send en testmelding";
+
+$lang["copy_sub_tasks"] = "Kopier underoppgaver";
+
+$lang["can_update_only_assigned_tasks_status"] = "Kan bare oppdatere tilordnede oppgavestatus";
+
+$lang["import_leads"] = "Importer leads";
+$lang["import_lead_error_contact_name"] = "Kontakt fornavn og etternavn er begge nødvendige for å legge til en ledende kontakt.";
+
+$lang["deadline_must_be_equal_or_greater_than_start_date"] = "Fristen må være lik eller større enn startdatoen.";
+
+$lang["enable_github_commit_logs_in_tasks"] = "Aktiver github-forpliktelseslogger i oppgaver";
+$lang["github_push_received"] = "GitHub-varsel mottatt";
+$lang["notification_github_push_received"] = "GitHub-varsel mottatt.";
+
+$lang["invalid_calendar_id_error_message"] = "Denne kalender-ID-en er ikke gyldig, eller du har ikke tillatelse til å få tilgang til denne kalenderen";
+$lang["total_clients"] = "Totalt antall kunder";
+$lang["total_contacts"] = "Totalt antall kontakter";
+
+$lang["message_sending_error_message"] = "Denne brukeren har ikke tillatelse til å sende meldinger til deg. Derfor kan du heller ikke sende melding!";
+
+$lang["days_view"] = "Dagsvisning";
+$lang["weeks_view"] = "Ukesvisning";
+$lang["months_view"] = "Måneders visning";
+
+$lang["move_all_tasks_to_to_do"] = "Flytt alle oppgavene til, å gjøre";
+
+$lang["started"] = "Startet";
+
+$lang["weekends"] = "Helger";
+
+$lang["invited_client_contact_signed_up"] = "Invitert klientkontakt registrert";
+$lang["notification_invited_client_contact_signed_up"] = "Invitert klientkontakt registrert.";
+
+$lang["ticket_templates"] = "Billettmaler";
+$lang["ticket_template"] = "Billett mal";
+$lang["tickets_list"] = "Billettliste";
+$lang["add_template"] = "Legg til mal";
+$lang["edit_template"] = "Rediger mal";
+$lang["insert_template"] = "Sett inn mal";
+$lang["private_template"] = "Privat mal";
+
+$lang["requested_by"] = "Forespurt av";
+
+$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "Opprett nye prosjekter automatisk når estimater blir akseptert";
+
+$lang["typing"] = "Skrive";
+
+$lang["new_client_greetings"] = "Nye klienthilsener";
+
+$lang["timeline_post_commented"] = "Tidslinjepost kommentert";
+$lang["post_creator"] = "Innleggskaperen";
+$lang["notification_timeline_post_commented"] = "Kommenterte et innlegg.";
+$lang["created_a_new_post"] = "Opprettet et nytt innlegg";
+$lang["notification_created_a_new_post"] = "Opprettet et nytt innlegg.";
+
+$lang["verify_email_before_client_signup"] = "Bekreft e-post før klientregistrering";
+$lang["input_your_email"] = "Skriv inn e-postmeldingen din";
+$lang["verify_email"] = "E-postbekreftelse av klient";
+$lang["please_continue_your_signup_process"] = "Fortsett påmeldingsprosessen.";
+$lang["get_started"] = "Kom i gang";
+
+$lang["manage_labels"] = "Administrer etiketter";
+
+$lang["timesheet"] = "Timeliste";
+$lang["users_can_input_only_total_hours_instead_of_period"] = "Brukere kan bare legge inn totalt antall timer i stedet for periode";
+$lang["timesheet_hour_input_help_message"] = "Eks: 1t 20m";
+
+$lang["template"] = "Mal";
+$lang["template_details"] = "Maldetaljer";
+
+$lang["label_existing_error_message"] = "Denne etiketten er allerede i bruk. Det kan ikke slettes.";
+
+/* Version 2.6 */
+
+$lang["paytm_checksum_hash_error_message"] = "Kunne ikke generere Checksum Hash med legitimasjonen din.";
+
+$lang["testing_environment"] = "Testing miljø";
+
+$lang["auto_reply_to_tickets"] = "Autosvar på billetter";
+
+$lang["total_time_logged"] = "Total tid logget";
+$lang["total_duration"] = "Total varighet";
+
+$lang["please_upload_valid_image_files"] = "Last opp gyldige bildefiler.";
+$lang["upload_image"] = "Last opp bilde";
+$lang["item_details"] = "Varedetaljer";
+$lang["item_image_sorting_help_message"] = "Første bilde vil være standardbildet.";
+$lang["show_in_client_portal"] = "Vis i klientportalen";
+$lang["showing_in_client_portal"] = "Viser i klientportalen";
+$lang["add_to_cart"] = "Legg i handlekurv";
+$lang["item_empty_message"] = "Ingen gjenstander funnet!";
+
+$lang["order"] = "Rekkefølge";
+$lang["orders"] = "Bestillinger";
+$lang["no_items_text"] = "Du har ingen varer i handlekurven!";
+$lang["process_order"] = "Behandle bestilling";
+$lang["place_order"] = "Legg inn bestilling";
+$lang["edit_item"] = "Rediger elementet";
+$lang["store"] = "butikk";
+$lang["client_can_access_store"] = "Kunden kan få tilgang til butikken?";
+$lang["added_to_cart"] = "Lagt til i handlekurven";
+$lang["can_access_orders"] = "Kan få tilgang bestillinger?";
+
+$lang["order_settings"] = "Bestill innstillinger";
+$lang["order_logo"] = "Bestill logo";
+$lang["order_prefix"] = "Bestill prefiks";
+$lang["order_color"] = "Bestill farge";
+$lang["initial_number_of_the_order"] = "Første nummer på bestillingen";
+$lang["the_orders_id_must_be_larger_then_last_order_id"] = "Bestillings-ID-en må være større enn den siste ordre-ID-en.";
+$lang["order_footer"] = "Bestill bunntekst";
+
+$lang["order_status"] = "Ordre status";
+$lang["edit_order_status"] = "Rediger ordrestatus";
+$lang["add_order_status"] = "Legg til ordrestatus";
+$lang["delete_order_status"] = "Slett ordrestatus";
+$lang["there_has_orders_with_this_status"] = "Det har bestillinger med denne statusen";
+$lang["orders_list"] = "Bestillingsliste";
+$lang["sales"] = "Salg";
+$lang["order_date"] = "Bestillingsdato";
+$lang["edit_order"] = "Rediger ordren";
+$lang["delete_order"] = "Slett ordren";
+$lang["show_in_order"] = "Vis i rekkefølge";
+$lang["order_preview"] = "Bestill forhåndsvisning";
+$lang["order_from"] = "Bestilling fra";
+$lang["add_order"] = "Legg til ordre";
+
+$lang["process_order_info_message"] = "Du er i ferd med å opprette bestillingen. Vennligst sjekk detaljene før du sender inn.";
+
+$lang["order_creator_contact"] = "Bestill skaperkontakt";
+
+$lang["create_estimate"] = "Lag estimat";
+$lang["include_all_items_of_this_order"] = "Inkluder alle elementene i denne bestillingen";
+
+$lang["new_order_received"] = "Ny ordre mottatt";
+$lang["notification_new_order_received"] = "Ny ordre mottatt.";
+
+$lang["order_status_updated"] = "Bestillingsstatus oppdatert";
+$lang["notification_order_status_updated"] = "Bestillingsstatus er oppdatert.";
+
+$lang["add_more_items"] = "Legg til flere elementer";
+
+$lang["yes_only_own_leads"] = "Ja, bare eier leads";
+$lang["yes_all_leads"] = "Ja, alle leads";
+
+$lang["yes_only_own_clients"] = "Ja, bare egne kunder";
+$lang["yes_all_clients"] = "Ja, alle klienter";
+
+$lang["recently_updated"] = "Nylig oppdatert";
+$lang["recently_moved_to"] = "Nylig flyttet til";
+
+$lang["recently_commented"] = "Nylig kommentert";
+$lang["mentioned_me"] = "Nevnte meg";
+$lang["recently_mentioned_me"] = "Nylig nevnt meg";
+$lang["in"] = "I";
+$lang["recently_meaning"] = "Nylig mener";
+
+$lang["quick_filters"] = "Raske filtre";
+
+$lang["has_open_projects"] = "Har åpne prosjekter";
+$lang["has_completed_projects"] = "Har gjennomført prosjekter";
+$lang["has_any_hold_projects"] = "Har noen hold prosjekter";
+
+$lang["has_unpaid_invoices"] = "Har ubetalte fakturaer";
+$lang["has_overdue_invoices"] = "Har forfalte fakturaer";
+$lang["has_partially_paid_invoices"] = "Har delvis betalte fakturaer";
+$lang["assignee"] = "Acquire";
+
+$lang["upload_and_crop"] = "Last opp og beskjær";
+
+$lang["active_members_on_projects"] = "Aktive medlemmer på prosjekter";
+
+/* Version 2.6.1 */
+
+$lang["open_tickets_list"] = "Åpne billettliste";
+
+$lang["login_attempt_failed"] = "Innloggingsforsøket mislyktes";
+$lang["profile_image_error_message"] = "Bildet skal være 200x200px.";
+
+$lang["re_captcha_info_text"] = "Før du logger ut, må du åpne et nytt nettleser og sørg for at reCAPTCHA fungerer.";
+$lang["yes_assigned_tickets_only"] = "bare Ja, tildelt billetter";
+$lang["no_such_custom_field_found"] = "Ingen slike egendefinerte felt funnet.";
+$lang["open_in_google_calendar"] = "Åpne i google kalender";
+
+$lang["enable_embedded_form_to_get_tickets"] = "Aktiver innebygd skjema for å få billetter";
+$lang["submit_your_request"] = "Send inn forespørselen din";
+$lang["submit"] = "Sende inn";
+$lang["ticket_submission_message"] = "Billetten din er sendt!";
+$lang["your_email"] = "Din epost";
+$lang["your_name"] = "Navnet ditt";
+
+$lang["item_categories"] = "Varekategorier";
+$lang["edit_items_category"] = "Rediger elementkategori";
+$lang["delete_items_category"] = "Slett elementkategori";
+
+$lang["create_recurring_tasks_before"] = "Lag tilbakevendende oppgaver før";
+$lang["create_new_order"] = "Create new order";
+$lang["find_more_items"] = "Find more items";
+
+/* Version 2.8 */
+
+$lang["reports"] = "Reports";
+
+$lang["yes_all_estimates"] = "Yes, all estimates";
+$lang["yes_only_own_estimates"] = "Yes, only own estimates";
+
+$lang["add_category"] = "Add category";
+$lang["edit_category"] = "Edit category";
+$lang["delete_category"] = "Delete category";
+
+$lang["proposal"] = "Proposal";
+$lang["proposals"] = "Proposals";
+$lang["can_access_proposals"] = "Can access proposals?";
+$lang["show_in_proposal"] = "Show in proposal";
+$lang["proposal_date"] = "Proposal date";
+$lang["edit_proposal"] = "Edit proposal";
+$lang["delete_proposal"] = "Delete proposal";
+$lang["proposal_sent_message"] = "The proposal has been sent!";
+$lang["add_proposal"] = "Add proposal";
+$lang["proposal_preview"] = "Proposal preview";
+$lang["clone_proposal"] = "Clone proposal";
+$lang["proposal_to"] = "Proposal to";
+$lang["proposal_settings"] = "Proposal settings";
+$lang["proposal_prefix"] = "Proposal prefix";
+$lang["proposal_color"] = "Proposal color";
+$lang["send_proposal_bcc_to"] = "When sending proposal to client, send BCC to";
+$lang["initial_number_of_the_proposal"] = "Initial number of the proposal";
+$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger then last proposal ID.";
+$lang["proposal_sent"] = "Proposal sent";
+$lang["notification_proposal_sent"] = "Sent a proposal";
+$lang["proposal_accepted"] = "Proposal accepted";
+$lang["notification_proposal_accepted"] = "Accepted a proposal";
+$lang["proposal_rejected"] = "Proposal rejected";
+$lang["notification_proposal_rejected"] = "Rejected a proposal";
+$lang["create_estimate"] = "Create Estimate";
+$lang["include_all_items_of_this_proposal"] = "Include all items of this proposal";
+$lang["proposal_view"] = "Proposal view";
+$lang["accept_proposal"] = "Accept proposal";
+$lang["reject_proposal"] = "Reject proposal";
+$lang["proposal_accepted_message"] = "You've successfully accepted this proposal!";
+
+$lang["set_timeline_permissions"] = "Set timeline permissions";
+$lang["cant_see_the_timeline"] = "Can't see the Timeline";
+$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "Can see timeline posts from specific members or teams:";
+
+$lang["localization"] = "Localization";
+$lang["localization_settings"] = "Localization Settings";
+$lang["main_task"] = "Main task";
+
+$lang["select_all"] = "Select all";
+$lang["unselect_all"] = "Unselect all";
+
+$lang["plugins"] = "Plugins";
+$lang["install_plugin"] = "Install plugin";
+$lang["please_upload_a_zip_file"] = "Please upload a zip file.";
+$lang["install"] = "Install";
+$lang["installed"] = "Installed";
+$lang["activate"] = "Activate";
+$lang["activated"] = "Activated";
+$lang["deactivate"] = "Deactivate";
+$lang["deactivated"] = "Deactivated";
+$lang["the_required_files_missing"] = "The required files missing.";
+$lang["this_plugin_is_already_installed"] = "This plugin is already installed.";
+$lang["version"] = "Version";
+$lang["by"] = "By";
+$lang["visit_plugin_site"] = "Visit plugin site";
+
+$lang["can_manage_team_members_job_information"] = "Can manage team member's job information?";
+
+$lang["add_filter"] = "Add filter";
+$lang["specific_client_groups"] = "Specific client groups";
+$lang["choose_client_groups"] = "Choose client groups";
+
+$lang["checklist_template"] = "Checklist Template";
+$lang["add_checklist_template"] = "Add checklist template";
+$lang["edit_checklist_template"] = "Edit checklist template";
+$lang["delete_checklist_template"] = "Delete checklist template";
+$lang["select_from_template"] = "Selct from template";
+$lang["type_new_item"] = "Type new item";
+
+$lang["conversion_rate"] = "Conversion rate";
+
+$lang["all_tasks"] = "All tasks";
+$lang["user_roles"] = "User Roles";
+$lang["edit_user_role"] = "Edit user role";
+
+$lang["total_leads"] = "Total leads";
+
+$lang["copy_link"] = "Copy link";
+$lang["copy_comment_link"] = "Copy comment link";
+
+$lang["pin_comment"] = "Pin comment";
+$lang["unpin_comment"] = "Unpin comment";
+$lang["pinned_comments"] = "Pinned comments";
+
+$lang["reply_from_this_comment"] = "Reply from this comment <br />";
+
+$lang["project_files"] = "Project files";
+$lang["edit_files"] = "Edit files";
+
+$lang["invoice_manual_payment_added"] = "Invoice manual payment added";
+$lang["notification_invoice_manual_payment_added"] = "Added a manual payment.";
+
+$lang["save_as_note"] = "Save as note";
+$lang["client_will_not_see_any_notes"] = "Client will not see any notes.";
+
+$lang["prospects"] = "Prospects";
+$lang["estimate_forms"] = "Estimate Forms";
+
+$lang["proposal_editor"] = "Proposal Editor";
+$lang["proposal_templates"] = "Proposal templates";
+$lang["add_proposal_template"] = "Add proposal template";
+$lang["edit_proposal_template"] = "Edit proposal template";
+$lang["delete_proposal_template"] = "Delete proposal template";
+$lang["use_template_from"] = "Use template from";
+$lang["print_proposal"] = "Print proposal";
+$lang["proposal_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+
+$lang["default"] = "Default";
+
+$lang["encryption"] = "Encryption";
+$lang["imap_encryption_help_message"] = "Different server could work with different configuration. If you see any problem to connect with IMAP, please check with different options.";
+
+$lang["administration_permissions"] = "Administration permissions";
+$lang["can_manage_all_kinds_of_settings"] = "Can manage all kinds of settings";
+$lang["can_manage_user_role_and_permissions"] = "Can manage user role and permissions";
+$lang["can_add_or_invite_new_team_members"] = "Can add/invite new team members";
+
+$lang["add_signature_option_on_accepting_proposal"] = "Add signature option on accepting proposal";
+$lang["accept"] = "Accept";
+$lang["signer_info"] = "Signer info";
+$lang["default_template"] = "Default template";
+$lang["change_template"] = "Change template";
+$lang["this_variable_is_unsupported"] = "This variable is unsupported";
+
+$lang["plugin_deletion_alert_message"] = "All records and files also will be deleted!";
+$lang["plugin_requires_at_least_error_message"] = "This plugin requires at least %s version.";
+$lang["plugin_supports_at_most_error_message"] = "This plugin supports at most %s version.";
+$lang["no_update_hook_found"] = "No update hook found!";
+$lang["indexed"] = "Indexed";
+
+$lang["save_and_continue"] = "Save & continue";
+$lang["add_new_project_member"] = "Add new project member";
+
+$lang["field_type_time"] = "Time";
+$lang["client_can_assign_tasks"] = "Client can assign tasks?";
+$lang["can_create_lead_from_public_form"] = "Can create lead from public form";
+$lang["lead_html_form_code"] = "Lead creation HTML form code";
+
+$lang["enable_comments_on_estimates"] = "Enable comments on estimates";
+$lang["show_most_recent_estimate_comments_at_the_top"] = "Show most recent estimate comments at the top";
+$lang["estimate_commented"] = "Estimate commented";
+$lang["estimate_creator"] = "Estimate creator";
+$lang["notification_estimate_commented"] = "Commented on an estimate.";
+
+$lang["contacts_logged_in_today"] = "Contacts logged in today";
+$lang["contacts_logged_in_last_seven_days"] = "Contacts logged in last 7 days";
+
+$lang["clients_has_unpaid_invoices"] = "Clients has unpaid invoices";
+$lang["clients_has_partially_paid_invoices"] = "Clients has partially paid invoices";
+$lang["clients_has_overdue_invoices"] = "Clients has overdue invoices";
+
+$lang["of_total_clients"] = "of total clients";
+
+$lang["has_canceled_projects"] = "Has canceled projects";
+$lang["clients_has_open_projects"] = "Clients has open projects";
+$lang["clients_has_hold_projects"] = "Clients has hold projects";
+$lang["clients_has_completed_projects"] = "Clients has completed projects";
+$lang["clients_has_canceled_projects"] = "Clients has canceled projects";
+
+$lang["has_open_estimates"] = "Has open estimates";
+$lang["has_accepted_estimates"] = "Has accepted estimates";
+$lang["has_new_estimate_requests"] = "Has new estimate requests";
+$lang["has_estimate_requests_in_progress"] = "Has estimate requests in progress";
+$lang["clients_has_open_estimates"] = "Client has open estimates";
+$lang["clients_has_accepted_estimates"] = "Clients has accepted estimates";
+$lang["clients_has_new_estimate_requests"] = "Clients has new estimate requests";
+$lang["clients_has_estimate_requests_in_progress"] = "Clients has estimate requests in progress";
+
+$lang["has_open_tickets"] = "Has open tickets";
+$lang["clients_has_open_tickets"] = "Clients has open tickets";
+
+$lang["has_new_orders"] = "Has new orders";
+$lang["clients_has_new_orders"] = "Clients has new orders";
+
+$lang["has_open_proposals"] = "Has open proposals";
+$lang["has_accepted_proposals"] = "Has accepted proposals";
+$lang["has_rejected_proposals"] = "Has rejected proposals";
+$lang["clients_has_open_proposals"] = "Clients has open proposals";
+$lang["clients_has_accepted_proposals"] = "Clients has accepted proposals";
+$lang["clients_has_rejected_proposals"] = "Clients has rejected proposals";
+
+$lang["logged_in_today"] = "Logged in today";
+$lang["logged_in_last_seven_days"] = "Logged in last 7 days";
+
+$lang["hide_from_kanban_view"] = "Hide from kanban view";
+
+return $lang;
