@@ -438,7 +438,7 @@ $lang["done"] = "Terminé";
 $lang["task_info"] = "Détails de la tâche";
 $lang["points"] = "Points";
 $lang["point"] = "Point";
-$lang["task_status"] = "Status des différentes tâches";
+$lang["task_status"] = "Statut des différentes tâches";
 
 /* comments */
 $lang["comment"] = "Commentaire";
@@ -474,7 +474,7 @@ $lang["client_replied"] = "Le client a répondu";
 $lang["change_status"] = "Changer le statut";
 $lang["last_activity"] = "Dernière activité";
 $lang["open_tickets"] = "Tickets ouverts";
-$lang["ticket_status"] = "Status des tickets";
+$lang["ticket_status"] = "Statut des tickets";
 
 /* ticket types */
 
@@ -1041,9 +1041,9 @@ $lang["delete_client_group"] = "Supprimer le groupe";
 $lang["ticket_prefix"] = "Préfixe";
 $lang["add_a_task"] = "Ajouter une tâche...";
 
-$lang["add_task_status"] = "Ajouter un status";
-$lang["edit_task_status"] = "Modifier le status";
-$lang["delete_task_status"] = "Supprimer le status";
+$lang["add_task_status"] = "Ajouter un statut";
+$lang["edit_task_status"] = "Modifier le statut";
+$lang["delete_task_status"] = "Supprimer le statut";
 
 $lang["list"] = " - Liste";
 $lang["kanban"] = " - Kanban";
@@ -1205,7 +1205,7 @@ $lang["show_assigned_tasks_only"] = "Ne montrer que les tâches assignées";
 
 $lang["batch_update"] = "Mise à jour groupée";
 $lang["cancel_selection"] = "Annuler la sélection";
-$lang["select_status"] = "Selectionner le status";
+$lang["select_status"] = "Sélectionner le statut";
 
 $lang["add_multiple_tasks"] = "Ajouter plusieurs tâches";
 $lang["save_and_add_more"] = "Enregistrer et ajouter une tâche";
