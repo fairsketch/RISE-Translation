@@ -19,11 +19,11 @@ $lang["manager"] = "Gerente";
 $lang["options"] = "Opciones";
 $lang["id"] = "ID";
 $lang["name"] = "Nombre";
-$lang["email"] = "Email";
+$lang["email"] = "Correo electrónico";
 $lang["username"] = "Usuario";
 $lang["password"] = "Contraseña";
 $lang["retype_password"] = "Vuelva a escribir la contraseña";
-$lang["previous"] = "Previo";
+$lang["previous"] = "Anterior";
 $lang["next"] = "Siguiente";
 $lang["active"] = "Activo";
 $lang["inactive"] = "Inactivo";
@@ -31,7 +31,7 @@ $lang["status"] = "Estado";
 $lang["start_date"] = "Fecha de inicio";
 $lang["end_date"] = "Fecha final";
 $lang["start_time"] = "Hora de inicio";
-$lang["end_time"] = "Tiempo final";
+$lang["end_time"] = "Fecha final";
 $lang["deadline"] = "Fecha límite";
 $lang["added"] = "Añadido";
 $lang["created_date"] = "Fecha de creación";
@@ -58,7 +58,7 @@ $lang["company_name"] = "Compañía";
 $lang["address"] = "Dirección";
 $lang["city"] = "Ciudad";
 $lang["state"] = "Estado";
-$lang["zip"] = "Zip";
+$lang["zip"] = "Código Postal";
 $lang["country"] = "País";
 $lang["phone"] = "Teléfono";
 $lang["private"] = "Privado";
@@ -148,10 +148,10 @@ $lang["add_team"] = "Añadir Equipo";
 $lang["edit_team"] = "Editar Equipo";
 $lang["delete_team"] = "Borrar Equipo";
 $lang["team"] = "Equipo";
-$lang["select_a_team"] = "Selecciona un Equipo";
+$lang["select_a_team"] = "Seleccionar Equipo";
 
 /* dashboard */
-$lang["dashboard"] = "Panel Principal";
+$lang["dashboard"] = "Escritorio";
 
 /* attendance */
 $lang["add_attendance"] = "Añadir tiempo manualmente";
@@ -181,15 +181,15 @@ $lang["leave_type"] = "Tipo de ausencia";
 $lang["leave_types"] = "Tipos de ausencias";
 
 /* leave */
-$lang["apply_leave"] = "Solicite ausencia";
-$lang["assign_leave"] = "Asigne ausencia";
+$lang["apply_leave"] = "Solicitar ausencia";
+$lang["assign_leave"] = "Ausencia asignada";
 $lang["leaves"] = "Ausencia";
 $lang["pending_approval"] = "Pendiente de aprobación.";
 $lang["all_applications"] = "Todas las Solicitudes";
 $lang["duration"] = "Duración";
 $lang["single_day"] = "Un solo día";
 $lang["mulitple_days"] = "Varios días";
-$lang["reason"] = "Reazones";
+$lang["reason"] = "Razones";
 $lang["applicant"] = "Solicitante";
 $lang["approved"] = "Aprobada";
 $lang["approve"] = "Aprobar";
@@ -260,8 +260,8 @@ $lang["test_mail_send_failed"] = "Error al enviar mensaje de prueba.";
 $lang["settings"] = "Configuraciones";
 $lang["updates"] = "Actualizaciones";
 $lang["current_version"] = "Versión Actual";
-$lang["language"] = "Lenguaje";
-$lang["ip_restriction"] = "Restricción de IP";
+$lang["language"] = "Idioma";
+$lang["ip_restriction"] = "Bloquear IP";
 $lang["varification_failed_message"] = "Disculpe, no pudimos comprabar el código de compra de su artículo.";
 $lang["enter_one_ip_per_line"] = "Entre un IP por línea. Déjelo en blanco para permitir todos los IPs. *Los usuarios Administrativos no se afectarán.";
 $lang["allow_timecard_access_from_these_ips_only"] = "Permita acceso a la tarjeta de tiempo solo a estos IPs.";
@@ -272,13 +272,13 @@ $lang["disable_client_login_help_message"] = "Los contactos del cliente no estar
 $lang["who_can_send_or_receive_message_to_or_from_clients"] = "Quien puede enviar/recibir mensaje hacia/de clientes";
 
 /* account */
-$lang["authentication_failed"] = "Fallo de autenticidad!";
-$lang["signin"] = "Entrar";
-$lang["sign_out"] = "Salir";
-$lang["you_dont_have_an_account"] = "No tienes una cuenta?";
-$lang["already_have_an_account"] = "Tienes una cuenta ya?";
-$lang["forgot_password"] = "Olvidó su contraseña?";
-$lang["signup"] = "Registrese";
+$lang["authentication_failed"] = "¡Fallo de autenticidad!";
+$lang["signin"] = "Iniciar sesión";
+$lang["sign_out"] = "Cerrar sesión";
+$lang["you_dont_have_an_account"] = "¿No tienes una cuenta?";
+$lang["already_have_an_account"] = "¿Tienes una cuenta?";
+$lang["forgot_password"] = "¿Olvidó su contraseña?";
+$lang["signup"] = "Registrarse";
 $lang["input_email_to_reset_password"] = "Entre su correo para cambiar su contraseña";
 $lang["no_acount_found_with_this_email"] = "Lo sentimos, ninguna cuenta está registrada con este correo.";
 $lang["reset_password"] = "Cambie su contraseña";
@@ -293,18 +293,18 @@ $lang["create_an_account_as_a_client_contact"] = "Crear una cuenta como contacto
 /* messages */
 $lang["messages"] = "Mensajes";
 $lang["message"] = "Mensaje";
-$lang["compose"] = "Componer";
+$lang["compose"] = "Redactar";
 $lang["send_message"] = "Enviar mensaje";
 $lang["write_a_message"] = "Escribir un mensaje...";
 $lang["reply_to_sender"] = "Responder al remitente...";
-$lang["subject"] = "Titulo";
+$lang["subject"] = "Título";
 $lang["send"] = "Enviar";
-$lang["to"] = "Hacia";
+$lang["to"] = "Para";
 $lang["from"] = "De";
 $lang["inbox"] = "Recibidos";
 $lang["sent_items"] = "Enviados";
 $lang["me"] = "Yo";
-$lang["select_a_message"] = "Seleccione un mensaje para ver";
+$lang["select_a_message"] = "Seleccionar mensaje para ver";
 
 /* clients */
 $lang["add_client"] = "Añadir cliente";
@@ -2028,9 +2028,9 @@ $lang["clients_has_open_proposals"] = "Clients has open proposals";
 $lang["clients_has_accepted_proposals"] = "Clients has accepted proposals";
 $lang["clients_has_rejected_proposals"] = "Clients has rejected proposals";
 
-$lang["logged_in_today"] = "Logged in today";
-$lang["logged_in_last_seven_days"] = "Logged in last 7 days";
+$lang["logged_in_today"] = "Conectado hoy";
+$lang["logged_in_last_seven_days"] = "Última conexión en 7 días";
 
-$lang["hide_from_kanban_view"] = "Hide from kanban view";
+$lang["hide_from_kanban_view"] = "Ocultar de la vista kanban";
 
 return $lang;
