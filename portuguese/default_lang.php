@@ -2033,4 +2033,75 @@ $lang["logged_in_last_seven_days"] = "Logged in last 7 days";
 
 $lang["hide_from_kanban_view"] = "Hide from kanban view";
 
+/* Version 2.9 */
+
+$lang["contract"] = "Contract";
+$lang["contracts"] = "Contracts";
+$lang["can_access_contracts"] = "Can access contracts?";
+$lang["show_in_contract"] = "Show in contract";
+$lang["contract_date"] = "Contract date";
+$lang["edit_contract"] = "Edit contract";
+$lang["delete_contract"] = "Delete contract";
+$lang["contract_sent_message"] = "The contract has been sent!";
+$lang["add_contract"] = "Add contract";
+$lang["contract_preview"] = "Contract preview";
+$lang["clone_contract"] = "Clone contract";
+$lang["contract_to"] = "Contract to";
+$lang["contract_settings"] = "Contract settings";
+$lang["contract_color"] = "Contract color";
+$lang["send_contract_bcc_to"] = "When sending contract to client, send BCC to";
+$lang["initial_number_of_the_contract"] = "Initial number of the contract";
+$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "The contracts ID must be larger then last contract ID.";
+$lang["contract_sent"] = "Contract sent";
+$lang["notification_contract_sent"] = "Sent a contract";
+$lang["contract_accepted"] = "Contract accepted";
+$lang["notification_contract_accepted"] = "Accepted a contract";
+$lang["contract_rejected"] = "Contract rejected";
+$lang["notification_contract_rejected"] = "Rejected a contract";
+$lang["create_estimate"] = "Create Estimate";
+$lang["include_all_items_of_this_contract"] = "Include all items of this contract";
+$lang["contract_view"] = "Contract view";
+$lang["accept_contract"] = "Accept contract";
+$lang["reject_contract"] = "Reject contract";
+$lang["contract_accepted_message"] = "You've successfully accepted this contract!";
+
+$lang["contract_editor"] = "Contract Editor";
+$lang["contract_templates"] = "Contract templates";
+$lang["add_contract_template"] = "Add contract template";
+$lang["edit_contract_template"] = "Edit contract template";
+$lang["delete_contract_template"] = "Delete contract template";
+$lang["use_template_from"] = "Use template from";
+$lang["print_contract"] = "Print contract";
+$lang["contract_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+
+$lang["ticket_info"] = "Ticket info";
+
+$lang["recurring_tasks"] = "Recurring tasks";
+$lang["add_multiple_contacts"] = "Add multiple contacts";
+
+$lang["total_invoiced"] = "Total invoiced";
+
+$lang["show_sub_tasks"] = "Show sub tasks";
+
+$lang["add_signature_option_on_accepting_estimate"] = "Add signature option on accepting estimate";
+$lang["accept_estimate"] = "Accept estimate";
+
+$lang["sub_tasks_completed"] = "Sub tasks completed";
+
+$lang["client_portal"] = "Client portal";
+$lang["sales_and_prospects"] = "Sales & Prospects";
+
+$lang["contract_prefix"] = "Contract prefix";
+$lang["default_contract_template"] = "Default contract template";
+
+$lang["default_proposal_template"] = "Default proposal template";
+
+$lang["signed_date"] = "Signed date";
+
+$lang["add_signature_option_on_accepting_contract"] = "Add signature option on accepting contract";
+$lang["accept"] = "Accept";
+$lang["signer_info"] = "Signer info";
+$lang["default_template"] = "Default template";
+$lang["change_template"] = "Change template";
+
 return $lang;
