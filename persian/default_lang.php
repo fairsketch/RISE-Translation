@@ -1566,7 +1566,7 @@ $lang["delete_expenses_category"] = "دسته هزینه ها را حذف کنی
 
 /* Version 2.5 */
 
-$lang["code_reference"] = "Code Reference";
+$lang["code_reference"] = "کد مرجع";
 
 $lang["commit_url"] = "Commit url";
 $lang["new_commits"] = "New commits";
