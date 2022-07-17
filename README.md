@@ -1,4 +1,4 @@
-RISE - Ultimate Project Manager
+RISE - Ultimate Project Manager & CRM
 ------------------
 A web application where you can manage your projects, clients and team members.
 Please check the demo for more details.
