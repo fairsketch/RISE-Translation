@@ -3,8 +3,9 @@
 /* NOTE: DO NOT CHANGE THIS FILE. IF YOU WANT TO UPDATE THE LANGUAGE THEN COPY THIS FILE TO custom_lang.php AND UPDATE THERE */
 
 /* language locale */
-$lang["language_locale"] ="ar";
-$lang["language_locale_long"] ="ar-EG";
+$lang["language_locale"] ="ar"; //locale code
+$lang["language_locale_long"] ="ar-EG"; //long locale code
+$lang["text_direction"] = "rtl"; //supported value ltr/rtl
 
 /* common */
 $lang["add"] ="أضف";
@@ -2191,5 +2192,196 @@ $lang["import_expense"] = "مصاريف الاستيراد";
 $lang["mark_as_default"] = "علامة كما الافتراضي";
 $lang["remove_as_default"] = "إزالة كافتراضي";
 $lang["staff_default_dashboard_help_message"] = "سيحل هذا محل لوحة التحكم الافتراضية لجميع أعضاء الفريق. يرجى ملاحظة أنه سيتم توزيع الأدوات وفقًا لإذن المستخدم";
+
+/* Version 3.2 */
+
+$lang["reminder"] = "Reminder";
+$lang["reminders"] = "Reminders";
+$lang["show_all_reminders"] = "Show all reminders";
+$lang["time"] = "Time";
+$lang["add_reminder"] = "Add reminder";
+$lang["delete_reminder"] = "Delete reminder";
+$lang["snooze"] = "Snooze";
+$lang["dismiss"] = "Dismiss";
+$lang["snooze_length"] = "Snooze length";
+$lang["minutes"] = "Minutes";
+$lang["reminder_sound_volume"] = "Reminder sound volume";
+$lang["reminder_details"] = "Reminder details";
+$lang["mark_as_done"] = "Mark as done";
+$lang["client_can_create_reminders"] = "Client can create reminders?";
+
+$lang["php_file_format_is_not_allowed"] = "PHP file format is not allowed!";
+
+$lang["projects_overview"] = "Projects Overview";
+$lang["progression"] = "Progression";
+
+$lang["this_year"] = "This Year";
+$lang["last_year"] = "Last Year";
+$lang["last_12_months"] = "Last 12 months";
+
+$lang["estimate_sent_statistics"] = "Estimate sent statistics";
+
+$lang["title_language_key"] = "Title Language Key";
+$lang["placeholder_language_key"] = "Placeholder Language Key";
+$lang["keep_it_blank_if_you_do_not_use_translation"] = "Keep it blank if you don't use translation";
+$lang["language_key_recommendation_help_text"] = "Recommended to use any prefix like custom_field_";
+
+$lang["other"] = "Other";
+
+$lang["print_estimate"] = "Print estimate";
+
+$lang["the_person_who_will_manage_this_client"] = "The person who'll manage this client.";
+$lang["the_person_who_will_manage_this_lead"] = "The person who'll manage this lead.";
+
+$lang["language_key"] = "Language Key";
+$lang["left_menu_language_key_recommendation_help_text"] = "Recommended to use any prefix like left_menu_";
+
+$lang["project_type"] = "Project type";
+$lang["client_project"] = "Client Project";
+$lang["internal_project"] = "Internal Project";
+
+$lang["contact_info"] = "Contact info";
+$lang["type"] = "Type";
+$lang["organization"] = "Organization";
+$lang["person"] = "Person";
+
+$lang["last_announcement"] = "Last announcement";
+$lang["no_announcement_yet"] = "No announcement yet!";
+
+$lang["team_members_overview"] = "Team Members Overview";
+$lang["on_leave_today"] = "On leave today";
+
+$lang["enable_embedded_form_to_get_leads"] = "Enable embedded form to get leads";
+$lang["please_submit_the_form"] = "Please submit the form";
+$lang["show_in_embedded_form"] = "Show in embedded form";
+
+$lang["after_submit"] = "After submit";
+$lang["return_json_response"] = "Return json response";
+$lang["show_text_result"] = "Show text result";
+$lang["redirect_to_this_url"] = "Redirect to this url:";
+
+$lang["yes_only_own_timelogs"] = "Yes, only own timelogs";
+$lang["yes_only_own_project_members"] = "Yes, only own project members";
+$lang["excluding_his_her_timelogs"] = "Excluding his/her own timelogs";
+$lang["can_add_own_timelogs_only"] = "Can add own timelogs only";
+
+$lang["all_tasks_overview"] = "All Tasks Overview";
+
+$lang["invoice_overview"] = "Invoice Overview";
+
+$lang["next_reminder"] = "Next reminder";
+
+$lang["new_tickets_in_last_30_days"] = "New tickets in last 30 days";
+
+$lang["individual"] = "Individual";
+
+$lang["total_after_discount"] = "Total After Discount";
+
+/* Version 3.3 */
+
+$lang["change_the_tasks_start_date_and_deadline_based_on_project_start_date"] = "Change the tasks start date and deadline based on project start date";
+
+$lang["can_edit_only_own_created_projects"] = "Can edit only own created projects";
+$lang["can_delete_only_own_created_projects"] = "Can delete only own created projects";
+
+$lang["checklist_status"] = "Checklist status";
+
+/* Version 3.4 */
+
+$lang["subscribe"] = "Subscribe";
+$lang["email_protocol"] = "Email protocol";
+
+$lang["please_enable_the_file_uploads_php_settings"] = "Please enable the file_uploads php setting in the server.";
+$lang["file_size_too_large"] = "File size is too large. Please increase the upload_max_filesize from server.";
+
+$lang["sub_task_status"] = "Sub task status";
+
+$lang["can_access_client_feedback_in_projects"] = "Can access client feedback in projects?";
+$lang["change_the_milestone_dates_based_on_project_start_date"] = "Change the milestone dates based on project start date";
+
+$lang["send_first_due_invoice_reminder_notification_before"] = "Send 1st due invoice reminder before due date";
+$lang["send_second_due_invoice_reminder_notification_before"] = "Send 2nd due invoice reminder before due date";
+
+$lang["send_first_invoice_overdue_reminder_after"] = "Send 1st invoice overdue reminder after";
+$lang["send_second_invoice_overdue_reminder_after"] = "Send 2nd invoice overdue reminder after";
+
+$lang["product"] = "Product";
+
+$lang["subscription_id"] = "Subscription ID";
+$lang["subscription_sent_message"] = "The subscription has been sent!";
+$lang["add_subscription"] = "Add subscription";
+$lang["edit_subscription"] = "Edit subscription";
+$lang["delete_subscription"] = "Delete subscription";
+$lang["subscription"] = "Subscription";
+$lang["subscriptions"] = "Subscriptions";
+$lang["subscription_value"] = "Subscription Value";
+$lang["subscription_items"] = "Subscription items";
+$lang["email_subscription_to_client"] = "Email subscription to client";
+$lang["send_subscription"] = "Send subscription";
+$lang["subscription_settings"] = "Subscription Settings";
+$lang["subscription_prefix"] = "Subscription prefix";
+$lang["initial_number_of_the_subscription"] = "Initial number of the subscription";
+$lang["can_access_subscriptions"] = "Can access subscriptions?";
+$lang["show_in_subscription"] = "Show in subscription";
+$lang["subscription_total"] = "Subscription total";
+$lang["start_subscription"] = "Start subscription";
+
+$lang["subscription_success_message"] = "You're subscription has been started successfully.";
+
+$lang["enable_stripe_subscription"] = "Enable Stripe subscription";
+$lang["please_enable_the_stripe_payment_method_first"] = "Please enable the stripe payment method first!";
+$lang["tax_mapping"] = "Tax mapping";
+$lang["mapped"] = "Mapped";
+$lang["select_stripe_tax"] = "Select Stripe tax";
+$lang["stripe_price_error_message"] = "App subscription price and recurring interval should be same as stripe product price and interval.";
+$lang["stripe_tax_error_message"] = "Some taxes are not mapped with stripe yet. Please map the taxes from the subscription settings.";
+$lang["payment_status"] = "Payment status";
+$lang["failed"] = "Failed";
+$lang["next_billing_date"] = "Next billing date";
+$lang["cancel_subscription"] = "Cancel subscription";
+
+$lang["invoice_number"] = "Invoice number";
+$lang["estimate_number"] = "Estimate number";
+$lang["order_number"] = "Order number";
+
+$lang["client_can_access_notes"] = "Client can access notes?";
+
+$lang["my_tasks_overview"] = "My Tasks Overview";
+
+$lang["leads_overview"] = "Leads Overview";
+$lang["converted_to_client"] = "Converted to client";
+
+$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Remember to add this urls in Authorized redirect uri";
+
+$lang["merge"] = "Merge";
+$lang["move_all_comments_or_notes_from"] = "Move all comments/notes from";
+$lang["moved_to"] = "Moved to";
+
+$lang["ok"] = "OK";
+$lang["app"] = "App";
+$lang["stripe"] = "Stripe";
+$lang["activate_as_stripe_subscription"] = "Activate as Stripe subscription";
+$lang["activate_as_internal_subscription"] = "Activate as internal subscription";
+$lang["activate_as_stripe_subscription_message_1"] = "Please map the stripe product and price with this subscription. You can add the stripe products and prices from your stripe dashboard.";
+$lang["activate_as_stripe_subscription_message_2"] = "The client will get a request to add the payment method with this subscription. Once the client submit the payment method, this subscription will be activated and auto payment will be enabled via stripe.";
+$lang["activate_as_internal_subscription_message_1"] = "This subscription will be managed by app. The invoices will be created based on the subscription terms.";
+$lang["activate_as_internal_subscription_message_2"] = "Note: Payments will not be done automatically. For automated payment, you can use the stripe subscription.";
+$lang["subscription_toatl_can_not_empty_message"] = "Subscription total can't be 0.";
+
+$lang["subscription_request_sent"] = "Subscription request sent";
+$lang["notification_subscription_request_sent"] = "New subscription request";
+
+$lang["first_billing_date"] = "First billing date";
+$lang["first_billing_date_cant_be_past_message"] = "First billing date can’t be past. Keep it blank to use the date when the client will subscribe.";
+
+$lang["gst_number"] = "GST Number";
+
+$lang["announcement_created"] = "Announcement created";
+
+$lang["company_logo"] = "Company Logo";
+
+$lang["task_commented"] = "Task commented";
+$lang["task_assigned"] = "Task assigned";
+$lang["task_general"] = "Task general";
 
 return $lang;
