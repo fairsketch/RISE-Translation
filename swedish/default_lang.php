@@ -5,6 +5,7 @@
 /* language locale */
 $lang["language_locale"] = "sv"; //locale code
 $lang["language_locale_long"] = "sv-SE"; //long locale code
+$lang["text_direction"] = "ltr"; //supported value ltr/rtl
 
 /* common */
 $lang["add"] = "Lägg till";
@@ -47,7 +48,7 @@ $lang["date"] = "Datum";
 $lang["yes"] = "Ja";
 $lang["no"] = "Nej";
 $lang["add_more"] = "Lägg till mer";
-$lang["crop"] = "Beskära";
+$lang["crop"] = "minska";
 $lang["income"] = "Inkomst";
 $lang["income_vs_expenses"] = "Inkomst vs Utgifter";
 
@@ -151,7 +152,7 @@ $lang["team"] = "Team";
 $lang["select_a_team"] = "Välj team";
 
 /* dashboard */
-$lang["dashboard"] = "Panel";
+$lang["dashboard"] = "Användarpanel";
 
 /* attendance */
 $lang["add_attendance"] = "Lägg till detta manuellt";
@@ -2189,5 +2190,195 @@ $lang["import_expense"] = "Importera utgifter";
 $lang["mark_as_default"] = "Markera som Standard";
 $lang["remove_as_default"] = "Ta bort som Standard";
 $lang["staff_default_dashboard_help_message"] = "Detta ersätter standardinstrumentpanelen för alla teammedlemmar. Var god notera, widgeterna kommer att fördelas utifrån användarnas behörigheter.";
+
+/* Version 3.2 */
+
+$lang["reminder"] = "Påminnelse";
+$lang["reminders"] = "Påminnelser";
+$lang["show_all_reminders"] = "Visa Alla Påminnelser";
+$lang["time"] = "Tid";
+$lang["add_reminder"] = "Lägg till Påminnelse";
+$lang["delete_reminder"] = "Ta bort Påminnelse";
+$lang["snooze"] = "Snooza";
+$lang["dismiss"] = "Avfärda";
+$lang["snooze_length"] = "Snooze Längd";
+$lang["minutes"] = "Minuter";
+$lang["reminder_sound_volume"] = "Ljudnivå Påminnelse";
+$lang["reminder_details"] = "Påminnelse detaljer";
+$lang["mark_as_done"] = "Markera som färdig";
+$lang["client_can_create_reminders"] = "Kund kan skapa påminnelser?";
+
+$lang["php_file_format_is_not_allowed"] = "PHP-fil format är inte tillåtet!";
+
+$lang["projects_overview"] = "Projekt Översikt";
+$lang["progression"] = "Framsteg";
+
+$lang["this_year"] = "Detta År";
+$lang["last_year"] = "Förra Året";
+$lang["last_12_months"] = "Senaste 12 månaderna";
+
+$lang["estimate_sent_statistics"] = "Uppskatta skickad statistik";
+
+$lang["title_language_key"] = "Titel språknyckel";
+$lang["placeholder_language_key"] = "Platshållare Språknyckel";
+$lang["keep_it_blank_if_you_do_not_use_translation"] = "Låt den vara tom om du inte använder översättning";
+$lang["language_key_recommendation_help_text"] = "Rekommenderas att använda ett prefix som custom_field_";
+
+$lang["other"] = "Andra";
+
+$lang["print_estimate"] = "Utskrift av kostnadsförslag";
+
+$lang["the_person_who_will_manage_this_client"] = "Den person som kommer att hantera denna kund.";
+$lang["the_person_who_will_manage_this_lead"] = "Den person som kommer att hantera denna kund.";
+
+$lang["language_key"] = "Språk Nyckel";
+$lang["left_menu_language_key_recommendation_help_text"] = "Rekommenderas att använda ett prefix som left_menu_";
+
+$lang["project_type"] = "Projekt Typ";
+$lang["client_project"] = "Kund Projekt";
+$lang["internal_project"] = "Internt Projekt";
+
+$lang["contact_info"] = "Kontakt info";
+$lang["type"] = "Typ";
+$lang["organization"] = "Organisation";
+$lang["person"] = "Person";
+
+$lang["last_announcement"] = "Sista tillkännagivandet";
+$lang["no_announcement_yet"] = "Inga tillkännagivanden ännu!";
+
+$lang["team_members_overview"] = "Översikt team medlemmar";
+$lang["on_leave_today"] = "Ledig idag";
+
+$lang["enable_embedded_form_to_get_leads"] = "Aktivera inbäddat formulär för att få leads";
+$lang["please_submit_the_form"] = "Vänligen, skicka in uppgifterna i formuläret";
+$lang["show_in_embedded_form"] = "Visa i inbäddat formulär";
+
+$lang["after_submit"] = "Efter att ha skickat";
+$lang["return_json_response"] = "skicka tillbaks json svar";
+$lang["show_text_result"] = "Visa text resultat";
+$lang["redirect_to_this_url"] = "Vidarebefodra till denna länk:";
+
+$lang["yes_only_own_timelogs"] = "Ja, endast egna tim-loggar";
+$lang["yes_only_own_project_members"] = "Ja, endast egna  medlemmar i projektet";
+$lang["excluding_his_her_timelogs"] = "Excluderar honoms/hennes tidsloggar";
+$lang["can_add_own_timelogs_only"] = "Kan lägga till egna tidsloggar endast";
+
+$lang["all_tasks_overview"] = "Översikt alla uppgifter";
+
+$lang["invoice_overview"] = "Faktura Översikt";
+
+$lang["next_reminder"] = "Nästa påminnelse";
+
+$lang["new_tickets_in_last_30_days"] = "Nya support ärenden dom senaste 30 dagarna";
+
+$lang["individual"] = "Individuellt";
+
+$lang["total_after_discount"] = "Totalt efter rabatt";
+
+/* Version 3.3 */
+
+$lang["change_the_tasks_start_date_and_deadline_based_on_project_start_date"] = "Ändra Uppgifts start datum och slut baserat på omsättning";
+$lang["can_edit_only_own_created_projects"] = "Kan endast redigera egna projekt ";
+$lang["can_delete_only_own_created_projects"] = "Kan endast radera egna projekt";
+
+$lang["checklist_status"] = "Statens ";
+
+/* Version 3.4 */
+
+$lang["subscribe"] = "Prenumerera själv";
+$lang["email_protocol"] = "E-post reglering";
+
+$lang["please_enable_the_file_uploads_php_settings"] = "Please enable the file_uploads php setting in the server.";
+$lang["file_size_too_large"] = "File size is too large. Please increase the upload_max_filesize from server.";
+
+$lang["sub_task_status"] = "Status Underuppgift";
+
+$lang["can_access_client_feedback_in_projects"] = "Kan ändra kunders recension i projekt?";
+$lang["change_the_milestone_dates_based_on_project_start_date"] = "Ändra milstolpedatum baserat på projektets startdatum";
+
+$lang["send_first_due_invoice_reminder_notification_before"] = "Skicka påminnelse om 1:a förfallna fakturan före förfallodagen";
+$lang["send_second_due_invoice_reminder_notification_before"] = "Skicka påminnelse om 2:a förfallna fakturan före förfallodagen";
+
+$lang["send_first_invoice_overdue_reminder_after"] = "Skicka påminnelse om 1:a förfallna fakturan efter:";
+$lang["send_second_invoice_overdue_reminder_after"] = "Skicka andra försenings påminnelsen efter";
+
+$lang["product"] = "Produkt";
+
+$lang["subscription_id"] = "Prenumerations ID";
+$lang["subscription_sent_message"] = "Prenumerationen har skickats!";
+$lang["add_subscription"] = "Lägg till Prenumeration";
+$lang["edit_subscription"] = "Redigera Prenumeration";
+$lang["delete_subscription"] = "Radera prenumeration";
+$lang["subscription"] = "Prenumeration";
+$lang["subscriptions"] = "Prenumerationer";
+$lang["subscription_value"] = "Prenumerations Värdering";
+$lang["subscription_items"] = "Prenumerations projekten";
+$lang["email_subscription_to_client"] = "E-post prenumeration ladda";
+$lang["send_subscription"] = "Skicka prenumeration";
+$lang["subscription_settings"] = "Prenumerations inställningar";
+$lang["subscription_prefix"] = "Subscription prefix";
+$lang["initial_number_of_the_subscription"] = "Initiala siffror från prenumeranter";
+$lang["can_access_subscriptions"] = "Har tillgång till prenumeration?";
+$lang["show_in_subscription"] = "Visa i Prenumeration";
+$lang["subscription_total"] = "Totalt antal Prenumerationer";
+$lang["start_subscription"] = "Starta prenumerationen";
+
+$lang["subscription_success_message"] = "Din prenumeration har startat upp och alla tycks älska det.";
+
+$lang["enable_stripe_subscription"] = "Aktivera Stripe prenumerationer";
+$lang["please_enable_the_stripe_payment_method_first"] = "Vänligen aktivera betalningsmetoden Stripe först!";
+$lang["tax_mapping"] = "Skattekartläggning";
+$lang["mapped"] = "Kartläggning";
+$lang["select_stripe_tax"] = "Välj stripe skatt";
+$lang["stripe_price_error_message"] = "Appens prenumerationspris och återkommande intervall bör vara samma som stripe-produktens pris och intervall.";
+$lang["stripe_tax_error_message"] = "Stripe skatts felmeddelande.";
+$lang["payment_status"] = "Betalnings status";
+$lang["failed"] = "Misslyckad";
+$lang["next_billing_date"] = "Nästa betalnings datum";
+$lang["cancel_subscription"] = "Avbryt Prenumerationen";
+
+$lang["invoice_number"] = "Faktura nummer";
+$lang["estimate_number"] = "Kostnadsförslags nummer";
+$lang["order_number"] = "Order number";
+
+$lang["client_can_access_notes"] = "Kund har tillgång till anteckningar";
+
+$lang["my_tasks_overview"] = "Översikt på mina uppgifter";
+
+$lang["leads_overview"] = "Leads Sammanfattning";
+$lang["converted_to_client"] = "Konverterade till kunder";
+
+$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Kom ihåg att lägga till dessa länkar i tillåtna vidarebefodringslänkar";
+
+$lang["merge"] = "Sammanfoga";
+$lang["move_all_comments_or_notes_from"] = "Flytta alla anteckningar/ kommentarer från";
+$lang["moved_to"] = "Flytta till";
+
+$lang["ok"] = "OK";
+$lang["app"] = "App";
+$lang["stripe"] = "Stripe";
+$lang["activate_as_stripe_subscription"] = "Aktivera som Stripe prenumeration";
+$lang["activate_as_internal_subscription"] = "Aktivera som intern prenumeration";
+$lang["activate_as_stripe_subscription_message_1"] = "Länka stripe-produkten och priset med denna prenumeration. Du kan lägga till stripe-produkter och priser från din stripe-användarpanel.";
+$lang["activate_as_stripe_subscription_message_2"] = "Kunden kommer att få en förfrågan om att lägga till betalningsmetoden för denna prenumeration. När kunden har skickat in betalningsmetoden kommer prenumerationen att aktiveras och automatisk betalning kommer att skötas via Stripe.";
+$lang["activate_as_internal_subscription_message_1"] = "Denna prenumeration kommer att hanteras av appen. Fakturorna kommer att skapas baserat på prenumerationsvillkoren.";
+$lang["activate_as_internal_subscription_message_2"] = "Obs: Betalningar kommer inte att göras automatiskt. För automatiserad betalning kan du använda stripe-prenumerati.";
+$lang["subscription_toatl_can_not_empty_message"] = "Prenumerationens total kan inte vara 0.";
+
+$lang["subscription_request_sent"] = "Prenumerationsförfrågan skickad";
+$lang["notification_subscription_request_sent"] = "Ny begäran om prenumeration";
+
+$lang["first_billing_date"] = "First billing date";
+$lang["first_billing_date_cant_be_past_message"] = "Första faktureringsdatum kan inte vara tidigare. Håll det tomt för att använda det datum då kunden kommer att prenumerera.";
+
+$lang["gst_number"] = "GST Nummer";
+
+$lang["announcement_created"] = "Tillkännagivande skapad";
+
+$lang["company_logo"] = "Företags Logga";
+
+$lang["task_commented"] = "Uppgift Kommenterad";
+$lang["task_assigned"] = "Uppgift tilldelad";
+$lang["task_general"] = "Allmän Uppgift";
 
 return $lang;
