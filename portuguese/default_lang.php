@@ -2285,4 +2285,102 @@ $lang["can_delete_only_own_created_projects"] = "Pode excluir apenas os próprio
 
 $lang["checklist_status"] = "Status da checklist";
 
+/* Version 3.4 */
+
+$lang["subscribe"] = "Assinar";
+$lang["email_protocol"] = "Protocolo de e-mail";
+
+$lang["please_enable_the_file_uploads_php_settings"] = "Ative a configuração file_uploads php no servidor.";
+$lang["file_size_too_large"] = "O tamanho do arquivo é muito grande. Aumente o upload_max_filesize do servidor.";
+
+$lang["sub_task_status"] = "Status da subtarefa";
+
+$lang["can_access_client_feedback_in_projects"] = "Pode acessar o feedback do cliente em projetos?";
+$lang["change_the_milestone_dates_based_on_project_start_date"] = "Alterar as datas de etapas com base na data de início do projeto";
+
+$lang["send_first_due_invoice_reminder_notification_before"] = "Enviar o primeiro lembrete de vencimento da fatura antes de";
+$lang["send_second_due_invoice_reminder_notification_before"] = "Enviar o segundo lembrete de vencimento da fatura antes de";
+
+$lang["send_first_invoice_overdue_reminder_after"] = "Enviar o primeiro lembrete de fatura vencida depois de";
+$lang["send_second_invoice_overdue_reminder_after"] = "Enviar o segundo lembrete de fatura vencida depois de";
+
+$lang["product"] = "Produto";
+
+$lang["subscription_id"] = "ID da Assinatura";
+$lang["subscription_sent_message"] = "A assinatura foi enviada!";
+$lang["add_subscription"] = "Adicionar assinatura";
+$lang["edit_subscription"] = "Alterar assinatura";
+$lang["delete_subscription"] = "Excluir assinatura";
+$lang["subscription"] = "Assinatura";
+$lang["subscriptions"] = "Assinaturas";
+$lang["subscription_value"] = "Valor da assinatura";
+$lang["subscription_items"] = "Itens da assinaturas";
+$lang["email_subscription_to_client"] = "Enviar e-mail de assinatura para o cliente";
+$lang["send_subscription"] = "Enviar assinatura";
+$lang["subscription_settings"] = "Configurações de assinaturas";
+$lang["subscription_prefix"] = "Prefixo das assinaturas";
+$lang["initial_number_of_the_subscription"] = "Número inicial para assinaturas";
+$lang["can_access_subscriptions"] = "Pode acessar assinaturas?";
+$lang["show_in_subscription"] = "Mostrar em assinatura";
+$lang["subscription_total"] = "Total em assinaturas";
+$lang["start_subscription"] = "Iniciar assinatura";
+
+$lang["subscription_success_message"] = "Sua assinatura foi realizada com sucesso.";
+
+$lang["enable_stripe_subscription"] = "Habilitar assinatura pelo Stripe";
+$lang["please_enable_the_stripe_payment_method_first"] = "Por favor, habilite o método de pagamento Stripe primeiro!";
+$lang["tax_mapping"] = "Mapeamento de impostos";
+$lang["mapped"] = "Mapeado";
+$lang["select_stripe_tax"] = "Selecione um imposto no Stripe";
+$lang["stripe_price_error_message"] = "O preço da assinatura do aplicativo e o intervalo recorrente devem ser os mesmos que o preço e o intervalo do produto no Stripe.";
+$lang["stripe_tax_error_message"] = "Alguns impostos ainda não estão mapeados no Stripe. Mapeie os impostos nas configurações de assinatura.";
+$lang["payment_status"] = "Status do Pagamento";
+$lang["failed"] = "Falha";
+$lang["next_billing_date"] = "Próxima cobrança";
+$lang["cancel_subscription"] = "Cancelar assinatura";
+
+$lang["invoice_number"] = "Número da fatura";
+$lang["estimate_number"] = "Número do orçamento";
+$lang["order_number"] = "Número do pedido";
+
+$lang["client_can_access_notes"] = "O cliente pode acessar as anotações?";
+
+$lang["my_tasks_overview"] = "Visão geral das minhas tarefas";
+
+$lang["leads_overview"] = "Visão geral de leads";
+$lang["converted_to_client"] = "Convertido em cliente";
+
+$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Lembre-se de adicionar esses urls no URL de redirecionamento autorizado";
+
+$lang["merge"] = "Mesclar";
+$lang["move_all_comments_or_notes_from"] = "Mover todos os comentários/anotações de";
+$lang["moved_to"] = "Movido para";
+
+$lang["ok"] = "OK";
+$lang["app"] = "App";
+$lang["stripe"] = "Stripe";
+$lang["activate_as_stripe_subscription"] = "Ativar como assinatura Stripe";
+$lang["activate_as_internal_subscription"] = "Ativar como assinatura interna";
+$lang["activate_as_stripe_subscription_message_1"] = "Mapeie o produto e o preço do Stripe com esta assinatura. Você pode adicionar os produtos e preços do Stripe através do seu painel no Stripe.";
+$lang["activate_as_stripe_subscription_message_2"] = "O cliente receberá uma solicitação para adicionar o método de pagamento para esta assinatura. Assim que o cliente informar a forma de pagamento, esta assinatura será ativada e o pagamento automático será habilitado via Stripe.";
+$lang["activate_as_internal_subscription_message_1"] = "Esta assinatura será gerenciada pelo aplicativo. As faturas serão criadas com base nos termos da assinatura.";
+$lang["activate_as_internal_subscription_message_2"] = "Nota: As cobranças não serão realizadas automaticamente. Para cobrança automática, você pode usar o Stripe.";
+$lang["subscription_toatl_can_not_empty_message"] = "O total da assinatura não pode ser 0.";
+
+$lang["subscription_request_sent"] = "Solicitação de assinatura enviada";
+$lang["notification_subscription_request_sent"] = "Nova solicitação de assinatura";
+
+$lang["first_billing_date"] = "Primeira data de cobrança";
+$lang["first_billing_date_cant_be_past_message"] = "A primeira data de cobrança não pode estar no passado. Deixe em branco para usar a data em que o cliente fará a assinatura.";
+
+$lang["gst_number"] = "CNPJ";
+
+$lang["announcement_created"] = "Aviso criado";
+
+$lang["company_logo"] = "Logo da Empresa";
+
+$lang["task_commented"] = "Tarefa comentada";
+$lang["task_assigned"] = "Tarefa atribuída";
+$lang["task_general"] = "Tarefa geral";
+
 return $lang;
