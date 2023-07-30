@@ -1,7 +1,0 @@
-Do not change the default_lang.php. It's only for your reference.
-
-Copy from the default language to custom language file and change in your way.
-
-We update the default language but don't change the custom_lang.php file.
-So, your changes will not be lost after updating the app.
-
