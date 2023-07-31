@@ -2383,4 +2383,144 @@ $lang["task_commented"] = "Tarefa comentada";
 $lang["task_assigned"] = "Tarefa atribuída";
 $lang["task_general"] = "Tarefa geral";
 
+/* Version 3.5 */
+
+$lang["visitors_can_see_store_before_login"] = "Os visitantes podem ver a loja antes do login";
+$lang["show_payment_option_after_submitted_the_order"] = "Mostrar opção de pagamento após enviar o pedido";
+$lang["accept_order_before_login"] = "Aceite o pedido antes do login";
+$lang["proceed_to_payment"] = "Proceder ao pagamento";
+$lang["pay_order"] = "Ordem de pagamento";
+$lang["order_status_after_payment"] = "Status do pedido após o pagamento";
+$lang["store_settings"] = "Configurações da loja";
+$lang["banner_image_on_public_store"] = "Imagem de banner em loja pública";
+$lang["your_order_has_been_submitted"] = "Seu pedido foi enviado.";
+
+$lang["re_captcha_error-timeout-or-duplicate"] = "O reCAPTCHA expirou ou foi duplicado. Atualize a página.";
+
+$lang["related_to"] = "Relacionado a";
+
+$lang["hide_from_non_project_related_tasks"] = "Ocultar de tarefas não relacionadas ao projeto";
+$lang["add_task_in_project"] = "Adicionar tarefa no projeto";
+
+$lang["general_task"] = "Tarefa geral";
+$lang["general_task_created"] = "Tarefa geral criada";
+$lang["general_task_updated"] = "Tarefa geral atualizada";
+$lang["general_task_assigned"] = "Tarefa geral atribuída";
+$lang["general_task_started"] = "Tarefa geral iniciada";
+$lang["general_task_finished"] = "Tarefa geral concluída";
+$lang["general_task_reopened"] = "Tarefa geral reaberta";
+$lang["general_task_deleted"] = "Tarefa geral deletada";
+$lang["general_task_commented"] = "Tarefa geral comentada";
+
+$lang["notification_general_task_created"] = "Criada uma nova tarefa.";
+$lang["notification_general_task_updated"] = "Atualizou uma tarefa.";
+$lang["notification_general_task_assigned"] = "Atribuiu uma tarefa a %s."; //Assigned a task to Mr. X
+$lang["notification_general_task_started"] = "Iniciou uma tarefa.";
+$lang["notification_general_task_finished"] = "Terminou uma tarefa.";
+$lang["notification_general_task_reopened"] = "Tarefa reaberta.";
+$lang["notification_general_task_deleted"] = "Uma tarefa excluída.";
+$lang["notification_general_task_commented"] = "Comentou uma tarefa.";
+
+$lang["bookmark"] = "Marcador";
+$lang["bookmark_icon"] = "Ícone de favorito";
+$lang["change_filters"] = "Alterar filtros";
+$lang["manage_filters"] = "Gerenciar filtros";
+$lang["new_filter"] = "Novo filtro";
+$lang["update_filter"] = "Atualizar filtro";
+$lang["add_new_filter"] = "Adicionar novo filtro";
+$lang["show_time_with_task_start_date_and_deadline"] = "Mostrar hora com data de início e prazo final";
+
+$lang["save_and_continue_to_login_for_payment"] = "Salvar e continuar para efetuar login para pagamento";
+$lang["public_store_page_setting_help_message"] = "Você pode definir a loja como página inicial adicionando 'loja' na configuração da página inicial.";
+$lang["public_store_page_setting_permission_error_message"] = "Ative a permissão de acesso à loja para clientes.";
+$lang["order_status_after_payment_help_message"] = "Isso será aplicável somente quando o status do pedido for";
+
+$lang["subscription_first_billing_date_error_message"] = "A primeira data de cobrança deve ser antes da próxima data de cobrança com base no período de cobrança!";
+$lang["client_currency_not_editable_message"] = "A moeda não é editável quando houver qualquer fatura, orçamento, pedido, proposta, contrato ou assinatura.";
+
+$lang["subscription_started"] = "Assinatura iniciada";
+$lang["notification_subscription_started"] = "Iniciou uma assinatura.";
+
+$lang["subscription_invoice_created_via_cron_job"] = "Fatura de assinatura criada via Cron Job";
+$lang["notification_subscription_invoice_created_via_cron_job"] = "Nova fatura gerada a partir da assinatura.";
+
+$lang["create_credit_note"] = "Criar nota de crédito";
+$lang["create_credit_note_message"] = "Tem certeza? Você vai creditar totalmente esta fatura. Uma nota de crédito será criada para esta fatura.";
+$lang["credited"] = "Credito";
+$lang["credit_note"] = "Nota de Crédito";
+$lang["email_credit_note_to_client"] = "Enviar nota de crédito por e-mail ao cliente";
+$lang["main_invoice"] = "Fatura principal";
+$lang["credit_note_id"] = "ID da nota de crédito";
+$lang["send_credit_note"] = "Enviar nota de crédito";
+
+$lang["taxable"] = "Tributável";
+
+$lang["can_manage_team_members_notes"] = "Pode gerenciar as notas dos membros da equipe?";
+$lang["team_members_can_not_see_own_notes"] = "Os membros da equipe não podem ver suas próprias notas.";
+
+$lang["articles_order"] = "Ordem dos artigos";
+$lang["top_menu"] = "Menu principal";
+$lang["edit_top_menu"] = "Editar menu principal";
+
+$lang["top_menu_description_message"] = "Este menu será visível apenas nas páginas públicas";
+$lang["enable_top_menu"] = "Habilitar menu superior";
+$lang["menu_items"] = "Itens do menu";
+
+$lang["landing_page"] = "Página de destino";
+$lang["landing_page_help_text"] = "Normalmente, deixe em branco. Defina este valor somente se desejar uma página inicial personalizada. (Valor de exemplo: Knowledge_base)";
+
+$lang["fixed_amount_discount_before_tax_error_message"] = "Desconto de valor fixo não pode ser adicionado antes do imposto.";
+
+$lang["invoices_summary"] = "Resumo das faturas";
+$lang["estimates_summary"] = "Resumo das estimativas";
+$lang["leads_summary"] = "Resumo de leads";
+$lang["orders_summary"] = "Resumo de pedidos";
+$lang["estimate_request_summary"] = "Resumo da solicitação de estimativa";
+$lang["proposals_summary"] = "Resumo das propostas";
+$lang["expenses_summary"] = "Resumo das despesas";
+$lang["monthly_summary"] = "Resumo mensal";
+
+$lang["yearly_chart"] = "Gráfico anual";
+$lang["category_chart"] = "Gráfico de categorias";
+
+$lang["count"] = "Contagem";
+$lang["invoice_total"] = "Total da fatura";
+$lang["order_total"] = "Total do pedido";
+
+$lang["last_7_days"] = "Últimos 7 dias";
+$lang["next_7_days"] = "Próximos 7 dias";
+$lang["last_30_days"] = "Últimos 30 dias";
+$lang["this_month"] = "Este mês";
+$lang["last_month"] = "Último mês";
+$lang["next_month"] = "Próximo Mês";
+$lang["next_year"] = "Próximo ano";
+
+$lang["hold_projects"] = "Reter Projetos";
+$lang["open_tasks"] = "Tarefas abertas";
+$lang["completed_tasks"] = "Tarefas concluídas";
+
+$lang["team_members_summary"] = "Resumo dos membros da equipe";
+$lang["created_date_wise"] = "Data de criação estimada";
+$lang["conversion_date_wise"] = "Data da conversão";
+
+$lang["ticket_statistics"] = "Estatísticas do Ticket";
+
+$lang["can_activate_deactivate_team_members"] = "Pode ativar ou desativar membros da equipe?";
+$lang["can_delete_team_members"] = "Pode excluir membros da equipe?";
+
+$lang["project_settings"] = "Configurações do projeto";
+$lang["project_status"] = "Status do Projeto";
+$lang["add_project_status"] = "Adicionar status do projeto";
+$lang["mark_project_as"] = "Marcar projeto como";
+
+$lang["status_language_key_recommendation_help_text"] = "Recomendado usar qualquer prefixo como project_status_";
+$lang["edit_project_status"] = "Editar status do projeto";
+$lang["delete_project_status"] = "Excluir status do projeto";
+
+$lang["open_project_status_recommendation_help_text"] = "Você pode alterar o texto, mas este status será considerado como status aberto inicial.";
+$lang["completed_project_status_recommendation_help_text"] = "Você pode alterar o texto, mas este status será considerado concluído.";
+
+$lang["full_width"] = "Largura total";
+$lang["hide_topbar"] = "Ocultar barra superior";
+
 return $lang;

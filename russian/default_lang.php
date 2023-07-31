@@ -2282,5 +2282,242 @@ $lang["can_edit_only_own_created_projects"] = "может редактирова
 $lang["can_delete_only_own_created_projects"] = "Может удалять только собственные проекты";
 
 $lang["checklist_status"] = "Статус чек-листов";
+/* Version 3.4 */
+
+$lang["subscribe"] = "Подписаться";
+$lang["email_protocol"] = "Протокол электронной почты";
+
+$lang["please_enable_the_file_uploads_php_settings"] = "Пожалуйста, включите настройку php file_uploads на сервере.";
+$lang["file_size_too_large"] = "Размер файла слишком велик. Пожалуйста, увеличьте значение upload_max_filesize с сервера.";
+
+$lang["sub_task_status"] = "Статус подзадачи";
+
+$lang["can_access_client_feedback_in_projects"] = "Можно получить доступ к отзывам клиентов в проектах";
+$lang["change_the_milestone_dates_based_on_project_start_date"] = "Изменить даты вех на основе даты начала проекта";
+
+$lang["send_first_due_invoice_reminder_notification_before"] = "Отправить 1-е напоминание об оплате до наступления срока оплаты";
+$lang["send_second_due_invoice_reminder_notification_before"] = "Отправить 2-е напоминание об оплате до наступления срока оплаты";
+
+$lang["send_first_invoice_overdue_reminder_after"] = "Отправить 1-е напоминание о просроченном счете после";
+$lang["send_second_invoice_overdue_reminder_after"] = "Отправить второе напоминание о просроченном счете после";
+
+$lang["product"] = "Товар";
+
+$lang["subscription_id"] = "Идентификатор подписки";
+$lang["subscription_sent_message"] = "Подписка отправлена!";
+$lang["add_subscription"] = "Добавить подписку";
+$lang["edit_subscription"] = "Редактировать подписку";
+$lang["delete_subscription"] = "Удалить подписку";
+$lang["subscription"] = "Подписка";
+$lang["subscriptions"] = "Подписки";
+$lang["subscription_value"] = "Стоимость подписки";
+$lang["subscription_items"] = "Элементы подписки";
+$lang["email_subscription_to_client"] = "Подписка по электронной почте клиенту";
+$lang["send_subscription"] = "Отправить подписку";
+$lang["subscription_settings"] = "Настройки подписки";
+$lang["subscription_prefix"] = "Префикс подписки";
+$lang["initial_number_of_the_subscription"] = "Начальный номер подписки";
+$lang["can_access_subscriptions"] = "Может ли доступ к подпискам?";
+$lang["show_in_subscription"] = "Показывать в подписке";
+$lang["subscription_total"] = "Всего по подписке";
+$lang["start_subscription"] = "Начать подписку";
+
+$lang["subscription_success_message"] = "Подписка успешно запущена.";
+
+$lang["enable_stripe_subscription"] = "Включить подписку на Stripe";
+$lang["please_enable_the_stripe_payment_method_first"] = "Пожалуйста, сначала включите способ оплаты с полосой!";
+$lang["tax_mapping"] = "Налоговое картирование";
+$lang["mapped"] = "сопоставлено";
+$lang["select_stripe_tax"] = "Выберите налог с полосы";
+$lang["stripe_price_error_message"] = "Стоимость подписки на приложение и интервал повторения должны быть такими же, как цена и интервал продукта с полоской.";
+$lang["stripe_tax_error_message"] = "Некоторые налоги еще не сопоставлены с полосой. Пожалуйста, сопоставьте налоги в настройках подписки.";
+$lang["payment_status"] = "Статус платежа";
+$lang["failed"] = "Сбой";
+$lang["next_billing_date"] = "Следующая дата выставления счета";
+$lang["cancel_subscription"] = "Отменить подписку";
+
+$lang["invoice_number"] = "Номер счета";
+$lang["estimate_number"] = "Оценочное число";
+$lang["order_number"] = "Номер заказа";
+
+$lang["client_can_access_notes"] = "Клиент может получить доступ к заметкам?";
+
+$lang["my_tasks_overview"] = "Обзор моих задач";
+
+$lang["leads_overview"] = "Обзор потенциальных клиентов";
+$lang["converted_to_client"] = "Преобразовано в клиент";
+
+$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Не забудьте добавить эти URL-адреса в URI авторизованного перенаправления";
+
+$lang["merge"] = "Объединить";
+$lang["move_all_comments_or_notes_from"] = "Переместить все комментарии/заметки из";
+$lang["moved_to"] = "Перемещено в";
+
+$lang["ok"] = "ОК";
+$lang["app"] = "Приложение";
+$lang["stripe"] = "Полоса";
+$lang["activate_as_stripe_subscription"] = "Активировать как подписку Stripe";
+$lang["activate_as_internal_subscription"] = "Активировать как внутреннюю подписку";
+$lang["activate_as_stripe_subscription_message_1"] = "Пожалуйста, сопоставьте полосатый продукт и цену с этой подпиской. Вы можете добавить полосатые продукты и цены на панели управления полосой.";
+$lang["activate_as_stripe_subscription_message_2"] = "Клиент получит запрос на добавление способа оплаты для этой подписки. Как только клиент отправит способ оплаты, эта подписка будет активирована, и будет включена автоматическая оплата через Stripe.";
+$lang["activate_as_internal_subscription_message_1"] = "Эта подписка будет управляться приложением. Счета будут создаваться на основе условий подписки.";
+$lang["activate_as_internal_subscription_message_2"] = "Примечание. Платежи не будут производиться автоматически. Для автоматических платежей вы можете использовать подписку на полосу.";
+$lang["subscription_toatl_can_not_empty_message"] = "Общая сумма подписки не может быть равна 0.";
+
+$lang["subscription_request_sent"] = "Запрос на подписку отправлен";
+$lang["notification_subscription_request_sent"] = "Новый запрос на подписку";
+
+$lang["first_billing_date"] = "Первая дата выставления счета";
+$lang["first_billing_date_cant_be_past_message"] = "Первая дата выставления счета не может быть прошедшей. Оставьте это поле пустым, чтобы использовать дату, когда клиент подпишется.";
+
+$lang["gst_number"] = "Номер GST";
+
+$lang["announcement_created"] = "Объявление создано";
+
+$lang["company_logo"] = "Логотип компании";
+
+$lang["task_commented"] = "Задание прокомментировано";
+$lang["task_assigned"] = "Задание назначено";
+$lang["task_general"] = "Общие задачи";
+
+/* Version 3.5 */
+
+$lang["visitors_can_see_store_before_login"] = "Посетители могут видеть магазин перед входом в систему";
+$lang["show_payment_option_after_submitting_the_order"] = "Показать способ оплаты после отправки заказа";
+$lang["accept_order_before_login"] = "Принять заказ перед входом в систему";
+$lang["proceed_to_payment"] = "Перейти к оплате";
+$lang["pay_order"] = "Оплатить заказ";
+$lang["order_status_after_payment"] = "Статус заказа после оплаты";
+$lang["store_settings"] = "Настройки магазина";
+$lang["banner_image_on_public_store"] = "Изображение баннера в общедоступном магазине";
+$lang["your_order_has_been_submitted"] = "Ваш заказ отправлен.";
+
+$lang["re_captcha_error-timeout-or-duplicate"] = "Срок действия reCAPTCHA истек или дублируется. Пожалуйста, перезагрузите страницу.";
+
+$lang["related_to"] = "Связано с";
+
+$lang["hide_from_non_project_related_tasks"] = "Скрыть от задач, не связанных с проектом";
+$lang["add_task_in_project"] = "Добавить задачу в проект";
+
+$lang["general_task"] = "Общая задача";
+$lang["general_task_created"] = "Общая задача создана";
+$lang["general_task_updated"] = "Общая задача обновлена";
+$lang["general_task_assigned"] = "Назначена общая задача";
+$lang["general_task_started"] = "Общая задача запущена";
+$lang["general_task_finished"] = "Общая задача завершена";
+$lang["general_task_reopened"] = "Общая задача повторно открыта";
+$lang["general_task_deleted"] = "Общая задача удалена";
+$lang["general_task_commented"] = "Общая задача прокомментирована";
+
+$lang["notification_general_task_created"] = "Создано новое задание.";
+$lang["notification_general_task_updated"] = "Обновлена задача.";
+$lang["notification_general_task_assigned"] = "Назначено задание %s."; //Assigned a task to Mr. X
+$lang["notification_general_task_started"] = "Запуск задачи.";
+$lang["notification_general_task_finished"] = "Выполнена задача.";
+$lang["notification_general_task_reopened"] = "Повторно открыл задачу.";
+$lang["notification_general_task_deleted"] = "Удалена задача.";
+$lang["notification_general_task_commented"] = "Прокомментировал задачу.";
+
+$lang["bookmark"] = "Закладка";
+$lang["bookmark_icon"] = "Значок закладки";
+$lang["change_filters"] = "Изменить фильтры";
+$lang["manage_filters"] = "Управление фильтрами";
+$lang["new_filter"] = "Новый фильтр";
+$lang["update_filter"] = "Обновить фильтр";
+$lang["add_new_filter"] = "Добавить новый фильтр";
+$lang["show_time_with_task_start_date_and_deadline"] = "Показать время с датой начала и сроком выполнения задачи";
+
+$lang["save_and_continue_to_login_for_payment"] = "Сохранить и продолжить вход для оплаты";
+$lang["public_store_page_setting_help_message"] = "Вы можете установить магазин в качестве целевой страницы, добавив слово 'магазин' в настройках целевой страницы.";
+$lang["public_store_page_setting_permission_error_message"] = "Пожалуйста, разрешите клиентам доступ к магазину.";
+$lang["order_status_after_payment_help_message"] = "Это будет применимо только при статусе заказа";
+
+$lang["subscription_first_billing_date_error_message"] = "Первая дата выставления счета должна быть раньше следующей даты выставления счета в зависимости от расчетного периода!";
+$lang["client_currency_not_editable_message"] = "Валюта недоступна для редактирования при наличии счета, сметы, заказа, предложения, контракта или подписки.";
+
+$lang["subscription_started"] = "Подписка запущена";
+$lang["notification_subscription_started"] = "Начал подписку.";
+
+$lang["subscription_invoice_created_via_cron_job"] = "Счет-фактура подписки, созданный с помощью Cron Job";
+$lang["notification_subscription_invoice_created_via_cron_job"] = "Новый счет, сгенерированный из подписки.";
+
+$lang["create_credit_note"] = "Создать кредит-ноту";
+$lang["create_credit_note_message"] = "Вы уверены? Вы собираетесь полностью кредитовать этот счет. Для этого счета будет создана кредит-нота.";
+$lang["credited"] = "зачислено";
+$lang["credit_note"] = "Кредит-нота";
+$lang["email_credit_note_to_client"] = "Отправить кредит-ноту клиенту по электронной почте";
+$lang["main_invoice"] = "Основной счет";
+$lang["credit_note_id"] = "Идентификатор кредит-ноты";
+$lang["send_credit_note"] = "Отправить кредит-ноту";
+
+$lang["taxable"] = "Облагаемый налогом";
+
+$lang["can_manage_team_members_notes"] = "Можно управлять заметками членов команды?";
+$lang["team_members_can_not_see_own_notes"] = "Члены команды не могут видеть свои заметки.";
+
+$lang["articles_order"] = "Порядок статей";
+$lang["top_menu"] = "Верхнее меню";
+$lang["edit_top_menu"] = "Редактировать верхнее меню";
+
+$lang["top_menu_description_message"] = "Это меню будет видно только на общедоступных страницах";
+$lang["enable_top_menu"] = "Включить верхнее меню";
+$lang["menu_items"] = "Элементы меню";
+
+$lang["landing_page"] = "Целевая страница";
+$lang["landing_page_help_text"] = "Обычно оставьте это поле пустым. Установите это значение, только если вам нужна пользовательская целевая страница. (Пример значения: Knowledge_base)";
+
+$lang["fixed_amount_discount_before_tax_error_message"] = "Скидка с фиксированной суммой не может быть добавлена до налогообложения.";
+
+$lang["invoices_summary"] = "Сводка счетов";
+$lang["estimates_summary"] = "Сводка оценок";
+$lang["leads_summary"] = "Сводка лидов";
+$lang["orders_summary"] = "Сводка заказов";
+$lang["estimate_request_summary"] = "Сводная оценка запроса";
+$lang["proposals_summary"] = "Сводка предложений";
+$lang["expenses_summary"] = "Сводка расходов";
+$lang["monthly_summary"] = "Сводка за месяц";
+
+$lang["yearly_chart"] = "Годовой график";
+$lang["category_chart"] = "Таблица категорий";
+
+$lang["count"] = "Количество";
+$lang["invoice_total"] = "Итоговая сумма счета";
+$lang["order_total"] = "Общая сумма заказа";
+
+$lang["last_7_days"] = "Последние 7 дней";
+$lang["next_7_days"] = "Следующие 7 дней";
+$lang["last_30_days"] = "Последние 30 дней";
+$lang["this_month"] = "Этот месяц";
+$lang["last_month"] = "Прошлый месяц";
+$lang["next_month"] = "Следующий месяц";
+$lang["next_year"] = "Следующий год";
+
+$lang["hold_projects"] = "Отложить проекты";
+$lang["open_tasks"] = "Открыть задачи";
+$lang["completed_tasks"] = "Выполненные задачи";
+
+$lang["team_members_summary"] = "Сводка членов команды";
+$lang["created_date_wise"] = "Дата создания";
+$lang["conversion_date_wise"] = "Дата конверсии";
+
+$lang["ticket_statistics"] = "Статистика билетов";
+
+$lang["can_activate_deactivate_team_members"] = "Может ли активировать деактивировать членов команды?";
+$lang["can_delete_team_members"] = "Можно удалять членов команды?";
+
+$lang["project_settings"] = "Настройки проекта";
+$lang["project_status"] = "Статус проекта";
+$lang["add_project_status"] = "Добавить статус проекта";
+$lang["mark_project_as"] = "Отметить проект как";
+
+$lang["status_language_key_recommendation_help_text"] = "Рекомендуется использовать любой префикс, например, project_status_";
+$lang["edit_project_status"] = "Изменить статус проекта";
+$lang["delete_project_status"] = "Удалить статус проекта";
+
+$lang["open_project_status_recommendation_help_text"] = "Вы можете изменить текст, но этот статус будет считаться исходным открытым.";
+$lang["completed_project_status_recommendation_help_text"] = "Вы можете изменить текст, но этот статус будет считаться завершенным.";
+
+$lang["full_width"] = "Полная ширина";
+$lang["hide_topbar"] = "Скрыть верхнюю панель";
 
 return $lang;
