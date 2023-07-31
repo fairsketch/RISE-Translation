@@ -5,6 +5,7 @@
 /* language locale */
 $lang["language_locale"] = "nl"; //locale code
 $lang["language_locale_long"] = "nl-NL"; //long locale code
+$lang["text_direction"] = "ltr"; //supported value ltr/rtl
 
 /* common */
 $lang["add"] = "Toevoegen";

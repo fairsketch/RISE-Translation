@@ -5,6 +5,7 @@
 /* язык */
 $lang["language_locale"] = "ru"; //locale code
 $lang["language_locale_long"] = "ru-RU"; //long locale code
+$lang["text_direction"] = "ltr"; //supported value ltr/rtl
 
 /* общее */
 $lang["add"] = "Добавить";

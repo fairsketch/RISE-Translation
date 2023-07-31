@@ -5,6 +5,7 @@
 /* language locale */
 $lang["language_locale"] = "fa"; //locale code
 $lang["language_locale_long"] = "fa-IR"; //long locale code
+$lang["text_direction"] = "ltr"; //supported value ltr/rtl
 
 /* common */
 $lang["add"] = "افزودن";

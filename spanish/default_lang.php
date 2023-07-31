@@ -5,6 +5,7 @@
 /* language locale */
 $lang["language_locale"] = "es"; //locale code
 $lang["language_locale_long"] = "es-ES"; //long locale code
+$lang["text_direction"] = "ltr"; //supported value ltr/rtl
 
 /* common */
 $lang["add"] = "Añadir";
