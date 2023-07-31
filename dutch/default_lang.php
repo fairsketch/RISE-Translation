@@ -849,8 +849,8 @@ $lang["short_friday"] = "vr";
 $lang["short_saturday"] = "za";
 
 $lang["min_sunday"] = "zo";
-$lang["min_monday"] = "zo";
-$lang["min_tuesday"] = "zo";
+$lang["min_monday"] = "ma";
+$lang["min_tuesday"] = "di";
 $lang["min_wednesday"] = "wo";
 $lang["min_thursday"] = "do";
 $lang["min_friday"] = "vr";
