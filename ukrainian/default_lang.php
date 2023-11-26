@@ -2345,142 +2345,150 @@ $lang["task_general"] = "Загальне завдання";
 
 /* Version 3.5 */
 
-$lang["visitors_can_see_store_before_login"] = "Visitors can see store before login";
-$lang["show_payment_option_after_submitting_the_order"] = "Show payment option after submitting the order";
-$lang["accept_order_before_login"] = "Accept order before login";
-$lang["proceed_to_payment"] = "Proceed to payment";
-$lang["pay_order"] = "Pay order";
-$lang["order_status_after_payment"] = "Order status after payment";
-$lang["store_settings"] = "Store settings";
-$lang["banner_image_on_public_store"] = "Banner image on public store";
-$lang["your_order_has_been_submitted"] = "Your order has been submitted.";
+$lang["visitors_can_see_store_before_login"] = "Відвідувачі можуть бачити магазин перед входом у систему";
+$lang["show_payment_option_after_submitting_the_order"] = "Показати варіант оплати після подання замовлення";
+$lang["accept_order_before_login"] = "Приймати замовлення перед входом у систему";
+$lang["proceed_to_payment"] = "Перейти до оплати";
+$lang["pay_order"] = "Оплатити замовлення";
+$lang["order_status_after_payment"] = "Статус замовлення після оплати";
+$lang["store_settings"] = "Налаштування магазину";
+$lang["banner_image_on_public_store"] = "Зображення банера на загальнодоступному магазині";
+$lang["your_order_has_been_submitted"] = "Ваше замовлення надіслано.";
 
-$lang["re_captcha_error-timeout-or-duplicate"] = "The reCAPTCHA has been expired or duplicate. Please reload the page.";
+$lang["re_captcha_error-timeout-or-duplicate"] = "Час дії reCAPTCHA минув або подвійний запит. Будь ласка, оновіть сторінку.";
 
-$lang["related_to"] = "Related to";
+$lang["related_to"] = "Пов'язано з";
 
-$lang["hide_from_non_project_related_tasks"] = "Hide from non-project related tasks";
-$lang["add_task_in_project"] = "Add task in project";
+$lang["hide_from_non_project_related_tasks"] = "Приховати від завдань, не пов'язаних з проектом";
+$lang["add_task_in_project"] = "Додати завдання в проект";
 
-$lang["general_task"] = "General task";
-$lang["general_task_created"] = "General task created";
-$lang["general_task_updated"] = "General task updated";
-$lang["general_task_assigned"] = "General task assigned";
-$lang["general_task_started"] = "General task started";
-$lang["general_task_finished"] = "General task finished";
-$lang["general_task_reopened"] = "General task reopened";
-$lang["general_task_deleted"] = "General task deleted";
-$lang["general_task_commented"] = "General task commented";
+$lang["general_task"] = "Загальне завдання";
+$lang["general_task_created"] = "Створено загальне завдання";
+$lang["general_task_updated"] = "Оновлено загальне завдання";
+$lang["general_task_assigned"] = "Призначено загальне завдання";
+$lang["general_task_started"] = "Почато загальне завдання";
+$lang["general_task_finished"] = "Завершено загальне завдання";
+$lang["general_task_reopened"] = "Повторно відкрито загальне завдання";
+$lang["general_task_deleted"] = "Видалено загальне завдання";
+$lang["general_task_commented"] = "Загальне завдання прокоментовано";
 
-$lang["notification_general_task_created"] = "Created a new task.";
-$lang["notification_general_task_updated"] = "Updated a task.";
-$lang["notification_general_task_assigned"] = "Assigned a task to %s."; //Assigned a task to Mr. X
-$lang["notification_general_task_started"] = "Started a task.";
-$lang["notification_general_task_finished"] = "Finished a task.";
-$lang["notification_general_task_reopened"] = "Reopened a task.";
-$lang["notification_general_task_deleted"] = "Deleted a task.";
-$lang["notification_general_task_commented"] = "Commented on a task.";
+$lang["notification_general_task_created"] = "Створено нове завдання.";
+$lang["notification_general_task_updated"] = "Оновлено завдання.";
+$lang["notification_general_task_assigned"] = "Призначено завдання %s."; //Assigned a task to Mr. X
+$lang["notification_general_task_started"] = "Почато завдання.";
+$lang["notification_general_task_finished"] = "Виконано завдання.";
+$lang["notification_general_task_reopened"] = "Повторно відкрито завдання.";
+$lang["notification_general_task_deleted"] = "Видалено завдання.";
+$lang["notification_general_task_commented"] = "Прокоментовано завдання.";
 
-$lang["bookmark"] = "Bookmark";
-$lang["bookmark_icon"] = "Bookmark Icon";
-$lang["change_filters"] = "Change filters";
-$lang["manage_filters"] = "Manage Filters";
-$lang["new_filter"] = "New filter";
-$lang["update_filter"] = "Update filter";
-$lang["add_new_filter"] = "Add new filter";
-$lang["show_time_with_task_start_date_and_deadline"] = "Show time with task start date and deadline";
+$lang["bookmark"] = "Закладка";
+$lang["bookmark_icon"] = "Значок закладки";
+$lang["change_filters"] = "Змінити фільтри";
+$lang["manage_filters"] = "Управління фільтрами";
+$lang["new_filter"] = "Новий фільтр";
+$lang["update_filter"] = "Оновити фільтр";
+$lang["add_new_filter"] = "Додати новий фільтр";
+$lang["show_time_with_task_start_date_and_deadline"] = "Показати час з датою початку та крайнім терміном завдання";
 
-$lang["save_and_continue_to_login_for_payment"] = "Save & continue to login for payment";
-$lang["public_store_page_setting_help_message"] = "You can set the store as landing page by adding 'store' in the landing page setting.";
-$lang["public_store_page_setting_permission_error_message"] = "Please enable the store access permission for clients.";
-$lang["order_status_after_payment_help_message"] = "This will be applicable only when the order status is";
+$lang["save_and_continue_to_login_for_payment"] = "Зберегти і перейти до входу для оплати";
+$lang["public_store_page_setting_help_message"] = "Ви можете встановити магазин як цільову сторінку, додавши слово 'магазин' в налаштування цільової сторінки.";
+$lang["public_store_page_setting_permission_error_message"] = "Будь ласка, дозвольте клієнтам доступ до магазину.";
+$lang["order_status_after_payment_help_message"] = "Це буде застосовуватися тільки для статусу замовлення";
 
-$lang["subscription_first_billing_date_error_message"] = "The first billing date should be before the next billing date based on the billing period!";
-$lang["client_currency_not_editable_message"] = "The currency is not editable when there is any invoice, estimate, order, proposal, contract or subscription.";
+$lang["subscription_first_billing_date_error_message"] = "Перша дата виставлення рахунка повинна бути раніше наступної дати виставлення рахунка в залежності від розрахункового періоду!";
+$lang["client_currency_not_editable_message"] = "Валюта недоступна для редагування при наявності рахунку, кошторису, замовлення, пропозиції, контракту або підписки.";
 
-$lang["subscription_started"] = "Subscription started";
-$lang["notification_subscription_started"] = "Started a subscription.";
+$lang["subscription_started"] = "Підписка розпочата";
+$lang["notification_subscription_started"] = "Почалася підписка.";
 
-$lang["subscription_invoice_created_via_cron_job"] = "Subscription invoice created via Cron Job";
-$lang["notification_subscription_invoice_created_via_cron_job"] = "New invoice generated from subscription.";
+$lang["subscription_invoice_created_via_cron_job"] = "Рахунок-фактура за підпискою, створений за допомогою завдання Cron";
+$lang["notification_subscription_invoice_created_via_cron_job"] = "Новий рахунок, створений з підписки.";
 
-$lang["create_credit_note"] = "Create credit note";
-$lang["create_credit_note_message"] = "Are you sure? You're going to fully credit this invoice. A credit note will be created for this invoice.";
-$lang["credited"] = "Credited";
-$lang["credit_note"] = "Credit Note";
-$lang["email_credit_note_to_client"] = "Email credit note to client";
-$lang["main_invoice"] = "Main invoice";
-$lang["credit_note_id"] = "Credit note ID";
-$lang["send_credit_note"] = "Send credit note";
+$lang["create_credit_note"] = "Створити кредит-ноту";
+$lang["create_credit_note_message"] = "Ви впевнені? Ви збираєтеся повністю кредитувати цей рахунок. Для цього буде створено кредит-ноту.";
+$lang["credited"] = "зараховано";
+$lang["credit_note"] = "Кредит-нота";
+$lang["email_credit_note_to_client"] = "Надіслати кредит-ноту клієнту електронною поштою";
+$lang["main_invoice"] = "Основний рахунок";
+$lang["credit_note_id"] = "Ідентифікатор кредит-ноти";
+$lang["send_credit_note"] = "Надіслати кредит-ноту";
 
-$lang["taxable"] = "Taxable";
+$lang["taxable"] = "Обкладається податком";
 
-$lang["can_manage_team_members_notes"] = "Can manage team member's notes?";
-$lang["team_members_can_not_see_own_notes"] = "Team members can't see own notes.";
+$lang["can_manage_team_members_notes"] = "Чи можна керувати нотатками членів команди?";
+$lang["team_members_can_not_see_own_notes"] = "Члени команди не можуть бачити свої нотатки.";
 
-$lang["articles_order"] = "Articles order";
-$lang["top_menu"] = "Top menu";
-$lang["edit_top_menu"] = "Edit top menu";
+$lang["articles_order"] = "Порядок статей";
+$lang["top_menu"] = "Верхнє меню";
+$lang["edit_top_menu"] = "Редагувати верхнє меню";
 
-$lang["top_menu_description_message"] = "This menu will be visible only in the public pages";
-$lang["enable_top_menu"] = "Enable top menu";
-$lang["menu_items"] = "Menu items";
+$lang["top_menu_description_message"] = "Це меню буде видно лише на загальнодоступних сторінках";
+$lang["enable_top_menu"] = "Увімкнути верхнє меню";
+$lang["menu_items"] = "Елементи меню";
 
-$lang["landing_page"] = "Landing page";
-$lang["landing_page_help_text"] = "Normally keep it blank. Set this value only if you want any custom landing page. (Example value: knowledge_base)";
+$lang["landing_page"] = "Цільова сторінка";
+$lang["landing_page_help_text"] = "Зазвичай залиште це поле порожнім. Встановіть це значення тільки у випадку потреби користувацької цільової сторінки. (Приклад значення: Knowledge_base)";
 
-$lang["fixed_amount_discount_before_tax_error_message"] = "Fixed amount discount can't be added before tax.";
+$lang["fixed_amount_discount_before_tax_error_message"] = "Знижка на фіксовану суму не може бути додана перед нарахуванням податків.";
 
-$lang["invoices_summary"] = "Invoices summary";
-$lang["estimates_summary"] = "Estimates summary";
-$lang["leads_summary"] = "Leads summary";
-$lang["orders_summary"] = "Orders summary";
-$lang["estimate_request_summary"] = "Estimate request summary";
-$lang["proposals_summary"] = "Proposals summary";
-$lang["expenses_summary"] = "Expenses summary";
-$lang["monthly_summary"] = "Monthly summary";
+$lang["invoices_summary"] = "Огляд рахунків";
+$lang["estimates_summary"] = "Огляд оцінок";
+$lang["leads_summary"] = "Огляд лідів";
+$lang["orders_summary"] = "Огляд замовлень";
+$lang["estimate_request_summary"] = "Огляд запитів на оцінку";
+$lang["proposals_summary"] = "Огляд пропозицій";
+$lang["expenses_summary"] = "Огляд витрат";
+$lang["monthly_summary"] = "Місячний огляд";
 
-$lang["yearly_chart"] = "Yearly chart";
-$lang["category_chart"] = "Category chart";
+$lang["yearly_chart"] = "Річна діаграма";
+$lang["category_chart"] = "Діаграма категорій";
 
-$lang["count"] = "Count";
-$lang["invoice_total"] = "Invoice total";
-$lang["order_total"] = "Order total";
+$lang["count"] = "Кількість";
+$lang["invoice_total"] = "Загальна сума рахунку";
+$lang["order_total"] = "Загальна сума замовлення";
 
-$lang["last_7_days"] = "Last 7 Days";
-$lang["next_7_days"] = "Next 7 Days";
-$lang["last_30_days"] = "Last 30 Days";
-$lang["this_month"] = "This Month";
-$lang["last_month"] = "Last Month";
-$lang["next_month"] = "Next Month";
-$lang["next_year"] = "Next Year";
+$lang["last_7_days"] = "Останні 7 днів";
+$lang["next_7_days"] = "Наступні 7 днів";
+$lang["last_30_days"] = "Останні 30 днів";
+$lang["this_month"] = "Цей місяць";
+$lang["last_month"] = "Минулий місяць";
+$lang["next_month"] = "Наступний місяць";
+$lang["next_year"] = "Наступний рік";
 
-$lang["hold_projects"] = "Hold Projects";
-$lang["open_tasks"] = "Open Tasks";
-$lang["completed_tasks"] = "Completed Tasks";
+$lang["hold_projects"] = "Відкласти проекти";
+$lang["open_tasks"] = "Відкриті завдання";
+$lang["completed_tasks"] = "Завершені завдання";
 
-$lang["team_members_summary"] = "Team members summary";
-$lang["created_date_wise"] = "Created date wise";
-$lang["conversion_date_wise"] = "Conversion date wise";
+$lang["team_members_summary"] = "Огляд членів команди";
+$lang["created_date_wise"] = "За датою створення";
+$lang["conversion_date_wise"] = "За датою конверсії";
 
-$lang["ticket_statistics"] = "Ticket Statistics";
+$lang["ticket_statistics"] = "Статистика квитків";
 
-$lang["can_activate_deactivate_team_members"] = "Can activate deactivate team members?";
-$lang["can_delete_team_members"] = "Can delete team members?";
+$lang["can_activate_deactivate_team_members"] = "Чи можна активувати або деактивувати членів команди?";
+$lang["can_delete_team_members"] = "Чи можна видаляти членів команди?";
 
-$lang["project_settings"] = "Project settings";
-$lang["project_status"] = "Project Status";
-$lang["add_project_status"] = "Add project status";
-$lang["mark_project_as"] = "Mark Project as";
+$lang["project_settings"] = "Налаштування проекту";
+$lang["project_status"] = "Статус проекту";
+$lang["add_project_status"] = "Додати статус проекту";
+$lang["mark_project_as"] = "Відзначити проект як";
 
-$lang["status_language_key_recommendation_help_text"] = "Recommended to use any prefix like project_status_";
-$lang["edit_project_status"] = "Edit project status";
-$lang["delete_project_status"] = "Delete project status";
+$lang["status_language_key_recommendation_help_text"] = "Рекомендується використовувати будь-який префікс, наприклад project_status_";
+$lang["edit_project_status"] = "Редагувати статус проекту";
+$lang["delete_project_status"] = "Видалити статус проекту";
 
-$lang["open_project_status_recommendation_help_text"] = "You can change the text, but this status will be considered as initial open status.";
-$lang["completed_project_status_recommendation_help_text"] = "You can change the text, but this status will be considered as completed.";
+$lang["open_project_status_recommendation_help_text"] = "Ви можете змінити текст, але цей статус буде вважатися вихідним відкритим.";
+$lang["completed_project_status_recommendation_help_text"] = "Ви можете змінити текст, але цей статус буде вважатися завершеним.";
 
-$lang["full_width"] = "Full width";
-$lang["hide_topbar"] = "Hide topbar";
+$lang["full_width"] = "Повна ширина";
+$lang["hide_topbar"] = "Приховати верхню панель";
+
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Включить состояние блокировки";
+$lang["invoice_lock_state_description"] = "После включения состояния блокировки счета нельзя будет редактировать после отправки клиенту или изменения статуса.";
+$lang["estimate_lock_state_description"] = "После того, как вы включите состояние блокировки, принятые оценки нельзя будет редактировать.";
+$lang["proposal_lock_state_description"] = "После включения состояния блокировки принятые предложения нельзя будет редактировать.";
+$lang["contract_lock_state_description"] = "После того, как вы включите состояние блокировки, принятые контракты нельзя будет редактировать.";
 
 return $lang;
