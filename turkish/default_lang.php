@@ -745,1781 +745,1783 @@ $lang["collaborators"] = "Yardımcılar";
 
 /* Version 1.4 */
 
-$lang["modules"] = "Modules";
-$lang["manage_modules"] = "Manage Modules";
-$lang["module_settings_instructions"] = "Select the modules you want to use.";
+$lang["modules"] = "Modüller";
+$lang["manage_modules"] = "Modülleri Yönet";
+$lang["module_settings_instructions"] = "Kullanmak istediğiniz modülleri seçin.";
 
-$lang["task_point_help_text"] = "Task point considered as a task value. You can set 5 points for very difficult tasks and 1 point for easy tasks."; //meaning of task point
+$lang["task_point_help_text"] = "Görev puanı, bir görevin değeri olarak kabul edilir. Çok zor görevler için 5 puan ve kolay görevler için 1 puan ayarlayabilirsiniz."; //görev puanının anlamı
 
-$lang["mark_as_open"] = "Mark as Open";
-$lang["mark_as_closed"] = "Mark as Closed";
+$lang["mark_as_open"] = "Açık Olarak İşaretle";
+$lang["mark_as_closed"] = "Kapalı Olarak İşaretle";
 
-$lang["ticket_assignee"] = "Ticket assignee";
+$lang["ticket_assignee"] = "Bilet Atananı";
 
-$lang["estimate"] = "Estimate";
-$lang["estimates"] = "Estimates";
-$lang["estimate_request"] = "Estimate Request";
-$lang["estimate_requests"] = "Estimate Requests";
-$lang["estimate_list"] = "Estimate List";
-$lang["estimate_forms"] = "Estimate Forms";
-$lang["estimate_request_forms"] = "Estimate Request Forms";
+$lang["estimate"] = "Tahmin";
+$lang["estimates"] = "Tahminler";
+$lang["estimate_request"] = "Tahmin İsteği";
+$lang["estimate_requests"] = "Tahmin İstekleri";
+$lang["estimate_list"] = "Tahmin Listesi";
+$lang["estimate_forms"] = "Tahmin Formları";
+$lang["estimate_request_forms"] = "Tahmin İsteği Formları";
 
-$lang["add_form"] = "Add form";
-$lang["edit_form"] = "Edit form";
-$lang["delete_form"] = "Delete form";
+$lang["add_form"] = "Form Ekle";
+$lang["edit_form"] = "Formu Düzenle";
+$lang["delete_form"] = "Formu Sil";
 
-$lang["add_field"] = "Add field";
-$lang["placeholder"] = "Placeholder";
-$lang["required"] = "Required";
+$lang["add_field"] = "Alan Ekle";
+$lang["placeholder"] = "Yer tutucu";
+$lang["required"] = "Gerekli";
 
-$lang["field_type"] = "Field Type";
-$lang["preview"] = "Preview";
+$lang["field_type"] = "Alan Tipi";
+$lang["preview"] = "Önizleme";
 
-$lang["field_type_text"] = "Text";
-$lang["field_type_textarea"] = "Textarea";
-$lang["field_type_select"] = "Select";
-$lang["field_type_multi_select"] = "Multi Select";
+$lang["field_type_text"] = "Metin";
+$lang["field_type_textarea"] = "Metin Alanı";
+$lang["field_type_select"] = "Seç";
+$lang["field_type_multi_select"] = "Çoklu Seçim";
 
-$lang["request_an_estimate"] = "Request an Estimate";
-$lang["estimate_submission_message"] = "Your request has been submitted successfully!";
+$lang["request_an_estimate"] = "Bir Tahmin İste";
+$lang["estimate_submission_message"] = "İsteğiniz başarıyla gönderildi!";
 
-$lang["hold"] = "Hold";
-$lang["processing"] = "Processing";
-$lang["estimated"] = "Estimated";
+$lang["hold"] = "Beklet";
+$lang["processing"] = "İşleniyor";
+$lang["estimated"] = "Tahmini";
 
-$lang["add_estimate"] = "Add estimate";
-$lang["edit_estimate"] = "Edit estimate";
-$lang["delete_estimate"] = "Delete estimate";
-$lang["valid_until"] = "Valid until";
-$lang["estimate_date"] = "Estimate date";
-$lang["accepted"] = "Accepted";
-$lang["declined"] = "Declined";
-$lang["sent"] = "Sent";
-$lang["estimate_preview"] = "Estimate Preview";
-$lang["estimate_to"] = "Estimate To";
+$lang["add_estimate"] = "Tahmin Ekle";
+$lang["edit_estimate"] = "Tahmini Düzenle";
+$lang["delete_estimate"] = "Tahmini Sil";
+$lang["valid_until"] = "Geçerlilik Tarihi";
+$lang["estimate_date"] = "Tahmin Tarihi";
+$lang["accepted"] = "Kabul Edildi";
+$lang["declined"] = "Reddedildi";
+$lang["sent"] = "Gönderildi";
+$lang["estimate_preview"] = "Tahmin Önizlemesi";
+$lang["estimate_to"] = "Tahmini";
 
-$lang["can_access_estimates"] = "Can access estimates?";
-$lang["request_an_estimate"] = "Request an estimate";
-$lang["estimate_request_form_selection_title"] = "Please select a form from the following list to submit your request.";
+$lang["can_access_estimates"] = "Tahminlere erişebilir mi?";
+$lang["request_an_estimate"] = "Bir tahmin talep et";
+$lang["estimate_request_form_selection_title"] = "İsteğinizi göndermek için aşağıdaki listeden bir form seçin.";
 
-$lang["mark_as_processing"] = "Mark as Processing";
-$lang["mark_as_estimated"] = "Mark as Estimated";
-$lang["mark_as_hold"] = "Mark as Hold";
-$lang["mark_as_canceled"] = "Mark as Canceled";
+$lang["mark_as_processing"] = "İşleniyor Olarak İşaretle";
+$lang["mark_as_estimated"] = "Tahmini Olarak İşaretle";
+$lang["mark_as_hold"] = "Beklemede Olarak İşaretle";
+$lang["mark_as_canceled"] = "İptal Edildi Olarak İşaretle";
 
-$lang["mark_as_sent"] = "Mark as Sent";
-$lang["mark_as_accepted"] = "Mark as Accepted";
-$lang["mark_as_rejected"] = "Mark as Rejected";
-$lang["mark_as_declined"] = "Mark as Declined";
+$lang["mark_as_sent"] = "Gönderildi Olarak İşaretle";
+$lang["mark_as_accepted"] = "Kabul Edildi Olarak İşaretle";
+$lang["mark_as_rejected"] = "Reddedildi Olarak İşaretle";
+$lang["mark_as_declined"] = "Reddedildi Olarak İşaretle";
 
-$lang["estimate_request_received"] = "Estimate request received";
-$lang["estimate_sent"] = "Estimate sent";
-$lang["estimate_accepted"] = "Estimate accepted";
-$lang["estimate_rejected"] = "Estimate rejected";
+$lang["estimate_request_received"] = "Tahmin isteği alındı";
+$lang["estimate_sent"] = "Tahmin gönderildi";
+$lang["estimate_accepted"] = "Tahmin kabul edildi";
+$lang["estimate_rejected"] = "Tahmin reddedildi";
 
-$lang["notification_estimate_request_received"] = "Submitted an estimate request";
-$lang["notification_estimate_sent"] = "Sent an estimate";
-$lang["notification_estimate_accepted"] = "Accepted an estimate";
-$lang["notification_estimate_rejected"] = "Rejected an estimate";
+$lang["notification_estimate_request_received"] = "Bir tahmin isteği gönderildi";
+$lang["notification_estimate_sent"] = "Bir tahmin gönderildi";
+$lang["notification_estimate_accepted"] = "Bir tahmin kabul edildi";
+$lang["notification_estimate_rejected"] = "Bir tahmin reddedildi";
 
-$lang["clone_project"] = "Clone Project";
-$lang["copy_tasks"] = "Copy tasks";
-$lang["copy_project_members"] = "Copy project members";
-$lang["copy_milestones"] = "Copy milestones";
-$lang["copy_same_assignee_and_collaborators"] = "Copy same assignee and collaborators";
-$lang["copy_tasks_start_date_and_deadline"] = "Copy tasks start date and deadline";
-$lang["task_comments_will_not_be_included"] = "Tasks comments will not be included";
-$lang["project_cloned_successfully"] = "The project has been cloned successfully";
+$lang["clone_project"] = "Projeyi Klonla";
+$lang["copy_tasks"] = "Görevleri Kopyala";
+$lang["copy_project_members"] = "Proje üyelerini kopyala";
+$lang["copy_milestones"] = "Kilometre taşlarını kopyala";
+$lang["copy_same_assignee_and_collaborators"] = "Aynı atananı ve işbirlikçileri kopyala";
+$lang["copy_tasks_start_date_and_deadline"] = "Görevlerin başlangıç tarihini ve son tarihini kopyala";
+$lang["task_comments_will_not_be_included"] = "Görev yorumları dahil edilmeyecek";
+$lang["project_cloned_successfully"] = "Proje başarıyla klonlandı";
 
-$lang["search"] = "Search";
-$lang["no_record_found"] = "No record found.";
+$lang["search"] = "Ara";
+$lang["no_record_found"] = "Kayıt bulunamadı.";
 $lang["excel"] = "Excel";
-$lang["print_button_help_text"] = "Press escape when finished.";
-$lang["are_you_sure"] = "Are you sure?";
-$lang["file_upload_instruction"] = "Drag-and-drop documents here <br /> (or click to browse...)";
-$lang["file_name_too_long"] = "Filename is too long.";
-$lang["scrollbar"] = "Scrollbar";
+$lang["print_button_help_text"] = "Bittiğinde escape tuşuna basın.";
+$lang["are_you_sure"] = "Emin misiniz?";
+$lang["file_upload_instruction"] = "Belgeleri buraya sürükleyip bırakın <br /> (ya da gözatmak için tıklayın...)";
+$lang["file_name_too_long"] = "Dosya adı çok uzun.";
+$lang["scrollbar"] = "Kaydırma çubuğu";
 
-$lang["short_sunday"] = "Sun";
-$lang["short_monday"] = "Mon";
-$lang["short_tuesday"] = "Tue";
-$lang["short_wednesday"] = "Wed";
-$lang["short_thursday"] = "Thu";
-$lang["short_friday"] = "Fri";
-$lang["short_saturday"] = "Sat";
+$lang["short_sunday"] = "Paz";
+$lang["short_monday"] = "Pzt";
+$lang["short_tuesday"] = "Sal";
+$lang["short_wednesday"] = "Çar";
+$lang["short_thursday"] = "Per";
+$lang["short_friday"] = "Cum";
+$lang["short_saturday"] = "Cmt";
 
-$lang["min_sunday"] = "Su";
-$lang["min_monday"] = "Mo";
-$lang["min_tuesday"] = "Tu";
-$lang["min_wednesday"] = "We";
-$lang["min_thursday"] = "Th";
-$lang["min_friday"] = "Fr";
-$lang["min_saturday"] = "Sa";
+$lang["min_sunday"] = "Pa";
+$lang["min_monday"] = "Pt";
+$lang["min_tuesday"] = "Sa";
+$lang["min_wednesday"] = "Ça";
+$lang["min_thursday"] = "Pe";
+$lang["min_friday"] = "Cu";
+$lang["min_saturday"] = "Ct";
 
-$lang["january"] = "January";
-$lang["february"] = "February";
-$lang["march"] = "March";
-$lang["april"] = "April";
-$lang["may"] = "May";
-$lang["june"] = "June";
-$lang["july"] = "July";
-$lang["august"] = "August";
-$lang["september"] = "September";
-$lang["october"] = "October";
-$lang["november"] = "November";
-$lang["december"] = "December";
+$lang["january"] = "Ocak";
+$lang["february"] = "Şubat";
+$lang["march"] = "Mart";
+$lang["april"] = "Nisan";
+$lang["may"] = "Mayıs";
+$lang["june"] = "Haziran";
+$lang["july"] = "Temmuz";
+$lang["august"] = "Ağustos";
+$lang["september"] = "Eylül";
+$lang["october"] = "Ekim";
+$lang["november"] = "Kasım";
+$lang["december"] = "Aralık";
 
-$lang["short_january"] = "Jan";
-$lang["short_february"] = "Feb";
+$lang["short_january"] = "Oca";
+$lang["short_february"] = "Şub";
 $lang["short_march"] = "Mar";
-$lang["short_april"] = "Apr";
+$lang["short_april"] = "Nis";
 $lang["short_may"] = "May";
-$lang["short_june"] = "Jun";
-$lang["short_july"] = "Jul";
-$lang["short_august"] = "Aug";
-$lang["short_september"] = "Sep";
-$lang["short_october"] = "Oct";
-$lang["short_november"] = "Nov";
-$lang["short_december"] = "Dec";
+$lang["short_june"] = "Haz";
+$lang["short_july"] = "Tem";
+$lang["short_august"] = "Ağu";
+$lang["short_september"] = "Eyl";
+$lang["short_october"] = "Eki";
+$lang["short_november"] = "Kas";
+$lang["short_december"] = "Ara";
 
 /* Version 1.5 */
 
-$lang["no_such_file_or_directory_found"] = "No such file or directory.";
+$lang["no_such_file_or_directory_found"] = "Böyle bir dosya ya da dizin bulunamadı.";
 $lang["gantt"] = "Gantt";
-$lang["not_specified"] = "Not specified";
-$lang["group_by"] = "Group by";
-$lang["create_invoice"] = "Create Invoice";
-$lang["include_all_items_of_this_estimate"] = "Include all items of this estimate";
-$lang["edit_payment"] = "Edit payment";
-$lang["disable_client_login"] = "Disable client login";
-$lang["disable_client_signup"] = "Disable client signup";
+$lang["not_specified"] = "Belirtilmemiş";
+$lang["group_by"] = "Grupla";
+$lang["create_invoice"] = "Fatura Oluştur";
+$lang["include_all_items_of_this_estimate"] = "Bu tahminin tüm kalemlerini dahil et";
+$lang["edit_payment"] = "Ödemeyi düzenle";
+$lang["disable_client_login"] = "Müşteri girişini devre dışı bırak";
+$lang["disable_client_signup"] = "Müşteri kaydını devre dışı bırak";
 
-$lang["chart"] = "Chart";
-$lang["signin_page_background"] = "Signin page background";
-$lang["show_logo_in_signin_page"] = "Show logo in signin page";
-$lang["show_background_image_in_signin_page"] = "Show background image in signin page";
+$lang["chart"] = "Grafik";
+$lang["signin_page_background"] = "Giriş sayfası arka planı";
+$lang["show_logo_in_signin_page"] = "Giriş sayfasında logo göster";
+$lang["show_background_image_in_signin_page"] = "Giriş sayfasında arka plan resmi göster";
 
 /* Version 1.6 */
 
-$lang["more"] = "More";
-$lang["custom"] = "Custom";
-$lang["clear"] = "Clear";
-$lang["expired"] = "Expired";
-$lang["enable_attachment"] = "Enable attachment";
-$lang["custom_fields"] = "Custom fields";
-$lang["edit_field"] = "Edit field";
-$lang["delete_field"] = "Delete field";
-$lang["client_info"] = "Client info";
-$lang["edit_expenses_category"] = "Edit expenses category";
-$lang["eelete_expenses_category"] = "Delete expenses category";
-$lang["empty_starred_projects"] = "To access your favorite projects quickly, please go to the project view and mark the star.";
-$lang["empty_starred_clients"] = "To access your favorite clients quickly, please go to the client view and mark the star.";
-$lang["download_zip_name"] = "documents";
-$lang["invoice_prefix"] = "Invoice prefix";
-$lang["invoice_style"] = "Invoice style";
-$lang["delete_confirmation_message"] = " Are you sure? You won't be able to undo this action!";
-$lang["left"] = "Left";
-$lang["right"] = "Right";
-$lang["currency_position"] = "Currency Position";
-$lang["recipient"] = "Recipient";
+$lang["more"] = "Daha fazla";
+$lang["custom"] = "Özel";
+$lang["clear"] = "Temizle";
+$lang["expired"] = "Süresi dolmuş";
+$lang["enable_attachment"] = "Eklentiyi etkinleştir";
+$lang["custom_fields"] = "Özel alanlar";
+$lang["edit_field"] = "Alanı düzenle";
+$lang["delete_field"] = "Alanı sil";
+$lang["client_info"] = "Müşteri bilgisi";
+$lang["edit_expenses_category"] = "Gider kategorisini düzenle";
+$lang["delete_expenses_category"] = "Gider kategorisini sil";
+$lang["empty_starred_projects"] = "Favori projelerinize hızlıca erişmek için lütfen proje görünümüne gidin ve yıldızı işaretleyin.";
+$lang["empty_starred_clients"] = "Favori müşterilerinize hızlıca erişmek için lütfen müşteri görünümüne gidin ve yıldızı işaretleyin.";
+$lang["download_zip_name"] = "belgeler";
+$lang["invoice_prefix"] = "Fatura öneki";
+$lang["invoice_style"] = "Fatura stili";
+$lang["delete_confirmation_message"] = " Emin misiniz? Bu işlemi geri alamazsınız!";
+$lang["left"] = "Sol";
+$lang["right"] = "Sağ";
+$lang["currency_position"] = "Para birimi pozisyonu";
+$lang["recipient"] = "Alıcı";
 
-$lang["new_message_sent"] = "New message sent";
-$lang["message_reply_sent"] = "Message replied";
-$lang["notification_new_message_sent"] = "Sent a message.";
-$lang["notification_message_reply_sent"] = "Replied a message.";
-$lang["invoice_payment_confirmation"] = "Invoice payment confirmation";
-$lang["notification_invoice_payment_confirmation"] = "Payment received";
+$lang["new_message_sent"] = "Yeni mesaj gönderildi";
+$lang["message_reply_sent"] = "Mesaj yanıtlandı";
+$lang["notification_new_message_sent"] = "Bir mesaj gönderildi.";
+$lang["notification_message_reply_sent"] = "Bir mesaja yanıt verildi.";
+$lang["invoice_payment_confirmation"] = "Fatura ödeme onayı";
+$lang["notification_invoice_payment_confirmation"] = "Ödeme alındı";
 
 /* Version 1.7 */
 
-$lang["client_can_create_projects"] = "Client can create projects?";
-$lang["client_can_view_timesheet"] = "Client can view timesheet?";
-$lang["client_can_view_gantt"] = "Client can view gantt?";
-$lang["client_can_view_overview"] = "Client can view project overview?";
-$lang["client_can_view_milestones"] = "Client can view milestones?";
+$lang["client_can_create_projects"] = "Müşteri projeler oluşturabilir mi?";
+$lang["client_can_view_timesheet"] = "Müşteri zaman çizelgesini görebilir mi?";
+$lang["client_can_view_gantt"] = "Müşteri gantt'ı görebilir mi?";
+$lang["client_can_view_overview"] = "Müşteri proje genel bakışını görebilir mi?";
+$lang["client_can_view_milestones"] = "Müşteri kilometre taşlarını görebilir mi?";
 
-$lang["items"] = "Items";
-$lang["edit_item"] = "Edit item";
-$lang["item_edit_instruction"] = "Note: The changes will not be affected on existing invoices, estimates or orders.";
+$lang["items"] = "Kalemler";
+$lang["edit_item"] = "Kalemi düzenle";
+$lang["item_edit_instruction"] = "Not: Değişiklikler mevcut faturaları, tahminleri veya siparişleri etkilemeyecektir.";
 
-$lang["recurring"] = "Recurring";
-$lang["repeat_every"] = "Repeat every"; //Ex. repeat every 2 months
-$lang["interval_days"] = "Day(s)";
-$lang["interval_weeks"] = "Week(s)";
-$lang["interval_months"] = "Month(s)";
-$lang["interval_years"] = "Year(s)";
-$lang["cycles"] = "Cycles";
-$lang["recurring_cycle_instructions"] = "Recurring will be stopped after the number of cycles. Keep it blank for infinity.";
-$lang["next_recurring_date"] = "Next recurring";
-$lang["stopped"] = "Stopped";
-$lang["past_recurring_date_error_message_title"] = "The selected bill date and repeat type returns a past date.";
-$lang["past_recurring_date_error_message"] = "Next recurring date must be a future date. Please enter a future date.";
-$lang["sub_invoices"] = "Sub invoices";
+$lang["recurring"] = "Yinelenen";
+$lang["repeat_every"] = "Her tekrarla"; //Ör. her 2 ayda bir tekrarla
+$lang["interval_days"] = "Gün(ler)";
+$lang["interval_weeks"] = "Hafta(lar)";
+$lang["interval_months"] = "Ay(lar)";
+$lang["interval_years"] = "Yıl(lar)";
+$lang["cycles"] = "Döngüler";
+$lang["recurring_cycle_instructions"] = "Yinelenen, döngü sayısından sonra durdurulacaktır. Sonsuzluk için boş bırakın.";
+$lang["next_recurring_date"] = "Sonraki yinelenen tarih";
+$lang["stopped"] = "Durduruldu";
+$lang["past_recurring_date_error_message_title"] = "Seçilen fatura tarihi ve tekrar tipi geçmiş bir tarihe dönüyor.";
+$lang["past_recurring_date_error_message"] = "Sonraki yinelenen tarih gelecek bir tarih olmalıdır. Lütfen bir gelecek tarih girin.";
+$lang["sub_invoices"] = "Alt faturalar";
 
-$lang["cron_job_required"] = "Cron Job is required for this action!";
+$lang["cron_job_required"] = "Bu işlem için Cron Job gereklidir!";
 
-$lang["recurring_invoice_created_vai_cron_job"] = "Recurring invoice created via Cron Job";
-$lang["notification_recurring_invoice_created_vai_cron_job"] = "New invoice generated";
+$lang["recurring_invoice_created_vai_cron_job"] = "Cron Job aracılığıyla yinelenen fatura oluşturuldu";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "Yeni fatura oluşturuldu";
 
-$lang["field_type_number"] = "Number";
-$lang["show_in_table"] = "Show in table";
-$lang["show_in_invoice"] = "Show in invoice";
-$lang["visible_to_admins_only"] = "Visible to admins only";
-$lang["hide_from_clients"] = "Hide from clients";
-$lang["public"] = "Public";
+$lang["field_type_number"] = "Numara";
+$lang["show_in_table"] = "Tabloda göster";
+$lang["show_in_invoice"] = "Faturada göster";
+$lang["visible_to_admins_only"] = "Yalnızca yöneticilere görünür";
+$lang["hide_from_clients"] = "Müşterilerden gizle";
+$lang["public"] = "Herkese açık";
 
-$lang["help"] = "Help";
-$lang["articles"] = "Articles";
-$lang["add_article"] = "Add new article";
-$lang["edit_article"] = "Edit article";
-$lang["delete_article"] = "Delete article";
-$lang["can_manage_help_and_knowledge_base"] = "Can manage help and knowledge base?";
+$lang["help"] = "Yardım";
+$lang["articles"] = "Makaleler";
+$lang["add_article"] = "Yeni makale ekle";
+$lang["edit_article"] = "Makaleyi düzenle";
+$lang["delete_article"] = "Makaleyi sil";
+$lang["can_manage_help_and_knowledge_base"] = "Yardım ve bilgi tabanını yönetebilir mi?";
 
-$lang["how_can_we_help"] = "How can we help?";
-$lang["help_page_title"] = "Internal Wiki";
-$lang["search_your_question"] = "Search your question";
-$lang["no_result_found"] = "No result found.";
-$lang["sort"] = "Sort";
-$lang["total_views"] = "Total views";
+$lang["how_can_we_help"] = "Nasıl yardımcı olabiliriz?";
+$lang["help_page_title"] = "Dahili Wiki";
+$lang["search_your_question"] = "Sorunuzu arayın";
+$lang["no_result_found"] = "Sonuç bulunamadı.";
+$lang["sort"] = "Sırala";
+$lang["total_views"] = "Toplam görüntülenme";
 
-$lang["help_and_support"] = "Help & Support";
-$lang["knowledge_base"] = "Knowledge base";
+$lang["help_and_support"] = "Yardım & Destek";
+$lang["knowledge_base"] = "Bilgi tabanı";
 
-$lang["payment_success_message"] = "Your payment has been completed.";
-$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
-$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+$lang["payment_success_message"] = "Ödemeniz tamamlandı.";
+$lang["payment_card_charged_but_system_error_message"] = "Kartınızdan ücret alınabilir ancak işlemi tamamlayamayabiliriz. Lütfen sistem yöneticinize başvurun.";
+$lang["card_payment_failed_error_message"] = "Şu anda ödemenizi işleme alamıyoruz, lütfen daha sonra tekrar deneyin.";
 
-$lang["message_received"] = "Message received";
-$lang["in_number_of_days"] = "In %s days"; //Ex. In 7 days
-$lang["details"] = "Details";
-$lang["summary"] = "Summary";
-$lang["project_timesheet"] = "Project timesheet";
+$lang["message_received"] = "Mesaj alındı";
+$lang["in_number_of_days"] = "%s gün içinde"; //Örn. 7 gün içinde
+$lang["details"] = "Detaylar";
+$lang["summary"] = "Özet";
+$lang["project_timesheet"] = "Proje zaman çizelgesi";
 
-$lang["set_event_permissions"] = "Set event permissions";
-$lang["disable_event_sharing"] = "Disable event sharing";
-$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
-$lang["can_manage_team_members_project_timesheet"] = "Can manage team member's project timesheet?";
+$lang["set_event_permissions"] = "Etkinlik izinlerini ayarla";
+$lang["disable_event_sharing"] = "Etkinlik paylaşımını devre dışı bırak";
+$lang["can_update_team_members_general_info_and_social_links"] = "Takım üyesinin genel bilgilerini ve sosyal bağlantılarını güncelleyebilir mi?";
+$lang["can_manage_team_members_project_timesheet"] = "Takım üyesinin proje zaman çizelgesini yönetebilir mi?";
 
-$lang["cron_job"] = "Cron Job";
-$lang["cron_job_link"] = "Cron Job link";
-$lang["last_cron_job_run"] = "Last Cron Job run";
-$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
-$lang["recommended_execution_interval"] = "Recommended execution interval";
+$lang["cron_job"] = "Cron İşi";
+$lang["cron_job_link"] = "Cron İşi bağlantısı";
+$lang["last_cron_job_run"] = "Son Cron İşi çalıştırma";
+$lang["created_from"] = "Oluşturulma kaynağı"; //Örn. Fatura#1'den oluşturuldu
+$lang["recommended_execution_interval"] = "Önerilen yürütme aralığı";
 
 /* Version 1.8 */
 
-$lang["integration"] = "Integration";
-$lang["get_your_key_from_here"] = "Get your key from here:";
-$lang["re_captcha_site_key"] = "Site key";
-$lang["re_captcha_secret_key"] = "Secret key";
 
-$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
-$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
-$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
-$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
-$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
-$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+$lang["integration"] = "Entegrasyon";
+$lang["get_your_key_from_here"] = "Anahtarınızı buradan alın:";
+$lang["re_captcha_site_key"] = "Site anahtarı";
+$lang["re_captcha_secret_key"] = "Gizli anahtar";
 
-$lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
+$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA gizli anahtarı eksik";
+$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA gizli anahtarı geçersiz.";
+$lang["re_captcha_error-missing-input-response"] = "Lütfen reCAPTCHA'yı seçin.";
+$lang["re_captcha_error-invalid-input-response"] = "Yanıt parametresi geçersiz veya hatalı formatta.";
+$lang["re_captcha_error-bad-request"] = "İstek geçersiz veya hatalı formatta.";
+$lang["re_captcha_expired"] = "reCAPTCHA'nın süresi dolmuş. Lütfen sayfayı yeniden yükleyin.";
 
-$lang["can_manage_all_projects"] = "Can manage all projects";
-$lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
+$lang["yes_all_tickets"] = "Evet, tüm biletler";
+$lang["choose_ticket_types"] = "Bilet türlerini seçin";
 
-$lang["new_event_added_in_calendar"] = "New event added in calendar";
-$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+$lang["can_manage_all_projects"] = "Tüm projeleri yönetebilir";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "En son bilet yorumlarını en üstte göster";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "Add a to do...";
+$lang["new_event_added_in_calendar"] = "Takvime yeni etkinlik eklendi";
+$lang["notification_new_event_added_in_calendar"] = "Yeni bir etkinlik eklendi.";
+
+$lang["todo"] = "Yapılacaklar";
+$lang["add_a_todo"] = "Bir yapılacak ekle...";
 
 /* Version 1.9 */
 
-$lang["client_groups"] = "Client groups";
-$lang["add_client_group"] = "Add client group";
-$lang["edit_client_group"] = "Edit client group";
-$lang["delete_client_group"] = "Delete client group";
+$lang["client_groups"] = "Müşteri grupları";
+$lang["add_client_group"] = "Müşteri grubu ekle";
+$lang["edit_client_group"] = "Müşteri grubunu düzenle";
+$lang["delete_client_group"] = "Müşteri grubunu sil";
 
-$lang["ticket_prefix"] = "Ticket prefix";
-$lang["add_a_task"] = "Add a task...";
+$lang["ticket_prefix"] = "Bilet öneki";
+$lang["add_a_task"] = "Bir görev ekle...";
 
-$lang["add_task_status"] = "Add task status";
-$lang["edit_task_status"] = "Edit task status";
-$lang["delete_task_status"] = "Delete task status";
+$lang["add_task_status"] = "Görev durumu ekle";
+$lang["edit_task_status"] = "Görev durumunu düzenle";
+$lang["delete_task_status"] = "Görev durumunu sil";
 
-$lang["list"] = "List";
+$lang["list"] = "Liste";
 $lang["kanban"] = "Kanban";
-$lang["priority"] = "Priority";
-$lang["moved_up"] = "Moved Up";
-$lang["moved_down"] = "Moved Down";
-$lang["mark_project_as_hold"] = "Mark Project as Hold";
+$lang["priority"] = "Öncelik";
+$lang["moved_up"] = "Yukarı Taşındı";
+$lang["moved_down"] = "Aşağı Taşındı";
+$lang["mark_project_as_hold"] = "Projeyi Beklemede Olarak İşaretle";
 
-$lang["repeat"] = "Repeat";
+$lang["repeat"] = "Tekrarla";
 
-$lang["hide_team_members_list"] = "Hide team members list?";
+$lang["hide_team_members_list"] = "Takım üyeleri listesini gizle?";
 
 /* Version 2.0 */
 
-$lang["summary_details"] = "Summary details";
+$lang["summary_details"] = "Özet detaylar";
 
-$lang["chat"] = "Chat";
-$lang["my_preferences"] = "My preferences";
-$lang["show_push_notification"] = "Show push notification";
-$lang["notification_sound_volume"] = "Notification sound volume";
+$lang["chat"] = "Sohbet";
+$lang["my_preferences"] = "Tercihlerim";
+$lang["show_push_notification"] = "Anında bildirim göster";
+$lang["notification_sound_volume"] = "Bildirim sesi seviyesi";
 
-$lang["project_reference_in_tickets"] = "Enable project reference";
+$lang["project_reference_in_tickets"] = "Biletlerde proje referansını etkinleştir";
 
-$lang["hide_menus_from_client_portal"] = "Hide menus from client portal";
-$lang["hidden_menus"] = "Hidden menus";
+$lang["hide_menus_from_client_portal"] = "Müşteri portalından menüleri gizle";
+$lang["hidden_menus"] = "Gizli menüler";
 
-$lang["new_announcement_created"] = "New announcement created";
-$lang["notification_new_announcement_created"] = "Created an announcement.";
+$lang["new_announcement_created"] = "Yeni duyuru oluşturuldu";
+$lang["notification_new_announcement_created"] = "Bir duyuru oluşturuldu.";
 
-$lang["month"] = "Month";
-$lang["profit"] = "Profit";
+$lang["month"] = "Ay";
+$lang["profit"] = "Kâr";
 
-$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
-$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
-$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
-$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
-$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
-$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+$lang["invoice_due_reminder_before_due_date"] = "Vadesi dolmadan önce fatura hatırlatıcısı";
+$lang["send_due_invoice_reminder_notification_before"] = "Vadesi dolmadan önce fatura hatırlatıcı bildirimi gönder";
+$lang["send_invoice_overdue_reminder_after"] = "Vadesi geçtikten sonra fatura hatırlatıcı bildirimi gönder";
+$lang["invoice_overdue_reminder"] = "Vadesi geçmiş fatura hatırlatıcısı";
+$lang["recurring_invoice_creation_reminder"] = "Yinelenen fatura oluşturma hatırlatıcısı";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Oluşturmadan önce yinelenen fatura hatırlatıcısı gönder";
 
-$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
-$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
-$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+$lang["notification_invoice_due_reminder_before_due_date"] = "Hatırlatma: Fatura vadesi.";
+$lang["notification_invoice_overdue_reminder"] = "Hatırlatma: Fatura vadesi geçmiş";
+$lang["notification_recurring_invoice_creation_reminder"] = "Yakında bir fatura oluşturulacak.";
 
-$lang["can_delete_leave_application"] = "Can delete leave application?";
-$lang["no_of_decimals"] = "No. of decimals";
+$lang["can_delete_leave_application"] = "İzin başvurusunu silebilir mi?";
+$lang["no_of_decimals"] = "Ondalık sayısı";
 
-$lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Delete checklist item";
+$lang["checklist"] = "Kontrol listesi";
+$lang["delete_checklist_item"] = "Kontrol listesi öğesini sil";
 
-$lang["save_and_show"] = "Save & show";
-$lang["total_leave_yearly"] = "Total Leave (Yearly)";
+$lang["save_and_show"] = "Kaydet ve göster";
+$lang["total_leave_yearly"] = "Toplam İzin (Yıllık)";
 
-$lang["new_conversation"] = "New conversation";
+$lang["new_conversation"] = "Yeni konuşma";
 
-$lang["enable_web_notification"] = "Enable web notification";
-$lang["enable_email_notification"] = "Enable email notification";
+$lang["enable_web_notification"] = "Web bildirimini etkinleştir";
+$lang["enable_email_notification"] = "E-posta bildirimini etkinleştir";
+
+
+
 
 /* Version 2.0.3 */
 
-$lang["show_in_estimate"] = "Show in estimate";
-$lang["mentioned_members"] = "Mentioned members";
-$lang["all"] = "All";
+$lang["show_in_estimate"] = "Tahminde göster";
+$lang["mentioned_members"] = "Bahsedilen üyeler";
+$lang["all"] = "Tümü";
 
-$lang["confirmed"] = "Confirmed";
-$lang["confirm"] = "Confirm";
+$lang["confirmed"] = "Onaylandı";
+$lang["confirm"] = "Onayla";
 
-$lang["confirmed_by"] = "Confirmed by";
-$lang["confirm_event"] = "Confirm event";
-$lang["reject_event"] = "Reject event";
-$lang["event_status"] = "Event status";
+$lang["confirmed_by"] = "Tarafından onaylandı";
+$lang["confirm_event"] = "Etkinliği onayla";
+$lang["reject_event"] = "Etkinliği reddet";
+$lang["event_status"] = "Etkinlik durumu";
 
-$lang["specific_client_contacts"] = "Specific client contacts";
-$lang["choose_client_contacts"] = "Choose client contacts";
-$lang["invitations_sent"] = "The invitations has been sent.";
+$lang["specific_client_contacts"] = "Belirli müşteri kontakları";
+$lang["choose_client_contacts"] = "Müşteri kontakları seç";
+$lang["invitations_sent"] = "Davetiyeler gönderildi.";
 
 /* Version 2.1 */
 
-$lang["add_new_dashboard"] = "Add new dashboard";
-$lang["add_row"] = "Add row";
+$lang["add_new_dashboard"] = "Yeni gösterge paneli ekle";
+$lang["add_row"] = "Satır ekle";
 
-$lang["available_widgets"] = "Available Widgets";
-$lang["your_selected_widgets_will_be_appear_here"] = "Your selected widgets will be appear here";
-$lang["drag_and_drop_widgets_here"] = "Drag and drop widgets here";
-$lang["no_more_widgets_available"] = "No more widgets available";
-$lang["invalid_widget_access"] = "You don't have permission to access this widget";
+$lang["available_widgets"] = "Kullanılabilir Widget'lar";
+$lang["your_selected_widgets_will_be_appear_here"] = "Seçtiğiniz widget'lar burada görünecek";
+$lang["drag_and_drop_widgets_here"] = "Widget'ları buraya sürükleyip bırakın";
+$lang["no_more_widgets_available"] = "Daha fazla widget bulunmamakta";
+$lang["invalid_widget_access"] = "Bu widget'a erişim izniniz yok";
 
-$lang["dashboard_title"] = "Dashboard title";
-$lang["edit_dashboard"] = "Edit dashboard";
-$lang["edit_title"] = "Edit title";
-$lang["default_dashboard"] = "Default dashboard";
+$lang["dashboard_title"] = "Gösterge paneli başlığı";
+$lang["edit_dashboard"] = "Gösterge panelini düzenle";
+$lang["edit_title"] = "Başlığı düzenle";
+$lang["default_dashboard"] = "Varsayılan gösterge paneli";
 
 $lang["widget"] = "Widget";
-$lang["widgets"] = "Widgets";
-$lang["add_widget"] = "Add widget";
-$lang["edit_widget"] = "Edit widget";
-$lang["delete_widget"] = "Delete widget";
+$lang["widgets"] = "Widget'lar";
+$lang["add_widget"] = "Widget ekle";
+$lang["edit_widget"] = "Widget'ı düzenle";
+$lang["delete_widget"] = "Widget'ı sil";
 
-$lang["content"] = "Content";
-$lang["clock_in_out"] = "Clock in-out";
-$lang["custom_widget_details"] = "Custom widget details";
+$lang["content"] = "İçerik";
+$lang["clock_in_out"] = "Giriş-Çıkış Saati";
+$lang["custom_widget_details"] = "Özel widget detayları";
 
-$lang["total_projects"] = "Total projects";
-$lang["total_invoices"] = "Total invoices";
-$lang["total_payments"] = "Total payments";
-$lang["total_due"] = "Total due";
+$lang["total_projects"] = "Toplam projeler";
+$lang["total_invoices"] = "Toplam faturalar";
+$lang["total_payments"] = "Toplam ödemeler";
+$lang["total_due"] = "Toplam borç";
 
-$lang["show_title"] = "Show title";
-$lang["show_border"] = "Show border";
+$lang["show_title"] = "Başlığı göster";
+$lang["show_border"] = "Kenarlığı göster";
 
-$lang["all_tasks_kanban"] = "All tasks kanban";
-$lang["todo_list"] = "Todo list";
-$lang["open_projects_list"] = "Open Projects List";
-$lang["starred_projects"] = "Starred Projects";
-$lang["completed_projects"] = "Completed Projects";
+$lang["all_tasks_kanban"] = "Tüm görevler kanban";
+$lang["todo_list"] = "Yapılacaklar listesi";
+$lang["open_projects_list"] = "Açık Projeler Listesi";
+$lang["starred_projects"] = "Yıldızlı Projeler";
+$lang["completed_projects"] = "Tamamlanmış Projeler";
 
-$lang["new_tickets"] = "New Tickets";
-$lang["closed_tickets"] = "Closed Tickets";
+$lang["new_tickets"] = "Yeni Biletler";
+$lang["closed_tickets"] = "Kapanmış Biletler";
 
-$lang["clocked_in_team_members"] = "Clocked in team members";
-$lang["clocked_out_team_members"] = "Clocked out team members";
-$lang["latest_online_client_contacts"] = "Latest online client contacts";
-$lang["latest_online_team_members"] = "Latest online team members";
-$lang["my_tasks_list"] = "My tasks list";
+$lang["clocked_in_team_members"] = "Giriş yapmış takım üyeleri";
+$lang["clocked_out_team_members"] = "Çıkış yapmış takım üyeleri";
+$lang["latest_online_client_contacts"] = "En son çevrimiçi müşteri kontakları";
+$lang["latest_online_team_members"] = "En son çevrimiçi takım üyeleri";
+$lang["my_tasks_list"] = "Benim görevlerim listesi";
 
-$lang["discount"] = "Discount";
-$lang["discount_type"] = "Discount Type";
-$lang["edit_discount"] = "Edit discount";
-$lang["discount_amount"] = "Discount amount";
-$lang["fixed_amount"] = "Fixed Amount";
-$lang["before_tax"] = "Before Tax";
-$lang["after_tax"] = "After Tax";
+$lang["discount"] = "İndirim";
+$lang["discount_type"] = "İndirim Tipi";
+$lang["edit_discount"] = "İndirimi düzenle";
+$lang["discount_amount"] = "İndirim miktarı";
+$lang["fixed_amount"] = "Sabit Miktar";
+$lang["before_tax"] = "Vergi öncesi";
+$lang["after_tax"] = "Vergi sonrası";
 
-$lang["access_permission"] = "Access Permission";
-$lang["setup"] = "Setup";
-$lang["client_permissions"] = "Client permissions";
+$lang["access_permission"] = "Erişim İzni";
+$lang["setup"] = "Kurulum";
+$lang["client_permissions"] = "Müşteri izinleri";
 
-$lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
-$lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
-$lang["personal_language"] = "Personal language";
-$lang["no_messages_text"] = "You don't have any messages yet";
-$lang["no_users_found"] = "No users found";
+$lang["invoice_over_payment_error_message"] = "Fatura borcunuzdan fazlasını ödeyemezsiniz.";
+$lang["account_already_exists_for_your_company_name"] = "Şirket adınız için zaten bir hesap var.";
+$lang["personal_language"] = "Kişisel dil";
+$lang["no_messages_text"] = "Henüz hiç mesajınız yok";
+$lang["no_users_found"] = "Kullanıcı bulunamadı";
 
-$lang["create_project"] = "Create project";
+$lang["create_project"] = "Proje oluştur";
 
 /* Version 2.2 */
 
-$lang["imap_settings"] = "IMAP settings";
-$lang["enable_email_piping"] = "Enable Email piping";
-$lang["imap_host"] = "IMAP Host";
+$lang["imap_settings"] = "IMAP ayarları";
+$lang["enable_email_piping"] = "E-posta aktarımını etkinleştir";
+$lang["imap_host"] = "IMAP Sunucusu";
 $lang["imap_port"] = "Port";
-$lang["imap_ssl_enabled"] = "SSL Enabled";
-$lang["please_upgrade_your_php_version"] = "Please upgrade your PHP Version for this operation.";
-$lang["required_version"] = "Required Version";
-$lang["email_piping_help_message"] = "Please make sure that, your IMap access is enabled.";
+$lang["imap_ssl_enabled"] = "SSL Etkin";
+$lang["please_upgrade_your_php_version"] = "Bu işlem için PHP sürümünüzü yükseltin.";
+$lang["required_version"] = "Gerekli Sürüm";
+$lang["email_piping_help_message"] = "IMap erişiminin etkinleştirildiğinden emin olun.";
 
-$lang["enable_rich_text_editor"] = "Enable rich text editor in comments/description";
+$lang["enable_rich_text_editor"] = "Yorumlar/açıklamada zengin metin editörünü etkinleştir";
 
-$lang["show_assigned_tasks_only"] = "Show assigned tasks only";
+$lang["show_assigned_tasks_only"] = "Sadece atanmış görevleri göster";
 
-$lang["batch_update"] = "Batch update";
-$lang["cancel_selection"] = "Cancel selection";
-$lang["select_status"] = "Select status";
+$lang["batch_update"] = "Toplu güncelleme";
+$lang["cancel_selection"] = "Seçimi iptal et";
+$lang["select_status"] = "Durum seç";
 
-$lang["add_multiple_tasks"] = "Add multiple tasks";
-$lang["save_and_add_more"] = "Save & add more";
-$lang["add_project_time"] = "Add project time";
-$lang["add_to_do"] = "Add to do";
-$lang["hide_menus_from_topbar"] = "Hide menus from topbar";
-$lang["favorite_projects"] = "Favorite projects";
-$lang["favorite_clients"] = "Favorite clients";
-$lang["dashboard_customization"] = "Dashboard customization";
-$lang["quick_add"] = "Quick add";
+$lang["add_multiple_tasks"] = "Çoklu görev ekle";
+$lang["save_and_add_more"] = "Kaydet ve daha fazla ekle";
+$lang["add_project_time"] = "Proje zamanı ekle";
+$lang["add_to_do"] = "Yapılacak ekle";
+$lang["hide_menus_from_topbar"] = "Üst çubuktan menüleri gizle";
+$lang["favorite_projects"] = "Favori projeler";
+$lang["favorite_clients"] = "Favori müşteriler";
+$lang["dashboard_customization"] = "Gösterge paneli özelleştirme";
+$lang["quick_add"] = "Hızlı ekle";
 
-$lang["assign_to_me"] = "Assign to me";
+$lang["assign_to_me"] = "Bana ata";
 
 $lang["favicon"] = "Favicon";
 
-$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
-$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
+$lang["enable_google_drive_api_to_upload_file"] = "Dosya yükleme için Google Drive API'sini etkinleştir";
+$lang["drive_activation_help_message"] = "Bu andan itibaren, tüm dosyalar Google Drive'a yüklenecek.";
 
-$lang["mark_all_as_read"] = "Mark all as read";
-$lang["marked_all_notifications_as_read"] = "Marked all notifications as read";
+$lang["mark_all_as_read"] = "Tümünü okundu olarak işaretle";
+$lang["marked_all_notifications_as_read"] = "Tüm bildirimler okundu olarak işaretlendi";
 
-$lang["project_completed"] = "Project completed";
-$lang["notification_project_completed"] = "Completed a project";
+$lang["project_completed"] = "Proje tamamlandı";
+$lang["notification_project_completed"] = "Bir projeyi tamamladı";
 
-$lang["google_drive_client_id"] = "Client ID";
-$lang["google_drive_client_secret"] = "Client secret";
-$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
-$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
-$lang["save_and_authorize"] = "Save & authorize";
+$lang["google_drive_client_id"] = "Müşteri Kimliği";
+$lang["google_drive_client_secret"] = "Müşteri gizliliği";
+$lang["get_your_app_credentials_from_here"] = "Uygulama kimlik bilgilerinizi buradan alın:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Bu URL'yi Yetkili yönlendirme URI'sine eklemeyi unutmayın";
+$lang["save_and_authorize"] = "Kaydet ve yetkilendir";
 
-$lang["preview_next_key"] = "Next (Right arrow key)";
-$lang["preview_previous_key"] = "Previous (Left arrow key)";
+$lang["preview_next_key"] = "Sonraki (Sağ ok tuşu)";
+$lang["preview_previous_key"] = "Önceki (Sol ok tuşu)";
 
-$lang["filters"] = "Filters";
+$lang["filters"] = "Filtreler";
 
-$lang["authorized"] = "Authorized";
-$lang["unauthorized"] = "Unauthorized";
+$lang["authorized"] = "Yetkilendirildi";
+$lang["unauthorized"] = "Yetkisiz";
 
-$lang["not_clocked_id_yet"] = "Not clocked in yet";
+$lang["not_clocked_id_yet"] = "Henüz giriş yapılmadı";
 
-$lang["create_estimate_request"] = "Create estimate request";
+$lang["create_estimate_request"] = "Tahmin isteği oluştur";
 
-$lang["in_last_number_of_days"] = "In last %s days";
-$lang["in_last_number_of_month"] = "In last %s month";
-$lang["in_last_number_of_months"] = "In last %s months";
+$lang["in_last_number_of_days"] = "Son %s gün içinde";
+$lang["in_last_number_of_month"] = "Son %s ay içinde";
+$lang["in_last_number_of_months"] = "Son %s aylar içinde";
 
-$lang["pusher_app_id"] = "App ID";
-$lang["pusher_key"] = "Key";
-$lang["pusher_secret"] = "Secret";
-$lang["pusher_cluster"] = "Cluster";
-$lang["enable_push_notification"] = "Enable push notification";
-$lang["push_notification"] = "Push notification";
-$lang["disable_push_notification"] = "Disable push notification";
+$lang["pusher_app_id"] = "Uygulama Kimliği";
+$lang["pusher_key"] = "Anahtar";
+$lang["pusher_secret"] = "Gizli";
+$lang["pusher_cluster"] = "Küme";
+$lang["enable_push_notification"] = "Anında bildirimi etkinleştir";
+$lang["push_notification"] = "Anında bildirim";
+$lang["disable_push_notification"] = "Anında bildirimi devre dışı bırak";
 
-$lang["unknown_client"] = "Unknown client";
+$lang["unknown_client"] = "Bilinmeyen müşteri";
 
-$lang["income_expenses_widget_help_message"] = "This report is only usable if you are using single currency.";
+$lang["income_expenses_widget_help_message"] = "Bu rapor, yalnızca tek bir para birimi kullanıyorsanız kullanılabilir.";
 
-$lang["assign_myself_in_this_ticket"] = "Assign myself in this ticket";
+$lang["assign_myself_in_this_ticket"] = "Bu bileti kendime ata";
 
-$lang["create_new_task"] = "Create new task";
+$lang["create_new_task"] = "Yeni görev oluştur";
 
-$lang["default_due_date_after_billing_date"] = "Default due date after billing date";
+$lang["default_due_date_after_billing_date"] = "Fatura tarihinden sonraki varsayılan vade tarihi";
 
-$lang["field_type_external_link"] = "External link";
+$lang["field_type_external_link"] = "Dış bağlantı";
 
-$lang["total_days"] = "Total days";
+$lang["total_days"] = "Toplam gün";
 
-$lang["my_timesheet"] = "My timesheet";
-$lang["all_timesheets"] = "All timesheets";
-$lang["my_timesheet_statistics"] = "My timesheet statistics";
-$lang["all_timesheets_statistics"] = "All timesheets statistics";
+$lang["my_timesheet"] = "Zaman çizelgem";
+$lang["all_timesheets"] = "Tüm zaman çizelgeleri";
+$lang["my_timesheet_statistics"] = "Zaman çizelgem istatistikleri";
+$lang["all_timesheets_statistics"] = "Tüm zaman çizelgeleri istatistikleri";
 
-$lang["no_field_has_selected"] = "No field has selected!";
+$lang["no_field_has_selected"] = "Hiçbir alan seçilmedi!";
 
-$lang["imap_help_message_1"] = "You can setup an email address to create the tickets automatically when you receive any emails at that address.";
-$lang["imap_help_message_2"] = "Please note that, the system will create tickets based on the unread emails. After creating the ticket, the emails will be marked as read. To get the replies in the same tickets, the system will check the ticket ID in the email subject. If there is no ticket ID in the subject, that will be considered as a new ticket. You can setup the email subject from the";
-$lang["imap_error_credentials_message"] = "Error! Can't connect with the imap using the credentials.";
+$lang["imap_help_message_1"] = "Bu adrese herhangi bir e-posta aldığınızda otomatik olarak biletler oluşturabilirsiniz.";
+$lang["imap_help_message_2"] = "Lütfen sistemin, okunmamış e-postalara göre bilet oluşturacağını unutmayın. Bilet oluşturulduktan sonra, e-postalar okundu olarak işaretlenecektir. Aynı biletlerdeki yanıtları kontrol etmek için, sistem e-posta konusunda bilet kimliğini kontrol edecektir. Konuda bilet kimliği yoksa, bu yeni bir bilet olarak kabul edilecektir. E-posta konusunu şuradan ayarlayabilirsiniz:";
+$lang["imap_error_credentials_message"] = "Hata! Kimlik bilgileri kullanılarak imap ile bağlantı kurulamıyor.";
 
-$lang["client_message_own_contacts"] = "Client can send/receive message to/from own contacts?";
+$lang["client_message_own_contacts"] = "Müşteri kendi kişilerine mesaj gönderebilir/alabilir mi?";
 
-$lang["print_invoice"] = "Print invoice";
+$lang["print_invoice"] = "Faturayı yazdır";
 
-$lang["mark_invoice_as_cancelled"] = "Mark as cancelled";
-$lang["cancelled"] = "Cancelled";
-$lang["cancelled_at"] = "Cancelled at";
-$lang["cancelled_by"] = "Cancelled by";
+$lang["mark_invoice_as_cancelled"] = "İptal edildi olarak işaretle";
+$lang["cancelled"] = "İptal edildi";
+$lang["cancelled_at"] = "İptal tarihi";
+$lang["cancelled_by"] = "İptal eden";
 
 /* Version 2.3 */
 
-$lang["test_push_notification"] = "Test push notification";
-$lang["notification_test_push_notification"] = "It's a demo push notification";
-$lang["push_notification_error_message"] = "Error! Can't connect with the Pusher using the credentials.";
-$lang["clone_estimate"] = "Clone Estimate";
+$lang["test_push_notification"] = "Anında bildirim testi";
+$lang["notification_test_push_notification"] = "Bu bir demo anında bildirimidir";
+$lang["push_notification_error_message"] = "Hata! Pusher'a kimlik bilgileri ile bağlanılamıyor.";
+$lang["clone_estimate"] = "Tahmini Klonla";
 
-$lang["import_clients"] = "Import clients";
-$lang["download_sample_file"] = "Download sample file";
+$lang["import_clients"] = "Müşterileri içe aktar";
+$lang["download_sample_file"] = "Örnek dosyayı indir";
 
-$lang["estimate_settings"] = "Estimate Settings";
-$lang["estimate_logo"] = "Estimate Logo";
-$lang["estimate_color"] = "Estimate Color";
-$lang["initial_number_of_the_estimate"] = "Initial number of the estimate";
-$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger then last estimate ID.";
+$lang["estimate_settings"] = "Tahmin Ayarları";
+$lang["estimate_logo"] = "Tahmin Logosu";
+$lang["estimate_color"] = "Tahmin Rengi";
+$lang["initial_number_of_the_estimate"] = "Tahminin başlangıç numarası";
+$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "Tahmin kimlikleri, son tahmin kimliğinden daha büyük olmalıdır.";
 
-$lang["send_to_client"] = "Send to client";
-$lang["estimate_sent_message"] = "The estimate has been sent!";
-$lang["send_estimate_bcc_to"] = "When sending estimate to client, send BCC to";
+$lang["send_to_client"] = "Müşteriye gönder";
+$lang["estimate_sent_message"] = "Tahmin gönderildi!";
+$lang["send_estimate_bcc_to"] = "Tahmini müşteriye gönderirken, BCC'ye gönder";
 
-$lang["task_settings"] = "Task settings";
-$lang["enable_recurring_option_for_tasks"] = "Enable recurring option for tasks";
-$lang["past_recurring_date_error_message_title_for_tasks"] = "The selected start date and repeat type returns a past date.";
-$lang["recurring_task_created_via_cron_job"] = "Recurring task created via Cron Job";
-$lang["notification_recurring_task_created_via_cron_job"] = "New task created";
-$lang["repeat_type"] = "Repeat type";
-$lang["lead_status"] = "Lead status";
-$lang["add_lead_status"] = "Add lead status";
-$lang["edit_lead_status"] = "Edit lead status";
-$lang["delete_lead_status"] = "Delete lead status";
-$lang["owner"] = "Owner";
-$lang["make_client"] = "Make client";
-$lang["client_contacts"] = "Client contacts";
-$lang["lead_contacts"] = "Lead contacts";
-$lang["add_a_lead"] = "Add a lead";
-$lang["source"] = "Source";
-$lang["lead_source"] = "Lead source";
-$lang["add_lead_source"] = "Add lead source";
-$lang["edit_lead_source"] = "Edit lead source";
-$lang["delete_lead_source"] = "Delete lead source";
-$lang["custom_field_migration"] = "Custom field migration";
-$lang["merge_custom_fields"] = "Merge custom fields";
-$lang["do_not_merge"] = "Do not merge";
-$lang["merge_custom_fields_help_message"] = "If there is any similar custom fields exists for %s, this values will be added to those. Otherwise, this will create new custom fields for %s and add values to those.";
-$lang["lead_created"] = "Lead created";
-$lang["notification_lead_created"] = "Created a new lead.";
-$lang["client_created_from_lead"] = "Client created from lead";
-$lang["notification_client_created_from_lead"] = "Converted a lead to client.";
-$lang["project_deadline"] = "Project deadline";
-$lang["task_deadline"] = "Task deadline";
-$lang["event_type"] = "Event type";
-$lang["delete_estimate_form"] = "Delete estimate form";
-$lang["calendar_event_modified"] = "Calendar event modified";
-$lang["notification_calendar_event_modified"] = "Modified an event.";
+$lang["task_settings"] = "Görev ayarları";
+$lang["enable_recurring_option_for_tasks"] = "Görevler için yinelenen seçeneği etkinleştir";
+$lang["past_recurring_date_error_message_title_for_tasks"] = "Seçilen başlangıç tarihi ve tekrar türü, geçmiş bir tarihe dönüyor.";
+$lang["recurring_task_created_via_cron_job"] = "Cron Job aracılığıyla yinelenen görev oluşturuldu";
+$lang["notification_recurring_task_created_via_cron_job"] = "Yeni görev oluşturuldu";
+$lang["repeat_type"] = "Tekrar türü";
+$lang["lead_status"] = "Potansiyel müşteri durumu";
+$lang["add_lead_status"] = "Potansiyel müşteri durumu ekle";
+$lang["edit_lead_status"] = "Potansiyel müşteri durumunu düzenle";
+$lang["delete_lead_status"] = "Potansiyel müşteri durumunu sil";
+$lang["owner"] = "Sahibi";
+$lang["make_client"] = "Müşteri yap";
+$lang["client_contacts"] = "Müşteri kişileri";
+$lang["lead_contacts"] = "Potansiyel müşteri kişileri";
+$lang["add_a_lead"] = "Bir potansiyel müşteri ekle";
+$lang["source"] = "Kaynak";
+$lang["lead_source"] = "Potansiyel müşteri kaynağı";
+$lang["add_lead_source"] = "Potansiyel müşteri kaynağı ekle";
+$lang["edit_lead_source"] = "Potansiyel müşteri kaynağını düzenle";
+$lang["delete_lead_source"] = "Potansiyel müşteri kaynağını sil";
+$lang["custom_field_migration"] = "Özel alan taşıma";
+$lang["merge_custom_fields"] = "Özel alanları birleştir";
+$lang["do_not_merge"] = "Birleştirme";
+$lang["merge_custom_fields_help_message"] = "Eğer %s için benzer özel alanlar varsa, bu değerler onlara eklenir. Aksi takdirde, bu %s için yeni özel alanlar oluşturacak ve bu değerleri onlara ekleyecektir.";
+$lang["lead_created"] = "Potansiyel müşteri oluşturuldu";
+$lang["notification_lead_created"] = "Yeni bir potansiyel müşteri oluşturuldu.";
+$lang["client_created_from_lead"] = "Potansiyel müşteriden müşteri oluşturuldu";
+$lang["notification_client_created_from_lead"] = "Bir potansiyel müşteri müşteriye dönüştürüldü.";
+$lang["project_deadline"] = "Proje son tarihi";
+$lang["task_deadline"] = "Görev son tarihi";
+$lang["event_type"] = "Etkinlik türü";
+$lang["delete_estimate_form"] = "Tahmin formunu sil";
+$lang["calendar_event_modified"] = "Takvim etkinliği değiştirildi";
+$lang["notification_calendar_event_modified"] = "Bir etkinlik değiştirildi.";
 
-$lang["there_has_leads_with_this_status"] = "There has leads with this status";
-$lang["lead_created_at"] = "Lead created at";
-$lang["past_lead_information"] = "Past lead information";
-$lang["last_status"] = "Last status";
-$lang["migrated_to_client_at"] = "Migrated to client at";
-$lang["edit_estimate_form"] = "Edit estimate form";
+$lang["there_has_leads_with_this_status"] = "Bu durumda potansiyel müşteriler var";
+$lang["lead_created_at"] = "Potansiyel müşteri oluşturulma tarihi";
+$lang["past_lead_information"] = "Geçmiş potansiyel müşteri bilgileri";
+$lang["last_status"] = "Son durum";
+$lang["migrated_to_client_at"] = "Müşteriye geçiş yapıldı";
+$lang["edit_estimate_form"] = "Tahmin formunu düzenle";
 
-$lang["please_upload_a_excel_file"] = "Please upload a excel file.";
-$lang["back"] = "Back";
+$lang["please_upload_a_excel_file"] = "Lütfen bir Excel dosyası yükleyin.";
+$lang["back"] = "Geri";
 
-$lang["import_client_error_header"] = "There has an invalid header. The indicated field should be <b>%s</b>.";
-$lang["import_client_error_company_name_field_required"] = "Company name field is required.";
-$lang["import_client_error_contact_name"] = "Contact first name and last name is both required to add a client contact.";
-$lang["import_client_error_contact_email"] = "Contact email is required and should be unique to add a client contact.";
-$lang["error"] = "Error";
-$lang["contact_first_name"] = "Contact first name";
-$lang["contact_last_name"] = "Contact last name";
-$lang["contact_email"] = "Contact email";
+$lang["import_client_error_header"] = "Geçersiz bir başlık var. Belirtilen alan <b>%s</b> olmalıdır.";
+$lang["import_client_error_company_name_field_required"] = "Şirket adı alanı gereklidir.";
+$lang["import_client_error_contact_name"] = "Müşteri kişisi eklemek için iletişim kişisinin hem ilk adı hem de soyadı gereklidir.";
+$lang["import_client_error_contact_email"] = "İletişim e-postası gereklidir ve bir müşteri kişisi eklemek için benzersiz olmalıdır.";
+$lang["error"] = "Hata";
+$lang["contact_first_name"] = "İletişim ilk adı";
+$lang["contact_last_name"] = "İletişim soyadı";
+$lang["contact_email"] = "İletişim e-postası";
 
-$lang["clone_invoice"] = "Clone Invoice";
-$lang["copy_items"] = "Copy items";
-$lang["copy_discount"] = "Copy discount";
+$lang["clone_invoice"] = "Faturayı Klonla";
+$lang["copy_items"] = "Öğeleri kopyala";
+$lang["copy_discount"] = "İndirimi kopyala";
 
-$lang["clone_task"] = "Clone task";
-$lang["copy_checklist"] = "Copy checklist";
+$lang["clone_task"] = "Görevi klonla";
+$lang["copy_checklist"] = "Kontrol listesini kopyala";
 
-$lang["auto_assign_estimate_request_to"] = "Auto assign estimate request to";
+$lang["auto_assign_estimate_request_to"] = "Tahmin isteğini otomatik olarak ata";
 
-$lang["email_template_variable"] = "Email template variable";
-$lang["example_variable_name"] = "Example_variable_name";
+$lang["email_template_variable"] = "E-posta şablonu değişkeni";
+$lang["example_variable_name"] = "Ornek_degisken_adi";
 
-$lang["imap_extension_error_help_message"] = "You don't have IMAP extension in your server. Please install the extension for this action.";
+$lang["imap_extension_error_help_message"] = "Sunucunuzda IMAP uzantınız yok. Bu işlem için uzantıyı yükleyin.";
 
-$lang["initial_number_of_the_invoice"] = "Initial number of the invoice";
-$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger then last invoice ID.";
+$lang["initial_number_of_the_invoice"] = "Faturanın başlangıç numarası";
+$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "Faturaların kimliği, son fatura kimliğinden daha büyük olmalıdır.";
 
-$lang["client_dashboard_help_message"] = "This will be the default dashboard for all clients. Please note that, the information you're seeing here in the widgets, isn't any actual infromation of clients.";
+$lang["client_dashboard_help_message"] = "Bu, tüm müşteriler için varsayılan gösterge paneli olacaktır. Lütfen buradaki widget'larda gördüğünüz bilgilerin, müşterilerin gerçek bilgileri olmadığını unutmayın.";
 
-$lang["send_to_lead"] = "Send to lead";
-$lang["lead"] = "Lead";
-$lang["leads"] = "Leads";
-$lang["add_lead"] = "Add lead";
-$lang["edit_lead"] = "Edit lead";
-$lang["delete_lead"] = "Delete lead";
-$lang["lead_details"] = "Lead details";
-$lang["can_access_leads_information"] = "Can access lead's information?";
-$lang["lead_info"] = "Lead info";
+$lang["send_to_lead"] = "Potansiyel müşteriye gönder";
+$lang["lead"] = "Potansiyel müşteri";
+$lang["leads"] = "Potansiyel müşteriler";
+$lang["add_lead"] = "Potansiyel müşteri ekle";
+$lang["edit_lead"] = "Potansiyel müşteriyi düzenle";
+$lang["delete_lead"] = "Potansiyel müşteriyi sil";
+$lang["lead_details"] = "Potansiyel müşteri detayları";
+$lang["can_access_leads_information"] = "Potansiyel müşterinin bilgilerine erişebilir mi?";
+$lang["lead_info"] = "Potansiyel müşteri bilgisi";
 
-$lang["send_task_reminder_on_the_day_of_deadline"] = "Send task reminder on the day of deadline";
-$lang["send_task_deadline_pre_reminder"] = "Send task deadline pre reminder";
-$lang["send_task_deadline_overdue_reminder"] = "Send task deadline overdue reminder";
+$lang["send_task_reminder_on_the_day_of_deadline"] = "Son tarih gününde görev hatırlatıcısı gönder";
+$lang["send_task_deadline_pre_reminder"] = "Görev son tarihi öncesi hatırlatıcı gönder";
+$lang["send_task_deadline_overdue_reminder"] = "Görev son tarihi geçmiş hatırlatıcı gönder";
 
-$lang["project_task_deadline_reminder"] = "Project task deadline reminder";
+$lang["project_task_deadline_reminder"] = "Proje görevi son tarihi hatırlatıcısı";
 
-$lang["project_task_deadline_pre_reminder"] = "Project task deadline pre reminder";
-$lang["project_task_deadline_overdue_reminder"] = "Project task deadline overdue reminder";
-$lang["project_task_reminder_on_the_day_of_deadline"] = "Project task reminder on the day of deadline";
+$lang["project_task_deadline_pre_reminder"] = "Proje görevi son tarihi öncesi hatırlatıcı";
+$lang["project_task_deadline_overdue_reminder"] = "Proje görevi son tarihi geçmiş hatırlatıcı";
+$lang["project_task_reminder_on_the_day_of_deadline"] = "Proje görevi son tarihi gününde hatırlatıcı";
 
-$lang["notification_project_task_deadline_pre_reminder"] = "Reminder: Some tasks needs to be finished soon.";
-$lang["notification_project_task_deadline_overdue_reminder"] = "Reminder: Task's deadline overdue.";
-$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Reminder: Some tasks needs to be finished today.";
+$lang["notification_project_task_deadline_pre_reminder"] = "Hatırlatma: Bazı görevlerin yakında tamamlanması gerekiyor.";
+$lang["notification_project_task_deadline_overdue_reminder"] = "Hatırlatma: Görevin son tarihi geçti.";
+$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Hatırlatma: Bazı görevlerin bugün tamamlanması gerekiyor.";
 
-$lang["mark_as_public"] = "Mark as public";
-$lang["note_details"] = "Note details";
-$lang["public_note_by"] = "Public note by";
-$lang["marked_as_public"] = "Marked as public";
+$lang["mark_as_public"] = "Herkese açık olarak işaretle";
+$lang["note_details"] = "Not detayları";
+$lang["public_note_by"] = "Herkese açık not";
+$lang["marked_as_public"] = "Herkese açık olarak işaretlendi";
 
-$lang["client_can_view_activity"] = "Client can view project activity";
+$lang["client_can_view_activity"] = "Müşteri, proje aktivitesini görebilir";
 
-$lang["event_settings"] = "Event settings";
-$lang["enable_google_calendar_api"] = "Enable Google calendar API";
-$lang["google_calendar_settings"] = "Google calendar settings";
+$lang["event_settings"] = "Etkinlik ayarları";
+$lang["enable_google_calendar_api"] = "Google takvim API'sini etkinleştir";
+$lang["google_calendar_settings"] = "Google takvim ayarları";
 
-$lang["your_calendar_ids"] = "Your Calendar IDs";
-$lang["calendar_id"] = "Calendar ID";
-$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Now every user can integrate with their Google calendar.";
-$lang["calendar_ids_help_message"] = "You'll get your own calendar events always. This is for other special calendars (Like Holidays Calendar).";
+$lang["your_calendar_ids"] = "Takvim Kimlikleriniz";
+$lang["calendar_id"] = "Takvim Kimliği";
+$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Artık her kullanıcı, kendi Google takvimi ile entegre olabilir.";
+$lang["calendar_ids_help_message"] = "Kendi takvim etkinliklerinizi her zaman alırsınız. Bu, diğer özel takvimler için (Tatiller Takvimi gibi).";
 
-$lang["google_client_id"] = "Client ID";
-$lang["google_client_secret"] = "Client secret";
-$lang["integrate_with_google_calendar"] = "Integrate with Google calendar";
-$lang["google_calendar_event"] = "Google Calendar event";
+$lang["google_client_id"] = "Müşteri Kimliği";
+$lang["google_client_secret"] = "Müşteri Gizliliği";
+$lang["integrate_with_google_calendar"] = "Google takvimi ile entegre ol";
+$lang["google_calendar_event"] = "Google Takvim Etkinliği";
 
-$lang["mark_as_public_help_message"] = "You can't make this note as private again.";
+$lang["mark_as_public_help_message"] = "Bu notu tekrar özel olarak yapamazsınız.";
 
-$lang["google_calendar_help_message"] = "You'll get your Google Calendar events by the run of Cron job. And any add/modification of your local events will effect your Google calendar instantly.";
+$lang["google_calendar_help_message"] = "Google Takvim etkinliklerinizi, Cron işi çalıştırıldığında alacaksınız. Ve yerel etkinliklerinizdeki herhangi bir ekleme/değişiklik, Google takviminize anında etki edecektir.";
 
-/* Version 2.4 */
+$lang["footer"] = "Alt Bilgi";
+$lang["footer_description_message"] = "Bu alt bilgi tüm halka açık sayfalarda görünür olacak.";
+$lang["estimate_footer"] = "Tahmin Alt Bilgisi";
+$lang["enable_footer"] = "Alt bilgiyi etkinleştir";
+$lang["footer_menus"] = "Alt bilgi menüleri";
+$lang["footer_copyright_text"] = "Telif hakkı metni";
+$lang["edit_footer_menu"] = "Alt bilgi menüsünü düzenle";
 
-$lang["footer"] = "Footer";
-$lang["footer_description_message"] = "This footer will be visible on all public pages.";
-$lang["estimate_footer"] = "Estimate Footer";
-$lang["enable_footer"] = "Enable footer";
-$lang["footer_menus"] = "Footer menus";
-$lang["footer_copyright_text"] = "Copyright text";
-$lang["edit_footer_menu"] = "Edit footer menu";
-
-$lang["menu_name"] = "Menu name";
-$lang["task_point_range"] = "Task point range";
+$lang["menu_name"] = "Menü adı";
+$lang["task_point_range"] = "Görev puan aralığı";
 
 $lang["gdpr"] = "GDPR";
-$lang["enable_gdpr"] = "Enable GDPR";
-$lang["allow_clients_to_export_their_data"] = "Allow clients to export their data";
-$lang["export_my_data"] = "Export my data";
+$lang["enable_gdpr"] = "GDPR'yi etkinleştir";
+$lang["allow_clients_to_export_their_data"] = "Müşterilerin verilerini dışa aktarmalarına izin ver";
+$lang["export_my_data"] = "Verilerimi dışa aktar";
 
-$lang["clients_can_request_account_removal"] = "Clients can request account removal";
-$lang["i_want_to_remove_my_account"] = "I want to remove my account";
-$lang["client_contact_requested_account_removal"] = "Client contact requested account removal";
-$lang["notification_client_contact_requested_account_removal"] = "Requested account removal.";
-$lang["show_terms_and_conditions_in_client_signup_page"] = "Show Terms and Conditions in client signup page";
-$lang["i_accept_the_terms_and_conditions"] = "I accept the";
+$lang["clients_can_request_account_removal"] = "Müşteriler hesap kaldırma talebinde bulunabilir";
+$lang["i_want_to_remove_my_account"] = "Hesabımı kaldırmak istiyorum";
+$lang["client_contact_requested_account_removal"] = "Müşteri kişisi hesap kaldırma talebinde bulundu";
+$lang["notification_client_contact_requested_account_removal"] = "Hesap kaldırma talep edildi.";
+$lang["show_terms_and_conditions_in_client_signup_page"] = "Müşteri kayıt sayfasında Şartlar ve Koşulları göster";
+$lang["i_accept_the_terms_and_conditions"] = "Şartları ve koşulları kabul ediyorum";
 
-$lang["apply"] = "Apply";
-$lang["applied"] = "Applied";
-$lang["export"] = "Export";
+$lang["apply"] = "Uygula";
+$lang["applied"] = "Uygulandı";
+$lang["export"] = "Dışa Aktar";
 
-$lang["pages"] = "Pages";
-$lang["add_page"] = "Add page";
-$lang["delete_page"] = "Delete page";
-$lang["page_url_cant_duplicate"] = "Page URL can't duplicate.";
+$lang["pages"] = "Sayfalar";
+$lang["add_page"] = "Sayfa ekle";
+$lang["delete_page"] = "Sayfayı sil";
+$lang["page_url_cant_duplicate"] = "Sayfa URL'si tekrarlanamaz.";
 
-$lang["sub_tasks"] = "Sub tasks";
-$lang["sub_task"] = "Sub task";
-$lang["create_a_sub_task"] = "Create a sub task";
-$lang["create"] = "Create";
-$lang["parent_task"] = "Parent task";
+$lang["sub_tasks"] = "Alt görevler";
+$lang["sub_task"] = "Alt görev";
+$lang["create_a_sub_task"] = "Bir alt görev oluştur";
+$lang["create"] = "Oluştur";
+$lang["parent_task"] = "Ana görev";
 
-$lang["this_task_blocked_by"] = "This task blocked by";
-$lang["this_task_blocking"] = "This task blocking";
-$lang["add_dependency"] = "Add dependency";
-$lang["blocked_by"] = "Blocked by";
-$lang["blocking"] = "Blocking";
-$lang["blocked"] = "Blocked";
-$lang["dependency"] = "Dependency";
+$lang["this_task_blocked_by"] = "Bu görev tarafından engellendi";
+$lang["this_task_blocking"] = "Bu görev engelliyor";
+$lang["add_dependency"] = "Bağımlılık ekle";
+$lang["blocked_by"] = "Tarafından engellendi";
+$lang["blocking"] = "Engelliyor";
+$lang["blocked"] = "Engellendi";
+$lang["dependency"] = "Bağımlılık";
 
-$lang["estimate_request_settings"] = "Estimate request settings";
-$lang["hidden_client_fields_on_public_estimate_requests"] = "Hide fields from public estimate request forms";
-$lang["hidden_client_fields"] = "Hidden client fields";
+$lang["estimate_request_settings"] = "Tahmin isteği ayarları";
+$lang["hidden_client_fields_on_public_estimate_requests"] = "Halka açık tahmin istek formlarından alanları gizle";
+$lang["hidden_client_fields"] = "Gizli müşteri alanları";
 
-$lang["account"] = "Account";
-$lang["common"] = "Common";
+$lang["account"] = "Hesap";
+$lang["common"] = "Genel";
 
-$lang["tax_deducted_at_source"] = "TDS";
-$lang["auto_close_ticket_after"] = "Auto close ticket after"; //after x days
-$lang["disable_user_invitation_option_by_clients"] = "Disable user invitation option by clients";
-$lang["create_tickets_only_by_registered_emails"] = "Create tickets only by registered emails";
-$lang["icon"] = "Icon";
-$lang["help_articles"] = "Help articles";
-$lang["help_categories"] = "Help categories";
-$lang["knowledge_base_articles"] = "KB articles";
-$lang["knowledge_base_categories"] = "KB categories";
+$lang["tax_deducted_at_source"] = "Kaynakta Kesilen Vergi";
+$lang["auto_close_ticket_after"] = "Sonra bilet otomatik kapat"; // x gün sonra
+$lang["disable_user_invitation_option_by_clients"] = "Müşteriler tarafından kullanıcı davetiye seçeneğini devre dışı bırak";
+$lang["create_tickets_only_by_registered_emails"] = "Yalnızca kayıtlı e-postalarla bilet oluştur";
+$lang["icon"] = "Simge";
+$lang["help_articles"] = "Yardım makaleleri";
+$lang["help_categories"] = "Yardım kategorileri";
+$lang["knowledge_base_articles"] = "KB makaleleri";
+$lang["knowledge_base_categories"] = "KB kategorileri";
 
 $lang["rtl"] = "RTL";
 
-$lang["disable_editing_by_clients"] = "Disable editing by clients";
+$lang["disable_editing_by_clients"] = "Müşteriler tarafından düzenlemeyi devre dışı bırak";
 
-$lang["client_left_menu"] = "Left menu";
-$lang["left_menu_for_client"] = "Left menu for client";
-$lang["left_menu_setting_help_message_for_client"] = "This will be the default left menu for clients. Please note that, the menu items will be distributed as per client contact's permissions.";
-$lang["available_menu_items"] = "Available menu items";
-$lang["drag_and_drop_items_here"] = "Drag and drop items here";
-$lang["no_more_items_available"] = "No more items available";
-$lang["left_menu_preview_message"] = "Hit save button to see preview.";
-$lang["left_menu_setting_help_message"] = "This will be the default left menu for team members. Please note that, the menu items will be distributed as per user's permission.";
+$lang["client_left_menu"] = "Sol menü";
+$lang["left_menu_for_client"] = "Müşteri için sol menü";
+$lang["left_menu_setting_help_message_for_client"] = "Bu, müşteriler için varsayılan sol menü olacaktır. Lütfen, menü öğelerinin müşteri kişisinin izinlerine göre dağıtılacağını unutmayın.";
+$lang["available_menu_items"] = "Kullanılabilir menü öğeleri";
+$lang["drag_and_drop_items_here"] = "Öğeleri buraya sürükleyip bırakın";
+$lang["no_more_items_available"] = "Daha fazla öğe mevcut değil";
+$lang["left_menu_preview_message"] = "Önizlemeyi görmek için kaydet butonuna basın.";
+$lang["left_menu_setting_help_message"] = "Bu, takım üyeleri için varsayılan sol menü olacaktır. Lütfen, menü öğelerinin kullanıcının iznine göre dağıtılacağını unutmayın.";
 
-$lang["draft_invoices"] = "Draft invoices";
-$lang["draft_invoices_total"] = "Draft Invoices Total";
-$lang["draft_invoices_value"] = "Draft invoices value";
+$lang["draft_invoices"] = "Taslak faturalar";
+$lang["draft_invoices_total"] = "Taslak Faturalar Toplamı";
+$lang["draft_invoices_value"] = "Taslak faturalar değeri";
 
-$lang["gdpr_terms_and_conditions_link"] = "Terms and Conditions URL";
-$lang["gdpr_terms_and_conditions"] = "Terms and Conditions";
-$lang["removal_request_pending"] = "Removal Request Pending";
+$lang["gdpr_terms_and_conditions_link"] = "Şartlar ve Koşullar URL'si";
+$lang["gdpr_terms_and_conditions"] = "Şartlar ve Koşullar";
+$lang["removal_request_pending"] = "Kaldırma İsteği Beklemede";
 
-$lang["client_access_files_help_message"] = "The files which are located in client details view in the Files tab.";
-$lang["estimate_request_name_email_error_message"] = "Email can't be shown without first name and last name.";
+$lang["client_access_files_help_message"] = "Dosyalar, müşteri detayları görünümünde Dosyalar sekmesinde bulunan dosyalardır.";
+$lang["estimate_request_name_email_error_message"] = "E-posta, ilk ad ve soyad olmadan gösterilemez.";
 
 $lang["slug"] = "Slug";
-$lang["add_assignee"] = "Add assignee";
+$lang["add_assignee"] = "Atanmış kişi ekle";
 
-$lang["client_can_pay_invoice_without_login"] = "Client can pay invoices without login";
-$lang["client_can_pay_invoice_without_login_help_message"] = "Please add the PUBLIC_PAY_INVOICE_URL in the invoice email notification template.";
+$lang["client_can_pay_invoice_without_login"] = "Müşteriler giriş yapmadan faturaları ödeyebilir";
+$lang["client_can_pay_invoice_without_login_help_message"] = "Lütfen fatura e-posta bildirim şablonuna PUBLIC_PAY_INVOICE_URL ekleyin.";
 
-$lang["link_to_existing_client"] = "Link to existing client";
-$lang["link_to_new_client"] = "Link to new client";
+$lang["link_to_existing_client"] = "Mevcut müşteriye bağlantı";
+$lang["link_to_new_client"] = "Yeni müşteriye bağlantı";
 
-$lang["client_can_view_files"] = "Client can view files?";
-$lang["client_can_add_files"] = "Client can add files?";
-$lang["client_can_view_activity"] = "Client can view project activity?";
-$lang["client_can_edit_projects"] = "Client can edit projects?";
+$lang["client_can_view_files"] = "Müşteri dosyaları görebilir mi?";
+$lang["client_can_add_files"] = "Müşteri dosya ekleyebilir mi?";
+$lang["client_can_view_activity"] = "Müşteri proje aktivitesini görebilir mi?";
+$lang["client_can_edit_projects"] = "Müşteri projeleri düzenleyebilir mi?";
 
-$lang["view_pdf"] = "View PDF";
+$lang["view_pdf"] = "PDF'yi Görüntüle";
 
-$lang["add_new_task"] = "Add new task";
-$lang["disable_keyboard_shortcuts"] = "Disable keyboard shortcuts";
-$lang["keyboard_shortcuts_info"] = "Keyboard shortcuts info";
-$lang["edit_shortcuts"] = "Edit shortcuts";
+$lang["add_new_task"] = "Yeni görev ekle";
+$lang["disable_keyboard_shortcuts"] = "Klavye kısayollarını devre dışı bırak";
+$lang["keyboard_shortcuts_info"] = "Klavye kısayolları bilgisi";
+$lang["edit_shortcuts"] = "Kısayolları düzenle";
 
-$lang["pending_leave_approval"] = "Pending leave approval";
-$lang["add_attachment"] = "Add Attachment";
+$lang["pending_leave_approval"] = "Bekleyen izin onayı";
+$lang["add_attachment"] = "Ek ekle";
 
-$lang["hidden_topbar_menus"] = "Hidden topbar menus";
+$lang["hidden_topbar_menus"] = "Gizli üst çubuk menüleri";
 
-$lang["make_previous_items_sub_menu"] = "Make/remove sub menu of the previous item";
-$lang["add_menu_item"] = "Add menu item";
+$lang["make_previous_items_sub_menu"] = "Önceki öğeyi alt menü yap/kaldır";
+$lang["add_menu_item"] = "Menü öğesi ekle";
 $lang["url"] = "URL";
 
-$lang["show_theme_color_changer"] = "Show theme color changer";
-$lang["default_theme_color"] = "Default theme color";
-$lang["left_menu"] = "Left menu";
-$lang["client_assigned_contacts"] = "Assigned client contacts";
-$lang["timesheet_settings"] = "Timesheet Settings";
-$lang["users_can_start_multiple_timers_at_a_time"] = "Users can start multiple timers at a time";
+$lang["show_theme_color_changer"] = "Tema renk değiştiriciyi göster";
+$lang["default_theme_color"] = "Varsayılan tema rengi";
+$lang["left_menu"] = "Sol menü";
+$lang["client_assigned_contacts"] = "Atanan müşteri kişileri";
+$lang["timesheet_settings"] = "Zaman Çizelgesi Ayarları";
+$lang["users_can_start_multiple_timers_at_a_time"] = "Kullanıcılar aynı anda birden fazla zamanlayıcı başlatabilir";
 
-$lang["delete_expenses_category"] = "Delete expenses category";
+$lang["delete_expenses_category"] = "Gider kategorisini sil";
 
-/* Version 2.5 */
+$lang["code_reference"] = "Kod Referansı";
 
-$lang["code_reference"] = "Code Reference";
+$lang["commit_url"] = "Commit URL'si";
+$lang["new_commits"] = "Yeni commit'ler";
+$lang["new_commit"] = "Yeni commit";
+$lang["pushed_by"] = "Yükleyen";
+$lang["committed_by"] = "Commit'leyen";
+$lang["add_webhook_in_your_repository_at"] = "Repository'nize webhook ekleyin: ";
+$lang["webhook_listener_link"] = "Webhook dinleyici bağlantısı";
+$lang["enable_bitbucket_commit_logs_in_tasks"] = "Görevlerde bitbucket commit loglarını etkinleştir";
+$lang["bitbucket_info_text"] = "Commit'lerin görevlerle bağlantılandırılması için, her commit mesajının sonunda # ve görev ID'si olmalıdır. Ör: Bu Task #10'un bir commit'idir.";
 
-$lang["commit_url"] = "Commit url";
-$lang["new_commits"] = "New commits";
-$lang["new_commit"] = "New commit";
-$lang["pushed_by"] = "Pushed by";
-$lang["committed_by"] = "Committed by";
-$lang["add_webhook_in_your_repository_at"] = "Add webhook in your repository: ";
-$lang["webhook_listener_link"] = "Webhook listener link";
-$lang["enable_bitbucket_commit_logs_in_tasks"] = "Enable bitbucket commit logs in tasks";
-$lang["bitbucket_info_text"] = "To link the commits with tasks, there should be a # and task ID at the end of each commit messages. Ex: This is a commit of Task #10.";
+$lang["bitbucket_push_received"] = "Bitbucket bildirimi alındı";
+$lang["notification_bitbucket_push_received"] = "Bitbucket bildirimi alındı.";
 
-$lang["bitbucket_push_received"] = "Bitbucket notification received";
-$lang["notification_bitbucket_push_received"] = "Bitbucket notification received.";
+$lang["hour_log_time_error_message"] = "Lütfen saat(leri) doğru formatta girin.";
+$lang["set_message_permissions"] = "Mesaj izinlerini ayarla";
+$lang["cant_send_any_messages"] = "Hiçbir mesaj gönderilemez";
+$lang["can_send_messages_to_specific_members_or_teams"] = "Belirli üyelere veya takımlara mesaj gönderebilir:";
 
-$lang["hour_log_time_error_message"] = "Please input hour(s) in correct format.";
-$lang["set_message_permissions"] = "Set message permissions";
-$lang["cant_send_any_messages"] = "Can't send any messages";
-$lang["can_send_messages_to_specific_members_or_teams"] = "Can send messages to specific members or teams:";
+$lang["embed"] = "Göm";
+$lang["copy"] = "Kopyala";
 
-$lang["embed"] = "Embed";
-$lang["copy"] = "Copy";
+$lang["estimate_prefix"] = "Tahmin öneki";
 
-$lang["estimate_prefix"] = "Estimate prefix";
-
-$lang["likes"] = "Likes";
+$lang["likes"] = "Beğeniler";
 
 $lang["pusher"] = "Pusher";
-$lang["enable_chat_via_pusher"] = "Enable chat via pusher";
+$lang["enable_chat_via_pusher"] = "Pusher aracılığıyla sohbeti etkinleştir";
 
-$lang["tasks_list"] = "Tasks List";
-$lang["tasks_kanban"] = "Tasks Kanban";
-$lang["set_project_tab_order"] = "Set project tab order";
-$lang["project_tab_order"] = "Project tab order";
-$lang["project_tab_order_help_message"] = "Please note that, this tabs will show as per user's permissions.";
-$lang["project_tab_order_help_message_of_client"] = "Please note that, this tabs will show as per client contact's permissions.";
-$lang["client_projects"] = "Projects";
+$lang["tasks_list"] = "Görev Listesi";
+$lang["tasks_kanban"] = "Görev Kanban";
+$lang["set_project_tab_order"] = "Proje sekme sırasını ayarla";
+$lang["project_tab_order"] = "Proje sekme sırası";
+$lang["project_tab_order_help_message"] = "Lütfen bu sekmelerin kullanıcının izinlerine göre gösterileceğini unutmayın.";
+$lang["project_tab_order_help_message_of_client"] = "Lütfen bu sekmelerin müşteri kişisinin izinlerine göre gösterileceğini unutmayın.";
+$lang["client_projects"] = "Projeler";
 
-$lang["ticket_assigned"] = "Ticket assigned";
-$lang["notification_ticket_assigned"] = "Assigned a ticket to %s";
+$lang["ticket_assigned"] = "Bilet atandı";
+$lang["notification_ticket_assigned"] = "%s'a bir bilet atandı";
 
-$lang["disable_access_favorite_project_option_for_clients"] = "Disable access favorite project option for clients";
-$lang["disable_editing_left_menu_by_clients"] = "Disable editing left menu by clients";
-$lang["disable_topbar_menu_customization"] = "Disable topbar menu customization";
-$lang["disable_dashboard_customization_by_clients"] = "Disable dashboard customization by clients";
+$lang["disable_access_favorite_project_option_for_clients"] = "Müşteriler için favori proje seçeneğine erişimi devre dışı bırak";
+$lang["disable_editing_left_menu_by_clients"] = "Müşteriler tarafından sol menü düzenlemeyi devre dışı bırak";
+$lang["disable_topbar_menu_customization"] = "Üst menü özelleştirmeyi devre dışı bırak";
+$lang["disable_dashboard_customization_by_clients"] = "Müşteriler tarafından gösterge paneli özelleştirmeyi devre dışı bırak";
 
-$lang["task_start_date"] = "Task start date";
-$lang["project_start_date"] = "Project start date";
-$lang["show_on_kanban_card"] = "Show on kanban card";
+$lang["task_start_date"] = "Görev başlangıç tarihi";
+$lang["project_start_date"] = "Proje başlangıç tarihi";
+$lang["show_on_kanban_card"] = "Kanban kartında göster";
 
-$lang["original_expense"] = "Original expense";
-$lang["expense_details"] = "Expense details";
+$lang["original_expense"] = "Orijinal gider";
+$lang["expense_details"] = "Gider detayları";
 
-$lang["read_only"] = "Read only";
+$lang["read_only"] = "Sadece okunabilir";
 
-$lang["internal_use_only"] = "Internal use only";
-$lang["visible_to_team_members_only"] = "Visible to team members only";
-$lang["visible_to_clients_only"] = "Visible to clients only";
+$lang["internal_use_only"] = "Sadece iç kullanım için";
+$lang["visible_to_team_members_only"] = "Sadece takım üyelerine görünür";
+$lang["visible_to_clients_only"] = "Sadece müşterilere görünür";
 
-$lang["open_in_new_tab"] = "Open in new tab";
+$lang["open_in_new_tab"] = "Yeni sekmede aç";
 
-$lang["client_can_delete_own_files_in_project"] = "Client can delete own files in project";
+$lang["client_can_delete_own_files_in_project"] = "Müşteri, projedeki kendi dosyalarını silebilir";
 
-$lang["enable_slack"] = "Enable slack";
-$lang["get_the_webhook_url_of_your_app_from_here"] = "Get the Webhook URL of your App from here:";
-$lang["slack_webhook_url"] = "Webhook URL";
-$lang["send_a_test_message"] = "Send a test message";
-$lang["notification_test_slack_notification"] = "This is a demo message.";
-$lang["slack_notification_error_message"] = "Error! Can't connect with the Slack using the credentials.";
-$lang["dont_send_any_project_related_notifications_to_this_channel"] = "Don't send any project related notifications to this channel";
-$lang["save_and_send_a_test_message"] = "Save & send a test message";
+$lang["enable_slack"] = "Slack'i etkinleştir";
+$lang["get_the_webhook_url_of_your_app_from_here"] = "Uygulamanızın Webhook URL'sini buradan alın:";
+$lang["slack_webhook_url"] = "Webhook URL'si";
+$lang["send_a_test_message"] = "Bir test mesajı gönder";
+$lang["notification_test_slack_notification"] = "Bu bir demo mesajıdır.";
+$lang["slack_notification_error_message"] = "Hata! Slack ile kimlik bilgileri kullanılarak bağlantı kurulamıyor.";
+$lang["dont_send_any_project_related_notifications_to_this_channel"] = "Bu kanala hiçbir proje ile ilgili bildirim gönderme";
+$lang["save_and_send_a_test_message"] = "Kaydet & bir test mesajı gönder";
 
-$lang["copy_sub_tasks"] = "Copy sub tasks";
+$lang["copy_sub_tasks"] = "Alt görevleri kopyala";
 
-$lang["can_update_only_assigned_tasks_status"] = "Can update only assigned tasks status";
+$lang["can_update_only_assigned_tasks_status"] = "Yalnızca atanmış görevlerin durumunu güncelleyebilir";
 
-$lang["import_leads"] = "Import leads";
-$lang["import_lead_error_contact_name"] = "Contact first name and last name is both required to add a lead contact.";
+$lang["import_leads"] = "Potansiyel müşterileri içe aktar";
+$lang["import_lead_error_contact_name"] = "Potansiyel müşteri kişisi eklemek için iletişim kişisinin hem ilk adı hem de soyadı gereklidir.";
 
-$lang["deadline_must_be_equal_or_greater_than_start_date"] = "Deadline must be equal or greater than Start date.";
+$lang["deadline_must_be_equal_or_greater_than_start_date"] = "Son tarih, başlangıç tarihine eşit veya ondan büyük olmalıdır.";
 
-$lang["enable_github_commit_logs_in_tasks"] = "Enable github commit logs in tasks";
-$lang["github_push_received"] = "GitHub notification received";
-$lang["notification_github_push_received"] = "GitHub notification received.";
+$lang["enable_github_commit_logs_in_tasks"] = "Görevlerde github commit loglarını etkinleştir";
+$lang["github_push_received"] = "GitHub bildirimi alındı";
+$lang["notification_github_push_received"] = "GitHub bildirimi alındı.";
 
-$lang["invalid_calendar_id_error_message"] = "This Calendar ID isn't valid or you don't have permission to access this Calendar";
-$lang["total_clients"] = "Total clients";
-$lang["total_contacts"] = "Total contacts";
+$lang["invalid_calendar_id_error_message"] = "Bu Takvim Kimliği geçersiz veya bu Takvime erişim izniniz yok";
+$lang["total_clients"] = "Toplam müşteriler";
+$lang["total_contacts"] = "Toplam kişiler";
 
-$lang["message_sending_error_message"] = "This user doesn't have permission to send message to you. That's why you also can't send message!";
+$lang["message_sending_error_message"] = "Bu kullanıcının size mesaj gönderme izni yok. Bu yüzden siz de mesaj gönderemezsiniz!";
 
-$lang["days_view"] = "Days view";
-$lang["weeks_view"] = "Weeks view";
-$lang["months_view"] = "Months view";
+$lang["days_view"] = "Gün görünümü";
+$lang["weeks_view"] = "Hafta görünümü";
+$lang["months_view"] = "Ay görünümü";
 
-$lang["move_all_tasks_to_to_do"] = "Move all tasks to To Do";
+$lang["move_all_tasks_to_to_do"] = "Tüm görevleri Yapılacaklar'a taşı";
 
-$lang["started"] = "Started";
+$lang["started"] = "Başladı";
 
-$lang["weekends"] = "Weekends";
+$lang["weekends"] = "Hafta sonları";
 
-$lang["invited_client_contact_signed_up"] = "Invited client contact signed up";
-$lang["notification_invited_client_contact_signed_up"] = "Invited client contact signed up.";
+$lang["invited_client_contact_signed_up"] = "Davet edilen müşteri kişisi kaydoldu";
+$lang["notification_invited_client_contact_signed_up"] = "Davet edilen müşteri kişisi kaydoldu.";
 
-$lang["ticket_templates"] = "Ticket templates";
-$lang["ticket_template"] = "Ticket template";
-$lang["tickets_list"] = "Tickets list";
-$lang["add_template"] = "Add template";
-$lang["edit_template"] = "Edit template";
-$lang["insert_template"] = "Insert template";
-$lang["private_template"] = "Private template";
+$lang["ticket_templates"] = "Bilet şablonları";
+$lang["ticket_template"] = "Bilet şablonu";
+$lang["tickets_list"] = "Bilet listesi";
+$lang["add_template"] = "Şablon ekle";
+$lang["edit_template"] = "Şablonu düzenle";
+$lang["insert_template"] = "Şablon ekle";
+$lang["private_template"] = "Özel şablon";
 
-$lang["requested_by"] = "Requested by";
+$lang["requested_by"] = "Talep eden";
 
-$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "Create new projects automatically when estimates gets accepted";
+$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "Tahminler kabul edildiğinde otomatik olarak yeni projeler oluştur";
 
-$lang["typing"] = "Typing";
+$lang["typing"] = "Yazıyor";
 
-$lang["new_client_greetings"] = "New client greetings";
+$lang["new_client_greetings"] = "Yeni müşteri selamlamaları";
 
-$lang["timeline_post_commented"] = "Timeline post commented";
-$lang["post_creator"] = "Post creator";
-$lang["notification_timeline_post_commented"] = "Commented on a post.";
-$lang["created_a_new_post"] = "Created a new post";
-$lang["notification_created_a_new_post"] = "Created a new post.";
+$lang["timeline_post_commented"] = "Zaman çizelgesi gönderisi yorumlandı";
+$lang["post_creator"] = "Gönderi oluşturucu";
+$lang["notification_timeline_post_commented"] = "Bir gönderiye yorum yapıldı.";
+$lang["created_a_new_post"] = "Yeni bir gönderi oluşturdu";
+$lang["notification_created_a_new_post"] = "Yeni bir gönderi oluşturdu.";
 
-$lang["verify_email_before_client_signup"] = "Verify email before client signup";
-$lang["input_your_email"] = "Input your email";
-$lang["verify_email"] = "Client email verification";
-$lang["please_continue_your_signup_process"] = "Please continue your signup process.";
-$lang["get_started"] = "Get Started";
+$lang["verify_email_before_client_signup"] = "Müşteri kaydı öncesi e-postayı doğrula";
+$lang["input_your_email"] = "E-postanızı girin";
+$lang["verify_email"] = "Müşteri e-posta doğrulama";
+$lang["please_continue_your_signup_process"] = "Lütfen kayıt sürecinize devam edin.";
+$lang["get_started"] = "Başla";
 
-$lang["manage_labels"] = "Manage labels";
+$lang["manage_labels"] = "Etiketleri yönet";
 
-$lang["timesheet"] = "Timesheet";
-$lang["users_can_input_only_total_hours_instead_of_period"] = "Users can input only total hours instead of period";
-$lang["timesheet_hour_input_help_message"] = "Ex: 1h 20m";
+$lang["timesheet"] = "Zaman çizelgesi";
+$lang["users_can_input_only_total_hours_instead_of_period"] = "Kullanıcılar, süre yerine yalnızca toplam saat girebilir";
+$lang["timesheet_hour_input_help_message"] = "Ör: 1s 20d";
 
-$lang["template"] = "Template";
-$lang["template_details"] = "Template details";
+$lang["template"] = "Şablon";
+$lang["template_details"] = "Şablon detayları";
 
-$lang["label_existing_error_message"] = "This label already in use. It can't be deleted.";
+$lang["label_existing_error_message"] = "Bu etiket zaten kullanımda. Silinemez.";
 
-/* Version 2.6 */
+$lang["paytm_checksum_hash_error_message"] = "Kimlik bilgilerinizle Checksum Hash oluşturulamadı.";
 
-$lang["paytm_checksum_hash_error_message"] = "Couldn't generate Checksum Hash with your credentials.";
+$lang["testing_environment"] = "Test ortamı";
 
-$lang["testing_environment"] = "Testing environment";
+$lang["auto_reply_to_tickets"] = "Biletlere otomatik yanıt ver";
 
-$lang["auto_reply_to_tickets"] = "Auto reply to tickets";
+$lang["total_time_logged"] = "Toplam kaydedilen zaman";
+$lang["total_duration"] = "Toplam süre";
 
-$lang["total_time_logged"] = "Total time logged";
-$lang["total_duration"] = "Total duration";
+$lang["please_upload_valid_image_files"] = "Lütfen geçerli resim dosyaları yükleyin.";
+$lang["upload_image"] = "Resim Yükle";
+$lang["item_details"] = "Ürün detayları";
+$lang["item_image_sorting_help_message"] = "İlk resim varsayılan resim olacaktır.";
+$lang["show_in_client_portal"] = "Müşteri portalında göster";
+$lang["showing_in_client_portal"] = "Müşteri portalında gösteriliyor";
+$lang["add_to_cart"] = "Sepete ekle";
+$lang["item_empty_message"] = "Ürün bulunamadı!";
 
-$lang["please_upload_valid_image_files"] = "Please upload valid image files.";
-$lang["upload_image"] = "Upload Image";
-$lang["item_details"] = "Item details";
-$lang["item_image_sorting_help_message"] = "First image will be the default image.";
-$lang["show_in_client_portal"] = "Show in client portal";
-$lang["showing_in_client_portal"] = "Showing in client portal";
-$lang["add_to_cart"] = "Add to cart";
-$lang["item_empty_message"] = "No items found!";
+$lang["order"] = "Sipariş";
+$lang["orders"] = "Siparişler";
+$lang["no_items_text"] = "Alışveriş sepetinizde hiç ürününüz yok!";
+$lang["process_order"] = "Siparişi İşle";
+$lang["place_order"] = "Sipariş ver";
+$lang["edit_item"] = "Ürünü düzenle";
+$lang["store"] = "Mağaza";
+$lang["client_can_access_store"] = "Müşteri mağazaya erişebilir mi?";
+$lang["added_to_cart"] = "Sepete eklendi";
+$lang["can_access_orders"] = "Siparişlere erişebilir mi?";
 
-$lang["order"] = "Order";
-$lang["orders"] = "Orders";
-$lang["no_items_text"] = "You don't have any items in your shopping cart!";
-$lang["process_order"] = "Process Order";
-$lang["place_order"] = "Place order";
-$lang["edit_item"] = "Edit item";
-$lang["store"] = "Store";
-$lang["client_can_access_store"] = "Client can access store?";
-$lang["added_to_cart"] = "Added to cart";
-$lang["can_access_orders"] = "Can access orders?";
+$lang["order_settings"] = "Sipariş ayarları";
+$lang["order_logo"] = "Sipariş logosu";
+$lang["order_prefix"] = "Sipariş öneki";
+$lang["order_color"] = "Sipariş rengi";
+$lang["initial_number_of_the_order"] = "Siparişin başlangıç numarası";
+$lang["the_orders_id_must_be_larger_then_last_order_id"] = "Siparişlerin kimliği, son sipariş kimliğinden büyük olmalıdır.";
+$lang["order_footer"] = "Sipariş alt bilgisi";
 
-$lang["order_settings"] = "Order settings";
-$lang["order_logo"] = "Order logo";
-$lang["order_prefix"] = "Order prefix";
-$lang["order_color"] = "Order color";
-$lang["initial_number_of_the_order"] = "Initial number of the order";
-$lang["the_orders_id_must_be_larger_then_last_order_id"] = "The orders ID must be larger then last order ID.";
-$lang["order_footer"] = "Order footer";
+$lang["order_status"] = "Sipariş durumu";
+$lang["edit_order_status"] = "Sipariş durumunu düzenle";
+$lang["add_order_status"] = "Sipariş durumu ekle";
+$lang["delete_order_status"] = "Sipariş durumunu sil";
+$lang["there_has_orders_with_this_status"] = "Bu durumda siparişler var";
+$lang["orders_list"] = "Sipariş listesi";
+$lang["sales"] = "Satışlar";
+$lang["order_date"] = "Sipariş tarihi";
+$lang["edit_order"] = "Siparişi düzenle";
+$lang["delete_order"] = "Siparişi sil";
+$lang["show_in_order"] = "Siparişte göster";
+$lang["order_preview"] = "Sipariş önizlemesi";
+$lang["order_from"] = "Sipariş veren";
+$lang["add_order"] = "Sipariş ekle";
 
-$lang["order_status"] = "Order status";
-$lang["edit_order_status"] = "Edit order status";
-$lang["add_order_status"] = "Add order status";
-$lang["delete_order_status"] = "Delete order status";
-$lang["there_has_orders_with_this_status"] = "There has orders with this status";
-$lang["orders_list"] = "Orders list";
-$lang["sales"] = "Sales";
-$lang["order_date"] = "Order date";
-$lang["edit_order"] = "Edit order";
-$lang["delete_order"] = "Delete order";
-$lang["show_in_order"] = "Show in order";
-$lang["order_preview"] = "Order preview";
-$lang["order_from"] = "Order from";
-$lang["add_order"] = "Add order";
+$lang["process_order_info_message"] = "Siparişi oluşturmak üzeresiniz. Lütfen göndermeden önce detayları kontrol edin.";
 
-$lang["process_order_info_message"] = "You are about to create the order. Please check details before submitting.";
+$lang["order_creator_contact"] = "Sipariş oluşturan kişi";
 
-$lang["order_creator_contact"] = "Order creator contact";
+$lang["create_estimate"] = "Tahmin oluştur";
+$lang["include_all_items_of_this_order"] = "Bu siparişin tüm ürünlerini dahil et";
 
-$lang["create_estimate"] = "Create Estimate";
-$lang["include_all_items_of_this_order"] = "Include all items of this order";
+$lang["new_order_received"] = "Yeni sipariş alındı";
+$lang["notification_new_order_received"] = "Yeni sipariş alındı.";
 
-$lang["new_order_received"] = "New order received";
-$lang["notification_new_order_received"] = "New order received.";
+$lang["order_status_updated"] = "Sipariş durumu güncellendi";
+$lang["notification_order_status_updated"] = "Sipariş durumu güncellendi.";
 
-$lang["order_status_updated"] = "Order status updated";
-$lang["notification_order_status_updated"] = "Order status has been updated.";
+$lang["add_more_items"] = "Daha fazla ürün ekle";
 
-$lang["add_more_items"] = "Add more items";
+$lang["yes_only_own_leads"] = "Evet, sadece kendi potansiyel müşterilerim";
+$lang["yes_all_leads"] = "Evet, tüm potansiyel müşteriler";
 
-$lang["yes_only_own_leads"] = "Yes, only own leads";
-$lang["yes_all_leads"] = "Yes, all leads";
+$lang["yes_only_own_clients"] = "Evet, sadece kendi müşterilerim";
+$lang["yes_all_clients"] = "Evet, tüm müşteriler";
 
-$lang["yes_only_own_clients"] = "Yes, only own clients";
-$lang["yes_all_clients"] = "Yes, all clients";
+$lang["recently_updated"] = "Son güncellenen";
+$lang["recently_moved_to"] = "Son taşınan";
 
-$lang["recently_updated"] = "Recently updated";
-$lang["recently_moved_to"] = "Recently moved to";
+$lang["recently_commented"] = "Son yorumlanan";
+$lang["mentioned_me"] = "Beni bahsetti";
+$lang["recently_mentioned_me"] = "Son zamanlarda beni bahsetti";
+$lang["in"] = "İçinde";
+$lang["recently_meaning"] = "Son zamanlarda anlamı";
 
-$lang["recently_commented"] = "Recently commented";
-$lang["mentioned_me"] = "Mentioned me";
-$lang["recently_mentioned_me"] = "Recently mentioned me";
-$lang["in"] = "In";
-$lang["recently_meaning"] = "Recently meaning";
+$lang["quick_filters"] = "Hızlı filtreler";
 
-$lang["quick_filters"] = "Quick filters";
+$lang["has_open_projects"] = "Açık projelere sahip";
+$lang["has_completed_projects"] = "Tamamlanmış projelere sahip";
+$lang["has_any_hold_projects"] = "Beklemede olan projelere sahip";
 
-$lang["has_open_projects"] = "Has open projects";
-$lang["has_completed_projects"] = "Has completed projects";
-$lang["has_any_hold_projects"] = "Has any hold projects";
+$lang["has_unpaid_invoices"] = "Ödenmemiş faturalara sahip";
+$lang["has_overdue_invoices"] = "Vadesi geçmiş faturalara sahip";
+$lang["has_partially_paid_invoices"] = "Kısmen ödenmiş faturalara sahip";
+$lang["assignee"] = "Atanan kişi";
 
-$lang["has_unpaid_invoices"] = "Has unpaid invoices";
-$lang["has_overdue_invoices"] = "Has overdue invoices";
-$lang["has_partially_paid_invoices"] = "Has partially paid invoices";
-$lang["assignee"] = "Assignee";
+$lang["upload_and_crop"] = "Yükle ve kırp";
 
-$lang["upload_and_crop"] = "Upload and crop";
+$lang["active_members_on_projects"] = "Projelerde aktif üyeler";
 
-$lang["active_members_on_projects"] = "Active members on projects";
 
 /* Version 2.6.1 */
 
-$lang["open_tickets_list"] = "Open tickets list";
+$lang["open_tickets_list"] = "Açık biletler listesi";
 
-$lang["login_attempt_failed"] = "Login attempt failed";
-$lang["profile_image_error_message"] = "The image should be 200x200px.";
+$lang["login_attempt_failed"] = "Giriş denemesi başarısız oldu";
+$lang["profile_image_error_message"] = "Resim 200x200 piksel olmalıdır.";
 
-$lang["re_captcha_info_text"] = "Before you logout, please open a new browser and make sure the reCaptcha is working.";
-$lang["yes_assigned_tickets_only"] = "Yes, assigned tickets only";
-$lang["no_such_custom_field_found"] = "No such custom field found.";
-$lang["open_in_google_calendar"] = "Open in google calendar";
+$lang["re_captcha_info_text"] = "Çıkış yapmadan önce, lütfen yeni bir tarayıcı açın ve reCaptcha'nın çalıştığından emin olun.";
+$lang["yes_assigned_tickets_only"] = "Evet, sadece atanmış biletler";
+$lang["no_such_custom_field_found"] = "Böyle bir özel alan bulunamadı.";
+$lang["open_in_google_calendar"] = "Google takviminde aç";
 
-$lang["enable_embedded_form_to_get_tickets"] = "Enable embedded form to get tickets";
-$lang["submit_your_request"] = "Submit your request";
-$lang["submit"] = "Submit";
-$lang["ticket_submission_message"] = "Your ticket has been submitted successfully!";
-$lang["your_email"] = "Your email";
-$lang["your_name"] = "Your name";
+$lang["enable_embedded_form_to_get_tickets"] = "Bilet almak için gömülü formu etkinleştirin";
+$lang["submit_your_request"] = "İsteğinizi gönderin";
+$lang["submit"] = "Gönder";
+$lang["ticket_submission_message"] = "Biletiniz başarıyla gönderildi!";
+$lang["your_email"] = "E-postanız";
+$lang["your_name"] = "Adınız";
 
-$lang["item_categories"] = "Item categories";
-$lang["edit_items_category"] = "Edit items category";
-$lang["delete_items_category"] = "Delete items category";
+$lang["item_categories"] = "Ürün kategorileri";
+$lang["edit_items_category"] = "Ürün kategorisini düzenle";
+$lang["delete_items_category"] = "Ürün kategorisini sil";
 
-$lang["create_recurring_tasks_before"] = "Create recurring tasks before";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_recurring_tasks_before"] = "Tekrar eden görevleri önce oluşturun";
+$lang["create_new_order"] = "Yeni sipariş oluştur";
+$lang["find_more_items"] = "Daha fazla ürün bul";
+
 
 /* Version 2.8 */
 
-$lang["reports"] = "Reports";
+$lang["reports"] = "Raporlar";
 
-$lang["yes_all_estimates"] = "Yes, all estimates";
-$lang["yes_only_own_estimates"] = "Yes, only own estimates";
+$lang["yes_all_estimates"] = "Evet, tüm tahminler";
+$lang["yes_only_own_estimates"] = "Evet, sadece kendi tahminlerim";
 
-$lang["add_category"] = "Add category";
-$lang["edit_category"] = "Edit category";
-$lang["delete_category"] = "Delete category";
+$lang["add_category"] = "Kategori ekle";
+$lang["edit_category"] = "Kategoriyi düzenle";
+$lang["delete_category"] = "Kategoriyi sil";
 
-$lang["proposal"] = "Proposal";
-$lang["proposals"] = "Proposals";
-$lang["can_access_proposals"] = "Can access proposals?";
-$lang["show_in_proposal"] = "Show in proposal";
-$lang["proposal_date"] = "Proposal date";
-$lang["edit_proposal"] = "Edit proposal";
-$lang["delete_proposal"] = "Delete proposal";
-$lang["proposal_sent_message"] = "The proposal has been sent!";
-$lang["add_proposal"] = "Add proposal";
-$lang["proposal_preview"] = "Proposal preview";
-$lang["clone_proposal"] = "Clone proposal";
-$lang["proposal_to"] = "Proposal to";
-$lang["proposal_settings"] = "Proposal settings";
-$lang["proposal_prefix"] = "Proposal prefix";
-$lang["proposal_color"] = "Proposal color";
-$lang["send_proposal_bcc_to"] = "When sending proposal to client, send BCC to";
-$lang["initial_number_of_the_proposal"] = "Initial number of the proposal";
-$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger then last proposal ID.";
-$lang["proposal_sent"] = "Proposal sent";
-$lang["notification_proposal_sent"] = "Sent a proposal";
-$lang["proposal_accepted"] = "Proposal accepted";
-$lang["notification_proposal_accepted"] = "Accepted a proposal";
-$lang["proposal_rejected"] = "Proposal rejected";
-$lang["notification_proposal_rejected"] = "Rejected a proposal";
-$lang["create_estimate"] = "Create Estimate";
-$lang["include_all_items_of_this_proposal"] = "Include all items of this proposal";
-$lang["proposal_view"] = "Proposal view";
-$lang["accept_proposal"] = "Accept proposal";
-$lang["reject_proposal"] = "Reject proposal";
-$lang["proposal_accepted_message"] = "You've successfully accepted this proposal!";
+$lang["proposal"] = "Teklif";
+$lang["proposals"] = "Teklifler";
+$lang["can_access_proposals"] = "Tekliflere erişebilir mi?";
+$lang["show_in_proposal"] = "Teklifte göster";
+$lang["proposal_date"] = "Teklif tarihi";
+$lang["edit_proposal"] = "Teklifi düzenle";
+$lang["delete_proposal"] = "Teklifi sil";
+$lang["proposal_sent_message"] = "Teklif gönderildi!";
+$lang["add_proposal"] = "Teklif ekle";
+$lang["proposal_preview"] = "Teklif önizlemesi";
+$lang["clone_proposal"] = "Teklifi kopyala";
+$lang["proposal_to"] = "Teklifin yapıldığı kişi";
+$lang["proposal_settings"] = "Teklif ayarları";
+$lang["proposal_prefix"] = "Teklif öneki";
+$lang["proposal_color"] = "Teklif rengi";
+$lang["send_proposal_bcc_to"] = "Teklifi müşteriye gönderirken BCC olarak gönder";
+$lang["initial_number_of_the_proposal"] = "Teklifin başlangıç numarası";
+$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "Tekliflerin ID'si, son teklifin ID'sinden büyük olmalıdır.";
+$lang["proposal_sent"] = "Teklif gönderildi";
+$lang["notification_proposal_sent"] = "Bir teklif gönderildi";
+$lang["proposal_accepted"] = "Teklif kabul edildi";
+$lang["notification_proposal_accepted"] = "Bir teklif kabul edildi";
+$lang["proposal_rejected"] = "Teklif reddedildi";
+$lang["notification_proposal_rejected"] = "Bir teklif reddedildi";
+$lang["create_estimate"] = "Tahmin oluştur";
+$lang["include_all_items_of_this_proposal"] = "Bu teklifin tüm kalemlerini dahil et";
+$lang["proposal_view"] = "Teklif görünümü";
+$lang["accept_proposal"] = "Teklifi kabul et";
+$lang["reject_proposal"] = "Teklifi reddet";
+$lang["proposal_accepted_message"] = "Bu teklifi başarıyla kabul ettiniz!";
 
-$lang["set_timeline_permissions"] = "Set timeline permissions";
-$lang["cant_see_the_timeline"] = "Can't see the Timeline";
-$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "Can see timeline posts from specific members or teams:";
+$lang["set_timeline_permissions"] = "Zaman çizelgesi izinlerini ayarla";
+$lang["cant_see_the_timeline"] = "Zaman çizelgesini göremez";
+$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "Belirli üyelerden veya takımlardan zaman çizelgesi gönderilerini görebilir:";
 
-$lang["localization"] = "Localization";
-$lang["localization_settings"] = "Localization Settings";
-$lang["main_task"] = "Main task";
+$lang["localization"] = "Yerelleştirme";
+$lang["localization_settings"] = "Yerelleştirme Ayarları";
+$lang["main_task"] = "Ana görev";
 
-$lang["select_all"] = "Select all";
-$lang["unselect_all"] = "Unselect all";
+$lang["select_all"] = "Tümünü seç";
+$lang["unselect_all"] = "Seçimi kaldır";
 
-$lang["plugins"] = "Plugins";
-$lang["install_plugin"] = "Install plugin";
-$lang["please_upload_a_zip_file"] = "Please upload a zip file.";
-$lang["install"] = "Install";
-$lang["installed"] = "Installed";
-$lang["activate"] = "Activate";
-$lang["activated"] = "Activated";
-$lang["deactivate"] = "Deactivate";
-$lang["deactivated"] = "Deactivated";
-$lang["the_required_files_missing"] = "The required files missing.";
-$lang["this_plugin_is_already_installed"] = "This plugin is already installed.";
-$lang["version"] = "Version";
-$lang["by"] = "By";
-$lang["visit_plugin_site"] = "Visit plugin site";
+$lang["plugins"] = "Eklentiler";
+$lang["install_plugin"] = "Eklenti yükle";
+$lang["please_upload_a_zip_file"] = "Lütfen bir zip dosyası yükleyin.";
+$lang["install"] = "Yükle";
+$lang["installed"] = "Yüklendi";
+$lang["activate"] = "Aktifleştir";
+$lang["activated"] = "Aktifleştirildi";
+$lang["deactivate"] = "Devre dışı bırak";
+$lang["deactivated"] = "Devre dışı bırakıldı";
+$lang["the_required_files_missing"] = "Gerekli dosyalar eksik.";
+$lang["this_plugin_is_already_installed"] = "Bu eklenti zaten yüklü.";
+$lang["version"] = "Versiyon";
+$lang["by"] = "Tarafından";
+$lang["visit_plugin_site"] = "Eklenti sitesini ziyaret et";
 
-$lang["can_manage_team_members_job_information"] = "Can manage team member's job information?";
+$lang["can_manage_team_members_job_information"] = "Takım üyelerinin iş bilgilerini yönetebilir mi?";
 
-$lang["add_filter"] = "Add filter";
-$lang["specific_client_groups"] = "Specific client groups";
-$lang["choose_client_groups"] = "Choose client groups";
+$lang["add_filter"] = "Filtre ekle";
+$lang["specific_client_groups"] = "Belirli müşteri grupları";
+$lang["choose_client_groups"] = "Müşteri gruplarını seç";
 
-$lang["checklist_template"] = "Checklist Template";
-$lang["add_checklist_template"] = "Add checklist template";
-$lang["edit_checklist_template"] = "Edit checklist template";
-$lang["delete_checklist_template"] = "Delete checklist template";
-$lang["select_from_template"] = "Selct from template";
-$lang["type_new_item"] = "Type new item";
+$lang["checklist_template"] = "Kontrol Listesi Şablonu";
+$lang["add_checklist_template"] = "Kontrol listesi şablonu ekle";
+$lang["edit_checklist_template"] = "Kontrol listesi şablonunu düzenle";
+$lang["delete_checklist_template"] = "Kontrol listesi şablonunu sil";
+$lang["select_from_template"] = "Şablondan seç";
+$lang["type_new_item"] = "Yeni öğe yaz";
 
-$lang["conversion_rate"] = "Conversion rate";
+$lang["conversion_rate"] = "Dönüşüm oranı";
 
-$lang["all_tasks"] = "All tasks";
-$lang["user_roles"] = "User Roles";
-$lang["edit_user_role"] = "Edit user role";
+$lang["all_tasks"] = "Tüm görevler";
+$lang["user_roles"] = "Kullanıcı Rolleri";
+$lang["edit_user_role"] = "Kullanıcı rolünü düzenle";
 
-$lang["total_leads"] = "Total leads";
+$lang["total_leads"] = "Toplam potansiyel müşteri";
 
-$lang["copy_link"] = "Copy link";
-$lang["copy_comment_link"] = "Copy comment link";
+$lang["copy_link"] = "Bağlantıyı kopyala";
+$lang["copy_comment_link"] = "Yorum bağlantısını kopyala";
 
-$lang["pin_comment"] = "Pin comment";
-$lang["unpin_comment"] = "Unpin comment";
-$lang["pinned_comments"] = "Pinned comments";
+$lang["pin_comment"] = "Yorumu sabitle";
+$lang["unpin_comment"] = "Yorumun sabitlenmesini kaldır";
+$lang["pinned_comments"] = "Sabitlenmiş yorumlar";
 
-$lang["reply_from_this_comment"] = "Reply from this comment <br />";
+$lang["reply_from_this_comment"] = "Bu yorumdan yanıtla <br />";
 
-$lang["project_files"] = "Project files";
-$lang["edit_files"] = "Edit files";
+$lang["project_files"] = "Proje dosyaları";
+$lang["edit_files"] = "Dosyaları düzenle";
 
-$lang["invoice_manual_payment_added"] = "Invoice manual payment added";
-$lang["notification_invoice_manual_payment_added"] = "Added a manual payment.";
+$lang["invoice_manual_payment_added"] = "Fatura manuel ödeme eklendi";
+$lang["notification_invoice_manual_payment_added"] = "Manuel bir ödeme eklendi.";
 
-$lang["save_as_note"] = "Save as note";
-$lang["client_will_not_see_any_notes"] = "Client will not see any notes.";
+$lang["save_as_note"] = "Not olarak kaydet";
+$lang["client_will_not_see_any_notes"] = "Müşteri hiçbir notu görmeyecek.";
 
-$lang["prospects"] = "Prospects";
-$lang["estimate_forms"] = "Estimate Forms";
+$lang["prospects"] = "Aday müşteriler";
+$lang["estimate_forms"] = "Tahmin Formları";
 
-$lang["proposal_editor"] = "Proposal Editor";
-$lang["proposal_templates"] = "Proposal templates";
-$lang["add_proposal_template"] = "Add proposal template";
-$lang["edit_proposal_template"] = "Edit proposal template";
-$lang["delete_proposal_template"] = "Delete proposal template";
-$lang["use_template_from"] = "Use template from";
-$lang["print_proposal"] = "Print proposal";
-$lang["proposal_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+$lang["proposal_editor"] = "Teklif Editörü";
+$lang["proposal_templates"] = "Teklif şablonları";
+$lang["add_proposal_template"] = "Teklif şablonu ekle";
+$lang["edit_proposal_template"] = "Teklif şablonunu düzenle";
+$lang["delete_proposal_template"] = "Teklif şablonunu sil";
+$lang["use_template_from"] = "Şablonu şuradan kullan";
+$lang["print_proposal"] = "Teklifi yazdır";
+$lang["proposal_template_inserting_instruction"] = "Bir şablon ekleyerek tüm kaydedilmemiş değişiklikleri kaybedeceksiniz.";
 
-$lang["default"] = "Default";
+$lang["default"] = "Varsayılan";
 
-$lang["encryption"] = "Encryption";
-$lang["imap_encryption_help_message"] = "Different server could work with different configuration. If you see any problem to connect with IMAP, please check with different options.";
+$lang["encryption"] = "Şifreleme";
+$lang["imap_encryption_help_message"] = "Farklı sunucular farklı yapılandırmalarla çalışabilir. IMAP ile bağlantıda herhangi bir sorun yaşarsanız, lütfen farklı seçenekleri deneyin.";
 
-$lang["administration_permissions"] = "Administration permissions";
-$lang["can_manage_all_kinds_of_settings"] = "Can manage all kinds of settings";
-$lang["can_manage_user_role_and_permissions"] = "Can manage user role and permissions";
-$lang["can_add_or_invite_new_team_members"] = "Can add/invite new team members";
+$lang["administration_permissions"] = "Yönetim izinleri";
+$lang["can_manage_all_kinds_of_settings"] = "Tüm ayar türlerini yönetebilir";
+$lang["can_manage_user_role_and_permissions"] = "Kullanıcı rolü ve izinlerini yönetebilir";
+$lang["can_add_or_invite_new_team_members"] = "Yeni takım üyeleri ekleyebilir/davet edebilir";
 
-$lang["add_signature_option_on_accepting_proposal"] = "Add signature option on accepting proposal";
-$lang["accept"] = "Accept";
-$lang["signer_info"] = "Signer info";
-$lang["default_template"] = "Default template";
-$lang["change_template"] = "Change template";
-$lang["this_variable_is_unsupported"] = "This variable is unsupported";
+$lang["add_signature_option_on_accepting_proposal"] = "Teklif kabul edilirken imza seçeneği ekle";
+$lang["accept"] = "Kabul et";
+$lang["signer_info"] = "İmzalayan bilgisi";
+$lang["default_template"] = "Varsayılan şablon";
+$lang["change_template"] = "Şablonu değiştir";
+$lang["this_variable_is_unsupported"] = "Bu değişken desteklenmiyor";
 
-$lang["plugin_deletion_alert_message"] = "All records and files also will be deleted!";
-$lang["plugin_requires_at_least_error_message"] = "This plugin requires at least %s version.";
-$lang["plugin_supports_at_most_error_message"] = "This plugin supports at most %s version.";
-$lang["no_update_hook_found"] = "No update hook found!";
-$lang["indexed"] = "Indexed";
+$lang["plugin_deletion_alert_message"] = "Tüm kayıtlar ve dosyalar da silinecek!";
+$lang["plugin_requires_at_least_error_message"] = "Bu eklenti en az %s versiyonunu gerektirir.";
+$lang["plugin_supports_at_most_error_message"] = "Bu eklenti en fazla %s versiyonunu destekler.";
+$lang["no_update_hook_found"] = "Güncelleme kancası bulunamadı!";
+$lang["indexed"] = "İndekslenmiş";
 
-$lang["save_and_continue"] = "Save & continue";
-$lang["add_new_project_member"] = "Add new project member";
+$lang["save_and_continue"] = "Kaydet ve devam et";
+$lang["add_new_project_member"] = "Yeni proje üyesi ekle";
 
-$lang["field_type_time"] = "Time";
-$lang["client_can_assign_tasks"] = "Client can assign tasks?";
-$lang["can_create_lead_from_public_form"] = "Can create lead from public form";
-$lang["lead_html_form_code"] = "Lead creation HTML form code";
+$lang["field_type_time"] = "Zaman";
+$lang["client_can_assign_tasks"] = "Müşteri görev atayabilir mi?";
+$lang["can_create_lead_from_public_form"] = "Halka açık formdan potansiyel müşteri oluşturulabilir mi?";
+$lang["lead_html_form_code"] = "Potansiyel müşteri oluşturma HTML form kodu";
 
-$lang["enable_comments_on_estimates"] = "Enable comments on estimates";
-$lang["show_most_recent_estimate_comments_at_the_top"] = "Show most recent estimate comments at the top";
-$lang["estimate_commented"] = "Estimate commented";
-$lang["estimate_creator"] = "Estimate creator";
-$lang["notification_estimate_commented"] = "Commented on an estimate.";
+$lang["enable_comments_on_estimates"] = "Tahminlerde yorumları etkinleştir";
+$lang["show_most_recent_estimate_comments_at_the_top"] = "En son tahmin yorumlarını en üstte göster";
+$lang["estimate_commented"] = "Tahmin yorumlandı";
+$lang["estimate_creator"] = "Tahmin oluşturucu";
+$lang["notification_estimate_commented"] = "Bir tahmine yorum yapıldı.";
 
-$lang["contacts_logged_in_today"] = "Contacts logged in today";
-$lang["contacts_logged_in_last_seven_days"] = "Contacts logged in last 7 days";
+$lang["contacts_logged_in_today"] = "Bugün giriş yapan kişiler";
+$lang["contacts_logged_in_last_seven_days"] = "Son 7 gün içinde giriş yapan kişiler";
 
-$lang["clients_has_unpaid_invoices"] = "Clients has unpaid invoices";
-$lang["clients_has_partially_paid_invoices"] = "Clients has partially paid invoices";
-$lang["clients_has_overdue_invoices"] = "Clients has overdue invoices";
+$lang["clients_has_unpaid_invoices"] = "Müşterilerin ödenmemiş faturaları var";
+$lang["clients_has_partially_paid_invoices"] = "Müşterilerin kısmen ödenmiş faturaları var";
+$lang["clients_has_overdue_invoices"] = "Müşterilerin vadesi geçmiş faturaları var";
 
-$lang["of_total_clients"] = "of total clients";
+$lang["of_total_clients"] = "toplam müşterilerin";
 
-$lang["has_canceled_projects"] = "Has canceled projects";
-$lang["clients_has_open_projects"] = "Clients has open projects";
-$lang["clients_has_hold_projects"] = "Clients has hold projects";
-$lang["clients_has_completed_projects"] = "Clients has completed projects";
-$lang["clients_has_canceled_projects"] = "Clients has canceled projects";
+$lang["has_canceled_projects"] = "İptal edilen projeler var";
+$lang["clients_has_open_projects"] = "Müşterilerin açık projeleri var";
+$lang["clients_has_hold_projects"] = "Müşterilerin bekleyen projeleri var";
+$lang["clients_has_completed_projects"] = "Müşterilerin tamamlanmış projeleri var";
+$lang["clients_has_canceled_projects"] = "Müşterilerin iptal edilen projeleri var";
 
-$lang["has_open_estimates"] = "Has open estimates";
-$lang["has_accepted_estimates"] = "Has accepted estimates";
-$lang["has_new_estimate_requests"] = "Has new estimate requests";
-$lang["has_estimate_requests_in_progress"] = "Has estimate requests in progress";
-$lang["clients_has_open_estimates"] = "Client has open estimates";
-$lang["clients_has_accepted_estimates"] = "Clients has accepted estimates";
-$lang["clients_has_new_estimate_requests"] = "Clients has new estimate requests";
-$lang["clients_has_estimate_requests_in_progress"] = "Clients has estimate requests in progress";
+$lang["has_open_estimates"] = "Açık tahminler var";
+$lang["has_accepted_estimates"] = "Kabul edilen tahminler var";
+$lang["has_new_estimate_requests"] = "Yeni tahmin talepleri var";
+$lang["has_estimate_requests_in_progress"] = "Devam eden tahmin talepleri var";
+$lang["clients_has_open_estimates"] = "Müşterilerin açık tahminleri var";
+$lang["clients_has_accepted_estimates"] = "Müşterilerin kabul edilen tahminleri var";
+$lang["clients_has_new_estimate_requests"] = "Müşterilerin yeni tahmin talepleri var";
+$lang["clients_has_estimate_requests_in_progress"] = "Müşterilerin devam eden tahmin talepleri var";
 
-$lang["has_open_tickets"] = "Has open tickets";
-$lang["clients_has_open_tickets"] = "Clients has open tickets";
+$lang["has_open_tickets"] = "Açık biletler var";
+$lang["clients_has_open_tickets"] = "Müşterilerin açık biletleri var";
 
-$lang["has_new_orders"] = "Has new orders";
-$lang["clients_has_new_orders"] = "Clients has new orders";
+$lang["has_new_orders"] = "Yeni siparişler var";
+$lang["clients_has_new_orders"] = "Müşterilerin yeni siparişleri var";
 
-$lang["has_open_proposals"] = "Has open proposals";
-$lang["has_accepted_proposals"] = "Has accepted proposals";
-$lang["has_rejected_proposals"] = "Has rejected proposals";
-$lang["clients_has_open_proposals"] = "Clients has open proposals";
-$lang["clients_has_accepted_proposals"] = "Clients has accepted proposals";
-$lang["clients_has_rejected_proposals"] = "Clients has rejected proposals";
+$lang["has_open_proposals"] = "Açık teklifler var";
+$lang["has_accepted_proposals"] = "Kabul edilen teklifler var";
+$lang["has_rejected_proposals"] = "Reddedilen teklifler var";
+$lang["clients_has_open_proposals"] = "Müşterilerin açık teklifleri var";
+$lang["clients_has_accepted_proposals"] = "Müşterilerin kabul edilen teklifleri var";
+$lang["clients_has_rejected_proposals"] = "Müşterilerin reddedilen teklifleri var";
 
-$lang["logged_in_today"] = "Logged in today";
-$lang["logged_in_last_seven_days"] = "Logged in last 7 days";
+$lang["logged_in_today"] = "Bugün giriş yapıldı";
+$lang["logged_in_last_seven_days"] = "Son 7 günde giriş yapıldı";
 
-$lang["hide_from_kanban_view"] = "Hide from kanban view";
+$lang["hide_from_kanban_view"] = "Kanban görünümünden gizle";
 
 /* Version 2.9 */
 
-$lang["contract"] = "Contract";
-$lang["contracts"] = "Contracts";
-$lang["can_access_contracts"] = "Can access contracts?";
-$lang["show_in_contract"] = "Show in contract";
-$lang["contract_date"] = "Contract date";
-$lang["edit_contract"] = "Edit contract";
-$lang["delete_contract"] = "Delete contract";
-$lang["contract_sent_message"] = "The contract has been sent!";
-$lang["add_contract"] = "Add contract";
-$lang["contract_preview"] = "Contract preview";
-$lang["clone_contract"] = "Clone contract";
-$lang["contract_to"] = "Contract to";
-$lang["contract_settings"] = "Contract settings";
-$lang["contract_color"] = "Contract color";
-$lang["send_contract_bcc_to"] = "When sending contract to client, send BCC to";
-$lang["initial_number_of_the_contract"] = "Initial number of the contract";
-$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "The contracts ID must be larger then last contract ID.";
-$lang["contract_sent"] = "Contract sent";
-$lang["notification_contract_sent"] = "Sent a contract";
-$lang["contract_accepted"] = "Contract accepted";
-$lang["notification_contract_accepted"] = "Accepted a contract";
-$lang["contract_rejected"] = "Contract rejected";
-$lang["notification_contract_rejected"] = "Rejected a contract";
-$lang["create_estimate"] = "Create Estimate";
-$lang["include_all_items_of_this_contract"] = "Include all items of this contract";
-$lang["contract_view"] = "Contract view";
-$lang["accept_contract"] = "Accept contract";
-$lang["reject_contract"] = "Reject contract";
-$lang["contract_accepted_message"] = "You've successfully accepted this contract!";
 
-$lang["contract_editor"] = "Contract Editor";
-$lang["contract_templates"] = "Contract templates";
-$lang["add_contract_template"] = "Add contract template";
-$lang["edit_contract_template"] = "Edit contract template";
-$lang["delete_contract_template"] = "Delete contract template";
-$lang["use_template_from"] = "Use template from";
-$lang["print_contract"] = "Print contract";
-$lang["contract_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+$lang["contract"] = "Sözleşme";
+$lang["contracts"] = "Sözleşmeler";
+$lang["can_access_contracts"] = "Sözleşmelere erişebilir mi?";
+$lang["show_in_contract"] = "Sözleşmede göster";
+$lang["contract_date"] = "Sözleşme tarihi";
+$lang["edit_contract"] = "Sözleşmeyi düzenle";
+$lang["delete_contract"] = "Sözleşmeyi sil";
+$lang["contract_sent_message"] = "Sözleşme gönderildi!";
+$lang["add_contract"] = "Sözleşme ekle";
+$lang["contract_preview"] = "Sözleşme önizlemesi";
+$lang["clone_contract"] = "Sözleşmeyi kopyala";
+$lang["contract_to"] = "Sözleşmenin yapıldığı kişi";
+$lang["contract_settings"] = "Sözleşme ayarları";
+$lang["contract_color"] = "Sözleşme rengi";
+$lang["send_contract_bcc_to"] = "Sözleşmeyi müşteriye gönderirken BCC olarak gönder";
+$lang["initial_number_of_the_contract"] = "Sözleşmenin başlangıç numarası";
+$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "Sözleşmelerin ID'si, son sözleşmenin ID'sinden büyük olmalıdır.";
+$lang["contract_sent"] = "Sözleşme gönderildi";
+$lang["notification_contract_sent"] = "Bir sözleşme gönderildi";
+$lang["contract_accepted"] = "Sözleşme kabul edildi";
+$lang["notification_contract_accepted"] = "Bir sözleşme kabul edildi";
+$lang["contract_rejected"] = "Sözleşme reddedildi";
+$lang["notification_contract_rejected"] = "Bir sözleşme reddedildi";
+$lang["create_estimate"] = "Tahmin oluştur";
+$lang["include_all_items_of_this_contract"] = "Bu sözleşmenin tüm kalemlerini dahil et";
+$lang["contract_view"] = "Sözleşme görünümü";
+$lang["accept_contract"] = "Sözleşmeyi kabul et";
+$lang["reject_contract"] = "Sözleşmeyi reddet";
+$lang["contract_accepted_message"] = "Bu sözleşmeyi başarıyla kabul ettiniz!";
 
-$lang["ticket_info"] = "Ticket info";
+$lang["contract_editor"] = "Sözleşme Editörü";
+$lang["contract_templates"] = "Sözleşme şablonları";
+$lang["add_contract_template"] = "Sözleşme şablonu ekle";
+$lang["edit_contract_template"] = "Sözleşme şablonunu düzenle";
+$lang["delete_contract_template"] = "Sözleşme şablonunu sil";
+$lang["use_template_from"] = "Şablonu şuradan kullan";
+$lang["print_contract"] = "Sözleşmeyi yazdır";
+$lang["contract_template_inserting_instruction"] = "Bir şablon ekleyerek tüm kaydedilmemiş değişiklikleri kaybedeceksiniz.";
 
-$lang["recurring_tasks"] = "Recurring tasks";
-$lang["add_multiple_contacts"] = "Add multiple contacts";
+$lang["ticket_info"] = "Bilet bilgisi";
 
-$lang["total_invoiced"] = "Total invoiced";
+$lang["recurring_tasks"] = "Tekrar eden görevler";
+$lang["add_multiple_contacts"] = "Birden fazla kişi ekle";
 
-$lang["show_sub_tasks"] = "Show sub tasks";
+$lang["total_invoiced"] = "Toplam faturalandırılan";
 
-$lang["add_signature_option_on_accepting_estimate"] = "Add signature option on accepting estimate";
-$lang["accept_estimate"] = "Accept estimate";
+$lang["show_sub_tasks"] = "Alt görevleri göster";
 
-$lang["sub_tasks_completed"] = "Sub tasks completed";
+$lang["add_signature_option_on_accepting_estimate"] = "Tahmini kabul ederken imza seçeneği ekle";
+$lang["accept_estimate"] = "Tahmini kabul et";
 
-$lang["client_portal"] = "Client portal";
-$lang["sales_and_prospects"] = "Sales & Prospects";
+$lang["sub_tasks_completed"] = "Alt görevler tamamlandı";
 
-$lang["contract_prefix"] = "Contract prefix";
-$lang["default_contract_template"] = "Default contract template";
+$lang["client_portal"] = "Müşteri portalı";
+$lang["sales_and_prospects"] = "Satışlar ve Aday Müşteriler";
 
-$lang["default_proposal_template"] = "Default proposal template";
+$lang["contract_prefix"] = "Sözleşme öneki";
+$lang["default_contract_template"] = "Varsayılan sözleşme şablonu";
 
-$lang["signed_date"] = "Signed date";
+$lang["default_proposal_template"] = "Varsayılan teklif şablonu";
 
-$lang["add_signature_option_on_accepting_contract"] = "Add signature option on accepting contract";
-$lang["accept"] = "Accept";
-$lang["signer_info"] = "Signer info";
-$lang["default_template"] = "Default template";
-$lang["change_template"] = "Change template";
+$lang["signed_date"] = "İmzalanma tarihi";
+
+$lang["add_signature_option_on_accepting_contract"] = "Sözleşmeyi kabul ederken imza seçeneği ekle";
+$lang["accept"] = "Kabul et";
+$lang["signer_info"] = "İmzalayan bilgisi";
+$lang["default_template"] = "Varsayılan şablon";
+$lang["change_template"] = "Şablonu değiştir";
 
 /* Version 2.9.2 */
 
-$lang["custom_left_menu_instruction"] = "For external links, please add http or https before the url.";
-$lang["parent_task_completing_error_message"] = "There has incompleted sub task(s) of this task!";
+$lang["custom_left_menu_instruction"] = "Dış bağlantılar için, lütfen url'den önce http veya https ekleyin.";
+$lang["parent_task_completing_error_message"] = "Bu görevin tamamlanmamış alt görev(leri) var!";
 
 /* Version 3.0 */
 
-$lang["was_this_article_helpful"] = "Was this article helpful?";
-$lang["thank_you_for_your_feedback"] = "Thank you for your feedback.";
-$lang["feedback"] = "Feedback";
+$lang["was_this_article_helpful"] = "Bu makale yardımcı oldu mu?";
+$lang["thank_you_for_your_feedback"] = "Geri bildiriminiz için teşekkür ederiz.";
+$lang["feedback"] = "Geri Bildirim";
 
-$lang["add_signature_option_for_team_members"] = "Add signature option for team members";
-$lang["sign_contract"] = "Sign contract";
+$lang["add_signature_option_for_team_members"] = "Takım üyeleri için imza seçeneği ekle";
+$lang["sign_contract"] = "Sözleşmeyi imzala";
 
-$lang["remove_task_statuses"] = "Remove task statuses";
-$lang["task_statuses"] = "Task Statuses";
+$lang["remove_task_statuses"] = "Görev durumlarını kaldır";
+$lang["task_statuses"] = "Görev Durumları";
 
-$lang["file_delete_permission_error_message"] = "We can't delete some files since you don't have permission.";
+$lang["file_delete_permission_error_message"] = "İzininiz olmadığı için bazı dosyaları silemiyoruz.";
 
-$lang["reject_estimate"] = "Reject estimate";
+$lang["reject_estimate"] = "Tahmini reddet";
 
-$lang["unknown_user"] = "Unknown user";
+$lang["unknown_user"] = "Bilinmeyen kullanıcı";
 
-$lang["yes_specific_client_groups"] = "Yes, specific client groups";
+$lang["yes_specific_client_groups"] = "Evet, belirli müşteri grupları";
 
 /* Version 3.1 */
 
-$lang["add_company"] = "Add company";
-$lang["edit_company"] = "Edit company";
-$lang["delete_company"] = "Delete company";
-$lang["default_company"] = "Default company";
+$lang["add_company"] = "Şirket ekle";
+$lang["edit_company"] = "Şirketi düzenle";
+$lang["delete_company"] = "Şirketi sil";
+$lang["default_company"] = "Varsayılan şirket";
 
-$lang["task_priority"] = "Task priority";
-$lang["priority"] = "Priority";
-$lang["add_task_priority"] = "Add task priority";
-$lang["edit_task_priority"] = "Edit task priority";
-$lang["delete_task_priority"] = "Delete task priority";
+$lang["task_priority"] = "Görev önceliği";
+$lang["priority"] = "Öncelik";
+$lang["add_task_priority"] = "Görev önceliği ekle";
+$lang["edit_task_priority"] = "Görev önceliğini düzenle";
+$lang["delete_task_priority"] = "Görev önceliğini sil";
 
-$lang["import_items"] = "Import items";
-$lang["import_error_field_required"] = "%s field is required";
+$lang["import_items"] = "Öğeleri içe aktar";
+$lang["import_error_field_required"] = "%s alanı gereklidir";
 
-$lang["do_not_show_projects"] = "Don't show projects";
+$lang["do_not_show_projects"] = "Projeleri gösterme";
 
-$lang["show_in_kanban"] = "Show in kanban";
-$lang["project_name"] = "Project name";
-$lang["client_name"] = "Client name";
+$lang["show_in_kanban"] = "Kanban'da göster";
+$lang["project_name"] = "Proje adı";
+$lang["client_name"] = "Müşteri adı";
 
-$lang["import_date_error_message"] = "Date format is invalid.";
+$lang["import_date_error_message"] = "Tarih formatı geçersiz.";
 
-$lang["event_label"] = "Event label";
+$lang["event_label"] = "Etkinlik etiketi";
 
-$lang["undo"] = "Undo";
+$lang["undo"] = "Geri al";
 
-$lang["clone_expense"] = "Clone expense";
-$lang["files_will_not_be_copied"] = "Files will not be copied.";
+$lang["clone_expense"] = "Gideri kopyala";
+$lang["files_will_not_be_copied"] = "Dosyalar kopyalanmayacak.";
 
-$lang["checklist_group"] = "Checklist group";
-$lang["checklists"] = "Checklists";
-$lang["add_checklist_group"] = "Add checklist group";
-$lang["edit_checklist_group"] = "Edit checklist group";
-$lang["delete_checklist_group"] = "Delete checklist group";
-$lang["select_from_checklist_group"] = "Select from checklist group";
+$lang["checklist_group"] = "Kontrol listesi grubu";
+$lang["checklists"] = "Kontrol listeleri";
+$lang["add_checklist_group"] = "Kontrol listesi grubu ekle";
+$lang["edit_checklist_group"] = "Kontrol listesi grubunu düzenle";
+$lang["delete_checklist_group"] = "Kontrol listesi grubunu sil";
+$lang["select_from_checklist_group"] = "Kontrol listesi grubundan seç";
 
-$lang["import_leaves"] = "Import leaves";
+$lang["import_leaves"] = "İzinleri içe aktar";
 
-$lang["import_tasks"] = "Import tasks";
+$lang["import_tasks"] = "Görevleri içe aktar";
 
-$lang["import_not_exists_error_message"] = "%s not found.";
-$lang["import_task_points_error_message"] = "Points field is invalid.";
-$lang["user"] = "User";
+$lang["import_not_exists_error_message"] = "%s bulunamadı.";
+$lang["import_task_points_error_message"] = "Puan alanı geçersiz.";
+$lang["user"] = "Kullanıcı";
 
-$lang["checkout"] = "Checkout";
-$lang["all_plugins"] = "All plugins";
+$lang["checkout"] = "Ödeme";
+$lang["all_plugins"] = "Tüm eklentiler";
 
-$lang["payments_summary"] = "Payments Summary";
-$lang["yearly_summary"] = "Yearly summary";
-$lang["clients_summary"] = "Clients summary";
+$lang["payments_summary"] = "Ödemeler Özeti";
+$lang["yearly_summary"] = "Yıllık özet";
+$lang["clients_summary"] = "Müşteri özeti";
 
-$lang["import_leave_status_error_message"] = "Status is invalid. Valid statuses are: ";
+$lang["import_leave_status_error_message"] = "Durum geçersiz. Geçerli durumlar: ";
 
-$lang["import_expense"] = "Import expense";
+$lang["import_expense"] = "Gideri içe aktar";
 
-$lang["mark_as_default"] = "Mark as default";
-$lang["remove_as_default"] = "Remove as default";
-$lang["staff_default_dashboard_help_message"] = "This will replace the default dashboard for all team members. Please note that, the widgets will be distributed as per user's permission.";
+$lang["mark_as_default"] = "Varsayılan olarak işaretle";
+$lang["remove_as_default"] = "Varsayılandan kaldır";
+$lang["staff_default_dashboard_help_message"] = "Bu, tüm takım üyeleri için varsayılan gösterge tablosunu değiştirecek. Lütfen, widget'ların kullanıcının izinlerine göre dağıtılacağını unutmayın.";
 
 /* Version 3.2 */
 
-$lang["reminder"] = "Reminder";
-$lang["reminders"] = "Reminders";
-$lang["show_all_reminders"] = "Show all reminders";
-$lang["time"] = "Time";
-$lang["add_reminder"] = "Add reminder";
-$lang["delete_reminder"] = "Delete reminder";
-$lang["snooze"] = "Snooze";
-$lang["dismiss"] = "Dismiss";
-$lang["snooze_length"] = "Snooze length";
-$lang["minutes"] = "Minutes";
-$lang["reminder_sound_volume"] = "Reminder sound volume";
-$lang["reminder_details"] = "Reminder details";
-$lang["mark_as_done"] = "Mark as done";
-$lang["client_can_create_reminders"] = "Client can create reminders?";
+$lang["reminder"] = "Hatırlatıcı";
+$lang["reminders"] = "Hatırlatıcılar";
+$lang["show_all_reminders"] = "Tüm hatırlatıcıları göster";
+$lang["time"] = "Zaman";
+$lang["add_reminder"] = "Hatırlatıcı ekle";
+$lang["delete_reminder"] = "Hatırlatıcıyı sil";
+$lang["snooze"] = "Ertele";
+$lang["dismiss"] = "Reddet";
+$lang["snooze_length"] = "Erteleme süresi";
+$lang["minutes"] = "Dakika";
+$lang["reminder_sound_volume"] = "Hatırlatıcı ses seviyesi";
+$lang["reminder_details"] = "Hatırlatıcı detayları";
+$lang["mark_as_done"] = "Tamamlandı olarak işaretle";
+$lang["client_can_create_reminders"] = "Müşteri hatırlatıcı oluşturabilir mi?";
 
-$lang["php_file_format_is_not_allowed"] = "PHP file format is not allowed!";
+$lang["php_file_format_is_not_allowed"] = "PHP dosya formatına izin verilmiyor!";
 
-$lang["projects_overview"] = "Projects Overview";
-$lang["progression"] = "Progression";
+$lang["projects_overview"] = "Projeler Genel Bakış";
+$lang["progression"] = "İlerleme";
 
-$lang["this_year"] = "This Year";
-$lang["last_year"] = "Last Year";
-$lang["last_12_months"] = "Last 12 months";
+$lang["this_year"] = "Bu Yıl";
+$lang["last_year"] = "Geçen Yıl";
+$lang["last_12_months"] = "Son 12 ay";
 
-$lang["estimate_sent_statistics"] = "Estimate sent statistics";
+$lang["estimate_sent_statistics"] = "Tahmin gönderme istatistikleri";
 
-$lang["title_language_key"] = "Title Language Key";
-$lang["placeholder_language_key"] = "Placeholder Language Key";
-$lang["keep_it_blank_if_you_do_not_use_translation"] = "Keep it blank if you don't use translation";
-$lang["language_key_recommendation_help_text"] = "Recommended to use any prefix like custom_field_";
+$lang["title_language_key"] = "Başlık Dil Anahtarı";
+$lang["placeholder_language_key"] = "Yer tutucu Dil Anahtarı";
+$lang["keep_it_blank_if_you_do_not_use_translation"] = "Çeviri kullanmıyorsanız boş bırakın";
+$lang["language_key_recommendation_help_text"] = "Özel_alan_ gibi bir ön ek kullanmanız önerilir";
 
-$lang["other"] = "Other";
+$lang["other"] = "Diğer";
 
-$lang["print_estimate"] = "Print estimate";
+$lang["print_estimate"] = "Tahmini yazdır";
 
-$lang["the_person_who_will_manage_this_client"] = "The person who'll manage this client.";
-$lang["the_person_who_will_manage_this_lead"] = "The person who'll manage this lead.";
+$lang["the_person_who_will_manage_this_client"] = "Bu müşteriyi yönetecek kişi.";
+$lang["the_person_who_will_manage_this_lead"] = "Bu potansiyel müşteriyi yönetecek kişi.";
 
-$lang["language_key"] = "Language Key";
-$lang["left_menu_language_key_recommendation_help_text"] = "Recommended to use any prefix like left_menu_";
+$lang["language_key"] = "Dil Anahtarı";
+$lang["left_menu_language_key_recommendation_help_text"] = "Sol_menu_ gibi bir ön ek kullanmanız önerilir";
 
-$lang["project_type"] = "Project type";
-$lang["client_project"] = "Client Project";
-$lang["internal_project"] = "Internal Project";
+$lang["project_type"] = "Proje tipi";
+$lang["client_project"] = "Müşteri Projesi";
+$lang["internal_project"] = "İç Proje";
 
-$lang["contact_info"] = "Contact info";
-$lang["type"] = "Type";
-$lang["organization"] = "Organization";
-$lang["person"] = "Person";
+$lang["contact_info"] = "İletişim bilgisi";
+$lang["type"] = "Tip";
+$lang["organization"] = "Organizasyon";
+$lang["person"] = "Kişi";
 
-$lang["last_announcement"] = "Last announcement";
-$lang["no_announcement_yet"] = "No announcement yet!";
+$lang["last_announcement"] = "Son duyuru";
+$lang["no_announcement_yet"] = "Henüz duyuru yok!";
 
-$lang["team_members_overview"] = "Team Members Overview";
-$lang["on_leave_today"] = "On leave today";
+$lang["team_members_overview"] = "Takım Üyeleri Genel Bakış";
+$lang["on_leave_today"] = "Bugün izinde";
 
-$lang["enable_embedded_form_to_get_leads"] = "Enable embedded form to get leads";
-$lang["please_submit_the_form"] = "Please submit the form";
-$lang["show_in_embedded_form"] = "Show in embedded form";
+$lang["enable_embedded_form_to_get_leads"] = "Potansiyel müşterileri almak için gömülü formu etkinleştir";
+$lang["please_submit_the_form"] = "Lütfen formu gönderin";
+$lang["show_in_embedded_form"] = "Gömülü formda göster";
 
-$lang["after_submit"] = "After submit";
-$lang["return_json_response"] = "Return json response";
-$lang["show_text_result"] = "Show text result";
-$lang["redirect_to_this_url"] = "Redirect to this url:";
+$lang["after_submit"] = "Gönderdikten sonra";
+$lang["return_json_response"] = "Json yanıtı döndür";
+$lang["show_text_result"] = "Metin sonucunu göster";
+$lang["redirect_to_this_url"] = "Bu URL'ye yönlendir:";
 
-$lang["yes_only_own_timelogs"] = "Yes, only own timelogs";
-$lang["yes_only_own_project_members"] = "Yes, only own project members";
-$lang["excluding_his_her_timelogs"] = "Excluding his/her own timelogs";
-$lang["can_add_own_timelogs_only"] = "Can add own timelogs only";
+$lang["yes_only_own_timelogs"] = "Evet, sadece kendi zaman kayıtları";
+$lang["yes_only_own_project_members"] = "Evet, sadece kendi proje üyeleri";
+$lang["excluding_his_her_timelogs"] = "Kendi zaman kayıtlarını hariç tutarak";
+$lang["can_add_own_timelogs_only"] = "Sadece kendi zaman kayıtlarını ekleyebilir";
 
-$lang["all_tasks_overview"] = "All Tasks Overview";
+$lang["all_tasks_overview"] = "Tüm Görevler Genel Bakış";
 
-$lang["invoice_overview"] = "Invoice Overview";
+$lang["invoice_overview"] = "Fatura Genel Bakış";
 
-$lang["next_reminder"] = "Next reminder";
+$lang["next_reminder"] = "Sonraki hatırlatıcı";
 
-$lang["new_tickets_in_last_30_days"] = "New tickets in last 30 days";
+$lang["new_tickets_in_last_30_days"] = "Son 30 günde yeni biletler";
 
-$lang["individual"] = "Individual";
+$lang["individual"] = "Bireysel";
 
-$lang["total_after_discount"] = "Total After Discount";
+$lang["total_after_discount"] = "İndirimden Sonra Toplam";
 
 /* Version 3.3 */
 
-$lang["change_the_tasks_start_date_and_deadline_based_on_project_start_date"] = "Change the tasks start date and deadline based on project start date";
+$lang["change_the_tasks_start_date_and_deadline_based_on_project_start_date"] = "Görevlerin başlangıç tarihini ve son tarihini, proje başlangıç tarihine göre değiştirin";
 
-$lang["can_edit_only_own_created_projects"] = "Can edit only own created projects";
-$lang["can_delete_only_own_created_projects"] = "Can delete only own created projects";
+$lang["can_edit_only_own_created_projects"] = "Sadece kendi oluşturduğu projeleri düzenleyebilir";
+$lang["can_delete_only_own_created_projects"] = "Sadece kendi oluşturduğu projeleri silebilir";
 
-$lang["checklist_status"] = "Checklist status";
+$lang["checklist_status"] = "Kontrol listesi durumu";
 
 /* Version 3.4 */
 
-$lang["subscribe"] = "Subscribe";
-$lang["email_protocol"] = "Email protocol";
+$lang["subscribe"] = "Abone ol";
+$lang["email_protocol"] = "E-posta protokolü";
 
-$lang["please_enable_the_file_uploads_php_settings"] = "Please enable the file_uploads php setting in the server.";
-$lang["file_size_too_large"] = "File size is too large. Please increase the upload_max_filesize from server.";
+$lang["please_enable_the_file_uploads_php_settings"] = "Lütfen sunucudaki file_uploads php ayarını etkinleştirin.";
+$lang["file_size_too_large"] = "Dosya boyutu çok büyük. Lütfen sunucudan upload_max_filesize'ı artırın.";
 
-$lang["sub_task_status"] = "Sub task status";
+$lang["sub_task_status"] = "Alt görev durumu";
 
-$lang["can_access_client_feedback_in_projects"] = "Can access client feedback in projects";
-$lang["change_the_milestone_dates_based_on_project_start_date"] = "Change the milestone dates based on project start date";
+$lang["can_access_client_feedback_in_projects"] = "Projelerdeki müşteri geri bildirimlerine erişebilir";
+$lang["change_the_milestone_dates_based_on_project_start_date"] = "Kilometre taşı tarihlerini, proje başlangıç tarihine göre değiştirin";
 
-$lang["send_first_due_invoice_reminder_notification_before"] = "Send 1st due invoice reminder before due date";
-$lang["send_second_due_invoice_reminder_notification_before"] = "Send 2nd due invoice reminder before due date";
+$lang["send_first_due_invoice_reminder_notification_before"] = "İlk vadesi gelen fatura hatırlatıcısını, vade tarihinden önce gönder";
+$lang["send_second_due_invoice_reminder_notification_before"] = "İkinci vadesi gelen fatura hatırlatıcısını, vade tarihinden önce gönder";
 
-$lang["send_first_invoice_overdue_reminder_after"] = "Send 1st invoice overdue reminder after";
-$lang["send_second_invoice_overdue_reminder_after"] = "Send 2nd invoice overdue reminder after";
+$lang["send_first_invoice_overdue_reminder_after"] = "İlk gecikmiş fatura hatırlatıcısını, vade tarihinden sonra gönder";
+$lang["send_second_invoice_overdue_reminder_after"] = "İkinci gecikmiş fatura hatırlatıcısını, vade tarihinden sonra gönder";
 
-$lang["product"] = "Product";
+$lang["product"] = "Ürün";
 
-$lang["subscription_id"] = "Subscription ID";
-$lang["subscription_sent_message"] = "The subscription has been sent!";
-$lang["add_subscription"] = "Add subscription";
-$lang["edit_subscription"] = "Edit subscription";
-$lang["delete_subscription"] = "Delete subscription";
-$lang["subscription"] = "Subscription";
-$lang["subscriptions"] = "Subscriptions";
-$lang["subscription_value"] = "Subscription Value";
-$lang["subscription_items"] = "Subscription items";
-$lang["email_subscription_to_client"] = "Email subscription to client";
-$lang["send_subscription"] = "Send subscription";
-$lang["subscription_settings"] = "Subscription Settings";
-$lang["subscription_prefix"] = "Subscription prefix";
-$lang["initial_number_of_the_subscription"] = "Initial number of the subscription";
-$lang["can_access_subscriptions"] = "Can access subscriptions?";
-$lang["show_in_subscription"] = "Show in subscription";
-$lang["subscription_total"] = "Subscription total";
-$lang["start_subscription"] = "Start subscription";
+$lang["subscription_id"] = "Abonelik ID";
+$lang["subscription_sent_message"] = "Abonelik gönderildi!";
+$lang["add_subscription"] = "Abonelik ekle";
+$lang["edit_subscription"] = "Aboneliği düzenle";
+$lang["delete_subscription"] = "Aboneliği sil";
+$lang["subscription"] = "Abonelik";
+$lang["subscriptions"] = "Abonelikler";
+$lang["subscription_value"] = "Abonelik Değeri";
+$lang["subscription_items"] = "Abonelik öğeleri";
+$lang["email_subscription_to_client"] = "Müşteriye aboneliği e-postayla gönder";
+$lang["send_subscription"] = "Aboneliği gönder";
+$lang["subscription_settings"] = "Abonelik Ayarları";
+$lang["subscription_prefix"] = "Abonelik öneki";
+$lang["initial_number_of_the_subscription"] = "Aboneliğin başlangıç numarası";
+$lang["can_access_subscriptions"] = "Aboneliklere erişebilir mi?";
+$lang["show_in_subscription"] = "Abonelikte göster";
+$lang["subscription_total"] = "Abonelik toplamı";
+$lang["start_subscription"] = "Aboneliği başlat";
 
-$lang["subscription_success_message"] = "The subscription has been started successfully.";
+$lang["subscription_success_message"] = "Abonelik başarıyla başlatıldı.";
 
-$lang["enable_stripe_subscription"] = "Enable Stripe subscription";
-$lang["please_enable_the_stripe_payment_method_first"] = "Please enable the stripe payment method first!";
-$lang["tax_mapping"] = "Tax mapping";
-$lang["mapped"] = "Mapped";
-$lang["select_stripe_tax"] = "Select Stripe tax";
-$lang["stripe_price_error_message"] = "App subscription price and recurring interval should be same as stripe product price and interval.";
-$lang["stripe_tax_error_message"] = "Some taxes are not mapped with stripe yet. Please map the taxes from the subscription settings.";
-$lang["payment_status"] = "Payment status";
-$lang["failed"] = "Failed";
-$lang["next_billing_date"] = "Next billing date";
-$lang["cancel_subscription"] = "Cancel subscription";
+$lang["enable_stripe_subscription"] = "Stripe aboneliğini etkinleştir";
+$lang["please_enable_the_stripe_payment_method_first"] = "Lütfen önce stripe ödeme yöntemini etkinleştirin!";
+$lang["tax_mapping"] = "Vergi eşleme";
+$lang["mapped"] = "Eşlendi";
+$lang["select_stripe_tax"] = "Stripe vergisi seç";
+$lang["stripe_price_error_message"] = "Uygulama abonelik fiyatı ve tekrarlanma aralığı, stripe ürün fiyatı ve aralığı ile aynı olmalıdır.";
+$lang["stripe_tax_error_message"] = "Bazı vergiler henüz stripe ile eşlenmedi. Lütfen abonelik ayarlarından vergileri eşleyin.";
+$lang["payment_status"] = "Ödeme durumu";
+$lang["failed"] = "Başarısız";
+$lang["next_billing_date"] = "Sonraki faturalandırma tarihi";
+$lang["cancel_subscription"] = "Aboneliği iptal et";
 
-$lang["invoice_number"] = "Invoice number";
-$lang["estimate_number"] = "Estimate number";
-$lang["order_number"] = "Order number";
+$lang["invoice_number"] = "Fatura numarası";
+$lang["estimate_number"] = "Tahmin numarası";
+$lang["order_number"] = "Sipariş numarası";
 
-$lang["client_can_access_notes"] = "Client can access notes?";
+$lang["client_can_access_notes"] = "Müşteri notlara erişebilir mi?";
 
-$lang["my_tasks_overview"] = "My Tasks Overview";
+$lang["my_tasks_overview"] = "Görevlerim Genel Bakış";
 
-$lang["leads_overview"] = "Leads Overview";
-$lang["converted_to_client"] = "Converted to client";
+$lang["leads_overview"] = "Potansiyel Müşteriler Genel Bakış";
+$lang["converted_to_client"] = "Müşteriye dönüştürüldü";
 
-$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Remember to add this urls in Authorized redirect uri";
+$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Bu URL'leri Yetkilendirilmiş yönlendirme URI'sine eklemeyi unutmayın";
 
-$lang["merge"] = "Merge";
-$lang["move_all_comments_or_notes_from"] = "Move all comments/notes from";
-$lang["moved_to"] = "Moved to";
+$lang["merge"] = "Birleştir";
+$lang["move_all_comments_or_notes_from"] = "Tüm yorumları/notları buradan taşı";
+$lang["moved_to"] = "Taşındı";
 
-$lang["ok"] = "OK";
-$lang["app"] = "App";
+$lang["ok"] = "Tamam";
+$lang["app"] = "Uygulama";
 $lang["stripe"] = "Stripe";
-$lang["activate_as_stripe_subscription"] = "Activate as Stripe subscription";
-$lang["activate_as_internal_subscription"] = "Activate as internal subscription";
-$lang["activate_as_stripe_subscription_message_1"] = "Please map the stripe product and price with this subscription. You can add the stripe products and prices from your stripe dashboard.";
-$lang["activate_as_stripe_subscription_message_2"] = "The client will get a request to add the payment method with this subscription. Once the client submit the payment method, this subscription will be activated and auto payment will be enabled via stripe.";
-$lang["activate_as_internal_subscription_message_1"] = "This subscription will be managed by app. The invoices will be created based on the subscription terms.";
-$lang["activate_as_internal_subscription_message_2"] = "Note: Payments will not be done automatically. For automated payment, you can use the stripe subscription.";
-$lang["subscription_toatl_can_not_empty_message"] = "Subscription total can't be 0.";
+$lang["activate_as_stripe_subscription"] = "Stripe aboneliği olarak etkinleştir";
+$lang["activate_as_internal_subscription"] = "İç abonelik olarak etkinleştir";
+$lang["activate_as_stripe_subscription_message_1"] = "Lütfen stripe ürününü ve fiyatını bu abonelikle eşleyin. Stripe ürünlerini ve fiyatlarını stripe kontrol panelinizden ekleyebilirsiniz.";
+$lang["activate_as_stripe_subscription_message_2"] = "Müşteri, bu abonelikle ödeme yöntemini eklemesi için bir istek alacak. Müşteri ödeme yöntemini gönderdiğinde, bu abonelik etkinleştirilecek ve stripe üzerinden otomatik ödeme etkinleştirilecektir.";
+$lang["activate_as_internal_subscription_message_1"] = "Bu abonelik, uygulama tarafından yönetilecek. Abonelik koşullarına göre faturalar oluşturulacaktır.";
+$lang["activate_as_internal_subscription_message_2"] = "Not: Ödemeler otomatik olarak yapılmayacak. Otomatik ödeme için, stripe aboneliğini kullanabilirsiniz.";
+$lang["subscription_toatl_can_not_empty_message"] = "Abonelik toplamı 0 olamaz.";
 
-$lang["subscription_request_sent"] = "Subscription request sent";
-$lang["notification_subscription_request_sent"] = "New subscription request";
+$lang["subscription_request_sent"] = "Abonelik isteği gönderildi";
+$lang["notification_subscription_request_sent"] = "Yeni abonelik isteği";
 
-$lang["first_billing_date"] = "First billing date";
-$lang["first_billing_date_cant_be_past_message"] = "First billing date can’t be past. Keep it blank to use the date when the client will subscribe.";
+$lang["first_billing_date"] = "İlk faturalandırma tarihi";
+$lang["first_billing_date_cant_be_past_message"] = "İlk faturalandırma tarihi geçmişte olamaz. Müşteri abone olduğunda tarihi kullanmak için boş bırakın.";
 
-$lang["gst_number"] = "GST Number";
+$lang["gst_number"] = "GST Numarası";
 
-$lang["announcement_created"] = "Announcement created";
+$lang["announcement_created"] = "Duyuru oluşturuldu";
 
-$lang["company_logo"] = "Company Logo";
+$lang["company_logo"] = "Şirket Logosu";
 
-$lang["task_commented"] = "Task commented";
-$lang["task_assigned"] = "Task assigned";
-$lang["task_general"] = "Task general";
+$lang["task_commented"] = "Göreve yorum yapıldı";
+$lang["task_assigned"] = "Görev atandı";
+$lang["task_general"] = "Görev genel";
 
 /* Version 3.5 */
 
-$lang["visitors_can_see_store_before_login"] = "Visitors can see store before login";
-$lang["show_payment_option_after_submitting_the_order"] = "Show payment option after submitting the order";
-$lang["accept_order_before_login"] = "Accept order before login";
-$lang["proceed_to_payment"] = "Proceed to payment";
-$lang["pay_order"] = "Pay order";
-$lang["order_status_after_payment"] = "Order status after payment";
-$lang["store_settings"] = "Store settings";
-$lang["banner_image_on_public_store"] = "Banner image on public store";
-$lang["your_order_has_been_submitted"] = "Your order has been submitted.";
 
-$lang["re_captcha_error-timeout-or-duplicate"] = "The reCAPTCHA has been expired or duplicate. Please reload the page.";
+$lang["visitors_can_see_store_before_login"] = "Ziyaretçiler giriş yapmadan mağazayı görebilir";
+$lang["show_payment_option_after_submitting_the_order"] = "Siparişi gönderdikten sonra ödeme seçeneğini göster";
+$lang["accept_order_before_login"] = "Giriş yapmadan önce siparişi kabul et";
+$lang["proceed_to_payment"] = "Ödemeye devam et";
+$lang["pay_order"] = "Siparişi öde";
+$lang["order_status_after_payment"] = "Ödeme sonrası sipariş durumu";
+$lang["store_settings"] = "Mağaza ayarları";
+$lang["banner_image_on_public_store"] = "Halka açık mağazada afiş resmi";
+$lang["your_order_has_been_submitted"] = "Siparişiniz gönderildi.";
 
-$lang["related_to"] = "Related to";
+$lang["re_captcha_error-timeout-or-duplicate"] = "reCAPTCHA'nın süresi doldu veya tekrarlandı. Lütfen sayfayı yeniden yükleyin.";
 
-$lang["hide_from_non_project_related_tasks"] = "Hide from non-project related tasks";
-$lang["add_task_in_project"] = "Add task in project";
+$lang["related_to"] = "İle ilgili";
 
-$lang["general_task"] = "General task";
-$lang["general_task_created"] = "General task created";
-$lang["general_task_updated"] = "General task updated";
-$lang["general_task_assigned"] = "General task assigned";
-$lang["general_task_started"] = "General task started";
-$lang["general_task_finished"] = "General task finished";
-$lang["general_task_reopened"] = "General task reopened";
-$lang["general_task_deleted"] = "General task deleted";
-$lang["general_task_commented"] = "General task commented";
+$lang["hide_from_non_project_related_tasks"] = "Proje ile ilgisi olmayan görevlerden gizle";
+$lang["add_task_in_project"] = "Projeye görev ekle";
 
-$lang["notification_general_task_created"] = "Created a new task.";
-$lang["notification_general_task_updated"] = "Updated a task.";
-$lang["notification_general_task_assigned"] = "Assigned a task to %s."; //Assigned a task to Mr. X
-$lang["notification_general_task_started"] = "Started a task.";
-$lang["notification_general_task_finished"] = "Finished a task.";
-$lang["notification_general_task_reopened"] = "Reopened a task.";
-$lang["notification_general_task_deleted"] = "Deleted a task.";
-$lang["notification_general_task_commented"] = "Commented on a task.";
+$lang["general_task"] = "Genel görev";
+$lang["general_task_created"] = "Genel görev oluşturuldu";
+$lang["general_task_updated"] = "Genel görev güncellendi";
+$lang["general_task_assigned"] = "Genel göreve atandı";
+$lang["general_task_started"] = "Genel göreve başlandı";
+$lang["general_task_finished"] = "Genel görev tamamlandı";
+$lang["general_task_reopened"] = "Genel görev yeniden açıldı";
+$lang["general_task_deleted"] = "Genel görev silindi";
+$lang["general_task_commented"] = "Genel göreve yorum yapıldı";
 
-$lang["bookmark"] = "Bookmark";
-$lang["bookmark_icon"] = "Bookmark Icon";
-$lang["change_filters"] = "Change filters";
-$lang["manage_filters"] = "Manage Filters";
-$lang["new_filter"] = "New filter";
-$lang["update_filter"] = "Update filter";
-$lang["add_new_filter"] = "Add new filter";
-$lang["show_time_with_task_start_date_and_deadline"] = "Show time with task start date and deadline";
+$lang["notification_general_task_created"] = "Yeni bir görev oluşturuldu.";
+$lang["notification_general_task_updated"] = "Bir görev güncellendi.";
+$lang["notification_general_task_assigned"] = "Bir görev %s'ye atandı."; // %s, atanan kişinin adıyla değiştirilecektir.
+$lang["notification_general_task_started"] = "Bir göreve başlandı.";
+$lang["notification_general_task_finished"] = "Bir görev tamamlandı.";
+$lang["notification_general_task_reopened"] = "Bir görev yeniden açıldı.";
+$lang["notification_general_task_deleted"] = "Bir görev silindi.";
+$lang["notification_general_task_commented"] = "Bir göreve yorum yapıldı.";
 
-$lang["save_and_continue_to_login_for_payment"] = "Save & continue to login for payment";
-$lang["public_store_page_setting_help_message"] = "You can set the store as landing page by adding 'store' in the landing page setting.";
-$lang["public_store_page_setting_permission_error_message"] = "Please enable the store access permission for clients.";
-$lang["order_status_after_payment_help_message"] = "This will be applicable only when the order status is";
+$lang["bookmark"] = "Yer imi";
+$lang["bookmark_icon"] = "Yer imi ikonu";
+$lang["change_filters"] = "Filtreleri değiştir";
+$lang["manage_filters"] = "Filtreleri yönet";
+$lang["new_filter"] = "Yeni filtre";
+$lang["update_filter"] = "Filtreyi güncelle";
+$lang["add_new_filter"] = "Yeni filtre ekle";
+$lang["show_time_with_task_start_date_and_deadline"] = "Görevin başlangıç tarihi ve son tarihi ile zamanı göster";
 
-$lang["subscription_first_billing_date_error_message"] = "The first billing date should be before the next billing date based on the billing period!";
-$lang["client_currency_not_editable_message"] = "The currency is not editable when there is any invoice, estimate, order, proposal, contract or subscription.";
+$lang["save_and_continue_to_login_for_payment"] = "Kaydet ve ödeme için giriş yapmaya devam et";
+$lang["public_store_page_setting_help_message"] = "'store' değerini açılış sayfası ayarına ekleyerek mağazayı açılış sayfası olarak ayarlayabilirsiniz.";
+$lang["public_store_page_setting_permission_error_message"] = "Lütfen müşteriler için mağaza erişim iznini etkinleştirin.";
+$lang["order_status_after_payment_help_message"] = "Bu, sipariş durumu yalnızca sipariş durumu";
 
-$lang["subscription_started"] = "Subscription started";
-$lang["notification_subscription_started"] = "Started a subscription.";
+$lang["subscription_first_billing_date_error_message"] = "İlk faturalandırma tarihi, faturalandırma dönemine göre sonraki faturalandırma tarihinden önce olmalıdır!";
+$lang["client_currency_not_editable_message"] = "Fatura, tahmin, sipariş, teklif, sözleşme veya abonelik varken para birimi düzenlenemez.";
 
-$lang["subscription_invoice_created_via_cron_job"] = "Subscription invoice created via Cron Job";
-$lang["notification_subscription_invoice_created_via_cron_job"] = "New invoice generated from subscription.";
+$lang["subscription_started"] = "Abonelik başladı";
+$lang["notification_subscription_started"] = "Bir abonelik başlatıldı.";
 
-$lang["create_credit_note"] = "Create credit note";
-$lang["create_credit_note_message"] = "Are you sure? You're going to fully credit this invoice. A credit note will be created for this invoice.";
-$lang["credited"] = "Credited";
-$lang["credit_note"] = "Credit Note";
-$lang["email_credit_note_to_client"] = "Email credit note to client";
-$lang["main_invoice"] = "Main invoice";
-$lang["credit_note_id"] = "Credit note ID";
-$lang["send_credit_note"] = "Send credit note";
+$lang["subscription_invoice_created_via_cron_job"] = "Cron İşi aracılığıyla abonelik faturası oluşturuldu";
+$lang["notification_subscription_invoice_created_via_cron_job"] = "Abonelikten yeni fatura oluşturuldu.";
 
-$lang["taxable"] = "Taxable";
+$lang["create_credit_note"] = "Alacak dekontu oluştur";
+$lang["create_credit_note_message"] = "Emin misiniz? Bu faturayı tamamen kredilendireceksiniz. Bu fatura için bir alacak dekontu oluşturulacak.";
+$lang["credited"] = "Kredilendirildi";
+$lang["credit_note"] = "Alacak Dekontu";
+$lang["email_credit_note_to_client"] = "Müşteriye alacak dekontunu e-postayla gönder";
+$lang["main_invoice"] = "Ana fatura";
+$lang["credit_note_id"] = "Alacak dekontu ID";
+$lang["send_credit_note"] = "Alacak dekontunu gönder";
 
-$lang["can_manage_team_members_notes"] = "Can manage team member's notes?";
-$lang["team_members_can_not_see_own_notes"] = "Team members can't see own notes.";
+$lang["taxable"] = "Vergilendirilebilir";
 
-$lang["articles_order"] = "Articles order";
-$lang["top_menu"] = "Top menu";
-$lang["edit_top_menu"] = "Edit top menu";
+$lang["can_manage_team_members_notes"] = "Takım üyelerinin notlarını yönetebilir mi?";
+$lang["team_members_can_not_see_own_notes"] = "Takım üyeleri kendi notlarını göremez.";
 
-$lang["top_menu_description_message"] = "This menu will be visible only in the public pages";
-$lang["enable_top_menu"] = "Enable top menu";
-$lang["menu_items"] = "Menu items";
+$lang["articles_order"] = "Makaleler sırası";
+$lang["top_menu"] = "Üst menü";
+$lang["edit_top_menu"] = "Üst menüyü düzenle";
 
-$lang["landing_page"] = "Landing page";
-$lang["landing_page_help_text"] = "Normally keep it blank. Set this value only if you want any custom landing page. (Example value: knowledge_base)";
+$lang["top_menu_description_message"] = "Bu menü yalnızca halka açık sayfalarda görünür";
+$lang["enable_top_menu"] = "Üst menüyü etkinleştir";
+$lang["menu_items"] = "Menü öğeleri";
 
-$lang["fixed_amount_discount_before_tax_error_message"] = "Fixed amount discount can't be added before tax.";
+$lang["landing_page"] = "Açılış sayfası";
+$lang["landing_page_help_text"] = "Normalde boş bırakın. Yalnızca özel bir açılış sayfası istiyorsanız bu değeri ayarlayın. (Örnek değer: knowledge_base)";
 
-$lang["invoices_summary"] = "Invoices summary";
-$lang["estimates_summary"] = "Estimates summary";
-$lang["leads_summary"] = "Leads summary";
-$lang["orders_summary"] = "Orders summary";
-$lang["estimate_request_summary"] = "Estimate request summary";
-$lang["proposals_summary"] = "Proposals summary";
-$lang["expenses_summary"] = "Expenses summary";
-$lang["monthly_summary"] = "Monthly summary";
+$lang["fixed_amount_discount_before_tax_error_message"] = "Sabit miktar indirimi, vergiden önce eklenemez.";
 
-$lang["yearly_chart"] = "Yearly chart";
-$lang["category_chart"] = "Category chart";
+$lang["invoices_summary"] = "Faturalar özeti";
+$lang["estimates_summary"] = "Tahminler özeti";
+$lang["leads_summary"] = "Potansiyel müşteriler özeti";
+$lang["orders_summary"] = "Siparişler özeti";
+$lang["estimate_request_summary"] = "Tahmin isteği özeti";
+$lang["proposals_summary"] = "Teklifler özeti";
+$lang["expenses_summary"] = "Giderler özeti";
+$lang["monthly_summary"] = "Aylık özet";
 
-$lang["count"] = "Count";
-$lang["invoice_total"] = "Invoice total";
-$lang["order_total"] = "Order total";
+$lang["yearly_chart"] = "Yıllık grafik";
+$lang["category_chart"] = "Kategori grafiği";
 
-$lang["last_7_days"] = "Last 7 Days";
-$lang["next_7_days"] = "Next 7 Days";
-$lang["last_30_days"] = "Last 30 Days";
-$lang["this_month"] = "This Month";
-$lang["last_month"] = "Last Month";
-$lang["next_month"] = "Next Month";
-$lang["next_year"] = "Next Year";
+$lang["count"] = "Sayım";
+$lang["invoice_total"] = "Fatura toplamı";
+$lang["order_total"] = "Sipariş toplamı";
 
-$lang["hold_projects"] = "Hold Projects";
-$lang["open_tasks"] = "Open Tasks";
-$lang["completed_tasks"] = "Completed Tasks";
+$lang["last_7_days"] = "Son 7 Gün";
+$lang["next_7_days"] = "Sonraki 7 Gün";
+$lang["last_30_days"] = "Son 30 Gün";
+$lang["this_month"] = "Bu Ay";
+$lang["last_month"] = "Geçen Ay";
+$lang["next_month"] = "Gelecek Ay";
+$lang["next_year"] = "Gelecek Yıl";
 
-$lang["team_members_summary"] = "Team members summary";
-$lang["created_date_wise"] = "Created date wise";
-$lang["conversion_date_wise"] = "Conversion date wise";
+$lang["hold_projects"] = "Projeleri Beklet";
+$lang["open_tasks"] = "Açık Görevler";
+$lang["completed_tasks"] = "Tamamlanmış Görevler";
 
-$lang["ticket_statistics"] = "Ticket Statistics";
+$lang["team_members_summary"] = "Takım üyeleri özeti";
+$lang["created_date_wise"] = "Oluşturma tarihine göre";
+$lang["conversion_date_wise"] = "Dönüşüm tarihine göre";
 
-$lang["can_activate_deactivate_team_members"] = "Can activate deactivate team members?";
-$lang["can_delete_team_members"] = "Can delete team members?";
+$lang["ticket_statistics"] = "Bilet İstatistikleri";
 
-$lang["project_settings"] = "Project settings";
-$lang["project_status"] = "Project Status";
-$lang["add_project_status"] = "Add project status";
-$lang["mark_project_as"] = "Mark Project as";
+$lang["can_activate_deactivate_team_members"] = "Takım üyelerini etkinleştirebilir veya devre dışı bırakabilir mi?";
+$lang["can_delete_team_members"] = "Takım üyelerini silebilir mi?";
 
-$lang["status_language_key_recommendation_help_text"] = "Recommended to use any prefix like project_status_";
-$lang["edit_project_status"] = "Edit project status";
-$lang["delete_project_status"] = "Delete project status";
+$lang["project_settings"] = "Proje ayarları";
+$lang["project_status"] = "Proje Durumu";
+$lang["add_project_status"] = "Proje durumu ekle";
+$lang["mark_project_as"] = "Proje olarak işaretle";
 
-$lang["open_project_status_recommendation_help_text"] = "You can change the text, but this status will be considered as initial open status.";
-$lang["completed_project_status_recommendation_help_text"] = "You can change the text, but this status will be considered as completed.";
+$lang["status_language_key_recommendation_help_text"] = "Önerilen, project_status_ gibi bir ön ek kullanmaktır.";
+$lang["edit_project_status"] = "Proje durumunu düzenle";
+$lang["delete_project_status"] = "Proje durumunu sil";
 
-$lang["full_width"] = "Full width";
-$lang["hide_topbar"] = "Hide topbar";
+$lang["open_project_status_recommendation_help_text"] = "Metni değiştirebilirsiniz, ancak bu durum başlangıçta açık olarak kabul edilecektir.";
+$lang["completed_project_status_recommendation_help_text"] = "Metni değiştirebilirsiniz, ancak bu durum tamamlanmış olarak kabul edilecektir.";
+
+$lang["full_width"] = "Tam genişlik";
+$lang["hide_topbar"] = "Üst çubuğu gizle";
 
 return $lang;
