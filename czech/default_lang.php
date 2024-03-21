@@ -1314,7 +1314,7 @@ $lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "ID odhadu mus�
 $lang["send_to_client"] = "Odeslat klientovi";
 $lang["estimate_sent_message"] = "Odhad byl odeslán!";
 $lang["send_estimate_bcc_to"] = "Při odesílání odhadu klientovi odešlete BCC na";
-        
+
 $lang["task_settings"] = "nastavení úkolu";
 $lang["enable_recurring_option_for_tasks"] = "Povolit opakovanou možnost pro úkoly";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "Zvolené datum zahájení a opakování typ vrátí datum v minulosti.";
@@ -1833,8 +1833,8 @@ $lang["edit_items_category"] = "Upravit kategorii položek";
 $lang["delete_items_category"] = "Smazat kategorii položek";
 
 $lang["create_recurring_tasks_before"] = "Předtím vytvořte opakující se úkoly";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_new_order"] = "Vytvořit novou objednávku";
+$lang["find_more_items"] = "Najít další položky";
 
 /* Version 2.8 */
 
@@ -2521,5 +2521,147 @@ $lang["completed_project_status_recommendation_help_text"] = "Text můžete změ
 
 $lang["full_width"] = "Plná šířka";
 $lang["hide_topbar"] = "Skrýt horní lištu";
+
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Povolit stav uzamčení";
+$lang["invoice_lock_state_description"] = "Jakmile povolíte stav uzamčení, nebude možné po odeslání klientovi nebo změně stavu upravovat faktury.";
+$lang["estimate_lock_state_description"] = "Jakmile povolíte stav uzamčení, přijaté odhady nelze upravovat.";
+$lang["proposal_lock_state_description"] = "Jakmile povolíte stav uzamčení, přijaté návrhy nelze upravovat.";
+$lang["contract_lock_state_description"] = "Jakmile povolíte stav uzamčení, přijaté smlouvy nelze upravovat.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "Správce souborů";
+
+$lang["all_files"] = "Všechny soubory";
+$lang["recent_uploads"] = "Poslední nahrávání";
+
+$lang["favorites"] = "Oblíbené";
+$lang["new_folder"] = "Nová složka";
+$lang["folder_details"] = "Podrobnosti o složce";
+$lang["file_details"] = "Podrobnosti souboru";
+$lang["manage_access"] = "Spravovat přístup";
+$lang["root_folder"] = "Domů";
+$lang["authorized_team_members"] = "Oprávnění členové týmu";
+
+$lang["full_access"] = "Plný přístup";
+$lang["full_access_placeholder"] = "Vyberte, kdo může vše spravovat";
+$lang["upload_and_organize"] = "Nahrát a uspořádat";
+$lang["upload_only"] = "Pouze nahrát";
+
+$lang["folder_permission_instruction"] = "Toto oprávnění bude platit pro tuto složku a všechny její podsložky.";
+$lang["all_clients"] = "Všichni klienti";
+
+$lang["select_a_file_to_view_details"] = "Vyberte soubor složky pro zobrazení podrobností";
+$lang["empty"] = "Prázdný";
+$lang["folder"] = "Složka";
+$lang["folders"] = "Složky";
+$lang["rename"] = "Přejmenovat";
+$lang["rename_folder"] = "Přejmenovat složku";
+
+$lang["folder_delete_confirmation_message"] = "Opravdu chcete trvale smazat tuto složku a všechny podsložky a soubory?";
+$lang["file_delete_confirmation_message"] = "Opravdu chcete trvale smazat tento soubor?";
+$lang["explore"] = "Prozkoumat";
+$lang["add_to_favorites"] = "Přidat k oblíbeným";
+$lang["remove_from_favorites"] = "Odebrat z oblíbených";
+$lang["uploaded_at"] = "Nahráno v";
+$lang["created_at"] = "Vytvořeno v";
+$lang["who_has_access"] = "Kdo má přístup";
+
+$lang["search_folder_or_file"] = "Prohledat složku nebo soubor";
+$lang["move"] = "Přesunout";
+$lang["move_folder"] = "Přesunout složku";
+$lang["move_file"] = "Přesunout soubor";
+
+$lang["enable_audio_recording"] = "Povolit nahrávání zvuku";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Přidat formát souboru webm pro povolení nahrávání zvuku.";
+
+$lang["reference"] = "Odkaz";
+$lang["link_copied"] = "Odkaz zkopírován!";
+$lang["recording"] = "Nahrávání...";
+
+$lang["https_required"] = "Vyžadováno HTTPS.";
+
+$lang["info"] = "Informace";
+$lang["select_any_folder_for_move"] = "Vyberte libovolnou složku pro přesun.";
+
+$lang["enable_background_image_for_pdf"] = "Povolit obrázek na pozadí pro pdf";
+$lang["pdf_background_image"] = "Pdf obrázek na pozadí (510x720)";
+$lang["set_background_only_on_first_page"] = "Nastavit pozadí pouze na 1. stránce";
+$lang["invoice_item_list_background_color"] = "Barva pozadí seznamu položek faktury";
+
+$lang["logo"] = "Logo";
+$lang["company_info"] = "Informace o společnosti";
+$lang["change_invoice_logo"] = "Změnit logo faktury";
+
+$lang["year"] = "Rok";
+$lang["invoice_number_format"] = "Formát čísla faktury";
+$lang["auto_increment_digits"] = "Automaticky zvyšovat %s číslic";
+$lang["year_based_on"] = "Rok podle";
+$lang["reset_invoice_number_every_year"] = "Resetovat číslo faktury každý rok";
+
+$lang["style"] = "Styl";
+
+$lang["attach_pdf"] = "Připojit PDF";
+$lang["attachment_size_is_too_large"] = "Velikost přílohy je příliš velká. Nelze ji připojit k tomuto e-mailu.";
+
+$lang["files_list"] = "Seznam souborů";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Skrýt pole z formulářů vložených pro zájemce";
+$lang["unspecified"] = "Neurčeno";
+
+$lang["import_team_members"] = "Importovat členy týmu";
+$lang["import_team_member_error_name_field_required"] = "Jméno a příjmení jsou vyžadovány pro přidání člena týmu.";
+$lang["import_team_member_error_job_title_field_required"] = "Pole názvu práce je povinné.";
+$lang["import_team_member_error_email_field_required"] = "E-mailové pole je povinné.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Roli administrátora mohou nastavit pouze uživatelé admin.";
+
+$lang["import_projects"] = "Importovat projekty";
+$lang["import_project_error_title_field_required"] = "Pole názvu projektu je povinné.";
+$lang["import_project_error_project_type_field_required"] = "Pole typu projektu je povinné.";
+$lang["import_project_error_client_field_required"] = "Vzhledem k tomu, že se jedná o klientský projekt, pole klienta je povinné.";
+$lang["import_project_error_client_name"] = "Jméno klienta je neplatné.";
+$lang["import_project_error_project_status"] = "Stav projektu je neplatný.";
+
+$lang["import_contacts"] = "Importovat kontakty";
+$lang["import_contact_error_name_field_required"] = "Jméno a příjmení jsou vyžadovány pro přidání kontaktu.";
+$lang["import_contact__error_client_field_required"] = "Pole klienta je povinné.";
+$lang["import_contact_error_client_name"] = "Jméno klienta je neplatné.";
+$lang["import_gender_is_invalid"] = "Pohlaví je neplatné.";
+
+$lang["import_error_name_field_required"] = "Pole jména je povinné.";
+$lang["import_error_type_field_required"] = "Pole typu je povinné.";
+$lang["import_error_invalid_type"] = "Neplatný typ.";
+
+$lang["can_access_everything"] = "Má přístup ke všemu";
+$lang["user_permissions"] = "Uživatelská oprávnění";
+$lang["can_access_only"] = "Pouze přístup";
+
+$lang["email_seen_at"] = "E-mail zobrazen na";
+$lang["email_seen_count"] = "Počet zobrazených e-mailů";
+
+$lang["last_preview_seen"] = "Poslední náhled";
+$lang["last_email_seen"] = "Poslední e-mail zobrazený";
+
+$lang["subscription_cancelled"] = "Předplatné zrušeno";
+$lang["notification_subscription_cancelled"] = "Zrušeno předplatné";
+
+$lang["enable_comments_on_proposals"] = "Povolit komentáře k návrhům";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Zobrazit nejnovější komentáře k návrhům nahoře";
+$lang["proposal_commented"] = "Návrh okomentován";
+$lang["proposal_creator"] = "Tvůrce návrhu";
+$lang["notification_proposal_commented"] = "Návrh okomentován.";
+
+$lang["can_upload_and_edit_files"] = "Může nahrávat a upravovat soubory";
+$lang["can_comment_on_projects"] = "Může komentovat projekty";
+$lang["can_view_files"] = "Může prohlížet soubory";
+
+$lang["default_permissions_for_non_primary_contact"] = "Výchozí oprávnění pro neprimární kontakt";
+$lang["primary_contact_will_get_full_permission_message"] = "Poznámka: Primární kontakt získá úplné oprávnění.";
+$lang["permission_is_required"] = "Je vyžadováno povolení.";
+$lang["make_primary_contact_help_message"] = "Stávající primární kontakt bude mít stále plný přístup. Oprávnění můžete kdykoli změnit.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primární kontakt může spravovat oprávnění ostatních kontaktů";
 
 return $lang;

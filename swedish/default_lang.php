@@ -2521,4 +2521,146 @@ $lang["completed_project_status_recommendation_help_text"] = "You can change the
 $lang["full_width"] = "Full width";
 $lang["hide_topbar"] = "Hide topbar";
 
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Enable lock state";
+$lang["invoice_lock_state_description"] = "Once you enable the lock state, the invoices can’t be edited after sending to client or changing the status.";
+$lang["estimate_lock_state_description"] = "Once you enable the lock state, the accepted estimates can’t be edited.";
+$lang["proposal_lock_state_description"] = "Once you enable the lock state, the accepted proposals can’t be edited.";
+$lang["contract_lock_state_description"] = "Once you enable the lock state, the accepted contracts can't be edited.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "File manager";
+
+$lang["all_files"] = "All files";
+$lang["recent_uploads"] = "Recent uploads";
+
+$lang["favorites"] = "Favorites";
+$lang["new_folder"] = "New folder";
+$lang["folder_details"] = "Folder details";
+$lang["file_details"] = "File details";
+$lang["manage_access"] = "Manage access";
+$lang["root_folder"] = "Home";
+$lang["authorized_team_members"] = "Authorized team members";
+
+$lang["full_access"] = "Full access";
+$lang["full_access_placeholder"] = "Choose who can manage everything";
+$lang["upload_and_organize"] = "Upload & Organize";
+$lang["upload_only"] = "Upload only";
+
+$lang["folder_permission_instruction"] = "This permission will be applicable to this folder and all of its subfolders.";
+$lang["all_clients"] = "All Clients";
+
+$lang["select_a_file_to_view_details"] = "Select a file of folder to view its details";
+$lang["empty"] = "Empty";
+$lang["folder"] = "Folder";
+$lang["folders"] = "Folders";
+$lang["rename"] = "Rename";
+$lang["rename_folder"] = "Rename folder";
+
+$lang["folder_delete_confirmation_message"] = "Are you sure you want to permanently delete this folder and all of the subfolders and files?";
+$lang["file_delete_confirmation_message"] = "Are you sure you want to permanently delete this file?";
+$lang["explore"] = "Explore";
+$lang["add_to_favorites"] = "Add to Favorites";
+$lang["remove_from_favorites"] = "Remove from Favorites";
+$lang["uploaded_at"] = "Uploaded at";
+$lang["created_at"] = "Created at";
+$lang["who_has_access"] = "How has access";
+
+$lang["search_folder_or_file"] = "Search folder or file";
+$lang["move"] = "Move";
+$lang["move_folder"] = "Move folder";
+$lang["move_file"] = "Move file";
+
+$lang["enable_audio_recording"] = "Enable audio recording";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Add webm file formate to enable audio recording.";
+
+$lang["reference"] = "Reference";
+$lang["link_copied"] = "Link copied!";
+$lang["recording"] = "Recording...";
+
+$lang["https_required"] = "HTTPS required.";
+
+$lang["info"] = "Info";
+$lang["select_any_folder_for_move"] = "Select any folder for move.";
+
+$lang["enable_background_image_for_pdf"] = "Enable background image for pdf";
+$lang["pdf_background_image"] = "Pdf background image (510x720)";
+$lang["set_background_only_on_first_page"] = "Set background only on 1st page";
+$lang["invoice_item_list_background_color"] = "Invoice item list background color";
+
+$lang["logo"] = "Logo";
+$lang["company_info"] = "Company Info";
+$lang["change_invoice_logo"] = "Change invoice logo";
+
+$lang["year"] = "Year";
+$lang["invoice_number_format"] = "Invoice number format";
+$lang["auto_increment_digits"] = "Auto increment %s Digits";
+$lang["year_based_on"] = "Year based on";
+$lang["reset_invoice_number_every_year"] = "Reset invoice number every year";
+
+$lang["style"] = "Style";
+
+$lang["attach_pdf"] = "Attach PDF";
+$lang["attachment_size_is_too_large"] = "Attachment size is too large. It can't be attached with this email.";
+
+$lang["files_list"] = "Files list";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Hide fields from lead embedded forms";
+$lang["unspecified"] = "Unspecified";
+
+$lang["import_team_members"] = "Import team members";
+$lang["import_team_member_error_name_field_required"] = "First name and last name is both required to add a team member.";
+$lang["import_team_member_error_job_title_field_required"] = "Job title field is required.";
+$lang["import_team_member_error_email_field_required"] = "Email field is required.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Only admin users can set the Admin role.";
+
+$lang["import_projects"] = "Import projects";
+$lang["import_project_error_title_field_required"] = "Project title field is required.";
+$lang["import_project_error_project_type_field_required"] = "Project type field is required.";
+$lang["import_project_error_client_field_required"] = "Since it's client project, client field is required.";
+$lang["import_project_error_client_name"] = "Client name is invalid.";
+$lang["import_project_error_project_status"] = "Project status is invalid.";
+
+$lang["import_contacts"] = "Import contacts";
+$lang["import_contact_error_name_field_required"] = "First name and last name are both required to add a contact.";
+$lang["import_contact__error_client_field_required"] = "Client field is required.";
+$lang["import_contact_error_client_name"] = "Client name is invalid.";
+$lang["import_gender_is_invalid"] = "Gender is invalid.";
+
+$lang["import_error_name_field_required"] = "Name field is required.";
+$lang["import_error_type_field_required"] = "Type field is required.";
+$lang["import_error_invalid_type"] = "Invalid type.";
+
+$lang["can_access_everything"] = "Can access everything";
+$lang["user_permissions"] = "User permissions";
+$lang["can_access_only"] = "Can access only";
+
+$lang["email_seen_at"] = "Email seen at";
+$lang["email_seen_count"] = "Email seen count";
+
+$lang["last_preview_seen"] = "Last preview seen";
+$lang["last_email_seen"] = "Last email seen";
+
+$lang["subscription_cancelled"] = "Subscription cancelled";
+$lang["notification_subscription_cancelled"] = "Cancelled a subscription";
+
+$lang["enable_comments_on_proposals"] = "Enable comments on proposals";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Show most recent proposal comments at the top";
+$lang["proposal_commented"] = "Proposal commented";
+$lang["proposal_creator"] = "Proposal creator";
+$lang["notification_proposal_commented"] = "Commented on an proposal.";
+
+$lang["can_upload_and_edit_files"] = "Can upload and edit files";
+$lang["can_comment_on_projects"] = "Can comment on projects";
+$lang["can_view_files"] = "Can view files";
+
+$lang["default_permissions_for_non_primary_contact"] = "Default permissions for non-primary contact";
+$lang["primary_contact_will_get_full_permission_message"] = "Note: The primary contact will get full permission.";
+$lang["permission_is_required"] = "Permission is required.";
+$lang["make_primary_contact_help_message"] = "The existing primary contact will still have full access. You can change the permission anytime.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primary contact can manage the permission of other contacts.";
+
 return $lang;

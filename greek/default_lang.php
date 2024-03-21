@@ -2522,4 +2522,146 @@ $lang["completed_project_status_recommendation_help_text"] = "Μπορείτε �
 $lang["full_width"] = "Πλήρο πλάτος";
 $lang["hide_topbar"] = "Απόκρυψη επάνω γραμμής";
 
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Ενεργοποίηση κατάστασης κλειδώματος";
+$lang["invoice_lock_state_description"] = "Μόλις ενεργοποιήσετε την κατάσταση κλειδώματος, τα τιμολόγια δεν μπορούν να επεξεργαστούν μετά την αποστολή στον πελάτη ή την αλλαγή της κατάστασης.";
+$lang["estimate_lock_state_description"] = "Μόλις ενεργοποιήσετε την κατάσταση κλειδώματος, οι αποδεκτές εκτιμήσεις δεν μπορούν να επεξεργαστούν.";
+$lang["proposal_lock_state_description"] = "Μόλις ενεργοποιήσετε την κατάσταση κλειδώματος, οι αποδεκτές προτάσεις δεν μπορούν να επεξεργαστούν.";
+$lang["contract_lock_state_description"] = "Μόλις ενεργοποιήσετε την κατάσταση κλειδώματος, τα αποδεκτά συμβόλαια δεν μπορούν να επεξεργαστούν.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "Διαχείριση αρχείων";
+
+$lang["all_files"] = "Όλα τα αρχεία";
+$lang["recent_uploads"] = "Πρόσφατες μεταφορτώσεις";
+
+$lang["favorites"] = "Αγαπημένα";
+$lang["new_folder"] = "Νέος φάκελος";
+$lang["folder_details"] = "Λεπτομέρειες φακέλου";
+$lang["file_details"] = "Λεπτομέρειες αρχείου";
+$lang["manage_access"] = "Διαχείριση πρόσβασης";
+$lang["root_folder"] = "Αρχική σελίδα";
+$lang["authorized_team_members"] = "Εξουσιοδοτημένα μέλη ομάδας";
+
+$lang["full_access"] = "Πλήρης πρόσβαση";
+$lang["full_access_placeholder"] = "Επιλέξτε ποιος μπορεί να διαχειριστεί τα πάντα";
+$lang["upload_and_organize"] = "Μεταφόρτωση και οργάνωση";
+$lang["upload_only"] = "Μόνο μεταφόρτωση";
+
+$lang["folder_permission_instruction"] = "Αυτό το δικαίωμα θα ισχύει για αυτόν τον φάκελο και όλους τους υποφακέλους του.";
+$lang["all_clients"] = "Όλοι οι πελάτες";
+
+$lang["select_a_file_to_view_details"] = "Επιλέξτε ένα αρχείο φακέλου για να δείτε τα στοιχεία του";
+$lang["empty"] = "Κενό";
+$lang["folder"] = "Φάκελος";
+$lang["folders"] = "Φάκελοι";
+$lang["rename"] = "Μετονομασία";
+$lang["rename_folder"] = "Μετονομασία φακέλου";
+
+$lang["folder_delete_confirmation_message"] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτόν τον φάκελο και όλους τους υποφακέλους και τα αρχεία;";
+$lang["file_delete_confirmation_message"] = "Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτό το αρχείο;";
+$lang["explore"] = "Εξερεύνηση";
+$lang["add_to_favorites"] = "Προσθήκη στα Αγαπημένα";
+$lang["remove_from_favorites"] = "Κατάργηση από τα Αγαπημένα";
+$lang["uploaded_at"] = "Μεταφορτώθηκε στις";
+$lang["created_at"] = "Δημιουργήθηκε στις";
+$lang["who_has_access"] = "Ποιος έχει πρόσβαση";
+
+$lang["search_folder_or_file"] = "Αναζήτηση φακέλου ή αρχείου";
+$lang["move"] = "Μετακίνηση";
+$lang["move_folder"] = "Μετακίνηση φακέλου";
+$lang["move_file"] = "Μετακίνηση αρχείου";
+
+$lang["enable_audio_recording"] = "Ενεργοποίηση εγγραφής ήχου";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Προσθέστε μορφή αρχείου webm για να ενεργοποιήσετε την εγγραφή ήχου.";
+
+$lang["reference"] = "Αναφορά";
+$lang["link_copied"] = "Ο σύνδεσμος αντιγράφηκε!";
+$lang["recording"] = "Εγγραφή...";
+
+$lang["https_required"] = "Απαιτείται HTTPS.";
+
+$lang["info"] = "Πληροφορίες";
+$lang["select_any_folder_for_move"] = "Επιλέξτε οποιοδήποτε φάκελο για μετακίνηση.";
+
+$lang["enable_background_image_for_pdf"] = "Ενεργοποίηση εικόνας φόντου για pdf";
+$lang["pdf_background_image"] = "Εικόνα φόντου PDF (510x720)";
+$lang["set_background_only_on_first_page"] = "Ρύθμιση φόντου μόνο στην 1η σελίδα";
+$lang["invoice_item_list_background_color"] = "Χρώμα φόντου της λίστας στοιχείων τιμολογίου";
+
+$lang["logo"] = "Λογότυπο";
+$lang["company_info"] = "Στοιχεία εταιρείας";
+$lang["change_invoice_logo"] = "Αλλαγή λογότυπου τιμολογίου";
+
+$lang["year"] = "Έτος";
+$lang["invoice_number_format"] = "Μορφή αριθμού τιμολογίου";
+$lang["auto_increment_digits"] = "Αυτόματη αύξηση %s ψηφίων";
+$lang["year_based_on"] = "Έτος με βάση";
+$lang["reset_invoice_number_every_year"] = "Επαναφορά αριθμού τιμολογίου κάθε χρόνο";
+
+$lang["style"] = "Στυλ";
+
+$lang["attach_pdf"] = "Επισύναψη PDF";
+$lang["attachment_size_is_too_large"] = "Το μέγεθος του συνημμένου είναι πολύ μεγάλο. Δεν μπορεί να επισυναφθεί με αυτό το email.";
+
+$lang["files_list"] = "Λίστα αρχείων";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Απόκρυψη πεδίων από ενσωματωμένες φόρμες δυνητικού πελάτη";
+$lang["unspecified"] = "Μη καθορισμένο";
+
+$lang["import_team_members"] = "Εισαγωγή μελών ομάδας";
+$lang["import_team_member_error_name_field_required"] = "Το όνομα και το επώνυμο είναι απαραίτητα για την προσθήκη ενός μέλους ομάδας.";
+$lang["import_team_member_error_job_title_field_required"] = "Απαιτείται το πεδίο τίτλου εργασίας.";
+$lang["import_team_member_error_email_field_required"] = "Απαιτείται πεδίο email.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Μόνο οι διαχειριστές μπορούν να ορίσουν τον ρόλο διαχειριστή.";
+
+$lang["import_projects"] = "Εισαγωγή έργων";
+$lang["import_project_error_title_field_required"] = "Απαιτείται το πεδίο τίτλου έργου.";
+$lang["import_project_error_project_type_field_required"] = "Απαιτείται πεδίο τύπου έργου.";
+$lang["import_project_error_client_field_required"] = "Δεδομένου ότι είναι έργο πελάτη, απαιτείται πεδίο πελάτη.";
+$lang["import_project_error_client_name"] = "Το όνομα πελάτη δεν είναι έγκυρο.";
+$lang["import_project_error_project_status"] = "Η κατάσταση του έργου δεν είναι έγκυρη.";
+
+$lang["import_contacts"] = "Εισαγωγή επαφών";
+$lang["import_contact_error_name_field_required"] = "Το όνομα και το επώνυμο απαιτούνται για την προσθήκη μιας επαφής.";
+$lang["import_contact__error_client_field_required"] = "Απαιτείται πεδίο πελάτη.";
+$lang["import_contact_error_client_name"] = "Το όνομα πελάτη δεν είναι έγκυρο.";
+$lang["import_gender_is_invalid"] = "Το φύλο δεν είναι έγκυρο.";
+
+$lang["import_error_name_field_required"] = "Απαιτείται το πεδίο ονόματος.";
+$lang["import_error_type_field_required"] = "Απαιτείται πεδίο τύπου.";
+$lang["import_error_invalid_type"] = "Μη έγκυρος τύπος.";
+
+$lang["can_access_everything"] = "Μπορεί να έχει πρόσβαση σε όλα";
+$lang["user_permissions"] = "Δικαιώματα χρήστη";
+$lang["can_access_only"] = "Μόνο πρόσβαση";
+
+$lang["email_seen_at"] = "Το email εμφανίστηκε στο";
+$lang["email_seen_count"] = "Αριθμός δεικτών email";
+
+$lang["last_preview_seen"] = "Τελευταία προεπισκόπηση";
+$lang["last_email_seen"] = "Το τελευταίο email εμφανίστηκε";
+
+$lang["subscription_cancelled"] = "Η συνδρομή ακυρώθηκε";
+$lang["notification_subscription_cancelled"] = "Ακυρώθηκε μια συνδρομή";
+
+$lang["enable_comments_on_proposals"] = "Ενεργοποίηση σχολίων σε προτάσεις";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Εμφάνιση των πιο πρόσφατων σχολίων πρότασης στην κορυφή";
+$lang["proposal_commented"] = "Η πρόταση σχολιάστηκε";
+$lang["proposal_creator"] = "Δημιουργός πρότασης";
+$lang["notification_proposal_commented"] = "Σχολίασε μια πρόταση.";
+
+$lang["can_upload_and_edit_files"] = "Μπορεί να ανεβάσει και να επεξεργαστεί αρχεία";
+$lang["can_comment_on_projects"] = "Μπορεί να σχολιάσει έργα";
+$lang["can_view_files"] = "Μπορεί να προβάλει αρχεία";
+
+$lang["default_permissions_for_non_primary_contact"] = "Προεπιλεγμένα δικαιώματα για μη κύρια επαφή";
+$lang["primary_contact_will_get_full_permission_message"] = "Σημείωση: Η κύρια επαφή θα λάβει πλήρη άδεια.";
+$lang["permission_is_required"] = "Απαιτείται άδεια.";
+$lang["make_primary_contact_help_message"] = "Η υπάρχουσα κύρια επαφή θα εξακολουθεί να έχει πλήρη πρόσβαση. Μπορείτε να αλλάξετε την άδεια ανά πάσα στιγμή.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Η κύρια επαφή μπορεί να διαχειριστεί την άδεια άλλων επαφών.";
+
 return $lang;

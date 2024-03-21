@@ -2522,4 +2522,147 @@ $lang["completed_project_status_recommendation_help_text"] = "Puoi cambiare il t
 $lang["full_width"] = "Larghezza intera";
 $lang["hide_topbar"] = "Nascondi barra superiore";
 
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Abilita lo stato di blocco";
+$lang["invoice_lock_state_description"] = "Una volta abilitato lo stato di blocco, le fatture non possono essere modificate dopo l'invio al cliente o la modifica dello stato.";
+$lang["estimate_lock_state_description"] = "Una volta abilitato lo stato di blocco, le stime accettate non possono essere modificate.";
+$lang["proposal_lock_state_description"] = "Una volta abilitato lo stato di blocco, le proposte accettate non possono essere modificate.";
+$lang["contract_lock_state_description"] = "Una volta abilitato lo stato di blocco, i contratti accettati non possono essere modificati.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "Gestione file";
+
+$lang["all_files"] = "Tutti i file";
+$lang["recent_uploads"] = "Caricamenti recenti";
+
+$lang["favorites"] = "Preferiti";
+$lang["new_folder"] = "Nuova cartella";
+$lang["folder_details"] = "Dettagli cartella";
+$lang["file_details"] = "Dettagli del file";
+$lang["manage_access"] = "Gestisci accesso";
+$lang["root_folder"] = "Casa";
+$lang["authorized_team_members"] = "Membri del team autorizzati";
+
+$lang["full_access"] = "Accesso completo";
+$lang["full_access_placeholder"] = "Scegli chi può gestire tutto";
+$lang["upload_and_organize"] = "Carica e organizza";
+$lang["upload_only"] = "Solo caricamento";
+
+$lang["folder_permission_instruction"] = "Questo permesso sarà applicabile a questa cartella e a tutte le sue sottocartelle.";
+$lang["all_clients"] = "Tutti i clienti";
+
+$lang["select_a_file_to_view_details"] = "Seleziona un file o una cartella per visualizzarne i dettagli";
+$lang["empty"] = "Vuoto";
+$lang["folder"] = "Cartella";
+$lang["folders"] = "Cartelle";
+$lang["rename"] = "Rinomina";
+$lang["rename_folder"] = "Rinomina cartella";
+
+$lang["folder_delete_confirmation_message"] = "Sei sicuro di voler eliminare definitivamente questa cartella e tutte le sottocartelle e i file?";
+$lang["file_delete_confirmation_message"] = "Sei sicuro di voler eliminare definitivamente questo file?";
+$lang["explore"] = "Esplora";
+$lang["add_to_favorites"] = "Aggiungi ai preferiti";
+$lang["remove_from_favorites"] = "Rimuovi dai preferiti";
+$lang["uploaded_at"] = "Caricato su";
+$lang["created_at"] = "Creato a";
+$lang["who_has_access"] = "Come si accede";
+
+$lang["search_folder_or_file"] = "Cerca cartella o file";
+$lang["move"] = "Sposta";
+$lang["move_folder"] = "Sposta cartella";
+$lang["move_file"] = "Sposta file";
+
+$lang["enable_audio_recording"] = "Abilita la registrazione audio";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Aggiungi il formato file webm per abilitare la registrazione audio.";
+
+$lang["reference"] = "Riferimento";
+$lang["link_copied"] = "Link copiato!";
+$lang["recording"] = "Registrazione...";
+
+$lang["https_required"] = "HTTPS richiesto.";
+
+$lang["info"] = "Informazioni";
+$lang["select_any_folder_for_move"] = "Seleziona una cartella qualsiasi per lo spostamento.";
+
+$lang["enable_background_image_for_pdf"] = "Abilita immagine di sfondo per pdf";
+$lang["pdf_background_image"] = "Immagine di sfondo PDF (510x720)";
+$lang["set_background_only_on_first_page"] = "Imposta lo sfondo solo sulla prima pagina";
+$lang["invoice_item_list_ background_color"] = "Colore di sfondo dell'elenco degli articoli della fattura";
+
+$lang["logo"] = "Logo";
+$lang["company_info"] = "Informazioni azienda";
+$lang["change_invoice_logo"] = "Cambia logo fattura";
+
+$lang["year"] = "Anno";
+$lang["invoice_number_format"] = "Formato del numero della fattura";
+$lang["auto_increment_digits"] = "Incrementa automaticamente %s cifre";
+$lang["year_based_on"] = "Anno basato su";
+$lang["reset_invoice_number_every_year"] = "Reimposta il numero della fattura ogni anno";
+
+$lang["style"] = "Stile";
+
+$lang["attach_pdf"] = "Allega PDF";
+$lang["attachment_size_is_too_large"] = "La dimensione dell'allegato è troppo grande. Non può essere allegato a questa email.";
+
+$lang["files_list"] = "Elenco file";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Nascondi i campi dai moduli incorporati dei lead";
+$lang["unspecified"] = "Non specificato";
+
+$lang["import_team_members"] = "Importa membri del team";
+$lang["import_team_member_error_name_field_required"] = "Per aggiungere un membro del team sono necessari sia il nome che il cognome.";
+$lang["import_team_member_error_job_title_field_required"] = "Il campo del titolo di lavoro è obbligatorio.";
+$lang["import_team_member_error_email_field_required"] = "Il campo email è obbligatorio.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Solo gli utenti amministratori possono impostare il ruolo di amministratore.";
+
+$lang["import_projects"] = "Importa progetti";
+$lang["import_project_error_title_field_required"] = "Il campo del titolo del progetto è obbligatorio.";
+$lang["import_project_error_project_type_field_required"] = "Il campo Tipo progetto è obbligatorio.";
+$lang["import_project_error_client_field_required"] = "Dato che si tratta di un progetto cliente, il campo cliente è obbligatorio.";
+$lang["import_project_error_client_name"] = "Il nome del cliente non è valido.";
+$lang["import_project_error_project_status"] = "Lo stato del progetto non è valido.";
+
+$lang["import_contacts"] = "Importa contatti";
+$lang["import_contact_error_name_field_required"] = "Per aggiungere un contatto sono necessari sia il nome che il cognome.";
+$lang["import_contact__error_client_field_required"] = "Il campo cliente è obbligatorio.";
+$lang["import_contact_error_client_name"] = "Il nome del cliente non è valido.";
+$lang["import_gender_is_invalid"] = "Il sesso non è valido.";
+
+$lang["import_error_name_field_required"] = "Il campo del nome è obbligatorio.";
+$lang["import_error_type_field_required"] = "Il campo Tipo è obbligatorio.";
+$lang["import_error_invalid_type"] = "Tipo non valido.";
+
+$lang["can_access_everything"] = "Può accedere a tutto";
+$lang["user_permissions"] = "Autorizzazioni utente";
+$lang["can_access_only"] = "Solo può accedere";
+
+$lang["email_seen_at"] = "Email vista a";
+$lang["email_seen_count"] = "Conteggio email viste";
+
+$lang["last_preview_seen"] = "Ultima anteprima vista";
+$lang["last_email_seen"] = "Ultima email vista";
+
+$lang["subscription_cancelled"] = "Abbonamento annullato";
+$lang["notification_subscription_cancelled"] = "Abbonamento annullato";
+
+$lang["enable_comments_on_proposals"] = "Abilita commenti sulle proposte";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Mostra i commenti alla proposta più recenti in alto";
+$lang["proposal_commented"] = "Proposta commentata";
+$lang["proposal_creator"] = "Creatore della proposta";
+$lang["notification_proposal_commented"] = "Ha commentato una proposta.";
+
+$lang["can_upload_and_edit_files"] = "Può caricare e modificare file";
+$lang["can_comment_on_projects"] = "Può commentare i progetti";
+$lang["can_view_files"] = "Può visualizzare i file";
+
+$lang["default_permissions_for_non_primary_contact"] = "Autorizzazioni predefinite per il contatto non principale";
+$lang["primary_contact_will_get_full_permission_message"] = "Nota: il contatto principale otterrà l'autorizzazione completa.";
+$lang["permission_is_required"] = "È richiesta l'autorizzazione.";
+$lang["make_primary_contact_help_message"] = "Il contatto principale esistente avrà ancora pieno accesso. Puoi modificare l'autorizzazione in qualsiasi momento.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Il contatto principale può gestire le autorizzazioni di altri contatti.";
+
 return $lang;
+

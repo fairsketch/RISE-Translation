@@ -2521,4 +2521,146 @@ $lang["completed_project_status_recommendation_help_text"] = "Вы можете 
 $lang["full_width"] = "Полная ширина";
 $lang["hide_topbar"] = "Скрыть верхнюю панель";
 
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Включить состояние блокировки";
+$lang["invoice_lock_state_description"] = "После включения состояния блокировки счета нельзя будет редактировать после отправки клиенту или изменения статуса.";
+$lang["estimate_lock_state_description"] = "После того, как вы включите состояние блокировки, принятые оценки нельзя будет редактировать.";
+$lang["proposal_lock_state_description"] = "После включения состояния блокировки принятые предложения нельзя будет редактировать.";
+$lang["contract_lock_state_description"] = "После того, как вы включите состояние блокировки, принятые контракты нельзя будет редактировать.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "Файловый менеджер";
+
+$lang["all_files"] = "Все файлы";
+$lang["recent_uploads"] = "Последние загрузки";
+
+$lang["favorites"] = "Избранное";
+$lang["new_folder"] = "Новая папка";
+$lang["folder_details"] = "Сведения о папке";
+$lang["file_details"] = "Сведения о файле";
+$lang["manage_access"] = "Управление доступом";
+$lang["root_folder"] = "Главная";
+$lang["authorized_team_members"] = "Авторизованные члены команды";
+
+$lang["full_access"] = "Полный доступ";
+$lang["full_access_placeholder"] = "Выберите, кто может управлять всем";
+$lang["upload_and_organize"] = "Загрузить и упорядочить";
+$lang["upload_only"] = "Только загрузка";
+
+$lang["folder_permission_instruction"] = "Это разрешение будет применимо к этой папке и всем ее подпапкам.";
+$lang["all_clients"] = "Все клиенты";
+
+$lang["select_a_file_to_view_details"] = "Выберите файл или папку, чтобы просмотреть подробности";
+$lang["empty"] = "Пусто";
+$lang["folder"] = "Папка";
+$lang["folders"] = "Папки";
+$lang["rename"] = "Переименовать";
+$lang["rename_folder"] = "Переименовать папку";
+
+$lang["folder_delete_confirmation_message"] = "Вы уверены, что хотите навсегда удалить эту папку, а также все подпапки и файлы?";
+$lang["file_delete_confirmation_message"] = "Вы уверены, что хотите навсегда удалить этот файл?";
+$lang["explore"] = "Исследовать";
+$lang["add_to_favorites"] = "Добавить в избранное";
+$lang["remove_from_favorites"] = "Удалить из избранного";
+$lang["uploaded_at"] = "Загружено";
+$lang["created_at"] = "Создано";
+$lang["who_has_access"] = "Каким образом имеется доступ";
+
+$lang["search_folder_or_file"] = "Найти папку или файл";
+$lang["move"] = "Переместить";
+$lang["move_folder"] = "Переместить папку";
+$lang["move_file"] = "Переместить файл";
+
+$lang["enable_audio_recording"] = "Включить запись звука";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Добавьте формат файла WebM, чтобы включить запись звука.";
+
+$lang["reference"] = "Ссылка";
+$lang["link_copied"] = "Ссылка скопирована!";
+$lang["recording"] = "Запись...";
+
+$lang["https_required"] = "Требуется HTTPS.";
+
+$lang["info"] = "Информация";
+$lang["select_any_folder_for_move"] = "Выберите любую папку для перемещения.";
+
+$lang["enable_background_image_for_pdf"] = "Включить фоновое изображение для PDF";
+$lang["pdf_background_image"] = "Фоновое изображение в формате PDF (510x720)";
+$lang["set_background_only_on_first_page"] = "Установить фон только на 1-й странице";
+$lang["invoice_item_list_background_color"] = "Цвет фона списка позиций счета";
+
+$lang["logo"] = "Логотип";
+$lang["company_info"] = "Информация о компании";
+$lang["change_invoice_logo"] = "Изменить логотип счета";
+
+$lang["year"] = "Год";
+$lang["invoice_number_format"] = "Формат номера счета";
+$lang["auto_increment_digits"] = "Автоматическое увеличение %s цифр";
+$lang["year_based_on"] = "Год на основе";
+$lang["reset_invoice_number_every_year"] = "Сбрасывать номер счета каждый год";
+
+$lang["style"] = "Стиль";
+
+$lang["attach_pdf"] = "Прикрепить PDF";
+$lang["attachment_size_is_too_large"] = "Размер вложения слишком велик. Его невозможно прикрепить к этому электронному письму.";
+
+$lang["files_list"] = "Список файлов";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Скрыть поля из встроенных форм для потенциальных клиентов";
+$lang["unspecified"] = "Не указано";
+
+$lang["import_team_members"] = "Импортировать членов команды";
+$lang["import_team_member_error_name_field_required"] = "Для добавления члена команды необходимо указать имя и фамилию.";
+$lang["import_team_member_error_job_title_field_required"] = "Поле должности должно быть обязательно.";
+$lang["import_team_member_error_email_field_required"] = "Поле электронной почты является обязательным.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Только пользователи с правами администратора могут устанавливать роль администратора.";
+
+$lang["import_projects"] = "Импортировать проекты";
+$lang["import_project_error_title_field_required"] = "Поле названия проекта является обязательным.";
+$lang["import_project_error_project_type_field_required"] = "Поле типа проекта является обязательным.";
+$lang["import_project_error_client_field_required"] = "Поскольку это клиентский проект, поле клиента является обязательным.";
+$lang["import_project_error_client_name"] = "Имя клиента недействительно.";
+$lang["import_project_error_project_status"] = "Неверный статус проекта.";
+
+$lang["import_contacts"] = "Импортировать контакты";
+$lang["import_contact_error_name_field_required"] = "Для добавления контакта необходимо указать имя и фамилию.";
+$lang["import_contact__error_client_field_required"] = "Поле клиента является обязательным.";
+$lang["import_contact_error_client_name"] = "Имя клиента недействительно.";
+$lang["import_gender_is_invalid"] = "Недопустимый пол.";
+
+$lang["import_error_name_field_required"] = "Поле имени обязательно.";
+$lang["import_error_type_field_required"] = "Поле типа является обязательным.";
+$lang["import_error_invalid_type"] = "Неверный тип.";
+
+$lang["can_access_everything"] = "Может получить доступ ко всему";
+$lang["user_permissions"] = "Разрешения пользователя";
+$lang["can_access_only"] = "Только доступ";
+
+$lang["email_seen_at"] = "Электронная почта просмотрена";
+$lang["email_seen_count"] = "Количество просмотров электронной почты";
+
+$lang["last_preview_seen"] = "Последний просмотренный просмотр";
+$lang["last_email_seen"] = "Последнее просмотренное письмо";
+
+$lang["subscription_cancelled"] = "Подписка отменена";
+$lang["notification_subscription_cancelled"] = "Отменил подписку";
+
+$lang["enable_comments_on_proposals"] = "Включить комментарии к предложениям";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Показывать самые последние комментарии к предложению вверху";
+$lang["proposal_commented"] = "Предложение прокомментировано";
+$lang["proposal_creator"] = "Создатель предложения";
+$lang["notification_proposal_commented"] = "Прокомментировал предложение.";
+
+$lang["can_upload_and_edit_files"] = "Может загружать и редактировать файлы";
+$lang["can_comment_on_projects"] = "Может комментировать проекты";
+$lang["can_view_files"] = "Может просматривать файлы";
+
+$lang["default_permissions_for_non_primary_contact"] = "Разрешения по умолчанию для неосновного контакта";
+$lang["primary_contact_will_get_full_permission_message"] = "Примечание: основной контакт получит полные разрешения.";
+$lang["permission_is_required"] = "Требуется разрешение.";
+$lang["make_primary_contact_help_message"] = "У существующего основного контакта по-прежнему будет полный доступ. Вы можете изменить разрешение в любое время.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Основной контакт может управлять разрешениями других контактов.";
+
 return $lang;

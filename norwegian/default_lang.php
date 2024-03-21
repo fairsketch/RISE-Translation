@@ -2522,4 +2522,147 @@ $lang["completed_project_status_recommendation_help_text"] = "Du kan endre tekst
 $lang["full_width"] = "Full bredde";
 $lang["hide_topbar"] = "Skjul topplinjen";
 
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Aktiver låsetilstand";
+$lang["invoice_lock_state_description"] = "Når du har aktivert låsetilstanden, kan ikke fakturaene redigeres etter sending til klient eller endret status.";
+$lang["estimate_lock_state_description"] = "Når du har aktivert låsetilstanden, kan de aksepterte estimatene ikke redigeres.";
+$lang["proposal_lock_state_description"] = "Når du har aktivert låsetilstanden, kan de aksepterte forslagene ikke redigeres.";
+$lang["contract_lock_state_description"] = "Når du har aktivert låsetilstanden, kan de aksepterte kontraktene ikke redigeres.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "Filbehandling";
+
+$lang["all_files"] = "Alle filer";
+$lang["recent_uploads"] = "Nylige opplastinger";
+
+$lang["favorites"] = "Favoritter";
+$lang["new_folder"] = "Ny mappe";
+$lang["folder_details"] = "Mappedetaljer";
+$lang["file_details"] = "Fildetaljer";
+$lang["manage_access"] = "Administrer tilgang";
+$lang["root_folder"] = "Hjem";
+$lang["authorized_team_members"] = "Autoriserte teammedlemmer";
+
+$lang["full_access"] = "Full tilgang";
+$lang["full_access_placeholder"] = "Velg hvem som kan administrere alt";
+$lang["upload_and_organize"] = "Last opp og organiser";
+$lang["upload_only"] = "Kun last opp";
+
+$lang["folder_permission_instruction"] = "Denne tillatelsen vil gjelde for denne mappen og alle dens undermapper.";
+$lang["all_clients"] = "Alle klienter";
+
+$lang["select_a_file_to_view_details"] = "Velg en fil i mappen for å se detaljene";
+$lang["empty"] = "Tom";
+$lang["folder"] = "Mappe";
+$lang["folders"] = "Mapper";
+$lang["rename"] = "Gi nytt navn";
+$lang["rename_folder"] = "Gi nytt navn til mappe";
+
+$lang["folder_delete_confirmation_message"] = "Er du sikker på at du vil slette denne mappen og alle undermappene og filene permanent?";
+$lang["file_delete_confirmation_message"] = "Er du sikker på at du vil slette denne filen permanent?";
+$lang["explore"] = "Utforsk";
+$lang["add_to_favorites"] = "Legg til i favoritter";
+$lang["remove_from_favorites"] = "Fjern fra favoritter";
+$lang["uploaded_at"] = "Lastet opp på";
+$lang["created_at"] = "Opprettet kl";
+$lang["who_has_access"] = "Hvordan har tilgang";
+
+$lang["search_folder_or_file"] = "Søk i mappe eller fil";
+$lang["move"] = "Flytt";
+$lang["move_folder"] = "Flytt mappe";
+$lang["move_file"] = "Flytt fil";
+
+$lang["enable_audio_recording"] = "Aktiver lydopptak";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Legg til webm-filformat for å aktivere lydopptak.";
+
+$lang["reference"] = "Referanse";
+$lang["link_copied"] = "Link kopiert!";
+$lang["recording"] = "Opptak...";
+
+$lang["https_required"] = "HTTPS kreves.";
+
+$lang["info"] = "Info";
+$lang["select_any_folder_for_move"] = "Velg hvilken som helst mappe for flytting.";
+
+$lang["enable_background_image_for_pdf"] = "Aktiver bakgrunnsbilde for pdf";
+$lang["pdf_background_image"] = "Pdf bakgrunnsbilde (510x720)";
+$lang["set_background_only_on_first_page"] = "Sett bakgrunn kun på 1. side";
+$lang["invoice_item_list_background_color"] = "Fakturavareliste bakgrunnsfarge";
+
+$lang["logo"] = "Logo";
+$lang["company_info"] = "Bedriftsinformasjon";
+$lang["change_invoice_logo"] = "Endre fakturalogo";
+
+$lang["year"] = "År";
+$lang["invoice_number_format"] = "Fakturanummerformat";
+$lang["auto_increment_digits"] = "Automatisk økning av %s sifre";
+$lang["year_based_on"] = "År basert på";
+$lang["reset_invoice_number_every_year"] = "Tilbakestill fakturanummer hvert år";
+
+$lang["style"] = "Stil";
+
+$lang["attach_pdf"] = "Legg ved PDF";
+$lang["attachment_size_is_too_large"] = "Størrelsen på vedlegget er for stor. Det kan ikke legges ved denne e-posten.";
+
+$lang["files_list"] = "Filliste";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Skjul felt fra innebygde skjemaer";
+$lang["unspecified"] = "Uspesifisert";
+
+$lang["import_team_members"] = "Importer teammedlemmer";
+$lang["import_team_member_error_name_field_required"] = "Fornavn og etternavn kreves begge for å legge til et teammedlem.";
+$lang["import_team_member_error_job_title_field_required"] = "Jobbtittelfelt er obligatorisk.";
+$lang["import_team_member_error_email_field_required"] = "E-postfelt er obligatorisk.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Bare administratorbrukere kan angi administratorrollen.";
+
+$lang["import_projects"] = "Importer prosjekter";
+$lang["import_project_error_title_field_required"] = "Prosjekttittelfelt er obligatorisk.";
+$lang["import_project_error_project_type_field_required"] = "Prosjekttypefelt er påkrevd.";
+$lang["import_project_error_client_field_required"] = "Siden det er klientprosjektet er klientfelt påkrevd.";
+$lang["import_project_error_client_name"] = "Klientnavnet er ugyldig.";
+$lang["import_project_error_project_status"] = "Prosjektstatus er ugyldig.";
+
+$lang["import_contacts"] = "Importer kontakter";
+$lang["import_contact_error_name_field_required"] = "Fornavn og etternavn kreves begge for å legge til en kontakt.";
+$lang["import_contact__error_client_field_required"] = "Klientfelt er obligatorisk.";
+$lang["import_contact_error_client_name"] = "Klientnavnet er ugyldig.";
+$lang["import_gender_is_invalid"] = "Kjønn er ugyldig.";
+
+$lang["import_error_name_field_required"] = "Navnefelt er obligatorisk.";
+$lang["import_error_type_field_required"] = "Typefelt er påkrevd.";
+$lang["import_error_invalid_type"] = "Ugyldig type.";
+
+$lang["can_access_everything"] = "Kan få tilgang til alt";
+$lang["user_permissions"] = "Brukertillatelser";
+$lang["can_access_only"] = "Kan bare tilgang";
+
+$lang["email_seen_at"] = "E-post sett på";
+$lang["email_seen_count"] = "E-post sett telling";
+
+$lang["last_preview_seen"] = "Siste forhåndsvisning sett";
+$lang["last_email_seen"] = "Siste e-post sett";
+
+$lang["subscription_cancelled"] = "Abonnement kansellert";
+$lang["notification_subscription_cancelled"] = "Avbrutt et abonnement";
+
+$lang["enable_comments_on_proposals"] = "Aktiver kommentarer på forslag";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Vis de siste forslagskommentarene øverst";
+$lang["proposal_commented"] = "Forslaget kommentert";
+$lang["proposal_creator"] = "Forslagsskaper";
+$lang["notification_proposal_commented"] = "Kommenterte et forslag.";
+
+$lang["can_upload_and_edit_files"] = "Kan laste opp og redigere filer";
+$lang["can_comment_on_projects"] = "Kan kommentere prosjekter";
+$lang["can_view_files"] = "Kan vise filer";
+
+$lang["default_permissions_for_non_primary_contact"] = "Standard tillatelser for ikke-primær kontakt";
+$lang["primary_contact_will_get_full_permission_message"] = "Merk: Primærkontakten vil få full tillatelse.";
+$lang["permission_is_required"] = "Tillatelse kreves.";
+$lang["make_primary_contact_help_message"] = "Den eksisterende primærkontakten vil fortsatt ha full tilgang. Du kan endre tillatelsen når som helst.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primærkontakt kan administrere tillatelsen til andre kontakter.";
+
 return $lang;
+

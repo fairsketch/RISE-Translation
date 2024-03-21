@@ -2522,4 +2522,146 @@ $lang["completed_project_status_recommendation_help_text"] = "U kunt de tekst wi
 $lang["full_width"] = "Volledige breedte";
 $lang["hide_topbar"] = "Topbalk verbergen";
 
+/* Version 3.5.1 */
+
+$lang["enable_lock_state"] = "Vergrendelstatus inschakelen";
+$lang["invoice_lock_state_description"] = "Als u eenmaal de vergrendelingsstatus hebt ingeschakeld, kunnen de facturen niet meer worden bewerkt nadat ze naar de klant zijn verzonden of de status hebben gewijzigd.";
+$lang["estimate_lock_state_description"] = "Zodra u de vergrendelingsstatus inschakelt, kunnen de geaccepteerde schattingen niet meer worden bewerkt.";
+$lang["proposal_lock_state_description"] = "Zodra u de vergrendelingsstatus inschakelt, kunnen de geaccepteerde voorstellen niet meer worden bewerkt.";
+$lang["contract_lock_state_description"] = "Zodra u de vergrendelingsstatus inschakelt, kunnen de geaccepteerde contracten niet meer worden bewerkt.";
+
+/* Version 3.6 */
+
+$lang["file_manager"] = "Bestandsbeheer";
+
+$lang["all_files"] = "Alle bestanden";
+$lang["recent_uploads"] = "Recente uploads";
+
+$lang["favorites"] = "Favorieten";
+$lang["new_folder"] = "Nieuwe map";
+$lang["folder_details"] = "Mapdetails";
+$lang["file_details"] = "Bestandsdetails";
+$lang["manage_access"] = "Beheer toegang";
+$lang["root_folder"] = "Thuis";
+$lang["authorized_team_members"] = "Geautoriseerde teamleden";
+
+$lang["full_access"] = "Volledige toegang";
+$lang["full_access_placeholder"] = "Kies wie alles kan beheren";
+$lang["upload_and_organize"] = "Uploaden en organiseren";
+$lang["upload_only"] = "Alleen uploaden";
+
+$lang["folder_permission_instruction"] = "Deze toestemming is van toepassing op deze map en al zijn submappen.";
+$lang["all_clients"] = "Alle klanten";
+
+$lang["select_a_file_to_view_details"] = "Selecteer een bestand of map om de details ervan te bekijken";
+$lang["empty"] = "Leeg";
+$lang["folder"] = "Map";
+$lang["folders"] = "Mappen";
+$lang["rename"] = "Hernoemen";
+$lang["rename_folder"] = "Hernoem map";
+
+$lang["folder_delete_confirmation_message"] = "Weet u zeker dat u deze map en alle submappen en bestanden permanent wilt verwijderen?";
+$lang["file_delete_confirmation_message"] = "Weet u zeker dat u dit bestand permanent wilt verwijderen?";
+$lang["explore"] = "Verkennen";
+$lang["add_to_favorites"] = "Toevoegen aan favorieten";
+$lang["remove_from_favorites"] = "Verwijderen uit favorieten";
+$lang["uploaded_at"] = "Geüpload op";
+$lang["created_at"] = "Aangemaakt in";
+$lang["who_has_access"] = "Hoe heeft toegang";
+
+$lang["search_folder_or_file"] = "Zoek map of bestand";
+$lang["move"] = "Verplaatsen";
+$lang["move_folder"] = "Verplaats map";
+$lang["move_file"] = "Verplaats bestand";
+
+$lang["enable_audio_recording"] = "Audio-opname inschakelen";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Voeg webm-bestandsformaat toe om audio-opname mogelijk te maken.";
+
+$lang["reference"] = "Referentie";
+$lang["link_copied"] = "Link gekopieerd!";
+$lang["recording"] = "Opnemen...";
+
+$lang["https_required"] = "HTTPS vereist.";
+
+$lang["info"] = "Informatie";
+$lang["select_any_folder_for_move"] = "Selecteer een map om te verplaatsen.";
+
+$lang["enable_background_image_for_pdf"] = "Achtergrondafbeelding voor pdf inschakelen";
+$lang["pdf_background_image"] = "PDF-achtergrondafbeelding (510x720)";
+$lang["set_background_only_on_first_page"] = "Stel alleen achtergrond in op de 1e pagina";
+$lang["invoice_item_list_background_color"] = "Achtergrondkleur factuuritemlijst";
+
+$lang["logo"] = "Logo";
+$lang["company_info"] = "Bedrijfsinformatie";
+$lang["change_invoice_logo"] = "Wijzig het factuurlogo";
+
+$lang["year"] = "Jaar";
+$lang["invoice_number_format"] = "Factuurnummerformaat";
+$lang["auto_increment_digits"] = "Automatisch verhogen van %s cijfers";
+$lang["year_based_on"] = "Jaar gebaseerd op";
+$lang["reset_invoice_number_every_year"] = "Factuurnummer elk jaar opnieuw instellen";
+
+$lang["style"] = "Stijl";
+
+$lang["attach_pdf"] = "PDF bijvoegen";
+$lang["attachment_size_is_too_large"] = "De bijlage is te groot. Het kan niet worden toegevoegd aan deze e-mail.";
+
+$lang["files_list"] = "Bestandenlijst";
+
+$lang["hide_fields_on_lead_embedded_form"] = "Verberg velden in ingesloten leadformulieren";
+$lang["unspecified"] = "Niet gespecificeerd";
+
+$lang["import_team_members"] = "Teamleden importeren";
+$lang["import_team_member_error_name_field_required"] = "Voornaam en achternaam zijn beide vereist om een teamlid toe te voegen.";
+$lang["import_team_member_error_job_title_field_required"] = "Het veld voor de functietitel is verplicht.";
+$lang["import_team_member_error_email_field_required"] = "E-mailveld is verplicht.";
+
+$lang["only_admin_users_can_set_the_admin_role"] = "Alleen beheerdersgebruikers kunnen de beheerdersrol instellen.";
+
+$lang["import_projects"] = "Projecten importeren";
+$lang["import_project_error_title_field_required"] = "Het veld Projecttitel is verplicht.";
+$lang["import_project_error_project_type_field_required"] = "Projecttypeveld is verplicht.";
+$lang["import_project_error_client_field_required"] = "Omdat het een klantproject is, is het klantveld vereist.";
+$lang["import_project_error_client_name"] = "Clientnaam is ongeldig.";
+$lang["import_project_error_project_status"] = "Projectstatus is ongeldig.";
+
+$lang["import_contacts"] = "Contacten importeren";
+$lang["import_contact_error_name_field_required"] = "Voornaam en achternaam zijn beide vereist om een contactpersoon toe te voegen.";
+$lang["import_contact__error_client_field_required"] = "Clientveld is verplicht.";
+$lang["import_contact_error_client_name"] = "Clientnaam is ongeldig.";
+$lang["import_gender_is_invalid"] = "Geslacht is ongeldig.";
+
+$lang["import_error_name_field_required"] = "Naamveld is verplicht.";
+$lang["import_error_type_field_required"] = "Typeveld is verplicht.";
+$lang["import_error_invalid_type"] = "Ongeldig type.";
+
+$lang["can_access_everything"] = "Heeft toegang tot alles";
+$lang["user_permissions"] = "Gebruikersrechten";
+$lang["can_access_only"] = "Alleen toegang";
+
+$lang["email_seen_at"] = "E-mail gezien op";
+$lang["email_seen_count"] = "Aantal e-mail gezien";
+
+$lang["last_preview_seen"] = "Laatst voorbeeld gezien";
+$lang["last_email_seen"] = "Laatste e-mail gezien";
+
+$lang["subscription_cancelled"] = "Abonnement geannuleerd";
+$lang["notification_subscription_cancelled"] = "Een abonnement opgezegd";
+
+$lang["enable_comments_on_proposals"] = "Schakel commentaar op voorstellen in";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Toon de meest recente voorstelopmerkingen bovenaan";
+$lang["proposal_commented"] = "Voorstel becommentarieerd";
+$lang["proposal_creator"] = "Maker van het voorstel";
+$lang["notification_proposal_commented"] = "Heeft gereageerd op een voorstel.";
+
+$lang["can_upload_and_edit_files"] = "Kan bestanden uploaden en bewerken";
+$lang["can_comment_on_projects"] = "Kan reageren op projecten";
+$lang["can_view_files"] = "Kan bestanden bekijken";
+
+$lang["default_permissions_for_non_primary_contact"] = "Standaardrechten voor niet-primair contact";
+$lang["primary_contact_will_get_full_permission_message"] = "Opmerking: het primaire contact krijgt volledige toestemming.";
+$lang["permission_is_required"] = "Toestemming is vereist.";
+$lang["make_primary_contact_help_message"] = "Het bestaande primaire contact heeft nog steeds volledige toegang. U kunt de toestemming op elk gewenst moment wijzigen.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "De primaire contact kan de toestemming van andere contacten beheren.";
+
 return $lang;
