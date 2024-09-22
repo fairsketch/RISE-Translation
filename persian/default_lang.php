@@ -1233,7 +1233,6 @@ $lang["notification_project_completed"] = "یک پروژه را تکمیل کر�
 
 $lang["google_drive_client_id"] = "شناسه مشتری";
 $lang["google_drive_client_secret"] = "رمز مشتری";
-
 $lang["get_your_app_credentials_from_here"] = "مجوز دسترسی(credentials) خود را از اینجا بگیرید:";
 $lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "به خاطر داشته باشید که این آدرس را در مسیر اعتبارسنجی قرار دهید.";
 $lang["save_and_authorize"] = "ذخیره و اعتبارسنجی";
@@ -1833,22 +1832,9 @@ $lang["item_categories"] = "دسته بندی های کالا یا خدمت";
 $lang["edit_items_category"] = "ویرایش دسته بندی کالا یا خدمات";
 $lang["delete_items_category"] = "حذف دسته بندی کالا یا خدمات";
 
-$lang["create_recurring_tasks_before"] = "ایجاد کار تکرار شونده قبل از";
-
-$lang["active_product"] = "فعالسازی محصول";
-$lang["create_new_order"] = "ایجاد سفارش جدید";
+$lang["create_recurring_tasks_before"] = "Create recurring tasks before";
+$lang["create_new_order"] = "Create new order";
 $lang["find_more_items"] = "یافتن کالا یا خدمات بیشتر";
-$lang["until"] = "تا";
-$lang["domain"] = "دامنه";
-$lang["order_id"] = "کد فعالسازی";
-$lang["already_activated"] = "این محصول قبلا روی دامنه %s فعال شده است";
-$lang["successfully_activated"] = "محصول با موفقیت فعال شد";
-$lang["deactive"] = "غیرفعالسازی";
-$lang["successfully_deactivated"] = "محصول با موفقیت غیرفعال شد";
-$lang["deactive_limit_reached"] = "دفعات مجاز غیرفعالسازی به اتمام رسیده است";
-$lang["customer_not_exist"] = "کاربری با این مشخصات وجود ندارد";
-$lang["check_your_fields"] = "ورودی های خود را کنترل کنید";
-$lang["unknown_error"] = "خطای نامشخصی رخ داده است";
 
 /* Version 2.8 */
 
@@ -2208,7 +2194,6 @@ $lang["staff_default_dashboard_help_message"] = "این مورد با داشبو
 /* Version 3.2 */
 
 $lang["reminder"] = "یادآور";
-$lang["there_is_no_any_reminder"] = "یادآوری وجود ندارد";
 $lang["reminders"] = "یادآورها";
 $lang["show_all_reminders"] = "نمایش همه یادآورها";
 $lang["time"] = "زمان";
