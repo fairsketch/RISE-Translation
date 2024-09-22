@@ -303,7 +303,7 @@ $lang["send"] = "Envoyer";
 $lang["to"] = "À";
 $lang["from"] = "De";
 $lang["inbox"] = "Boîte de réception";
-$lang["sent_items"] = "Éléments envoyés";
+$lang["sent_items"] = "Articles envoyés";
 $lang["me"] = "Moi";
 $lang["select_a_message"] = "Sélectionnez un message à afficher.";
 
@@ -446,8 +446,8 @@ $lang["comment"] = "Commentaire";
 $lang["comments"] = "Commentaires";
 $lang["write_a_comment"] = "Écrire un commentaire...";
 $lang["write_a_reply"] = "Écrire une réponse...";
-$lang["post_comment"] = "Poster un commentaire";
-$lang["post_reply"] = "Poster une réponse";
+$lang["post_comment"] = "Écrire un commentaire";
+$lang["post_reply"] = "Écrire une réponse";
 $lang["reply"] = "Répondre";
 $lang["replies"] = "Réponses";
 $lang["like"] = "Like";
@@ -467,23 +467,23 @@ $lang["yesterday_at"] = "Hier à";
 
 /* tickets */
 
-$lang["add_ticket"] = "Créer un ticket";
-$lang["ticket"] = "Ticket";
-$lang["tickets"] = "Tickets";
-$lang["ticket_id"] = "Numéro de ticket";
+$lang["add_ticket"] = "Créer un billet";
+$lang["ticket"] = "Billets";
+$lang["tickets"] = "Billets";
+$lang["ticket_id"] = "Numéro du billet";
 $lang["client_replied"] = "Le client a répondu";
 $lang["change_status"] = "Changer le statut";
 $lang["last_activity"] = "Dernière activité";
-$lang["open_tickets"] = "Tickets ouverts";
-$lang["ticket_status"] = "Statut des tickets";
+$lang["open_tickets"] = "Billets ouverts";
+$lang["ticket_status"] = "Statut des billets";
 
 /* ticket types */
 
-$lang["add_ticket_type"] = "Ajouter un type de ticket";
-$lang["ticket_type"] = "Type de ticket";
-$lang["ticket_types"] = "Types de ticket";
-$lang["edit_ticket_type"] = "Modifier le type de ticket";
-$lang["delete_ticket_type"] = "Supprimer type de ticket";
+$lang["add_ticket_type"] = "Ajouter un type de billet";
+$lang["ticket_type"] = "Type de billet";
+$lang["ticket_types"] = "Types de billet";
+$lang["edit_ticket_type"] = "Modifier le type de billet";
+$lang["delete_ticket_type"] = "Supprimer le type de billet";
 
 /* payment methods */
 
@@ -512,13 +512,13 @@ $lang["fully_paid"] = "Entièrement payé";
 $lang["partially_paid"] = "Partiellement payé";
 $lang["not_paid"] = "Impayé";
 $lang["overdue"] = "En retard";
-$lang["invoice_items"] = "Éléments de la facture";
+$lang["invoice_items"] = "Articles de la facture";
 $lang["edit_invoice"] = "Modifier la facture";
 $lang["delete_invoice"] = "Supprimer la facture";
-$lang["item"] = "Élément";
-$lang["add_item"] = "Ajouter un élément";
-$lang["create_new_item"] = "Créer un nouvel élément";
-$lang["select_or_create_new_item"] = "Sélectionnez dans la liste ou créer un nouvel élément...";
+$lang["item"] = "Article";
+$lang["add_item"] = "Ajouter un article";
+$lang["create_new_item"] = "Créer un nouvel article";
+$lang["select_or_create_new_item"] = "Sélectionnez dans la liste ou créer un nouvel article...";
 $lang["quantity"] = "Quantité";
 $lang["rate"] = "Coût";
 $lang["total_of_all_pages"] = "Total de toutes les pages";
@@ -563,27 +563,27 @@ $lang["use_seetings_from"] = "Utiliser les paramètres de";
 $lang["permissions"] = "Autorisations";
 $lang["yes_all_members"] = "Oui, tous les membres";
 $lang["yes_specific_members_or_teams"] = "Oui, des membres ou des équipes spécifiques";
-$lang["yes_specific_ticket_types"] = "Oui, les types de ticket spécifiques";
+$lang["yes_specific_ticket_types"] = "Oui, les types de billets spécifiques";
 $lang["select_a_role"] = "Sélectionnez un rôle";
 $lang["choose_members_and_or_teams"] = "Choisissez les membres et / ou les équipes";
-$lang["choose_ticket_types"] = "Choisissez les types de tickets";
-$lang["excluding_his_her_time_cards"] = "Hors son / ses propres feuilles de présence";
-$lang["excluding_his_her_leaves"] = "Hors son / ses propres congés";
+$lang["choose_ticket_types"] = "Choisissez les types de billets";
+$lang["excluding_his_her_time_cards"] = "Hors son/ses propres feuilles de présence";
+$lang["excluding_his_her_leaves"] = "Hors son/ses propres congés";
 $lang["can_manage_team_members_leave"] = "Peut gérer les congés de l'équipe ?";
 $lang["can_manage_team_members_timecards"] = "Peut gérer les feuilles de présence de l'équipe ?";
 $lang["can_access_invoices"] = "Peut accéder aux factures ?";
 $lang["can_access_expenses"] = "Peut accéder aux dépenses ?";
 $lang["can_access_clients_information"] = "Peut accéder aux informations client ?";
-$lang["can_access_tickets"] = "Peut accéder aux tickets ?";
+$lang["can_access_tickets"] = "Peut accéder aux billets ?";
 $lang["can_manage_announcements"] = "Peut gérer les annonces ?";
 
 /* timeline */
 $lang["post_placeholder_text"] = "Partager une idée ou des documents...";
-$lang["post"] = "Poster";
+$lang["post"] = "Mettre en ligne";
 $lang["timeline"] = "Activité";
 $lang["load_more"] = "Afficher plus d'activités";
 $lang["upload_file"] = "Mettre en ligne un fichier";
-$lang["upload"] = "Mettre en ligne";
+$lang["upload"] = "Téléverser";
 $lang["new_posts"] = "Nouveaux messages";
 
 /* taxes */
@@ -677,10 +677,10 @@ $lang["leave_approved"] = "Congé approuvé";
 $lang["leave_assigned"] = "Congé assigné";
 $lang["leave_rejected"] = "Congé refusé";
 $lang["leave_canceled"] = "Congé annulé";
-$lang["ticket_created"] = "Ticket ouvert";
-$lang["ticket_commented"] = "Ticket répondu";
-$lang["ticket_closed"] = "Ticket fermé";
-$lang["ticket_reopened"] = "Ticket réouvert";
+$lang["ticket_created"] = "Billet ouvert";
+$lang["ticket_commented"] = "Billet répondu";
+$lang["ticket_closed"] = "Billet fermé";
+$lang["ticket_reopened"] = "Billet réouvert";
 $lang["leave"] = "Congé";
 
 $lang["client_primary_contact"] = "Contact principal du client";
@@ -689,7 +689,7 @@ $lang["task_assignee"] = "Tâche assignée";
 $lang["task_collaborators"] = "Collaborateurs";
 $lang["comment_creator"] = "Auteur du commentaire";
 $lang["leave_applicant"] = "Demandeur du congé";
-$lang["ticket_creator"] = "Créateur du ticket";
+$lang["ticket_creator"] = "Créateur du billet";
 
 $lang["no_new_notifications"] = "Aucune nouvelle notification.";
 
@@ -721,10 +721,10 @@ $lang["notification_leave_approved"] = "a approuvé un congé de %s."; //Approve
 $lang["notification_leave_assigned"] = "a assigné un congé à %s."; //Assigned a leave to Mr. X
 $lang["notification_leave_rejected"] = "a rejeté un congé de %s."; //Approve a leave of Mr. X
 $lang["notification_leave_canceled"] = "a annulé une demande de congé.";
-$lang["notification_ticket_created"] = "a créé un nouveau ticket.";
-$lang["notification_ticket_commented"] = "a commenté un ticket.";
-$lang["notification_ticket_closed"] = "a fermé le ticket.";
-$lang["notification_ticket_reopened"] = "a réouvert un ticket.";
+$lang["notification_ticket_created"] = "a créé un nouveau billet.";
+$lang["notification_ticket_commented"] = "a commenté un billet.";
+$lang["notification_ticket_closed"] = "a fermé le billet.";
+$lang["notification_ticket_reopened"] = "a réouvert un billet.";
 
 $lang["general_notification"] = "Notification";
 
@@ -754,7 +754,7 @@ $lang["task_point_help_text"] = "Les points sont considérés comme la difficult
 $lang["mark_as_open"] = "Marquer comme ouvert";
 $lang["mark_as_closed"] = "Marquer comme fermé";
 
-$lang["ticket_assignee"] = "Assigné au ticket";
+$lang["ticket_assignee"] = "Assigné au billet";
 
 $lang["estimate"] = "Devis";
 $lang["estimates"] = "Devis";
@@ -889,7 +889,7 @@ $lang["gantt"] = "Gantt";
 $lang["not_specified"] = "Non spécifié";
 $lang["group_by"] = "Grouper par";
 $lang["create_invoice"] = "Créer une facture";
-$lang["include_all_items_of_this_estimate"] = "Inclure tous les éléments du devis";
+$lang["include_all_items_of_this_estimate"] = "Inclure tous les articles du devis";
 $lang["edit_payment"] = "Editer le paiement";
 $lang["disable_client_login"] = "Désactiver la connexion client";
 $lang["disable_client_signup"] = "Désactiver l'inscription client";
@@ -938,8 +938,8 @@ $lang["client_can_view_gantt"] = "Le client peut-il voir le gantt";
 $lang["client_can_view_overview"] = "Le client peut afficher l'aperçu du projet";
 $lang["client_can_view_milestones"] = "Le client peut voir les jalons";
 
-$lang["items"] = "Éléments";
-$lang["edit_item"] = "Modifier l'élément";
+$lang["items"] = "Articles";
+$lang["edit_item"] = "Modifier l'article";
 $lang["item_edit_instruction"] = "Remarque: Les modifications n'affecterons pas les factures ou estimations existantes.";
 
 $lang["recurring"] = "Récurrent";
@@ -1020,8 +1020,8 @@ $lang["re_captcha_error-invalid-input-response"] = "Le paramètre de réponse es
 $lang["re_captcha_error-bad-request"] = "La demande est invalide ou mal formée.";
 $lang["re_captcha_expired"] = "Le reCAPTCHA a expiré. Veuillez recharger la page.";
 
-$lang["yes_all_tickets"] = "Oui, tous les tickets";
-$lang["choose_ticket_types"] = "Choisissez les types de ticket";
+$lang["yes_all_tickets"] = "Oui, tous les billets";
+$lang["choose_ticket_types"] = "Choisissez les types de billet";
 
 $lang["can_manage_all_projects"] = "Peut gérer tous les projets";
 $lang["show_most_recent_ticket_comments_at_the_top"] = "Afficher les commentaires des tickets les plus récents en premier";
@@ -1092,7 +1092,7 @@ $lang["can_delete_leave_application"] = "Peut supprimer une demande de congé";
 $lang["no_of_decimals"] = "Nombre de décimales";
 
 $lang["checklist"] = "Checklist";
-$lang["delete_checklist_item"] = "Supprimer l'élément";
+$lang["delete_checklist_item"] = "Supprimer l'article";
 
 $lang["save_and_show"] = "Sauvegarder & afficher";
 $lang["total_leave_yearly"] = "Total des congés (annuel)";
@@ -1215,7 +1215,7 @@ $lang["add_to_do"] = "Ajouter dans les tâches à faire";
 $lang["hide_menus_from_topbar"] = "Masquer les menus de la topbar";
 $lang["favorite_projects"] = "Projets favoris";
 $lang["favorite_clients"] = "Clients favoris";
-$lang["dashboard_customization"] = "Customisation du tableau de bord";
+$lang["dashboard_customization"] = "Personnalisation du tableau de bord";
 $lang["quick_add"] = "Ajout rapide";
 
 $lang["assign_to_me"] = "Me l'assigner";
@@ -1265,7 +1265,7 @@ $lang["unknown_client"] = "Client inconnu";
 
 $lang["income_expenses_widget_help_message"] = "Ce rapport n'est utilisable que si vous utilisez une seule devise.";
 
-$lang["assign_myself_in_this_ticket"] = "M'assigner ce ticket";
+$lang["assign_myself_in_this_ticket"] = "M'assigner ce billet";
 
 $lang["create_new_task"] = "Créer une nouvelle tâche";
 
@@ -1314,35 +1314,35 @@ $lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "L'ID d'estimat
 $lang["send_to_client"] = "Envoyer au client";
 $lang["estimate_sent_message"] = "Le d'estimation a été envoyé!";
 $lang["send_estimate_bcc_to"] = "Lors de l'envoi de l'estimation au client, envoyez BCC à";
-        
+
 $lang["task_settings"] = "Paramètres de tâche";
 $lang["enable_recurring_option_for_tasks"] = "Activer l'option récurrente pour les tâches";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "La date de début et le type de répétition sélectionnés renvoient une date passée.";
 $lang["recurring_task_created_via_cron_job"] = "Tâche récurrente créée via Cron Job";
 $lang["notification_recurring_task_created_via_cron_job"] = "Nouvelle tâche créée";
-$lang["repeat_type"] = "Type de répé";
+$lang["repeat_type"] = "Récurrente";
 $lang["lead_status"] = "Statut du lead";
-$lang["add_lead_status"] = "Ajouter le statut de plomb";
-$lang["edit_lead_status"] = "Modifier le statut de plomb";
-$lang["delete_lead_status"] = "Supprimer le statut de plomb";
+$lang["add_lead_status"] = "Ajouter le statut de lead";
+$lang["edit_lead_status"] = "Modifier le statut de lead";
+$lang["delete_lead_status"] = "Supprimer le statut de lead";
 $lang["owner"] = "Propriétaire";
 $lang["make_client"] = "Faire client";
 $lang["client_contacts"] = "Contacts clients";
 $lang["lead_contacts"] = "Contacts de plomb";
 $lang["add_a_lead"] = "Ajouter une plomb";
 $lang["source"] = "La source";
-$lang["lead_source"] = "Source plomb";
-$lang["add_lead_source"] = "Ajouter une source de plomb";
-$lang["edit_lead_source"] = "Modifier la source du plomb";
-$lang["delete_lead_source"] = "Supprimer la source de plomb";
+$lang["lead_source"] = "Source lead";
+$lang["add_lead_source"] = "Ajouter une source de lead";
+$lang["edit_lead_source"] = "Modifier la source du lead";
+$lang["delete_lead_source"] = "Supprimer la source de lead";
 $lang["custom_field_migration"] = "Migration de champs personnalisés";
 $lang["merge_custom_fields"] = "Fusionner les champs personnalisés";
 $lang["do_not_merge"] = "Ne pas fusionner";
 $lang["merge_custom_fields_help_message"] = "S'il existe des champs personnalisés similaires pour %s, ces valeurs seront ajoutées à ceux-ci. Sinon, cela créera de nouveaux champs personnalisés pour %s et ajoutera des valeurs à ceux-ci.";
 $lang["lead_created"] = "Lead créé";
-$lang["notification_lead_created"] = "Créé une nouvelle plomb.";
-$lang["client_created_from_lead"] = "Client créé à partir d'un plomb";
-$lang["notification_client_created_from_lead"] = "Conversion d'un plomb en client.";
+$lang["notification_lead_created"] = "Créé une nouvelle lead.";
+$lang["client_created_from_lead"] = "Client créé à partir d'un lead";
+$lang["notification_client_created_from_lead"] = "Conversion d'un lead en client.";
 $lang["project_deadline"] = "Date limite du projet";
 $lang["task_deadline"] = "Date limite de la tâche";
 $lang["event_type"] = "Type d'événement";
@@ -1350,9 +1350,9 @@ $lang["delete_estimate_form"] = "Supprimer le formulaire d'estimation";
 $lang["calendar_event_modified"] = "Événement de calendrier modifié";
 $lang["notification_calendar_event_modified"] = "Modification d'un événement.";
 
-$lang["there_has_leads_with_this_status"] = "Il y a des plomb avec ce statut";
+$lang["there_has_leads_with_this_status"] = "Il y a des leads avec ce statut";
 $lang["lead_created_at"] = "Lead créé à";
-$lang["past_lead_information"] = "Information sur le plomb passé";
+$lang["past_lead_information"] = "Information sur le lead passé";
 $lang["last_status"] = "Dernier statut";
 $lang["migrated_to_client_at"] = "Migré vers le client à";
 $lang["edit_estimate_form"] = "Modifier le formulaire d'estimation";
@@ -1370,7 +1370,7 @@ $lang["contact_last_name"] = "Contacter le nom de famille";
 $lang["contact_email"] = "Email du contact";
 
 $lang["clone_invoice"] = "Cloner la facture";
-$lang["copy_items"] = "Copier des éléments";
+$lang["copy_items"] = "Copier des articles";
 $lang["copy_discount"] = "Copier réduction";
 
 $lang["clone_task"] = "tâche clone";
@@ -1389,14 +1389,14 @@ $lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "Le numéro de fa
 $lang["client_dashboard_help_message"] = "Ce sera le tableau de bord par défaut pour tous les clients. Veuillez noter que les informations que vous voyez ici dans les widgets ne sont pas des informations réelles des clients.";
 
 $lang["send_to_lead"] = "Envoyer pour diriger";
-$lang["lead"] = "Plomb";
+$lang["lead"] = "Lead";
 $lang["leads"] = "Leads";
-$lang["add_lead"] = "Ajouter plomb";
-$lang["edit_lead"] = "Modifier le plomb";
-$lang["delete_lead"] = "Supprimer le plomb";
-$lang["lead_details"] = "Détails du plomb";
-$lang["can_access_leads_information"] = "Peut accéder aux informations de plomb?";
-$lang["lead_info"] = "Informations sur le plomb";
+$lang["add_lead"] = "Ajouter un lead";
+$lang["edit_lead"] = "Modifier le lead";
+$lang["delete_lead"] = "Supprimer le lead";
+$lang["lead_details"] = "Détails du lead";
+$lang["can_access_leads_information"] = "Peut accéder aux informations du lead?";
+$lang["lead_info"] = "Informations sur le lead";
 
 $lang["send_task_reminder_on_the_day_of_deadline"] = "Envoyer un rappel de tâche le jour de la date limite";
 $lang["send_task_deadline_pre_reminder"] = "Envoyer un rappel de la date limite de la tâche";
@@ -1499,8 +1499,8 @@ $lang["create_tickets_only_by_registered_emails"] = "Créer des billets uniqueme
 $lang["icon"] = "Icône";
 $lang["help_articles"] = "Articles d'aide";
 $lang["help_categories"] = "Catégories d'aide";
-$lang["knowledge_base_articles"] = "articles de KB";
-$lang["knowledge_base_categories"] = "Catégories de KB";
+$lang["knowledge_base_articles"] = "Articles de base";
+$lang["knowledge_base_categories"] = "Catégories de base";
 
 $lang["rtl"] = "RTL";
 
@@ -1508,12 +1508,12 @@ $lang["disable_editing_by_clients"] = "Désactiver l'édition par les clients";
 
 $lang["client_left_menu"] = "Menu de gauche";
 $lang["left_menu_for_client"] = "Menu de gauche pour le client";
-$lang["left_menu_setting_help_message_for_client"] = "Ce sera le menu de gauche par défaut pour les clients. Veuillez noter que les éléments de menu seront distribués selon les autorisations du contact client.";
-$lang["available_menu_items"] = "Éléments de menu disponibles";
-$lang["drag_and_drop_items_here"] = "Faites glisser et déposez des éléments ici";
+$lang["left_menu_setting_help_message_for_client"] = "Ce sera le menu de gauche par défaut pour les clients. Veuillez noter que les articles du menu seront distribués selon les autorisations du contact client.";
+$lang["available_menu_items"] = "Article disponibles";
+$lang["drag_and_drop_items_here"] = "Faites glisser et déposez des articles ici";
 $lang["no_more_items_available"] = "Pas plus d'articles disponibles";
 $lang["left_menu_preview_message"] = "Appuyez sur le bouton Enregistrer pour voir un aperçu.";
-$lang["left_menu_setting_help_message"] = "Ce sera le menu de gauche par défaut pour les membres de l'équipe. Veuillez noter que les éléments de menu seront distribués selon l'autorisation de l'utilisateur.";
+$lang["left_menu_setting_help_message"] = "Ce sera le menu de gauche par défaut pour les membres de l'équipe. Veuillez noter que les articles de base du menu seront distribués selon l'autorisation de l'utilisateur.";
 
 $lang["draft_invoices"] = "Projet de factures";
 $lang["draft_invoices_total"] = "Total des brouillons de factures";
@@ -1526,7 +1526,7 @@ $lang["removal_request_pending"] = "Demande de suppression en attente";
 $lang["client_access_files_help_message"] = "Les fichiers qui se trouvent dans la vue des détails du client dans l'onglet Fichiers.";
 $lang["estimate_request_name_email_error_message"] = "L'e-mail ne peut pas être affiché sans le prénom et le nom.";
 
-$lang["slug"] = "Limace";
+$lang["slug"] = "Permalien";
 $lang["add_assignee"] = "Ajouter un cessionnaire";
 
 $lang["client_can_pay_invoice_without_login"] = "Le client peut payer ses factures sans connexion";
@@ -1552,8 +1552,8 @@ $lang["add_attachment"] = "Ajouter une pièce jointe";
 
 $lang["hidden_topbar_menus"] = "Menus de la barre supérieure masqués";
 
-$lang["make_previous_items_sub_menu"] = "Créer/supprimer un sous-menu de l'élément précédent";
-$lang["add_menu_item"] = "Ajouter un élément de menu";
+$lang["make_previous_items_sub_menu"] = "Créer/supprimer un sous-menu de l'article précédent";
+$lang["add_menu_item"] = "Ajouter un article au menu";
 $lang["url"] = "URL";
 
 $lang["show_theme_color_changer"] = "Afficher le changeur de couleur du thème";
@@ -1587,7 +1587,7 @@ $lang["set_message_permissions"] = "Définir les autorisations de message";
 $lang["cant_send_any_messages"] = "Impossible d'envoyer des messages";
 $lang["can_send_messages_to_specific_members_or_teams"] = "Peut envoyer des messages à des membres ou à des équipes spécifiques:";
 
-$lang["embed"] = "Embed";
+$lang["embed"] = "Intégré";
 $lang["copy"] = "Copie";
 
 $lang["estimate_prefix"] = "Estimer le préfixe";
@@ -1606,7 +1606,7 @@ $lang["project_tab_order_help_message_of_client"] = "Veuillez noter que ces ongl
 $lang["client_projects"] = "Projets";
 
 $lang["ticket_assigned"] = "Billet attribué";
-$lang["notification_ticket_assigned"] = "Attribué un ticket à %s";
+$lang["notification_ticket_assigned"] = "Attribué un billet à %s";
 
 $lang["disable_access_favorite_project_option_for_clients"] = "Désactiver l'option d'accès au projet favori pour les clients";
 $lang["disable_editing_left_menu_by_clients"] = "Désactiver l'édition du menu de gauche par les clients";
@@ -1716,32 +1716,32 @@ $lang["paytm_checksum_hash_error_message"] = "Impossible de générer le hachage
 
 $lang["testing_environment"] = "Environnement de test";
 
-$lang["auto_reply_to_tickets"] = "Réponse automatique aux tickets";
+$lang["auto_reply_to_tickets"] = "Réponse automatique aux billets";
 
 $lang["total_time_logged"] = "Temps total enregistré";
 $lang["total_duration"] = "Durée totale";
 
 $lang["please_upload_valid_image_files"] = "Veuillez télécharger des fichiers image valides.";
-$lang["upload_image"] = "Upload Image";
+$lang["upload_image"] = "Télécharger une image";
 $lang["item_details"] = "Détails de l'article";
 $lang["item_image_sorting_help_message"] = "La première image sera l'image par défaut.";
 $lang["show_in_client_portal"] = "Afficher dans le portail client";
 $lang["showing_in_client_portal"] = "Affichage dans le portail client";
-$lang["add_to_cart"] = "Ajouter au chariot";
+$lang["add_to_cart"] = "Ajouter au panier";
 $lang["item_empty_message"] = "Aucun élément trouvé!";
 
-$lang["order"] = "Ordre";
-$lang["orders"] = "Ordres";
+$lang["order"] = "Commande";
+$lang["orders"] = "Commandes";
 $lang["no_items_text"] = "Vous n'avez aucun article dans votre panier!";
-$lang["process_order"] = "Ordre de processus";
-$lang["place_order"] = "Commande de place";
-$lang["edit_item"] = "Modifier l'élément";
+$lang["process_order"] = "Processus de commande";
+$lang["place_order"] = "Placer une commande";
+$lang["edit_item"] = "Modifier l'article";
 $lang["store"] = "Boutique";
 $lang["client_can_access_store"] = "Le client peut accéder au magasin?";
 $lang["added_to_cart"] = "Ajouté au panier";
-$lang["can_access_orders"] = "Peut accéder aux ordre?";
+$lang["can_access_orders"] = "Peut accéder aux commandes?";
 
-$lang["order_settings"] = "Paramètres de Ordre";
+$lang["order_settings"] = "Paramètres des commandes";
 $lang["order_logo"] = "Commander le logo";
 $lang["order_prefix"] = "Préfixe de commande";
 $lang["order_color"] = "Commander la couleur";
@@ -1750,15 +1750,15 @@ $lang["the_orders_id_must_be_larger_then_last_order_id"] = "Le numéro de comman
 $lang["order_footer"] = "Pied de page de la commande";
 
 $lang["order_status"] = "Statut de la commande";
-$lang["edit_order_status"] = "Modifier l'état de la commande";
+$lang["edit_order_status"] = "Ajouter un statut à la commande";
 $lang["add_order_status"] = "Ajouter le statut de l'ordre";
-$lang["delete_order_status"] = "Supprimer l'état de la ordre";
-$lang["there_has_orders_with_this_status"] = "Il y a des ordre avec ce statut";
-$lang["orders_list"] = "Liste des ordres";
+$lang["delete_order_status"] = "Supprimer le statut de la commande";
+$lang["there_has_orders_with_this_status"] = "Il y a des commandes avec ce statut";
+$lang["orders_list"] = "Liste des commandes";
 $lang["sales"] = "Ventes";
 $lang["order_date"] = "Date de commande";
 $lang["edit_order"] = "Modifier la commande";
-$lang["delete_order"] = "Supprimer la ordre";
+$lang["delete_order"] = "Supprimer la commande";
 $lang["show_in_order"] = "Afficher dans l'ordre";
 $lang["order_preview"] = "Aperçu de la commande";
 $lang["order_from"] = "Ordre à partir de";
@@ -1824,17 +1824,17 @@ $lang["open_in_google_calendar"] = "Ouvrir dans le calendrier Google";
 $lang["enable_embedded_form_to_get_tickets"] = "Activez le formulaire embedded pour obtenir des billets";
 $lang["submit_your_request"] = "Soumettez votre demande";
 $lang["submit"] = "Soumettre";
-$lang["ticket_submission_message"] = "Votre ticket a été soumis avec succès!";
+$lang["ticket_submission_message"] = "Votre billet a été soumis avec succès!";
 $lang["your_email"] = "Votre email";
 $lang["your_name"] = "Votre nom";
 
 $lang["item_categories"] = "Catégories d'articles";
-$lang["edit_items_category"] = "Modifier la catégorie d'éléments";
+$lang["edit_items_category"] = "Modifier la catégorie d'articles";
 $lang["delete_items_category"] = "Supprimer la catégorie d'articles";
 
 $lang["create_recurring_tasks_before"] = "Créez des tâches récurrentes avant";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_new_order"] = "Créer une nouvelle commande";
+$lang["find_more_items"] = "Trouver d'autres articles";
 
 /* Version 2.8 */
 
@@ -2452,7 +2452,7 @@ $lang["main_invoice"] = "Facture principale";
 $lang["credit_note_id"] = "Identifiant de la note de crédit";
 $lang["send_credit_note"] = "Envoyer une note de crédit";
 
-$lang["taxable"] = "Impossible";
+$lang["taxable"] = "Imposable";
 
 $lang["can_manage_team_members_notes"] = "Peut gérer les notes des membres de l'équipe ?";
 $lang["team_members_can_not_see_own_notes"] = "Les membres de l'équipe ne peuvent pas voir leurs propres notes.";
@@ -2664,5 +2664,100 @@ $lang["permission_is_required"] = "Une autorisation est requise.";
 $lang["make_primary_contact_help_message"] = "Le contact principal existant aura toujours un accès complet. Vous pouvez modifier l'autorisation à tout moment.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Le contact principal peut gerer l'autorisation des autres contacts.";
 
-return $lang;
+/* Version 3.7 */
 
+$lang["dynamic"] = "Dynamique";
+$lang["select_range"] = "Sélectionner la plage";
+
+$lang["proposal_preview_opened"] = "Aperçu de la proposition ouvert";
+$lang["notification_proposal_preview_opened"] = "Aperçu de la proposition ouvert.";
+$lang["proposal_email_opened"] = "E-mail de proposition ouvert";
+$lang["notification_proposal_email_opened"] = "A ouvert un e-mail de proposition.";
+
+$lang["create_contract"] = "Créer un contrat";
+
+$lang["create_as_a_non_subtask"] = "Créer en tant que non-sous-tâche";
+$lang["install_this_app"] = "Installer cette application.";
+$lang["app_color"] = "Couleur de l'application";
+
+$lang["skip"] = "Sauter";
+
+$lang["self_improvements"] = "Auto-améliorations";
+$lang["business_growth"] = "Croissance de l'entreprise";
+$lang["sales_management"] = "Gestion des ventes";
+$lang["customer_support"] = "Support client";
+$lang["team_management"] = "Gestion d'équipe";
+$lang["collaboration"] = "Collaboration";
+
+$lang["send_first_reminder_before"] = "Envoyer le 1er rappel avant";
+$lang["send_second_reminder_before"] = "Envoyer le 2e rappel avant";
+$lang["subscription_renewal_reminder"] = "Rappel de renouvellement d'abonnement";
+$lang["notification_subscription_renewal_reminder"] = "Rappel de renouvellement d'abonnement";
+
+$lang["enable_tinymce"] = "Activer TinyMCE";
+$lang["tinymce_api_key"] = "Clé API TinyMCE";
+
+$lang["protocol"] = "Protocole";
+$lang["re_captcha_suspicious_activity"] = "Le reCAPTCHA a détecté une activité suspecte.";
+
+$lang["all_contacts_of_the_client"] = "Tous les contacts du client";
+$lang["specific_contacts_of_the_client"] = "Contacts spécifiques du client";
+
+$lang["please_do_not_use_duplicate_variables"] = "Veuillez ne pas utiliser de variables en double.";
+$lang["please_do_not_use_invalid_special_character"] = "Veuillez ne pas utiliser de caractère spécial non valide.";
+$lang["please_use_any_serial"] = "Veuillez utiliser n'importe quel numéro de série.";
+
+$lang["add_automation"] = "Ajouter une automatisation";
+$lang["edit_automation"] = "Modifier l'automatisation";
+
+$lang["automations"] = "Automatisations";
+
+$lang["match_any"] = "Correspond à n'importe quel numéro";
+$lang["match_all"] = "Correspond à tous";
+$lang["email_address"] = "Adresse e-mail";
+$lang["email_subject"] = "Objet de l'e-mail";
+$lang["email_content"] = "Contenu de l'e-mail";
+
+$lang["imap_email_received"] = "E-mail IMAP reçu";
+$lang["new_ticket_created_by_imap_email"] = "Nouveau ticket créé par e-mail IMAP";
+
+$lang["conditions"] = "Conditions";
+$lang["block_ticket_creation"] = "Bloquer la création de ticket";
+$lang["if"] = "Si";
+
+$lang["small_letter_field"] = "champ ______";
+$lang["small_letter_condition_is_equal"] = "est égal à";
+$lang["small_letter_condition_is_not_equal"] = "n'est pas égal à";
+$lang["small_letter_condition_is_in_list"] = "est dans la liste";
+$lang["small_letter_condition_is_not_in_list"] = "n'est pas dans la liste";
+
+$lang["small_letter_condition_is_contains"] = "contient";
+$lang["small_letter_condition_is_not_contains"] = "ne contient pas";
+$lang["small_letter_condition_is_contains_in_list"] = "est contenu dans la liste";
+$lang["small_letter_condition_is_not_contains_in_list"] = "n'est pas contenu dans la liste";
+$lang["small_letter_something"] = "quelque chose";
+$lang["small_letter_is_something"] = "est quelque chose";
+$lang["small_letter_and"] = "et";
+$lang["small_letter_or"] = "ou";
+
+$lang["select_placeholder"] = "Sélectionnez...";
+$lang["select_placeholder_type_and_press_enter"] = "Tapez et appuyez sur Entrée";
+
+$lang["do_something"] = "Faire quelque chose...";
+$lang["do_not_create_ticket"] = "Ne pas créer de ticket";
+$lang["set_field_"] = "Définir";
+$lang["please_input_all_required_fields"] = "Veuillez saisir tous les champs obligatoires.";
+$lang["grid"] = "Grille";
+
+$lang["disable_pdf_for_clients"] = "Désactiver le PDF pour les clients";
+
+$lang["select_specific"] = "Sélectionner un élément spécifique";
+$lang["clear_selection"] = "Effacer la sélection";
+$lang["download_selected_items"] = "Télécharger les éléments sélectionnés";
+$lang["delete_selected_items"] = "Supprimer les éléments sélectionnés";
+$lang["year_or_month_based_on"] = "Année/mois basé sur";
+
+$lang["none"] = "Aucun";
+$lang["trigger_manually"] = "Déclencher manuellement";
+
+return $lang;

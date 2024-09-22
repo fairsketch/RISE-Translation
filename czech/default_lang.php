@@ -2664,4 +2664,100 @@ $lang["permission_is_required"] = "Je vyžadováno povolení.";
 $lang["make_primary_contact_help_message"] = "Stávající primární kontakt bude mít stále plný přístup. Oprávnění můžete kdykoli změnit.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primární kontakt může spravovat oprávnění ostatních kontaktů";
 
+/* Version 3.7 */
+
+$lang["dynamic"] = "Dynamický";
+$lang["select_range"] = "Vyberte rozsah";
+
+$lang["proposal_preview_opened"] = "Náhled návrhu byl otevřen";
+$lang["notification_proposal_preview_opened"] = "Otevřen náhled návrhu.";
+$lang["proposal_email_opened"] = "E-mail s nabídkou byl otevřen";
+$lang["notification_proposal_email_opened"] = "Otevřen e-mail s nabídkou.";
+
+$lang["create_contract"] = "Vytvořit smlouvu";
+
+$lang["create_as_a_non_subtask"] = "Vytvořit jako dílčí úkol";
+$lang["install_this_app"] = "Nainstalovat tuto aplikaci.";
+$lang["app_color"] = "Barva aplikace";
+
+$lang["skip"] = "Přeskočit";
+
+$lang["self_improvements"] = "Sebe zlepšení";
+$lang["business_growth"] = "Obchodní růst";
+$lang["sales_management"] = "Řízení prodeje";
+$lang["customer_support"] = "Zákaznická podpora";
+$lang["team_management"] = "Vedení týmu";
+$lang["collaboration"] = "Spolupráce";
+
+$lang["send_first_reminder_before"] = "Poslat první připomenutí dříve";
+$lang["send_second_reminder_before"] = "Poslat 2. připomenutí dříve";
+$lang["subscription_renewal_reminder"] = "Připomenutí obnovení předplatného";
+$lang["notification_subscription_renewal_reminder"] = "Připomenutí obnovení předplatného";
+
+$lang["enable_tinymce"] = "Povolit TinyMCE";
+$lang["tinymce_api_key"] = "TinyMCE API klíč";
+
+$lang["protocol"] = "Protokol";
+$lang["re_captcha_suspicious_activity"] = "ReCAPTCHA detekovala podezřelou aktivitu.";
+
+$lang["all_contacts_of_the_client"] = "Všechny kontakty klienta";
+$lang["specific_contacts_of_the_client"] = "Konkrétní kontakty klienta";
+
+$lang["please_do_not_use_duplicate_variables"] = "Nepoužívejte duplicitní proměnné.";
+$lang["please_do_not_use_invalid_special_character"] = "Nepoužívejte prosím neplatný speciální znak.";
+$lang["please_use_any_serial"] = "Použijte prosím jakýkoli seriál.";
+
+$lang["add_automation"] = "Přidat automatizaci";
+$lang["edit_automation"] = "Upravit automatizaci";
+
+$lang["automations"] = "Automatizace";
+
+$lang["match_any"] = "Odpovídají libovolné";
+$lang["match_all"] = "Shodovat vše";
+$lang["email_address"] = "E-mailová adresa";
+$lang["email_subject"] = "Předmět e-mailu";
+$lang["email_content"] = "Obsah e-mailu";
+
+$lang["imap_email_received"] = "Přijat e-mail IMAP";
+$lang["new_ticket_created_by_imap_email"] = "Nový tiket vytvořen e-mailem IMAP";
+
+$lang["conditions"] = "Podmínky";
+$lang["block_ticket_creation"] = "Zablokovat vytvoření lístku";
+$lang["if"] = "Pokud";
+
+$lang["small_letter_field"] = "______ pole";
+$lang["small_letter_condition_is_equal"] = "je rovno";
+$lang["small_letter_condition_is_not_equal"] = "není rovno";
+$lang["small_letter_condition_is_in_list"] = "je v seznamu";
+$lang["small_letter_condition_is_not_in_list"] = "není v seznamu";
+
+$lang["small_letter_condition_is_contains"] = "je obsahuje";
+$lang["small_letter_condition_is_not_contains"] = "neobsahuje";
+$lang["small_letter_condition_is_contains_in_list"] = "je obsažen v seznamu";
+$lang["small_letter_condition_is_not_contains_in_list"] = "není obsažen v seznamu";
+$lang["small_letter_something"] = "něco";
+$lang["small_letter_is_something"] = "je něco";
+$lang["small_letter_and"] = "a";
+$lang["small_letter_or"] = "nebo";
+
+$lang["select_placeholder"] = "Vybrat...";
+$lang["select_placeholder_type_and_press_enter"] = "Zadejte a stiskněte Enter";
+
+$lang["do_something"] = "Udělejte něco...";
+$lang["do_not_create_ticket"] = "Nevytvářet tiket";
+$lang["set_field_"] = "Nastavit";
+$lang["please_input_all_required_fields"] = "Zadejte prosím všechna povinná pole.";
+$lang["grid"] = "Mřížka";
+
+$lang["disable_pdf_for_clients"] = "Zakázat PDF pro klienty";
+
+$lang["select_specific"] = "Vybrat konkrétní";
+$lang["clear_selection"] = "Vymazat výběr";
+$lang["download_selected_items"] = "Stáhnout vybrané položky";
+$lang["delete_selected_items"] = "Smazat vybrané položky";
+$lang["year_or_month_based_on"] = "Rok/měsíc podle";
+
+$lang["none"] = "Žádné";
+$lang["trigger_manually"] = "Spustit ručně";
+
 return $lang;

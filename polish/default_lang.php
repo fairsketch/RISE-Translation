@@ -1314,7 +1314,7 @@ $lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "Identyfikator 
 $lang["send_to_client"] = "Wyślij do klienta";
 $lang["estimate_sent_message"] = "Estimate został wysłany!";
 $lang["send_estimate_bcc_to"] = "Wysyłając kosztorys do klienta, wyślij BCC na adres";
-        
+
 $lang["task_settings"] = "Ustawienia zadań";
 $lang["enable_recurring_option_for_tasks"] = "Włącz opcję cykliczną dla zadań";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "Wybrana data rozpoczęcia i typ powtarzania zwracają datę przeszłą.";
@@ -1833,8 +1833,8 @@ $lang["edit_items_category"] = "Edytuj kategorię przedmiotów";
 $lang["delete_items_category"] = "Usuń kategorię przedmiotów";
 
 $lang["create_recurring_tasks_before"] = "Tworzenie zadań cyklicznych przed";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_new_order"] = "Opprett ny ordre";
+$lang["find_more_items"] = "Finn flere elementer";
 
 /* Version 2.8 */
 
@@ -2663,5 +2663,101 @@ $lang["primary_contact_will_get_full_permission_message"] = "Uwaga: główny kon
 $lang["permission_is_required"] = "Wymagane jest pozwolenie.";
 $lang["make_primary_contact_help_message"] = "Istniejący główny kontakt nadal będzie miał pełny dostęp. Możesz zmienić uprawnienia w dowolnym momencie.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Główny kontakt może zarządzać uprawnieniami innych kontaktów.";
+
+/* Version 3.7 */
+
+$lang["dynamic"] = "Dynamiczny";
+$lang["select_range"] = "Wybierz zakres";
+
+$lang["proposal_preview_opened"] = "Podgląd propozycji został otwarty";
+$lang["notification_proposal_preview_opened"] = "Otwarto podgląd propozycji.";
+$lang["proposal_email_opened"] = "Otwarto wiadomość e-mail z propozycją";
+$lang["notification_proposal_email_opened"] = "Otwarto wiadomość e-mail z propozycją.";
+
+$lang["create_contract"] = "Utwórz kontrakt";
+
+$lang["create_as_a_non_subtask"] = "Utwórz jako zadanie niebędące podzadaniem";
+$lang["install_this_app"] = "Zainstaluj tę aplikację.";
+$lang["app_color"] = "Kolor aplikacji";
+
+$lang["skip"] = "Pomiń";
+
+$lang["self_improvements"] = "Samodoskonalenie";
+$lang["business_growth"] = "Wzrost biznesu";
+$lang["sales_management"] = "Zarządzanie sprzedażą";
+$lang["customer_support"] = "Obsługa klienta";
+$lang["team_management"] = "Zarządzanie zespołem";
+$lang["collaboration"] = "Współpraca";
+
+$lang["send_first_reminder_before"] = "Wyślij pierwsze przypomnienie przed";
+$lang["send_second_reminder_before"] = "Wyślij drugie przypomnienie przed";
+$lang["subscription_renewal_reminder"] = "Przypomnienie o odnowieniu subskrypcji";
+$lang["notification_subscription_renewal_reminder"] = "Przypomnienie o odnowieniu subskrypcji";
+
+$lang["enable_tinymce"] = "Włącz TinyMCE";
+$lang["tinymce_api_key"] = "Klucz API TinyMCE";
+
+$lang["protocol"] = "Protokół";
+$lang["re_captcha_suspicious_activity"] = "ReCAPTCHA wykryła podejrzaną aktywność.";
+
+$lang["all_contacts_of_the_client"] = "Wszystkie kontakty klienta";
+$lang["specific_contacts_of_the_client"] = "Konkretne kontakty klienta";
+
+$lang["please_do_not_use_duplicate_variables"] = "Nie używaj zduplikowanych zmiennych.";
+$lang["please_do_not_use_invalid_special_character"] = "Nie używaj nieprawidłowych znaków specjalnych.";
+$lang["please_use_any_serial"] = "Użyj dowolnego numeru seryjnego.";
+
+$lang["add_automation"] = "Dodaj automatyzację";
+$lang["edit_automation"] = "Edytuj automatyzację";
+
+$lang["automations"] = "Automaty";
+
+$lang["match_any"] = "Dopasuj dowolne";
+$lang["match_all"] = "Dopasuj wszystkie";
+$lang["email_address"] = "Adres e-mail";
+$lang["email_subject"] = "Temat e-maila";
+$lang["email_content"] = "Treść e-maila";
+
+$lang["imap_email_received"] = "Otrzymano e-mail IMAP";
+$lang["new_ticket_created_by_imap_email"] = "Nowy bilet utworzony za pomocą e-maila IMAP";
+
+$lang["conditions"] = "Warunki";
+$lang["block_ticket_creation"] = "Zablokuj tworzenie biletu";
+$lang["if"] = "Jeśli";
+
+$lang["small_letter_field"] = "pole ______";
+$lang["small_letter_condition_is_equal"] = "jest równe";
+$lang["small_letter_condition_is_not_equal"] = "nie jest równe";
+$lang["small_letter_condition_is_in_list"] = "jest na liście";
+$lang["small_letter_condition_is_not_in_list"] = "nie jest na liście";
+
+$lang["small_letter_condition_is_contains"] = "zawiera";
+$lang["small_letter_condition_is_not_contains"] = "nie zawiera";
+$lang["small_letter_condition_is_contains_in_list"] = "zawiera na liście";
+$lang["small_letter_condition_is_not_contains_in_list"] = "nie zawiera się na liście";
+$lang["small_letter_something"] = "coś";
+$lang["small_letter_is_something"] = "jest czymś";
+$lang["small_letter_and"] = "i";
+$lang["small_letter_or"] = "lub";
+
+$lang["select_placeholder"] = "Wybierz...";
+$lang["select_placeholder_type_and_press_enter"] = "Wpisz i naciśnij Enter";
+
+$lang["do_something"] = "Zrób coś...";
+$lang["do_not_create_ticket"] = "Nie twórz biletu";
+$lang["set_field_"] = "Ustaw";
+$lang["please_input_all_required_fields"] = "Wypełnij wszystkie wymagane pola.";
+$lang["grid"] = "Siatka";
+
+$lang["disable_pdf_for_clients"] = "Wyłącz PDF dla klientów";
+
+$lang["select_specific"] = "Wybierz konkretny";
+$lang["clear_selection"] = "Wyczyść wybór";
+$lang["download_selected_items"] = "Pobierz wybrane elementy";
+$lang["delete_selected_items"] = "Usuń wybrane elementy";
+$lang["year_or_month_based_on"] = "Rok/miesiąc na podstawie";
+
+$lang["none"] = "Brak";
+$lang["trigger_manually"] = "Wyzwalaj ręcznie";	
 
 return $lang;

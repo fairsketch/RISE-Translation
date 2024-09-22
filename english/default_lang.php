@@ -1309,7 +1309,7 @@ $lang["estimate_settings"] = "Estimate Settings";
 $lang["estimate_logo"] = "Estimate Logo";
 $lang["estimate_color"] = "Estimate Color";
 $lang["initial_number_of_the_estimate"] = "Initial number of the estimate";
-$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger then last estimate ID.";
+$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger than the last estimate ID.";
 
 $lang["send_to_client"] = "Send to client";
 $lang["estimate_sent_message"] = "The estimate has been sent!";
@@ -1384,7 +1384,7 @@ $lang["example_variable_name"] = "Example_variable_name";
 $lang["imap_extension_error_help_message"] = "You don't have IMAP extension in your server. Please install the extension for this action.";
 
 $lang["initial_number_of_the_invoice"] = "Initial number of the invoice";
-$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger then last invoice ID.";
+$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger than the last invoice ID.";
 
 $lang["client_dashboard_help_message"] = "This will be the default dashboard for all clients. Please note that, the information you're seeing here in the widgets, isn't any actual infromation of clients.";
 
@@ -1746,7 +1746,7 @@ $lang["order_logo"] = "Order logo";
 $lang["order_prefix"] = "Order prefix";
 $lang["order_color"] = "Order color";
 $lang["initial_number_of_the_order"] = "Initial number of the order";
-$lang["the_orders_id_must_be_larger_then_last_order_id"] = "The orders ID must be larger then last order ID.";
+$lang["the_orders_id_must_be_larger_then_last_order_id"] = "The orders ID must be larger than the last order ID.";
 $lang["order_footer"] = "Order footer";
 
 $lang["order_status"] = "Order status";
@@ -1864,7 +1864,7 @@ $lang["proposal_prefix"] = "Proposal prefix";
 $lang["proposal_color"] = "Proposal color";
 $lang["send_proposal_bcc_to"] = "When sending proposal to client, send BCC to";
 $lang["initial_number_of_the_proposal"] = "Initial number of the proposal";
-$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger then last proposal ID.";
+$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger than the last proposal ID.";
 $lang["proposal_sent"] = "Proposal sent";
 $lang["notification_proposal_sent"] = "Sent a proposal";
 $lang["proposal_accepted"] = "Proposal accepted";
@@ -1898,7 +1898,7 @@ $lang["activate"] = "Activate";
 $lang["activated"] = "Activated";
 $lang["deactivate"] = "Deactivate";
 $lang["deactivated"] = "Deactivated";
-$lang["the_required_files_missing"] = "The required files missing.";
+$lang["the_required_files_missing"] = "The required files are missing.";
 $lang["this_plugin_is_already_installed"] = "This plugin is already installed.";
 $lang["version"] = "Version";
 $lang["by"] = "By";
@@ -2052,7 +2052,7 @@ $lang["contract_settings"] = "Contract settings";
 $lang["contract_color"] = "Contract color";
 $lang["send_contract_bcc_to"] = "When sending contract to client, send BCC to";
 $lang["initial_number_of_the_contract"] = "Initial number of the contract";
-$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "The contracts ID must be larger then last contract ID.";
+$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "The contracts ID must be larger than the last contract ID.";
 $lang["contract_sent"] = "Contract sent";
 $lang["notification_contract_sent"] = "Sent a contract";
 $lang["contract_accepted"] = "Contract accepted";
@@ -2652,7 +2652,7 @@ $lang["enable_comments_on_proposals"] = "Enable comments on proposals";
 $lang["show_most_recent_proposal_comments_at_the_top"] = "Show most recent proposal comments at the top";
 $lang["proposal_commented"] = "Proposal commented";
 $lang["proposal_creator"] = "Proposal creator";
-$lang["notification_proposal_commented"] = "Commented on an proposal.";
+$lang["notification_proposal_commented"] = "Commented on a proposal.";
 
 $lang["can_upload_and_edit_files"] = "Can upload and edit files";
 $lang["can_comment_on_projects"] = "Can comment on projects";
@@ -2664,5 +2664,105 @@ $lang["permission_is_required"] = "Permission is required.";
 $lang["make_primary_contact_help_message"] = "The existing primary contact will still have full access. You can change the permission anytime.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primary contact can manage the permission of other contacts.";
 
-return $lang;
+/* Version 3.7 */
 
+$lang["dynamic"] = "Dynamic";
+$lang["select_range"] = "Select range";
+
+$lang["proposal_preview_opened"] = "Proposal preview opened";
+$lang["notification_proposal_preview_opened"] = "Opened a proposal preview.";
+$lang["proposal_email_opened"] = "Proposal email opened";
+$lang["notification_proposal_email_opened"] = "Opened a proposal email.";
+
+$lang["create_contract"] = "Create Contract";
+
+$lang["create_as_a_non_subtask"] = "Create as a non-subtask";
+$lang["install_this_app"] = "Install this app.";
+$lang["app_color"] = "App color";
+
+$lang["skip"] = "Skip";
+
+$lang["self_improvements"] = "Self Improvements";
+$lang["business_growth"] = "Business Growth";
+$lang["sales_management"] = "Sales Management";
+$lang["customer_support"] = "Customer Support";
+$lang["team_management"] = "Team Management";
+$lang["collaboration"] = "Collaboration";
+
+$lang["send_first_reminder_before"] = "Send 1st reminder before";
+$lang["send_second_reminder_before"] = "Send 2nd reminder before";
+$lang["subscription_renewal_reminder"] = "Subscription renewal reminder";
+$lang["notification_subscription_renewal_reminder"] = "Subscription renewal reminder";
+
+$lang["enable_tinymce"] = "Enable TinyMCE";
+$lang["tinymce_api_key"] = "TinyMCE API key";
+
+$lang["protocol"] = "Protocol";
+$lang["re_captcha_suspicious_activity"] = "The reCAPTCHA detected suspicious activity.";
+
+$lang["all_contacts_of_the_client"] = "All contacts of the client";
+$lang["specific_contacts_of_the_client"] = "Specific contacts of the client";
+
+$lang["please_do_not_use_duplicate_variables"] = "Please don't use duplicate variables.";
+$lang["please_do_not_use_invalid_special_character"] = "Please don't use invalid special character.";
+$lang["please_use_any_serial"] = "Please use any serial.";
+
+$lang["add_automation"] = "Add automation";
+$lang["edit_automation"] = "Edit automation";
+
+$lang["automations"] = "Automations";
+
+$lang["match_any"] = "Match any";
+$lang["match_all"] = "Match all";
+$lang["email_address"] = "Email address";
+$lang["email_subject"] = "Email subject";
+$lang["email_content"] = "Email content";
+
+$lang["imap_email_received"] = "IMAP email received";
+$lang["new_ticket_created_by_imap_email"] = "New ticket created by IMAP email";
+
+$lang["conditions"] = "Conditions";
+$lang["block_ticket_creation"] = "Block ticket creation";
+$lang["if"] = "If";
+
+$lang["small_letter_field"] = "______ field";
+$lang["small_letter_condition_is_equal"] = "is equal to";
+$lang["small_letter_condition_is_not_equal"] = "is not equal to";
+$lang["small_letter_condition_is_in_list"] = "is in list";
+$lang["small_letter_condition_is_not_in_list"] = "is not in list";
+
+$lang["small_letter_condition_is_contains"] = "is contains";
+$lang["small_letter_condition_is_not_contains"] = "is not contains";
+$lang["small_letter_condition_is_contains_in_list"] = "is contains in list";
+$lang["small_letter_condition_is_not_contains_in_list"] = "is not contains in list";
+$lang["small_letter_something"] = "something";
+$lang["small_letter_is_something"] = "is something";
+$lang["small_letter_and"] = "and";
+$lang["small_letter_or"] = "or";
+
+$lang["select_placeholder"] = "Select...";
+$lang["select_placeholder_type_and_press_enter"] = "Type and press Enter";
+
+$lang["do_something"] = "Do something...";
+$lang["do_not_create_ticket"] = "Do not create ticket";
+$lang["set_field_"] = "Set";
+$lang["please_input_all_required_fields"] = "Please input all required fields.";
+$lang["grid"] = "Grid";
+
+$lang["disable_pdf_for_clients"] = "Disable PDF for clients";
+
+$lang["select_specific"] = "Select specific";
+$lang["clear_selection"] = "Clear selection";
+$lang["download_selected_items"] = "Download selected items";
+$lang["delete_selected_items"] = "Delete selected items";
+$lang["year_or_month_based_on"] = "Year/month based on";
+
+$lang["none"] = "None";
+$lang["trigger_manually"] = "Trigger Manually";
+
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Multiple Choice";
+$lang["field_type_checkboxes"] = "Checkboxes";
+
+return $lang;

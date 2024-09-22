@@ -1314,7 +1314,7 @@ $lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "Anslags-ID-en 
 $lang["send_to_client"] = "Send til klient";
 $lang["estimate_sent_message"] = "Anslaget er sendt!";
 $lang["send_estimate_bcc_to"] = "Når du sender estimat til klienten, sender du BCC til";
-        
+
 $lang["task_settings"] = "Oppgaveinnstillinger";
 $lang["enable_recurring_option_for_tasks"] = "Aktiver tilbakevendende alternativ for oppgaver";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "Den valgte startdatoen og gjentattypen returnerer en tidligere dato.";
@@ -1833,8 +1833,8 @@ $lang["edit_items_category"] = "Rediger elementkategori";
 $lang["delete_items_category"] = "Slett elementkategori";
 
 $lang["create_recurring_tasks_before"] = "Lag tilbakevendende oppgaver før";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_new_order"] = "Opprett ny ordre";
+$lang["find_more_items"] = "Finn flere elementer";
 
 /* Version 2.8 */
 
@@ -2664,5 +2664,100 @@ $lang["permission_is_required"] = "Tillatelse kreves.";
 $lang["make_primary_contact_help_message"] = "Den eksisterende primærkontakten vil fortsatt ha full tilgang. Du kan endre tillatelsen når som helst.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primærkontakt kan administrere tillatelsen til andre kontakter.";
 
-return $lang;
+/* Version 3.7 */
 
+$lang["dynamic"] = "Dynamisk";
+$lang["select_range"] = "Velg område";
+
+$lang["proposal_preview_opened"] = "Forhåndsvisning av forslag åpnet";
+$lang["notification_proposal_preview_opened"] = "Åpnet en forhåndsvisning av forslag.";
+$lang["proposal_email_opened"] = "E-post for forslag åpnet";
+$lang["notification_proposal_email_opened"] = "Åpnet en forslags-e-post.";
+
+$lang["create_contract"] = "Opprett kontrakt";
+
+$lang["create_as_a_non_subtask"] = "Opprett som en ikke-underoppgave";
+$lang["install_this_app"] = "Installer denne appen.";
+$lang["app_color"] = "Appfarge";
+
+$lang["skip"] = "Hopp over";
+
+$lang["self_improvements"] = "Selvforbedringer";
+$lang["business_growth"] = "Forretningsvekst";
+$lang["sales_management"] = "Salgsadministrasjon";
+$lang["customer_support"] = "Kundestøtte";
+$lang["team_management"] = "Lagadministrasjon";
+$lang["collaboration"] = "Samarbeid";
+
+$lang["send_first_reminder_before"] = "Send 1. påminnelse før";
+$lang["send_second_reminder_before"] = "Send 2. påminnelse før";
+$lang["subscription_renewal_reminder"] = "Påminnelse om fornyelse av abonnement";
+$lang["notification_subscription_renewal_reminder"] = "Påminnelse om fornyelse av abonnement";
+
+$lang["enable_tinymce"] = "Aktiver TinyMCE";
+$lang["tinymce_api_key"] = "TinyMCE API-nøkkel";
+
+$lang["protocol"] = "Protokoll";
+$lang["re_captcha_suspicious_activity"] = "reCAPTCHA oppdaget mistenkelig aktivitet.";
+
+$lang["all_contacts_of_the_client"] = "Alle kontakter til klienten";
+$lang["specific_contacts_of_the_client"] = "Spesifikke kontakter til klienten";
+
+$lang["please_do_not_use_duplicate_variables"] = "Vennligst ikke bruk dupliserte variabler.";
+$lang["please_do_not_use_invalid_special_character"] = "Vennligst ikke bruk ugyldig spesialtegn.";
+$lang["please_use_any_serial"] = "Vennligst bruk hvilken som helst serie.";
+
+$lang["add_automation"] = "Legg til automatisering";
+$lang["edit_automation"] = "Rediger automatisering";
+
+$lang["automations"] = "Automasjoner";
+
+$lang["match_any"] = "Samsvar alle";
+$lang["match_all"] = "Samsvar alle";
+$lang["email_address"] = "E-postadresse";
+$lang["email_subject"] = "E-postemne";
+$lang["email_content"] = "E-postinnhold";
+
+$lang["imap_email_received"] = "IMAP-e-post mottatt";
+$lang["new_ticket_created_by_imap_email"] = "Ny billett opprettet av IMAP-e-post";
+
+$lang["conditions"] = "Betingelser";
+$lang["block_ticket_creation"] = "Blokker opprettelse av billett";
+$lang["if"] = "Hvis";
+
+$lang["small_letter_field"] = "______ felt";
+$lang["small_letter_condition_is_equal"] = "er lik";
+$lang["small_letter_condition_is_not_equal"] = "er ikke lik";
+$lang["small_letter_condition_is_in_list"] = "er på listen";
+$lang["small_letter_condition_is_not_in_list"] = "er ikke på listen";
+
+$lang["small_letter_condition_is_contains"] = "er inneholder";
+$lang["small_letter_condition_is_not_contains"] = "inneholder ikke";
+$lang["small_letter_condition_is_contains_in_list"] = "inneholder i listen";
+$lang["small_letter_condition_is_not_contains_in_list"] = "inneholder ikke i listen";
+$lang["small_letter_something"] = "noe";
+$lang["small_letter_is_something"] = "er noe";
+$lang["small_letter_and"] = "og";
+$lang["small_letter_or"] = "eller";
+
+$lang["select_placeholder"] = "Velg...";
+$lang["select_placeholder_type_and_press_enter"] = "Skriv inn og trykk Enter";
+
+$lang["do_something"] = "Gjør noe...";
+$lang["do_not_create_ticket"] = "Ikke lag billett";
+$lang["set_field_"] = "Sett";
+$lang["please_input_all_required_fields"] = "Vennligst skriv inn alle obligatoriske felt.";
+$lang["grid"] = "Grid";
+
+$lang["disable_pdf_for_clients"] = "Deaktiver PDF for klienter";
+
+$lang["select_specific"] = "Velg spesifikk";
+$lang["clear_selection"] = "Slett valget";
+$lang["download_selected_items"] = "Last ned valgte elementer";
+$lang["delete_selected_items"] = "Slett valgte elementer";
+$lang["year_or_month_based_on"] = "År/måned basert på";
+
+$lang["none"] = "Ingen";
+$lang["trigger_manually"] = "Trigger manuelt";
+
+return $lang;

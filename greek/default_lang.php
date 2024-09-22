@@ -499,7 +499,7 @@ $lang["add_invoice"] = "Προσθήκη Τιμολογίου";
 $lang["edit_invoice"] = "Επεξεργασία Τιμολογίου";
 $lang["delete_invoice"] = "Διαγραφή Τιμολογίου";
 $lang["invoice"] = "Τιμολόγιο";
-$lang["invoices"] = " Τιμολόγια";
+$lang["invoices"] = "Τιμολόγια";
 $lang["bill_date"] = "Ημερομηνία Τιμολόγησης";
 $lang["due_date"] = "Ημερομηνία Λήξης Οφειλής";
 $lang["payment_date"] = "Ημερομηνία Πληρωμής";
@@ -1314,7 +1314,7 @@ $lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "Το αναγ�
 $lang["send_to_client"] = "Αποστολή στον πελάτη";
 $lang["estimate_sent_message"] = "Η εκτίμηση έχει σταλεί!";
 $lang["send_estimate_bcc_to"] = "Κατά την αποστολή εκτίμησης στον πελάτη, στείλτε BCC στο";
-        
+
 $lang["task_settings"] = "Ρυθμίσεις εργασίας";
 $lang["enable_recurring_option_for_tasks"] = "Ενεργοποίηση επαναλαμβανόμενης επιλογής για εργασίες";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "Ο επιλεγμένος τύπος έναρξης και επανάληψης επιστρέφει μια προηγούμενη ημερομηνία.";
@@ -1943,7 +1943,7 @@ $lang["notification_invoice_manual_payment_added"] = "Προστέθηκε μη 
 $lang["save_as_note"] = "Αποθήκευση ως σημείωση";
 $lang["client_will_not_see_any_notes"] = "Ο πελάτης δεν θα δει καμία σημείωση.";
 
-$lang [ " prospects " ] = " Προοπτικές " ;
+$lang["prospects"] = "Προοπτικές";
 $lang["estimate_forms"] = "Εκτίμηση φορμών";
 
 $lang["proposal_editor"] = "Επεξεργαστής πρότασης";
@@ -2194,7 +2194,7 @@ $lang["staff_default_dashboard_help_message"] = "Αυτό θα αντικατα�
 /* Version 3.2 */
 
 $lang["reminder"] = "Υπενθύμιση";
-$lang["reminders"] = " Υπενθυμίσεις " ;
+$lang["reminders"] = "Υπενθυμίσεις";
 $lang["show_all_reminders"] = "Εμφάνιση όλων των υπενθυμίσεων";
 $lang["time"] = "Ώρα";
 $lang["add_reminder"] = "Προσθήκη υπενθύμισης";
@@ -2452,7 +2452,7 @@ $lang["main_invoice"] = "Κύριο τιμολόγιο";
 $lang["credit_note_id"] = "Αναγνωριστικό πιστωτικού σημειώματος";
 $lang["send_credit_note"] = "Αποστολή πιστωτικού σημειώματος";
 
-$lang["taxable"] = " Φορολογητέα " ;
+$lang["taxable"] = "Φορολογητέα";
 
 $lang["can_manage_team_members_notes"] = "Μπορείτε να διαχειριστείτε τις σημειώσεις των μελών της ομάδας;";
 $lang["team_members_can_not_see_own_notes"] = "Τα μέλη της ομάδας δεν μπορούν να δουν τις δικές τους σημειώσεις.";
@@ -2663,5 +2663,101 @@ $lang["primary_contact_will_get_full_permission_message"] = "Σημείωση: �
 $lang["permission_is_required"] = "Απαιτείται άδεια.";
 $lang["make_primary_contact_help_message"] = "Η υπάρχουσα κύρια επαφή θα εξακολουθεί να έχει πλήρη πρόσβαση. Μπορείτε να αλλάξετε την άδεια ανά πάσα στιγμή.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Η κύρια επαφή μπορεί να διαχειριστεί την άδεια άλλων επαφών.";
+
+/* Version 3.7 */
+
+$lang["dynamic"] = "Δυναμική";
+$lang["select_range"] = "Επιλογή εύρους";
+
+$lang["proposal_preview_opened"] = "Η προεπισκόπηση της πρότασης άνοιξε";
+$lang["notification_proposal_preview_opened"] = "Άνοιξε μια προεπισκόπηση πρότασης.";
+$lang["proposal_email_opened"] = "Το email της πρότασης άνοιξε";
+$lang["notification_proposal_email_opened"] = "Άνοιξε ένα email πρότασης.";
+
+$lang["create_contract"] = "Δημιουργία συμβολαίου";
+
+$lang["create_as_a_non_subtask"] = "Δημιουργία ως μη δευτερεύουσα εργασία";
+$lang["install_this_app"] = "Εγκαταστήστε αυτήν την εφαρμογή.";
+$lang["app_color"] = "Χρώμα εφαρμογής";
+
+$lang["skip"] = "Παράλειψη";
+
+$lang["self_improvements"] = "Αυτοβελτιώσεις";
+$lang["business_growth"] = "Ανάπτυξη επιχειρήσεων";
+$lang["sales_management"] = "Διαχείριση πωλήσεων";
+$lang["customer_support"] = "Υποστήριξη πελατών";
+$lang["team_management"] = "Διαχείριση ομάδας";
+$lang["collaboration"] = "Συνεργασία";
+
+$lang["send_first_reminder_before"] = "Στείλτε την 1η υπενθύμιση πριν";
+$lang["send_second_reminder_before"] = "Αποστολή 2ης υπενθύμισης πριν";
+$lang["subscription_renewal_reminder"] = "Υπενθύμιση ανανέωσης συνδρομής";
+$lang["notification_subscription_renewal_reminder"] = "Υπενθύμιση ανανέωσης συνδρομής";
+
+$lang["enable_tinymce"] = "Ενεργοποίηση TinyMCE";
+$lang["tinymce_api_key"] = "Κλειδί API TinyMCE";
+
+$lang["protocol"] = "Πρωτόκολλο";
+$lang["re_captcha_suspicious_activity"] = "Το reCAPTCHA εντόπισε ύποπτη δραστηριότητα.";
+
+$lang["all_contacts_of_the_client"] = "Όλες οι επαφές του πελάτη";
+$lang["specific_contacts_of_the_client"] = "Συγκεκριμένες επαφές του πελάτη";
+
+$lang["please_do_not_use_duplicate_variables"] = "Παρακαλώ μην χρησιμοποιείτε διπλότυπες μεταβλητές.";
+$lang["please_do_not_use_invalid_special_character"] = "Παρακαλώ μην χρησιμοποιείτε μη έγκυρο ειδικό χαρακτήρα.";
+$lang["please_use_any_serial"] = "Παρακαλώ χρησιμοποιήστε οποιαδήποτε σειρά.";
+
+$lang["add_automation"] = "Προσθήκη αυτοματισμού";
+$lang["edit_automation"] = "Επεξεργασία αυτοματισμού";
+
+$lang["automations"] = "Αυτοματισμοί";
+
+$lang["match_any"] = "Αντιστοίχιση οποιουδήποτε";
+$lang["match_all"] = "Αντιστοίχιση όλων";
+$lang["email_address"] = "Διεύθυνση ηλεκτρονικού ταχυδρομείου";
+$lang["email_subject"] = "Θέμα email";
+$lang["email_content"] = "Περιεχόμενο email";
+
+$lang["imap_email_received"] = "Έλαβε email IMAP";
+$lang["new_ticket_created_by_imap_email"] = "Δημιουργήθηκε νέο εισιτήριο μέσω email IMAP";
+
+$lang["conditions"] = "Προϋποθέσεις";
+$lang["block_ticket_creation"] = "Αποκλεισμός δημιουργίας εισιτηρίου";
+$lang["if"] = "Αν";
+
+$lang["small_letter_field"] = "______ πεδίο";
+$lang["small_letter_condition_is_equal"] = "ισούται με";
+$lang["small_letter_condition_is_not_equal"] = "δεν ισούται με";
+$lang["small_letter_condition_is_in_list"] = "είναι στη λίστα";
+$lang["small_letter_condition_is_not_in_list"] = "δεν είναι στη λίστα";
+
+$lang["small_letter_condition_is_contains"] = "περιέχει";
+$lang["small_letter_condition_is_not_contains"] = "δεν περιέχει";
+$lang["small_letter_condition_is_contains_in_list"] = "περιέχεται στη λίστα";
+$lang["small_letter_condition_is_not_contains_in_list"] = "δεν περιέχεται στη λίστα";
+$lang["small_letter_something"] = "κάτι";
+$lang["small_letter_is_something"] = "είναι κάτι";
+$lang["small_letter_and"] = "και";
+$lang["small_letter_or"] = "ή";
+
+$lang["select_placeholder"] = "Επιλέξτε...";
+$lang["select_placeholder_type_and_press_enter"] = "Πληκτρολογήστε και πατήστε Enter";
+
+$lang["do_something"] = "Κάνε κάτι...";
+$lang["do_not_create_ticket"] = "Μην δημιουργήσετε εισιτήριο";
+$lang["set_field_"] = "Ορισμός";
+$lang["please_input_all_required_fields"] = "Παρακαλώ εισάγετε όλα τα απαιτούμενα πεδία.";
+$lang["grid"] = "Πλέγμα";
+
+$lang["disable_pdf_for_clients"] = "Απενεργοποίηση PDF για πελάτες";
+
+$lang["select_specific"] = "Επιλέξτε συγκεκριμένο";
+$lang["clear_selection"] = "Εκκαθάριση επιλογής";
+$lang["download_selected_items"] = "Λήψη επιλεγμένων στοιχείων";
+$lang["delete_selected_items"] = "Διαγραφή επιλεγμένων στοιχείων";
+$lang["year_or_month_based_on"] = "Έτος/μήνας βάσει";
+
+$lang["none"] = "Κανένα";
+$lang["trigger_manually"] = "Χειροκίνητη ενεργοποίηση";
 
 return $lang;

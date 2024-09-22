@@ -1315,11 +1315,11 @@ $lang["send_to_client"] = "Send to client";
 $lang["estimate_sent_message"] = "Il preventivo è stato inviato!";
 $lang["send_estimate_bcc_to"] = "Quando si invia un preventivo al cliente, inviare BCC a";
 
-$lang["task_settings"] = "Impostazioni attività";
+$lang["task_settings"] = "Impostazioni attività";
 $lang["enable_recurring_option_for_tasks"] = "Abilita l'opzione ricorrente per le attività";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "La data di inizio e il tipo di ripetizione selezionati restituiscono una data passata.";
-$lang["recurring_task_created_via_cron_job"] = "Attività  ricorrente creata tramite Cron Job";
-$lang["notification_recurring_task_created_via_cron_job"] = "Nuova attività  creata";
+$lang["recurring_task_created_via_cron_job"] = "Attività ricorrente creata tramite Cron Job";
+$lang["notification_recurring_task_created_via_cron_job"] = "Nuova attività creata";
 $lang["repeat_type"] = "Ripeti il tipo";
 $lang["lead_status"] = "Stato Lead";
 $lang["add_lead_status"] = "Aggiungi stato lead";
@@ -1338,13 +1338,13 @@ $lang["delete_lead_source"] = "Cancella provenienza lead";
 $lang["custom_field_migration"] = "Migrazione di campi personalizzati";
 $lang["merge_custom_fields"] = "Unisci campi personalizzati";
 $lang["do_not_merge"] = "Non unire";
-$lang["merge_custom_fields_help_message"] = "Se esistono campi personalizzati simili per %s, questi valori verranno aggiunti a quelli. Altrimenti, questo creerà  nuovi campi personalizzati per %s e aggiungerà  valori a quelli.";
+$lang["merge_custom_fields_help_message"] = "Se esistono campi personalizzati simili per %s, questi valori verranno aggiunti a quelli. Altrimenti, questo creerà nuovi campi personalizzati per %s e aggiungerà valori a quelli.";
 $lang["lead_created"] = "Lead creato";
 $lang["notification_lead_created"] = "Creati nuovo lead.";
 $lang["client_created_from_lead"] = "Cliente creato da lead";
 $lang["notification_client_created_from_lead"] = "Conversione lead in cliente.";
 $lang["project_deadline"] = "Scadenze progetti";
-$lang["task_deadline"] = "Scadenze attività ";
+$lang["task_deadline"] = "Scadenze attività";
 $lang["event_type"] = "Tipo Evento";
 $lang["delete_estimate_form"] = "Elimina modulo preventivo";
 $lang["calendar_event_modified"] = "Evento del calendario modificato";
@@ -1398,7 +1398,7 @@ $lang["lead_details"] = "Lead detattaglio";
 $lang["can_access_leads_information"] = "Puo accedere alle informazioni del Lead?";
 $lang["lead_info"] = "Informazioni Lead";
 
-$lang["send_task_reminder_on_the_day_of_deadline"] = "Invia promemoria attività  il giorno della scadenza";
+$lang["send_task_reminder_on_the_day_of_deadline"] = "Invia promemoria attività il giorno della scadenza";
 $lang["send_task_deadline_pre_reminder"] = "Invia promemoria scadenza scadenza attività";
 $lang["send_task_deadline_overdue_reminder"] = "Invia promemoria scaduto scadenza attività";
 
@@ -1833,8 +1833,8 @@ $lang["edit_items_category"] = "Modifica la categoria degli articoli";
 $lang["delete_items_category"] = "Elimina categoria di articoli";
 
 $lang["create_recurring_tasks_before"] = "Crea attività ricorrenti prima";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_new_order"] = "Crea nuovo ordine";
+$lang["find_more_items"] = "Trova più elementi";
 
 /* Version 2.8 */
 
@@ -2664,5 +2664,100 @@ $lang["permission_is_required"] = "È richiesta l'autorizzazione.";
 $lang["make_primary_contact_help_message"] = "Il contatto principale esistente avrà ancora pieno accesso. Puoi modificare l'autorizzazione in qualsiasi momento.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Il contatto principale può gestire le autorizzazioni di altri contatti.";
 
-return $lang;
+/* Version 3.7 */
 
+$lang["dynamic"] = "Dinamico";
+$lang["select_range"] = "Seleziona intervallo";
+
+$lang["proposal_preview_opened"] = "Anteprima proposta aperta";
+$lang["notification_proposal_preview_opened"] = "Aperta un'anteprima proposta.";
+$lang["proposal_email_opened"] = "Email proposta aperta";
+$lang["notification_proposal_email_opened"] = "Aperta un'email proposta.";
+
+$lang["create_contract"] = "Crea contratto";
+
+$lang["create_as_a_non_subtask"] = "Crea come non-subtask";
+$lang["install_this_app"] = "Installa questa app.";
+$lang["app_color"] = "Colore app";
+
+$lang["skip"] = "Salta";
+
+$lang["self_improvements"] = "Miglioramenti personali";
+$lang["business_growth"] = "Crescita aziendale";
+$lang["sales_management"] = "Gestione vendite";
+$lang["customer_support"] = "Assistenza clienti";
+$lang["team_management"] = "Gestione team";
+$lang["collaboration"] = "Collaborazione";
+
+$lang["send_first_reminder_before"] = "Invia il 1° promemoria prima";
+$lang["send_second_reminder_before"] = "Invia il 2° promemoria prima";
+$lang["subscription_renewal_reminder"] = "Promemoria rinnovo abbonamento";
+$lang["notification_subscription_renewal_reminder"] = "Promemoria rinnovo abbonamento";
+
+$lang["enable_tinymce"] = "Abilita TinyMCE";
+$lang["tinymce_api_key"] = "Chiave API TinyMCE";
+
+$lang["protocol"] = "Protocollo";
+$lang["re_captcha_suspicious_activity"] = "Il reCAPTCHA ha rilevato attività sospette.";
+
+$lang["all_contacts_of_the_client"] = "Tutti i contatti del cliente";
+$lang["specific_contacts_of_the_client"] = "Contatti specifici del cliente";
+
+$lang["please_do_not_use_duplicate_variables"] = "Si prega di non utilizzare variabili duplicate.";
+$lang["please_do_not_use_invalid_special_character"] = "Si prega di non utilizzare caratteri speciali non validi.";
+$lang["please_use_any_serial"] = "Si prega di utilizzare qualsiasi numero di serie.";
+
+$lang["add_automation"] = "Aggiungi automazione";
+$lang["edit_automation"] = "Modifica automazione";
+
+$lang["automations"] = "Automazioni";
+
+$lang["match_any"] = "Corrisponde a qualsiasi";
+$lang["match_all"] = "Corrisponde a tutti";
+$lang["email_address"] = "Indirizzo email";
+$lang["email_subject"] = "Oggetto email";
+$lang["email_content"] = "Contenuto email";
+
+$lang["imap_email_received"] = "Email IMAP ricevuta";
+$lang["new_ticket_created_by_imap_email"] = "Nuovo ticket creato tramite email IMAP";
+
+$lang["conditions"] = "Condizioni";
+$lang["block_ticket_creation"] = "Blocca creazione ticket";
+$lang["if"] = "Se";
+
+$lang["small_letter_field"] = "campo ______";
+$lang["small_letter_condition_is_equal"] = "è uguale a";
+$lang["small_letter_condition_is_not_equal"] = "non è uguale a";
+$lang["small_letter_condition_is_in_list"] = "è nell'elenco";
+$lang["small_letter_condition_is_not_in_list"] = "non è nell'elenco";
+
+$lang["small_letter_condition_is_contains"] = "è contiene";
+$lang["small_letter_condition_is_not_contains"] = "non contiene";
+$lang["small_letter_condition_is_contains_in_list"] = "è contiene nell'elenco";
+$lang["small_letter_condition_is_not_contains_in_list"] = "non contiene nell'elenco";
+$lang["small_letter_something"] = "qualcosa";
+$lang["small_letter_is_something"] = "è qualcosa";
+$lang["small_letter_and"] = "e";
+$lang["small_letter_or"] = "o";
+
+$lang["select_placeholder"] = "Seleziona...";
+$lang["select_placeholder_type_and_press_enter"] = "Digita e premi Invio";
+
+$lang["do_something"] = "Fai qualcosa...";
+$lang["do_not_create_ticket"] = "Non creare un ticket";
+$lang["set_field_"] = "Imposta";
+$lang["please_input_all_required_fields"] = "Inserisci tutti i campi obbligatori.";
+$lang["grid"] = "Griglia";
+
+$lang["disable_pdf_for_clients"] = "Disabilita PDF per i clienti";
+
+$lang["select_specific"] = "Seleziona specifico";
+$lang["clear_selection"] = "Cancella selezione";
+$lang["download_selected_items"] = "Scarica gli elementi selezionati";
+$lang["delete_selected_items"] = "Elimina gli elementi selezionati";
+$lang["year_or_month_based_on"] = "Anno/mese in base a";
+
+$lang["none"] = "Nessuno";
+$lang["trigger_manually"] = "Attiva manualmente";
+
+return $lang;

@@ -1314,7 +1314,7 @@ $lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "De schatting-I
 $lang["send_to_client"] = "Verzenden naar klant";
 $lang["estimate_sent_message"] = "De schatting is verzonden!";
 $lang["send_estimate_bcc_to"] = "Als u een schatting naar de klant verzendt, stuurt u BCC naar";
-        
+
 $lang["task_settings"] = "Taakinstellingen";
 $lang["enable_recurring_option_for_tasks"] = "Schakel terugkerende optie in voor taken";
 $lang["past_recurring_date_error_message_title_for_tasks"] = "De geselecteerde startdatum en het herhaaltype retourneren een datum uit het verleden.";
@@ -1833,8 +1833,8 @@ $lang["edit_items_category"] = "Bewerk items categorie";
 $lang["delete_items_category"] = "Artikelcategorie verwijderen";
 
 $lang["create_recurring_tasks_before"] = "Maak terugkerende taken voordat";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
+$lang["create_new_order"] = "Maak een nieuwe bestelling";
+$lang["find_more_items"] = "Vind meer items";
 
 /* Version 2.8 */
 
@@ -2663,5 +2663,101 @@ $lang["primary_contact_will_get_full_permission_message"] = "Opmerking: het prim
 $lang["permission_is_required"] = "Toestemming is vereist.";
 $lang["make_primary_contact_help_message"] = "Het bestaande primaire contact heeft nog steeds volledige toegang. U kunt de toestemming op elk gewenst moment wijzigen.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "De primaire contact kan de toestemming van andere contacten beheren.";
+
+/* Version 3.7 */
+
+$lang["dynamic"] = "Dynamisch";
+$lang["select_range"] = "Selecteer bereik";
+
+$lang["proposal_preview_opened"] = "Voorstelvoorbeeld geopend";
+$lang["notification_proposal_preview_opened"] = "Voorstelvoorbeeld geopend.";
+$lang["proposal_email_opened"] = "Voorstel-e-mail geopend";
+$lang["notification_proposal_email_opened"] = "Voorstel-e-mail geopend.";
+
+$lang["create_contract"] = "Contract maken";
+
+$lang["create_as_a_non_subtask"] = "Maken als een niet-subtaak";
+$lang["install_this_app"] = "Deze app installeren.";
+$lang["app_color"] = "App-kleur";
+
+$lang["skip"] = "Overslaan";
+
+$lang["self_improvements"] = "Zelfverbeteringen";
+$lang["business_growth"] = "Bedrijfsgroei";
+$lang["sales_management"] = "Verkoopmanagement";
+$lang["customer_support"] = "Klantenservice";
+$lang["team_management"] = "Teammanagement";
+$lang["collaboration"] = "Samenwerking";
+
+$lang["send_first_reminder_before"] = "Eerste herinnering verzenden voor";
+$lang["send_second_reminder_before"] = "Tweede herinnering verzenden voor";
+$lang["subscription_renewal_reminder"] = "Herinnering voor verlenging abonnement";
+$lang["notification_subscription_renewal_reminder"] = "Herinnering voor verlenging abonnement";
+
+$lang["enable_tinymce"] = "TinyMCE inschakelen";
+$lang["tinymce_api_key"] = "TinyMCE API-sleutel";
+
+$lang["protocol"] = "Protocol";
+$lang["re_captcha_suspicious_activity"] = "De reCAPTCHA heeft verdachte activiteit gedetecteerd.";
+
+$lang["all_contacts_of_the_client"] = "Alle contacten van de client";
+$lang["specific_contacts_of_the_client"] = "Specifieke contacten van de client";
+
+$lang["please_do_not_use_duplicate_variables"] = "Gebruik geen dubbele variabelen.";
+$lang["please_do_not_use_invalid_special_character"] = "Gebruik geen ongeldig speciaal teken.";
+$lang["please_use_any_serial"] = "Gebruik een willekeurig serienummer.";
+
+$lang["add_automation"] = "Automatisering toevoegen";
+$lang["edit_automation"] = "Automatisering bewerken";
+
+$lang["automations"] = "Automatiseringen";
+
+$lang["match_any"] = "Match any";
+$lang["match_all"] = "Match all";
+$lang["email_address"] = "E-mailadres";
+$lang["email_subject"] = "E-mailonderwerp";
+$lang["email_content"] = "E-mailinhoud";
+
+$lang["imap_email_received"] = "IMAP-e-mail ontvangen";
+$lang["new_ticket_created_by_imap_email"] = "Nieuw ticket gemaakt door IMAP-e-mail";
+
+$lang["conditions"] = "Voorwaarden";
+$lang["block_ticket_creation"] = "Blokkeer ticketcreatie";
+$lang["if"] = "If";
+
+$lang["small_letter_field"] = "______ veld";
+$lang["small_letter_condition_is_equal"] = "is gelijk aan";
+$lang["small_letter_condition_is_not_equal"] = "is niet gelijk aan";
+$lang["small_letter_condition_is_in_list"] = "staat in lijst";
+$lang["small_letter_condition_is_not_in_list"] = "staat niet in lijst";
+
+$lang["small_letter_condition_is_contains"] = "bevat";
+$lang["small_letter_condition_is_not_contains"] = "bevat niet";
+$lang["small_letter_condition_is_contains_in_list"] = "bevat in lijst";
+$lang["small_letter_condition_is_not_contains_in_list"] = "bevat niet in lijst";
+$lang["small_letter_something"] = "iets";
+$lang["small_letter_is_something"] = "is iets";
+$lang["small_letter_and"] = "en";
+$lang["small_letter_or"] = "of";
+
+$lang["select_placeholder"] = "Selecteer...";
+$lang["select_placeholder_type_and_press_enter"] = "Typ en druk op Enter";
+
+$lang["do_something"] = "Doe iets...";
+$lang["do_not_create_ticket"] = "Maak geen ticket";
+$lang["set_field_"] = "Instellen";
+$lang["please_input_all_required_fields"] = "Vul alle vereiste velden in.";
+$lang["grid"] = "Raster";
+
+$lang["disable_pdf_for_clients"] = "PDF voor klanten uitschakelen";
+
+$lang["select_specific"] = "Selecteer specifiek";
+$lang["clear_selection"] = "Wis selectie";
+$lang["download_selected_items"] = "Download geselecteerde items";
+$lang["delete_selected_items"] = "Verwijder geselecteerde items";
+$lang["year_or_month_based_on"] = "Jaar/maand gebaseerd op";
+
+$lang["none"] = "Geen";
+$lang["trigger_manually"] = "Trigger handmatig";
 
 return $lang;
