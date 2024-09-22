@@ -2664,4 +2664,100 @@ $lang["permission_is_required"] = "Permissão necessária.";
 $lang["make_primary_contact_help_message"] = "O contato principal existente ainda terá acesso total. Você pode alterar a permissão a qualquer momento.";
 $lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "O contato principal pode gerenciar a permissão de outros contatos.";
 
+/* Version 3.7 */
+
+$lang["dynamic"] = "Dinâmico";
+$lang["select_range"] = "Selecionar intervalo";
+
+$lang["proposal_preview_opened"] = "Prévia da proposta aberta";
+$lang["notification_proposal_preview_opened"] = "Prévia da proposta aberta.";
+$lang["proposal_email_opened"] = "E-mail da proposta aberto";
+$lang["notification_proposal_email_opened"] = "E-mail da proposta aberto.";
+
+$lang["create_contract"] = "Criar contrato";
+
+$lang["create_as_a_non_subtask"] = "Criar como uma não subtarefa";
+$lang["install_this_app"] = "Instalar este aplicativo.";
+$lang["app_color"] = "Cor do aplicativo";
+
+$lang["skip"] = "Pular";
+
+$lang["self_improvements"] = "Autoaperfeiçoamento";
+$lang["business_growth"] = "Crescimento do negócio";
+$lang["sales_management"] = "Gerenciamento de vendas";
+$lang["customer_support"] = "Suporte ao cliente";
+$lang["team_management"] = "Gerenciamento de equipe";
+$lang["collaboration"] = "Colaboração";
+
+$lang["send_first_reminder_before"] = "Enviar 1º lembrete antes de";
+$lang["send_second_reminder_before"] = "Enviar 2º lembrete antes de";
+$lang["subscription_renewal_reminder"] = "Lembrete de renovação de assinatura";
+$lang["notification_subscription_renewal_reminder"] = "Lembrete de renovação de assinatura";
+
+$lang["enable_tinymce"] = "Habilitar TinyMCE";
+$lang["tinymce_api_key"] = "Chave de API TinyMCE";
+
+$lang["protocol"] = "Protocolo";
+$lang["re_captcha_suspicious_activity"] = "O reCAPTCHA detectou atividade suspeita.";
+
+$lang["all_contacts_of_the_client"] = "Todos os contatos do cliente";
+$lang["specific_contacts_of_the_client"] = "Contatos específicos do cliente";
+
+$lang["please_do_not_use_duplicate_variables"] = "Não use variáveis ​​duplicadas.";
+$lang["please_do_not_use_invalid_special_character"] = "Não use caractere especial inválido.";
+$lang["please_use_any_serial"] = "Use qualquer serial.";
+
+$lang["add_automation"] = "Adicionar automação";
+$lang["edit_automation"] = "Editar automação";
+
+$lang["automations"] = "Automações";
+
+$lang["match_any"] = "Corresponder a qualquer";
+$lang["match_all"] = "Corresponder a todos";
+$lang["email_address"] = "Endereço de e-mail";
+$lang["email_subject"] = "Assunto do e-mail";
+$lang["email_content"] = "Conteúdo do e-mail";
+
+$lang["imap_email_received"] = "E-mail IMAP recebido";
+$lang["new_ticket_created_by_imap_email"] = "Novo tíquete criado por e-mail IMAP";
+
+$lang["conditions"] = "Condições";
+$lang["block_ticket_creation"] = "Bloquear criação de tíquete";
+$lang["if"] = "Se";
+
+$lang["small_letter_field"] = "campo ______";
+$lang["small_letter_condition_is_equal"] = "é igual a";
+$lang["small_letter_condition_is_not_equal"] = "não é igual a";
+$lang["small_letter_condition_is_in_list"] = "está na lista";
+$lang["small_letter_condition_is_not_in_list"] = "não está na lista";
+
+$lang["small_letter_condition_is_contains"] = "contém";
+$lang["small_letter_condition_is_not_contains"] = "não contém";
+$lang["small_letter_condition_is_contains_in_list"] = "contém na lista";
+$lang["small_letter_condition_is_not_contains_in_list"] = "não contém na lista";
+$lang["small_letter_something"] = "algo";
+$lang["small_letter_is_something"] = "é algo";
+$lang["small_letter_and"] = "e";
+$lang["small_letter_or"] = "ou";
+
+$lang["select_placeholder"] = "Selecione...";
+$lang["select_placeholder_type_and_press_enter"] = "Digite e pressione Enter";
+
+$lang["do_something"] = "Faça algo...";
+$lang["do_not_create_ticket"] = "Não crie um ticket";
+$lang["set_field_"] = "Definir";
+$lang["please_input_all_required_fields"] = "Por favor, insira todos os campos obrigatórios.";
+$lang["grid"] = "Grade";
+
+$lang["disable_pdf_for_clients"] = "Desabilitar PDF para clientes";
+
+$lang["select_specific"] = "Selecionar específico";
+$lang["clear_selection"] = "Limpar seleção";
+$lang["download_selected_items"] = "Baixar itens selecionados";
+$lang["delete_selected_items"] = "Excluir itens selecionados";
+$lang["year_or_month_based_on"] = "Ano/mês com base em";
+
+$lang["none"] = "Nenhum";
+$lang["trigger_manually"] = "Disparar manualmente";
+
 return $lang;
