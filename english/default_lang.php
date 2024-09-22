@@ -2760,9 +2760,4 @@ $lang["year_or_month_based_on"] = "Year/month based on";
 $lang["none"] = "None";
 $lang["trigger_manually"] = "Trigger Manually";
 
-/* Version 3.8 */
-
-$lang["field_type_multiple_choice"] = "Multiple Choice";
-$lang["field_type_checkboxes"] = "Checkboxes";
-
 return $lang;
