@@ -2759,4 +2759,43 @@ $lang["year_or_month_based_on"] = "Year/month based on";
 $lang["none"] = "None";
 $lang["trigger_manually"] = "Trigger Manually";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Multiple Choice";
+$lang["field_type_checkboxes"] = "Checkboxes";
+
+$lang["insert_into_editor"] = "Insert into editor";
+$lang["just_now"] = "Just now";
+$lang["minute_ago"] = "minute ago";
+$lang["minutes_ago"] = "minutes ago";
+$lang["hour_ago"] = "hour ago";
+$lang["hours_ago"] = "hours ago";
+$lang["day_ago"] = "day ago";
+$lang["days_ago"] = "days ago";
+$lang["month_ago"] = "month ago";
+$lang["months_ago"] = "months ago";
+$lang["year_ago"] = "year ago";
+$lang["years_ago"] = "years ago";
+
+$lang["support_info"] = "Support info";
+$lang["in_messages"] = "In messages";
+$lang["out_messages"] = "Out messags";
+
+$lang["ticket_tasks"] = "Ticket tasks";
+$lang["has_number_of_tickets_tickets"] = "Has %s tickets";
+
+$lang["signup_and_login"] = "Signup & Login";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Projects & Tasks";
+$lang["others"] = "Others";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Show the status checkbox in tasks list";
+
+$lang["pwa_install_message_for_iphone"] = "Click on %s icon, 'Add to Home Screen' from the browser menu and add this app to your home screen for easy access.";
+$lang["got_it"] = "Got it!";
+
+$lang["empty_comment_cannot_be_saved"] = "Empty comment cannot be saved.";
+
+$lang["short_ticket_templates"] = "Templates";
+
 return $lang;
