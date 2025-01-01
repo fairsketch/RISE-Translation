@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Έτος/μήνας βάσει";
 $lang["none"] = "Κανένα";
 $lang["trigger_manually"] = "Χειροκίνητη ενεργοποίηση";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Πολλαπλές επιλογές";
+$lang["field_type_checkboxes"] = "Πλαίσια επιλογής";
+
+$lang["insert_into_editor"] = "Εισαγωγή στον επεξεργαστή";
+$lang["just_now"] = "Μόλις τώρα";
+$lang["minute_ago"] = "πριν από ένα λεπτό";
+$lang["minutes_ago"] = "πριν από λεπτά";
+$lang["hour_ago"] = "πριν από μία ώρα";
+$lang["hours_ago"] = "πριν από ώρες";
+$lang["day_ago"] = "πριν από μία ημέρα";
+$lang["days_ago"] = "πριν από ημέρες";
+$lang["month_ago"] = "πριν από ένα μήνα";
+$lang["months_ago"] = "πριν από μήνες";
+$lang["year_ago"] = "πριν από ένα έτος";
+$lang["years_ago"] = "πριν από έτη";
+
+$lang["support_info"] = "Πληροφορίες υποστήριξης";
+$lang["in_messages"] = "Στα μηνύματα";
+$lang["out_messages"] = "Εξερχόμενα μηνύματα";
+
+$lang["ticket_tasks"] = "Εργασίες εισιτηρίου";
+$lang["has_number_of_tickets_tickets"] = "Έχει %s εισιτήρια";
+
+$lang["signup_and_login"] = "Εγγραφή & Σύνδεση";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Έργα & Εργασίες";
+$lang["others"] = "Άλλοι";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Εμφάνιση του πλαισίου κατάστασης στη λίστα εργασιών";
+
+$lang["pwa_install_message_for_iphone"] = "Κάντε κλικ στο εικονίδιο %s, 'Προσθήκη στην αρχική οθόνη' από το μενού του προγράμματος περιήγησης και προσθέστε αυτήν την εφαρμογή στην αρχική σας οθόνη για εύκολη πρόσβαση.";
+$lang["got_it"] = "Το κατάλαβα!";
+
+$lang["empty_comment_cannot_be_saved"] = "Το κενό σχόλιο δεν μπορεί να αποθηκευτεί.";
+
+$lang["short_ticket_templates"] = "Πρότυπα";
+
 return $lang;

@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Anno/mese in base a";
 $lang["none"] = "Nessuno";
 $lang["trigger_manually"] = "Attiva manualmente";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Selezione multipla";
+$lang["field_type_checkboxes"] = "Caselle di controllo";
+
+$lang["insert_into_editor"] = "Inserisci nell'editor";
+$lang["just_now"] = "Proprio ora";
+$lang["minute_ago"] = "minuto fa";
+$lang["minutes_ago"] = "minuti fa";
+$lang["hour_ago"] = "ora fa";
+$lang["hours_ago"] = "ore fa";
+$lang["day_ago"] = "giorno fa";
+$lang["days_ago"] = "giorni fa";
+$lang["month_ago"] = "mese fa";
+$lang["months_ago"] = "mesi fa";
+$lang["year_ago"] = "anno fa";
+$lang["years_ago"] = "anni fa";
+
+$lang["support_info"] = "Informazioni di supporto";
+$lang["in_messages"] = "Nelle messaggi";
+$lang["out_messages"] = "Messaggi in uscita";
+
+$lang["ticket_tasks"] = "Compiti del ticket";
+$lang["has_number_of_tickets_tickets"] = "Ha %s ticket";
+
+$lang["signup_and_login"] = "Registrazione e accesso";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Progetti e compiti";
+$lang["others"] = "Altro";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Mostra la casella di controllo stato nella lista dei compiti";
+
+$lang["pwa_install_message_for_iphone"] = "Clicca sull'icona %s, 'Aggiungi a Schermo Home' dal menu del browser e aggiungi questa app al tuo schermo home per accedere facilmente.";
+$lang["got_it"] = "Ho capito!";
+
+$lang["empty_comment_cannot_be_saved"] = "Il commento vuoto non pu  essere salvato.";
+
+$lang["short_ticket_templates"] = "Modelli";
+
 return $lang;

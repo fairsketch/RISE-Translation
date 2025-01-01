@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Rok/miesiąc na podstawie";
 $lang["none"] = "Brak";
 $lang["trigger_manually"] = "Wyzwalaj ręcznie";	
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Wybór wielokrotny";
+$lang["field_type_checkboxes"] = "Pola wyboru";
+
+$lang["insert_into_editor"] = "Wstaw do edytora";
+$lang["just_now"] = "Przed chwilą";
+$lang["minute_ago"] = "minutę temu";
+$lang["minutes_ago"] = "minuty temu";
+$lang["hour_ago"] = "godzinę temu";
+$lang["hours_ago"] = "godziny temu";
+$lang["day_ago"] = "dzień temu";
+$lang["days_ago"] = "dni temu";
+$lang["month_ago"] = "miesiąc temu";
+$lang["months_ago"] = "miesiące temu";
+$lang["year_ago"] = "rok temu";
+$lang["years_ago"] = "lata temu";
+
+$lang["support_info"] = "Informacje o wsparciu";
+$lang["in_messages"] = "W wiadomościach";
+$lang["out_messages"] = "Wiadomości wychodzące";
+
+$lang["ticket_tasks"] = "Zadania biletowe";
+$lang["has_number_of_tickets_tickets"] = "Ma %s biletów";
+
+$lang["signup_and_login"] = "Rejestracja i logowanie";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Projekty i zadania";
+$lang["others"] = "Inne";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Pokaż pole wyboru statusu na liście zadań";
+
+$lang["pwa_install_message_for_iphone"] = "Kliknij ikonę %s, 'Dodaj do ekranu głównego' z menu przeglądarki i dodaj tę aplikację do ekranu głównego dla łatwego dostępu.";
+$lang["got_it"] = "Rozumiem!";
+
+$lang["empty_comment_cannot_be_saved"] = "Pusty komentarz nie może być zapisany.";
+
+$lang["short_ticket_templates"] = "Szablony";
+
 return $lang;

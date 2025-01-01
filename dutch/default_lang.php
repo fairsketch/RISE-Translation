@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Jaar/maand gebaseerd op";
 $lang["none"] = "Geen";
 $lang["trigger_manually"] = "Trigger handmatig";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Meervoudige keuze";
+$lang["field_type_checkboxes"] = "Selectievakjes";
+
+$lang["insert_into_editor"] = "Invoegen in editor";
+$lang["just_now"] = "Zojuist";
+$lang["minute_ago"] = "minuut geleden";
+$lang["minutes_ago"] = "minuten geleden";
+$lang["hour_ago"] = "uur geleden";
+$lang["hours_ago"] = "uren geleden";
+$lang["day_ago"] = "dag geleden";
+$lang["days_ago"] = "dagen geleden";
+$lang["month_ago"] = "maand geleden";
+$lang["months_ago"] = "maanden geleden";
+$lang["year_ago"] = "jaar geleden";
+$lang["years_ago"] = "jaren geleden";
+
+$lang["support_info"] = "Ondersteuningsinfo";
+$lang["in_messages"] = "In berichten";
+$lang["out_messages"] = "Uit berichten";
+
+$lang["ticket_tasks"] = "Tickettaken";
+$lang["has_number_of_tickets_tickets"] = "Heeft %s tickets";
+
+$lang["signup_and_login"] = "Aanmelden en inloggen";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Projecten en taken";
+$lang["others"] = "Anderen";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Toon het selectievakje Status in takenlijst";
+
+$lang["pwa_install_message_for_iphone"] = "Klik op het %s-icoon, 'Toevoegen aan startscherm' in het browsermenu en voeg deze app toe aan uw startscherm voor eenvoudige toegang.";
+$lang["got_it"] = "Begrepen!";
+
+$lang["empty_comment_cannot_be_saved"] = "Lege opmerking kan niet worden opgeslagen.";
+
+$lang["short_ticket_templates"] = "Sjablonen";
+
 return $lang;

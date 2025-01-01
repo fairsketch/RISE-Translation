@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "År/måned basert på";
 $lang["none"] = "Ingen";
 $lang["trigger_manually"] = "Trigger manuelt";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Flervalg";
+$lang["field_type_checkboxes"] = "Kryssbokser";
+
+$lang["insert_into_editor"] = "Lim inn i editor";
+$lang["just_now"] = "Akkuat";
+$lang["minute_ago"] = "minutt siden";
+$lang["minutes_ago"] = "minutter siden";
+$lang["hour_ago"] = "time siden";
+$lang["hours_ago"] = "timer siden";
+$lang["day_ago"] = "dag siden";
+$lang["days_ago"] = "dager siden";
+$lang["month_ago"] = "måned siden";
+$lang["months_ago"] = "måneder siden";
+$lang["year_ago"] = "år siden";
+$lang["years_ago"] = "år siden";
+
+$lang["support_info"] = "Støtteinfo";
+$lang["in_messages"] = "I meldinger";
+$lang["out_messages"] = "Ut meldinger";
+
+$lang["ticket_tasks"] = "Billett-oppgaver";
+$lang["has_number_of_tickets_tickets"] = "Har %s billetter";
+
+$lang["signup_and_login"] = "Registrer deg & Logg inn";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Prosjekter & Oppgaver";
+$lang["others"] = "Andre";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Vis status-kryssboksen i oppgavelista";
+
+$lang["pwa_install_message_for_iphone"] = "Klikk på %s ikonet, 'Legg til på Hjem-skjermen' fra nettleseren og legg til denne appen på Hjem-skjermen for enkel tilgang.";
+$lang["got_it"] = "Jeg forstår!";
+
+$lang["empty_comment_cannot_be_saved"] = "Tom kommentar kan ikke lagres.";
+
+$lang["short_ticket_templates"] = "Maler";
+
 return $lang;

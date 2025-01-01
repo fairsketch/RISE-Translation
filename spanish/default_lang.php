@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Año/mes basado en";
 $lang["none"] = "Ninguno";
 $lang["trigger_manually"] = "Activar manualmente";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Elección Múltiple";
+$lang["field_type_checkboxes"] = "Casillas de Verificación";
+
+$lang["insert_into_editor"] = "Insertar en Editor";
+$lang["just_now"] = "Acaba de";
+$lang["minute_ago"] = "minuto atrás";
+$lang["minutes_ago"] = "minutos atrás";
+$lang["hour_ago"] = "hora atrás";
+$lang["hours_ago"] = "horas atrás";
+$lang["day_ago"] = "día atrás";
+$lang["days_ago"] = "días atrás";
+$lang["month_ago"] = "mes atrás";
+$lang["months_ago"] = "meses atrás";
+$lang["year_ago"] = "año atrás";
+$lang["years_ago"] = "años atrás";
+
+$lang["support_info"] = "Información de Soporte";
+$lang["in_messages"] = "En mensajes";
+$lang["out_messages"] = "Mensajes de salida";
+
+$lang["ticket_tasks"] = "Tareas de Ticket";
+$lang["has_number_of_tickets_tickets"] = "Tiene %s tickets";
+
+$lang["signup_and_login"] = "Registro e Inicio de Sesión";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Proyectos y Tareas";
+$lang["others"] = "Otros";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Mostrar la casilla de verificación de estado en la lista de tareas";
+
+$lang["pwa_install_message_for_iphone"] = "Haz clic en el icono %s, 'Agregar a pantalla de inicio' desde el menú del navegador y agrega esta aplicación a tu pantalla de inicio para acceder fácilmente.";
+$lang["got_it"] = "Entendido!";
+
+$lang["empty_comment_cannot_be_saved"] = "No se puede guardar un comentario vacío.";
+
+$lang["short_ticket_templates"] = "Plantillas";
+
 return $lang;

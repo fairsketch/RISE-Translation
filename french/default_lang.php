@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Année/mois basé sur";
 $lang["none"] = "Aucun";
 $lang["trigger_manually"] = "Déclencher manuellement";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Choix multiple";
+$lang["field_type_checkboxes"] = "Cases à cocher";
+
+$lang["insert_into_editor"] = "Insérer dans l'éditeur";
+$lang["just_now"] = "À l'instant";
+$lang["minute_ago"] = "il y a une minute";
+$lang["minutes_ago"] = "il y a minutes";
+$lang["hour_ago"] = "il y a une heure";
+$lang["hours_ago"] = "il y a heures";
+$lang["day_ago"] = "il y a un jour";
+$lang["days_ago"] = "il y a jours";
+$lang["month_ago"] = "il y a un mois";
+$lang["months_ago"] = "il y a mois";
+$lang["year_ago"] = "il y a un an";
+$lang["years_ago"] = "il y a ans";
+
+$lang["support_info"] = "Infos de support";
+$lang["in_messages"] = "Dans les messages";
+$lang["out_messages"] = "Messages sortants";
+
+$lang["ticket_tasks"] = "Tâches de ticket";
+$lang["has_number_of_tickets_tickets"] = "A %s tickets";
+
+$lang["signup_and_login"] = "Inscription & Connexion";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Projets & Tâches";
+$lang["others"] = "Autres";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Afficher la case à cocher de statut dans la liste des tâches";
+
+$lang["pwa_install_message_for_iphone"] = "Cliquez sur l'icône %s, 'Ajouter à l'écran d'accueil' dans le menu du navigateur et ajoutez cette application à votre écran d'accueil pour un accès facile.";
+$lang["got_it"] = "Compris!";
+
+$lang["empty_comment_cannot_be_saved"] = "Un commentaire vide ne peut pas être enregistré.";
+
+$lang["short_ticket_templates"] = "Modèles";
+
 return $lang;

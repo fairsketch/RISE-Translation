@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Jahr/Monat basierend auf";
 $lang["none"] = "Keine";
 $lang["trigger_manually"] = "Manuell auslösen";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Mehrfachauswahl";
+$lang["field_type_checkboxes"] = "Auswahlfelder";
+
+$lang["insert_into_editor"] = "In Editor einfügen";
+$lang["just_now"] = "Gerade eben";
+$lang["minute_ago"] = "Minute vor";
+$lang["minutes_ago"] = "Minuten vor";
+$lang["hour_ago"] = "Stunde vor";
+$lang["hours_ago"] = "Stunden vor";
+$lang["day_ago"] = "Tag vor";
+$lang["days_ago"] = "Tage vor";
+$lang["month_ago"] = "Monat vor";
+$lang["months_ago"] = "Monate vor";
+$lang["year_ago"] = "Jahr vor";
+$lang["years_ago"] = "Jahre vor";
+
+$lang["support_info"] = "Support-Informationen";
+$lang["in_messages"] = "In Nachrichten";
+$lang["out_messages"] = "Ausgehende Nachrichten";
+
+$lang["ticket_tasks"] = "Ticket-Aufgaben";
+$lang["has_number_of_tickets_tickets"] = "Hat %s Tickets";
+
+$lang["signup_and_login"] = "Registrieren & Einloggen";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Projekte & Aufgaben";
+$lang["others"] = "Andere";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Statuseinstellungen in der Aufgaben-Liste anzeigen";
+
+$lang["pwa_install_message_for_iphone"] = "Klicken Sie auf das %s Symbol, 'Zum Startbildschirm hinzufügen' im Browsermenü und fügen Sie diese App Ihrem Startbildschirm hinzu, um leicht darauf zuzugreifen.";
+$lang["got_it"] = "Verstanden!";
+
+$lang["empty_comment_cannot_be_saved"] = "Leere Kommentare können nicht gespeichert werden.";
+
+$lang["short_ticket_templates"] = "Vorlagen";
+
 return $lang;

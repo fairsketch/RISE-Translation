@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Год/месяц на основе";
 $lang["none"] = "Нет";
 $lang["trigger_manually"] = "Запустить вручную";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Множественный выбор";
+$lang["field_type_checkboxes"] = "Флажки";
+
+$lang["insert_into_editor"] = "Вставить в редактор";
+$lang["just_now"] = "Прямо сейчас";
+$lang["minute_ago"] = "минуту назад";
+$lang["minutes_ago"] = "минут назад";
+$lang["hour_ago"] = "час назад";
+$lang["hours_ago"] = "часов назад";
+$lang["day_ago"] = "день назад";
+$lang["days_ago"] = "дней назад";
+$lang["month_ago"] = "месяц назад";
+$lang["months_ago"] = "месяцев назад";
+$lang["year_ago"] = "год назад";
+$lang["years_ago"] = "лет назад";
+
+$lang["support_info"] = "Информация о поддержке";
+$lang["in_messages"] = "В сообщениях";
+$lang["out_messages"] = "Исходящих сообщений";
+
+$lang["ticket_tasks"] = "Задачи тикета";
+$lang["has_number_of_tickets_tickets"] = "Имеет %s тикетов";
+
+$lang["signup_and_login"] = "Регистрация & Вход";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Проекты & Задачи";
+$lang["others"] = "Другое";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Показать флажок статуса в списке задач";
+
+$lang["pwa_install_message_for_iphone"] = "Нажмите на иконку %s, 'Добавить на домашний экран' из меню браузера и добавьте это приложение на домашний экран для легкого доступа.";
+$lang["got_it"] = "Понятно!";
+
+$lang["empty_comment_cannot_be_saved"] = "Пустой комментарий не может быть сохранен.";
+
+$lang["short_ticket_templates"] = "Шаблоны";
+
 return $lang;

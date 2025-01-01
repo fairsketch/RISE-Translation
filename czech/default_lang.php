@@ -2760,4 +2760,43 @@ $lang["year_or_month_based_on"] = "Rok/měsíc podle";
 $lang["none"] = "Žádné";
 $lang["trigger_manually"] = "Spustit ručně";
 
+/* Version 3.8 */
+
+$lang["field_type_multiple_choice"] = "Více možností";
+$lang["field_type_checkboxes"] = "Zaškrtávací políčka";
+
+$lang["insert_into_editor"] = "Vložit do editoru";
+$lang["just_now"] = "Před chvílí";
+$lang["minute_ago"] = "minuta zpět";
+$lang["minutes_ago"] = "minuty zpět";
+$lang["hour_ago"] = "hodina zpět";
+$lang["hours_ago"] = "hodiny zpět";
+$lang["day_ago"] = "den zpět";
+$lang["days_ago"] = "dny zpět";
+$lang["month_ago"] = "měsíc zpět";
+$lang["months_ago"] = "měsíce zpět";
+$lang["year_ago"] = "rok zpět";
+$lang["years_ago"] = "roky zpět";
+
+$lang["support_info"] = "Informace o podpoře";
+$lang["in_messages"] = "Příchozí zprávy";
+$lang["out_messages"] = "Odchozí zprávy";
+
+$lang["ticket_tasks"] = "Úkoly lístku";
+$lang["has_number_of_tickets_tickets"] = "Má %s lístků";
+
+$lang["signup_and_login"] = "Registrace a přihlášení";
+$lang["ui"] = "UI";
+$lang["projects_and_tasks"] = "Projekty a úkoly";
+$lang["others"] = "Ostatní";
+
+$lang["show_the_status_checkbox_in_tasks_list"] = "Zobrazit checkbox stavu v seznamu úkolů";
+
+$lang["pwa_install_message_for_iphone"] = "Klikněte na ikonu %s, 'Přidat na plochu' z menu prohlížeče a přidejte tuto aplikaci na plochu pro snadný přístup.";
+$lang["got_it"] = "Rozumím!";
+
+$lang["empty_comment_cannot_be_saved"] = "Prazdný komentář nemůže být uložen.";
+
+$lang["short_ticket_templates"] = "Šablony";
+
 return $lang;
