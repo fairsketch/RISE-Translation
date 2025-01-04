@@ -2485,287 +2485,281 @@ $lang["hide_topbar"] = "Приховати верхню панель";
 
 /* Version 3.5.1 */
 
-$lang["enable_lock_state"] = "Включить состояние блокировки";
-$lang["invoice_lock_state_description"] = "После включения состояния блокировки счета нельзя будет редактировать после отправки клиенту или изменения статуса.";
-$lang["estimate_lock_state_description"] = "После того, как вы включите состояние блокировки, принятые оценки нельзя будет редактировать.";
-$lang["proposal_lock_state_description"] = "После включения состояния блокировки принятые предложения нельзя будет редактировать.";
-$lang["contract_lock_state_description"] = "После того, как вы включите состояние блокировки, принятые контракты нельзя будет редактировать.";
-
-/* Version 3.5.1 */
-
-$lang["enable_lock_state"] = "Enable lock state";
-$lang["invoice_lock_state_description"] = "Once you enable the lock state, the invoices can’t be edited after sending to client or changing the status.";
-$lang["estimate_lock_state_description"] = "Once you enable the lock state, the accepted estimates can’t be edited.";
-$lang["proposal_lock_state_description"] = "Once you enable the lock state, the accepted proposals can’t be edited.";
-$lang["contract_lock_state_description"] = "Once you enable the lock state, the accepted contracts can't be edited.";
+$lang["enable_lock_state"] = "Увімкнути режим блокування";
+$lang["invoice_lock_state_description"] = "Після увімкнення режиму блокування рахунки не можна редагувати після їх відправлення клієнту або зміни статусу.";
+$lang["estimate_lock_state_description"] = "Після увімкнення режиму блокування прийняті оцінки не можна редагувати.";
+$lang["proposal_lock_state_description"] = "Після увімкнення режиму блокування прийняті пропозиції не можна редагувати.";
+$lang["contract_lock_state_description"] = "Після увімкнення режиму блокування прийняті контракти не можна редагувати.";
 
 /* Version 3.6 */
 
-$lang["file_manager"] = "File manager";
+$lang["file_manager"] = "Файловий менеджер";
 
-$lang["all_files"] = "All files";
-$lang["recent_uploads"] = "Recent uploads";
+$lang["all_files"] = "Усі файли";
+$lang["recent_uploads"] = "Останні завантаження";
 
-$lang["favorites"] = "Favorites";
-$lang["new_folder"] = "New folder";
-$lang["folder_details"] = "Folder details";
-$lang["file_details"] = "File details";
-$lang["manage_access"] = "Manage access";
-$lang["root_folder"] = "Home";
-$lang["authorized_team_members"] = "Authorized team members";
+$lang["favorites"] = "Обране";
+$lang["new_folder"] = "Нова папка";
+$lang["folder_details"] = "Деталі папки";
+$lang["file_details"] = "Деталі файлу";
+$lang["manage_access"] = "Управління доступом";
+$lang["root_folder"] = "Головна";
+$lang["authorized_team_members"] = "Авторизовані учасники команди";
 
-$lang["full_access"] = "Full access";
-$lang["full_access_placeholder"] = "Choose who can manage everything";
-$lang["upload_and_organize"] = "Upload & Organize";
-$lang["upload_only"] = "Upload only";
+$lang["full_access"] = "Повний доступ";
+$lang["full_access_placeholder"] = "Оберіть, хто може керувати всім";
+$lang["upload_and_organize"] = "Завантажувати та організовувати";
+$lang["upload_only"] = "Тільки завантаження";
 
-$lang["folder_permission_instruction"] = "This permission will be applicable to this folder and all of its subfolders.";
-$lang["all_clients"] = "All Clients";
+$lang["folder_permission_instruction"] = "Цей дозвіл буде застосований до цієї папки та всіх її підпапок.";
+$lang["all_clients"] = "Усі клієнти";
 
-$lang["select_a_file_to_view_details"] = "Select a file of folder to view its details";
-$lang["empty"] = "Empty";
-$lang["folder"] = "Folder";
-$lang["folders"] = "Folders";
-$lang["rename"] = "Rename";
-$lang["rename_folder"] = "Rename folder";
+$lang["select_a_file_to_view_details"] = "Виберіть файл або папку для перегляду деталей";
+$lang["empty"] = "Порожньо";
+$lang["folder"] = "Папка";
+$lang["folders"] = "Папки";
+$lang["rename"] = "Перейменувати";
+$lang["rename_folder"] = "Перейменувати папку";
 
-$lang["folder_delete_confirmation_message"] = "Are you sure you want to permanently delete this folder and all of the subfolders and files?";
-$lang["file_delete_confirmation_message"] = "Are you sure you want to permanently delete this file?";
-$lang["explore"] = "Explore";
-$lang["add_to_favorites"] = "Add to Favorites";
-$lang["remove_from_favorites"] = "Remove from Favorites";
-$lang["uploaded_at"] = "Uploaded at";
-$lang["created_at"] = "Created at";
-$lang["who_has_access"] = "How has access";
+$lang["folder_delete_confirmation_message"] = "Ви впевнені, що хочете назавжди видалити цю папку разом з усіма підпапками та файлами?";
+$lang["file_delete_confirmation_message"] = "Ви впевнені, що хочете назавжди видалити цей файл?";
+$lang["explore"] = "Переглянути";
+$lang["add_to_favorites"] = "Додати до обраного";
+$lang["remove_from_favorites"] = "Видалити з обраного";
+$lang["uploaded_at"] = "Завантажено";
+$lang["created_at"] = "Створено";
+$lang["who_has_access"] = "Хто має доступ";
 
-$lang["search_folder_or_file"] = "Search folder or file";
-$lang["move"] = "Move";
-$lang["move_folder"] = "Move folder";
-$lang["move_file"] = "Move file";
 
-$lang["enable_audio_recording"] = "Enable audio recording";
-$lang["add_webm_file_format_to_enable_audio_recording"] = "Add webm file formate to enable audio recording.";
+$lang["search_folder_or_file"] = "Шукати папку або файл";
+$lang["move"] = "Перемістити";
+$lang["move_folder"] = "Перемістити папку";
+$lang["move_file"] = "Перемістити файл";
 
-$lang["reference"] = "Reference";
-$lang["link_copied"] = "Link copied!";
-$lang["recording"] = "Recording...";
+$lang["enable_audio_recording"] = "Увімкнути запис аудіо";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "Додайте формат файлів webm, щоб увімкнути запис аудіо.";
 
-$lang["https_required"] = "HTTPS required.";
+$lang["reference"] = "Посилання";
+$lang["link_copied"] = "Посилання скопійовано!";
+$lang["recording"] = "Запис...";
 
-$lang["info"] = "Info";
-$lang["select_any_folder_for_move"] = "Select any folder for move.";
+$lang["https_required"] = "Потрібен HTTPS.";
 
-$lang["enable_background_image_for_pdf"] = "Enable background image for pdf";
-$lang["pdf_background_image"] = "Pdf background image (510x720)";
-$lang["set_background_only_on_first_page"] = "Set background only on 1st page";
-$lang["invoice_item_list_background_color"] = "Invoice item list background color";
+$lang["info"] = "Інформація";
+$lang["select_any_folder_for_move"] = "Оберіть будь-яку папку для переміщення.";
 
-$lang["logo"] = "Logo";
-$lang["company_info"] = "Company Info";
-$lang["change_invoice_logo"] = "Change invoice logo";
+$lang["enable_background_image_for_pdf"] = "Увімкнути фонове зображення для PDF";
+$lang["pdf_background_image"] = "Фонове зображення для PDF (510x720)";
+$lang["set_background_only_on_first_page"] = "Встановити фон лише на першій сторінці";
+$lang["invoice_item_list_background_color"] = "Колір фону списку елементів рахунку";
 
-$lang["year"] = "Year";
-$lang["invoice_number_format"] = "Invoice number format";
-$lang["auto_increment_digits"] = "Auto increment %s Digits";
-$lang["year_based_on"] = "Year based on";
-$lang["reset_invoice_number_every_year"] = "Reset invoice number every year";
+$lang["logo"] = "Логотип";
+$lang["company_info"] = "Інформація про компанію";
+$lang["change_invoice_logo"] = "Змінити логотип рахунку";
 
-$lang["style"] = "Style";
+$lang["year"] = "Рік";
+$lang["invoice_number_format"] = "Формат номера рахунку";
+$lang["auto_increment_digits"] = "Автоматичне збільшення на %s цифр";
+$lang["year_based_on"] = "Рік на основі";
+$lang["reset_invoice_number_every_year"] = "Скидання номера рахунку кожного року";
 
-$lang["attach_pdf"] = "Attach PDF";
-$lang["attachment_size_is_too_large"] = "Attachment size is too large. It can't be attached with this email.";
+$lang["style"] = "Стиль";
 
-$lang["files_list"] = "Files list";
+$lang["attach_pdf"] = "Додати PDF";
+$lang["attachment_size_is_too_large"] = "Розмір вкладення занадто великий. Його не можна додати до цього листа.";
 
-$lang["hide_fields_on_lead_embedded_form"] = "Hide fields from lead embedded forms";
-$lang["unspecified"] = "Unspecified";
+$lang["files_list"] = "Список файлів";
 
-$lang["import_team_members"] = "Import team members";
-$lang["import_team_member_error_name_field_required"] = "First name and last name is both required to add a team member.";
-$lang["import_team_member_error_job_title_field_required"] = "Job title field is required.";
-$lang["import_team_member_error_email_field_required"] = "Email field is required.";
+$lang["hide_fields_on_lead_embedded_form"] = "Приховати поля у вбудованих формах для лідів";
+$lang["unspecified"] = "Не вказано";
 
-$lang["only_admin_users_can_set_the_admin_role"] = "Only admin users can set the Admin role.";
+$lang["import_team_members"] = "Імпортувати членів команди";
+$lang["import_team_member_error_name_field_required"] = "Ім'я та прізвище є обов'язковими для додавання члена команди.";
+$lang["import_team_member_error_job_title_field_required"] = "Поле посади є обов'язковим.";
+$lang["import_team_member_error_email_field_required"] = "Поле електронної пошти є обов'язковим.";
 
-$lang["import_projects"] = "Import projects";
-$lang["import_project_error_title_field_required"] = "Project title field is required.";
-$lang["import_project_error_project_type_field_required"] = "Project type field is required.";
-$lang["import_project_error_client_field_required"] = "Since it's client project, client field is required.";
-$lang["import_project_error_client_name"] = "Client name is invalid.";
-$lang["import_project_error_project_status"] = "Project status is invalid.";
+$lang["only_admin_users_can_set_the_admin_role"] = "Тільки адміністратори можуть встановлювати роль адміністратора.";
 
-$lang["import_contacts"] = "Import contacts";
-$lang["import_contact_error_name_field_required"] = "First name and last name are both required to add a contact.";
-$lang["import_contact__error_client_field_required"] = "Client field is required.";
-$lang["import_contact_error_client_name"] = "Client name is invalid.";
-$lang["import_gender_is_invalid"] = "Gender is invalid.";
+$lang["import_projects"] = "Імпортувати проєкти";
+$lang["import_project_error_title_field_required"] = "Поле заголовка проєкту є обов'язковим.";
+$lang["import_project_error_project_type_field_required"] = "Поле типу проєкту є обов'язковим.";
+$lang["import_project_error_client_field_required"] = "Оскільки це проєкт клієнта, поле клієнта є обов'язковим.";
+$lang["import_project_error_client_name"] = "Ім'я клієнта недійсне.";
+$lang["import_project_error_project_status"] = "Статус проєкту недійсний.";
 
-$lang["import_error_name_field_required"] = "Name field is required.";
-$lang["import_error_type_field_required"] = "Type field is required.";
-$lang["import_error_invalid_type"] = "Invalid type.";
+$lang["import_contacts"] = "Імпортувати контакти";
+$lang["import_contact_error_name_field_required"] = "Ім'я та прізвище є обов'язковими для додавання контакту.";
+$lang["import_contact__error_client_field_required"] = "Поле клієнта є обов'язковим.";
+$lang["import_contact_error_client_name"] = "Ім'я клієнта недійсне.";
+$lang["import_gender_is_invalid"] = "Стать недійсна.";
 
-$lang["can_access_everything"] = "Can access everything";
-$lang["user_permissions"] = "User permissions";
-$lang["can_access_only"] = "Can access only";
+$lang["import_error_name_field_required"] = "Поле імені є обов'язковим.";
+$lang["import_error_type_field_required"] = "Поле типу є обов'язковим.";
+$lang["import_error_invalid_type"] = "Недійсний тип.";
 
-$lang["email_seen_at"] = "Email seen at";
-$lang["email_seen_count"] = "Email seen count";
+$lang["can_access_everything"] = "Може отримати доступ до всього";
+$lang["user_permissions"] = "Дозволи користувачів";
+$lang["can_access_only"] = "Може отримати доступ лише до";
 
-$lang["last_preview_seen"] = "Last preview seen";
-$lang["last_email_seen"] = "Last email seen";
+$lang["email_seen_at"] = "Електронну пошту переглянуто о";
+$lang["email_seen_count"] = "Кількість переглядів електронної пошти";
 
-$lang["subscription_cancelled"] = "Subscription cancelled";
-$lang["notification_subscription_cancelled"] = "Cancelled a subscription";
+$lang["last_preview_seen"] = "Останній перегляд";
+$lang["last_email_seen"] = "Останній перегляд електронної пошти";
 
-$lang["enable_comments_on_proposals"] = "Enable comments on proposals";
-$lang["show_most_recent_proposal_comments_at_the_top"] = "Show most recent proposal comments at the top";
-$lang["proposal_commented"] = "Proposal commented";
-$lang["proposal_creator"] = "Proposal creator";
-$lang["notification_proposal_commented"] = "Commented on an proposal.";
+$lang["subscription_cancelled"] = "Підписку скасовано";
+$lang["notification_subscription_cancelled"] = "Підписку скасовано.";
 
-$lang["can_upload_and_edit_files"] = "Can upload and edit files";
-$lang["can_comment_on_projects"] = "Can comment on projects";
-$lang["can_view_files"] = "Can view files";
+$lang["enable_comments_on_proposals"] = "Увімкнути коментарі до пропозицій";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "Показувати останні коментарі до пропозицій угорі";
+$lang["proposal_commented"] = "Запропоновано коментар";
+$lang["proposal_creator"] = "Автор пропозиції";
+$lang["notification_proposal_commented"] = "Прокоментував пропозицію.";
 
-$lang["default_permissions_for_non_primary_contact"] = "Default permissions for non-primary contact";
-$lang["primary_contact_will_get_full_permission_message"] = "Note: The primary contact will get full permission.";
-$lang["permission_is_required"] = "Permission is required.";
-$lang["make_primary_contact_help_message"] = "The existing primary contact will still have full access. You can change the permission anytime.";
-$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primary contact can manage the permission of other contacts.";
+$lang["can_upload_and_edit_files"] = "Може завантажувати та редагувати файли";
+$lang["can_comment_on_projects"] = "Може коментувати проєкти";
+$lang["can_view_files"] = "Може переглядати файли";
+
+$lang["default_permissions_for_non_primary_contact"] = "Типові дозволи для непрямих контактів";
+$lang["primary_contact_will_get_full_permission_message"] = "Примітка: Первинний контакт отримає повний доступ.";
+$lang["permission_is_required"] = "Дозвіл обов'язковий.";
+$lang["make_primary_contact_help_message"] = "Існуючий первинний контакт все ще матиме повний доступ. Ви можете змінити дозволи в будь-який час.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Первинний контакт може керувати дозволами інших контактів.";
+
 
 /* Version 3.7 */
 
-$lang["dynamic"] = "Dynamic";
-$lang["select_range"] = "Select range";
+$lang["dynamic"] = "Динамічний";
+$lang["select_range"] = "Вибрати діапазон";
 
-$lang["proposal_preview_opened"] = "Proposal preview opened";
-$lang["notification_proposal_preview_opened"] = "Opened a proposal preview.";
-$lang["proposal_email_opened"] = "Proposal email opened";
-$lang["notification_proposal_email_opened"] = "Opened a proposal email.";
+$lang["proposal_preview_opened"] = "Попередній перегляд пропозиції відкрито";
+$lang["notification_proposal_preview_opened"] = "Відкрито попередній перегляд пропозиції.";
+$lang["proposal_email_opened"] = "Електронний лист із пропозицією відкрито";
+$lang["notification_proposal_email_opened"] = "Відкрито електронний лист із пропозицією.";
 
-$lang["create_contract"] = "Create Contract";
+$lang["create_contract"] = "Створити контракт";
 
-$lang["create_as_a_non_subtask"] = "Create as a non-subtask";
-$lang["install_this_app"] = "Install this app.";
-$lang["app_color"] = "App color";
+$lang["create_as_a_non_subtask"] = "Створити як не підзадачу";
+$lang["install_this_app"] = "Встановити цей додаток.";
+$lang["app_color"] = "Колір додатка";
 
-$lang["skip"] = "Skip";
+$lang["skip"] = "Пропустити";
 
-$lang["self_improvements"] = "Self Improvements";
-$lang["business_growth"] = "Business Growth";
-$lang["sales_management"] = "Sales Management";
-$lang["customer_support"] = "Customer Support";
-$lang["team_management"] = "Team Management";
-$lang["collaboration"] = "Collaboration";
+$lang["self_improvements"] = "Самовдосконалення";
+$lang["business_growth"] = "Розвиток бізнесу";
+$lang["sales_management"] = "Управління продажами";
+$lang["customer_support"] = "Підтримка клієнтів";
+$lang["team_management"] = "Управління командою";
+$lang["collaboration"] = "Співпраця";
 
-$lang["send_first_reminder_before"] = "Send 1st reminder before";
-$lang["send_second_reminder_before"] = "Send 2nd reminder before";
-$lang["subscription_renewal_reminder"] = "Subscription renewal reminder";
-$lang["notification_subscription_renewal_reminder"] = "Subscription renewal reminder";
+$lang["send_first_reminder_before"] = "Надіслати перше нагадування за";
+$lang["send_second_reminder_before"] = "Надіслати друге нагадування за";
+$lang["subscription_renewal_reminder"] = "Нагадування про поновлення підписки";
+$lang["notification_subscription_renewal_reminder"] = "Нагадування про поновлення підписки";
 
-$lang["enable_tinymce"] = "Enable TinyMCE";
-$lang["tinymce_api_key"] = "TinyMCE API key";
+$lang["enable_tinymce"] = "Увімкнути TinyMCE";
+$lang["tinymce_api_key"] = "Ключ API TinyMCE";
 
-$lang["protocol"] = "Protocol";
-$lang["re_captcha_suspicious_activity"] = "The reCAPTCHA detected suspicious activity.";
+$lang["protocol"] = "Протокол";
+$lang["re_captcha_suspicious_activity"] = "reCAPTCHA виявила підозрілу активність.";
 
-$lang["all_contacts_of_the_client"] = "All contacts of the client";
-$lang["specific_contacts_of_the_client"] = "Specific contacts of the client";
+$lang["all_contacts_of_the_client"] = "Усі контакти клієнта";
+$lang["specific_contacts_of_the_client"] = "Конкретні контакти клієнта";
 
-$lang["please_do_not_use_duplicate_variables"] = "Please don't use duplicate variables.";
-$lang["please_do_not_use_invalid_special_character"] = "Please don't use invalid special character.";
-$lang["please_use_any_serial"] = "Please use any serial.";
+$lang["please_do_not_use_duplicate_variables"] = "Будь ласка, не використовуйте дубльовані змінні.";
+$lang["please_do_not_use_invalid_special_character"] = "Будь ласка, не використовуйте недійсні спеціальні символи.";
+$lang["please_use_any_serial"] = "Будь ласка, використовуйте будь-який серійний номер.";
 
-$lang["add_automation"] = "Add automation";
-$lang["edit_automation"] = "Edit automation";
+$lang["add_automation"] = "Додати автоматизацію";
+$lang["edit_automation"] = "Редагувати автоматизацію";
 
-$lang["automations"] = "Automations";
+$lang["automations"] = "Автоматизації";
 
-$lang["match_any"] = "Match any";
-$lang["match_all"] = "Match all";
-$lang["email_address"] = "Email address";
-$lang["email_subject"] = "Email subject";
-$lang["email_content"] = "Email content";
+$lang["match_any"] = "Відповідає будь-якому";
+$lang["match_all"] = "Відповідає всім";
+$lang["email_address"] = "Електронна адреса";
+$lang["email_subject"] = "Тема електронного листа";
+$lang["email_content"] = "Зміст електронного листа";
 
-$lang["imap_email_received"] = "IMAP email received";
-$lang["new_ticket_created_by_imap_email"] = "New ticket created by IMAP email";
+$lang["imap_email_received"] = "Отримано електронний лист IMAP";
+$lang["new_ticket_created_by_imap_email"] = "Створено новий тікет через IMAP-лист";
 
-$lang["conditions"] = "Conditions";
-$lang["block_ticket_creation"] = "Block ticket creation";
-$lang["if"] = "If";
+$lang["conditions"] = "Умови";
+$lang["block_ticket_creation"] = "Заблокувати створення тікета";
+$lang["if"] = "Якщо";
 
-$lang["small_letter_field"] = "______ field";
-$lang["small_letter_condition_is_equal"] = "is equal to";
-$lang["small_letter_condition_is_not_equal"] = "is not equal to";
-$lang["small_letter_condition_is_in_list"] = "is in list";
-$lang["small_letter_condition_is_not_in_list"] = "is not in list";
+$lang["small_letter_field"] = "______ поле";
+$lang["small_letter_condition_is_equal"] = "дорівнює";
+$lang["small_letter_condition_is_not_equal"] = "не дорівнює";
+$lang["small_letter_condition_is_in_list"] = "у списку";
+$lang["small_letter_condition_is_not_in_list"] = "не у списку";
 
-$lang["small_letter_condition_is_contains"] = "is contains";
-$lang["small_letter_condition_is_not_contains"] = "is not contains";
-$lang["small_letter_condition_is_contains_in_list"] = "is contains in list";
-$lang["small_letter_condition_is_not_contains_in_list"] = "is not contains in list";
-$lang["small_letter_something"] = "something";
-$lang["small_letter_is_something"] = "is something";
-$lang["small_letter_and"] = "and";
-$lang["small_letter_or"] = "or";
+$lang["small_letter_condition_is_contains"] = "містить";
+$lang["small_letter_condition_is_not_contains"] = "не містить";
+$lang["small_letter_condition_is_contains_in_list"] = "містить у списку";
+$lang["small_letter_condition_is_not_contains_in_list"] = "не містить у списку";
+$lang["small_letter_something"] = "щось";
+$lang["small_letter_is_something"] = "є щось";
+$lang["small_letter_and"] = "і";
+$lang["small_letter_or"] = "або";
 
-$lang["select_placeholder"] = "Select...";
-$lang["select_placeholder_type_and_press_enter"] = "Type and press Enter";
+$lang["select_placeholder"] = "Вибрати...";
+$lang["select_placeholder_type_and_press_enter"] = "Введіть текст і натисніть Enter";
 
-$lang["do_something"] = "Do something...";
-$lang["do_not_create_ticket"] = "Do not create ticket";
-$lang["set_field_"] = "Set";
-$lang["please_input_all_required_fields"] = "Please input all required fields.";
-$lang["grid"] = "Grid";
+$lang["do_something"] = "Зробити щось...";
+$lang["do_not_create_ticket"] = "Не створювати тікет";
+$lang["set_field_"] = "Встановити";
+$lang["please_input_all_required_fields"] = "Будь ласка, заповніть усі обов'язкові поля.";
+$lang["grid"] = "Сітка";
 
-$lang["disable_pdf_for_clients"] = "Disable PDF for clients";
+$lang["disable_pdf_for_clients"] = "Вимкнути PDF для клієнтів";
 
-$lang["select_specific"] = "Select specific";
-$lang["clear_selection"] = "Clear selection";
-$lang["download_selected_items"] = "Download selected items";
-$lang["delete_selected_items"] = "Delete selected items";
-$lang["year_or_month_based_on"] = "Year/month based on";
+$lang["select_specific"] = "Вибрати конкретне";
+$lang["clear_selection"] = "Очистити вибір";
+$lang["download_selected_items"] = "Завантажити вибрані елементи";
+$lang["delete_selected_items"] = "Видалити вибрані елементи";
+$lang["year_or_month_based_on"] = "Рік/місяць на основі";
 
-$lang["none"] = "None";
-$lang["trigger_manually"] = "Trigger Manually";
+$lang["none"] = "Немає";
+$lang["trigger_manually"] = "Запустити вручну";
 
 /* Version 3.8 */
 
-$lang["field_type_multiple_choice"] = "Multiple Choice";
-$lang["field_type_checkboxes"] = "Checkboxes";
+$lang["field_type_multiple_choice"] = "Множинний вибір";
+$lang["field_type_checkboxes"] = "Прапорці";
 
-$lang["insert_into_editor"] = "Insert into editor";
-$lang["just_now"] = "Just now";
-$lang["minute_ago"] = "minute ago";
-$lang["minutes_ago"] = "minutes ago";
-$lang["hour_ago"] = "hour ago";
-$lang["hours_ago"] = "hours ago";
-$lang["day_ago"] = "day ago";
-$lang["days_ago"] = "days ago";
-$lang["month_ago"] = "month ago";
-$lang["months_ago"] = "months ago";
-$lang["year_ago"] = "year ago";
-$lang["years_ago"] = "years ago";
+$lang["insert_into_editor"] = "Вставити в редактор";
+$lang["just_now"] = "Щойно";
+$lang["minute_ago"] = "хвилину тому";
+$lang["minutes_ago"] = "хвилин тому";
+$lang["hour_ago"] = "годину тому";
+$lang["hours_ago"] = "годин тому";
+$lang["day_ago"] = "день тому";
+$lang["days_ago"] = "днів тому";
+$lang["month_ago"] = "місяць тому";
+$lang["months_ago"] = "місяців тому";
+$lang["year_ago"] = "рік тому";
+$lang["years_ago"] = "років тому";
 
-$lang["support_info"] = "Support info";
-$lang["in_messages"] = "In messages";
-$lang["out_messages"] = "Out messags";
+$lang["support_info"] = "Інформація про підтримку";
+$lang["in_messages"] = "Вхідні повідомлення";
+$lang["out_messages"] = "Вихідні повідомлення";
 
-$lang["ticket_tasks"] = "Ticket tasks";
-$lang["has_number_of_tickets_tickets"] = "Has %s tickets";
+$lang["ticket_tasks"] = "Завдання тікетів";
+$lang["has_number_of_tickets_tickets"] = "Має %s тікетів";
 
-$lang["signup_and_login"] = "Signup & Login";
-$lang["ui"] = "UI";
-$lang["projects_and_tasks"] = "Projects & Tasks";
-$lang["others"] = "Others";
+$lang["signup_and_login"] = "Реєстрація та Вхід";
+$lang["ui"] = "Інтерфейс";
+$lang["projects_and_tasks"] = "Проєкти та Завдання";
+$lang["others"] = "Інше";
 
-$lang["show_the_status_checkbox_in_tasks_list"] = "Show the status checkbox in tasks list";
+$lang["show_the_status_checkbox_in_tasks_list"] = "Показати прапорець статусу в списку завдань";
 
-$lang["pwa_install_message_for_iphone"] = "Click on %s icon, 'Add to Home Screen' from the browser menu and add this app to your home screen for easy access.";
-$lang["got_it"] = "Got it!";
+$lang["pwa_install_message_for_iphone"] = "Натисніть на значок %s, виберіть 'Додати на головний екран' у меню браузера та додайте цей додаток на головний екран для зручного доступу.";
+$lang["got_it"] = "Зрозуміло!";
 
-$lang["empty_comment_cannot_be_saved"] = "Empty comment cannot be saved.";
+$lang["empty_comment_cannot_be_saved"] = "Порожній коментар не можна зберегти.";
 
-$lang["short_ticket_templates"] = "Templates";
+$lang["short_ticket_templates"] = "Шаблони";
 
 return $lang;
