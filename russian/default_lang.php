@@ -2,7 +2,7 @@
 
 /* NOTE: DO NOT CHANGE THIS FILE. IF YOU WANT TO UPDATE THE LANGUAGE THEN COPY THIS FILE TO custom_lang.php AND UPDATE THERE */
 
-/* язык */
+/* language locale */
 $lang["language_locale"] = "ru"; //locale code
 $lang["language_locale_long"] = "ru-RU"; //long locale code
 $lang["text_direction"] = "ltr"; //supported value ltr/rtl
@@ -419,7 +419,7 @@ $lang["accepted_file_format"] = "Допустимый формат файла";
 $lang["comma_separated"] = "Разделяется запятой";
 $lang["project_file"] = "Файл";
 $lang["download"] = "Загрузить";
-$lang["download_files"] = "Загрузить %s файла"; //Ex. Download 4 files
+$lang["download_files"] = "Загрузить %s файла"; //Ex. Download 4 files;
 $lang["file_preview_is_not_available"] = "Предварительный просмотр файла невозможен.";
 
 /* tasks */
@@ -546,7 +546,6 @@ $lang["avilable_variables"] = "Доступные варианты";
 $lang["restore_to_default"] = "Вернуть вариант по умолчанию";
 $lang["template_restored"] = "Был восстановлен шаблон по умолчанию.";
 $lang["login_info"] = "Учетные данные";
-$lang["reset_password"] = "Сбросить пароль";
 $lang["team_member_invitation"] = "Приглашения для участника команды";
 $lang["client_contact_invitation"] = "Приглашение для контактного лица клиента";
 $lang["send_invoice"] = "Отправить счет";
@@ -603,7 +602,7 @@ $lang["minimum_payment_amount"] = "Минимальная сумма оплат�
 $lang["minimum_payment_amount_help_text"] = "Если сумма счета будет меньше этой суммы, клиенты не смогут оплатить счет с помощью данного метода оплаты.";
 $lang["pay_invoice"] = "Оплатить счет";
 $lang["pay_button_text"] = "Текст для кнопки оплаты";
-$lang["minimum_payment_validation_message"] = "Сумма оплаты не может быть меньше, чем: "; //ex. The payment amount can't be less then: USD 100.00
+$lang["minimum_payment_validation_message"] = "Сумма оплаты не может быть меньше, чем: "; //ex. The payment amount can't be less then: USD 100.00;
 $lang["invoice_settings"] = "Настройки счета";
 $lang["allow_partial_invoice_payment_from_clients"] = "Разрешить частичную оплату от клиентов";
 $lang["invoice_color"] = "Цвет счета";
@@ -699,14 +698,14 @@ $lang["notification_project_created"] = "Создан новый проект.";
 $lang["notification_project_deleted"] = "Проект удален.";
 $lang["notification_project_task_created"] = "Создана новая задача.";
 $lang["notification_project_task_updated"] = "Задача обновлена.";
-$lang["notification_project_task_assigned"] = "Задача поручена %s"; //Assigned a task to Mr. X
+$lang["notification_project_task_assigned"] = "Задача поручена %s"; //Assigned a task to Mr. X;
 $lang["notification_project_task_started"] = "Задача запущена.";
 $lang["notification_project_task_finished"] = "Задача завершена.";
 $lang["notification_project_task_reopened"] = "Задача перезапущена.";
 $lang["notification_project_task_deleted"] = "Задача удалена.";
 $lang["notification_project_task_commented"] = "Добавлен комментарий к задаче.";
-$lang["notification_project_member_added"] = "К проекту подключен %s."; //Added Mr. X in a project.
-$lang["notification_project_member_deleted"] = "%s удален из проекта."; //Deleted Mr. X from a project.
+$lang["notification_project_member_added"] = "К проекту подключен %s."; //Added Mr. X in a project.;
+$lang["notification_project_member_deleted"] = "%s удален из проекта."; //Deleted Mr. X from a project.;
 $lang["notification_project_file_added"] = "В проект добавлен файл.";
 $lang["notification_project_file_deleted"] = "Из проекта удален файл.";
 $lang["notification_project_file_commented"] = "К файлу добавлен комментарий.";
@@ -714,12 +713,12 @@ $lang["notification_project_comment_added"] = "К проекту добавле�
 $lang["notification_project_comment_replied"] = "Добавлен ответ на комментарий к проекту.";
 $lang["notification_project_customer_feedback_added"] = "Добавлен комментарий к проекту.";
 $lang["notification_project_customer_feedback_replied"] = "Добавлен ответ на комментарий.";
-$lang["notification_client_signup"] = "Зарегистрирован как новый клиент."; //Mr. X signed up as a new client.
+$lang["notification_client_signup"] = "Зарегистрирован как новый клиент."; //Mr. X signed up as a new client.;
 $lang["notification_invoice_online_payment_received"] = "Получен онлайн платеж.";
 $lang["notification_leave_application_submitted"] = "Подано заявление на отпуск.";
-$lang["notification_leave_approved"] = "Одобрено заявление на отпуск %s."; //Approved a leave of Mr. X
-$lang["notification_leave_assigned"] = "Утверждено заявление на отпуск %s."; //Assigned a leave to Mr. X
-$lang["notification_leave_rejected"] = "Отклонено заявление на отпуск %s."; //Approve a leave of Mr. X
+$lang["notification_leave_approved"] = "Одобрено заявление на отпуск %s."; //Approved a leave of Mr. X;
+$lang["notification_leave_assigned"] = "Утверждено заявление на отпуск %s."; //Assigned a leave to Mr. X;
+$lang["notification_leave_rejected"] = "Отклонено заявление на отпуск %s."; //Approve a leave of Mr. X;
 $lang["notification_leave_canceled"] = "Заявление на отпуск отменено.";
 $lang["notification_ticket_created"] = "Создана новая заявка.";
 $lang["notification_ticket_commented"] = "Получен комментарий к заявке.";
@@ -734,7 +733,7 @@ $lang["disable_online_payment_description"] = "Скрыть параметры �
 $lang["client_can_view_project_files"] = "Может ли клиент просматривать файлы проекта?";
 $lang["client_can_add_project_files"] = "Может ли клиент добавлять файлы проекта?";
 $lang["client_can_comment_on_files"] = "Может ли клиент комментировать файлы?";
-$lang["mark_invoice_as_not_paid"] = "Выбрать Не оплачено"; //Change invoice status to Not Paid
+$lang["mark_invoice_as_not_paid"] = "Выбрать Не оплачено"; //Change invoice status to Not Paid;
 
 $lang["set_team_members_permission"] = "Установить разрешения для сотрудников команды";
 $lang["can_view_team_members_contact_info"] = "Разрешается просматривать контактную информацию сотрудников?";
@@ -749,7 +748,7 @@ $lang["modules"] = "Модули";
 $lang["manage_modules"] = "Управлять модулями";
 $lang["module_settings_instructions"] = "Выберите модули, которые хотите использовать.";
 
-$lang["task_point_help_text"] = "Баллы задач зависят от ее важности. Вы можете установить 5 баллов за выполнение очень трудных задач и 1 балл за выполнение очень простых задач."; //значение баллов за выполнение задачи
+$lang["task_point_help_text"] = "Баллы задач зависят от ее важности. Вы можете установить 5 баллов за выполнение очень трудных задач и 1 балл за выполнение очень простых задач."; //meaning of task point;
 
 $lang["mark_as_open"] = "Открыть";
 $lang["mark_as_closed"] = "Закрыть";
@@ -939,7 +938,7 @@ $lang["client_can_view_overview"] = "Клиент может просмотре�
 $lang["client_can_view_milestones"] = "Клиент может просматривать этапы?";
 
 $lang["items"] = "Каталог";
-$lang["edit_item"] = "Редактировать каталог";
+$lang["edit_item"] = "Редактировать элемент";
 $lang["item_edit_instruction"] = "Примечание: Изменения не повлияют на существующие счета или сметы.";
 
 $lang["recurring"] = "Повторы";
@@ -1021,7 +1020,6 @@ $lang["re_captcha_error-bad-request"] = "Недопустимый или нев�
 $lang["re_captcha_expired"] = "reCAPTCHA истек. Пожалуйста, перезагрузите страницу.";
 
 $lang["yes_all_tickets"] = "Да, все заявки";
-$lang["choose_ticket_types"] = "Выберите тип заявки";
 
 $lang["can_manage_all_projects"] = "Может редактировать все проекты";
 $lang["show_most_recent_ticket_comments_at_the_top"] = "Новые комментарии показывать сверху";
@@ -1537,7 +1535,6 @@ $lang["link_to_new_client"] = "Ссылка на нового клиента";
 
 $lang["client_can_view_files"] = "Клиент может просматривать файлы?";
 $lang["client_can_add_files"] = "Клиент может добавлять файлы?";
-$lang["client_can_view_activity"] = "Клиент может просматривать деятельность по проекту?";
 $lang["client_can_edit_projects"] = "Клиент может редактировать проекты?";
 
 $lang["view_pdf"] = "Посмотреть PDF";
@@ -1843,10 +1840,6 @@ $lang["reports"] = "Отчеты";
 $lang["yes_all_estimates"] = "Да, все оценки";
 $lang["yes_only_own_estimates"] = "Да, только собственные оценки";
 
-$lang["add_category"] = "Добавить категорию";
-$lang["edit_category"] = "Редактировать категорию";
-$lang["delete_category"] = "Удалить категорию";
-
 $lang["proposal"] = "Предложение";
 $lang["proposals"] = "Предложения";
 $lang["can_access_proposals"] = "Дать доступ к предложениям?";
@@ -1944,7 +1937,6 @@ $lang["save_as_note"] = "Сохранить как примечание";
 $lang["client_will_not_see_any_notes"] = "Клиент не увидит никаких заметок.";
 
 $lang["prospects"] = "Брифы";
-$lang["estimate_forms"] = "Формы запросов";
 
 $lang["proposal_editor"] = "Редактор предложения";
 $lang["proposal_templates"] = "Шаблоны предложений";
@@ -1967,7 +1959,7 @@ $lang["can_add_or_invite_new_team_members"] = "Может добавлять / �
 
 $lang["add_signature_option_on_accepting_proposal"] = "Добавить вариант подписи при принятии предложения";
 $lang["accept"] = "Принимать";
-$lang["signer_info"] = "Информация о подписывающей стороне";
+$lang["signer_info"] = "Информация о подписавшем";
 $lang["default_template"] = "Шаблон по умолчанию";
 $lang["change_template"] = "Изменить шаблон";
 $lang["this_variable_is_unsupported"] = "Эта переменная не поддерживается";
@@ -2780,7 +2772,7 @@ $lang["years_ago"] = "лет назад";
 
 $lang["support_info"] = "Информация о поддержке";
 $lang["in_messages"] = "В сообщениях";
-$lang["out_messages"] = "Исходящих сообщений";
+$lang["out_messages"] = "Исходящие сообщения";
 
 $lang["ticket_tasks"] = "Задачи тикета";
 $lang["has_number_of_tickets_tickets"] = "Имеет %s тикетов";
@@ -2798,5 +2790,13 @@ $lang["got_it"] = "Понятно!";
 $lang["empty_comment_cannot_be_saved"] = "Пустой комментарий не может быть сохранен.";
 
 $lang["short_ticket_templates"] = "Шаблоны";
+
+/* Version 3.8.2 */
+
+$lang["sortable"] = "Сортируемый";
+$lang["total_hours"] = "Всего часов";
+$lang["support_only_project_related_tasks_globally_label"] = "Создавайте только задачи, связанные с проектом, из модального окна создания глобальных задач.";
+
+$lang["name_and_company_name_error_message"] = "Имя, фамилию и название компании нельзя скрыть одновременно.";
 
 return $lang;

@@ -419,7 +419,7 @@ $lang["accepted_file_format"] = "Accepted file format";
 $lang["comma_separated"] = "Comma separated";
 $lang["project_file"] = "File";
 $lang["download"] = "Download";
-$lang["download_files"] = "Download %s files"; //Ex. Download 4 files
+$lang["download_files"] = "Download %s files"; //Ex. Download 4 files;
 $lang["file_preview_is_not_available"] = "File preview is not available.";
 
 /* tasks */
@@ -546,7 +546,6 @@ $lang["avilable_variables"] = "Available variables";
 $lang["restore_to_default"] = "Restore to default";
 $lang["template_restored"] = "The template has been restored to default.";
 $lang["login_info"] = "Login info";
-$lang["reset_password"] = "Reset password";
 $lang["team_member_invitation"] = "Team member invitation";
 $lang["client_contact_invitation"] = "Client contact invitation";
 $lang["send_invoice"] = "Send invoice";
@@ -603,7 +602,7 @@ $lang["minimum_payment_amount"] = "Minimum payment amount";
 $lang["minimum_payment_amount_help_text"] = "Clients will not be able to pay the invoice using this payment method, if the invoice value less than this value.";
 $lang["pay_invoice"] = "Pay Invoice";
 $lang["pay_button_text"] = "Pay button text";
-$lang["minimum_payment_validation_message"] = "The payment amount can't be less then: "; //ex. The payment amount can't be less then: USD 100.00
+$lang["minimum_payment_validation_message"] = "The payment amount can't be less then: "; //ex. The payment amount can't be less then: USD 100.00;
 $lang["invoice_settings"] = "Invoice Settings";
 $lang["allow_partial_invoice_payment_from_clients"] = "Allow partial payment from clients";
 $lang["invoice_color"] = "Invoice Color";
@@ -699,14 +698,14 @@ $lang["notification_project_created"] = "Created a new project.";
 $lang["notification_project_deleted"] = "Deleted a project.";
 $lang["notification_project_task_created"] = "Created a new task.";
 $lang["notification_project_task_updated"] = "Updated a task.";
-$lang["notification_project_task_assigned"] = "Assigned a task to %s"; //Assigned a task to Mr. X
+$lang["notification_project_task_assigned"] = "Assigned a task to %s"; //Assigned a task to Mr. X;
 $lang["notification_project_task_started"] = "Started a task.";
 $lang["notification_project_task_finished"] = "Finished a task.";
 $lang["notification_project_task_reopened"] = "Reopened a task.";
 $lang["notification_project_task_deleted"] = "Deleted a task.";
 $lang["notification_project_task_commented"] = "Commented on a task.";
-$lang["notification_project_member_added"] = "Added %s in a project."; //Added Mr. X in a project.
-$lang["notification_project_member_deleted"] = "Deleted %s from a project."; //Deleted Mr. X from a project.
+$lang["notification_project_member_added"] = "Added %s in a project."; //Added Mr. X in a project.;
+$lang["notification_project_member_deleted"] = "Deleted %s from a project."; //Deleted Mr. X from a project.;
 $lang["notification_project_file_added"] = "Added a file in project.";
 $lang["notification_project_file_deleted"] = "Deleted a file from project.";
 $lang["notification_project_file_commented"] = "Commented on a file.";
@@ -714,12 +713,12 @@ $lang["notification_project_comment_added"] = "Commented on a project.";
 $lang["notification_project_comment_replied"] = "Replied on a project comment.";
 $lang["notification_project_customer_feedback_added"] = "Commented on a project.";
 $lang["notification_project_customer_feedback_replied"] = "Replied on a comment.";
-$lang["notification_client_signup"] = "Signed up as a new client."; //Mr. X signed up as a new client.
+$lang["notification_client_signup"] = "Signed up as a new client."; //Mr. X signed up as a new client.;
 $lang["notification_invoice_online_payment_received"] = "Submitted an online payment.";
 $lang["notification_leave_application_submitted"] = "Submitted a leave application.";
-$lang["notification_leave_approved"] = "Approved a leave of %s."; //Approved a leave of Mr. X
-$lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X
-$lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X
+$lang["notification_leave_approved"] = "Approved a leave of %s."; //Approved a leave of Mr. X;
+$lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X;
+$lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X;
 $lang["notification_leave_canceled"] = "Canceled a leave appliction.";
 $lang["notification_ticket_created"] = "Created a new ticket.";
 $lang["notification_ticket_commented"] = "Commented on a ticket.";
@@ -734,7 +733,7 @@ $lang["disable_online_payment_description"] = "Hide online payment options in in
 $lang["client_can_view_project_files"] = "Client can view project files?";
 $lang["client_can_add_project_files"] = "Client can add project files?";
 $lang["client_can_comment_on_files"] = "Client can comment on files?";
-$lang["mark_invoice_as_not_paid"] = "Mark as Not paid"; //Change invoice status to Not Paid
+$lang["mark_invoice_as_not_paid"] = "Mark as Not paid"; //Change invoice status to Not Paid;
 
 $lang["set_team_members_permission"] = "Set team members permissions";
 $lang["can_view_team_members_contact_info"] = "Can view team member's contact info?";
@@ -749,7 +748,7 @@ $lang["modules"] = "Modules";
 $lang["manage_modules"] = "Manage Modules";
 $lang["module_settings_instructions"] = "Select the modules you want to use.";
 
-$lang["task_point_help_text"] = "Task point considered as a task value. You can set 5 points for very difficult tasks and 1 point for easy tasks."; //meaning of task point
+$lang["task_point_help_text"] = "Task point considered as a task value. You can set 5 points for very difficult tasks and 1 point for easy tasks."; //meaning of task point;
 
 $lang["mark_as_open"] = "Mark as Open";
 $lang["mark_as_closed"] = "Mark as Closed";
@@ -1021,7 +1020,6 @@ $lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
 $lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
 
 $lang["yes_all_tickets"] = "Yes, all tickets";
-$lang["choose_ticket_types"] = "Choose ticket types";
 
 $lang["can_manage_all_projects"] = "Can manage all projects";
 $lang["show_most_recent_ticket_comments_at_the_top"] = "Show most recent ticket comments at the top";
@@ -1537,7 +1535,6 @@ $lang["link_to_new_client"] = "Link to new client";
 
 $lang["client_can_view_files"] = "Client can view files?";
 $lang["client_can_add_files"] = "Client can add files?";
-$lang["client_can_view_activity"] = "Client can view project activity?";
 $lang["client_can_edit_projects"] = "Client can edit projects?";
 
 $lang["view_pdf"] = "View PDF";
@@ -1843,10 +1840,6 @@ $lang["reports"] = "Reports";
 $lang["yes_all_estimates"] = "Yes, all estimates";
 $lang["yes_only_own_estimates"] = "Yes, only own estimates";
 
-$lang["add_category"] = "Add category";
-$lang["edit_category"] = "Edit category";
-$lang["delete_category"] = "Delete category";
-
 $lang["proposal"] = "Proposal";
 $lang["proposals"] = "Proposals";
 $lang["can_access_proposals"] = "Can access proposals?";
@@ -1944,7 +1937,6 @@ $lang["save_as_note"] = "Save as note";
 $lang["client_will_not_see_any_notes"] = "Client will not see any notes.";
 
 $lang["prospects"] = "Prospects";
-$lang["estimate_forms"] = "Estimate Forms";
 
 $lang["proposal_editor"] = "Proposal Editor";
 $lang["proposal_templates"] = "Proposal templates";
@@ -2780,7 +2772,7 @@ $lang["years_ago"] = "years ago";
 
 $lang["support_info"] = "Support info";
 $lang["in_messages"] = "In messages";
-$lang["out_messages"] = "Out messags";
+$lang["out_messages"] = "Out messages";
 
 $lang["ticket_tasks"] = "Ticket tasks";
 $lang["has_number_of_tickets_tickets"] = "Has %s tickets";
@@ -2798,5 +2790,13 @@ $lang["got_it"] = "Got it!";
 $lang["empty_comment_cannot_be_saved"] = "Empty comment cannot be saved.";
 
 $lang["short_ticket_templates"] = "Templates";
+
+/* Version 3.8.2 */
+
+$lang["sortable"] = "Sortable";
+$lang["total_hours"] = "Total hours";
+$lang["support_only_project_related_tasks_globally_label"] = "Create only the project related tasks from the global task creation modal";
+
+$lang["name_and_company_name_error_message"] = "First name, last name, and company name can't be hidden at a time.";
 
 return $lang;

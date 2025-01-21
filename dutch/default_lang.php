@@ -247,7 +247,7 @@ $lang["item_purchase_code"] = "Aankoopcode";
 $lang["company"] = "Bedrijf";
 $lang["company_settings"] = "Bedrijfsinstellingen";
 $lang["email_settings"] = "E-mailinstellingen";
-$lang["payment_methods"] = "Betaalmethodes";
+$lang["payment_methods"] = "Betaaldmethodes";
 $lang["email_sent_from_address"] = "E-mailadres afzender";
 $lang["email_sent_from_name"] = "Naam afzender";
 $lang["email_use_smtp"] = "Gebruik SMTP";
@@ -419,7 +419,7 @@ $lang["accepted_file_format"] = "Geaccepteerde bestandsformaten";
 $lang["comma_separated"] = "Komma gescheiden";
 $lang["project_file"] = "Bestand";
 $lang["download"] = "Download";
-$lang["download_files"] = "Download %s bestanden"; //Ex. Download 4 files
+$lang["download_files"] = "Download %s bestanden"; //Ex. Download 4 files;
 $lang["file_preview_is_not_available"] = "Bestandsvoorbeeld is niet beschikbaar.";
 
 /* tasks */
@@ -546,7 +546,6 @@ $lang["avilable_variables"] = "Beschikbare variabelen";
 $lang["restore_to_default"] = "Herstel origineel";
 $lang["template_restored"] = "Het originele sjabloon is hersteld.";
 $lang["login_info"] = "Login info";
-$lang["reset_password"] = "Reset wachtwoord";
 $lang["team_member_invitation"] = "Teamlid uitnodiging";
 $lang["client_contact_invitation"] = "Relatie uitnodiging";
 $lang["send_invoice"] = "Stuur factuur";
@@ -603,7 +602,7 @@ $lang["minimum_payment_amount"] = "Minimale betalingsbedrag";
 $lang["minimum_payment_amount_help_text"] = "De klant kan de factuur niet betalen met deze betalingsmethode, als de factuurwaarde minder dan deze waarde.";
 $lang["pay_invoice"] = "Betaal factuur";
 $lang["pay_button_text"] = "Betaalknop tekst";
-$lang["minimum_payment_validation_message"] = "Het betalingsbedrag kan niet lager zijn dan: "; //ex. The payment amount can't be less then: USD 100.00
+$lang["minimum_payment_validation_message"] = "Het betalingsbedrag kan niet lager zijn dan: "; //ex. The payment amount can't be less then: USD 100.00;
 $lang["invoice_settings"] = "Factuur Instellingen";
 $lang["allow_partial_invoice_payment_from_clients"] = "Sta gedeeltelijke betaling van clients toe";
 $lang["invoice_color"] = "Factuur Kleur";
@@ -699,14 +698,14 @@ $lang["notification_project_created"] = "Een nieuw project gemaakt.";
 $lang["notification_project_deleted"] = "Een project verwijderd.";
 $lang["notification_project_task_created"] = "Een nieuwe taak gemaakt.";
 $lang["notification_project_task_updated"] = "Een taak bijgewerkt. ";
-$lang["notification_project_task_assigned"] = "Heeft een taak toegewezen aan %s"; //Assigned a task to Mr. X
+$lang["notification_project_task_assigned"] = "Heeft een taak toegewezen aan %s"; //Assigned a task to Mr. X;
 $lang["notification_project_task_started"] = "Startte een taak.";
 $lang["notification_project_task_finished"] = "Een taak is voltooid.";
 $lang["notification_project_task_reopened"] = "Heropende een taak.";
 $lang["notification_project_task_deleted"] = "Een taak verwijderd.";
 $lang["notification_project_task_commented"] = "Commentaar op een taak.";
-$lang["notification_project_member_added"] = "Toegevoegde %s in een project."; //Added Mr. X in a project.
-$lang["notification_project_member_deleted"] = "Verwijderde %s van een project."; //Deleted Mr. X from a project.
+$lang["notification_project_member_added"] = "Toegevoegde %s in een project."; //Added Mr. X in a project.;
+$lang["notification_project_member_deleted"] = "Verwijderde %s van een project."; //Deleted Mr. X from a project.;
 $lang["notification_project_file_added"] = "Een bestand toegevoegd in project.";
 $lang["notification_project_file_deleted"] = "Een bestand uit een project verwijderd.";
 $lang["notification_project_file_commented"] = "Commentaar op een bestand. ";
@@ -714,12 +713,12 @@ $lang["notification_project_comment_added"] = "Commentaar op een project";
 $lang["notification_project_comment_replied"] = "Heeft gereageerd op een projectcommentaar.";
 $lang["notification_project_customer_feedback_added"] = "Commentaar op een project.";
 $lang["notification_project_customer_feedback_replied"] = "Heeft gereageerd op een opmerking.";
-$lang["notification_client_signup"] = "Aangemeld als een nieuwe client."; //Mr. X signed up as a new client.
+$lang["notification_client_signup"] = "Aangemeld als een nieuwe client."; //Mr. X signed up as a new client.;
 $lang["notification_invoice_online_payment_received"] = "Heeft een online betaling ingestuurd.";
 $lang["notification_leave_application_submitted"] = "Heeft een verlofaanvraag ingediend.";
-$lang["notification_leave_approved"] = "Approve a leave of %s."; //Approve a leave of Mr. X
-$lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X
-$lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X
+$lang["notification_leave_approved"] = "Approve a leave of %s."; //Approved a leave of Mr. X;
+$lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X;
+$lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X;
 $lang["notification_leave_canceled"] = "Annuleerde een verlof appliction.";
 $lang["notification_ticket_created"] = "Creëerde een nieuw ticket.";
 $lang["notification_ticket_commented"] = "Commentaar op een ticket.";
@@ -734,7 +733,7 @@ $lang["disable_online_payment_description"] = "Verberg online betalingsopties in
 $lang["client_can_view_project_files"] = "Klant kan projectbestanden bekijken?";
 $lang["client_can_add_project_files"] = "Klant kan projectbestanden toevoegen?";
 $lang["client_can_comment_on_files"] = "Klant kan commentaar geven op bestanden?";
-$lang["mark_invoice_as_not_paid"] = "Markeren als niet betaald"; //Change invoice status to Not Paid
+$lang["mark_invoice_as_not_paid"] = "Markeren als niet betaald"; //Change invoice status to Not Paid;
 
 $lang["set_team_members_permission"] = "Stel inzenders van teamleden in";
 $lang["can_view_team_members_contact_info"] = "Kunnen teamleden Contactgegevens bekijken?";
@@ -749,7 +748,7 @@ $lang["modules"] = "Modules";
 $lang["manage_modules"] = "Beheer Modules";
 $lang["module_settings_instructions"] = "Selecteer de modules die u wilt gebruiken.";
 
-$lang["task_point_help_text"] = "Taakpunt beschouwd als een taakwaarde. U kunt 5 punten instellen voor zeer moeilijke taken en 1 punt voor eenvoudige taken."; //meaning of task point
+$lang["task_point_help_text"] = "Taakpunt beschouwd als een taakwaarde. U kunt 5 punten instellen voor zeer moeilijke taken en 1 punt voor eenvoudige taken."; //meaning of task point;
 
 $lang["mark_as_open"] = "Markeren als Open";
 $lang["mark_as_closed"] = "Markeren als gesloten";
@@ -939,7 +938,7 @@ $lang["client_can_view_overview"] = "Klant kan projectoverzicht bekijken?";
 $lang["client_can_view_milestones"] = "Klant kan mijlpalen bekijken?";
 
 $lang["items"] = "Items";
-$lang["edit_item"] = "Bewerk item";
+$lang["edit_item"] = "Item bewerken";
 $lang["item_edit_instruction"] = "Opmerking: de wijzigingen worden niet beïnvloed op bestaande facturen of schattingen.";
 
 $lang["recurring"] = "Terugkerend";
@@ -1021,7 +1020,6 @@ $lang["re_captcha_error-bad-request"] = "Het verzoek is ongeldig of misvormd.";
 $lang["re_captcha_expired"] = "De reCAPTCHA is verlopen. Laad de pagina opnieuw.";
 
 $lang["yes_all_tickets"] = "Ja, alle tickets";
-$lang["choose_ticket_types"] = "Kies ticket types";
 
 $lang["can_manage_all_projects"] = "Kan alle projecten beheren";
 $lang["show_most_recent_ticket_comments_at_the_top"] = "Toon meest recente ticketcommentaar bovenaan";
@@ -1537,7 +1535,6 @@ $lang["link_to_new_client"] = "Link naar nieuwe klant";
 
 $lang["client_can_view_files"] = "Klant kan bestanden bekijken?";
 $lang["client_can_add_files"] = "Klant kan bestanden toevoegen?";
-$lang["client_can_view_activity"] = "Klant kan projectactiviteit bekijken?";
 $lang["client_can_edit_projects"] = "Klant kan projecten bewerken?";
 
 $lang["view_pdf"] = "Bekijk PDF";
@@ -1843,10 +1840,6 @@ $lang["reports"] = "Rapporten";
 $lang["yes_all_estimates"] = "Ja, alle schattingen";
 $lang["yes_only_own_estimates"] = "Ja, alleen eigen schattingen";
 
-$lang["add_category"] = "Categorie toevoegen";
-$lang["edit_category"] = "Categorie bewerken";
-$lang["delete_category"] = "Categorie verwijderen";
-
 $lang["proposal"] = "Voorstel";
 $lang["proposals"] = "Voorstellen";
 $lang["can_access_proposals"] = "Heeft u toegang tot voorstellen?";
@@ -1944,7 +1937,6 @@ $lang["save_as_note"] = "Opslaan als notitie";
 $lang["client_will_not_see_any_notes"] = "Klant ziet geen notities.";
 
 $lang["prospects"] = "Verwachting";
-$lang["estimate_forms"] = "Geschatte formulieren";
 
 $lang["proposal_editor"] = "Voorstel-editor";
 $lang["proposal_templates"] = "Voorstelsjablonen";
@@ -2798,5 +2790,13 @@ $lang["got_it"] = "Begrepen!";
 $lang["empty_comment_cannot_be_saved"] = "Lege opmerking kan niet worden opgeslagen.";
 
 $lang["short_ticket_templates"] = "Sjablonen";
+
+/* Version 3.8.2 */
+
+$lang["sortable"] = "Sorteerbaar";
+$lang["total_hours"] = "Totaal aantal uren";
+$lang["support_only_project_related_tasks_globally_label"] = "Maak alleen de projectgerelateerde taken aan vanuit het globale taakcreatiemodel";
+
+$lang["name_and_company_name_error_message"] = "Voornaam, achternaam en bedrijfsnaam kunnen niet tegelijkertijd worden verborgen.";
 
 return $lang;

@@ -419,7 +419,7 @@ $lang["accepted_file_format"] = "Formato de archivo aceptado";
 $lang["comma_separated"] = "Separado por Coma";
 $lang["project_file"] = "Archivo";
 $lang["download"] = "Descargar";
-$lang["download_files"] = "Descargar %s archivos"; //Ex. Download 4 files
+$lang["download_files"] = "Descargar %s archivos"; //Ex. Download 4 files;
 $lang["file_preview_is_not_available"] = "Vista previa de archivo no está disponible.";
 
 /* tasks */
@@ -496,8 +496,8 @@ $lang["delete_payment_method"] = "Borra metodo de pago";
 /* invoices */
 
 $lang["add_invoice"] = "Añadir Factura";
-$lang["edit_invoice"] = "Editar Factura";
-$lang["delete_invoice"] = "Borrar Factura";
+$lang["edit_invoice"] = "Editar factura";
+$lang["delete_invoice"] = "Borrar factura";
 $lang["invoice"] = "Factura";
 $lang["invoices"] = "Facturas";
 $lang["bill_date"] = "Fecha de cobro";
@@ -546,7 +546,6 @@ $lang["avilable_variables"] = "Variables disponibles";
 $lang["restore_to_default"] = "Regresar a la configuración inicial";
 $lang["template_restored"] = "La plantilla ha sido regresada a la configuración original.";
 $lang["login_info"] = "Información de acceso";
-$lang["reset_password"] = "Modificar contraseña";
 $lang["team_member_invitation"] = "Invitación de miembro de equipo";
 $lang["client_contact_invitation"] = "Invitación a contacto de cliente";
 $lang["send_invoice"] = "Enviar factura";
@@ -603,7 +602,7 @@ $lang["minimum_payment_amount"] = "Págo mínimo";
 $lang["minimum_payment_amount_help_text"] = "Los clientes no podrán pagar las facturas utilizando este metodo, si el valor total de la factura es menor que este valor.";
 $lang["pay_invoice"] = "Pagar Factura";
 $lang["pay_button_text"] = "Texto del botón de Pago";
-$lang["minimum_payment_validation_message"] = "El pago no puede ser menor de: "; //ex. El pago no puede ser menor de: USD 100.00
+$lang["minimum_payment_validation_message"] = "El pago no puede ser menor de: "; //ex. The payment amount can't be less then: USD 100.00;
 $lang["invoice_settings"] = "Configuración de Invoice";
 $lang["allow_partial_invoice_payment_from_clients"] = "Permitir pago parcial a los clientes";
 $lang["invoice_color"] = "Color de Factura";
@@ -699,14 +698,14 @@ $lang["notification_project_created"] = "Nuevo proyecto creado.";
 $lang["notification_project_deleted"] = "Proyecto eliminado.";
 $lang["notification_project_task_created"] = "Creó una nueva tarea.";
 $lang["notification_project_task_updated"] = "Actualizó una tarea.";
-$lang["notification_project_task_assigned"] = "Tarea asignada a %s"; //Tarea asignada a Mr. X
+$lang["notification_project_task_assigned"] = "Tarea asignada a %s"; //Assigned a task to Mr. X;
 $lang["notification_project_task_started"] = "Comenzó una tarea.";
 $lang["notification_project_task_finished"] = "Terminó una tarea.";
 $lang["notification_project_task_reopened"] = "Reabrió una tarea.";
 $lang["notification_project_task_deleted"] = "Eliminó una tarea.";
 $lang["notification_project_task_commented"] = "Comentó en una tarea.";
-$lang["notification_project_member_added"] = "Añadió %s en un proyecto."; //Añadió a Mr. X en un proyecto.
-$lang["notification_project_member_deleted"] = "Eliminó %s de un proyecto."; //Eliminó a Mr. X de un proyecto.
+$lang["notification_project_member_added"] = "Añadió %s en un proyecto."; //Added Mr. X in a project.;
+$lang["notification_project_member_deleted"] = "Eliminó %s de un proyecto."; //Deleted Mr. X from a project.;
 $lang["notification_project_file_added"] = "Añadió un archivo al proyecto.";
 $lang["notification_project_file_deleted"] = "Eliminó un archivo del proyecto.";
 $lang["notification_project_file_commented"] = "Comentó en un archivo.";
@@ -714,12 +713,12 @@ $lang["notification_project_comment_added"] = "Comentó en un proyecto.";
 $lang["notification_project_comment_replied"] = "Contestó en un comentario de un proyecto..";
 $lang["notification_project_customer_feedback_added"] = "Cliente comentó en un proyecto.";
 $lang["notification_project_customer_feedback_replied"] = "Cliente respondió en comentario de cliente en un proyecto.";
-$lang["notification_client_signup"] = "Se inscribió como nuevo cliente."; //Mr. X se inscribió como nuevo cliente.
+$lang["notification_client_signup"] = "Se inscribió como nuevo cliente."; //Mr. X signed up as a new client.;
 $lang["notification_invoice_online_payment_received"] = "Efectuó un pago en línea.";
 $lang["notification_leave_application_submitted"] = "Efectuó una solicitud de Ausencia.";
-$lang["notification_leave_approved"] = "Aprobar ausencia de %s."; //Aprobar ausencia de Mr. X
-$lang["notification_leave_assigned"] = "Asignar ausencia de %s."; //Asignar ausencia de Mr. X
-$lang["notification_leave_rejected"] = "Rechazar ausencia de %s."; //Rechazar ausencia de Mr. X
+$lang["notification_leave_approved"] = "Aprobar ausencia de %s."; //Approved a leave of Mr. X;
+$lang["notification_leave_assigned"] = "Asignar ausencia de %s."; //Assigned a leave to Mr. X;
+$lang["notification_leave_rejected"] = "Rechazar ausencia de %s."; //Approve a leave of Mr. X;
 $lang["notification_leave_canceled"] = "Canceló una solicitud de Ausencia.";
 $lang["notification_ticket_created"] = "Creó un nuevo ticket.";
 $lang["notification_ticket_commented"] = "Comentó en un ticket.";
@@ -734,7 +733,7 @@ $lang["disable_online_payment_description"] = "Esconder en la factura las opcion
 $lang["client_can_view_project_files"] = "El cliente puede ver los archivos de proyecto?";
 $lang["client_can_add_project_files"] = "El cliente puede añadir archivos de proyecto?";
 $lang["client_can_comment_on_files"] = "El cliente puede comentar en los archivos?";
-$lang["mark_invoice_as_not_paid"] = "Marcar como no pagado"; //Cambiar el estatus de la factura a No pagado
+$lang["mark_invoice_as_not_paid"] = "Marcar como no pagado"; //Change invoice status to Not Paid;
 
 $lang["set_team_members_permission"] = "Configurar permisos de Miembros de Equipo";
 $lang["can_view_team_members_contact_info"] = "Puede ver información de contacto de miembros de equipo?";
@@ -749,7 +748,7 @@ $lang["modules"] = "Módulos";
 $lang["manage_modules"] = "Manejar Módulos";
 $lang["module_settings_instructions"] = "Selecciona los módulos que deseas usar.";
 
-$lang["task_point_help_text"] = "Punto de Tarea es considerado el valor de la tarea. Puedes seleccionar 5 puntos para la tarea mas dificil y 1 punto para las tareas mas faciles."; //meaning of task point
+$lang["task_point_help_text"] = "Punto de Tarea es considerado el valor de la tarea. Puedes seleccionar 5 puntos para la tarea mas dificil y 1 punto para las tareas mas faciles."; //meaning of task point;
 
 $lang["mark_as_open"] = "Marcar Abierto";
 $lang["mark_as_closed"] = "Marcar Cerrado";
@@ -780,7 +779,7 @@ $lang["field_type_textarea"] = "Area de Texto";
 $lang["field_type_select"] = "Selección";
 $lang["field_type_multi_select"] = "Selección Multiple";
 
-$lang["request_an_estimate"] = "Solicitar Estimado";
+$lang["request_an_estimate"] = "Solicitar un Estimado";
 $lang["estimate_submission_message"] = "Su solicitud ha sido sometida exitosamente!";
 
 $lang["hold"] = "En Espera";
@@ -939,11 +938,11 @@ $lang["client_can_view_overview"] = "Cliente puede ver la Vista General?";
 $lang["client_can_view_milestones"] = "Cliente puede ver Procesos?";
 
 $lang["items"] = "Artículos";
-$lang["edit_item"] = "Editar Artículo";
+$lang["edit_item"] = "Editar elemento";
 $lang["item_edit_instruction"] = "Nota: Los cambios no afectaran facturas previas.";
 
 $lang["recurring"] = "Recurrente";
-$lang["repeat_every"] = "Repetir cada"; //Ej. repetir cada dos meses
+$lang["repeat_every"] = "Repetir cada"; //Ex. repeat every 2 months
 $lang["interval_days"] = "Día(s)";
 $lang["interval_weeks"] = "Semana(s)";
 $lang["interval_months"] = "Mes(es)";
@@ -990,7 +989,7 @@ $lang["payment_card_charged_but_system_error_message"] = "Su tarjeta puede ser c
 $lang["card_payment_failed_error_message"] = "No podemos procesar su págo ahora, por favor trate más tarde.";
 
 $lang["message_received"] = "Mensaje Recibido";
-$lang["in_number_of_days"] = "En %s días"; //Ej. En 7 días
+$lang["in_number_of_days"] = "En %s días"; //Ex. In 7 days
 $lang["details"] = "Detalles";
 $lang["summary"] = "Resumen";
 $lang["project_timesheet"] = "Hoja de Tiempo de Proyecto";
@@ -1021,7 +1020,6 @@ $lang["re_captcha_error-bad-request"] = "La solicitud es inválida o malformada.
 $lang["re_captcha_expired"] = "El reCAPTCHA ha expirado. Porfavor recargue la página.";
 
 $lang["yes_all_tickets"] = "Si, todos los tickets";
-$lang["choose_ticket_types"] = "Elija los tipos de ticket";
 
 $lang["can_manage_all_projects"] = "Puede manejar todos los proyectos";
 $lang["show_most_recent_ticket_comments_at_the_top"] = "Muestre los tickets más recientes al inicio";
@@ -1537,7 +1535,6 @@ $lang["link_to_new_client"] = "Enlace a nuevo cliente";
 
 $lang["client_can_view_files"] = "Cliente puede ver archivos?";
 $lang["client_can_add_files"] = "Cliente puede añadir archivos?";
-$lang["client_can_view_activity"] = "Cliente puede ver la actividad del proyecto?";
 $lang["client_can_edit_projects"] = "Cliente puede editar proyectos?";
 
 $lang["view_pdf"] = "Ver PDF";
@@ -1768,7 +1765,7 @@ $lang["process_order_info_message"] = "Estás a punto de crear el pedido. Verifi
 
 $lang["order_creator_contact"] = "Contacto del creador de pedidos";
 
-$lang["create_estimate"] = "Crear Estimación";
+$lang["create_estimate"] = "Crear presupuesto";
 $lang["include_all_items_of_this_order"] = "Incluir todos los artículos de este pedido";
 
 $lang["new_order_received"] = "Nuevo pedido recibido";
@@ -1842,10 +1839,6 @@ $lang["reports"] = "Informes";
 
 $lang["yes_all_estimates"] = "Sí, todas las estimaciones";
 $lang["yes_only_own_estimates"] = "Sí, solo estimaciones propias";
-
-$lang["add_category"] = "Agregar categoría";
-$lang["edit_category"] = "Editar categoría";
-$lang["delete_category"] = "Eliminar categoría";
 
 $lang["proposal"] = "Propuesta";
 $lang["proposals"] = "Propuestas";
@@ -1944,7 +1937,6 @@ $lang["save_as_note"] = "Guardar como nota";
 $lang["client_will_not_see_any_notes"] = "El cliente no verá ninguna nota.";
 
 $lang["prospects"] = "Prospectos";
-$lang["estimate_forms"] = "Formularios de estimación";
 
 $lang["proposal_editor"] = "Editor de propuestas";
 $lang["proposal_templates"] = "Plantillas de propuesta";
@@ -2798,5 +2790,13 @@ $lang["got_it"] = "Entendido!";
 $lang["empty_comment_cannot_be_saved"] = "No se puede guardar un comentario vacío.";
 
 $lang["short_ticket_templates"] = "Plantillas";
+
+/* Version 3.8.2 */
+
+$lang["sortable"] = "Ordenable";
+$lang["total_hours"] = "Horas totales";
+$lang["support_only_project_related_tasks_globally_label"] = "Cree únicamente las tareas relacionadas con el proyecto desde el modo de creación de tareas global";
+
+$lang["name_and_company_name_error_message"] = "El nombre, el apellido y el nombre de la empresa no se pueden ocultar a la vez.";
 
 return $lang;
