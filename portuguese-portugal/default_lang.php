@@ -2799,4 +2799,12 @@ $lang["empty_comment_cannot_be_saved"] = "Comentário vazio não pode ser salvo.
 
 $lang["short_ticket_templates"] = "Modelos";
 
+/* Version 3.8.2 */
+
+$lang["sortable"] = "Classificável";
+$lang["total_hours"] = "Total de horas";
+$lang["support_only_project_related_tasks_globally_label"] = "Crie apenas as tarefas relacionadas ao projeto a partir do modal de criação de tarefas globais";
+
+$lang["name_and_company_name_error_message"] = "Nome, sobrenome e nome da empresa não podem ser ocultados ao mesmo tempo.";
+
 return $lang;

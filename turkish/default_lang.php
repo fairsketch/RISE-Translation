@@ -2800,4 +2800,12 @@ $lang["empty_comment_cannot_be_saved"] = "Empty comment cannot be saved.";
 
 $lang["short_ticket_templates"] = "Templates";
 
+/* Version 3.8.2 */
+
+$lang["sortable"] = "Sortable";
+$lang["total_hours"] = "Total hours";
+$lang["support_only_project_related_tasks_globally_label"] = "Create only the project related tasks from the global task creation modal";
+
+$lang["name_and_company_name_error_message"] = "First name, last name, and company name can't be hidden at a time.";
+
 return $lang;
