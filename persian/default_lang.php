@@ -2277,534 +2277,534 @@ $lang["total_after_discount"] = "جمع پس از تخفیف";
 
 /* Version 3.3 */
 
-$lang["change_the_tasks_start_date_and_deadline_based_on_project_start_date"] = "Change the tasks start date and deadline based on project start date";
+$lang["change_the_tasks_start_date_and_deadline_based_on_project_start_date"] = "تغییر تاریخ شروع و مهلت انجام وظایف بر اساس تاریخ شروع پروژه";
 
-$lang["can_edit_only_own_created_projects"] = "Can edit only own created projects";
-$lang["can_delete_only_own_created_projects"] = "Can delete only own created projects";
+$lang["can_edit_only_own_created_projects"] = "فقط امکان ویرایش پروژه های ایجاد شده توسط خود کاربر";
+$lang["can_delete_only_own_created_projects"] = "فقط امکان حذف پروژه های ایجاد شده توسط خود کاربر";
 
-$lang["checklist_status"] = "Checklist status";
+$lang["checklist_status"] = "وضعیت چک لیست";
 
 /* Version 3.4 */
 
-$lang["subscribe"] = "Subscribe";
-$lang["email_protocol"] = "Email protocol";
+$lang["subscribe"] = "عضویت";
+$lang["email_protocol"] = "پروتکل ایمیل";
 
-$lang["please_enable_the_file_uploads_php_settings"] = "Please enable the file_uploads php setting in the server.";
-$lang["file_size_too_large"] = "File size is too large. Please increase the upload_max_filesize from server.";
+$lang["please_enable_the_file_uploads_php_settings"] = "لطفاً تنظیمات file_uploads را در سرور فعال کنید.";
+$lang["file_size_too_large"] = "حجم فایل بسیار بزرگ است. لطفاً upload_max_filesize را در سرور افزایش دهید.";
 
-$lang["sub_task_status"] = "Sub task status";
+$lang["sub_task_status"] = "وضعیت زیر وظیفه";
 
-$lang["can_access_client_feedback_in_projects"] = "Can access client feedback in projects";
-$lang["change_the_milestone_dates_based_on_project_start_date"] = "Change the milestone dates based on project start date";
+$lang["can_access_client_feedback_in_projects"] = "دسترسی به بازخورد مشتری در پروژه‌ها";
+$lang["change_the_milestone_dates_based_on_project_start_date"] = "تغییر تاریخ‌های نقاط عطف بر اساس تاریخ شروع پروژه";
 
-$lang["send_first_due_invoice_reminder_notification_before"] = "Send 1st due invoice reminder before due date";
-$lang["send_second_due_invoice_reminder_notification_before"] = "Send 2nd due invoice reminder before due date";
+$lang["send_first_due_invoice_reminder_notification_before"] = "ارسال اولین یادآوری سررسید فاکتور قبل از تاریخ سررسید";
+$lang["send_second_due_invoice_reminder_notification_before"] = "ارسال دومین یادآوری سررسید فاکتور قبل از تاریخ سررسید";
 
-$lang["send_first_invoice_overdue_reminder_after"] = "Send 1st invoice overdue reminder after";
-$lang["send_second_invoice_overdue_reminder_after"] = "Send 2nd invoice overdue reminder after";
+$lang["send_first_invoice_overdue_reminder_after"] = "ارسال اولین یادآوری فاکتور معوق پس از";
+$lang["send_second_invoice_overdue_reminder_after"] = "ارسال دومین یادآوری فاکتور معوق پس از";
 
-$lang["product"] = "Product";
+$lang["product"] = "محصول";
 
-$lang["subscription_id"] = "Subscription ID";
-$lang["subscription_sent_message"] = "The subscription has been sent!";
-$lang["add_subscription"] = "Add subscription";
-$lang["edit_subscription"] = "Edit subscription";
-$lang["delete_subscription"] = "Delete subscription";
-$lang["subscription"] = "Subscription";
-$lang["subscriptions"] = "Subscriptions";
-$lang["subscription_value"] = "Subscription Value";
-$lang["subscription_items"] = "Subscription items";
-$lang["email_subscription_to_client"] = "Email subscription to client";
-$lang["send_subscription"] = "Send subscription";
-$lang["subscription_settings"] = "Subscription Settings";
-$lang["subscription_prefix"] = "Subscription prefix";
-$lang["initial_number_of_the_subscription"] = "Initial number of the subscription";
-$lang["can_access_subscriptions"] = "Can access subscriptions?";
-$lang["show_in_subscription"] = "Show in subscription";
-$lang["subscription_total"] = "Subscription total";
-$lang["start_subscription"] = "Start subscription";
+$lang["subscription_id"] = "شناسه اشتراک";
+$lang["subscription_sent_message"] = "اشتراک ارسال شد!";
+$lang["add_subscription"] = "افزودن اشتراک";
+$lang["edit_subscription"] = "ویرایش اشتراک";
+$lang["delete_subscription"] = "حذف اشتراک";
+$lang["subscription"] = "اشتراک";
+$lang["subscriptions"] = "اشتراک‌ها";
+$lang["subscription_value"] = "مقدار اشتراک";
+$lang["subscription_items"] = "آیتم‌های اشتراک";
+$lang["email_subscription_to_client"] = "ارسال اشتراک به مشتری از طریق ایمیل";
+$lang["send_subscription"] = "ارسال اشتراک";
+$lang["subscription_settings"] = "تنظیمات اشتراک";
+$lang["subscription_prefix"] = "پیشوند اشتراک";
+$lang["initial_number_of_the_subscription"] = "شماره اولیه اشتراک";
+$lang["can_access_subscriptions"] = "دسترسی به اشتراک‌ها دارد؟";
+$lang["show_in_subscription"] = "نمایش در اشتراک";
+$lang["subscription_total"] = "مجموع اشتراک";
+$lang["start_subscription"] = "شروع اشتراک";
 
-$lang["subscription_success_message"] = "The subscription has been started successfully.";
+$lang["subscription_success_message"] = "اشتراک با موفقیت شروع شد.";
 
-$lang["enable_stripe_subscription"] = "Enable Stripe subscription";
-$lang["please_enable_the_stripe_payment_method_first"] = "Please enable the stripe payment method first!";
-$lang["tax_mapping"] = "Tax mapping";
-$lang["mapped"] = "Mapped";
-$lang["select_stripe_tax"] = "Select Stripe tax";
-$lang["stripe_price_error_message"] = "App subscription price and recurring interval should be same as stripe product price and interval.";
-$lang["stripe_tax_error_message"] = "Some taxes are not mapped with stripe yet. Please map the taxes from the subscription settings.";
-$lang["payment_status"] = "Payment status";
-$lang["failed"] = "Failed";
-$lang["next_billing_date"] = "Next billing date";
-$lang["cancel_subscription"] = "Cancel subscription";
+$lang["enable_stripe_subscription"] = "فعالسازی اشتراک Stripe";
+$lang["please_enable_the_stripe_payment_method_first"] = "لطفاً ابتدا روش پرداخت Stripe را فعال کنید!";
+$lang["tax_mapping"] = "نگاشت مالیات";
+$lang["mapped"] = "نگاشت شده";
+$lang["select_stripe_tax"] = "انتخاب مالیات Stripe";
+$lang["stripe_price_error_message"] = "قیمت اشتراک برنامه و بازه تکرار باید با قیمت محصول و بازه در Stripe یکسان باشد.";
+$lang["stripe_tax_error_message"] = "برخی از مالیات‌ها هنوز با Stripe نگاشت نشده‌اند. لطفاً مالیات‌ها را از تنظیمات اشتراک نگاشت کنید.";
+$lang["payment_status"] = "وضعیت پرداخت";
+$lang["failed"] = "ناموفق";
+$lang["next_billing_date"] = "تاریخ صورتحساب بعدی";
+$lang["cancel_subscription"] = "لغو اشتراک";
 
-$lang["invoice_number"] = "Invoice number";
-$lang["estimate_number"] = "Estimate number";
-$lang["order_number"] = "Order number";
+$lang["invoice_number"] = "شماره فاکتور";
+$lang["estimate_number"] = "شماره پیش فاکتور";
+$lang["order_number"] = "شماره سفارش";
 
-$lang["client_can_access_notes"] = "Client can access notes?";
+$lang["client_can_access_notes"] = "آیا مشتری می‌تواند به یادداشت‌ها دسترسی داشته باشد؟";
 
-$lang["my_tasks_overview"] = "My Tasks Overview";
+$lang["my_tasks_overview"] = "نمای کلی وظایف من";
 
-$lang["leads_overview"] = "Leads Overview";
-$lang["converted_to_client"] = "Converted to client";
+$lang["leads_overview"] = "نمای کلی سرنخ‌ها";
+$lang["converted_to_client"] = "تبدیل به مشتری شده";
 
-$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "Remember to add this urls in Authorized redirect uri";
+$lang["remember_to_add_this_urls_in_authorized_redirect_uri"] = "به خاطر داشته باشید که این آدرس‌های اینترنتی را در Authorized redirect uri اضافه کنید";
 
-$lang["merge"] = "Merge";
-$lang["move_all_comments_or_notes_from"] = "Move all comments/notes from";
-$lang["moved_to"] = "Moved to";
+$lang["merge"] = "ادغام";
+$lang["move_all_comments_or_notes_from"] = "انتقال همه نظرات/یادداشت‌ها از";
+$lang["moved_to"] = "انتقال داده شد به";
 
-$lang["ok"] = "OK";
-$lang["app"] = "App";
+$lang["ok"] = "تایید";
+$lang["app"] = "برنامه";
 $lang["stripe"] = "Stripe";
-$lang["activate_as_stripe_subscription"] = "Activate as Stripe subscription";
-$lang["activate_as_internal_subscription"] = "Activate as internal subscription";
-$lang["activate_as_stripe_subscription_message_1"] = "Please map the stripe product and price with this subscription. You can add the stripe products and prices from your stripe dashboard.";
-$lang["activate_as_stripe_subscription_message_2"] = "The client will get a request to add the payment method with this subscription. Once the client submit the payment method, this subscription will be activated and auto payment will be enabled via stripe.";
-$lang["activate_as_internal_subscription_message_1"] = "This subscription will be managed by app. The invoices will be created based on the subscription terms.";
-$lang["activate_as_internal_subscription_message_2"] = "Note: Payments will not be done automatically. For automated payment, you can use the stripe subscription.";
-$lang["subscription_toatl_can_not_empty_message"] = "Subscription total can't be 0.";
+$lang["activate_as_stripe_subscription"] = "فعالسازی به عنوان اشتراک Stripe";
+$lang["activate_as_internal_subscription"] = "فعالسازی به عنوان اشتراک داخلی";
+$lang["activate_as_stripe_subscription_message_1"] = "لطفاً محصول و قیمت Stripe را با این اشتراک نگاشت کنید. می‌توانید محصولات و قیمت‌های Stripe را از داشبورد Stripe خود اضافه کنید.";
+$lang["activate_as_stripe_subscription_message_2"] = "درخواست افزودن روش پرداخت به مشتری برای این اشتراک ارسال خواهد شد. پس از اینکه مشتری روش پرداخت را ارسال کرد، این اشتراک فعال شده و پرداخت خودکار از طریق Stripe فعال می‌شود.";
+$lang["activate_as_internal_subscription_message_1"] = "این اشتراک توسط برنامه مدیریت خواهد شد. فاکتورها بر اساس شرایط اشتراک ایجاد می‌شوند.";
+$lang["activate_as_internal_subscription_message_2"] = "توجه: پرداخت‌ها به صورت خودکار انجام نخواهند شد. برای پرداخت خودکار، می‌توانید از اشتراک Stripe استفاده کنید.";
+$lang["subscription_toatl_can_not_empty_message"] = "مجموع اشتراک نمی‌تواند 0 باشد.";
 
-$lang["subscription_request_sent"] = "Subscription request sent";
-$lang["notification_subscription_request_sent"] = "New subscription request";
+$lang["subscription_request_sent"] = "درخواست اشتراک ارسال شد";
+$lang["notification_subscription_request_sent"] = "درخواست اشتراک جدید";
 
-$lang["first_billing_date"] = "First billing date";
-$lang["first_billing_date_cant_be_past_message"] = "First billing date can’t be past. Keep it blank to use the date when the client will subscribe.";
+$lang["first_billing_date"] = "اولین تاریخ صورتحساب";
+$lang["first_billing_date_cant_be_past_message"] = "اولین تاریخ صورتحساب نمی‌تواند گذشته باشد. برای استفاده از تاریخی که مشتری مشترک می‌شود، آن را خالی بگذارید.";
 
-$lang["gst_number"] = "GST Number";
+$lang["gst_number"] = "شماره GST";
 
-$lang["announcement_created"] = "Announcement created";
+$lang["announcement_created"] = "اعلامیه ایجاد شد";
 
-$lang["company_logo"] = "Company Logo";
+$lang["company_logo"] = "لوگوی شرکت";
 
-$lang["task_commented"] = "Task commented";
-$lang["task_assigned"] = "Task assigned";
-$lang["task_general"] = "Task general";
+$lang["task_commented"] = "وظیفه نظر داده شد";
+$lang["task_assigned"] = "وظیفه تخصیص داده شد";
+$lang["task_general"] = "وظیفه عمومی";
 
 /* Version 3.5 */
 
-$lang["visitors_can_see_store_before_login"] = "Visitors can see store before login";
-$lang["show_payment_option_after_submitting_the_order"] = "Show payment option after submitting the order";
-$lang["accept_order_before_login"] = "Accept order before login";
-$lang["proceed_to_payment"] = "Proceed to payment";
-$lang["pay_order"] = "Pay order";
-$lang["order_status_after_payment"] = "Order status after payment";
-$lang["store_settings"] = "Store settings";
-$lang["banner_image_on_public_store"] = "Banner image on public store";
-$lang["your_order_has_been_submitted"] = "Your order has been submitted.";
+$lang["visitors_can_see_store_before_login"] = "بازدیدکنندگان می‌توانند فروشگاه را قبل از ورود به سیستم ببینند";
+$lang["show_payment_option_after_submitting_the_order"] = "نمایش گزینه پرداخت بعد از ثبت سفارش";
+$lang["accept_order_before_login"] = "پذیرش سفارش قبل از ورود به سیستم";
+$lang["proceed_to_payment"] = "ادامه به پرداخت";
+$lang["pay_order"] = "پرداخت سفارش";
+$lang["order_status_after_payment"] = "وضعیت سفارش پس از پرداخت";
+$lang["store_settings"] = "تنظیمات فروشگاه";
+$lang["banner_image_on_public_store"] = "تصویر بنر در فروشگاه عمومی";
+$lang["your_order_has_been_submitted"] = "سفارش شما ثبت شد.";
 
-$lang["re_captcha_error-timeout-or-duplicate"] = "The reCAPTCHA has been expired or duplicate. Please reload the page.";
+$lang["re_captcha_error-timeout-or-duplicate"] = "reCAPTCHA منقضی شده یا تکراری است. لطفاً صفحه را دوباره بارگیری کنید.";
 
-$lang["related_to"] = "Related to";
+$lang["related_to"] = "مرتبط با";
 
-$lang["hide_from_non_project_related_tasks"] = "Hide from non-project related tasks";
-$lang["add_task_in_project"] = "Add task in project";
+$lang["hide_from_non_project_related_tasks"] = "مخفی کردن از وظایف غیر مرتبط با پروژه";
+$lang["add_task_in_project"] = "افزودن وظیفه به پروژه";
 
-$lang["general_task"] = "General task";
-$lang["general_task_created"] = "General task created";
-$lang["general_task_updated"] = "General task updated";
-$lang["general_task_assigned"] = "General task assigned";
-$lang["general_task_started"] = "General task started";
-$lang["general_task_finished"] = "General task finished";
-$lang["general_task_reopened"] = "General task reopened";
-$lang["general_task_deleted"] = "General task deleted";
-$lang["general_task_commented"] = "General task commented";
+$lang["general_task"] = "وظیفه عمومی";
+$lang["general_task_created"] = "وظیفه عمومی ایجاد شد";
+$lang["general_task_updated"] = "وظیفه عمومی به‌روزرسانی شد";
+$lang["general_task_assigned"] = "وظیفه عمومی تخصیص داده شد";
+$lang["general_task_started"] = "وظیفه عمومی شروع شد";
+$lang["general_task_finished"] = "وظیفه عمومی به پایان رسید";
+$lang["general_task_reopened"] = "وظیفه عمومی دوباره باز شد";
+$lang["general_task_deleted"] = "وظیفه عمومی حذف شد";
+$lang["general_task_commented"] = "وظیفه عمومی نظر داده شد";
 
-$lang["notification_general_task_created"] = "Created a new task.";
-$lang["notification_general_task_updated"] = "Updated a task.";
-$lang["notification_general_task_assigned"] = "Assigned a task to %s."; //Assigned a task to Mr. X
-$lang["notification_general_task_started"] = "Started a task.";
-$lang["notification_general_task_finished"] = "Finished a task.";
-$lang["notification_general_task_reopened"] = "Reopened a task.";
-$lang["notification_general_task_deleted"] = "Deleted a task.";
-$lang["notification_general_task_commented"] = "Commented on a task.";
+$lang["notification_general_task_created"] = "یک وظیفه جدید ایجاد کرد.";
+$lang["notification_general_task_updated"] = "یک وظیفه را به‌روزرسانی کرد.";
+$lang["notification_general_task_assigned"] = "وظیفه‌ای را به %s تخصیص داد."; //Assigned a task to Mr. X
+$lang["notification_general_task_started"] = "یک وظیفه را شروع کرد.";
+$lang["notification_general_task_finished"] = "یک وظیفه را به پایان رساند.";
+$lang["notification_general_task_reopened"] = "یک وظیفه را دوباره باز کرد.";
+$lang["notification_general_task_deleted"] = "یک وظیفه را حذف کرد.";
+$lang["notification_general_task_commented"] = "در مورد یک وظیفه نظر داد.";
 
-$lang["bookmark"] = "Bookmark";
-$lang["bookmark_icon"] = "Bookmark Icon";
-$lang["change_filters"] = "Change filters";
-$lang["manage_filters"] = "Manage Filters";
-$lang["new_filter"] = "New filter";
-$lang["update_filter"] = "Update filter";
-$lang["add_new_filter"] = "Add new filter";
-$lang["show_time_with_task_start_date_and_deadline"] = "Show time with task start date and deadline";
+$lang["bookmark"] = "نشانک";
+$lang["bookmark_icon"] = "آیکن نشانک";
+$lang["change_filters"] = "تغییر فیلترها";
+$lang["manage_filters"] = "مدیریت فیلترها";
+$lang["new_filter"] = "فیلتر جدید";
+$lang["update_filter"] = "به‌روزرسانی فیلتر";
+$lang["add_new_filter"] = "افزودن فیلتر جدید";
+$lang["show_time_with_task_start_date_and_deadline"] = "نمایش زمان با تاریخ شروع و مهلت انجام وظیفه";
 
-$lang["save_and_continue_to_login_for_payment"] = "Save & continue to login for payment";
-$lang["public_store_page_setting_help_message"] = "You can set the store as landing page by adding 'store' in the landing page setting.";
-$lang["public_store_page_setting_permission_error_message"] = "Please enable the store access permission for clients.";
-$lang["order_status_after_payment_help_message"] = "This will be applicable only when the order status is";
+$lang["save_and_continue_to_login_for_payment"] = "ذخیره و ادامه به ورود برای پرداخت";
+$lang["public_store_page_setting_help_message"] = "می‌توانید با افزودن 'store' در تنظیمات صفحه فرود، فروشگاه را به عنوان صفحه فرود تنظیم کنید.";
+$lang["public_store_page_setting_permission_error_message"] = "لطفاً دسترسی به فروشگاه را برای مشتریان فعال کنید.";
+$lang["order_status_after_payment_help_message"] = "این فقط زمانی اعمال می‌شود که وضعیت سفارش";
 
-$lang["subscription_first_billing_date_error_message"] = "The first billing date should be before the next billing date based on the billing period!";
-$lang["client_currency_not_editable_message"] = "The currency is not editable when there is any invoice, estimate, order, proposal, contract or subscription.";
+$lang["subscription_first_billing_date_error_message"] = "اولین تاریخ صورتحساب باید قبل از تاریخ صورتحساب بعدی بر اساس دوره صورتحساب باشد!";
+$lang["client_currency_not_editable_message"] = "هنگامی که فاکتور، پیش فاکتور، سفارش، پیشنهاد، قرارداد یا اشتراک وجود داشته باشد، ارز قابل ویرایش نیست.";
 
-$lang["subscription_started"] = "Subscription started";
-$lang["notification_subscription_started"] = "Started a subscription.";
+$lang["subscription_started"] = "اشتراک شروع شد";
+$lang["notification_subscription_started"] = "یک اشتراک را شروع کرد.";
 
-$lang["subscription_invoice_created_via_cron_job"] = "Subscription invoice created via Cron Job";
-$lang["notification_subscription_invoice_created_via_cron_job"] = "New invoice generated from subscription.";
+$lang["subscription_invoice_created_via_cron_job"] = "فاکتور اشتراک از طریق Cron Job ایجاد شد";
+$lang["notification_subscription_invoice_created_via_cron_job"] = "فاکتور جدید از اشتراک ایجاد شد.";
 
-$lang["create_credit_note"] = "Create credit note";
-$lang["create_credit_note_message"] = "Are you sure? You're going to fully credit this invoice. A credit note will be created for this invoice.";
-$lang["credited"] = "Credited";
-$lang["credit_note"] = "Credit Note";
-$lang["email_credit_note_to_client"] = "Email credit note to client";
-$lang["main_invoice"] = "Main invoice";
-$lang["credit_note_id"] = "Credit note ID";
-$lang["send_credit_note"] = "Send credit note";
+$lang["create_credit_note"] = "ایجاد یادداشت بستانکاری";
+$lang["create_credit_note_message"] = "آیا مطمئن هستید؟ شما می‌خواهید این فاکتور را به طور کامل بستانکار کنید. یک یادداشت بستانکاری برای این فاکتور ایجاد خواهد شد.";
+$lang["credited"] = "بستانکار شد";
+$lang["credit_note"] = "یادداشت بستانکاری";
+$lang["email_credit_note_to_client"] = "ایمیل یادداشت بستانکاری به مشتری";
+$lang["main_invoice"] = "فاکتور اصلی";
+$lang["credit_note_id"] = "شناسه یادداشت بستانکاری";
+$lang["send_credit_note"] = "ارسال یادداشت بستانکاری";
 
-$lang["taxable"] = "Taxable";
+$lang["taxable"] = "مشمول مالیات";
 
-$lang["can_manage_team_members_notes"] = "Can manage team member's notes?";
-$lang["team_members_can_not_see_own_notes"] = "Team members can't see own notes.";
+$lang["can_manage_team_members_notes"] = "آیا می‌توان یادداشت‌های اعضای تیم را مدیریت کرد؟";
+$lang["team_members_can_not_see_own_notes"] = "اعضای تیم نمی‌توانند یادداشت‌های خود را ببینند.";
 
-$lang["articles_order"] = "Articles order";
-$lang["top_menu"] = "Top menu";
-$lang["edit_top_menu"] = "Edit top menu";
+$lang["articles_order"] = "ترتیب مقالات";
+$lang["top_menu"] = "منوی بالا";
+$lang["edit_top_menu"] = "ویرایش منوی بالا";
 
-$lang["top_menu_description_message"] = "This menu will be visible only in the public pages";
-$lang["enable_top_menu"] = "Enable top menu";
-$lang["menu_items"] = "Menu items";
+$lang["top_menu_description_message"] = "این منو فقط در صفحات عمومی قابل مشاهده خواهد بود";
+$lang["enable_top_menu"] = "فعالسازی منوی بالا";
+$lang["menu_items"] = "آیتم‌های منو";
 
-$lang["landing_page"] = "Landing page";
-$lang["landing_page_help_text"] = "Normally keep it blank. Set this value only if you want any custom landing page. (Example value: knowledge_base)";
+$lang["landing_page"] = "صفحه فرود";
+$lang["landing_page_help_text"] = "به طور معمول آن را خالی بگذارید. این مقدار را فقط در صورتی تنظیم کنید که صفحه فرود سفارشی می‌خواهید. (مقدار مثال: knowledge_base)";
 
-$lang["fixed_amount_discount_before_tax_error_message"] = "Fixed amount discount can't be added before tax.";
+$lang["fixed_amount_discount_before_tax_error_message"] = "تخفیف مبلغ ثابت را نمی‌توان قبل از مالیات اضافه کرد.";
 
-$lang["invoices_summary"] = "Invoices summary";
-$lang["estimates_summary"] = "Estimates summary";
-$lang["leads_summary"] = "Leads summary";
-$lang["orders_summary"] = "Orders summary";
-$lang["estimate_request_summary"] = "Estimate request summary";
-$lang["proposals_summary"] = "Proposals summary";
-$lang["expenses_summary"] = "Expenses summary";
-$lang["monthly_summary"] = "Monthly summary";
+$lang["invoices_summary"] = "خلاصه فاکتورها";
+$lang["estimates_summary"] = "خلاصه پیش فاکتورها";
+$lang["leads_summary"] = "خلاصه سرنخ‌ها";
+$lang["orders_summary"] = "خلاصه سفارش‌ها";
+$lang["estimate_request_summary"] = "خلاصه درخواست پیش فاکتور";
+$lang["proposals_summary"] = "خلاصه پیشنهادات";
+$lang["expenses_summary"] = "خلاصه هزینه‌ها";
+$lang["monthly_summary"] = "خلاصه ماهانه";
 
-$lang["yearly_chart"] = "Yearly chart";
-$lang["category_chart"] = "Category chart";
+$lang["yearly_chart"] = "نمودار سالانه";
+$lang["category_chart"] = "نمودار دسته‌بندی";
 
-$lang["count"] = "Count";
-$lang["invoice_total"] = "Invoice total";
-$lang["order_total"] = "Order total";
+$lang["count"] = "شمارش";
+$lang["invoice_total"] = "مجموع فاکتور";
+$lang["order_total"] = "مجموع سفارش";
 
-$lang["last_7_days"] = "Last 7 Days";
-$lang["next_7_days"] = "Next 7 Days";
-$lang["last_30_days"] = "Last 30 Days";
-$lang["this_month"] = "This Month";
-$lang["last_month"] = "Last Month";
-$lang["next_month"] = "Next Month";
-$lang["next_year"] = "Next Year";
+$lang["last_7_days"] = "7 روز گذشته";
+$lang["next_7_days"] = "7 روز آینده";
+$lang["last_30_days"] = "30 روز گذشته";
+$lang["this_month"] = "این ماه";
+$lang["last_month"] = "ماه گذشته";
+$lang["next_month"] = "ماه آینده";
+$lang["next_year"] = "سال آینده";
 
-$lang["hold_projects"] = "Hold Projects";
-$lang["open_tasks"] = "Open Tasks";
-$lang["completed_tasks"] = "Completed Tasks";
+$lang["hold_projects"] = "پروژه‌های معلق";
+$lang["open_tasks"] = "وظایف باز";
+$lang["completed_tasks"] = "وظایف تکمیل شده";
 
-$lang["team_members_summary"] = "Team members summary";
-$lang["created_date_wise"] = "Created date wise";
-$lang["conversion_date_wise"] = "Conversion date wise";
+$lang["team_members_summary"] = "خلاصه اعضای تیم";
+$lang["created_date_wise"] = "به تفکیک تاریخ ایجاد";
+$lang["conversion_date_wise"] = "به تفکیک تاریخ تبدیل";
 
-$lang["ticket_statistics"] = "Ticket Statistics";
+$lang["ticket_statistics"] = "آمار تیکت‌ها";
 
-$lang["can_activate_deactivate_team_members"] = "Can activate deactivate team members?";
-$lang["can_delete_team_members"] = "Can delete team members?";
+$lang["can_activate_deactivate_team_members"] = "آیا می‌توان اعضای تیم را فعال/غیرفعال کرد؟";
+$lang["can_delete_team_members"] = "آیا می‌توان اعضای تیم را حذف کرد؟";
 
-$lang["project_settings"] = "Project settings";
-$lang["project_status"] = "Project Status";
-$lang["add_project_status"] = "Add project status";
-$lang["mark_project_as"] = "Mark Project as";
+$lang["project_settings"] = "تنظیمات پروژه";
+$lang["project_status"] = "وضعیت پروژه";
+$lang["add_project_status"] = "افزودن وضعیت پروژه";
+$lang["mark_project_as"] = "علامت‌گذاری پروژه به عنوان";
 
-$lang["status_language_key_recommendation_help_text"] = "Recommended to use any prefix like project_status_";
-$lang["edit_project_status"] = "Edit project status";
-$lang["delete_project_status"] = "Delete project status";
+$lang["status_language_key_recommendation_help_text"] = "توصیه می‌شود از پیشوندی مانند project_status_ استفاده کنید";
+$lang["edit_project_status"] = "ویرایش وضعیت پروژه";
+$lang["delete_project_status"] = "حذف وضعیت پروژه";
 
-$lang["open_project_status_recommendation_help_text"] = "You can change the text, but this status will be considered as initial open status.";
-$lang["completed_project_status_recommendation_help_text"] = "You can change the text, but this status will be considered as completed.";
+$lang["open_project_status_recommendation_help_text"] = "می‌توانید متن را تغییر دهید، اما این وضعیت به عنوان وضعیت باز اولیه در نظر گرفته خواهد شد.";
+$lang["completed_project_status_recommendation_help_text"] = "می‌توانید متن را تغییر دهید، اما این وضعیت به عنوان وضعیت تکمیل شده در نظر گرفته خواهد شد.";
 
-$lang["full_width"] = "Full width";
-$lang["hide_topbar"] = "Hide topbar";
+$lang["full_width"] = "عرض کامل";
+$lang["hide_topbar"] = "مخفی کردن نوار بالا";
 
 /* Version 3.5.1 */
 
-$lang["enable_lock_state"] = "Enable lock state";
-$lang["invoice_lock_state_description"] = "Once you enable the lock state, the invoices can’t be edited after sending to client or changing the status.";
-$lang["estimate_lock_state_description"] = "Once you enable the lock state, the accepted estimates can’t be edited.";
-$lang["proposal_lock_state_description"] = "Once you enable the lock state, the accepted proposals can’t be edited.";
-$lang["contract_lock_state_description"] = "Once you enable the lock state, the accepted contracts can't be edited.";
+$lang["enable_lock_state"] = "فعال‌سازی حالت قفل";
+$lang["invoice_lock_state_description"] = "هنگامی که حالت قفل را فعال کنید، فاکتورها پس از ارسال به مشتری یا تغییر وضعیت، قابل ویرایش نخواهند بود.";
+$lang["estimate_lock_state_description"] = "هنگامی که حالت قفل را فعال کنید، پیش‌فاکتورهای تایید شده قابل ویرایش نخواهند بود.";
+$lang["proposal_lock_state_description"] = "هنگامی که حالت قفل را فعال کنید، پیشنهادهای تایید شده قابل ویرایش نخواهند بود.";
+$lang["contract_lock_state_description"] = "هنگامی که حالت قفل را فعال کنید، قراردادهای تایید شده قابل ویرایش نخواهند بود.";
 
 /* Version 3.6 */
 
-$lang["file_manager"] = "File manager";
+$lang["file_manager"] = "مدیریت فایل";
 
-$lang["all_files"] = "All files";
-$lang["recent_uploads"] = "Recent uploads";
+$lang["all_files"] = "همه فایل‌ها";
+$lang["recent_uploads"] = "آخرین بارگذاری‌ها";
 
-$lang["favorites"] = "Favorites";
-$lang["new_folder"] = "New folder";
-$lang["folder_details"] = "Folder details";
-$lang["file_details"] = "File details";
-$lang["manage_access"] = "Manage access";
-$lang["root_folder"] = "Home";
-$lang["authorized_team_members"] = "Authorized team members";
+$lang["favorites"] = "موارد دلخواه";
+$lang["new_folder"] = "پوشه جدید";
+$lang["folder_details"] = "جزئیات پوشه";
+$lang["file_details"] = "جزئیات فایل";
+$lang["manage_access"] = "مدیریت دسترسی";
+$lang["root_folder"] = "خانه";  // یا "پوشه اصلی" - "خانه" در اینجا به ریشه سیستم فایل اشاره دارد
+$lang["authorized_team_members"] = "اعضای مجاز تیم";
 
-$lang["full_access"] = "Full access";
-$lang["full_access_placeholder"] = "Choose who can manage everything";
-$lang["upload_and_organize"] = "Upload & Organize";
-$lang["upload_only"] = "Upload only";
+$lang["full_access"] = "دسترسی کامل";
+$lang["full_access_placeholder"] = "انتخاب کنید چه کسی می‌تواند همه چیز را مدیریت کند";
+$lang["upload_and_organize"] = "بارگذاری و سازماندهی";
+$lang["upload_only"] = "فقط بارگذاری";
 
-$lang["folder_permission_instruction"] = "This permission will be applicable to this folder and all of its subfolders.";
-$lang["all_clients"] = "All Clients";
+$lang["folder_permission_instruction"] = "این مجوز برای این پوشه و تمام زیرپوشه‌های آن اعمال خواهد شد.";
+$lang["all_clients"] = "همه مشتریان";
 
-$lang["select_a_file_to_view_details"] = "Select a file of folder to view its details";
-$lang["empty"] = "Empty";
-$lang["folder"] = "Folder";
-$lang["folders"] = "Folders";
-$lang["rename"] = "Rename";
-$lang["rename_folder"] = "Rename folder";
+$lang["select_a_file_to_view_details"] = "برای مشاهده جزئیات، یک فایل یا پوشه را انتخاب کنید"; // یا "فایلی یا پوشه‌ای را برای دیدن جزئیات آن انتخاب کنید"
+$lang["empty"] = "خالی";
+$lang["folder"] = "پوشه";
+$lang["folders"] = "پوشه‌ها";
+$lang["rename"] = "تغییر نام";
+$lang["rename_folder"] = "تغییر نام پوشه";
 
-$lang["folder_delete_confirmation_message"] = "Are you sure you want to permanently delete this folder and all of the subfolders and files?";
-$lang["file_delete_confirmation_message"] = "Are you sure you want to permanently delete this file?";
-$lang["explore"] = "Explore";
-$lang["add_to_favorites"] = "Add to Favorites";
-$lang["remove_from_favorites"] = "Remove from Favorites";
-$lang["uploaded_at"] = "Uploaded at";
-$lang["created_at"] = "Created at";
-$lang["who_has_access"] = "How has access";
+$lang["folder_delete_confirmation_message"] = "آیا مطمئن هستید که می‌خواهید این پوشه و تمام زیرپوشه‌ها و فایل‌های آن را برای همیشه حذف کنید؟";
+$lang["file_delete_confirmation_message"] = "آیا مطمئن هستید که می‌خواهید این فایل را برای همیشه حذف کنید؟";
+$lang["explore"] = "کاوش";
+$lang["add_to_favorites"] = "افزودن به موارد دلخواه";
+$lang["remove_from_favorites"] = "حذف از موارد دلخواه";
+$lang["uploaded_at"] = "بارگذاری شده در";
+$lang["created_at"] = "ایجاد شده در";
+$lang["who_has_access"] = "چه کسی دسترسی دارد"; // یا "چه کسانی دسترسی دارند"
 
-$lang["search_folder_or_file"] = "Search folder or file";
-$lang["move"] = "Move";
-$lang["move_folder"] = "Move folder";
-$lang["move_file"] = "Move file";
+$lang["search_folder_or_file"] = "جستجوی پوشه یا فایل";
+$lang["move"] = "انتقال";
+$lang["move_folder"] = "انتقال پوشه";
+$lang["move_file"] = "انتقال فایل";
 
-$lang["enable_audio_recording"] = "Enable audio recording";
-$lang["add_webm_file_format_to_enable_audio_recording"] = "Add webm file formate to enable audio recording.";
+$lang["enable_audio_recording"] = "فعال کردن ضبط صدا";
+$lang["add_webm_file_format_to_enable_audio_recording"] = "فرمت فایل webm را برای فعال کردن ضبط صدا اضافه کنید."; // یا "فرمت فایل webm را برای فعال‌سازی ضبط صدا اضافه کنید."
 
-$lang["reference"] = "Reference";
-$lang["link_copied"] = "Link copied!";
-$lang["recording"] = "Recording...";
+$lang["reference"] = "مرجع";
+$lang["link_copied"] = "لینک کپی شد!";
+$lang["recording"] = "در حال ضبط...";
 
-$lang["https_required"] = "HTTPS required.";
+$lang["https_required"] = "HTTPS الزامی است.";
 
-$lang["info"] = "Info";
-$lang["select_any_folder_for_move"] = "Select any folder for move.";
+$lang["info"] = "اطلاعات";
+$lang["select_any_folder_for_move"] = "برای انتقال، هر پوشه‌ای را انتخاب کنید."; // یا "پوشه‌ای را برای انتقال انتخاب کنید."
 
-$lang["enable_background_image_for_pdf"] = "Enable background image for pdf";
-$lang["pdf_background_image"] = "Pdf background image (510x720)";
-$lang["set_background_only_on_first_page"] = "Set background only on 1st page";
-$lang["invoice_item_list_background_color"] = "Invoice item list background color";
+$lang["enable_background_image_for_pdf"] = "فعال کردن تصویر پس‌زمینه برای PDF";
+$lang["pdf_background_image"] = "تصویر پس‌زمینه PDF (510x720)";
+$lang["set_background_only_on_first_page"] = "تنظیم پس‌زمینه فقط در صفحه اول";
+$lang["invoice_item_list_background_color"] = "رنگ پس‌زمینه لیست آیتم‌های فاکتور";
 
-$lang["logo"] = "Logo";
-$lang["company_info"] = "Company Info";
-$lang["change_invoice_logo"] = "Change invoice logo";
+$lang["logo"] = "لوگو";
+$lang["company_info"] = "اطلاعات شرکت";
+$lang["change_invoice_logo"] = "تغییر لوگوی فاکتور";
 
-$lang["year"] = "Year";
-$lang["invoice_number_format"] = "Invoice number format";
-$lang["auto_increment_digits"] = "Auto increment %s Digits";
-$lang["year_based_on"] = "Year based on";
-$lang["reset_invoice_number_every_year"] = "Reset invoice number every year";
+$lang["year"] = "سال";
+$lang["invoice_number_format"] = "فرمت شماره فاکتور";
+$lang["auto_increment_digits"] = "افزایش خودکار %s رقمی"; //  %s به جای تعداد رقم قرار می‌گیرد
+$lang["year_based_on"] = "مبنای سال"; // یا "سال بر اساس"
+$lang["reset_invoice_number_every_year"] = "بازنشانی شماره فاکتور هر سال";
 
-$lang["style"] = "Style";
+$lang["style"] = "استایل"; // یا "سبک"
 
-$lang["attach_pdf"] = "Attach PDF";
-$lang["attachment_size_is_too_large"] = "Attachment size is too large. It can't be attached with this email.";
+$lang["attach_pdf"] = "پیوست PDF";
+$lang["attachment_size_is_too_large"] = "اندازه پیوست خیلی بزرگ است. نمی‌توان آن را به این ایمیل پیوست کرد.";
 
-$lang["files_list"] = "Files list";
+$lang["files_list"] = "لیست فایل‌ها";
 
-$lang["hide_fields_on_lead_embedded_form"] = "Hide fields from lead embedded forms";
-$lang["unspecified"] = "Unspecified";
+$lang["hide_fields_on_lead_embedded_form"] = "مخفی کردن فیلدها در فرم‌های تعبیه شده لید";
+$lang["unspecified"] = "نامشخص";
 
-$lang["import_team_members"] = "Import team members";
-$lang["import_team_member_error_name_field_required"] = "First name and last name is both required to add a team member.";
-$lang["import_team_member_error_job_title_field_required"] = "Job title field is required.";
-$lang["import_team_member_error_email_field_required"] = "Email field is required.";
+$lang["import_team_members"] = "وارد کردن اعضای تیم";
+$lang["import_team_member_error_name_field_required"] = "برای افزودن عضو تیم، نام و نام خانوادگی هر دو الزامی است.";
+$lang["import_team_member_error_job_title_field_required"] = "فیلد عنوان شغلی الزامی است.";
+$lang["import_team_member_error_email_field_required"] = "فیلد ایمیل الزامی است.";
 
-$lang["only_admin_users_can_set_the_admin_role"] = "Only admin users can set the Admin role.";
+$lang["only_admin_users_can_set_the_admin_role"] = "فقط کاربران مدیر می‌توانند نقش مدیر را تعیین کنند.";
 
-$lang["import_projects"] = "Import projects";
-$lang["import_project_error_title_field_required"] = "Project title field is required.";
-$lang["import_project_error_project_type_field_required"] = "Project type field is required.";
-$lang["import_project_error_client_field_required"] = "Since it's client project, client field is required.";
-$lang["import_project_error_client_name"] = "Client name is invalid.";
-$lang["import_project_error_project_status"] = "Project status is invalid.";
+$lang["import_projects"] = "وارد کردن پروژه‌ها";
+$lang["import_project_error_title_field_required"] = "فیلد عنوان پروژه الزامی است.";
+$lang["import_project_error_project_type_field_required"] = "فیلد نوع پروژه الزامی است.";
+$lang["import_project_error_client_field_required"] = "از آنجا که پروژه مشتری است، فیلد مشتری الزامی است.";
+$lang["import_project_error_client_name"] = "نام مشتری نامعتبر است.";
+$lang["import_project_error_project_status"] = "وضعیت پروژه نامعتبر است.";
 
-$lang["import_contacts"] = "Import contacts";
-$lang["import_contact_error_name_field_required"] = "First name and last name are both required to add a contact.";
-$lang["import_contact__error_client_field_required"] = "Client field is required.";
-$lang["import_contact_error_client_name"] = "Client name is invalid.";
-$lang["import_gender_is_invalid"] = "Gender is invalid.";
+$lang["import_contacts"] = "وارد کردن مخاطبین";
+$lang["import_contact_error_name_field_required"] = "برای افزودن مخاطب، نام و نام خانوادگی هر دو الزامی است.";
+$lang["import_contact__error_client_field_required"] = "فیلد مشتری الزامی است.";
+$lang["import_contact_error_client_name"] = "نام مشتری نامعتبر است.";
+$lang["import_gender_is_invalid"] = "جنسیت نامعتبر است.";
 
-$lang["import_error_name_field_required"] = "Name field is required.";
-$lang["import_error_type_field_required"] = "Type field is required.";
-$lang["import_error_invalid_type"] = "Invalid type.";
+$lang["import_error_name_field_required"] = "فیلد نام الزامی است.";
+$lang["import_error_type_field_required"] = "فیلد نوع الزامی است.";
+$lang["import_error_invalid_type"] = "نوع نامعتبر است.";
 
-$lang["can_access_everything"] = "Can access everything";
-$lang["user_permissions"] = "User permissions";
-$lang["can_access_only"] = "Can access only";
+$lang["can_access_everything"] = "دسترسی به همه چیز دارد";
+$lang["user_permissions"] = "مجوزهای کاربر";
+$lang["can_access_only"] = "فقط دسترسی به"; // یا "فقط دسترسی به موارد مشخص شده دارد"
 
-$lang["email_seen_at"] = "Email seen at";
-$lang["email_seen_count"] = "Email seen count";
+$lang["email_seen_at"] = "ایمیل مشاهده شده در";
+$lang["email_seen_count"] = "تعداد دفعات مشاهده ایمیل";
 
-$lang["last_preview_seen"] = "Last preview seen";
-$lang["last_email_seen"] = "Last email seen";
+$lang["last_preview_seen"] = "آخرین پیش‌نمایش مشاهده شده";
+$lang["last_email_seen"] = "آخرین ایمیل مشاهده شده";
 
-$lang["subscription_cancelled"] = "Subscription cancelled";
-$lang["notification_subscription_cancelled"] = "Cancelled a subscription";
+$lang["subscription_cancelled"] = "اشتراک لغو شد";
+$lang["notification_subscription_cancelled"] = "اشتراک را لغو کرد"; // یا "لغو اشتراک" (برای حالت خبری)
 
-$lang["enable_comments_on_proposals"] = "Enable comments on proposals";
-$lang["show_most_recent_proposal_comments_at_the_top"] = "Show most recent proposal comments at the top";
-$lang["proposal_commented"] = "Proposal commented";
-$lang["proposal_creator"] = "Proposal creator";
-$lang["notification_proposal_commented"] = "Commented on an proposal.";
+$lang["enable_comments_on_proposals"] = "فعال کردن نظرات در پیشنهادات";
+$lang["show_most_recent_proposal_comments_at_the_top"] = "نمایش جدیدترین نظرات پیشنهاد در بالا";
+$lang["proposal_commented"] = "به پیشنهاد نظر داده شد"; // یا "پیشنهاد نظر داده شده"
+$lang["proposal_creator"] = "ایجاد کننده پیشنهاد";
+$lang["notification_proposal_commented"] = "به یک پیشنهاد نظر داد."; // یا "نظر دادن به پیشنهاد." (برای حالت خبری)
 
-$lang["can_upload_and_edit_files"] = "Can upload and edit files";
-$lang["can_comment_on_projects"] = "Can comment on projects";
-$lang["can_view_files"] = "Can view files";
+$lang["can_upload_and_edit_files"] = "قابلیت بارگذاری و ویرایش فایل‌ها";
+$lang["can_comment_on_projects"] = "قابلیت نظر دادن در پروژه‌ها";
+$lang["can_view_files"] = "قابلیت مشاهده فایل‌ها";
 
-$lang["default_permissions_for_non_primary_contact"] = "Default permissions for non-primary contact";
-$lang["primary_contact_will_get_full_permission_message"] = "Note: The primary contact will get full permission.";
-$lang["permission_is_required"] = "Permission is required.";
-$lang["make_primary_contact_help_message"] = "The existing primary contact will still have full access. You can change the permission anytime.";
-$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "Primary contact can manage the permission of other contacts.";
+$lang["default_permissions_for_non_primary_contact"] = "مجوزهای پیش‌فرض برای مخاطب غیر اصلی";
+$lang["primary_contact_will_get_full_permission_message"] = "توجه: مخاطب اصلی دسترسی کامل خواهد داشت.";
+$lang["permission_is_required"] = "مجوز الزامی است.";
+$lang["make_primary_contact_help_message"] = "مخاطب اصلی فعلی همچنان دسترسی کامل خواهد داشت. شما می‌توانید مجوز را هر زمان تغییر دهید.";
+$lang["primary_contact_can_manage_the_permission_of_other_contacts"] = "مخاطب اصلی می‌تواند مجوز سایر مخاطبین را مدیریت کند.";
 
 /* Version 3.7 */
 
-$lang["dynamic"] = "Dynamic";
-$lang["select_range"] = "Select range";
+$lang["dynamic"] = "پویا";
+$lang["select_range"] = "انتخاب محدوده";
 
-$lang["proposal_preview_opened"] = "Proposal preview opened";
-$lang["notification_proposal_preview_opened"] = "Opened a proposal preview.";
-$lang["proposal_email_opened"] = "Proposal email opened";
-$lang["notification_proposal_email_opened"] = "Opened a proposal email.";
+$lang["proposal_preview_opened"] = "پیش‌نمایش پیشنهاد باز شد";
+$lang["notification_proposal_preview_opened"] = "پیش‌نمایش پیشنهاد را باز کرد."; // یا "پیش‌نمایش پیشنهاد باز شد." (برای حالت خبری)
+$lang["proposal_email_opened"] = "ایمیل پیشنهاد باز شد";
+$lang["notification_proposal_email_opened"] = "ایمیل پیشنهاد را باز کرد."; // یا "ایمیل پیشنهاد باز شد." (برای حالت خبری)
 
-$lang["create_contract"] = "Create Contract";
+$lang["create_contract"] = "ایجاد قرارداد";
 
-$lang["create_as_a_non_subtask"] = "Create as a non-subtask";
-$lang["install_this_app"] = "Install this app.";
-$lang["app_color"] = "App color";
+$lang["create_as_a_non_subtask"] = "ایجاد به عنوان یک غیر زیر-وظیفه"; // یا "ایجاد به عنوان وظیفه مستقل"
+$lang["install_this_app"] = "نصب این برنامه.";
+$lang["app_color"] = "رنگ برنامه";
 
-$lang["skip"] = "Skip";
+$lang["skip"] = "رد شدن"; // یا "عبور" , "نادیده گرفتن"
 
-$lang["self_improvements"] = "Self Improvements";
-$lang["business_growth"] = "Business Growth";
-$lang["sales_management"] = "Sales Management";
-$lang["customer_support"] = "Customer Support";
-$lang["team_management"] = "Team Management";
-$lang["collaboration"] = "Collaboration";
+$lang["self_improvements"] = "بهبودهای فردی"; // یا "خود-بهبودی"
+$lang["business_growth"] = "رشد کسب و کار";
+$lang["sales_management"] = "مدیریت فروش";
+$lang["customer_support"] = "پشتیبانی مشتری";
+$lang["team_management"] = "مدیریت تیم";
+$lang["collaboration"] = "همکاری";
 
-$lang["send_first_reminder_before"] = "Send 1st reminder before";
-$lang["send_second_reminder_before"] = "Send 2nd reminder before";
-$lang["subscription_renewal_reminder"] = "Subscription renewal reminder";
-$lang["notification_subscription_renewal_reminder"] = "Subscription renewal reminder";
+$lang["send_first_reminder_before"] = "ارسال یادآوری اول قبل از";
+$lang["send_second_reminder_before"] = "ارسال یادآوری دوم قبل از";
+$lang["subscription_renewal_reminder"] = "یادآوری تمدید اشتراک";
+$lang["notification_subscription_renewal_reminder"] = "یادآوری تمدید اشتراک"; // یا "یادآوری تمدید اشتراک ارسال شد." (برای حالت خبری)
 
-$lang["enable_tinymce"] = "Enable TinyMCE";
-$lang["tinymce_api_key"] = "TinyMCE API key";
+$lang["enable_tinymce"] = "فعال کردن TinyMCE";
+$lang["tinymce_api_key"] = "کلید API مربوط به TinyMCE";
 
-$lang["protocol"] = "Protocol";
-$lang["re_captcha_suspicious_activity"] = "The reCAPTCHA detected suspicious activity.";
+$lang["protocol"] = "پروتکل";
+$lang["re_captcha_suspicious_activity"] = "reCAPTCHA فعالیت مشکوکی را شناسایی کرد.";
 
-$lang["all_contacts_of_the_client"] = "All contacts of the client";
-$lang["specific_contacts_of_the_client"] = "Specific contacts of the client";
+$lang["all_contacts_of_the_client"] = "همه مخاطبین مشتری";
+$lang["specific_contacts_of_the_client"] = "مخاطبین خاص مشتری";
 
-$lang["please_do_not_use_duplicate_variables"] = "Please don't use duplicate variables.";
-$lang["please_do_not_use_invalid_special_character"] = "Please don't use invalid special character.";
-$lang["please_use_any_serial"] = "Please use any serial.";
+$lang["please_do_not_use_duplicate_variables"] = "لطفاً از متغیرهای تکراری استفاده نکنید.";
+$lang["please_do_not_use_invalid_special_character"] = "لطفاً از کاراکترهای ویژه نامعتبر استفاده نکنید.";
+$lang["please_use_any_serial"] = "لطفاً از یک سریال استفاده کنید."; // یا "لطفاً از یک شماره سریال استفاده کنید."
 
-$lang["add_automation"] = "Add automation";
-$lang["edit_automation"] = "Edit automation";
+$lang["add_automation"] = "افزودن اتوماسیون";
+$lang["edit_automation"] = "ویرایش اتوماسیون";
 
-$lang["automations"] = "Automations";
+$lang["automations"] = "اتوماسیون‌ها";
 
-$lang["match_any"] = "Match any";
-$lang["match_all"] = "Match all";
-$lang["email_address"] = "Email address";
-$lang["email_subject"] = "Email subject";
-$lang["email_content"] = "Email content";
+$lang["match_any"] = "مطابقت با هر کدام"; // یا "هر کدام مطابقت داشته باشد"
+$lang["match_all"] = "مطابقت با همه"; // یا "همه مطابقت داشته باشند"
+$lang["email_address"] = "آدرس ایمیل";
+$lang["email_subject"] = "موضوع ایمیل";
+$lang["email_content"] = "محتوای ایمیل";
 
-$lang["imap_email_received"] = "IMAP email received";
-$lang["new_ticket_created_by_imap_email"] = "New ticket created by IMAP email";
+$lang["imap_email_received"] = "ایمیل IMAP دریافت شد";
+$lang["new_ticket_created_by_imap_email"] = "تیکت جدید توسط ایمیل IMAP ایجاد شد";
 
-$lang["conditions"] = "Conditions";
-$lang["block_ticket_creation"] = "Block ticket creation";
-$lang["if"] = "If";
+$lang["conditions"] = "شرایط";
+$lang["block_ticket_creation"] = "مسدود کردن ایجاد تیکت";
+$lang["if"] = "اگر";
 
-$lang["small_letter_field"] = "______ field";
-$lang["small_letter_condition_is_equal"] = "is equal to";
-$lang["small_letter_condition_is_not_equal"] = "is not equal to";
-$lang["small_letter_condition_is_in_list"] = "is in list";
-$lang["small_letter_condition_is_not_in_list"] = "is not in list";
+$lang["small_letter_field"] = "فیلد ______"; //  _______ نشان دهنده جای خالی برای نام فیلد است
+$lang["small_letter_condition_is_equal"] = "برابر است با";
+$lang["small_letter_condition_is_not_equal"] = "برابر نیست با";
+$lang["small_letter_condition_is_in_list"] = "در لیست است";
+$lang["small_letter_condition_is_not_in_list"] = "در لیست نیست";
 
-$lang["small_letter_condition_is_contains"] = "is contains";
-$lang["small_letter_condition_is_not_contains"] = "is not contains";
-$lang["small_letter_condition_is_contains_in_list"] = "is contains in list";
-$lang["small_letter_condition_is_not_contains_in_list"] = "is not contains in list";
-$lang["small_letter_something"] = "something";
-$lang["small_letter_is_something"] = "is something";
-$lang["small_letter_and"] = "and";
-$lang["small_letter_or"] = "or";
+$lang["small_letter_condition_is_contains"] = "شامل می‌شود"; // یا "حاوی است"
+$lang["small_letter_condition_is_not_contains"] = "شامل نمی‌شود"; // یا "حاوی نیست"
+$lang["small_letter_condition_is_contains_in_list"] = "شامل موارد موجود در لیست می‌شود"; // یا "حاوی موارد موجود در لیست است"
+$lang["small_letter_condition_is_not_contains_in_list"] = "شامل موارد موجود در لیست نمی‌شود"; // یا "حاوی موارد موجود در لیست نیست"
+$lang["small_letter_something"] = "چیزی";
+$lang["small_letter_is_something"] = "چیزی است";
+$lang["small_letter_and"] = "و";
+$lang["small_letter_or"] = "یا";
 
-$lang["select_placeholder"] = "Select...";
-$lang["select_placeholder_type_and_press_enter"] = "Type and press Enter";
+$lang["select_placeholder"] = "انتخاب کنید...";
+$lang["select_placeholder_type_and_press_enter"] = "تایپ کنید و Enter بزنید";
 
-$lang["do_something"] = "Do something...";
-$lang["do_not_create_ticket"] = "Do not create ticket";
-$lang["set_field_"] = "Set";
-$lang["please_input_all_required_fields"] = "Please input all required fields.";
-$lang["grid"] = "Grid";
+$lang["do_something"] = "انجام دادن کاری...";
+$lang["do_not_create_ticket"] = "تیکت ایجاد نشود";
+$lang["set_field_"] = "تنظیم فیلد"; //  _ نشان دهنده جای خالی برای نام فیلد است
+$lang["please_input_all_required_fields"] = "لطفاً همه فیلدهای الزامی را وارد کنید.";
+$lang["grid"] = "جدول"; // یا "شبکه"
 
-$lang["disable_pdf_for_clients"] = "Disable PDF for clients";
+$lang["disable_pdf_for_clients"] = "غیرفعال کردن PDF برای مشتریان";
 
-$lang["select_specific"] = "Select specific";
-$lang["clear_selection"] = "Clear selection";
-$lang["download_selected_items"] = "Download selected items";
-$lang["delete_selected_items"] = "Delete selected items";
-$lang["year_or_month_based_on"] = "Year/month based on";
+$lang["select_specific"] = "انتخاب موارد خاص";
+$lang["clear_selection"] = "پاک کردن انتخاب";
+$lang["download_selected_items"] = "دانلود موارد انتخاب شده";
+$lang["delete_selected_items"] = "حذف موارد انتخاب شده";
+$lang["year_or_month_based_on"] = "مبنای سال/ماه";
 
-$lang["none"] = "None";
-$lang["trigger_manually"] = "Trigger Manually";
+$lang["none"] = "هیچکدام";
+$lang["trigger_manually"] = "فعال‌سازی دستی";
 
 /* Version 3.8 */
 
-$lang["field_type_multiple_choice"] = "Multiple Choice";
-$lang["field_type_checkboxes"] = "Checkboxes";
+$lang["field_type_multiple_choice"] = "انتخاب چند گزینه‌ای";
+$lang["field_type_checkboxes"] = "چک‌باکس‌ها";
 
-$lang["insert_into_editor"] = "Insert into editor";
-$lang["just_now"] = "Just now";
-$lang["minute_ago"] = "minute ago";
-$lang["minutes_ago"] = "minutes ago";
-$lang["hour_ago"] = "hour ago";
-$lang["hours_ago"] = "hours ago";
-$lang["day_ago"] = "day ago";
-$lang["days_ago"] = "days ago";
-$lang["month_ago"] = "month ago";
-$lang["months_ago"] = "months ago";
-$lang["year_ago"] = "year ago";
-$lang["years_ago"] = "years ago";
+$lang["insert_into_editor"] = "درج در ویرایشگر";
+$lang["just_now"] = "همین حالا";
+$lang["minute_ago"] = "یک دقیقه پیش";
+$lang["minutes_ago"] = "چند دقیقه پیش";
+$lang["hour_ago"] = "یک ساعت پیش";
+$lang["hours_ago"] = "چند ساعت پیش";
+$lang["day_ago"] = "یک روز پیش";
+$lang["days_ago"] = "چند روز پیش";
+$lang["month_ago"] = "یک ماه پیش";
+$lang["months_ago"] = "چند ماه پیش";
+$lang["year_ago"] = "یک سال پیش";
+$lang["years_ago"] = "چند سال پیش";
 
-$lang["support_info"] = "Support info";
-$lang["in_messages"] = "In messages";
-$lang["out_messages"] = "Out messags";
+$lang["support_info"] = "اطلاعات پشتیبانی";
+$lang["in_messages"] = "در پیام‌های ورودی"; // or "در پیام‌های دریافتی"
+$lang["out_messages"] = "پیام‌های خروجی"; // or "پیام‌های ارسالی"
 
-$lang["ticket_tasks"] = "Ticket tasks";
-$lang["has_number_of_tickets_tickets"] = "Has %s tickets";
+$lang["ticket_tasks"] = "وظایف تیکت"; // or "تسک‌های تیکت"
+$lang["has_number_of_tickets_tickets"] = "دارای %s تیکت"; // %s will be replaced by the number of tickets
 
-$lang["signup_and_login"] = "Signup & Login";
-$lang["ui"] = "UI";
-$lang["projects_and_tasks"] = "Projects & Tasks";
-$lang["others"] = "Others";
+$lang["signup_and_login"] = "ثبت‌نام و ورود";
+$lang["ui"] = "UI"; // or "رابط کاربری" - keeping "UI" is common in technical contexts
+$lang["projects_and_tasks"] = "پروژه‌ها و وظایف"; // or "پروژه‌ها و تسک‌ها"
+$lang["others"] = "سایر"; // or "دیگر موارد"
 
-$lang["show_the_status_checkbox_in_tasks_list"] = "Show the status checkbox in tasks list";
+$lang["show_the_status_checkbox_in_tasks_list"] = "نمایش چک‌باکس وضعیت در لیست وظایف"; // or "نمایش چک‌باکس وضعیت در لیست تسک‌ها"
 
-$lang["pwa_install_message_for_iphone"] = "Click on %s icon, 'Add to Home Screen' from the browser menu and add this app to your home screen for easy access.";
-$lang["got_it"] = "Got it!";
+$lang["pwa_install_message_for_iphone"] = "برای دسترسی آسان، روی آیکن %s کلیک کنید، از منوی مرورگر 'افزودن به صفحه اصلی' را انتخاب کرده و این برنامه را به صفحه اصلی خود اضافه کنید.";
+$lang["got_it"] = "متوجه شدم!"; // or "فهمیدم!", "دریافت شد!"
 
-$lang["empty_comment_cannot_be_saved"] = "Empty comment cannot be saved.";
+$lang["empty_comment_cannot_be_saved"] = "نظر خالی قابل ذخیره نیست.";
 
-$lang["short_ticket_templates"] = "Templates";
+$lang["short_ticket_templates"] = "قالب‌های تیکت کوتاه"; // or "قالب‌های مختصر تیکت" , "تمپلیت‌های تیکت کوتاه"
 
 /* Version 3.8.2 */
 
-$lang["sortable"] = "Sortable";
-$lang["total_hours"] = "Total hours";
-$lang["support_only_project_related_tasks_globally_label"] = "Create only the project related tasks from the global task creation modal";
+$lang["sortable"] = "قابل مرتب‌سازی";
+$lang["total_hours"] = "مجموع ساعات";
+$lang["support_only_project_related_tasks_globally_label"] = "فقط وظایف مربوط به پروژه را از طریق modal ایجاد وظیفه سراسری ایجاد کن"; // or "فقط تسک‌های مرتبط با پروژه را از طریق modal ایجاد تسک سراسری ایجاد کن"
 
-$lang["name_and_company_name_error_message"] = "First name, last name, and company name can't be hidden at a time.";
+$lang["name_and_company_name_error_message"] = "نام، نام خانوادگی و نام شرکت نمی‌توانند همزمان پنهان شوند.";
 
 return $lang;
