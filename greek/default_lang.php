@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Δημιουργή
 
 $lang["name_and_company_name_error_message"] = "Το όνομα, το επώνυμο και το όνομα της εταιρείας δεν μπορούν να κρυφτούν κάθε φορά.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "ηλεκτρονικό τιμολόγιο";
+$lang["enable_e_invoice"] = "Ενεργοποίηση ηλεκτρονικού τιμολογίου";
+$lang["e_invoice_templates"] = "Πρότυπα ηλεκτρονικών τιμολογίων";
+$lang["e_invoice_template"] = "Πρότυπο ηλεκτρονικού τιμολογίου";
+$lang["e_invoice_template_title"] = "Τίτλος προτύπου ηλεκτρονικού τιμολογίου";
+$lang["edit_e_invoice_template"] = "Επεξεργασία προτύπου ηλεκτρονικού τιμολογίου";
+$lang["delete_e_invoice_template"] = "Διαγραφή προτύπου ηλεκτρονικού τιμολογίου";
+$lang["default_e_invoice_template"] = "Προεπιλεγμένο πρότυπο ηλεκτρονικού τιμολογίου";
+$lang["default_e_invoice_template_for_credit_note"] = "Προεπιλεγμένο πρότυπο ηλεκτρονικού τιμολογίου για πιστωτικό σημείωμα";
+
+$lang["company_or_supplier_or_seller"] = "Εταιρεία (Προμηθευτής/Πωλητής)";
+$lang["client_or_customer_or_buyer"] = "Πελάτης (Πελάτης/Αγοραστής)";
+$lang["template_variable_name"] = "Όνομα μεταβλητής προτύπου";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Αν ψάχνετε για περισσότερες μεταβλητές, προσθέστε τες στο σχετικό προσαρμοσμένο πεδίο.";
+$lang["send_e_invoice_attachment_with_email"] = "Αποστολή συνημμένου ηλεκτρονικού τιμολογίου με email";
+
+$lang["validate_and_save"] = "Επικύρωση &amp; Αποθήκευση";
+$lang["copied"] = "Αντιγράφηκε!";
+$lang["undefined_variables"] = "Μη ορισμένες μεταβλητές";
+
+$lang["related_articles"] = "Σχετικά άρθρα";
+$lang["show_related_articles_by_labels"] = "Εμφάνιση σχετικών άρθρων ανά ετικέτες";
+$lang["banner_image"] = "Εικόνα banner";
+$lang["banner_url"] = "URL banner";
+
+$lang["invoice_info"] = "Πληροφορίες τιμολογίου";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "Μπορείτε να επικυρώσετε το αρχείο XML πριν το στείλετε.";
+$lang["unlink_xml_attachment"] = "Αποσύνδεση συνημμένου XML";
+$lang["unattached"] = "Ασύνδετος";
+
+$lang["enable_invoice_id_editing"] = "Ενεργοποίηση επεξεργασίας αναγνωριστικού τιμολογίου";
+
+$lang["yes_all_expenses"] = "Ναι, όλα τα έξοδα";
+$lang["can_manage_only_own_created_expenses"] = "Μπορεί να διαχειριστεί μόνο τα δικά του έξοδα που δημιουργήθηκαν";
+
+$lang["set_invoice_permissions"] = "Ορισμός δικαιωμάτων τιμολογίου";
+$lang["can_not_access_invoices"] = "Δεν είναι δυνατή η πρόσβαση στα τιμολόγια";
+$lang["can_manage_all_invoices"] = "Μπορεί να διαχειριστεί όλα τα τιμολόγια";
+$lang["can_view_all_invoices"] = "Μπορεί να δει όλα τα τιμολόγια";
+$lang["can_manage_own_client_invoices"] = "Μπορεί να διαχειριστεί τα τιμολόγια των πελατών του";
+$lang["can_manage_own_client_invoices_except_delete"] = "Μπορεί να διαχειριστεί τα τιμολόγια των πελατών του (Εκτός από τη διαγραφή)";
+$lang["can_view_own_client_invoices"] = "Μπορεί να δει τα τιμολόγια των πελατών του";
+$lang["can_manage_only_own_created_invoices"] = "Μπορεί να διαχειριστεί μόνο τα δικά του τιμολόγια";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Μπορεί να διαχειριστεί μόνο τα δικά του τιμολόγια (Εκτός από τη διαγραφή)";
+
+$lang["companies"] = "Εταιρείες";
+$lang["panel"] = "Πίνακας";
+
+$lang["online_payment_disabled"] = "Η ηλεκτρονική πληρωμή είναι απενεργοποιημένη.";
+$lang["contact_info"] = "Στοιχεία επικοινωνίας";
+$lang["not_found"] = "Δεν βρέθηκε.";
+$lang["last_online"] = "Τελευταία σύνδεση";
+
+$lang["proposal_info"] = "Πληροφορίες πρότασης";
+$lang["proposal_items"] = "Στοιχεία πρότασης";
+
+$lang["enable_client_wallet"] = "Ενεργοποίηση πορτοφολιού πελάτη";
+$lang["auto_balance_invoice_payments"] = "Αυτόματες πληρωμές τιμολογίων υπολοίπου";
+
+$lang["client_wallet"] = "Πορτοφόλι πελάτη";
+$lang["add_payment"] = "Προσθήκη Πληρωμής";
+$lang["edit_payment"] = "Επεξεργασία Πληρωμής";
+
+$lang["insufficient_balance_in_client_wallet"] = "Ανεπαρκές υπόλοιπο στο πορτοφόλι του πελάτη.";
+$lang["received_payments"] = "Ληφθείσες πληρωμές";
+$lang["allocated_payments"] = "Κατανεμημένες πληρωμές";
+$lang["balance"] = "Ισορροπία";
+$lang["wallet"] = "Πορτοφόλι";
+$lang["added_by"] = "Προστέθηκε από";
+$lang["account_statement"] = "Απόδειξη Λογαριασμού";
+$lang["period"] = "Περίοδος";
+$lang["statement"] = "Δήλωση";
+$lang["opening_balance"] = "Αρχικό υπόλοιπο";
+$lang["generate_reports_based_on"] = "Δημιουργήστε αναφορές με βάση";
+$lang["all_time"] = "Όλο το χρόνο";
+$lang["hide_team_members_list_from_dropdowns"] = "Απόκρυψη λίστας μελών ομάδας από τα αναπτυσσόμενα μενού;";
+
 return $lang;

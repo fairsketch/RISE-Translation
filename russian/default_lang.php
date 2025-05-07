@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Создавайт
 
 $lang["name_and_company_name_error_message"] = "Имя, фамилию и название компании нельзя скрыть одновременно.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "Электронный счет-фактура";
+$lang["enable_e_invoice"] = "Включить электронный счет-фактуру";
+$lang["e_invoice_templates"] = "Шаблоны электронных счетов-фактур";
+$lang["e_invoice_template"] = "Шаблон электронного счета-фактуры";
+$lang["e_invoice_template_title"] = "Название шаблона электронного счета-фактуры";
+$lang["edit_e_invoice_template"] = "Изменить шаблон электронного счета-фактуры";
+$lang["delete_e_invoice_template"] = "Удалить шаблон электронного счета-фактуры";
+$lang["default_e_invoice_template"] = "Шаблон электронного счета-фактуры по умолчанию";
+$lang["default_e_invoice_template_for_credit_note"] = "Шаблон электронного счета-фактуры по умолчанию для кредитной ноты";
+
+$lang["company_or_supplier_or_seller"] = "Компания (Поставщик/Продавец)";
+$lang["client_or_customer_or_buyer"] = "Клиент (Заказчик/Покупатель)";
+$lang["template_variable_name"] = "Имя переменной шаблона";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Если вам нужны дополнительные переменные, добавьте их в соответствующее настраиваемое поле.";
+$lang["send_e_invoice_attachment_with_email"] = "Отправить вложение электронного счета по электронной почте";
+
+$lang["validate_and_save"] = "Проверить и сохранить";
+$lang["copied"] = "Скопировано!";
+$lang["undefined_variables"] = "Неопределенные переменные";
+
+$lang["related_articles"] = "Похожие статьи";
+$lang["show_related_articles_by_labels"] = "Показать похожие статьи по меткам";
+$lang["banner_image"] = "Изображение баннера";
+$lang["banner_url"] = "URL-адрес баннера";
+
+$lang["invoice_info"] = "Информация о счете-фактуре";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "Вы можете проверить XML-файл перед его отправкой.";
+$lang["unlink_xml_attachment"] = "Отсоединить XML-вложение";
+$lang["unattached"] = "Неприкрепленный";
+
+$lang["enable_invoice_id_editing"] = "Включить редактирование идентификатора счета-фактуры";
+
+$lang["yes_all_expenses"] = "Да, все расходы";
+$lang["can_manage_only_own_created_expenses"] = "Можно управлять только собственными созданными расходами";
+
+$lang["set_invoice_permissions"] = "Установить разрешения для счетов";
+$lang["can_not_access_invoices"] = "Невозможно получить доступ к счетам";
+$lang["can_manage_all_invoices"] = "Может управлять всеми счетами";
+$lang["can_view_all_invoices"] = "Можно просматривать все счета";
+$lang["can_manage_own_client_invoices"] = "Может управлять счетами собственных клиентов";
+$lang["can_manage_own_client_invoices_except_delete"] = "Может управлять счетами собственных клиентов (кроме удаления)";
+$lang["can_view_own_client_invoices"] = "Может просматривать счета своих клиентов";
+$lang["can_manage_only_own_created_invoices"] = "Можно управлять только собственными счетами-фактурами";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Можно управлять только собственными счетами-фактурами (кроме удаления)";
+
+$lang["companies"] = "Компании";
+$lang["panel"] = "Панель";
+
+$lang["online_payment_disabled"] = "Онлайн-платежи отключены.";
+$lang["contact_info"] = "Контакнтая информация";
+$lang["not_found"] = "Не найдено.";
+$lang["last_online"] = "Последний раз был в сети";
+
+$lang["proposal_info"] = "Информация о предложении";
+$lang["proposal_items"] = "Пункты предложения";
+
+$lang["enable_client_wallet"] = "Включить клиентский кошелек";
+$lang["auto_balance_invoice_payments"] = "Автоматическая оплата баланса счетов";
+
+$lang["client_wallet"] = "Клиентский кошелек";
+$lang["add_payment"] = "Добавить платеж";
+$lang["edit_payment"] = "Редактировать платеж";
+
+$lang["insufficient_balance_in_client_wallet"] = "Недостаточный баланс на клиентском кошельке.";
+$lang["received_payments"] = "Полученные платежи";
+$lang["allocated_payments"] = "Распределенные платежи";
+$lang["balance"] = "Баланс";
+$lang["wallet"] = "Кошелек";
+$lang["added_by"] = "Добавлено";
+$lang["account_statement"] = "Выписка по счету";
+$lang["period"] = "Период";
+$lang["statement"] = "Заявление";
+$lang["opening_balance"] = "Начальный баланс";
+$lang["generate_reports_based_on"] = "Создание отчетов на основе";
+$lang["all_time"] = "Все время";
+$lang["hide_team_members_list_from_dropdowns"] = "Скрыть список членов команды из выпадающих списков?";
+
 return $lang;

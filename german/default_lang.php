@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Erstellen Sie nur 
 
 $lang["name_and_company_name_error_message"] = "Vorname, Nachname und Firmenname können nicht gleichzeitig ausgeblendet werden.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "E-Rechnung";
+$lang["enable_e_invoice"] = "E-Rechnung aktivieren";
+$lang["e_invoice_templates"] = "E-Rechnungsvorlagen";
+$lang["e_invoice_template"] = "E-Rechnungsvorlage";
+$lang["e_invoice_template_title"] = "Titel der E-Rechnungsvorlage";
+$lang["edit_e_invoice_template"] = "E-Rechnungsvorlage bearbeiten";
+$lang["delete_e_invoice_template"] = "E-Rechnungsvorlage löschen";
+$lang["default_e_invoice_template"] = "Standardvorlage für elektronische Rechnungen";
+$lang["default_e_invoice_template_for_credit_note"] = "Standard-E-Rechnungsvorlage für Gutschriften";
+
+$lang["company_or_supplier_or_seller"] = "Unternehmen (Lieferant/Verkäufer)";
+$lang["client_or_customer_or_buyer"] = "Kunde (Kunde/Käufer)";
+$lang["template_variable_name"] = "Name der Vorlagenvariablen";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Wenn Sie nach weiteren Variablen suchen, fügen Sie diese bitte im entsprechenden benutzerdefinierten Feld hinzu.";
+$lang["send_e_invoice_attachment_with_email"] = "Senden Sie den Anhang der E-Rechnung per E-Mail";
+
+$lang["validate_and_save"] = "Bestätigen und speichern";
+$lang["copied"] = "Kopiert!";
+$lang["undefined_variables"] = "Undefinierte Variablen";
+
+$lang["related_articles"] = "Verwandte Beiträge";
+$lang["show_related_articles_by_labels"] = "Ähnliche Artikel nach Labels anzeigen";
+$lang["banner_image"] = "Bannerbild";
+$lang["banner_url"] = "Banner-URL";
+
+$lang["invoice_info"] = "Rechnungsinformationen";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "Sie können die XML-Datei vor dem Senden validieren.";
+$lang["unlink_xml_attachment"] = "XML-Anhang trennen";
+$lang["unattached"] = "Ungebunden";
+
+$lang["enable_invoice_id_editing"] = "Bearbeiten der Rechnungs-ID aktivieren";
+
+$lang["yes_all_expenses"] = "Ja, alle Kosten";
+$lang["can_manage_only_own_created_expenses"] = "Kann nur selbst erstellte Ausgaben verwalten";
+
+$lang["set_invoice_permissions"] = "Rechnungsberechtigungen festlegen";
+$lang["can_not_access_invoices"] = "Ich kann nicht auf Rechnungen zugreifen";
+$lang["can_manage_all_invoices"] = "Kann alle Rechnungen verwalten";
+$lang["can_view_all_invoices"] = "Kann alle Rechnungen einsehen";
+$lang["can_manage_own_client_invoices"] = "Kann die Rechnungen eigener Kunden verwalten";
+$lang["can_manage_own_client_invoices_except_delete"] = "Kann die Rechnungen eigener Kunden verwalten (außer löschen)";
+$lang["can_view_own_client_invoices"] = "Kann die Rechnungen des eigenen Kunden einsehen";
+$lang["can_manage_only_own_created_invoices"] = "Kann nur selbst erstellte Rechnungen verwalten";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Kann nur eigene erstellte Rechnungen verwalten (außer löschen)";
+
+$lang["companies"] = "Unternehmen";
+$lang["panel"] = "Panel";
+
+$lang["online_payment_disabled"] = "Die Online-Zahlung ist deaktiviert.";
+$lang["contact_info"] = "Kontaktinformationen";
+$lang["not_found"] = "Nicht gefunden.";
+$lang["last_online"] = "Zuletzt online";
+
+$lang["proposal_info"] = "Angebotsinformationen";
+$lang["proposal_items"] = "Vorschlagselemente";
+
+$lang["enable_client_wallet"] = "Client-Wallet aktivieren";
+$lang["auto_balance_invoice_payments"] = "Automatische Rechnungsausgleichszahlungen";
+
+$lang["client_wallet"] = "Kunden-Wallet";
+$lang["add_payment"] = "Zahlung hinzufügen";
+$lang["edit_payment"] = "Zahlung bearbeiten";
+
+$lang["insufficient_balance_in_client_wallet"] = "Unzureichendes Guthaben im Kunden-Wallet.";
+$lang["received_payments"] = "Erhaltene Zahlungen";
+$lang["allocated_payments"] = "Zugewiesene Zahlungen";
+$lang["balance"] = "Gleichgewicht";
+$lang["wallet"] = "Geldbörse";
+$lang["added_by"] = "Hinzugefügt von";
+$lang["account_statement"] = "Kontoauszug";
+$lang["period"] = "Zeitraum";
+$lang["statement"] = "Stellungnahme";
+$lang["opening_balance"] = "Eröffnungsbilanz";
+$lang["generate_reports_based_on"] = "Generieren Sie Berichte basierend auf";
+$lang["all_time"] = "Alle Zeit";
+$lang["hide_team_members_list_from_dropdowns"] = "Liste der Teammitglieder aus Dropdown-Menüs ausblenden?";
+
 return $lang;

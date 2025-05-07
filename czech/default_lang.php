@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Vytvářejte pouze
 
 $lang["name_and_company_name_error_message"] = "Jméno, příjmení a název společnosti nelze skrýt najednou.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "elektronická faktura";
+$lang["enable_e_invoice"] = "Povolit elektronickou fakturu";
+$lang["e_invoice_templates"] = "Šablony elektronických faktur";
+$lang["e_invoice_template"] = "Šablona elektronické faktury";
+$lang["e_invoice_template_title"] = "Název šablony elektronické faktury";
+$lang["edit_e_invoice_template"] = "Upravit šablonu elektronické faktury";
+$lang["delete_e_invoice_template"] = "Smazat šablonu elektronické faktury";
+$lang["default_e_invoice_template"] = "Výchozí šablona elektronické faktury";
+$lang["default_e_invoice_template_for_credit_note"] = "Výchozí šablona elektronické faktury pro dobropis";
+
+$lang["company_or_supplier_or_seller"] = "Společnost (Dodavatel/Prodávající)";
+$lang["client_or_customer_or_buyer"] = "Klient (zákazník/kupující)";
+$lang["template_variable_name"] = "Název proměnné šablony";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Pokud hledáte další proměnné, přidejte je prosím do příslušného vlastního pole.";
+$lang["send_e_invoice_attachment_with_email"] = "Odeslat přílohu elektronické faktury s e-mailem";
+
+$lang["validate_and_save"] = "Ověřit a uložit";
+$lang["copied"] = "Zkopírováno!";
+$lang["undefined_variables"] = "Nedefinované proměnné";
+
+$lang["related_articles"] = "Související články";
+$lang["show_related_articles_by_labels"] = "Zobrazit související články podle štítků";
+$lang["banner_image"] = "Obrázek banneru";
+$lang["banner_url"] = "URL adresa banneru";
+
+$lang["invoice_info"] = "Informace o faktuře";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "Před odesláním můžete soubor XML ověřit.";
+$lang["unlink_xml_attachment"] = "Odpojit přílohu XML";
+$lang["unattached"] = "Nepřipojen";
+
+$lang["enable_invoice_id_editing"] = "Povolit úpravu ID faktury";
+
+$lang["yes_all_expenses"] = "Ano, všechny výdaje";
+$lang["can_manage_only_own_created_expenses"] = "Může spravovat pouze vlastní výdaje";
+
+$lang["set_invoice_permissions"] = "Nastavení oprávnění k fakturaci";
+$lang["can_not_access_invoices"] = "Nemůžu se dostat k fakturám";
+$lang["can_manage_all_invoices"] = "Může spravovat všechny faktury";
+$lang["can_view_all_invoices"] = "Může si prohlédnout všechny faktury";
+$lang["can_manage_own_client_invoices"] = "Může spravovat faktury vlastních klientů";
+$lang["can_manage_own_client_invoices_except_delete"] = "Může spravovat faktury vlastních klientů (kromě mazání)";
+$lang["can_view_own_client_invoices"] = "Může si prohlížet faktury vlastních klientů";
+$lang["can_manage_only_own_created_invoices"] = "Může spravovat pouze vlastní faktury";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Může spravovat pouze vlastní faktury (kromě mazání)";
+
+$lang["companies"] = "Společnosti";
+$lang["panel"] = "Panel";
+
+$lang["online_payment_disabled"] = "Online platba je deaktivována.";
+$lang["contact_info"] = "Kontaktní informace";
+$lang["not_found"] = "Nenalezeno.";
+$lang["last_online"] = "Naposledy online";
+
+$lang["proposal_info"] = "Informace o návrhu";
+$lang["proposal_items"] = "Položky návrhu";
+
+$lang["enable_client_wallet"] = "Povolit klientskou peněženku";
+$lang["auto_balance_invoice_payments"] = "Automatické platby faktur";
+
+$lang["client_wallet"] = "Klientská peněženka";
+$lang["add_payment"] = "Přidat platbu";
+$lang["edit_payment"] = "Upravit platbu";
+
+$lang["insufficient_balance_in_client_wallet"] = "Nedostatečný zůstatek v peněžence klienta.";
+$lang["received_payments"] = "Přijaté platby";
+$lang["allocated_payments"] = "Přidělené platby";
+$lang["balance"] = "Váhy";
+$lang["wallet"] = "Peněženka";
+$lang["added_by"] = "Přidáno uživatelem";
+$lang["account_statement"] = "Výpis z účtu";
+$lang["period"] = "Období";
+$lang["statement"] = "Prohlášení";
+$lang["opening_balance"] = "Počáteční zůstatek";
+$lang["generate_reports_based_on"] = "Generovat reporty na základě";
+$lang["all_time"] = "Celé doby";
+$lang["hide_team_members_list_from_dropdowns"] = "Skrýt seznam členů týmu z rozbalovacích nabídek?";
+
 return $lang;

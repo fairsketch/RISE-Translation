@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Opprett bare de pr
 
 $lang["name_and_company_name_error_message"] = "Fornavn, etternavn og firmanavn kan ikke skjules om gangen.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "e-faktura";
+$lang["enable_e_invoice"] = "Aktiver e-faktura";
+$lang["e_invoice_templates"] = "e-fakturamaler";
+$lang["e_invoice_template"] = "Mal for e-faktura";
+$lang["e_invoice_template_title"] = "Tittel på e-fakturamal";
+$lang["edit_e_invoice_template"] = "Rediger e-fakturamal";
+$lang["delete_e_invoice_template"] = "Slett e-fakturamal";
+$lang["default_e_invoice_template"] = "Standard e-fakturamal";
+$lang["default_e_invoice_template_for_credit_note"] = "Standard e-fakturamal for kreditnota";
+
+$lang["company_or_supplier_or_seller"] = "Selskap (leverandør/selger)";
+$lang["client_or_customer_or_buyer"] = "Klient (kunde/kjøper)";
+$lang["template_variable_name"] = "Navn på malvariabel";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Hvis du ser etter flere variabler, kan du legge dem til i det relaterte egendefinerte feltet.";
+$lang["send_e_invoice_attachment_with_email"] = "Send e-fakturavedlegg med e-post";
+
+$lang["validate_and_save"] = "Valider og lagre";
+$lang["copied"] = "Kopiert!";
+$lang["undefined_variables"] = "Udefinerte variabler";
+
+$lang["related_articles"] = "Relaterte artikler";
+$lang["show_related_articles_by_labels"] = "Vis relaterte artikler etter etiketter";
+$lang["banner_image"] = "Bannerbilde";
+$lang["banner_url"] = "Banner-URL";
+
+$lang["invoice_info"] = "Fakturainformasjon";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "Du kan validere XML-filen før du sender den.";
+$lang["unlink_xml_attachment"] = "Fjern koblingen til XML-vedlegget";
+$lang["unattached"] = "Ubundet";
+
+$lang["enable_invoice_id_editing"] = "Aktiver redigering av faktura-ID";
+
+$lang["yes_all_expenses"] = "Ja, alle utgifter";
+$lang["can_manage_only_own_created_expenses"] = "Kan kun administrere egne opprettede utgifter";
+
+$lang["set_invoice_permissions"] = "Angi fakturatillatelser";
+$lang["can_not_access_invoices"] = "Får ikke tilgang til fakturaene";
+$lang["can_manage_all_invoices"] = "Kan administrere alle fakturaer";
+$lang["can_view_all_invoices"] = "Kan se alle fakturaer";
+$lang["can_manage_own_client_invoices"] = "Kan administrere egne klienters fakturaer";
+$lang["can_manage_own_client_invoices_except_delete"] = "Kan administrere egne klienters fakturaer (unntatt sletting)";
+$lang["can_view_own_client_invoices"] = "Kan se fakturaer fra egne kunder";
+$lang["can_manage_only_own_created_invoices"] = "Kan kun administrere egne opprettede fakturaer";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Kan kun administrere egne opprettede fakturaer (unntatt sletting)";
+
+$lang["companies"] = "Selskaper";
+$lang["panel"] = "Panelet";
+
+$lang["online_payment_disabled"] = "Nettbetaling er deaktivert.";
+$lang["contact_info"] = "Kontaktinformasjon";
+$lang["not_found"] = "Ikke funnet.";
+$lang["last_online"] = "Sist pålogget";
+
+$lang["proposal_info"] = "Forslagsinformasjon";
+$lang["proposal_items"] = "Forslagselementer";
+
+$lang["enable_client_wallet"] = "Aktiver klientlommebok";
+$lang["auto_balance_invoice_payments"] = "Automatisk saldofakturabetalinger";
+
+$lang["client_wallet"] = "Klientlommebok";
+$lang["add_payment"] = "Legg til betaling";
+$lang["edit_payment"] = "Rediger betaling";
+
+$lang["insufficient_balance_in_client_wallet"] = "Utilstrekkelig saldo i klientens lommebok.";
+$lang["received_payments"] = "Mottatte betalinger";
+$lang["allocated_payments"] = "Tildelte betalinger";
+$lang["balance"] = "Balansere";
+$lang["wallet"] = "Lommebok";
+$lang["added_by"] = "Lagt til av";
+$lang["account_statement"] = "Kontoutskrift";
+$lang["period"] = "Periode";
+$lang["statement"] = "Uttalelse";
+$lang["opening_balance"] = "Åpningsbalanse";
+$lang["generate_reports_based_on"] = "Generer rapporter basert på";
+$lang["all_time"] = "Hele tiden";
+$lang["hide_team_members_list_from_dropdowns"] = "Skjul listen over teammedlemmer fra rullegardinmenyene?";
+
 return $lang;

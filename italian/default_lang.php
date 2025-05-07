@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Crea solo le attiv
 
 $lang["name_and_company_name_error_message"] = "Nome, cognome e nome dell&#39;azienda non possono essere nascosti contemporaneamente.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "Fattura elettronica";
+$lang["enable_e_invoice"] = "Abilita fattura elettronica";
+$lang["e_invoice_templates"] = "Modelli di fattura elettronica";
+$lang["e_invoice_template"] = "Modello di fattura elettronica";
+$lang["e_invoice_template_title"] = "Titolo del modello di fattura elettronica";
+$lang["edit_e_invoice_template"] = "Modifica modello di fattura elettronica";
+$lang["delete_e_invoice_template"] = "Elimina modello di fattura elettronica";
+$lang["default_e_invoice_template"] = "Modello di fattura elettronica predefinito";
+$lang["default_e_invoice_template_for_credit_note"] = "Modello di fattura elettronica predefinito per nota di accredito";
+
+$lang["company_or_supplier_or_seller"] = "Azienda (Fornitore/Venditore)";
+$lang["client_or_customer_or_buyer"] = "Cliente (Cliente/Acquirente)";
+$lang["template_variable_name"] = "Nome della variabile modello";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Se cerchi altre variabili, aggiungile nel campo personalizzato correlato.";
+$lang["send_e_invoice_attachment_with_email"] = "Invia allegato fattura elettronica tramite e-mail";
+
+$lang["validate_and_save"] = "Convalida e salva";
+$lang["copied"] = "Copiato!";
+$lang["undefined_variables"] = "Variabili non definite";
+
+$lang["related_articles"] = "Articoli correlati";
+$lang["show_related_articles_by_labels"] = "Mostra articoli correlati per etichette";
+$lang["banner_image"] = "Immagine del banner";
+$lang["banner_url"] = "URL del banner";
+
+$lang["invoice_info"] = "Informazioni sulla fattura";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "È possibile convalidare il file XML prima di inviarlo.";
+$lang["unlink_xml_attachment"] = "Scollega allegato XML";
+$lang["unattached"] = "Non vincolato";
+
+$lang["enable_invoice_id_editing"] = "Abilita la modifica dell&#39;ID fattura";
+
+$lang["yes_all_expenses"] = "Sì, tutte le spese";
+$lang["can_manage_only_own_created_expenses"] = "Può gestire solo le spese create autonomamente";
+
+$lang["set_invoice_permissions"] = "Imposta autorizzazioni fattura";
+$lang["can_not_access_invoices"] = "Non è possibile accedere alle fatture";
+$lang["can_manage_all_invoices"] = "Può gestire tutte le fatture";
+$lang["can_view_all_invoices"] = "Può visualizzare tutte le fatture";
+$lang["can_manage_own_client_invoices"] = "Può gestire le fatture dei propri clienti";
+$lang["can_manage_own_client_invoices_except_delete"] = "Può gestire le fatture dei propri clienti (tranne l&#39;eliminazione)";
+$lang["can_view_own_client_invoices"] = "Può visualizzare le fatture dei propri clienti";
+$lang["can_manage_only_own_created_invoices"] = "Può gestire solo le fatture create autonomamente";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Può gestire solo le fatture create dall&#39;utente (tranne quelle eliminate)";
+
+$lang["companies"] = "Aziende";
+$lang["panel"] = "Pannello";
+
+$lang["online_payment_disabled"] = "Il pagamento online è disabilitato.";
+$lang["contact_info"] = "Informazioni di contatto";
+$lang["not_found"] = "Non trovato.";
+$lang["last_online"] = "Ultimo accesso";
+
+$lang["proposal_info"] = "Informazioni sulla proposta";
+$lang["proposal_items"] = "Elementi della proposta";
+
+$lang["enable_client_wallet"] = "Abilita il portafoglio client";
+$lang["auto_balance_invoice_payments"] = "Saldo automatico dei pagamenti delle fatture";
+
+$lang["client_wallet"] = "Portafoglio cliente";
+$lang["add_payment"] = "Aggiungi pagamento";
+$lang["edit_payment"] = "Modifica Pagamento";
+
+$lang["insufficient_balance_in_client_wallet"] = "Saldo insufficiente nel portafoglio del cliente.";
+$lang["received_payments"] = "Pagamenti ricevuti";
+$lang["allocated_payments"] = "Pagamenti assegnati";
+$lang["balance"] = "Bilancia";
+$lang["wallet"] = "Portafoglio";
+$lang["added_by"] = "Aggiunto da";
+$lang["account_statement"] = "Estratto conto";
+$lang["period"] = "Periodo";
+$lang["statement"] = "Dichiarazione";
+$lang["opening_balance"] = "Saldo iniziale";
+$lang["generate_reports_based_on"] = "Genera report basati su";
+$lang["all_time"] = "Sempre";
+$lang["hide_team_members_list_from_dropdowns"] = "Nascondere l&#39;elenco dei membri del team dai menu a discesa?";
+
 return $lang;

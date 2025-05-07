@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Utwórz tylko zada
 
 $lang["name_and_company_name_error_message"] = "Imienia, nazwiska i nazwy firmy nie można ukrywać jednocześnie.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "e-Faktura";
+$lang["enable_e_invoice"] = "Włącz e-fakturę";
+$lang["e_invoice_templates"] = "Szablony e-faktur";
+$lang["e_invoice_template"] = "Szablon e-faktury";
+$lang["e_invoice_template_title"] = "Tytuł szablonu e-faktury";
+$lang["edit_e_invoice_template"] = "Edytuj szablon e-Faktury";
+$lang["delete_e_invoice_template"] = "Usuń szablon e-faktury";
+$lang["default_e_invoice_template"] = "Domyślny szablon e-faktury";
+$lang["default_e_invoice_template_for_credit_note"] = "Domyślny szablon e-faktury dla noty kredytowej";
+
+$lang["company_or_supplier_or_seller"] = "Firma (Dostawca/Sprzedawca)";
+$lang["client_or_customer_or_buyer"] = "Klient (Klient/Kupujący)";
+$lang["template_variable_name"] = "Nazwa zmiennej szablonu";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Jeśli szukasz większej liczby zmiennych, dodaj je w odpowiednim polu niestandardowym.";
+$lang["send_e_invoice_attachment_with_email"] = "Wyślij załącznik e-faktury z adresem e-mail";
+
+$lang["validate_and_save"] = "Sprawdź i zapisz";
+$lang["copied"] = "Skopiowano!";
+$lang["undefined_variables"] = "Niezdefiniowane zmienne";
+
+$lang["related_articles"] = "Powiązane artykuły";
+$lang["show_related_articles_by_labels"] = "Pokaż powiązane artykuły według etykiet";
+$lang["banner_image"] = "Obraz banerowy";
+$lang["banner_url"] = "Adres URL banera";
+
+$lang["invoice_info"] = "Informacje o fakturze";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "Możesz sprawdzić poprawność pliku XML przed jego wysłaniem.";
+$lang["unlink_xml_attachment"] = "Odłącz załącznik XML";
+$lang["unattached"] = "Nie połączony";
+
+$lang["enable_invoice_id_editing"] = "Włącz edycję identyfikatora faktury";
+
+$lang["yes_all_expenses"] = "Tak, wszystkie koszty";
+$lang["can_manage_only_own_created_expenses"] = "Można zarządzać tylko własnymi, utworzonymi wydatkami";
+
+$lang["set_invoice_permissions"] = "Ustaw uprawnienia do faktur";
+$lang["can_not_access_invoices"] = "Nie można uzyskać dostępu do faktur";
+$lang["can_manage_all_invoices"] = "Możliwość zarządzania wszystkimi fakturami";
+$lang["can_view_all_invoices"] = "Możliwość przeglądania wszystkich faktur";
+$lang["can_manage_own_client_invoices"] = "Możliwość zarządzania fakturami własnych klientów";
+$lang["can_manage_own_client_invoices_except_delete"] = "Możliwość zarządzania fakturami własnych klientów (oprócz usuwania)";
+$lang["can_view_own_client_invoices"] = "Możliwość przeglądania faktur własnego klienta";
+$lang["can_manage_only_own_created_invoices"] = "Można zarządzać tylko własnymi utworzonymi fakturami";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Można zarządzać tylko własnymi fakturami (oprócz usuwania)";
+
+$lang["companies"] = "Firmy";
+$lang["panel"] = "Płyta";
+
+$lang["online_payment_disabled"] = "Płatności online są wyłączone.";
+$lang["contact_info"] = "Informacje kontaktowe";
+$lang["not_found"] = "Nie znaleziono.";
+$lang["last_online"] = "Ostatnio online";
+
+$lang["proposal_info"] = "Informacje o propozycji";
+$lang["proposal_items"] = "Pozycje propozycji";
+
+$lang["enable_client_wallet"] = "Włącz portfel klienta";
+$lang["auto_balance_invoice_payments"] = "Automatyczne saldo płatności faktur";
+
+$lang["client_wallet"] = "Portfel klienta";
+$lang["add_payment"] = "Dodaj płatność";
+$lang["edit_payment"] = "Edytuj płatność";
+
+$lang["insufficient_balance_in_client_wallet"] = "Niewystarczające saldo w portfelu klienta.";
+$lang["received_payments"] = "Otrzymane płatności";
+$lang["allocated_payments"] = "Przydzielone płatności";
+$lang["balance"] = "Balansować";
+$lang["wallet"] = "Portfel";
+$lang["added_by"] = "Dodane przez";
+$lang["account_statement"] = "Wyciąg z konta";
+$lang["period"] = "Okres";
+$lang["statement"] = "Oświadczenie";
+$lang["opening_balance"] = "Bilans otwarcia";
+$lang["generate_reports_based_on"] = "Generuj raporty na podstawie";
+$lang["all_time"] = "Cały czas";
+$lang["hide_team_members_list_from_dropdowns"] = "Ukryć listę członków zespołu na listach rozwijanych?";
+
 return $lang;

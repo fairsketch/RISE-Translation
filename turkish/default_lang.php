@@ -2808,4 +2808,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Create only the pr
 
 $lang["name_and_company_name_error_message"] = "First name, last name, and company name can't be hidden at a time.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "e-Invoice";
+$lang["enable_e_invoice"] = "Enable e-Invoice";
+$lang["e_invoice_templates"] = "e-Invoice Templates";
+$lang["e_invoice_template"] = "e-Invoice template";
+$lang["e_invoice_template_title"] = "e-Invoice template title";
+$lang["edit_e_invoice_template"] = "Edit e-Invoice template";
+$lang["delete_e_invoice_template"] = "Delete e-Invoice template";
+$lang["default_e_invoice_template"] = "Default e-Invoice template";
+$lang["default_e_invoice_template_for_credit_note"] = "Default e-Invoice template for credit note";
+
+$lang["company_or_supplier_or_seller"] = "Company (Supplier/Seller)";
+$lang["client_or_customer_or_buyer"] = "Client (Customer/Buyer)";
+$lang["template_variable_name"] = "Template variable name";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "If you are looking for more variables, please add them in the related custom field.";
+$lang["send_e_invoice_attachment_with_email"] = "Send e-Invoice attachment with email";
+
+$lang["validate_and_save"] = "Validate & Save";
+$lang["copied"] = "Copied!";
+$lang["undefined_variables"] = "Undefined variables";
+
+$lang["related_articles"] = "Related articles";
+$lang["show_related_articles_by_labels"] = "Show related articles by labels";
+$lang["banner_image"] = "Banner image";
+$lang["banner_url"] = "Banner URL";
+
+$lang["invoice_info"] = "Invoice info";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "You can validate the XML file before sending it.";
+$lang["unlink_xml_attachment"] = "Unlink XML attachment";
+$lang["unattached"] = "Unattached";
+
+$lang["enable_invoice_id_editing"] = "Enable invoice ID editing";
+
+$lang["yes_all_expenses"] = "Yes, all expenses";
+$lang["can_manage_only_own_created_expenses"] = "Can manage only own created expenses";
+
+$lang["set_invoice_permissions"] = "Set invoice permissions";
+$lang["can_not_access_invoices"] = "Can’t access invoices";
+$lang["can_manage_all_invoices"] = "Can manage all invoices";
+$lang["can_view_all_invoices"] = "Can view all invoices";
+$lang["can_manage_own_client_invoices"] = "Can manage own client’s invoices";
+$lang["can_manage_own_client_invoices_except_delete"] = "Can manage own client’s invoices (Except delete)";
+$lang["can_view_own_client_invoices"] = "Can view own client’s invoices";
+$lang["can_manage_only_own_created_invoices"] = "Can manage only own created invoices";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Can manage only own created invoices (Except delete)";
+
+$lang["companies"] = "Companies";
+$lang["panel"] = "Panel";
+
+$lang["online_payment_disabled"] = "Online payment is disabled.";
+$lang["contact_info"] = "Contact Info";
+$lang["not_found"] = "Not found.";
+$lang["last_online"] = "Last online";
+
+$lang["proposal_info"] = "Proposal info";
+$lang["proposal_items"] = "Proposal items";
+
+$lang["enable_client_wallet"] = "Enable client wallet";
+$lang["auto_balance_invoice_payments"] = "Auto balance invoice payments";
+
+$lang["client_wallet"] = "Client wallet";
+$lang["add_payment"] = "Add payment";
+$lang["edit_payment"] = "Edit payment";
+
+$lang["insufficient_balance_in_client_wallet"] = "Insufficient balance in client wallet.";
+$lang["received_payments"] = "Received payments";
+$lang["allocated_payments"] = "Allocated payments";
+$lang["balance"] = "Balance";
+$lang["wallet"] = "Wallet";
+$lang["added_by"] = "Added by";
+$lang["account_statement"] = "Account Statement";
+$lang["period"] = "Period";
+$lang["statement"] = "Statement";
+$lang["opening_balance"] = "Opening balance";
+$lang["generate_reports_based_on"] = "Generate reports based on";
+$lang["all_time"] = "All time";
+$lang["hide_team_members_list_from_dropdowns"] = "Hide team members list from dropdowns?";
+
 return $lang;

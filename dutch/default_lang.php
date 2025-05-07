@@ -2799,4 +2799,84 @@ $lang["support_only_project_related_tasks_globally_label"] = "Maak alleen de pro
 
 $lang["name_and_company_name_error_message"] = "Voornaam, achternaam en bedrijfsnaam kunnen niet tegelijkertijd worden verborgen.";
 
+/* Version 3.9 */
+
+$lang["e_invoice"] = "e-factuur";
+$lang["enable_e_invoice"] = "E-factuur inschakelen";
+$lang["e_invoice_templates"] = "e-factuursjablonen";
+$lang["e_invoice_template"] = "e-factuur sjabloon";
+$lang["e_invoice_template_title"] = "Titel van e-factuursjabloon";
+$lang["edit_e_invoice_template"] = "E-factuursjabloon bewerken";
+$lang["delete_e_invoice_template"] = "E-factuursjabloon verwijderen";
+$lang["default_e_invoice_template"] = "Standaard e-factuursjabloon";
+$lang["default_e_invoice_template_for_credit_note"] = "Standaard e-factuursjabloon voor creditnota";
+
+$lang["company_or_supplier_or_seller"] = "Bedrijf (Leverancier/Verkoper)";
+$lang["client_or_customer_or_buyer"] = "Klant (klant/koper)";
+$lang["template_variable_name"] = "Naam van sjabloonvariabele";
+
+$lang["e_invoice_template_custom_field_variable_info"] = "Als u op zoek bent naar meer variabelen, kunt u deze toevoegen in het bijbehorende aangepaste veld.";
+$lang["send_e_invoice_attachment_with_email"] = "E-factuurbijlage met e-mail verzenden";
+
+$lang["validate_and_save"] = "Valideren en opslaan";
+$lang["copied"] = "Gekopieerd!";
+$lang["undefined_variables"] = "Ongedefinieerde variabelen";
+
+$lang["related_articles"] = "Gerelateerde artikelen";
+$lang["show_related_articles_by_labels"] = "Gerelateerde artikelen weergeven op label";
+$lang["banner_image"] = "Bannerafbeelding";
+$lang["banner_url"] = "Banner-URL";
+
+$lang["invoice_info"] = "Factuurgegevens";
+$lang["you_can_validate_the_xml_file_before_sending_it"] = "U kunt het XML-bestand valideren voordat u het verzendt.";
+$lang["unlink_xml_attachment"] = "XML-bijlage ontkoppelen";
+$lang["unattached"] = "Niet-aangesloten";
+
+$lang["enable_invoice_id_editing"] = "Factuur-ID-bewerking inschakelen";
+
+$lang["yes_all_expenses"] = "Ja, alle kosten";
+$lang["can_manage_only_own_created_expenses"] = "Kan alleen eigen gemaakte uitgaven beheren";
+
+$lang["set_invoice_permissions"] = "Factuurmachtigingen instellen";
+$lang["can_not_access_invoices"] = "Geen toegang tot facturen";
+$lang["can_manage_all_invoices"] = "Kan alle facturen beheren";
+$lang["can_view_all_invoices"] = "Kan alle facturen bekijken";
+$lang["can_manage_own_client_invoices"] = "Kan de facturen van eigen klanten beheren";
+$lang["can_manage_own_client_invoices_except_delete"] = "Kan eigen facturen van klanten beheren (behalve verwijderen)";
+$lang["can_view_own_client_invoices"] = "Kan de facturen van zijn eigen klanten bekijken";
+$lang["can_manage_only_own_created_invoices"] = "Kan alleen eigen aangemaakte facturen beheren";
+$lang["can_manage_only_own_created_invoices_except_delete"] = "Kan alleen eigen facturen beheren (behalve verwijderen)";
+
+$lang["companies"] = "Bedrijven";
+$lang["panel"] = "Paneel";
+
+$lang["online_payment_disabled"] = "Online betalingen zijn uitgeschakeld.";
+$lang["contact_info"] = "Contactgegevens";
+$lang["not_found"] = "Niet gevonden.";
+$lang["last_online"] = "Laatst online";
+
+$lang["proposal_info"] = "Voorstelinfo";
+$lang["proposal_items"] = "Voorstelitems";
+
+$lang["enable_client_wallet"] = "Client wallet inschakelen";
+$lang["auto_balance_invoice_payments"] = "Automatische factuurbetalingen";
+
+$lang["client_wallet"] = "Klantenportemonnee";
+$lang["add_payment"] = "Betaling toevoegen";
+$lang["edit_payment"] = "Bewerk betaling";
+
+$lang["insufficient_balance_in_client_wallet"] = "Onvoldoende saldo in de portemonnee van de klant.";
+$lang["received_payments"] = "Ontvangen betalingen";
+$lang["allocated_payments"] = "Toegewezen betalingen";
+$lang["balance"] = "Evenwicht";
+$lang["wallet"] = "Portemonnee";
+$lang["added_by"] = "Toegevoegd door";
+$lang["account_statement"] = "Rekeningafschrift";
+$lang["period"] = "Periode";
+$lang["statement"] = "Stelling";
+$lang["opening_balance"] = "Beginsaldo";
+$lang["generate_reports_based_on"] = "Genereer rapporten op basis van";
+$lang["all_time"] = "Altijd";
+$lang["hide_team_members_list_from_dropdowns"] = "Teamledenlijst verbergen in vervolgkeuzemenu&#39;s?";
+
 return $lang;
