@@ -2879,4 +2879,59 @@ $lang["generate_reports_based_on"] = "Genera report basati su";
 $lang["all_time"] = "Sempre";
 $lang["hide_team_members_list_from_dropdowns"] = "Nascondere l&#39;elenco dei membri del team dai menu a discesa?";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Informazioni sulla stima";
+$lang["order_info"] = "Informazioni sull&#39;ordine";
+$lang["subscription_info"] = "Informazioni sull&#39;abbonamento";
+$lang["contract_info"] = "Informazioni sul contratto";
+
+$lang["unassigned"] = "Non assegnato";
+$lang["enter_minimum_2_characters"] = "Inserisci almeno 2 caratteri.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Aggiungi da fare";
+$lang["managers"] = "Dirigenti";
+
+$lang["specific_members"] = "Membri specifici";
+$lang["choose_members"] = "Scegli i membri";
+$lang["yes_all_proposals"] = "Sì, tutte le proposte";
+$lang["yes_only_own_proposals"] = "Sì, solo proposte proprie";
+
+$lang["invoice_details"] = "Dettagli della fattura";
+$lang["client_vat_number"] = "Partita IVA del cliente";
+
+$lang["move_to_tab"] = "Sposta alla scheda";
+$lang["move_to_overview"] = "Passa alla panoramica";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Mostra notifiche push anche se la finestra non è in primo piano. (Solo PWA)";
+$lang["pusher_beams_instance_id"] = "ID istanza travi di spinta";
+$lang["pusher_beams_primary_key"] = "Chiave primaria delle travi di spinta";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Reimposta filtro";
+$lang["access_denied"] = "Accesso negato!";
+
+$lang["can_not_access_contracts"] = "Non è possibile accedere ai contratti";
+$lang["can_manage_all_contracts"] = "Può gestire tutti i contratti";
+$lang["can_manage_only_own_client_contracts"] = "Può gestire solo i contratti dei propri clienti";
+$lang["can_see_only_own_client_contracts"] = "Può vedere solo i contratti dei propri clienti";
+
+$lang["this_action_will_do_the_following"] = "Questa azione avrà i seguenti effetti:";
+$lang["create_new_client"] = "Crea un nuovo cliente";
+$lang["create_client_contact"] = "Crea contatto cliente";
+$lang["add_client_contact"] = "Aggiungi contatto cliente";
+$lang["link_the_client_with_this_ticket"] = "Collega il cliente a questo ticket";
+$lang["link_client_to_existing_client_suggestion"] = "Esiste già un cliente con questo indirizzo email. Invece di creare un nuovo cliente, puoi associarlo a questo ticket.";
+
+$lang["client_vat_or_gst_number"] = "Numero di partita IVA/GST";
+
+$lang["ui_options"] = "Opzioni dell&#39;interfaccia utente";
+$lang["filter_bar"] = "Barra dei filtri";
+$lang["keep_filter_bar_collapsed"] = "Mantieni la barra del filtro compressa";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Mantieni la barra dei filtri espansa finché non viene selezionato un filtro salvato";
+$lang["keep_filter_bar_always_expanded"] = "Mantieni la barra dei filtri sempre espansa";
+
 return $lang;

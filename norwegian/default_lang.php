@@ -2879,4 +2879,59 @@ $lang["generate_reports_based_on"] = "Generer rapporter basert på";
 $lang["all_time"] = "Hele tiden";
 $lang["hide_team_members_list_from_dropdowns"] = "Skjul listen over teammedlemmer fra rullegardinmenyene?";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Estimatinformasjon";
+$lang["order_info"] = "Bestillingsinformasjon";
+$lang["subscription_info"] = "Abonnementsinformasjon";
+$lang["contract_info"] = "Kontraktinformasjon";
+
+$lang["unassigned"] = "Ikke tilordnet";
+$lang["enter_minimum_2_characters"] = "Vennligst skriv inn minst 2 tegn.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Legg til gjøremål";
+$lang["managers"] = "Ledere";
+
+$lang["specific_members"] = "Spesifikke medlemmer";
+$lang["choose_members"] = "Velg medlemmer";
+$lang["yes_all_proposals"] = "Ja, alle forslag";
+$lang["yes_only_own_proposals"] = "Ja, kun egne forslag";
+
+$lang["invoice_details"] = "Fakturadetaljer";
+$lang["client_vat_number"] = "Klientens MVA-nummer";
+
+$lang["move_to_tab"] = "Flytt til fane";
+$lang["move_to_overview"] = "Gå til oversikt";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Vis push-varsling selv om vinduet ikke er i fokus. (Kun PWA)";
+$lang["pusher_beams_instance_id"] = "Forekomst-ID for pusherbeams";
+$lang["pusher_beams_primary_key"] = "Primærnøkkel for skyvebjelker";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Tilbakestill filter";
+$lang["access_denied"] = "Adgang nektet!";
+
+$lang["can_not_access_contracts"] = "Får ikke tilgang til kontrakter";
+$lang["can_manage_all_contracts"] = "Kan håndtere alle kontrakter";
+$lang["can_manage_only_own_client_contracts"] = "Kan kun administrere egne klienters kontrakter";
+$lang["can_see_only_own_client_contracts"] = "Kan bare se kontraktene til egne kunder";
+
+$lang["this_action_will_do_the_following"] = "Denne handlingen vil gjøre følgende:";
+$lang["create_new_client"] = "Opprett en ny klient";
+$lang["create_client_contact"] = "Opprett klientkontakt";
+$lang["add_client_contact"] = "Legg til klientkontakt";
+$lang["link_the_client_with_this_ticket"] = "Koble klienten til denne saken";
+$lang["link_client_to_existing_client_suggestion"] = "En klient med denne e-postadressen finnes allerede. I stedet for å opprette en ny klient, kan du koble klienten til denne saken.";
+
+$lang["client_vat_or_gst_number"] = "MVA-/GST-nummer";
+
+$lang["ui_options"] = "UI-alternativer";
+$lang["filter_bar"] = "Filterlinje";
+$lang["keep_filter_bar_collapsed"] = "Hold filterlinjen skjult";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Hold filterlinjen utvidet til et lagret filter er valgt";
+$lang["keep_filter_bar_always_expanded"] = "Hold filterlinjen alltid utvidet";
+
 return $lang;

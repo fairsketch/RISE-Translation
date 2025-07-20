@@ -2879,4 +2879,59 @@ $lang["generate_reports_based_on"] = "Δημιουργήστε αναφορές 
 $lang["all_time"] = "Όλο το χρόνο";
 $lang["hide_team_members_list_from_dropdowns"] = "Απόκρυψη λίστας μελών ομάδας από τα αναπτυσσόμενα μενού;";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Πληροφορίες εκτίμησης";
+$lang["order_info"] = "Πληροφορίες παραγγελίας";
+$lang["subscription_info"] = "Πληροφορίες συνδρομής";
+$lang["contract_info"] = "Πληροφορίες σύμβασης";
+
+$lang["unassigned"] = "Μη ανατεθειμένο";
+$lang["enter_minimum_2_characters"] = "Παρακαλώ εισάγετε τουλάχιστον 2 χαρακτήρες.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Προσθήκη εργασίας";
+$lang["managers"] = "Διευθυντές";
+
+$lang["specific_members"] = "Συγκεκριμένα μέλη";
+$lang["choose_members"] = "Επιλέξτε μέλη";
+$lang["yes_all_proposals"] = "Ναι, όλες οι προτάσεις";
+$lang["yes_only_own_proposals"] = "Ναι, μόνο δικές μου προτάσεις";
+
+$lang["invoice_details"] = "Στοιχεία τιμολογίου";
+$lang["client_vat_number"] = "Αριθμός ΦΠΑ Πελάτη";
+
+$lang["move_to_tab"] = "Μετακίνηση σε καρτέλα";
+$lang["move_to_overview"] = "Μετακίνηση στην Επισκόπηση";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Εμφάνιση ειδοποίησης push ακόμα και αν το παράθυρο δεν είναι εστιασμένο. (Μόνο PWA)";
+$lang["pusher_beams_instance_id"] = "Αναγνωριστικό παρουσίας δοκών ώθησης";
+$lang["pusher_beams_primary_key"] = "Πρωτεύον Κλειδί Δοκών Ωθήσεων";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Επαναφορά φίλτρου";
+$lang["access_denied"] = "Δεν επιτρέπεται η πρόσβαση!";
+
+$lang["can_not_access_contracts"] = "Δεν είναι δυνατή η πρόσβαση σε συμβάσεις";
+$lang["can_manage_all_contracts"] = "Μπορεί να διαχειριστεί όλα τα συμβόλαια";
+$lang["can_manage_only_own_client_contracts"] = "Μπορεί να διαχειριστεί μόνο τα συμβόλαια των δικών του πελατών";
+$lang["can_see_only_own_client_contracts"] = "Μπορεί να δει μόνο τα συμβόλαια των πελατών του";
+
+$lang["this_action_will_do_the_following"] = "Αυτή η ενέργεια θα κάνει τα εξής:";
+$lang["create_new_client"] = "Δημιουργήστε έναν νέο πελάτη";
+$lang["create_client_contact"] = "Δημιουργία επαφής πελάτη";
+$lang["add_client_contact"] = "Προσθήκη επαφής πελάτη";
+$lang["link_the_client_with_this_ticket"] = "Συνδέστε τον πελάτη με αυτό το εισιτήριο";
+$lang["link_client_to_existing_client_suggestion"] = "Υπάρχει ήδη ένας πελάτης με αυτήν τη διεύθυνση ηλεκτρονικού ταχυδρομείου. Αντί να δημιουργήσετε έναν νέο πελάτη, μπορείτε να συνδέσετε τον πελάτη με αυτό το αίτημα.";
+
+$lang["client_vat_or_gst_number"] = "Αριθμός ΦΠΑ/GST";
+
+$lang["ui_options"] = "Επιλογές UI";
+$lang["filter_bar"] = "Γραμμή φίλτρου";
+$lang["keep_filter_bar_collapsed"] = "Διατήρηση της γραμμής φίλτρου συμπτυγμένης";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Διατήρηση της γραμμής φίλτρου ανοιχτής μέχρι να επιλεγεί οποιοδήποτε αποθηκευμένο φίλτρο";
+$lang["keep_filter_bar_always_expanded"] = "Διατήρηση της γραμμής φίλτρου πάντα ανοιχτής";
+
 return $lang;

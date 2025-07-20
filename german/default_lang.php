@@ -2879,4 +2879,59 @@ $lang["generate_reports_based_on"] = "Generieren Sie Berichte basierend auf";
 $lang["all_time"] = "Alle Zeit";
 $lang["hide_team_members_list_from_dropdowns"] = "Liste der Teammitglieder aus Dropdown-Menüs ausblenden?";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Kostenvoranschlag";
+$lang["order_info"] = "Bestell-Info";
+$lang["subscription_info"] = "Abonnementinformationen";
+$lang["contract_info"] = "Vertragsinformationen";
+
+$lang["unassigned"] = "Nicht zugewiesen";
+$lang["enter_minimum_2_characters"] = "Bitte geben Sie mindestens 2 Zeichen ein.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Zur Aufgabe hinzufügen";
+$lang["managers"] = "Manager";
+
+$lang["specific_members"] = "Bestimmte Mitglieder";
+$lang["choose_members"] = "Mitglieder auswählen";
+$lang["yes_all_proposals"] = "Ja, alle Vorschläge";
+$lang["yes_only_own_proposals"] = "Ja, nur eigene Vorschläge";
+
+$lang["invoice_details"] = "Rechnungsdetails";
+$lang["client_vat_number"] = "Umsatzsteuer-Identifikationsnummer des Kunden";
+
+$lang["move_to_tab"] = "In Registerkarte verschieben";
+$lang["move_to_overview"] = "Zur Übersicht wechseln";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Push-Benachrichtigung anzeigen, auch wenn das Fenster nicht im Fokus ist. (Nur PWA)";
+$lang["pusher_beams_instance_id"] = "Pusher Beams Instanz-ID";
+$lang["pusher_beams_primary_key"] = "Primärschlüssel für Schubbalken";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Filter zurücksetzen";
+$lang["access_denied"] = "Zugriff verweigert!";
+
+$lang["can_not_access_contracts"] = "Ich kann nicht auf Verträge zugreifen";
+$lang["can_manage_all_contracts"] = "Kann alle Verträge verwalten";
+$lang["can_manage_only_own_client_contracts"] = "Kann nur die Verträge des eigenen Kunden verwalten";
+$lang["can_see_only_own_client_contracts"] = "Kann nur die Verträge des eigenen Kunden sehen";
+
+$lang["this_action_will_do_the_following"] = "Diese Aktion bewirkt Folgendes:";
+$lang["create_new_client"] = "Neuen Client anlegen";
+$lang["create_client_contact"] = "Kundenkontakt erstellen";
+$lang["add_client_contact"] = "Kundenkontakt hinzufügen";
+$lang["link_the_client_with_this_ticket"] = "Verknüpfen Sie den Kunden mit diesem Ticket";
+$lang["link_client_to_existing_client_suggestion"] = "Es existiert bereits ein Kunde mit dieser E-Mail-Adresse. Anstatt einen neuen Kunden anzulegen, können Sie den Kunden mit diesem Ticket verknüpfen.";
+
+$lang["client_vat_or_gst_number"] = "Umsatzsteuer-Identifikationsnummer";
+
+$lang["ui_options"] = "UI-Optionen";
+$lang["filter_bar"] = "Filterleiste";
+$lang["keep_filter_bar_collapsed"] = "Filterleiste ausgeblendet lassen";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Filterleiste erweitert lassen, bis ein gespeicherter Filter ausgewählt ist";
+$lang["keep_filter_bar_always_expanded"] = "Filterleiste immer erweitert lassen";
+
 return $lang;

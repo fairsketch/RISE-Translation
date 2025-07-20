@@ -2879,4 +2879,59 @@ $lang["generate_reports_based_on"] = "Generovat reporty na základě";
 $lang["all_time"] = "Celé doby";
 $lang["hide_team_members_list_from_dropdowns"] = "Skrýt seznam členů týmu z rozbalovacích nabídek?";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Informace o odhadu";
+$lang["order_info"] = "Informace o objednávce";
+$lang["subscription_info"] = "Informace o předplatném";
+$lang["contract_info"] = "Informace o smlouvě";
+
+$lang["unassigned"] = "Nepřiřazeno";
+$lang["enter_minimum_2_characters"] = "Zadejte prosím alespoň 2 znaky.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Přidat k úkolu";
+$lang["managers"] = "Manažeři";
+
+$lang["specific_members"] = "Konkrétní členové";
+$lang["choose_members"] = "Vyberte členy";
+$lang["yes_all_proposals"] = "Ano, všechny návrhy";
+$lang["yes_only_own_proposals"] = "Ano, pouze vlastní návrhy";
+
+$lang["invoice_details"] = "Údaje o faktuře";
+$lang["client_vat_number"] = "DIČ klienta";
+
+$lang["move_to_tab"] = "Přesunout na kartu";
+$lang["move_to_overview"] = "Přejít na přehled";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Zobrazit push notifikaci, i když okno není ve fokusu. (Pouze PWA)";
+$lang["pusher_beams_instance_id"] = "ID instance tlačných nosníků";
+$lang["pusher_beams_primary_key"] = "Primární klíč tlačných nosníků";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Obnovit filtr";
+$lang["access_denied"] = "Přístup zamítnut!";
+
+$lang["can_not_access_contracts"] = "Nemůžu se dostat ke smlouvám";
+$lang["can_manage_all_contracts"] = "Může spravovat všechny smlouvy";
+$lang["can_manage_only_own_client_contracts"] = "Může spravovat pouze smlouvy vlastních klientů";
+$lang["can_see_only_own_client_contracts"] = "Vidí pouze smlouvy vlastních klientů";
+
+$lang["this_action_will_do_the_following"] = "Tato akce provede následující:";
+$lang["create_new_client"] = "Vytvořit nového klienta";
+$lang["create_client_contact"] = "Vytvořit kontakt s klientem";
+$lang["add_client_contact"] = "Přidat kontakt klienta";
+$lang["link_the_client_with_this_ticket"] = "Propojte klienta s tímto tiketem";
+$lang["link_client_to_existing_client_suggestion"] = "Klient s touto e-mailovou adresou již existuje. Místo vytváření nového klienta můžete propojit tohoto klienta s touto položkou.";
+
+$lang["client_vat_or_gst_number"] = "DIČ/IČ DPH";
+
+$lang["ui_options"] = "Možnosti uživatelského rozhraní";
+$lang["filter_bar"] = "Filtrovací panel";
+$lang["keep_filter_bar_collapsed"] = "Ponechat panel filtrů sbalený";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Ponechte panel filtrů rozbalený, dokud nevyberete některý z uložených filtrů";
+$lang["keep_filter_bar_always_expanded"] = "Udržovat panel filtrů vždy rozbalený";
+
 return $lang;

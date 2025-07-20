@@ -2879,4 +2879,59 @@ $lang["generate_reports_based_on"] = "Genereer rapporten op basis van";
 $lang["all_time"] = "Altijd";
 $lang["hide_team_members_list_from_dropdowns"] = "Teamledenlijst verbergen in vervolgkeuzemenu&#39;s?";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Geschatte informatie";
+$lang["order_info"] = "Bestelinformatie";
+$lang["subscription_info"] = "Abonnementsinformatie";
+$lang["contract_info"] = "Contractinformatie";
+
+$lang["unassigned"] = "Niet toegewezen";
+$lang["enter_minimum_2_characters"] = "Voer minimaal 2 tekens in.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Toevoegen aan doen";
+$lang["managers"] = "Managers";
+
+$lang["specific_members"] = "Specifieke leden";
+$lang["choose_members"] = "Kies leden";
+$lang["yes_all_proposals"] = "Ja, alle voorstellen";
+$lang["yes_only_own_proposals"] = "Ja, alleen eigen voorstellen";
+
+$lang["invoice_details"] = "Factuurgegevens";
+$lang["client_vat_number"] = "BTW-nummer van de klant";
+
+$lang["move_to_tab"] = "Verplaatsen naar tabblad";
+$lang["move_to_overview"] = "Ga naar Overzicht";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Toon pushmeldingen, zelfs als het venster niet in focus is. (Alleen PWA)";
+$lang["pusher_beams_instance_id"] = "Pusher Beams-instantie-ID";
+$lang["pusher_beams_primary_key"] = "Primaire sleutel van duwbalken";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Filter resetten";
+$lang["access_denied"] = "Toegang geweigerd!";
+
+$lang["can_not_access_contracts"] = "Geen toegang tot contracten";
+$lang["can_manage_all_contracts"] = "Kan alle contracten beheren";
+$lang["can_manage_only_own_client_contracts"] = "Kan alleen de contracten van eigen klanten beheren";
+$lang["can_see_only_own_client_contracts"] = "Kan alleen de contracten van zijn eigen klant zien";
+
+$lang["this_action_will_do_the_following"] = "Deze actie zal het volgende doen:";
+$lang["create_new_client"] = "Een nieuwe klant aanmaken";
+$lang["create_client_contact"] = "Klantcontact aanmaken";
+$lang["add_client_contact"] = "Klantcontact toevoegen";
+$lang["link_the_client_with_this_ticket"] = "Koppel de klant aan dit ticket";
+$lang["link_client_to_existing_client_suggestion"] = "Er bestaat al een klant met dit e-mailadres. In plaats van een nieuwe klant aan te maken, kunt u de klant aan dit ticket koppelen.";
+
+$lang["client_vat_or_gst_number"] = "BTW/GST-nummer";
+
+$lang["ui_options"] = "UI-opties";
+$lang["filter_bar"] = "Filterbalk";
+$lang["keep_filter_bar_collapsed"] = "Filterbalk ingeklapt houden";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Houd de filterbalk uitgevouwen totdat een opgeslagen filter is geselecteerd";
+$lang["keep_filter_bar_always_expanded"] = "Filterbalk altijd uitgevouwen houden";
+
 return $lang;

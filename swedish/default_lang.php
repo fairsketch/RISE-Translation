@@ -2886,4 +2886,59 @@ $lang["generate_reports_based_on"] = "Generate reports based on";
 $lang["all_time"] = "All time";
 $lang["hide_team_members_list_from_dropdowns"] = "Hide team members list from dropdowns?";
 
+/* Version 3.9.1 */
+
+$lang["estimate_info"] = "Estimate info";
+$lang["order_info"] = "Order info";
+$lang["subscription_info"] = "Subscription info";
+$lang["contract_info"] = "Contract info";
+
+$lang["unassigned"] = "Unassigned";
+$lang["enter_minimum_2_characters"] = "Please enter at least 2 characters.";
+
+/* Version 3.9.3 */
+
+$lang["add_todo"] = "Add to do";
+$lang["managers"] = "Managers";
+
+$lang["specific_members"] = "Specific members";
+$lang["choose_members"] = "Choose members";
+$lang["yes_all_proposals"] = "Yes, all proposals";
+$lang["yes_only_own_proposals"] = "Yes, only own proposals";
+
+$lang["invoice_details"] = "Invoice details";
+$lang["client_vat_number"] = "Client VAT Number";
+
+$lang["move_to_tab"] = "Move to Tab";
+$lang["move_to_overview"] = "Move to Overview";
+
+$lang["show_push_notification_even_the_window_is_not_in_focus"] = "Show push notification even the window is not in focus. (PWA only)";
+$lang["pusher_beams_instance_id"] = "Pusher Beams Instance ID";
+$lang["pusher_beams_primary_key"] = "Pusher Beams Primary Key";
+
+/* Version 3.9.4 */
+
+$lang["reset_filter"] = "Reset filter";
+$lang["access_denied"] = "Access denied!";
+
+$lang["can_not_access_contracts"] = "Can’t access contracts";
+$lang["can_manage_all_contracts"] = "Can manage all contracts";
+$lang["can_manage_only_own_client_contracts"] = "Can manage only own client’s contracts";
+$lang["can_see_only_own_client_contracts"] = "Can see only own client’s contracts";
+
+$lang["this_action_will_do_the_following"] = "This action will do the following:";
+$lang["create_new_client"] = "Create a new client";
+$lang["create_client_contact"] = "Create client contact";
+$lang["add_client_contact"] = "Add client contact";
+$lang["link_the_client_with_this_ticket"] = "Link the client with this ticket";
+$lang["link_client_to_existing_client_suggestion"] = "A client with this email is already exists. Instead of creating a new client, you can link the client with this ticket.";
+
+$lang["client_vat_or_gst_number"] = "VAT/GST Number";
+
+$lang["ui_options"] = "UI Options";
+$lang["filter_bar"] = "Filter Bar";
+$lang["keep_filter_bar_collapsed"] = "Keep filter bar collapsed";
+$lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Keep filter bar expanded until any saved filter is selected";
+$lang["keep_filter_bar_always_expanded"] = "Keep filter bar always expanded";
+
 return $lang;
