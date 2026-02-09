@@ -2942,4 +2942,74 @@ $lang["keep_filter_bar_collapsed"] = "Manter a barra de filtro recolhida";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Mantenha a barra de filtros expandida até que qualquer filtro salvo seja selecionado";
 $lang["keep_filter_bar_always_expanded"] = "Manter a barra de filtro sempre expandida";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Atividade diária";
+$lang["edit_estimate_request"] = "Editar solicitação de orçamento";
+$lang["delete_estimate_request"] = "Excluir solicitação de orçamento";
+$lang["estimate_request_prefix"] = "Prefixo de solicitação de orçamento";
+
+$lang["wallet_balance"] = "Saldo da carteira";
+$lang["estimate_request_info"] = "Informações para Solicitação de Orçamento";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "O e-mail de contato não corresponde ao e-mail do ticket.";
+
+$lang["hide_chat_icon"] = "Ocultar ícone de bate-papo";
+$lang["reset_window"] = "Redefinir janela";
+$lang["full_screen"] = "Tela cheia";
+$lang["exit_full_screen"] = "Sair do modo tela cheia";
+
+$lang["recurring_invoices"] = "Faturas recorrentes";
+$lang["phone_input_default_country"] = "País padrão de entrada do telefone";
+
+$lang["can_not_access_estimates"] = "Não consigo acessar as estimativas.";
+$lang["can_manage_all_estimates"] = "Capaz de gerenciar todos os orçamentos";
+$lang["can_view_all_estimates"] = "É possível visualizar todos os orçamentos.";
+$lang["can_manage_own_clients_estimates"] = "Capaz de gerenciar orçamentos de seus próprios clientes.";
+$lang["can_view_own_clients_estimates"] = "É possível visualizar orçamentos dos próprios clientes.";
+$lang["can_manage_own_leads_estimates"] = "Capaz de gerenciar estimativas de leads próprios";
+$lang["can_view_own_leads_estimates"] = "É possível visualizar estimativas dos próprios leads.";
+$lang["can_manage_only_own_created_estimates"] = "Só é possível gerenciar orçamentos criados por mim.";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Capaz de gerenciar orçamentos de seus próprios clientes e leads.";
+$lang["can_view_own_clients_and_leads_estimates"] = "É possível visualizar estimativas de seus próprios clientes e leads.";
+
+$lang["can_not_access_proposals"] = "Não consigo acessar as propostas.";
+$lang["can_manage_all_proposals"] = "Capaz de gerenciar todas as propostas";
+$lang["can_view_all_proposals"] = "É possível visualizar todas as propostas.";
+$lang["can_manage_own_clients_proposals"] = "Capaz de gerenciar propostas de clientes próprios";
+$lang["can_view_own_clients_proposals"] = "É possível visualizar as propostas dos próprios clientes.";
+$lang["can_manage_own_leads_proposals"] = "Capaz de gerenciar propostas de clientes em potencial.";
+$lang["can_view_own_leads_proposals"] = "É possível visualizar propostas de seus próprios leads.";
+$lang["can_manage_only_own_created_proposals"] = "Só pode gerir propostas criadas por si.";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Capaz de gerenciar propostas de clientes próprios e leads.";
+$lang["can_view_own_clients_and_leads_proposals"] = "É possível visualizar propostas de clientes e leads próprios.";
+
+$lang["need_something_new"] = "Precisa de algo novo?";
+$lang["get_a_free_estimate"] = "Solicite um orçamento gratuito.";
+$lang["total_estimates"] = "Estimativas totais";
+
+$lang["no_open_projects"] = "Nenhum projeto em aberto";
+$lang["client_custom_field_variables"] = "Variáveis de campo personalizado do cliente";
+
+$lang["public_pay_url"] = "URL de pagamento público";
+$lang["view_url"] = "URL de visualização";
+
+$lang["select_who_will_pay_the_invoice"] = "Selecione quem pagará a fatura.";
+$lang["view_invoice"] = "Ver fatura";
+
+$lang["estimate_request_pending_alert_1"] = "Existe um pedido de orçamento aguardando sua atenção.";
+$lang["estimate_request_pending_alert_2"] = "Existem %s solicitações de estimativa aguardando sua atenção.";
+
+$lang["upcoming_event"] = "Próximo evento";
+$lang["notification_upcoming_event"] = "Próximo evento.";
+$lang["upcoming_reminder"] = "lembrete futuro";
+$lang["notification_upcoming_reminder"] = "Lembrete futuro.";
+
+$lang["send_early_reminder_before"] = "Enviar lembrete antecipado antes";
+$lang["week"] = "Semana";
+$lang["reminders_settings"] = "Configurações de lembretes";
+$lang["send_early_reminder_of_events_before"] = "Enviar lembretes antecipados de eventos antes";
+$lang["send_early_reminder_of_reminders_before"] = "Enviar lembretes antecipados antes";
+$lang["send_early_reminder_of_events_before_help_message"] = "Quaisquer alterações aqui serão aplicadas somente a novos eventos.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Quaisquer alterações feitas aqui serão aplicadas somente aos novos lembretes.";
+
 return $lang;
