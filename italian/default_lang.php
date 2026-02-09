@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Mantieni la barra del filtro compressa";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Mantieni la barra dei filtri espansa finché non viene selezionato un filtro salvato";
 $lang["keep_filter_bar_always_expanded"] = "Mantieni la barra dei filtri sempre espansa";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Attività quotidiana";
+$lang["edit_estimate_request"] = "Modifica richiesta di preventivo";
+$lang["delete_estimate_request"] = "Elimina richiesta di preventivo";
+$lang["estimate_request_prefix"] = "Prefisso richiesta preventivo";
+
+$lang["wallet_balance"] = "Saldo del portafoglio";
+$lang["estimate_request_info"] = "Richiedi informazioni sul preventivo";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "L&#39;email di contatto non corrisponde all&#39;email del ticket.";
+
+$lang["hide_chat_icon"] = "Nascondi l&#39;icona della chat";
+$lang["reset_window"] = "Reimposta finestra";
+$lang["full_screen"] = "A schermo intero";
+$lang["exit_full_screen"] = "Esci dalla modalità a schermo intero";
+
+$lang["recurring_invoices"] = "Fatture ricorrenti";
+$lang["phone_input_default_country"] = "Inserisci il paese predefinito nel telefono";
+
+$lang["can_not_access_estimates"] = "Impossibile accedere alle stime";
+$lang["can_manage_all_estimates"] = "Può gestire tutte le stime";
+$lang["can_view_all_estimates"] = "Puoi visualizzare tutte le stime";
+$lang["can_manage_own_clients_estimates"] = "Può gestire i preventivi dei propri clienti";
+$lang["can_view_own_clients_estimates"] = "Può visualizzare i preventivi dei propri clienti";
+$lang["can_manage_own_leads_estimates"] = "Può gestire le stime dei propri lead";
+$lang["can_view_own_leads_estimates"] = "Può visualizzare le stime dei propri lead";
+$lang["can_manage_only_own_created_estimates"] = "Può gestire solo preventivi creati da te";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Può gestire le stime dei propri clienti e lead";
+$lang["can_view_own_clients_and_leads_estimates"] = "Può visualizzare le stime dei propri clienti e lead";
+
+$lang["can_not_access_proposals"] = "Impossibile accedere alle proposte";
+$lang["can_manage_all_proposals"] = "Può gestire tutte le proposte";
+$lang["can_view_all_proposals"] = "Puoi visualizzare tutte le proposte";
+$lang["can_manage_own_clients_proposals"] = "Può gestire le proposte dei propri clienti";
+$lang["can_view_own_clients_proposals"] = "Può visualizzare le proposte dei propri clienti";
+$lang["can_manage_own_leads_proposals"] = "Può gestire le proposte dei propri lead";
+$lang["can_view_own_leads_proposals"] = "Può visualizzare le proposte dei propri lead";
+$lang["can_manage_only_own_created_proposals"] = "Può gestire solo le proposte create autonomamente";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Può gestire le proposte dei propri clienti e lead";
+$lang["can_view_own_clients_and_leads_proposals"] = "Può visualizzare le proposte dei propri clienti e lead";
+
+$lang["need_something_new"] = "Hai bisogno di qualcosa di nuovo?";
+$lang["get_a_free_estimate"] = "Richiedi un preventivo gratuito.";
+$lang["total_estimates"] = "Stime totali";
+
+$lang["no_open_projects"] = "Nessun progetto aperto";
+$lang["client_custom_field_variables"] = "Variabili dei campi personalizzati del cliente";
+
+$lang["public_pay_url"] = "URL a pagamento pubblico";
+$lang["view_url"] = "Visualizza URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Seleziona chi pagherà la fattura";
+$lang["view_invoice"] = "Visualizza fattura";
+
+$lang["estimate_request_pending_alert_1"] = "C&#39;è una richiesta di preventivo in attesa della tua attenzione.";
+$lang["estimate_request_pending_alert_2"] = "Ci sono %s richieste di preventivo in attesa della tua attenzione.";
+
+$lang["upcoming_event"] = "Prossimo evento";
+$lang["notification_upcoming_event"] = "Prossimo evento.";
+$lang["upcoming_reminder"] = "Prossimo promemoria";
+$lang["notification_upcoming_reminder"] = "Prossimo promemoria.";
+
+$lang["send_early_reminder_before"] = "Invia un promemoria anticipato prima";
+$lang["week"] = "Settimana";
+$lang["reminders_settings"] = "Impostazioni promemoria";
+$lang["send_early_reminder_of_events_before"] = "Invia un promemoria anticipato degli eventi prima";
+$lang["send_early_reminder_of_reminders_before"] = "Invia promemoria anticipati dei promemoria prima";
+$lang["send_early_reminder_of_events_before_help_message"] = "Eventuali modifiche verranno applicate solo ai nuovi eventi.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Eventuali modifiche apportate qui verranno applicate solo ai nuovi promemoria.";
+
 return $lang;

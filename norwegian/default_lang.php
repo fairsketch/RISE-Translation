@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Hold filterlinjen skjult";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Hold filterlinjen utvidet til et lagret filter er valgt";
 $lang["keep_filter_bar_always_expanded"] = "Hold filterlinjen alltid utvidet";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Daglig aktivitet";
+$lang["edit_estimate_request"] = "Rediger forespørsel om estimat";
+$lang["delete_estimate_request"] = "Slett forespørsel om estimat";
+$lang["estimate_request_prefix"] = "Prefiks for estimatforespørsel";
+
+$lang["wallet_balance"] = "Wallet-saldo";
+$lang["estimate_request_info"] = "Informasjon om forespørsel om estimat";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "Kontakt-e-postadressen samsvarer ikke med e-postadressen for billetten.";
+
+$lang["hide_chat_icon"] = "Skjul chat-ikonet";
+$lang["reset_window"] = "Tilbakestill vindu";
+$lang["full_screen"] = "Fullskjerm";
+$lang["exit_full_screen"] = "Gå ut av fullskjermmodus";
+
+$lang["recurring_invoices"] = "Gjentakende fakturaer";
+$lang["phone_input_default_country"] = "Standardland for telefoninndata";
+
+$lang["can_not_access_estimates"] = "Får ikke tilgang til estimater";
+$lang["can_manage_all_estimates"] = "Kan håndtere alle estimater";
+$lang["can_view_all_estimates"] = "Kan se alle estimater";
+$lang["can_manage_own_clients_estimates"] = "Kan administrere estimater fra egne kunder";
+$lang["can_view_own_clients_estimates"] = "Kan se estimater fra egne kunder";
+$lang["can_manage_own_leads_estimates"] = "Kan administrere estimater av egne potensielle kunder";
+$lang["can_view_own_leads_estimates"] = "Kan se estimater av egne potensielle kunder";
+$lang["can_manage_only_own_created_estimates"] = "Kan kun administrere egne opprettede estimater";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Kan administrere estimater for egne kunder og potensielle kunder";
+$lang["can_view_own_clients_and_leads_estimates"] = "Kan se estimater for egne kunder og potensielle kunder";
+
+$lang["can_not_access_proposals"] = "Får ikke tilgang til forslagene";
+$lang["can_manage_all_proposals"] = "Kan administrere alle forslag";
+$lang["can_view_all_proposals"] = "Kan se alle forslag";
+$lang["can_manage_own_clients_proposals"] = "Kan håndtere tilbud fra egne kunder";
+$lang["can_view_own_clients_proposals"] = "Kan se forslag fra egne kunder";
+$lang["can_manage_own_leads_proposals"] = "Kan administrere forslag fra egne potensielle kunder";
+$lang["can_view_own_leads_proposals"] = "Kan se forslag fra egne potensielle kunder";
+$lang["can_manage_only_own_created_proposals"] = "Kan bare administrere egne opprettede forslag";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Kan administrere tilbud fra egne kunder og potensielle kunder";
+$lang["can_view_own_clients_and_leads_proposals"] = "Kan se forslag fra egne kunder og potensielle kunder";
+
+$lang["need_something_new"] = "Trenger du noe nytt?";
+$lang["get_a_free_estimate"] = "Få et gratis estimat.";
+$lang["total_estimates"] = "Totale estimater";
+
+$lang["no_open_projects"] = "Ingen åpne prosjekter";
+$lang["client_custom_field_variables"] = "Klientens tilpassede feltvariabler";
+
+$lang["public_pay_url"] = "Offentlig betalings-URL";
+$lang["view_url"] = "Vis URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Velg hvem som skal betale fakturaen";
+$lang["view_invoice"] = "Vis faktura";
+
+$lang["estimate_request_pending_alert_1"] = "Det finnes en forespørsel om et estimat som venter på din oppmerksomhet.";
+$lang["estimate_request_pending_alert_2"] = "Det er %s forespørsler om estimat som venter på din oppmerksomhet.";
+
+$lang["upcoming_event"] = "Kommende arrangement";
+$lang["notification_upcoming_event"] = "Kommende arrangement.";
+$lang["upcoming_reminder"] = "Kommende påminnelse";
+$lang["notification_upcoming_reminder"] = "Kommende påminnelse.";
+
+$lang["send_early_reminder_before"] = "Send tidlig påminnelse før";
+$lang["week"] = "Uke";
+$lang["reminders_settings"] = "Påminnelsesinnstillinger";
+$lang["send_early_reminder_of_events_before"] = "Send tidlig påminnelse om hendelser før";
+$lang["send_early_reminder_of_reminders_before"] = "Send tidlig påminnelse om påminnelser før";
+$lang["send_early_reminder_of_events_before_help_message"] = "Eventuelle endringer her vil kun gjelde for nye arrangementer.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Eventuelle endringer her vil kun gjelde for nye påminnelser.";
+
 return $lang;

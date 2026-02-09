@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Filterbalk ingeklapt houden";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Houd de filterbalk uitgevouwen totdat een opgeslagen filter is geselecteerd";
 $lang["keep_filter_bar_always_expanded"] = "Filterbalk altijd uitgevouwen houden";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Dagelijkse activiteit";
+$lang["edit_estimate_request"] = "Offerteaanvraag bewerken";
+$lang["delete_estimate_request"] = "Offerteaanvraag verwijderen";
+$lang["estimate_request_prefix"] = "Voorvoegsel voor offerteaanvraag";
+
+$lang["wallet_balance"] = "Portemonneesaldo";
+$lang["estimate_request_info"] = "Offerteaanvraag Info";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "Het contact-e-mailadres komt niet overeen met het ticket-e-mailadres.";
+
+$lang["hide_chat_icon"] = "Chatpictogram verbergen";
+$lang["reset_window"] = "Venster resetten";
+$lang["full_screen"] = "Volledig scherm";
+$lang["exit_full_screen"] = "Volledig scherm verlaten";
+
+$lang["recurring_invoices"] = "Terugkerende facturen";
+$lang["phone_input_default_country"] = "Standaard land voor telefooninvoer";
+
+$lang["can_not_access_estimates"] = "Kan geen toegang krijgen tot schattingen";
+$lang["can_manage_all_estimates"] = "Kan alle schattingen beheren";
+$lang["can_view_all_estimates"] = "Kan alle schattingen bekijken";
+$lang["can_manage_own_clients_estimates"] = "Kan offertes van eigen klanten beheren";
+$lang["can_view_own_clients_estimates"] = "Kan schattingen van eigen klanten bekijken";
+$lang["can_manage_own_leads_estimates"] = "Kan schattingen van eigen leads beheren";
+$lang["can_view_own_leads_estimates"] = "Kan schattingen van eigen leads bekijken";
+$lang["can_manage_only_own_created_estimates"] = "Kan alleen eigen gemaakte schattingen beheren";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Kan schattingen van eigen klanten en leads beheren";
+$lang["can_view_own_clients_and_leads_estimates"] = "Kan schattingen van eigen klanten en leads bekijken";
+
+$lang["can_not_access_proposals"] = "Kan geen toegang krijgen tot voorstellen";
+$lang["can_manage_all_proposals"] = "Kan alle voorstellen beheren";
+$lang["can_view_all_proposals"] = "Kan alle voorstellen bekijken";
+$lang["can_manage_own_clients_proposals"] = "Kan voorstellen van eigen klanten beheren";
+$lang["can_view_own_clients_proposals"] = "Kan voorstellen van eigen klanten bekijken";
+$lang["can_manage_own_leads_proposals"] = "Kan voorstellen van eigen leads beheren";
+$lang["can_view_own_leads_proposals"] = "Kan voorstellen van eigen leads bekijken";
+$lang["can_manage_only_own_created_proposals"] = "Kan alleen eigen gemaakte voorstellen beheren";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Kan voorstellen van eigen klanten en leads beheren";
+$lang["can_view_own_clients_and_leads_proposals"] = "Kan voorstellen van eigen klanten en leads bekijken";
+
+$lang["need_something_new"] = "Iets nieuws nodig?";
+$lang["get_a_free_estimate"] = "Vraag een gratis offerte aan.";
+$lang["total_estimates"] = "Totale schattingen";
+
+$lang["no_open_projects"] = "Geen open projecten";
+$lang["client_custom_field_variables"] = "Aangepaste veldvariabelen van de client";
+
+$lang["public_pay_url"] = "Openbare betaal-URL";
+$lang["view_url"] = "URL bekijken";
+
+$lang["select_who_will_pay_the_invoice"] = "Selecteer wie de factuur betaalt";
+$lang["view_invoice"] = "Factuur bekijken";
+
+$lang["estimate_request_pending_alert_1"] = "Er is een offerteaanvraag ingediend die op uw reactie wacht.";
+$lang["estimate_request_pending_alert_2"] = "Er zijn %s schattingsaanvragen die op uw aandacht wachten.";
+
+$lang["upcoming_event"] = "Aankomend evenement";
+$lang["notification_upcoming_event"] = "Aankomend evenement.";
+$lang["upcoming_reminder"] = "Aankomende herinnering";
+$lang["notification_upcoming_reminder"] = "Aankomende herinnering.";
+
+$lang["send_early_reminder_before"] = "Stuur een herinnering vóór";
+$lang["week"] = "Week";
+$lang["reminders_settings"] = "Herinneringeninstellingen";
+$lang["send_early_reminder_of_events_before"] = "Stuur vroegtijdig een herinnering aan evenementen";
+$lang["send_early_reminder_of_reminders_before"] = "Stuur vroegtijdig herinneringen van herinneringen vóór";
+$lang["send_early_reminder_of_events_before_help_message"] = "Wijzigingen hier worden alleen toegepast op nieuwe evenementen.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Wijzigingen hier worden alleen toegepast op nieuwe herinneringen.";
+
 return $lang;

@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Garder la barre de filtre réduite";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Gardez la barre de filtre développée jusqu&#39;à ce qu&#39;un filtre enregistré soit sélectionné";
 $lang["keep_filter_bar_always_expanded"] = "Gardez la barre de filtre toujours étendue";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Activité quotidienne";
+$lang["edit_estimate_request"] = "Demande de modification de devis";
+$lang["delete_estimate_request"] = "Supprimer la demande de devis";
+$lang["estimate_request_prefix"] = "Préfixe de demande de devis";
+
+$lang["wallet_balance"] = "Solde du portefeuille";
+$lang["estimate_request_info"] = "Demande de devis";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "L&#39;adresse e-mail de contact ne correspond pas à l&#39;adresse e-mail associée au billet.";
+
+$lang["hide_chat_icon"] = "Masquer l&#39;icône de chat";
+$lang["reset_window"] = "Réinitialiser la fenêtre";
+$lang["full_screen"] = "Plein écran";
+$lang["exit_full_screen"] = "Quitter le mode plein écran";
+
+$lang["recurring_invoices"] = "Factures récurrentes";
+$lang["phone_input_default_country"] = "pays par défaut de saisie du numéro de téléphone";
+
+$lang["can_not_access_estimates"] = "Impossible d&#39;accéder aux estimations";
+$lang["can_manage_all_estimates"] = "Peut gérer tous les devis";
+$lang["can_view_all_estimates"] = "Vous pouvez consulter tous les devis.";
+$lang["can_manage_own_clients_estimates"] = "Peut gérer les devis de ses propres clients";
+$lang["can_view_own_clients_estimates"] = "Peut consulter les estimations de ses propres clients";
+$lang["can_manage_own_leads_estimates"] = "Peut gérer les estimations de ses propres prospects";
+$lang["can_view_own_leads_estimates"] = "Peut consulter les estimations de ses propres prospects";
+$lang["can_manage_only_own_created_estimates"] = "Je ne peux gérer que les estimations que j&#39;ai créées moi-même.";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Peut gérer les estimations de ses propres clients et prospects";
+$lang["can_view_own_clients_and_leads_estimates"] = "Peut consulter les estimations de ses propres clients et prospects";
+
+$lang["can_not_access_proposals"] = "Impossible d&#39;accéder aux propositions";
+$lang["can_manage_all_proposals"] = "Peut gérer toutes les propositions";
+$lang["can_view_all_proposals"] = "Vous pouvez consulter toutes les propositions";
+$lang["can_manage_own_clients_proposals"] = "Peut gérer les propositions de ses propres clients";
+$lang["can_view_own_clients_proposals"] = "Peut consulter les propositions de ses propres clients";
+$lang["can_manage_own_leads_proposals"] = "Peut gérer les propositions de ses propres prospects";
+$lang["can_view_own_leads_proposals"] = "Peut consulter les propositions de ses propres prospects";
+$lang["can_manage_only_own_created_proposals"] = "Peut gérer uniquement les propositions que vous avez créées vous-même.";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Peut gérer les propositions de ses propres clients et prospects";
+$lang["can_view_own_clients_and_leads_proposals"] = "Peut consulter les propositions de ses propres clients et prospects";
+
+$lang["need_something_new"] = "Besoin de quelque chose de nouveau ?";
+$lang["get_a_free_estimate"] = "Obtenez un devis gratuit.";
+$lang["total_estimates"] = "Estimations totales";
+
+$lang["no_open_projects"] = "Aucun projet en cours";
+$lang["client_custom_field_variables"] = "Variables de champ personnalisées du client";
+
+$lang["public_pay_url"] = "URL de paiement public";
+$lang["view_url"] = "Afficher l&#39;URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Sélectionnez la personne qui paiera la facture";
+$lang["view_invoice"] = "Voir la facture";
+
+$lang["estimate_request_pending_alert_1"] = "Une demande de devis attend votre attention.";
+$lang["estimate_request_pending_alert_2"] = "Il y a %s demandes d&#39;estimation en attente de votre attention.";
+
+$lang["upcoming_event"] = "Événement à venir";
+$lang["notification_upcoming_event"] = "Événement à venir.";
+$lang["upcoming_reminder"] = "Prochain rappel";
+$lang["notification_upcoming_reminder"] = "Prochain rappel.";
+
+$lang["send_early_reminder_before"] = "Envoyer un rappel anticipé avant";
+$lang["week"] = "Semaine";
+$lang["reminders_settings"] = "Paramètres des rappels";
+$lang["send_early_reminder_of_events_before"] = "Envoyer un rappel anticipé des événements avant";
+$lang["send_early_reminder_of_reminders_before"] = "Envoyer un rappel anticipé des rappels avant";
+$lang["send_early_reminder_of_events_before_help_message"] = "Toute modification apportée ici ne s&#39;appliquera qu&#39;aux nouveaux événements.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Toute modification apportée ici ne s&#39;appliquera qu&#39;aux nouveaux rappels.";
+
 return $lang;

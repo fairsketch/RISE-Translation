@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Ponechat panel filtrů sbalený";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Ponechte panel filtrů rozbalený, dokud nevyberete některý z uložených filtrů";
 $lang["keep_filter_bar_always_expanded"] = "Udržovat panel filtrů vždy rozbalený";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Denní aktivita";
+$lang["edit_estimate_request"] = "Žádost o úpravu odhadu";
+$lang["delete_estimate_request"] = "Smazat žádost o odhad";
+$lang["estimate_request_prefix"] = "Předpona požadavku na odhad";
+
+$lang["wallet_balance"] = "Zůstatek v peněžence";
+$lang["estimate_request_info"] = "Informace o žádosti o odhad";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "Kontaktní e-mail se neshoduje s e-mailem z tiketu.";
+
+$lang["hide_chat_icon"] = "Skrýt ikonu chatu";
+$lang["reset_window"] = "Obnovit okno";
+$lang["full_screen"] = "Celá obrazovka";
+$lang["exit_full_screen"] = "Ukončit režim celé obrazovky";
+
+$lang["recurring_invoices"] = "Opakující se faktury";
+$lang["phone_input_default_country"] = "Výchozí země pro vstup telefonu";
+
+$lang["can_not_access_estimates"] = "Nemůžu získat přístup k odhadům";
+$lang["can_manage_all_estimates"] = "Může spravovat všechny odhady";
+$lang["can_view_all_estimates"] = "Může zobrazit všechny odhady";
+$lang["can_manage_own_clients_estimates"] = "Může spravovat odhady vlastních klientů";
+$lang["can_view_own_clients_estimates"] = "Může si prohlížet odhady vlastních klientů";
+$lang["can_manage_own_leads_estimates"] = "Může spravovat odhady vlastních potenciálních zákazníků";
+$lang["can_view_own_leads_estimates"] = "Může si prohlížet odhady vlastních potenciálních zákazníků";
+$lang["can_manage_only_own_created_estimates"] = "Může spravovat pouze vlastní odhady";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Může spravovat odhady vlastních klientů a potenciálních zákazníků";
+$lang["can_view_own_clients_and_leads_estimates"] = "Může si prohlížet odhady vlastních klientů a potenciálních zákazníků";
+
+$lang["can_not_access_proposals"] = "Nemůžu získat přístup k návrhům";
+$lang["can_manage_all_proposals"] = "Může spravovat všechny návrhy";
+$lang["can_view_all_proposals"] = "Může si prohlédnout všechny návrhy";
+$lang["can_manage_own_clients_proposals"] = "Umí spravovat nabídky vlastních klientů";
+$lang["can_view_own_clients_proposals"] = "Může si prohlížet nabídky vlastních klientů";
+$lang["can_manage_own_leads_proposals"] = "Může spravovat vlastní nabídky potenciálních zákazníků";
+$lang["can_view_own_leads_proposals"] = "Může si prohlížet návrhy vlastních potenciálních zákazníků";
+$lang["can_manage_only_own_created_proposals"] = "Může spravovat pouze vlastní návrhy";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Umí spravovat nabídky vlastních klientů a potenciálních zákazníků";
+$lang["can_view_own_clients_and_leads_proposals"] = "Může si prohlížet nabídky vlastních klientů a potenciálních zákazníků";
+
+$lang["need_something_new"] = "Potřebujete něco nového?";
+$lang["get_a_free_estimate"] = "Získejte nezávaznou cenovou nabídku.";
+$lang["total_estimates"] = "Celkové odhady";
+
+$lang["no_open_projects"] = "Žádné otevřené projekty";
+$lang["client_custom_field_variables"] = "Proměnné vlastních polí klienta";
+
+$lang["public_pay_url"] = "URL adresa veřejné platby";
+$lang["view_url"] = "Zobrazit URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Vyberte, kdo fakturu zaplatí";
+$lang["view_invoice"] = "Zobrazit fakturu";
+
+$lang["estimate_request_pending_alert_1"] = "Čeká na vaši pozornost žádost o cenovou nabídku.";
+$lang["estimate_request_pending_alert_2"] = "Na vaši pozornost čeká %s žádostí o odhad.";
+
+$lang["upcoming_event"] = "Nadcházející událost";
+$lang["notification_upcoming_event"] = "Nadcházející událost.";
+$lang["upcoming_reminder"] = "Nadcházející připomenutí";
+$lang["notification_upcoming_reminder"] = "Nadcházející připomenutí.";
+
+$lang["send_early_reminder_before"] = "Poslat včasnou připomínku před";
+$lang["week"] = "Týden";
+$lang["reminders_settings"] = "Nastavení připomenutí";
+$lang["send_early_reminder_of_events_before"] = "Poslat včasné připomenutí událostí předem";
+$lang["send_early_reminder_of_reminders_before"] = "Poslat včasné připomenutí připomenutí před";
+$lang["send_early_reminder_of_events_before_help_message"] = "Veškeré zde provedené změny se projeví pouze u nových událostí.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Veškeré zde provedené změny se projeví pouze u nových připomenutí.";
+
 return $lang;

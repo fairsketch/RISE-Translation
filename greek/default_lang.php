@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Διατήρηση της γραμμής �
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Διατήρηση της γραμμής φίλτρου ανοιχτής μέχρι να επιλεγεί οποιοδήποτε αποθηκευμένο φίλτρο";
 $lang["keep_filter_bar_always_expanded"] = "Διατήρηση της γραμμής φίλτρου πάντα ανοιχτής";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Ημερήσια Δραστηριότητα";
+$lang["edit_estimate_request"] = "Επεξεργασία αιτήματος εκτίμησης";
+$lang["delete_estimate_request"] = "Διαγραφή αιτήματος εκτίμησης";
+$lang["estimate_request_prefix"] = "Πρόθεμα αιτήματος εκτίμησης";
+
+$lang["wallet_balance"] = "Υπόλοιπο Πορτοφολιού";
+$lang["estimate_request_info"] = "Πληροφορίες Αίτησης Εκτίμησης";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "Η διεύθυνση ηλεκτρονικού ταχυδρομείου επικοινωνίας δεν ταιριάζει με τη διεύθυνση ηλεκτρονικού ταχυδρομείου του αιτήματος.";
+
+$lang["hide_chat_icon"] = "Απόκρυψη εικονιδίου συνομιλίας";
+$lang["reset_window"] = "Επαναφορά παραθύρου";
+$lang["full_screen"] = "Πλήρης οθόνη";
+$lang["exit_full_screen"] = "Έξοδος από πλήρη οθόνη";
+
+$lang["recurring_invoices"] = "Επαναλαμβανόμενα τιμολόγια";
+$lang["phone_input_default_country"] = "Προεπιλεγμένη χώρα εισαγωγής τηλεφώνου";
+
+$lang["can_not_access_estimates"] = "Δεν είναι δυνατή η πρόσβαση στις εκτιμήσεις";
+$lang["can_manage_all_estimates"] = "Μπορεί να διαχειριστεί όλες τις εκτιμήσεις";
+$lang["can_view_all_estimates"] = "Μπορείτε να δείτε όλες τις εκτιμήσεις";
+$lang["can_manage_own_clients_estimates"] = "Μπορεί να διαχειριστεί εκτιμήσεις των δικών του πελατών";
+$lang["can_view_own_clients_estimates"] = "Μπορεί να δει εκτιμήσεις των δικών του πελατών";
+$lang["can_manage_own_leads_estimates"] = "Μπορεί να διαχειριστεί εκτιμήσεις των δικών του υποψήφιων πελατών";
+$lang["can_view_own_leads_estimates"] = "Μπορεί να δει εκτιμήσεις των δικών του υποψήφιων πελατών";
+$lang["can_manage_only_own_created_estimates"] = "Μπορεί να διαχειριστεί μόνο τις δικές του εκτιμήσεις που δημιουργήθηκαν";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Μπορεί να διαχειριστεί εκτιμήσεις για τους δικούς του πελάτες και τους υποψήφιους πελάτες";
+$lang["can_view_own_clients_and_leads_estimates"] = "Μπορεί να δει εκτιμήσεις των δικών του πελατών και των υποψήφιων πελατών";
+
+$lang["can_not_access_proposals"] = "Δεν είναι δυνατή η πρόσβαση στις προτάσεις";
+$lang["can_manage_all_proposals"] = "Μπορεί να διαχειριστεί όλες τις προτάσεις";
+$lang["can_view_all_proposals"] = "Μπορείτε να δείτε όλες τις προτάσεις";
+$lang["can_manage_own_clients_proposals"] = "Μπορεί να διαχειριστεί προτάσεις δικών του πελατών";
+$lang["can_view_own_clients_proposals"] = "Μπορεί να δει προτάσεις των δικών του πελατών";
+$lang["can_manage_own_leads_proposals"] = "Μπορεί να διαχειριστεί προτάσεις δικών του υποψήφιων πελατών";
+$lang["can_view_own_leads_proposals"] = "Μπορεί να δει προτάσεις από δικούς του υποψήφιους πελάτες";
+$lang["can_manage_only_own_created_proposals"] = "Μπορεί να διαχειριστεί μόνο προτάσεις που έχει δημιουργήσει ο ίδιος";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Μπορεί να διαχειριστεί προτάσεις από δικούς του πελάτες και υποψήφιους πελάτες";
+$lang["can_view_own_clients_and_leads_proposals"] = "Μπορεί να δει προτάσεις από δικούς του πελάτες και υποψήφιους πελάτες";
+
+$lang["need_something_new"] = "Χρειάζεστε κάτι καινούργιο;";
+$lang["get_a_free_estimate"] = "Λάβετε μια δωρεάν εκτίμηση.";
+$lang["total_estimates"] = "Συνολικές εκτιμήσεις";
+
+$lang["no_open_projects"] = "Δεν υπάρχουν ανοιχτά έργα";
+$lang["client_custom_field_variables"] = "Μεταβλητές προσαρμοσμένων πεδίων πελάτη";
+
+$lang["public_pay_url"] = "Δημόσια διεύθυνση URL πληρωμής";
+$lang["view_url"] = "Προβολή URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Επιλέξτε ποιος θα πληρώσει το τιμολόγιο";
+$lang["view_invoice"] = "Προβολή τιμολογίου";
+
+$lang["estimate_request_pending_alert_1"] = "Υπάρχει ένα αίτημα εκτίμησης που περιμένει την προσοχή σας.";
+$lang["estimate_request_pending_alert_2"] = "Υπάρχουν %s αιτήματα εκτίμησης που περιμένουν την προσοχή σας.";
+
+$lang["upcoming_event"] = "Προσεχές συμβάν";
+$lang["notification_upcoming_event"] = "Προσεχής εκδήλωση.";
+$lang["upcoming_reminder"] = "Επερχόμενη υπενθύμιση";
+$lang["notification_upcoming_reminder"] = "Επερχόμενη υπενθύμιση.";
+
+$lang["send_early_reminder_before"] = "Αποστολή έγκαιρης υπενθύμισης πριν";
+$lang["week"] = "Εβδομάδα";
+$lang["reminders_settings"] = "Ρυθμίσεις υπενθυμίσεων";
+$lang["send_early_reminder_of_events_before"] = "Αποστολή έγκαιρης υπενθύμισης για συμβάντα πριν";
+$lang["send_early_reminder_of_reminders_before"] = "Αποστολή πρόωρης υπενθύμισης για υπενθυμίσεις πριν";
+$lang["send_early_reminder_of_events_before_help_message"] = "Οποιεσδήποτε αλλαγές εδώ θα εφαρμοστούν μόνο σε νέα συμβάντα.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Οποιεσδήποτε αλλαγές εδώ θα εφαρμοστούν μόνο σε νέες υπενθυμίσεις.";
+
 return $lang;

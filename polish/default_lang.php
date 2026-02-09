@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Zachowaj zwinięty pasek filtrów";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Utrzymuj pasek filtrów rozwinięty, aż do wybrania dowolnego zapisanego filtra";
 $lang["keep_filter_bar_always_expanded"] = "Zawsze utrzymuj pasek filtrów rozwinięty";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Codzienna aktywność";
+$lang["edit_estimate_request"] = "Edytuj prośbę o wycenę";
+$lang["delete_estimate_request"] = "Usuń prośbę o wycenę";
+$lang["estimate_request_prefix"] = "Prefiks żądania wyceny";
+
+$lang["wallet_balance"] = "Saldo portfela";
+$lang["estimate_request_info"] = "Informacje o prośbie o wycenę";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "Podany adres e-mail nie zgadza się z adresem e-mail podanym w zgłoszeniu.";
+
+$lang["hide_chat_icon"] = "Ukryj ikonę czatu";
+$lang["reset_window"] = "Resetuj okno";
+$lang["full_screen"] = "Pełny ekran";
+$lang["exit_full_screen"] = "Wyjdź z pełnego ekranu";
+
+$lang["recurring_invoices"] = "Faktury cykliczne";
+$lang["phone_input_default_country"] = "Domyślny kraj wprowadzania numeru telefonu";
+
+$lang["can_not_access_estimates"] = "Nie można uzyskać dostępu do szacunków";
+$lang["can_manage_all_estimates"] = "Możliwość zarządzania wszystkimi szacunkami";
+$lang["can_view_all_estimates"] = "Można przeglądać wszystkie szacunki";
+$lang["can_manage_own_clients_estimates"] = "Możliwość zarządzania szacunkami własnych klientów";
+$lang["can_view_own_clients_estimates"] = "Możliwość przeglądania szacunków własnych klientów";
+$lang["can_manage_own_leads_estimates"] = "Możliwość zarządzania szacunkami własnych potencjalnych klientów";
+$lang["can_view_own_leads_estimates"] = "Możliwość przeglądania szacunków własnych potencjalnych klientów";
+$lang["can_manage_only_own_created_estimates"] = "Można zarządzać tylko własnymi szacunkami";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Możliwość zarządzania szacunkami własnych klientów i potencjalnych klientów";
+$lang["can_view_own_clients_and_leads_estimates"] = "Możliwość przeglądania szacunków własnych klientów i potencjalnych klientów";
+
+$lang["can_not_access_proposals"] = "Nie można uzyskać dostępu do propozycji";
+$lang["can_manage_all_proposals"] = "Może zarządzać wszystkimi propozycjami";
+$lang["can_view_all_proposals"] = "Można przeglądać wszystkie propozycje";
+$lang["can_manage_own_clients_proposals"] = "Możliwość zarządzania propozycjami własnych klientów";
+$lang["can_view_own_clients_proposals"] = "Możliwość przeglądania propozycji własnych klientów";
+$lang["can_manage_own_leads_proposals"] = "Możliwość zarządzania propozycjami własnych leadów";
+$lang["can_view_own_leads_proposals"] = "Możliwość przeglądania propozycji własnych leadów";
+$lang["can_manage_only_own_created_proposals"] = "Można zarządzać tylko własnymi propozycjami";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Możliwość zarządzania propozycjami własnych klientów i potencjalnych klientów";
+$lang["can_view_own_clients_and_leads_proposals"] = "Możliwość przeglądania propozycji własnych klientów i potencjalnych klientów";
+
+$lang["need_something_new"] = "Potrzebujesz czegoś nowego?";
+$lang["get_a_free_estimate"] = "Uzyskaj bezpłatną wycenę.";
+$lang["total_estimates"] = "Całkowite szacunki";
+
+$lang["no_open_projects"] = "Brak otwartych projektów";
+$lang["client_custom_field_variables"] = "Zmienne pól niestandardowych klienta";
+
+$lang["public_pay_url"] = "Publiczny adres URL płatności";
+$lang["view_url"] = "Wyświetl adres URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Wybierz, kto zapłaci fakturę";
+$lang["view_invoice"] = "Wyświetl fakturę";
+
+$lang["estimate_request_pending_alert_1"] = "Istnieje prośba o wycenę, która oczekuje na Twoją odpowiedź.";
+$lang["estimate_request_pending_alert_2"] = "%s próśb o wycenę oczekuje na Twoją odpowiedź.";
+
+$lang["upcoming_event"] = "Nadchodzące wydarzenie";
+$lang["notification_upcoming_event"] = "Nadchodzące wydarzenie.";
+$lang["upcoming_reminder"] = "Nadchodzące przypomnienie";
+$lang["notification_upcoming_reminder"] = "Nadchodzące przypomnienie.";
+
+$lang["send_early_reminder_before"] = "Wyślij wczesne przypomnienie przed";
+$lang["week"] = "Tydzień";
+$lang["reminders_settings"] = "Ustawienia przypomnień";
+$lang["send_early_reminder_of_events_before"] = "Wyślij wczesne przypomnienie o wydarzeniach przed";
+$lang["send_early_reminder_of_reminders_before"] = "Wyślij wczesne przypomnienie o przypomnieniach przed";
+$lang["send_early_reminder_of_events_before_help_message"] = "Wszelkie zmiany zostaną zastosowane wyłącznie do nowych wydarzeń.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Wszelkie zmiany wprowadzone w tym miejscu zostaną zastosowane tylko do nowych przypomnień.";
+
 return $lang;

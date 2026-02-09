@@ -798,7 +798,7 @@ $lang["estimate_preview"] = "Estimate Preview";
 $lang["estimate_to"] = "Estimate To";
 
 $lang["can_access_estimates"] = "Can access estimates?";
-$lang["request_an_estimate"] = "Request an estimate";
+$lang["request_an_estimate"] = "Request an Estimate";
 $lang["estimate_request_form_selection_title"] = "Please select a form from the following list to submit your request.";
 
 $lang["mark_as_processing"] = "Mark as Processing";
@@ -2841,9 +2841,9 @@ $lang["set_invoice_permissions"] = "Set invoice permissions";
 $lang["can_not_access_invoices"] = "Can’t access invoices";
 $lang["can_manage_all_invoices"] = "Can manage all invoices";
 $lang["can_view_all_invoices"] = "Can view all invoices";
-$lang["can_manage_own_client_invoices"] = "Can manage own client’s invoices";
-$lang["can_manage_own_client_invoices_except_delete"] = "Can manage own client’s invoices (Except delete)";
-$lang["can_view_own_client_invoices"] = "Can view own client’s invoices";
+$lang["can_manage_own_client_invoices"] = "Can manage invoices of own clients";
+$lang["can_manage_own_client_invoices_except_delete"] = "Can manage invoices of own clients (Except delete)";
+$lang["can_view_own_client_invoices"] = "Can view invoices of own clients";
 $lang["can_manage_only_own_created_invoices"] = "Can manage only own created invoices";
 $lang["can_manage_only_own_created_invoices_except_delete"] = "Can manage only own created invoices (Except delete)";
 
@@ -2916,8 +2916,8 @@ $lang["access_denied"] = "Access denied!";
 
 $lang["can_not_access_contracts"] = "Can’t access contracts";
 $lang["can_manage_all_contracts"] = "Can manage all contracts";
-$lang["can_manage_only_own_client_contracts"] = "Can manage only own client’s contracts";
-$lang["can_see_only_own_client_contracts"] = "Can see only own client’s contracts";
+$lang["can_manage_only_own_client_contracts"] = "Can manage contracts of own clients";
+$lang["can_see_only_own_client_contracts"] = "Can view contracts of own clients";
 
 $lang["this_action_will_do_the_following"] = "This action will do the following:";
 $lang["create_new_client"] = "Create a new client";
@@ -2933,5 +2933,75 @@ $lang["filter_bar"] = "Filter Bar";
 $lang["keep_filter_bar_collapsed"] = "Keep filter bar collapsed";
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Keep filter bar expanded until any saved filter is selected";
 $lang["keep_filter_bar_always_expanded"] = "Keep filter bar always expanded";
+
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Daily Activity";
+$lang["edit_estimate_request"] = "Edit estimate request";
+$lang["delete_estimate_request"] = "Delete estimate request";
+$lang["estimate_request_prefix"] = "Estimate Request Prefix";
+
+$lang["wallet_balance"] = "Wallet Balance";
+$lang["estimate_request_info"] = "Estimate Request Info";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "The contact email doesn't match the ticket email.";
+
+$lang["hide_chat_icon"] = "Hide chat icon";
+$lang["reset_window"] = "Reset window";
+$lang["full_screen"] = "Full screen";
+$lang["exit_full_screen"] = "Exit full screen";
+
+$lang["recurring_invoices"] = "Recurring Invoices";
+$lang["phone_input_default_country"] = "Phone input default country";
+
+$lang["can_not_access_estimates"] = "Can’t access estimates";
+$lang["can_manage_all_estimates"] = "Can manage all estimates";
+$lang["can_view_all_estimates"] = "Can view all estimates";
+$lang["can_manage_own_clients_estimates"] = "Can manage estimates of own clients";
+$lang["can_view_own_clients_estimates"] = "Can view estimates of own clients";
+$lang["can_manage_own_leads_estimates"] = "Can manage estimates of own leads";
+$lang["can_view_own_leads_estimates"] = "Can view estimates of own leads";
+$lang["can_manage_only_own_created_estimates"] = "Can manage only own created estimates";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Can manage estimates of own clients and leads";
+$lang["can_view_own_clients_and_leads_estimates"] = "Can view estimates of own clients and leads";
+
+$lang["can_not_access_proposals"] = "Can’t access proposals";
+$lang["can_manage_all_proposals"] = "Can manage all proposals";
+$lang["can_view_all_proposals"] = "Can view all proposals";
+$lang["can_manage_own_clients_proposals"] = "Can manage proposals of own clients";
+$lang["can_view_own_clients_proposals"] = "Can view proposals of own clients";
+$lang["can_manage_own_leads_proposals"] = "Can manage proposals of own leads";
+$lang["can_view_own_leads_proposals"] = "Can view proposals of own leads";
+$lang["can_manage_only_own_created_proposals"] = "Can manage only own created proposals";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Can manage proposals of own clients and leads";
+$lang["can_view_own_clients_and_leads_proposals"] = "Can view proposals of own clients and leads";
+
+$lang["need_something_new"] = "Need something new?";
+$lang["get_a_free_estimate"] = "Get a free estimate.";
+$lang["total_estimates"] = "Total Estimates";
+
+$lang["no_open_projects"] = "No open projects";
+$lang["client_custom_field_variables"] = "Client custom field variables";
+
+$lang["public_pay_url"] = "Public Pay URL";
+$lang["view_url"] = "View URL";
+
+$lang["select_who_will_pay_the_invoice"] = "Select who will pay the invoice";
+$lang["view_invoice"] = "View Invoice";
+
+$lang["estimate_request_pending_alert_1"] = "There is an estimate request awaiting your attention.";
+$lang["estimate_request_pending_alert_2"] = "There are %s estimate requests awaiting your attention.";
+
+$lang["upcoming_event"] = "Upcoming event";
+$lang["notification_upcoming_event"] = "Upcoming event.";
+$lang["upcoming_reminder"] = "Upcoming reminder";
+$lang["notification_upcoming_reminder"] = "Upcoming reminder.";
+
+$lang["send_early_reminder_before"] = "Send early reminder before";
+$lang["week"] = "Week";
+$lang["reminders_settings"] = "Reminders Settings";
+$lang["send_early_reminder_of_events_before"] = "Send early reminder of events before";
+$lang["send_early_reminder_of_reminders_before"] = "Send early reminder of reminders before";
+$lang["send_early_reminder_of_events_before_help_message"] = "Any changes here will be applied to new events only.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Any changes here will be applied to new reminders only.";
 
 return $lang;

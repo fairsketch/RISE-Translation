@@ -2934,4 +2934,74 @@ $lang["keep_filter_bar_collapsed"] = "Сохранять панель фильт
 $lang["keep_filter_bar_expanded_until_any_saved_filter_is_selected"] = "Панель фильтров должна быть развернута, пока не будет выбран любой сохраненный фильтр.";
 $lang["keep_filter_bar_always_expanded"] = "Панель фильтров всегда должна быть развернута";
 
+/* Version 3.9.5 */
+
+$lang["daily_activity"] = "Ежедневная активность";
+$lang["edit_estimate_request"] = "Изменить запрос на оценку";
+$lang["delete_estimate_request"] = "Удалить запрос на оценку";
+$lang["estimate_request_prefix"] = "Префикс запроса оценки";
+
+$lang["wallet_balance"] = "Баланс кошелька";
+$lang["estimate_request_info"] = "Информация о запросе оценки";
+$lang["the_contact_email_does_not_match_the_ticket_email"] = "Контактный адрес электронной почты не совпадает с адресом электронной почты в тикете.";
+
+$lang["hide_chat_icon"] = "Скрыть значок чата";
+$lang["reset_window"] = "Сбросить окно";
+$lang["full_screen"] = "Полноэкранный";
+$lang["exit_full_screen"] = "Выйти из полноэкранного режима";
+
+$lang["recurring_invoices"] = "Повторяющиеся счета-фактуры";
+$lang["phone_input_default_country"] = "Ввод номера телефона по умолчанию";
+
+$lang["can_not_access_estimates"] = "Невозможно получить доступ к оценкам";
+$lang["can_manage_all_estimates"] = "Может управлять всеми оценками";
+$lang["can_view_all_estimates"] = "Можно просмотреть все оценки";
+$lang["can_manage_own_clients_estimates"] = "Может управлять оценками собственных клиентов";
+$lang["can_view_own_clients_estimates"] = "Может просматривать оценки своих клиентов";
+$lang["can_manage_own_leads_estimates"] = "Может управлять оценками собственных лидов";
+$lang["can_view_own_leads_estimates"] = "Можно просматривать оценки собственных лидов";
+$lang["can_manage_only_own_created_estimates"] = "Можно управлять только собственными оценками";
+$lang["can_manage_own_clients_and_leads_estimates"] = "Может управлять оценками собственных клиентов и лидов";
+$lang["can_view_own_clients_and_leads_estimates"] = "Может просматривать оценки своих клиентов и лидов";
+
+$lang["can_not_access_proposals"] = "Не могу получить доступ к предложениям";
+$lang["can_manage_all_proposals"] = "Может управлять всеми предложениями";
+$lang["can_view_all_proposals"] = "Можно просмотреть все предложения";
+$lang["can_manage_own_clients_proposals"] = "Может управлять предложениями собственных клиентов";
+$lang["can_view_own_clients_proposals"] = "Может просматривать предложения своих клиентов";
+$lang["can_manage_own_leads_proposals"] = "Может управлять предложениями собственных лидов";
+$lang["can_view_own_leads_proposals"] = "Может просматривать предложения собственных лидов";
+$lang["can_manage_only_own_created_proposals"] = "Можно управлять только собственными предложениями.";
+$lang["can_manage_own_clients_and_leads_proposals"] = "Может управлять предложениями собственных клиентов и лидов";
+$lang["can_view_own_clients_and_leads_proposals"] = "Может просматривать предложения своих клиентов и лидов";
+
+$lang["need_something_new"] = "Нужно что-то новое?";
+$lang["get_a_free_estimate"] = "Получите бесплатную оценку.";
+$lang["total_estimates"] = "Общая оценка";
+
+$lang["no_open_projects"] = "Нет открытых проектов";
+$lang["client_custom_field_variables"] = "Переменные настраиваемых полей клиента";
+
+$lang["public_pay_url"] = "URL-адрес публичной оплаты";
+$lang["view_url"] = "Просмотреть URL-адрес";
+
+$lang["select_who_will_pay_the_invoice"] = "Выберите, кто будет оплачивать счет";
+$lang["view_invoice"] = "Посмотреть счет";
+
+$lang["estimate_request_pending_alert_1"] = "Вашему вниманию представлен запрос на оценку стоимости.";
+$lang["estimate_request_pending_alert_2"] = "%s запросов на оценку ожидают вашего внимания.";
+
+$lang["upcoming_event"] = "Предстоящее событие";
+$lang["notification_upcoming_event"] = "Предстоящее событие.";
+$lang["upcoming_reminder"] = "Предстоящее напоминание";
+$lang["notification_upcoming_reminder"] = "Предстоящее напоминание.";
+
+$lang["send_early_reminder_before"] = "Отправьте заблаговременное напоминание";
+$lang["week"] = "Неделя";
+$lang["reminders_settings"] = "Настройки напоминаний";
+$lang["send_early_reminder_of_events_before"] = "Отправьте заблаговременное напоминание о событиях";
+$lang["send_early_reminder_of_reminders_before"] = "Отправляйте заблаговременные напоминания о напоминаниях до";
+$lang["send_early_reminder_of_events_before_help_message"] = "Любые изменения здесь будут применены только к новым мероприятиям.";
+$lang["send_early_reminder_of_reminders_before_help_message"] = "Любые изменения здесь будут применены только к новым напоминаниям.";
+
 return $lang;
